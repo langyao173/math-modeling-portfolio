@@ -51,7 +51,7 @@ over all five mappings (`results/extension/e1_summary.json`) gives the same sign
 
 ![Figure E1](figures/extension/figE1_seed_replication.png)
 
-| Objective $U$, nominal mapping | Validation pool, 300 seeds [95 % CI] | submitted 30 seeds | Test pool, 300 seeds [95 % CI] | submitted 30 seeds |
+| Objective $`U`$, nominal mapping | Validation pool, 300 seeds [95 % CI] | submitted 30 seeds | Test pool, 300 seeds [95 % CI] | submitted 30 seeds |
 |---|---:|---:|---:|---:|
 | `FROZEN` (family prior) | 0.701 [0.689, 0.713] | 0.707 | 0.731 [0.690, 0.772] | 0.684 |
 | prefix-feature prior | 0.731 [0.720, 0.741] | 0.739 | 0.681 [0.645, 0.716] | 0.628 |
@@ -105,7 +105,7 @@ environment", not "the pool-level rule selects well in general".
 
 **Boundaries.** Only six policies were replayed (the ablations and reservation variants of the submission were
 not); the emulated pools are resamples of training environments and cannot represent environment types absent from
-training; the objective $U$ and the duration mappings are the submission's own constructions on top of the official
+training; the objective $`U`$ and the duration mappings are the submission's own constructions on top of the official
 scoring rules.
 
 ## Post-contest extension E4: does the 90 % prediction ball of Problem 2 hold in a new environment?

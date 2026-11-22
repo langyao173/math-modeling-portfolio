@@ -22,7 +22,7 @@ This repository contains three layers:
 
 | Question | Result |
 |---|---|
-| Q1 regression of total goals on teams, matches, attendance | 2018 prediction 160.10 vs. 169 actual; $R^2=0.792$ (adj. 0.753), max VIF 18.4 |
+| Q1 regression of total goals on teams, matches, attendance | 2018 prediction 160.10 vs. 169 actual; $`R^2=0.792`$ (adj. 0.753), max VIF 18.4 |
 | Q3 four-feature multinomial logit, trained 1930–2010, tested 2014 | 37/64 correct (accuracy 0.578) |
 
 The research layer documents an honest negative result: in its one-shot 2014 audit the advanced

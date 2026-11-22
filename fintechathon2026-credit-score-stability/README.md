@@ -38,12 +38,12 @@ withheld from this public release (see *Data* below).
 
 ## Post-competition extension E1: which separating threshold should the guard use?
 
-The guard enforces membership by clipping the stability candidates $z$ at a threshold $\tau$ placed at the
-midpoint of the k-th and (k+1)-th **base** scores. Any $\tau$ separating the protected set from the rest is
-admissible, so the threshold is a free design choice. For fixed $\tau$ the closest admissible score is
-$f_i=\max(z_i,\tau^+)$ for protected and $f_j=\min(z_j,\tau)$ for unprotected customers, and the squared
-change $C(\tau)=\sum_{P}(\tau-z_i)_+^2+\sum_{U}(z_j-\tau)_+^2$ is convex with monotone derivative, so the
-exact L2 minimum-change guard is obtained by bisection. A second rule chooses $\tau$ to minimise,
+The guard enforces membership by clipping the stability candidates $`z`$ at a threshold $`\tau`$ placed at the
+midpoint of the k-th and (k+1)-th **base** scores. Any $`\tau`$ separating the protected set from the rest is
+admissible, so the threshold is a free design choice. For fixed $`\tau`$ the closest admissible score is
+$`f_i=\max(z_i,\tau^+)`$ for protected and $`f_j=\min(z_j,\tau)`$ for unprotected customers, and the squared
+change $`C(\tau)=\sum_{P}(\tau-z_i)_+^2+\sum_{U}(z_j-\tau)_+^2`$ is convex with monotone derivative, so the
+exact L2 minimum-change guard is obtained by bisection. A second rule chooses $`\tau`$ to minimise,
 lexicographically, the number of gated customers pushed outside the ±1 pp stability promise, the total
 excess and the total change. All three rules were replayed through the identical sequential procedure
 (phases, cross-fitted folds, gates, radius 0.01, 10 % capacity). Script: `extension/e1_optimal_guard.py`.

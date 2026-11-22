@@ -24,10 +24,10 @@ its answers translate into executable, costed vehicle plans.
 | Stage | What it does | Code |
 |---|---|---|
 | Feasible-trip generation | single-request insertion, then width-limited growth to 2- and 3-request trips; capacity, wait, detour and route-prefix commitments enforced | `src/qpool/replay.py` |
-| Conflict-graph packing | one binary per trip; edges for shared vehicle or shared request; weight $w_f=\lvert S_f\rvert-\lambda\,\Delta T_f/T_0$ | `src/qpool/qubo.py` |
-| Local sufficient penalty | $P_{fg}=\min(w_f,w_g)+\eta$ makes every infeasible state one-flip improvable, so the ground state is feasible and penalty magnitudes stay local | `src/qpool/qubo.py` |
-| Exact reduction | positive isolated vertices fixed; closed-neighbourhood dominance $N[u]\subseteq N[v],\ w_u\ge w_v$ removes $v$ | `src/qpool/competition.py` |
-| Precision fitting | weights rounded at resolution $\rho$ (power-of-two ladder), Ising matrix rebuilt and checked against 550 spins / int8 | `src/qpool/competition.py` |
+| Conflict-graph packing | one binary per trip; edges for shared vehicle or shared request; weight $`w_f=\lvert S_f\rvert-\lambda\,\Delta T_f/T_0`$ | `src/qpool/qubo.py` |
+| Local sufficient penalty | $`P_{fg}=\min(w_f,w_g)+\eta`$ makes every infeasible state one-flip improvable, so the ground state is feasible and penalty magnitudes stay local | `src/qpool/qubo.py` |
+| Exact reduction | positive isolated vertices fixed; closed-neighbourhood dominance $`N[u]\subseteq N[v],\ w_u\ge w_v`$ removes $`v`$ | `src/qpool/competition.py` |
+| Precision fitting | weights rounded at resolution $`\rho`$ (power-of-two ladder), Ising matrix rebuilt and checked against 550 spins / int8 | `src/qpool/competition.py` |
 | Equal-energy polish | among returned quantised optima, choose by original utility, then 1-/2-swap moves that keep the quantised reward and raise the original utility | `src/qpool/competition.py` |
 | Hardware report audit | parses the six SPQC-550 task reports, re-computes every Ising energy, feasibility and business utility | `src/qpool/provider_reports.py` |
 
@@ -57,7 +57,7 @@ Script: `extension/e1_precision_audit.py`; outputs in `results/extension/`.
    small (median 5 binaries per component, maximum 138 at a usable precision).
 2. **Spin count is not the binding constraint; precision is.** All 178 non-trivial components have ≤ 257
    binaries, well under 549. The int8 range binds instead: 9 components (all from 32- and 48-vehicle runs)
-   fit only at $\rho\lt 1$, where most rounded weights collapse to zero. Whole periods compile at $\rho\ge1$
+   fit only at $`\rho\lt 1`$, where most rounded weights collapse to zero. Whole periods compile at $`\rho\ge1`$
    in 100 % of periods for 8–16 vehicles, 100 % / 96 % for 32 vehicles (60 s / 300 s) and 98 % / 74 % for
    48 vehicles; the remainder require the conditional-neighbourhood mode the paper uses for A05/A06.
 3. **Quantisation rarely removes the optimum but often creates ties.** 40 % of hardware-ready components
@@ -65,12 +65,12 @@ Script: `extension/e1_precision_audit.py`; outputs in `results/extension/`.
    of components, whereas the worst admissible tie loses 1 554 planned vehicle-minutes in total.
 4. **The classical polish is what makes the device output usable.** Started from the *worst* admissible
    tie, the equal-energy polish reaches the best tie in 99.4 % of components, cutting the total loss from
-   1 554 to 15 vehicle-minutes. The a-priori bound $K/\rho$ of the paper is a median 7.8× above the
+   1 554 to 15 vehicle-minutes. The a-priori bound $`K/\rho`$ of the paper is a median 7.8× above the
    realised worst-tie loss.
-5. **Finer precision is not monotonically better.** Searching the finest passing $\rho$ on a 1/8 grid
+5. **Finer precision is not monotonically better.** Searching the finest passing $`\rho`$ on a 1/8 grid
    (instead of powers of two) reduces the worst-tie loss (1 554 → 1 239) but *increases* the after-polish
    loss (15 → 78): re-rounding can push the original optimum out of the quantised tie set, which no
-   post-processing can undo. Paired by component, finer $\rho$ is better in 4, worse in 7 and equal in
+   post-processing can undo. Paired by component, finer $`\rho`$ is better in 4, worse in 7 and equal in
    158 cases after polishing. With a polish step, the property to protect is *tie-set coverage of the
    original optimum*, not the rounding error alone.
 

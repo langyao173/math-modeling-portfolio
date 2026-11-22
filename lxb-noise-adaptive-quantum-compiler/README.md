@@ -13,13 +13,13 @@ semantic checks.
 ## Method (submission)
 
 A deterministic pass pipeline (`compiler.py`, `src/noise_adaptive_hackathon/submission/`): noise-weighted
-coupling graph with edge cost $-\log(1-\varepsilon_{2q})$ and readout cost $-\log(1-\varepsilon_{ro})$; an
+coupling graph with edge cost $`-\log(1-\varepsilon_{2q})`$ and readout cost $`-\log(1-\varepsilon_{ro})`$; an
 ensemble of noise-aware initial layouts; bounded look-ahead routing with CX-decomposed moves, bridge
 candidates and terminal readout remapping; exact GHZ fan-out trees; fixed-layout RouteCQC candidates;
 peephole cancellation; guarded GF(2) and KAK block resynthesis; affine measurement-channel parity
 resynthesis for Clifford hub-leaf circuits; and a proof-carrying **row-phase rewrite** that replaces exact
 6-CX Toffoli decompositions by 3-CX relative-phase Toffolis whenever the whole circuit is row-phase
-equivalent at the final Z measurement ($U' = DU$ with $D$ diagonal), which preserves every output
+equivalent at the final Z measurement ($`U' = DU`$ with $`D`$ diagonal), which preserves every output
 probability for every input state. Candidates are selected on a Pareto frontier of estimated log
 reliability, two-qubit count, depth, readout cost and Clifford fault sensitivity.
 
