@@ -57,7 +57,7 @@ Script: `extension/e1_precision_audit.py`; outputs in `results/extension/`.
    small (median 5 binaries per component, maximum 138 at a usable precision).
 2. **Spin count is not the binding constraint; precision is.** All 178 non-trivial components have ≤ 257
    binaries, well under 549. The int8 range binds instead: 9 components (all from 32- and 48-vehicle runs)
-   fit only at $\rho<1$, where most rounded weights collapse to zero. Whole periods compile at $\rho\ge1$
+   fit only at $\rho\lt 1$, where most rounded weights collapse to zero. Whole periods compile at $\rho\ge1$
    in 100 % of periods for 8–16 vehicles, 100 % / 96 % for 32 vehicles (60 s / 300 s) and 98 % / 74 % for
    48 vehicles; the remainder require the conditional-neighbourhood mode the paper uses for A05/A06.
 3. **Quantisation rarely removes the optimum but often creates ties.** 40 % of hardware-ready components

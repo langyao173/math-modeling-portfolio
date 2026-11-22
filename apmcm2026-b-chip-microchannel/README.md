@@ -33,7 +33,7 @@ Scripts in `extension/`, outputs in `results/extension/` and `figures/extension/
 ### E1 · Leave-one-level-out validation exposes what LOOCV cannot
 
 On a grid design, LOOCV keeps every neighbour of the held-out point. The recommended design sits on the
-upper $\gamma$ boundary and inside the unsampled $0.20<\beta<0.30$ gap, so each level of $\beta$, $\gamma$ and $N$
+upper $\gamma$ boundary and inside the unsampled $0.20\lt \beta\lt 0.30$ gap, so each level of $\beta$, $\gamma$ and $N$
 was held out in turn (all 20 samples of a $\beta$ or $\gamma$ level, 16 of an $N$ level; the four pin-free base
 cases stay in training) and the surrogates refitted.
 

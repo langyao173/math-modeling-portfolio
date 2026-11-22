@@ -68,7 +68,7 @@ redistributed.
   better than equal weights, and it gives the grey model the largest weight (0.55 on average).
 * **In-sample fit is a weak guide.** Across windows the Spearman correlation between the five-point $R^2$ of the
   linear trend and its absolute three-year error is −0.27; the median three-year error is 8.0 % for $R^2\le0.5$,
-  4.3–4.5 % for $0.9<R^2\le0.99$ and 1.4 % only for nearly exactly linear windows ($R^2>0.99$). On a random sample
+  4.3–4.5 % for $0.9\lt R^2\le0.99$ and 1.4 % only for nearly exactly linear windows ($R^2\gt 0.99$). On a random sample
   of 4 000 of the 23 000 annual M4 series of all categories the linear trend is again the least accurate trended
   method at every horizon (three-year median error 8.1 % against 7.4 % for drift).
 * **Classical regression intervals are far too narrow for five points.** The OLS prediction intervals of the
