@@ -1,0 +1,29 @@
+{
+  "track": "track_a",
+  "name": "track_a_008_original",
+  "family": "structured_random_jitter",
+  "logical_qubits": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "expected_output_rule": {
+    "rule_type": "bitstring",
+    "bitstring": "0011010",
+    "allowed_bitstrings": [],
+    "parity_checks": []
+  },
+  "metadata": {
+    "family": "structured_random",
+    "logical_qubits": 7,
+    "clifford_only": false,
+    "split": "public",
+    "backend_snapshot_id": "medium_snapshot_a_original",
+    "backend_size_class": "medium",
+    "jitter_variant": "original"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "R": {
+    "MAE": 0.00434538,
+    "RMSE": 0.00549701,
+    "MaxRE_pct": 2.134,
+    "outside_3pct_count": 0,
+    "outside_5pct_count": 0,
+    "outside_3pct_ids": [],
+    "outside_5pct_ids": []
+  },
+  "dP": {
+    "MAE": 0.00269902,
+    "RMSE": 0.00329883,
+    "MaxRE_pct": 8.535,
+    "outside_3pct_count": 24,
+    "outside_5pct_count": 12,
+    "outside_3pct_ids": [
+      2,
+      3,
+      4,
+      23,
+      24,
+      37,
+      61,
+      62,
+      63,
+      64,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84
+    ],
+    "outside_5pct_ids": [
+      3,
+      4,
+      64,
+      71,
+      72,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84
+    ]
+  },
+  "phi": {
+    "MAE": 0.00754599,
+    "RMSE": 0.00930259,
+    "MaxRE_pct": 2.792,
+    "outside_3pct_count": 0,
+    "outside_5pct_count": 0,
+    "outside_3pct_ids": [],
+    "outside_5pct_ids": []
+  }
+}

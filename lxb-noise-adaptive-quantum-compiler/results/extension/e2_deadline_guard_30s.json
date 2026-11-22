@@ -1,0 +1,22 @@
+{
+  "S1_unseen_sizes__guarded_submission__seed7": {
+    "track_a_score": 0.8355,
+    "invalid": []
+  },
+  "S1_unseen_sizes__submission__seed7": {
+    "track_a_score": 0.8287,
+    "invalid": [
+      "structured_random_11q_s202"
+    ]
+  },
+  "S2_qasmbench__guarded_submission__seed7": {
+    "track_a_score": 0.8097,
+    "invalid": []
+  },
+  "S2_qasmbench__submission__seed7": {
+    "track_a_score": 0.8008,
+    "invalid": [
+      "qasmbench_adder_n10"
+    ]
+  }
+}

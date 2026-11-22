@@ -1,0 +1,11 @@
+{
+  "six_routes": true,
+  "boundary_filter_count": 2,
+  "protected_list_count": 268,
+  "ordered_by_final_q": true,
+  "action_fields_read_and_saved": true,
+  "agent_reads_protection_receipt": true,
+  "measurement_type": "jsdom_software_execution",
+  "visual_browser_capture": false,
+  "errors": []
+}

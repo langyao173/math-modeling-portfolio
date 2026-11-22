@@ -1,0 +1,1342 @@
+{
+  "format_version": 2,
+  "registration": "MCB2600347",
+  "python_files": 165,
+  "listed_text_files": 190,
+  "source_recovery": "Bundled source files; verify the listed relative paths, sizes and SHA-256 values.",
+  "data_inputs": "Original contest attachments 1.csv, 2.csv, 3.xlsx, 4.csv, 5.csv, 6.csv, 7.csv and 8.xlsx.",
+  "runtime_resources": "prepare_fonts.py and fetch_public_weights.py retrieve fixed public resources and verify SHA-256.",
+  "scope": "Computational methods, scientific diagnostics, figure programs and operation dependencies described in appendices C.6-C.8.",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "61db354a6cfbbac25cc4db733b6b54dac87a4b68ac66797f4547bee19e4f182c",
+      "bytes": 16920,
+      "lines": 242,
+      "kind": "text_configuration_or_license"
+    },
+    {
+      "path": "extract_submission_sources.py",
+      "sha256": "9ced02ab69919689b661a40b33e31628f5fd6c6b6d4ba067ed4eec9bf46c4ad1",
+      "bytes": 3868,
+      "lines": 90,
+      "kind": "python_source"
+    },
+    {
+      "path": "prepare_fonts.py",
+      "sha256": "72113872fdc587b3d37632533241beef9e70704105b4e596a501dfb38412cfb8",
+      "bytes": 4213,
+      "lines": 102,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/audit/audit_data.py",
+      "sha256": "8b1f43402288b6ba70dcbf86f59e975fc538e2c8a9d3040724072e2b00a62c78",
+      "bytes": 14049,
+      "lines": 230,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/audit/model_validation/strict_knn_missingness.py",
+      "sha256": "ac5a1e4392f441e2af1cbae1ebc46ea61801c6091c37b40276bfdeefcd8e0822",
+      "bytes": 4018,
+      "lines": 73,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/audit/model_validation/strict_missingness.py",
+      "sha256": "1439b3296a66fba7525dba52a8a50786d07b8c4abe0ffb48f4250db7b368e97b",
+      "bytes": 4702,
+      "lines": 91,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/audit/model_validation/validate_models.py",
+      "sha256": "dc929b727676f5f40c186cc943e8f2594670674ce636b249b0118b958a558276",
+      "bytes": 6772,
+      "lines": 130,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/audit/verify_final_transfer.py",
+      "sha256": "9a5db0d78a14bccba36a1582ad47024488fd0d49131cdcfa89e8965b4188cecc",
+      "bytes": 7736,
+      "lines": 116,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/competition_revision/analyze_task_outputs.py",
+      "sha256": "3a113134a5cf396c8884d7a97e8fa68302ba44674759c4ccfe855db21f9f2539",
+      "bytes": 11050,
+      "lines": 127,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/competition_revision/budget_transfer/forward_support.py",
+      "sha256": "43b6685f3d22526ad4f6c1caed7505e783e7dec1badf4f77577e458aaba44429",
+      "bytes": 5199,
+      "lines": 100,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/competition_revision/budget_transfer/run_budget_transfer.py",
+      "sha256": "7cf7119ee8b63c7be215b0c653c572c8dada8888d7bd1de7165dff64bb0c3748",
+      "bytes": 23064,
+      "lines": 353,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/competition_revision/make_revision_figures.py",
+      "sha256": "de4c8931cb075fa3a392962036b4afbe227b35a4014cce1003c1b76ad709ccbc",
+      "bytes": 8549,
+      "lines": 127,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/competition_revision/style_feasibility/audit_style_feasibility.py",
+      "sha256": "1b884ca45ab8d1c2d4bd54ee7324daa4d45b9ddd41d9c31cb3c64ee235968f47",
+      "bytes": 22038,
+      "lines": 255,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/competition_revision/style_feasibility/make_diagnostic_artifacts.py",
+      "sha256": "6779f34bf3b6f46eed0157872d236eba206fb1b8823feb4146f43c75004fc2a3",
+      "bytes": 19876,
+      "lines": 202,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/competition_revision/style_feasibility/run_style_feasibility.py",
+      "sha256": "29c20ca3da45f1b1489ccc56f3d3bbbe1421f0dd4e685bee82bcc050b1cdd257",
+      "bytes": 26476,
+      "lines": 304,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/competition_revision/style_feasibility/select_joint_candidates.py",
+      "sha256": "46997c68bad9334e209d35909e1a280986387eee9d07db8c3f567655eb114583",
+      "bytes": 9806,
+      "lines": 107,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/competition_revision/style_feasibility/validate_fixed_classifier.py",
+      "sha256": "52fbd15bf2c56bebfab2b553d787b97e7e09b49aca8e9838cb7d87a6c4905c47",
+      "bytes": 7230,
+      "lines": 72,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/competition_revision/verification/run_budget_transfer_before_metadata.py",
+      "sha256": "c55ffaf69168402fefea00140fb8331c65dc24d3c56e81f30417aeca6ad385a3",
+      "bytes": 22426,
+      "lines": 346,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/competition_revision/verification/verify_budget_transfer.py",
+      "sha256": "a83c35f705e1f6f1445ff8353bcaa934e63cdc5d5dea9f0ef9e949e280bb5812",
+      "bytes": 47666,
+      "lines": 595,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/figures/sensory_names_zh.json",
+      "sha256": "1982b6d96df87974c2eabc7aaf72949670e975f536aa74d0fb3b4f3f7edd6103",
+      "bytes": 1520,
+      "lines": 52,
+      "kind": "text_configuration_or_license"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/make_analysis_figures.py",
+      "sha256": "0f86ce0d604144bc0aa2aa1b7f335ca89f57d9e5301e03513ff48940693531db",
+      "bytes": 14356,
+      "lines": 191,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/nature_upgrade/adaptive/adaptive_models.py",
+      "sha256": "6b521bdeb5c96ab04985575ccc40e94ffc5fb8f0b889ebfdc87592c0689777f4",
+      "bytes": 7140,
+      "lines": 163,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/nature_upgrade/adaptive/prepare_fusion.py",
+      "sha256": "de96c2dcff284426a3b46b13f5c8fbb639afb4c58c522185f7bea2349f85b2e1",
+      "bytes": 8847,
+      "lines": 179,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/nature_upgrade/adaptive/projection_pilot/adaptive_models_original.py",
+      "sha256": "3a4a09bbfcd7c74fe2c47df7a1bfc3b9936b146e5b84f925dee62be8881b738b",
+      "bytes": 5134,
+      "lines": 122,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/nature_upgrade/adaptive/run_adaptive.py",
+      "sha256": "4c0dcb4ea06f5651a1504ce03f90902dc66d7d779ce5230db6bb60f740a865d6",
+      "bytes": 6323,
+      "lines": 107,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/nature_upgrade/audit_spiking_validation.py",
+      "sha256": "9bc138e5f801fdf8b523fc46ed0c1adcba45c018dea43209a3442c00470abfa2",
+      "bytes": 5963,
+      "lines": 96,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/nature_upgrade/benchmark/audit_fusion.py",
+      "sha256": "6a77291809c2c5fc82bf63bf0aea1b012babe48beecaafd10213f165ff19cca6",
+      "bytes": 9929,
+      "lines": 179,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/nature_upgrade/benchmark/check_gbr_portability.py",
+      "sha256": "70447761bb470b8bd65c9ffb012864a9ddfa36547d8ce4cde051651d0395432f",
+      "bytes": 2496,
+      "lines": 58,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/nature_upgrade/benchmark/compact_fusion_artifact.py",
+      "sha256": "9993546d7456c26b16051d5782d1be22bba1b8b3495737710692ce9184839535",
+      "bytes": 10668,
+      "lines": 206,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/nature_upgrade/benchmark/fit_final_gbr.py",
+      "sha256": "9b6c910f3c5f4871b94f9588b8fbe3c1775c0676a6057fe33e6649ec90cbe12b",
+      "bytes": 6029,
+      "lines": 116,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/nature_upgrade/benchmark/gbr_model.py",
+      "sha256": "0d9221ee63ab04cc69e35d39a14ca6fc9a342b0c3cb00893cac0c609074cc148",
+      "bytes": 640,
+      "lines": 18,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/nature_upgrade/benchmark/run_gbr_challenger.py",
+      "sha256": "0ce32015074eab38514fcfff2268d03d3f90e6a6722a886473af661a7598aa6d",
+      "bytes": 11787,
+      "lines": 222,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/nature_upgrade/benchmark/summarize_gbr_challenger.py",
+      "sha256": "ec601f1ac53f72fda302932f8280994ba854fdc918815dad6456f713845c4cc1",
+      "bytes": 3020,
+      "lines": 60,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/nature_upgrade/catboost/catboost_model.py",
+      "sha256": "430cf44f22e11cdebd6b2c25294d51962c58d3efafbd9dae87109723a9fa07f3",
+      "bytes": 4246,
+      "lines": 89,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/nature_upgrade/catboost/reduced_timing_result.json",
+      "sha256": "ec95afa884165f88f123861ca6639a3ba2be52ee9cffa6608a7e25e2bac8e36a",
+      "bytes": 198,
+      "lines": 13,
+      "kind": "text_configuration_or_license"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/nature_upgrade/catboost/run_catboost.py",
+      "sha256": "2d65cd56917e6db9e3657bd18a379952f1b923e190aea000f2a99c6684892f92",
+      "bytes": 13446,
+      "lines": 254,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/nature_upgrade/catboost/validate_catboost.py",
+      "sha256": "892e3e3554c252fe2fa26f71e2093c98cdb81b49f50952180efac80f2ff08cb8",
+      "bytes": 7257,
+      "lines": 134,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/nature_upgrade/data_claim_audit/audit_claims.py",
+      "sha256": "e231d80734305090ec6ee60e6abc503dcac9b12e38d1dfa0fb32784029446f73",
+      "bytes": 22493,
+      "lines": 267,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/nature_upgrade/fusion/fusion_model.py",
+      "sha256": "4e45974b89574da5a539add2da386a289ba6b4bc91e14da7c3cedd6d3f5a677d",
+      "bytes": 3780,
+      "lines": 85,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/nature_upgrade/fusion/run_fusion.py",
+      "sha256": "e37615130f48019c6007538d9f4577aec61ea818c15be9600fa11570e5081de9",
+      "bytes": 13837,
+      "lines": 261,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/nature_upgrade/inspect_supplement_privacy.py",
+      "sha256": "4d86d09745c32efa54c150b15bda036f0a93633f578cebdae4908e923dfe1f61",
+      "bytes": 4183,
+      "lines": 86,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/nature_upgrade/project_paths.py",
+      "sha256": "31d367dc30cbf3ddf3fb3c0148f81229f22e1d387f7c5eb5c6ee322e204acaa1",
+      "bytes": 1099,
+      "lines": 26,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/nature_upgrade/run_author_split_baseline.py",
+      "sha256": "a217009eefe1336e207a9cc83873bd2eea2de4d0ab193fa3e2317a0edcaef4c1",
+      "bytes": 8853,
+      "lines": 142,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/nature_upgrade/sparse_transfer/forward_support.py",
+      "sha256": "43b6685f3d22526ad4f6c1caed7505e783e7dec1badf4f77577e458aaba44429",
+      "bytes": 5199,
+      "lines": 100,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/nature_upgrade/sparse_transfer/plot_report.py",
+      "sha256": "607e1eb3ccc733a6bcce92b4b43e19c8a915248eb2fe173d14943f681ebec27c",
+      "bytes": 3477,
+      "lines": 68,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/nature_upgrade/sparse_transfer/run_sparse_transfer.py",
+      "sha256": "ca99f33f42f853a425531ba31d39f2aa33cbb76a039deeeb6d006e2426fa2dde",
+      "bytes": 22319,
+      "lines": 345,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/nature_upgrade/sparse_transfer/verify_and_plot.py",
+      "sha256": "ecf9eeb9def6ed479c5d6ab3e358188c3aefc73fa28fa5e4adf1e91511db43a1",
+      "bytes": 7288,
+      "lines": 105,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/nature_upgrade/verify_supplement_anonymization.py",
+      "sha256": "b0c2bd7503eac51d10f924bbf0fac1a79e18b9b681abb13fcc13e306dd73c6e5",
+      "bytes": 7277,
+      "lines": 127,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/q1/fit_knn_variant.py",
+      "sha256": "bd465ea0480fbc6d7325b7eb2be0fc00e92b8384c10ced4cac173ef104ce0e36",
+      "bytes": 1361,
+      "lines": 27,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/q1/predict_sensory.py",
+      "sha256": "0fc921b418e690dc7360282314a928edd22c67bc44e69aa7d6f0f8f13bf91a22",
+      "bytes": 2711,
+      "lines": 51,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/q1/run_q1.py",
+      "sha256": "339e331ca5c4a4b9cf772b73327bc81051ee2a54fd751faefdbd0ea2b1acfd41",
+      "bytes": 11789,
+      "lines": 185,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/q1/sensory_model.py",
+      "sha256": "e229101d5bc3ba1568459a4cf7d40085957eacb47a5c4d07958815ef124da908",
+      "bytes": 5755,
+      "lines": 137,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/q2/make_q2_report.py",
+      "sha256": "cbda6a88a6fa70cef4f9f4e910215845caa4fa80d8f3a1273824f94a897fb0ff",
+      "bytes": 36536,
+      "lines": 530,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/q2/run_q2.py",
+      "sha256": "0f424bb1ea66f0e9540b3ce3106b476c153fe518ad5a3bd31958749651eecc4f",
+      "bytes": 21513,
+      "lines": 449,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/q3/audit_and_figures.py",
+      "sha256": "25e321570fbdfbab9eeb57a726911a12ef7d6546c6aa7ad7c1182fab9db12659",
+      "bytes": 12084,
+      "lines": 121,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/q3/audit_certificates.py",
+      "sha256": "987da237687a2ae55ba121e8fed17d381c56a242823fd8c136c4e0202b72f516",
+      "bytes": 1885,
+      "lines": 28,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/q3/conditional_model.py",
+      "sha256": "a62f83a9b857e34998ab27956c9b35dc41363ba4e20b0484cb86e0f2b6d8867d",
+      "bytes": 9619,
+      "lines": 220,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/q3/evaluate_extensions.py",
+      "sha256": "0524556bd9527bc1ede130ab306c835efcc016cb37c45d23d4ad83ad69290ee0",
+      "bytes": 6424,
+      "lines": 96,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/q3/repair_stale.py",
+      "sha256": "b55dffef0e6dd52296b1a77385496a518f10f1ec7ed23e595baaaea3961e03e6",
+      "bytes": 8097,
+      "lines": 71,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/q3/run_q3.py",
+      "sha256": "fa7213f02dbd04269d1d8c9ad436d67a9d86d21afdac835acac56222c3ae0abf",
+      "bytes": 10769,
+      "lines": 167,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/q3/sensory_profiles.py",
+      "sha256": "ff6ca03605f4874af7ec8bf461ab788f7c443b9058c2f3915f8ec2243941ab88",
+      "bytes": 9022,
+      "lines": 94,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/q3/transfer_controls.py",
+      "sha256": "43a36f96b28fb8be2a7b51d1567ef644019560c4a6d24b30e126e079100c97a1",
+      "bytes": 5692,
+      "lines": 65,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/q3/transfer_profiles.py",
+      "sha256": "42a69dd728d1633e9ef5e46d9466cb61e0721c337801364552538f94dae4ac14",
+      "bytes": 9759,
+      "lines": 122,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/A_work/reproduce_all.py",
+      "sha256": "5d3a807ec666765e4c9b20f53aa60f8ecc356fb39d63904881b636f552ff325e",
+      "bytes": 3082,
+      "lines": 53,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/assets/fonts/LICENSE.txt",
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "bytes": 4301,
+      "lines": 92,
+      "kind": "text_configuration_or_license"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/audit/audit_certificate_without_proxy.py",
+      "sha256": "cc5b7c32f891c5b4f970104d36eed3bdb3df29dafb8ab82f91ed4b893dd8087e",
+      "bytes": 17293,
+      "lines": 217,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/audit/audit_certificate_without_proxy_fresh.py",
+      "sha256": "82324d73125ddb592aa0f8b7a6431c321db7463a9e20195940c8a2a432f188a2",
+      "bytes": 17904,
+      "lines": 228,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/audit/audit_concentration_space.py",
+      "sha256": "22a5c94b78164d42c94904b7219c99a066ac5878cbdc7d7e28157f7ad78a3589",
+      "bytes": 16949,
+      "lines": 233,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/audit/audit_deployment_transfer_results.py",
+      "sha256": "55a128a30edcb493dc2bac0fc413a00c9bd7e6ab3073dd51e5830d06e6c26b5a",
+      "bytes": 7971,
+      "lines": 117,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/audit/audit_deployment_transfer_results_fresh.py",
+      "sha256": "2e1cbf3d8eb1372a3d661f580daefe74db501fe26797ac276c656a8381b8b532",
+      "bytes": 9290,
+      "lines": 132,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/audit/audit_generation_moments.py",
+      "sha256": "1cc48d375ed57445c5f92e052004eb3c6c287396c07bde341dd771abbf14328e",
+      "bytes": 11093,
+      "lines": 174,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/audit/audit_penalized_interval_em.py",
+      "sha256": "9c6888170ea4d81bb1b4555d32ac553980dfb5718f145d3803002b9c8736ff8f",
+      "bytes": 7497,
+      "lines": 127,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/audit/audit_saved_penalized_em.py",
+      "sha256": "56a0d5c996a49e7f1aed0d2ac338c5ba9a0e692f7c85d560051ee6e37a79b2ee",
+      "bytes": 12386,
+      "lines": 163,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/audit/audit_semantic_style_controls.py",
+      "sha256": "d69ee1ddf87a54647bba316918c98b97dc42e7dd389bce3c9caa3193a6ce18ed",
+      "bytes": 20211,
+      "lines": 280,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/audit/audit_target_metric_budget.py",
+      "sha256": "e8d372a269b7539533fa6a5ed23563cdbc18123d5a4734347a79f490a4fe50c9",
+      "bytes": 8463,
+      "lines": 125,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/audit/build_generation_main_table.py",
+      "sha256": "fe1216ab24788cec06b63e95f2e6fca0b0202976092133d745bf1cacd1bb8d55",
+      "bytes": 3625,
+      "lines": 58,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/audit/independent_sparse_audit.py",
+      "sha256": "17ed8eeec4e1dbd9cbe1a173ee591d716899d3056f114bdfafb33900a46438d1",
+      "bytes": 6830,
+      "lines": 140,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/generation_moments/conditional_moments.py",
+      "sha256": "8460b81c5ef0623a73f8e1c17c88ddabdb5dde14143e3b3546b260b20c7b2a1b",
+      "bytes": 5431,
+      "lines": 110,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/generation_moments/penalized_interval_em.py",
+      "sha256": "f6563c3b7bb8667229f03a52aec3d34f2c6a25ed438d08431aacb36be56774a1",
+      "bytes": 5986,
+      "lines": 110,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/generation_moments/queue_penalized_em.py",
+      "sha256": "c6aaf29cf6ae7a937186589ea08914672334433733cad4c4389674b4de7b8327",
+      "bytes": 1322,
+      "lines": 28,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/generation_moments/run_penalized_em.py",
+      "sha256": "924e0482813e883da5e08facfe3f17fcee7b5d4fdbe3a09adc705ad754fb0868",
+      "bytes": 4587,
+      "lines": 79,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/generation_moments/run_refinement.py",
+      "sha256": "c8c83da3b813933687f6b8aa63459bad763c7baf4191ace39c620b12d214529b",
+      "bytes": 4193,
+      "lines": 63,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/missingness_augmentation/run_mask_augmentation.py",
+      "sha256": "eaf7e6c79c05d2cf2694ecc4a04908005f94966298463832da6611c26efcaf3a",
+      "bytes": 6717,
+      "lines": 98,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/analyze_existing_oof.py",
+      "sha256": "1fe9199b04e5fa3a9c6bd6065ae79f354f059bde2033e9eedfe70591055b0983",
+      "bytes": 21012,
+      "lines": 353,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/audit_completed_modern_arrays.py",
+      "sha256": "19a2f865f4b3758285ada53e28beeaa081b1028149ec118046c6d81e240cd662",
+      "bytes": 16343,
+      "lines": 310,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/audit_deployment_transfer_outputs.py",
+      "sha256": "bf3be12bc41e15bcfd73439771491f39fca8507fa99326bf9c70d9a2b95fbd51",
+      "bytes": 8706,
+      "lines": 147,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/audit_nested_selection.py",
+      "sha256": "4857e1c9dc403b3227abf2f3556977c48dc3ea6b8cd957998cd52c4a9e2549a9",
+      "bytes": 53671,
+      "lines": 865,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/audit_tabicl_outputs.py",
+      "sha256": "f2a6fd9319a12750e8ae0230185c2ad00d2402db1f4aef74c27e2a807832395d",
+      "bytes": 5154,
+      "lines": 94,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/audit_tabicl_query_batching.py",
+      "sha256": "bffe550e348c692a4dfb1cc1a56f0ad5b8719f5f346d38084c87ad738ffcc6f6",
+      "bytes": 3940,
+      "lines": 76,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/deployment_transfer_challenge/dispatcher_gate_revision/dispatcher_before.py",
+      "sha256": "64f657acf794d2c77dc3d22c62af7b5815028640896ea76deee10dcda5ed3f32",
+      "bytes": 12727,
+      "lines": 237,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/diagnose_target_metric_budget.py",
+      "sha256": "6273878ea4fd3e52c07c8d9a519be632dc5a7ab1604cd62d2183d174a0283e9e",
+      "bytes": 9416,
+      "lines": 134,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/diagnose_target_subspace.py",
+      "sha256": "ee920a09ee839d2fea2f6ceffa889b9a381a695383ff80938f17923f9346dad7",
+      "bytes": 7437,
+      "lines": 124,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/environment_freeze.txt",
+      "sha256": "29b9f24f5c17942bf9a04e295d59a7ebdeccad390fea33bc36f5a9a0bed02e75",
+      "bytes": 1663,
+      "lines": 98,
+      "kind": "text_configuration_or_license"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/export_tabicl_context.py",
+      "sha256": "0faa4ef6cd5d9bab3323be4673f714fbf2a455c7863a73c7041b2a19b37ada5a",
+      "bytes": 6804,
+      "lines": 109,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/fetch_public_weights.py",
+      "sha256": "c51d9b5b4e721fef42579be47d925d0e2c1b536b6baa68c77a8e16500c517d4b",
+      "bytes": 2661,
+      "lines": 62,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/finalize_after_missingness.py",
+      "sha256": "e2bfa5556c32057f768ab67cb46eea35d5c54294456631fd72c60ea39c030325",
+      "bytes": 4455,
+      "lines": 80,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/models/TabICL_LICENSE.txt",
+      "sha256": "c959a1db8bc4b2f41c315a9b077c822372a4a84e1a83636bdb962715aaae6874",
+      "bytes": 12996,
+      "lines": 236,
+      "kind": "text_configuration_or_license"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/models/checkpoint_configuration.json",
+      "sha256": "72ecc8b4eef928a8477fc09f042874543102d3583850e14c43608b009997eb47",
+      "bytes": 777,
+      "lines": 30,
+      "kind": "text_configuration_or_license"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/models/tabicl_download_manifest.json",
+      "sha256": "db631661a264a36262838d93c3dc09c2a54c2a9b5afba6dbde5fd5b98cdbf11d",
+      "bytes": 445,
+      "lines": 10,
+      "kind": "text_configuration_or_license"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/models/tabicl_hf_metadata.json",
+      "sha256": "eb66ec6bd8a4c36869905cb34ed55644e29d17458fb1327ae267e4c96f5e1599",
+      "bytes": 1554,
+      "lines": 66,
+      "kind": "text_configuration_or_license"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/pilot_tabicl.py",
+      "sha256": "acfb32af3039ec79052b229adb13da8b0d1653ca0dbd9c86e22d504e6c1499c4",
+      "bytes": 2354,
+      "lines": 44,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/postprocess_modern_results.py",
+      "sha256": "d337e354280e48f7cc10d60f77cf2a4e7b025be3a301b3554a57e64ceb3ff6c4",
+      "bytes": 6530,
+      "lines": 116,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/predict_tabicl_csv.py",
+      "sha256": "d220a10396da0d325ab3514c873fc0a73c20835022c2094e1b2742c592938e48",
+      "bytes": 11901,
+      "lines": 210,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/prepare_tabicl_deployment.py",
+      "sha256": "9f9fd84e70833a5a189051bc46ca65f60c66aea47cd62950e0cefa570413209d",
+      "bytes": 10656,
+      "lines": 173,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/queue_missingness_after_tabdpt.py",
+      "sha256": "8e916dafa6a5deeaf22bc256e27b549b2af5df446ee943c11b1b1e8b32515a54",
+      "bytes": 1837,
+      "lines": 44,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/requirements_deployment.txt",
+      "sha256": "7f8f617a2aa1e6b63e8a9d8501661ae9fa9687957f053e311de5a2e9ee60854a",
+      "bytes": 202,
+      "lines": 9,
+      "kind": "text_configuration_or_license"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/requirements_tabicl.txt",
+      "sha256": "8df5e6c3f38b7f243a7fe25be355e29d2658729c0706adff6d5dc8b3d4ea4041",
+      "bytes": 179,
+      "lines": 7,
+      "kind": "text_configuration_or_license"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/run_deployment_transfer_challenge.py",
+      "sha256": "a19bb26de9abc7d47213a3e9835939f80ebe4dbe48c0fee3a8ba3356e082827b",
+      "bytes": 13717,
+      "lines": 252,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/run_missingness_tabicl.py",
+      "sha256": "c3d7cd5e60d5dd413950f4d7a12e5ba75ea9818b946cca2cd2d49f3ae59b4b07",
+      "bytes": 17377,
+      "lines": 303,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/run_nested_selection.py",
+      "sha256": "73211b63385bc9071ec23c4bda5cab26a1f74a9c412bb2690d77f8c6dcdc0218",
+      "bytes": 29581,
+      "lines": 554,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/run_tabicl_benchmark.py",
+      "sha256": "fca13ab695408c23b95e379a849dc9577a9a5ae85c42bc2ffd5cecc861b73cd8",
+      "bytes": 11733,
+      "lines": 211,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/tabdpt/environment_freeze.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "lines": 0,
+      "kind": "text_configuration_or_license"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/tabdpt/models/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358,
+      "lines": 202,
+      "kind": "text_configuration_or_license"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/tabdpt/models/checkpoint_header_metadata.json",
+      "sha256": "86d460761e7aa7309e5cb8726d3b00872e6c7e4789766f6524c4943bb09caecb",
+      "bytes": 1861,
+      "lines": 3,
+      "kind": "text_configuration_or_license"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/tabdpt/models/download_manifest.json",
+      "sha256": "142c23d539ce9aead2fef96bc823fe723e345a2f6b24e745bdffd5f8a0515fe6",
+      "bytes": 435,
+      "lines": 11,
+      "kind": "text_configuration_or_license"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/tabdpt/models/hf_metadata.json",
+      "sha256": "3e757a038124090e53c58cc5d3389a83b88bfbf4ffcb5ed3ddb12aaacaca9505",
+      "bytes": 1178,
+      "lines": 61,
+      "kind": "text_configuration_or_license"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/tabdpt/pretraining_audit.json",
+      "sha256": "a1a59ab7bdf855d8694a26ef6866cade96fc332ee2a0cf04c6469195e68fdf4c",
+      "bytes": 1787,
+      "lines": 42,
+      "kind": "text_configuration_or_license"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/tabdpt/requirements_tabdpt.txt",
+      "sha256": "c0f7bd7e81538ab43a072a0465584e3995d3685b7dff16a25389aa5a9434db0a",
+      "bytes": 234,
+      "lines": 10,
+      "kind": "text_configuration_or_license"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/tabdpt/resource_probe_one_thread.py",
+      "sha256": "3a9a484f6cff3f6cb6cb4fef2e1059449e0eded2496b5f13204b8b4af1835d36",
+      "bytes": 1266,
+      "lines": 26,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/tabdpt/run_after_tabicl.py",
+      "sha256": "bf656cdb88e3680c55db1196288712f65decc1cbc386f8718d70dc5b5e4851d0",
+      "bytes": 2725,
+      "lines": 60,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/tabdpt/run_tabdpt_benchmark.py",
+      "sha256": "97dba28c989d16bb1d6f00e56b90d0c82848b7e0589c9fbfc3f32529c144f76f",
+      "bytes": 14131,
+      "lines": 291,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/write_completion_report.py",
+      "sha256": "9d599b374c1f7f9b53e42c06300237f6ffb0c4bfef658c95a2456279c1cd24cc",
+      "bytes": 12482,
+      "lines": 145,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/write_deployment_transfer_summary.py",
+      "sha256": "232f99465d2c84e01b0e317af2654b374d1348a2f3ff9219899edde716422fef",
+      "bytes": 9047,
+      "lines": 129,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/modern_prediction/write_missingness_summary.py",
+      "sha256": "0e9453d8ff9b20d047553ae6b17605e60e3e58b929baff6acb08598edc9965f0",
+      "bytes": 7851,
+      "lines": 100,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/semantic_auxiliary/blend_nested.py",
+      "sha256": "739ddfbf11c7e7e98b73ec53b0ad42caaaf56edfdacc988a2c905351da6188c1",
+      "bytes": 2905,
+      "lines": 50,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/semantic_auxiliary/fit_final.py",
+      "sha256": "71cf93854e4029d8193488a19d5d0d356e61b4699f7011aaafc6d8caedc8caa3",
+      "bytes": 3681,
+      "lines": 61,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/semantic_auxiliary/predict.py",
+      "sha256": "8fbf8dfc96eec611591a21b14830edb9eb5036b85206bb1302559ef1e01b0d25",
+      "bytes": 897,
+      "lines": 18,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/semantic_auxiliary/run_semantic_rrr.py",
+      "sha256": "537c258c1f3a8ade0c3adab8f1cca237b036ce156ce91e0d3568af87b4551dbf",
+      "bytes": 9567,
+      "lines": 184,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/semantic_auxiliary/style_controls.py",
+      "sha256": "4bc2807371d17373a9e26544b222177e4fc46f839daaa4ae0582dd1ad2529120",
+      "bytes": 10235,
+      "lines": 175,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/semantic_auxiliary/summarize_style_controls.py",
+      "sha256": "5192d11636c74f6125832a823d93ca2ee4c876a96cd8adf3e7004f96540215e4",
+      "bytes": 3121,
+      "lines": 49,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/sparse_transfer/aggregate_results.py",
+      "sha256": "41de57439cb45a194edb1b3b0d82d46b7d0ad6c2d00f2c5ea65af43be617a73d",
+      "bytes": 23813,
+      "lines": 378,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/sparse_transfer/audit_after_perspective.py",
+      "sha256": "a21e3690f953dcd65e92f6489addc4f659d0bff88b045cb14eb8129dea4b9f73",
+      "bytes": 3390,
+      "lines": 68,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/sparse_transfer/audit_after_sdp.py",
+      "sha256": "c27d6a50776f3b8fdac48c9d6dff8f1c292e76da1ff267d423ca52792cded909",
+      "bytes": 2473,
+      "lines": 46,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/sparse_transfer/audit_perspective_results.py",
+      "sha256": "4cce2daddf5a2beb95bfc0aeb4a6772603bf64052de5511471144635b895a4ac",
+      "bytes": 9232,
+      "lines": 146,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/sparse_transfer/audit_perspective_snapshot.py",
+      "sha256": "091f7efba07236456849db02e291b5dbeaf2b944c37d3ea34c7d3ed711c709c8",
+      "bytes": 7974,
+      "lines": 146,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/sparse_transfer/audit_perspective_snapshot_fresh.py",
+      "sha256": "01627a042d32bfac3e1b3b88fc7377cf920dcdd5b89fcaadd7fbc0b890994eb8",
+      "bytes": 10977,
+      "lines": 200,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/sparse_transfer/certificate_without_proxy.py",
+      "sha256": "8eb348be7469791d276c191a320b1792b1fcd9f4685ac4590e19ed57c85bcbf6",
+      "bytes": 8495,
+      "lines": 153,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/sparse_transfer/concentration_space_audit.py",
+      "sha256": "f0a478779fb0ba3a64efbd80e784a937ee041f835b357d85680415abffd2850a",
+      "bytes": 10151,
+      "lines": 179,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/sparse_transfer/control_problem.py",
+      "sha256": "1522c326ad915e1d4c3b3b2be314e8c43e030c6391ed80231ca51e7d91f2b763",
+      "bytes": 10184,
+      "lines": 176,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/sparse_transfer/cross_policy_bound_transfer/audit_cross_policy_bound_transfer.py",
+      "sha256": "7a7a6a2501d2759a8be68e5c2b3a64657c3e6b3b99514c92d4f403099bbb8c0d",
+      "bytes": 11411,
+      "lines": 169,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/sparse_transfer/cross_policy_bound_transfer/audit_cross_policy_bound_transfer_fresh.py",
+      "sha256": "cfea2657f18fa5cdb85d51ed356421c657de9d2ed7bfb7de13ea05269b5cddf8",
+      "bytes": 12005,
+      "lines": 175,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/sparse_transfer/diagonal_sdp_admm.py",
+      "sha256": "312fe70b81e1367b4530e7ae3c953ca0e1e61d07d25d2add639cf3e65ae1000e",
+      "bytes": 6760,
+      "lines": 137,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/sparse_transfer/environment_freeze.txt",
+      "sha256": "b1676e609d443b9c645b0d3ca7e49c8c9f40248254081f1b1b25761b20636bf3",
+      "bytes": 1413,
+      "lines": 82,
+      "kind": "text_configuration_or_license"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/sparse_transfer/geometry_certificate.py",
+      "sha256": "f46a6f3ab78aa1723c24934ac7d931997f73340ee4abec11b6dda214a6e1249a",
+      "bytes": 3156,
+      "lines": 53,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/sparse_transfer/joint_solvers.py",
+      "sha256": "a33752b32f8fa1e8c4afec745a655e313d54b86576bc40b55fdca535d14a5815",
+      "bytes": 9028,
+      "lines": 165,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/sparse_transfer/perspective_policy_worker.py",
+      "sha256": "a656632b1822630f55e914322ed7be0335f73392853573fed465505610934951",
+      "bytes": 1086,
+      "lines": 24,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/sparse_transfer/perspective_sdp_solver.py",
+      "sha256": "fa78a479fa0c59f2073a4baa85a07b22b0275ca71318b6a79e1c8d81bb6e84cf",
+      "bytes": 5780,
+      "lines": 113,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/sparse_transfer/perspective_solver.py",
+      "sha256": "82e6464f968bb69951ce9fb58cce1993ff759b1436948e0be8e40e90529b352d",
+      "bytes": 18163,
+      "lines": 326,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/sparse_transfer/pilot_joint.py",
+      "sha256": "de4a6e542e74c4c6859200e6d1b133b0f55aae50edf67c9476e253f3b26e411e",
+      "bytes": 2401,
+      "lines": 47,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/sparse_transfer/pilot_minimum.py",
+      "sha256": "97f1d547c65a394dd5afc763772451d43f3841042fc6b0b25800885daa5d2d60",
+      "bytes": 2009,
+      "lines": 34,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/sparse_transfer/queue_perspective_parallel.py",
+      "sha256": "a321bf2b1cdba2af94530fd63ce49747fe374501929afc83e4b311d01efa858f",
+      "bytes": 6521,
+      "lines": 140,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/sparse_transfer/queue_sdp_after_policy_slot.py",
+      "sha256": "838c0d690be4665a7542da18f6581a1794b07abc4680c8a107fbe0a090a6ab7f",
+      "bytes": 1608,
+      "lines": 37,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/sparse_transfer/reproduce_perspective.py",
+      "sha256": "abc957e6c052bd5bc28dd1c0a483c1a3e75448a9f8684b8ec007b14a1219c4f4",
+      "bytes": 2989,
+      "lines": 66,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/sparse_transfer/requirements_solver.txt",
+      "sha256": "dadc2e527119fec97f4d3f707c25747e8c86028933260603c9d83389b3c32eee",
+      "bytes": 194,
+      "lines": 9,
+      "kind": "text_configuration_or_license"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/sparse_transfer/resume_disjoint_after_recovery.py",
+      "sha256": "be6a41fcfba12a9431a8b384ce8223b2d7d334a78ba3e40bf9da3526b28f946b",
+      "bytes": 3469,
+      "lines": 74,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/sparse_transfer/run_grid_reference.py",
+      "sha256": "37fa398575d42b68b25239766ee37ea238cddad5b8b3194817a0233bc18a7e55",
+      "bytes": 3283,
+      "lines": 54,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/sparse_transfer/run_joint_search.py",
+      "sha256": "1bb40b06a8e6942982862bf32ae1a0997bb66e171cf52575cbaa1de7f2a35370",
+      "bytes": 6356,
+      "lines": 93,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/sparse_transfer/summarize_perspective_strength.py",
+      "sha256": "8008ff9946901ca36f3bd61deb6fa0f8775a3c22d457e25c65ebf91ddb508fa2",
+      "bytes": 8112,
+      "lines": 101,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/sparse_transfer/summarize_perspective_strength_fresh.py",
+      "sha256": "fe8fbd8c3523d156d122b9365afde2d62f06b5740f0b6508ee3558da41361f3d",
+      "bytes": 8864,
+      "lines": 108,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/transfer_robustness/audit_completed_results.py",
+      "sha256": "4a1a3b84c07461f73babe7901cda2d95fb5bf99dc18ca4fecaafa9b37903991c",
+      "bytes": 12606,
+      "lines": 203,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/transfer_robustness/run_transfer_robustness.py",
+      "sha256": "0f9a9c37bb1bedd16979ea3eef97ab76dd1c69219a181183110bc95e20d72261",
+      "bytes": 42692,
+      "lines": 642,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/transfer_robustness/summarize_transfer_robustness.py",
+      "sha256": "ae77faf0abb7582d929ed995525bf6c291da56a1d5f2c68092a0b2442b32a051",
+      "bytes": 23998,
+      "lines": 270,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/within_style_explanation/fixed_alpha_sensitivity.py",
+      "sha256": "b2c113ce084c3a03fb81591bb1202c8dfc3e37224a742d8c5277c8f889f27152",
+      "bytes": 8286,
+      "lines": 139,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/within_style_explanation/make_evidence_figure.py",
+      "sha256": "2fba3e49b90bdb6758c2cef2ab7a532c1db9e171597ce8502619320a0ad13907",
+      "bytes": 6409,
+      "lines": 112,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/within_style_explanation/project_location.py",
+      "sha256": "285135ef4fdd9247031b884d0e501463e3267819d0e1a1b5920ce09420ad0b4a",
+      "bytes": 769,
+      "lines": 20,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/within_style_explanation/run_within_style.py",
+      "sha256": "a4d3ea6cfcc96daf2edae6e34a8124505601a3d3410aad581d42b9b2371cadd9",
+      "bytes": 23810,
+      "lines": 380,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/experiments/within_style_explanation/within_style_model.py",
+      "sha256": "375016c3297583c54a7b33617ebf0a5ef21962cdda812b335e46f3d8470d53f2",
+      "bytes": 7715,
+      "lines": 200,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/literature/external_data/audit_maust_support.py",
+      "sha256": "0135bdaf7e1b2908431cc9be89460d8bc6297761f44fd8ad7f12633f771f628b",
+      "bytes": 7414,
+      "lines": 112,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/paper/completion_gate.py",
+      "sha256": "7d2107711cd3bbde09365158416627e86c3221878d959626c5e07e8668eedba3",
+      "bytes": 9131,
+      "lines": 137,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/requirements_base_freeze.txt",
+      "sha256": "3251f4cda09f012ac1d0fc4559c1a6557565d552fc1bfd0fcc7e3909d869fd49",
+      "bytes": 1352,
+      "lines": 78,
+      "kind": "text_configuration_or_license"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/runtime_versions.json",
+      "sha256": "21562e39b4502b87e16c3cfc1b7d8373b50f796bd3ee0c1f75acc4215d302798",
+      "bytes": 344,
+      "lines": 15,
+      "kind": "text_configuration_or_license"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/visuals/audit_missingness.py",
+      "sha256": "14672e4e6d6f0e3abfe74f3568c81806522bf8b9f236f7c7e1b2c2adad29e34f",
+      "bytes": 9200,
+      "lines": 161,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/visuals/audit_modern_prediction.py",
+      "sha256": "5bf2682e8a1ac2c8380f7d1c7b7ad9f65e1e7a8b84dba7761de2cb9aca4edc08",
+      "bytes": 10763,
+      "lines": 212,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/visuals/audit_new_evidence.py",
+      "sha256": "6afdac0af976d0befe2c3cd73173087c6588dcbebb358b8a4b0748d33f504cbd",
+      "bytes": 19796,
+      "lines": 351,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/visuals/audit_visuals.py",
+      "sha256": "8699c377869debf3c0842ba381eb9d4a0412f33cecbd9c59229ec8706bb0dba2",
+      "bytes": 4335,
+      "lines": 83,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/visuals/build_mechanism_figures.py",
+      "sha256": "43144722f070dd806da68612c0f01f5ee2952447422dd501558ab52271391cc7",
+      "bytes": 36724,
+      "lines": 655,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/visuals/build_quantitative_figures.py",
+      "sha256": "5c885ae505cd1b031e38acf1e7438a4ec07a48a438ccd2941f1f90f487682ac4",
+      "bytes": 59877,
+      "lines": 799,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/visuals/plot_style_group_errors.py",
+      "sha256": "6937b21af2fea2246d31f12cbd9b39139a7e99f153d6da91361bd5452131c873",
+      "bytes": 16528,
+      "lines": 299,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/visuals/publication_style.py",
+      "sha256": "f90ba9334d2e6eb003718643e263b6e43a6afc91d3f1d9ce725d4ec71fc33aa7",
+      "bytes": 3990,
+      "lines": 82,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/frontier_revision/visuals/rebuild_all_figures.py",
+      "sha256": "7d9dbf5bf0726064ab9943b21c52ca83180ba51cb1c6e91d26d261b17f0c237d",
+      "bytes": 3948,
+      "lines": 83,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/predict_upgrade.py",
+      "sha256": "88ef2788ac52e16421791ad06ece719e6284417182c85d93450a64f6e3bfdd1b",
+      "bytes": 1529,
+      "lines": 39,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/prepare_frontier_replay.py",
+      "sha256": "7d635990c3c116121570d13080956de9a6dd54caeed58690a92365e2bf083c02",
+      "bytes": 7625,
+      "lines": 158,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/reproduce_all.py",
+      "sha256": "5d3a807ec666765e4c9b20f53aa60f8ecc356fb39d63904881b636f552ff325e",
+      "bytes": 3082,
+      "lines": 53,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/reproduce_competition_revision.py",
+      "sha256": "2051d2cfa08f98693f80dd60c65df547f8031c486d2b9b7d235756303d221234",
+      "bytes": 18860,
+      "lines": 311,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/reproduce_frontier_revision.py",
+      "sha256": "db7a43d706b07477932427d474f5cecd0f15633c0e4220fe4109edebf6f83b09",
+      "bytes": 12948,
+      "lines": 200,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/reproduce_nature_upgrade.py",
+      "sha256": "7e457ca94b4e0a0c81ad8b3ab680ed8e1d87e87bd17245dca92d92385faf17b3",
+      "bytes": 3352,
+      "lines": 69,
+      "kind": "python_source"
+    },
+    {
+      "path": "project/MathorCup_A/requirements.txt",
+      "sha256": "7df5646fc4ceb575a4c0452532d9a8c5abab2de8c07d7a807511d02fb60e0696",
+      "bytes": 416,
+      "lines": 13,
+      "kind": "text_configuration_or_license"
+    },
+    {
+      "path": "project/MathorCup_A/requirements_documents.txt",
+      "sha256": "7163b038742925c5eb06bd1104fee04edc33f986c5bb7e6db77a9eef11ede5a6",
+      "bytes": 1121,
+      "lines": 22,
+      "kind": "text_configuration_or_license"
+    },
+    {
+      "path": "project/MathorCup_A/requirements_nature_upgrade.txt",
+      "sha256": "30d0c52da180d8c8b32b302ffd41ca9152f0327009ae42e78ef4969c6c1751f0",
+      "bytes": 164,
+      "lines": 5,
+      "kind": "text_configuration_or_license"
+    },
+    {
+      "path": "run_submission.py",
+      "sha256": "b237ce386ab0c63fb53aa48633250a857ac27d0f11836c0fa98d6534e46326a0",
+      "bytes": 15185,
+      "lines": 257,
+      "kind": "python_source"
+    }
+  ]
+}

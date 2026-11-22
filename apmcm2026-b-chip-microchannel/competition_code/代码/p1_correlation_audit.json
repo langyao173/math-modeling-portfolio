@@ -1,0 +1,14 @@
+{
+  "R_dP": {
+    "Pearson_r": -0.684161,
+    "Spearman_rho_s": -0.749033
+  },
+  "R_phi": {
+    "Pearson_r": -0.078517,
+    "Spearman_rho_s": -0.118579
+  },
+  "dP_phi": {
+    "Pearson_r": 0.474493,
+    "Spearman_rho_s": 0.45694
+  }
+}

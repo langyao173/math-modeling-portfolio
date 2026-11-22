@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-07-18T17:58:17.2405188+08:00",
+  "selected_candidate_hash": "f12f0fc20700df70743ef3b4f27089c45f45989a93fa2bd19c1886c98d609a81",
+  "identity_selected_candidate_hash": "f12f0fc20700df70743ef3b4f27089c45f45989a93fa2bd19c1886c98d609a81",
+  "frozen_final_fit_hash": "10238a4c6d368e50acb9ac28e4523dbd1b4f1b64710667ba0e8eb511b8774f53",
+  "identity_final_fit_hash": "10238a4c6d368e50acb9ac28e4523dbd1b4f1b64710667ba0e8eb511b8774f53",
+  "refit_final_fit_hash": "10238a4c6d368e50acb9ac28e4523dbd1b4f1b64710667ba0e8eb511b8774f53",
+  "development_prediction_rows": 772,
+  "rate_columns": 2,
+  "max_abs_rate_delta": 0.0,
+  "exact_rate_bytes_equal": true,
+  "allclose_absolute_tolerance": 1.0e-14,
+  "passed": true,
+  "interpretation": "The bounded selective-optimizer repair does not change the frozen production candidate or its fitted development predictions."
+}

@@ -1,0 +1,22 @@
+{
+  "fit_rows": [
+    {
+      "source": "general",
+      "rows": 89433,
+      "customers": 37283
+    },
+    {
+      "source": "event_development",
+      "rows": 18447,
+      "customers": 6410
+    }
+  ],
+  "feature_count": 414,
+  "variable_features": 396,
+  "interval": [
+    0.01,
+    0.99
+  ],
+  "unit": "marginal feature interval",
+  "note": "An interval excursion is a descriptive support warning, not proof of joint OOD or model failure."
+}

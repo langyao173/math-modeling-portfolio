@@ -1,0 +1,41 @@
+{
+  "coefficients": {
+    "const": 37.096456518446864,
+    "QualifiedTeams": 1.434252920052621,
+    "MatchesPlayed": 1.653482621113262,
+    "Attendance": -9.471980251609862e-06
+  },
+  "p_values_hc3": {
+    "const": 0.008384797482965986,
+    "QualifiedTeams": 0.4024839349677193,
+    "MatchesPlayed": 0.1664230293862264,
+    "Attendance": 0.5690775212104385
+  },
+  "standard_errors_hc3": {
+    "const": 12.34333596635423,
+    "QualifiedTeams": 1.6677077808285061,
+    "MatchesPlayed": 1.1404610264432156,
+    "Attendance": 1.6291916068527635e-05
+  },
+  "r_squared": 0.7919010306275417,
+  "adjusted_r_squared": 0.7528824738702058,
+  "vif": {
+    "QualifiedTeams": 10.178807751460969,
+    "MatchesPlayed": 18.435522251349138,
+    "Attendance": 7.815081483205375
+  },
+  "loocv": {
+    "mae": 14.81066539163562,
+    "mse": 355.31043597240307,
+    "rmse": 18.849679996551746,
+    "r2": 0.655989450550635,
+    "n": 20
+  },
+  "n_observations": 20,
+  "design_columns": [
+    "const",
+    "QualifiedTeams",
+    "MatchesPlayed",
+    "Attendance"
+  ]
+}

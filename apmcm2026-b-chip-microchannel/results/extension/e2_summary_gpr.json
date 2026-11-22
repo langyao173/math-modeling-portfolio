@@ -1,0 +1,108 @@
+{
+  "model": "gpr",
+  "posterior_draws": 1000,
+  "grid_size": 3255,
+  "x_star": [
+    0.22,
+    4.5,
+    4.0
+  ],
+  "P_pareto_x_star": 0.998,
+  "P_win_x_star": {
+    "ideal": 0.829,
+    "topsis": 0.0,
+    "chebyshev": 0.0
+  },
+  "P_win_neighbourhood_x_star(|dbeta|<=0.01,|dgamma|<=0.05,N=4)": {
+    "ideal": 1.0,
+    "topsis": 0.0,
+    "chebyshev": 0.0
+  },
+  "P_win_by_N": {
+    "ideal": {
+      "2": 0.0,
+      "4": 1.0,
+      "6": 0.0,
+      "8": 0.0,
+      "10": 0.0
+    },
+    "topsis": {
+      "2": 1.0,
+      "4": 0.0,
+      "6": 0.0,
+      "8": 0.0,
+      "10": 0.0
+    },
+    "chebyshev": {
+      "2": 0.0,
+      "4": 0.014,
+      "6": 0.986,
+      "8": 0.0,
+      "10": 0.0
+    }
+  },
+  "P_win_gamma_at_upper_bound": {
+    "ideal": 1.0,
+    "topsis": 0.999,
+    "chebyshev": 0.985
+  },
+  "modal_winner": {
+    "ideal": {
+      "beta": 0.22,
+      "gamma": 4.5,
+      "N": 4.0,
+      "prob": 0.829
+    },
+    "topsis": {
+      "beta": 0.22,
+      "gamma": 4.5,
+      "N": 2.0,
+      "prob": 0.611
+    },
+    "chebyshev": {
+      "beta": 0.22,
+      "gamma": 4.5,
+      "N": 6.0,
+      "prob": 0.641
+    }
+  },
+  "expected_pareto_set_size": 151.14600000000002,
+  "decision_region_size": 209,
+  "next_simulations": [
+    {
+      "step": 1,
+      "beta": 0.24,
+      "gamma": 3.25,
+      "N": 6.0,
+      "remaining_variance_fraction": 0.7463830862223597
+    },
+    {
+      "step": 2,
+      "beta": 0.24,
+      "gamma": 3.55,
+      "N": 4.0,
+      "remaining_variance_fraction": 0.6620776487886325
+    },
+    {
+      "step": 3,
+      "beta": 0.24,
+      "gamma": 3.3,
+      "N": 10.0,
+      "remaining_variance_fraction": 0.5824322814142001
+    },
+    {
+      "step": 4,
+      "beta": 0.24,
+      "gamma": 3.2,
+      "N": 4.0,
+      "remaining_variance_fraction": 0.5246606089907134
+    },
+    {
+      "step": 5,
+      "beta": 0.19,
+      "gamma": 3.35,
+      "N": 10.0,
+      "remaining_variance_fraction": 0.47508914671254243
+    }
+  ]
+}

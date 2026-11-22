@@ -1,0 +1,2 @@
+﻿Model,FeatureCount,C,ClassWeight,TrainingRange,TestYear,Accuracy2014,CorrectMatches2014,MatchCount2014,MacroF12014,DrawRecall2014,DevelopmentMeanAccuracy,DevelopmentWorstAccuracy,AllProtocolChecksMet,Conclusion
+题面四特征多分类逻辑回归,4,0.001,balanced,1930-2010,2014,0.578125,37,64,0.46527777777777785,0.07692307692307693,0.5344050480769231,0.4807692307692308,True,题面四特征多分类逻辑回归在 2014 测试集正确 37/64 场，准确率 0.578，Macro-F1 0.465。训练/测试口径核对结果：满足。

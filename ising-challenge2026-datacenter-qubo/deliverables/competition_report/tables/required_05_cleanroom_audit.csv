@@ -1,0 +1,10 @@
+﻿audit_item,status,evidence
+zip_and_final_csv,pass,zip_exists=True; final_csv_exists=True
+validation_matches_csv,pass,rows=588; unique_jobs=588; validation_status=pass
+cleanroom_recompute,pass,expected=35.390081; cvar95=47.731129
+metrics_consistency,pass,FINAL_METRICS.json agrees with VALIDATION_RECOMPUTED.json within 1e-12 (expected_diff=0.000e+00; cvar95_diff=0.000e+00)
+csv_field_consistency,pass,"job_id,action_id,site,start_slot,end_slot,mode,gpu_req,power_mw,energy_mwh,action_cost,is_dummy"
+one_hot_violation_zero,pass,one_hot_violations=0
+absolute_path_scan,pass,hits=0
+token_scan,pass,hits=0
+cache_dependency_scan,pass,hits=0

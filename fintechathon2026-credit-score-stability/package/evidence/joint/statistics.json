@@ -1,0 +1,9 @@
+{
+  "replicates": 2000,
+  "seed": 43020261005,
+  "resampling_unit": "customer",
+  "customers": 2907,
+  "family_comparisons": 50,
+  "simultaneous_critical": 3.95902351688542,
+  "assessment": "repeatedly examined cohort; conditional comparative evidence"
+}

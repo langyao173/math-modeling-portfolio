@@ -1,0 +1,13 @@
+{
+ "FROZEN": 16.5,
+ "ABL-review-once": 22.2,
+ "ABL-review-twice": 21.8,
+ "ABL-review-idle": 17.2,
+ "RES-min": 10.2,
+ "RES-q25": 20.1,
+ "RES-q75": 13.4,
+ "RES-q90": 8.5,
+ "RHO-0.1": 17.0,
+ "RHO-1.0": 17.2,
+ "CLAIRVOYANT": 1.2
+}

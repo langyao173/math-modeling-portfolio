@@ -1,0 +1,307 @@
+{
+ "replay_reproduces_published_final_score_max_abs_diff": 0.0,
+ "submitted": {
+  "auc_phase0_1": 0.7952906316281229,
+  "worst_cohort_cvar95_pp": 5.288310435124878,
+  "gated_share_outside_1pp_phase0": 0.020833333333333332,
+  "gated_share_outside_1pp_phase1": 0.0045662100456621,
+  "distinct_event_customers_covered": 61.0
+ },
+ "variants_dominating_submitted": [
+  "clip all r=0.02",
+  "clip all r=0.04",
+  "smooth gated b=0.9"
+ ],
+ "paired_bootstrap_vs_submitted": {
+  "base_reference | clip all r=0.01": {
+   "auc_diff_ci95": [
+    -0.00803662835353354,
+    0.0022521917638894796
+   ],
+   "tail_diff_ci95": [
+    -4.028911398318876,
+    -1.7468611095647237
+   ]
+  },
+  "base_reference | clip all r=0.02": {
+   "auc_diff_ci95": [
+    -0.0020297430479190443,
+    0.0025616665594533085
+   ],
+   "tail_diff_ci95": [
+    -3.329715912834526,
+    -1.0770837128837283
+   ]
+  },
+  "base_reference | smooth gated b=0.9": {
+   "auc_diff_ci95": [
+    -0.003285863529297009,
+    0.006467532394581435
+   ],
+   "tail_diff_ci95": [
+    -0.04825073807775071,
+    0.014805639223623032
+   ]
+  },
+  "strong_S | none": {
+   "auc_diff_ci95": [
+    -0.007044816606330215,
+    0.010160237783015665
+   ],
+   "tail_diff_ci95": [
+    2.9421911308509467,
+    8.249106236322811
+   ]
+  },
+  "strong_S | clip all r=0.02": {
+   "auc_diff_ci95": [
+    -0.006352740386885869,
+    0.010408677661501617
+   ],
+   "tail_diff_ci95": [
+    -3.8859284020998435,
+    -0.9771761406978976
+   ]
+  }
+ },
+ "frontier": [
+  {
+   "base_model": "base_reference",
+   "variant": "none",
+   "auc_phase0_1": 0.79555,
+   "worst_cohort_cvar95_pp": 7.37823,
+   "distinct_event_customers_covered": 61
+  },
+  {
+   "base_model": "base_reference",
+   "variant": "gated clip r=0.0025",
+   "auc_phase0_1": 0.79527,
+   "worst_cohort_cvar95_pp": 5.28831,
+   "distinct_event_customers_covered": 61
+  },
+  {
+   "base_model": "base_reference",
+   "variant": "gated clip r=0.005",
+   "auc_phase0_1": 0.79492,
+   "worst_cohort_cvar95_pp": 5.28831,
+   "distinct_event_customers_covered": 61
+  },
+  {
+   "base_model": "base_reference",
+   "variant": "gated clip r=0.01",
+   "auc_phase0_1": 0.79529,
+   "worst_cohort_cvar95_pp": 5.28831,
+   "distinct_event_customers_covered": 61
+  },
+  {
+   "base_model": "base_reference",
+   "variant": "gated clip r=0.02",
+   "auc_phase0_1": 0.79553,
+   "worst_cohort_cvar95_pp": 5.29983,
+   "distinct_event_customers_covered": 61
+  },
+  {
+   "base_model": "base_reference",
+   "variant": "gated clip r=0.04",
+   "auc_phase0_1": 0.79555,
+   "worst_cohort_cvar95_pp": 5.92796,
+   "distinct_event_customers_covered": 61
+  },
+  {
+   "base_model": "base_reference",
+   "variant": "clip all r=0.0025",
+   "auc_phase0_1": 0.7828,
+   "worst_cohort_cvar95_pp": 2.269,
+   "distinct_event_customers_covered": 61
+  },
+  {
+   "base_model": "base_reference",
+   "variant": "clip all r=0.005",
+   "auc_phase0_1": 0.78726,
+   "worst_cohort_cvar95_pp": 2.34967,
+   "distinct_event_customers_covered": 61
+  },
+  {
+   "base_model": "base_reference",
+   "variant": "clip all r=0.01",
+   "auc_phase0_1": 0.79277,
+   "worst_cohort_cvar95_pp": 2.54221,
+   "distinct_event_customers_covered": 61
+  },
+  {
+   "base_model": "base_reference",
+   "variant": "clip all r=0.02",
+   "auc_phase0_1": 0.79532,
+   "worst_cohort_cvar95_pp": 3.24732,
+   "distinct_event_customers_covered": 61
+  },
+  {
+   "base_model": "base_reference",
+   "variant": "clip all r=0.04",
+   "auc_phase0_1": 0.79575,
+   "worst_cohort_cvar95_pp": 4.76843,
+   "distinct_event_customers_covered": 61
+  },
+  {
+   "base_model": "base_reference",
+   "variant": "smooth all b=0.25",
+   "auc_phase0_1": 0.79477,
+   "worst_cohort_cvar95_pp": 5.65406,
+   "distinct_event_customers_covered": 61
+  },
+  {
+   "base_model": "base_reference",
+   "variant": "smooth all b=0.5",
+   "auc_phase0_1": 0.79152,
+   "worst_cohort_cvar95_pp": 4.2565,
+   "distinct_event_customers_covered": 61
+  },
+  {
+   "base_model": "base_reference",
+   "variant": "smooth all b=0.75",
+   "auc_phase0_1": 0.78575,
+   "worst_cohort_cvar95_pp": 3.05515,
+   "distinct_event_customers_covered": 61
+  },
+  {
+   "base_model": "base_reference",
+   "variant": "smooth all b=0.9",
+   "auc_phase0_1": 0.77979,
+   "worst_cohort_cvar95_pp": 2.50677,
+   "distinct_event_customers_covered": 61
+  },
+  {
+   "base_model": "base_reference",
+   "variant": "smooth gated b=0.5",
+   "auc_phase0_1": 0.79613,
+   "worst_cohort_cvar95_pp": 5.88478,
+   "distinct_event_customers_covered": 61
+  },
+  {
+   "base_model": "base_reference",
+   "variant": "smooth gated b=0.9",
+   "auc_phase0_1": 0.79666,
+   "worst_cohort_cvar95_pp": 5.28831,
+   "distinct_event_customers_covered": 61
+  },
+  {
+   "base_model": "strong_S",
+   "variant": "none",
+   "auc_phase0_1": 0.7969,
+   "worst_cohort_cvar95_pp": 10.99419,
+   "distinct_event_customers_covered": 60
+  },
+  {
+   "base_model": "strong_S",
+   "variant": "gated clip r=0.0025",
+   "auc_phase0_1": 0.79739,
+   "worst_cohort_cvar95_pp": 6.31551,
+   "distinct_event_customers_covered": 60
+  },
+  {
+   "base_model": "strong_S",
+   "variant": "gated clip r=0.005",
+   "auc_phase0_1": 0.79657,
+   "worst_cohort_cvar95_pp": 6.32316,
+   "distinct_event_customers_covered": 60
+  },
+  {
+   "base_model": "strong_S",
+   "variant": "gated clip r=0.01",
+   "auc_phase0_1": 0.79619,
+   "worst_cohort_cvar95_pp": 6.35318,
+   "distinct_event_customers_covered": 60
+  },
+  {
+   "base_model": "strong_S",
+   "variant": "gated clip r=0.02",
+   "auc_phase0_1": 0.79679,
+   "worst_cohort_cvar95_pp": 6.43342,
+   "distinct_event_customers_covered": 60
+  },
+  {
+   "base_model": "strong_S",
+   "variant": "gated clip r=0.04",
+   "auc_phase0_1": 0.79685,
+   "worst_cohort_cvar95_pp": 6.64963,
+   "distinct_event_customers_covered": 60
+  },
+  {
+   "base_model": "strong_S",
+   "variant": "clip all r=0.0025",
+   "auc_phase0_1": 0.78829,
+   "worst_cohort_cvar95_pp": 2.36696,
+   "distinct_event_customers_covered": 60
+  },
+  {
+   "base_model": "strong_S",
+   "variant": "clip all r=0.005",
+   "auc_phase0_1": 0.79377,
+   "worst_cohort_cvar95_pp": 2.37965,
+   "distinct_event_customers_covered": 60
+  },
+  {
+   "base_model": "strong_S",
+   "variant": "clip all r=0.01",
+   "auc_phase0_1": 0.79641,
+   "worst_cohort_cvar95_pp": 2.47679,
+   "distinct_event_customers_covered": 60
+  },
+  {
+   "base_model": "strong_S",
+   "variant": "clip all r=0.02",
+   "auc_phase0_1": 0.79736,
+   "worst_cohort_cvar95_pp": 2.91426,
+   "distinct_event_customers_covered": 60
+  },
+  {
+   "base_model": "strong_S",
+   "variant": "clip all r=0.04",
+   "auc_phase0_1": 0.79773,
+   "worst_cohort_cvar95_pp": 4.54476,
+   "distinct_event_customers_covered": 60
+  },
+  {
+   "base_model": "strong_S",
+   "variant": "smooth all b=0.25",
+   "auc_phase0_1": 0.7967,
+   "worst_cohort_cvar95_pp": 8.35122,
+   "distinct_event_customers_covered": 60
+  },
+  {
+   "base_model": "strong_S",
+   "variant": "smooth all b=0.5",
+   "auc_phase0_1": 0.79284,
+   "worst_cohort_cvar95_pp": 5.85399,
+   "distinct_event_customers_covered": 60
+  },
+  {
+   "base_model": "strong_S",
+   "variant": "smooth all b=0.75",
+   "auc_phase0_1": 0.78588,
+   "worst_cohort_cvar95_pp": 3.6262,
+   "distinct_event_customers_covered": 60
+  },
+  {
+   "base_model": "strong_S",
+   "variant": "smooth all b=0.9",
+   "auc_phase0_1": 0.77959,
+   "worst_cohort_cvar95_pp": 2.67243,
+   "distinct_event_customers_covered": 60
+  },
+  {
+   "base_model": "strong_S",
+   "variant": "smooth gated b=0.5",
+   "auc_phase0_1": 0.79807,
+   "worst_cohort_cvar95_pp": 6.60882,
+   "distinct_event_customers_covered": 60
+  },
+  {
+   "base_model": "strong_S",
+   "variant": "smooth gated b=0.9",
+   "auc_phase0_1": 0.79863,
+   "worst_cohort_cvar95_pp": 6.33107,
+   "distinct_event_customers_covered": 60
+  }
+ ]
+}

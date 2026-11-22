@@ -1,0 +1,338 @@
+{
+ "hillstrom": {
+  "info": {
+   "dataset": "hillstrom",
+   "n": 64000,
+   "features": 11,
+   "propensity": 0.6666666666666666,
+   "ate": 0.06088195726098464,
+   "base_rate_control": 0.10616727682343002,
+   "reps": 20
+  },
+  "splits": 20,
+  "mean": {
+   "qini": {
+    "response": 0.01996,
+    "S-learner": 0.01879,
+    "T-learner": 0.01409,
+    "transformed outcome": 0.01472,
+    "X-learner": 0.01923,
+    "DR-learner": 0.01685,
+    "causal forest": 0.01741,
+    "random": 0.00107
+   },
+   "uplift_at_30": {
+    "response": 0.07172,
+    "S-learner": 0.07172,
+    "T-learner": 0.07021,
+    "transformed outcome": 0.06967,
+    "X-learner": 0.07192,
+    "DR-learner": 0.07185,
+    "causal forest": 0.06877,
+    "random": 0.06099
+   },
+   "share_top30": {
+    "response": 0.35299,
+    "S-learner": 0.35354,
+    "T-learner": 0.34618,
+    "transformed outcome": 0.3421,
+    "X-learner": 0.35437,
+    "DR-learner": 0.35386,
+    "causal forest": 0.33887,
+    "random": 0.30054
+   }
+  },
+  "calibration_error": {
+   "DR-learner": 0.01657,
+   "T-learner": 0.0298,
+   "T-learner + isotonic (proposal)": 0.00984,
+   "X-learner": 0.01452,
+   "causal forest": 0.01333
+  },
+  "best_uplift_learner": "X-learner",
+  "paired_qini": {
+   "X-learner minus response": {
+    "qini_mean": -0.00073,
+    "ci95": [
+     -0.02106,
+     0.0196
+    ],
+    "wins": 8,
+    "splits": 20
+   },
+   "T-learner minus response": {
+    "qini_mean": -0.00587,
+    "ci95": [
+     -0.02965,
+     0.01791
+    ],
+    "wins": 8,
+    "splits": 20
+   },
+   "X-learner minus T-learner": {
+    "qini_mean": 0.00514,
+    "ci95": [
+     -0.0059,
+     0.01618
+    ],
+    "wins": 17,
+    "splits": 20
+   },
+   "DR-learner minus response": {
+    "qini_mean": -0.00311,
+    "ci95": [
+     -0.02109,
+     0.01486
+    ],
+    "wins": 9,
+    "splits": 20
+   },
+   "causal forest minus response": {
+    "qini_mean": -0.00255,
+    "ci95": [
+     -0.02196,
+     0.01686
+    ],
+    "wins": 7,
+    "splits": 20
+   }
+  },
+  "isotonic_minus_raw_calibration": {
+   "mean": -0.01996,
+   "ci95": [
+    -0.02911,
+    -0.01081
+   ],
+   "improves_in": 20,
+   "splits": 20
+  },
+  "isotonic_ranking_identical_to_T": false
+ },
+ "x5": {
+  "info": {
+   "dataset": "x5",
+   "n": 200039,
+   "features": 23,
+   "propensity": 0.5,
+   "ate": 0.03323083953462003,
+   "base_rate_control": 0.6032800975434248,
+   "reps": 10
+  },
+  "splits": 10,
+  "mean": {
+   "qini": {
+    "response": -0.00721,
+    "S-learner": 0.01529,
+    "T-learner": 0.01279,
+    "transformed outcome": 0.01379,
+    "X-learner": 0.01618,
+    "DR-learner": 0.01372,
+    "causal forest": 0.01383,
+    "random": 0.00126
+   },
+   "uplift_at_30": {
+    "response": 0.01607,
+    "S-learner": 0.06561,
+    "T-learner": 0.06029,
+    "transformed outcome": 0.05782,
+    "X-learner": 0.06715,
+    "DR-learner": 0.06147,
+    "causal forest": 0.06304,
+    "random": 0.03583
+   },
+   "share_top30": {
+    "response": 0.14512,
+    "S-learner": 0.59247,
+    "T-learner": 0.54436,
+    "transformed outcome": 0.52206,
+    "X-learner": 0.6063,
+    "DR-learner": 0.55497,
+    "causal forest": 0.56919,
+    "random": 0.32351
+   }
+  },
+  "calibration_error": {
+   "DR-learner": 0.01061,
+   "T-learner": 0.02727,
+   "T-learner + isotonic (proposal)": 0.00925,
+   "X-learner": 0.0105,
+   "causal forest": 0.01023
+  },
+  "best_uplift_learner": "X-learner",
+  "paired_qini": {
+   "X-learner minus response": {
+    "qini_mean": 0.0234,
+    "ci95": [
+     0.01914,
+     0.02765
+    ],
+    "wins": 10,
+    "splits": 10
+   },
+   "T-learner minus response": {
+    "qini_mean": 0.02,
+    "ci95": [
+     0.01388,
+     0.02613
+    ],
+    "wins": 10,
+    "splits": 10
+   },
+   "X-learner minus T-learner": {
+    "qini_mean": 0.00339,
+    "ci95": [
+     -0.00144,
+     0.00823
+    ],
+    "wins": 9,
+    "splits": 10
+   },
+   "DR-learner minus response": {
+    "qini_mean": 0.02093,
+    "ci95": [
+     0.01764,
+     0.02422
+    ],
+    "wins": 10,
+    "splits": 10
+   },
+   "causal forest minus response": {
+    "qini_mean": 0.02104,
+    "ci95": [
+     0.01546,
+     0.02663
+    ],
+    "wins": 10,
+    "splits": 10
+   }
+  },
+  "isotonic_minus_raw_calibration": {
+   "mean": -0.01802,
+   "ci95": [
+    -0.02512,
+    -0.01092
+   ],
+   "improves_in": 10,
+   "splits": 10
+  },
+  "isotonic_ranking_identical_to_T": true
+ },
+ "lenta": {
+  "info": {
+   "dataset": "lenta",
+   "n": 687029,
+   "features": 191,
+   "propensity": 0.7509028003184727,
+   "ate": 0.007547132670879364,
+   "base_rate_control": 0.10257863253355026,
+   "reps": 5
+  },
+  "splits": 5,
+  "mean": {
+   "qini": {
+    "response": 0.00506,
+    "S-learner": 0.00127,
+    "T-learner": 0.00358,
+    "transformed outcome": 0.00471,
+    "X-learner": 0.00388,
+    "DR-learner": 0.00169,
+    "causal forest": 0.00044,
+    "random": -0.00144
+   },
+   "uplift_at_30": {
+    "response": 0.01027,
+    "S-learner": 0.00928,
+    "T-learner": 0.00989,
+    "transformed outcome": 0.01119,
+    "X-learner": 0.01014,
+    "DR-learner": 0.00985,
+    "causal forest": 0.00792,
+    "random": 0.00709
+   },
+   "share_top30": {
+    "response": 0.40774,
+    "S-learner": 0.36871,
+    "T-learner": 0.39271,
+    "transformed outcome": 0.4548,
+    "X-learner": 0.40267,
+    "DR-learner": 0.38615,
+    "causal forest": 0.31451,
+    "random": 0.28143
+   }
+  },
+  "calibration_error": {
+   "DR-learner": 0.00459,
+   "T-learner": 0.01614,
+   "T-learner + isotonic (proposal)": 0.00356,
+   "X-learner": 0.00477,
+   "causal forest": 0.00621
+  },
+  "best_uplift_learner": "transformed outcome",
+  "paired_qini": {
+   "transformed outcome minus response": {
+    "qini_mean": -0.00035,
+    "ci95": [
+     -0.00766,
+     0.00695
+    ],
+    "wins": 3,
+    "splits": 5
+   },
+   "T-learner minus response": {
+    "qini_mean": -0.00148,
+    "ci95": [
+     -0.01289,
+     0.00994
+    ],
+    "wins": 1,
+    "splits": 5
+   },
+   "transformed outcome minus T-learner": {
+    "qini_mean": 0.00112,
+    "ci95": [
+     -0.00987,
+     0.01212
+    ],
+    "wins": 3,
+    "splits": 5
+   },
+   "X-learner minus response": {
+    "qini_mean": -0.00118,
+    "ci95": [
+     -0.01502,
+     0.01266
+    ],
+    "wins": 3,
+    "splits": 5
+   },
+   "DR-learner minus response": {
+    "qini_mean": -0.00336,
+    "ci95": [
+     -0.01591,
+     0.00918
+    ],
+    "wins": 1,
+    "splits": 5
+   },
+   "causal forest minus response": {
+    "qini_mean": -0.00461,
+    "ci95": [
+     -0.02209,
+     0.01286
+    ],
+    "wins": 1,
+    "splits": 5
+   }
+  },
+  "isotonic_minus_raw_calibration": {
+   "mean": -0.01258,
+   "ci95": [
+    -0.01478,
+    -0.01038
+   ],
+   "improves_in": 5,
+   "splits": 5
+  },
+  "isotonic_ranking_identical_to_T": true
+ }
+}

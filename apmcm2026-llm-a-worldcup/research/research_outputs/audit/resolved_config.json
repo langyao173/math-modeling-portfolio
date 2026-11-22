@@ -1,0 +1,113 @@
+{
+  "project": {
+    "name": "worldcup_forecasting",
+    "track": "closed_research"
+  },
+  "paths": {
+    "raw_dir": "data/raw",
+    "interim_dir": "data/interim",
+    "processed_dir": "data/processed",
+    "registry_dir": "data/registry",
+    "output_dir": "outputs"
+  },
+  "data": {
+    "tournaments_file": "WorldCups_preview.csv",
+    "matches_file": "WorldCupMatches.csv",
+    "players_file": "WorldCupPlayers.csv",
+    "expected_sha256": {
+      "tournaments": "a66240afe2ce2d7df5b701eebf012052193b90f33e003c9874cd3df85941003e",
+      "matches": "cb4e68bb7e080a84a82175151a2c1ce5ef4ef43fcb5111a3cf6c53f69bc92363",
+      "players": "753a68af0cd4fa38b67c7883c138700dfb37544f1ed898b1d176a03f92748d67"
+    }
+  },
+  "protocol": {
+    "train_end_year": 2010,
+    "final_test_year": 2014,
+    "selection_test_years": [
+      1986,
+      1990,
+      1994,
+      1998,
+      2002,
+      2006,
+      2010
+    ],
+    "information_sets": [
+      "pre_match",
+      "kickoff",
+      "half_time"
+    ],
+    "official_outcome_target": "scoreline_result",
+    "2018_actual_total_goals": 169,
+    "2018_inputs": {
+      "qualified_teams": 32,
+      "matches_played": 64,
+      "attendance_strategy": "pre_2018_log_linear_forecast"
+    }
+  },
+  "models": {
+    "aggregate_baseline": "aggregate_ols",
+    "match_baseline": "match_ols",
+    "outcome_baseline": "outcome_logit",
+    "poisson_alpha": 0.5,
+    "time_decay_half_life_years": 12.0,
+    "max_score": 12,
+    "calibration": "temperature",
+    "ensemble_weight_grid": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ]
+  },
+  "runtime": {
+    "seeds": [
+      1729,
+      2718,
+      31415,
+      57721,
+      65537
+    ],
+    "primary_seed": 1729,
+    "n_jobs": 1,
+    "figure_dpi": 300,
+    "clean_outputs": true
+  },
+  "scenarios": {
+    "2026_format": {
+      "qualified_teams": 48,
+      "matches_played": 104,
+      "source": "FIFA format fact; not a training observation"
+    },
+    "half_time_demo": {
+      "stage": "group_stage",
+      "half_time_home_goals": 1,
+      "half_time_away_goals": 0,
+      "attendance": 45000
+    },
+    "outcome_demo": {
+      "home_team_initials": "BRA",
+      "away_team_initials": "GER",
+      "label": "scenario_demo_only_data_cutoff_2014"
+    }
+  },
+  "research": {
+    "enable_dynamic_features": true,
+    "enable_player_history": true,
+    "enable_dixon_coles": true,
+    "promotion_gate": {
+      "primary_metric": "log_loss",
+      "minimum_fold_win_fraction": 0.5,
+      "accuracy_non_degradation_tolerance": 0.02,
+      "calibration_non_degradation_tolerance": 0.02,
+      "max_runtime_seconds_per_fold": 10.0,
+      "max_probability_invariant_error": 1e-10,
+      "max_determinism_error": 1e-12
+    },
+    "advanced_evidence_dir": "temp/advanced_evidence",
+    "advanced_orchestration_script": "scripts/run_advanced_experiments.py",
+    "advanced_timeout_seconds": 14400,
+    "execution_contract": "The bundled advanced all-stage state machine must finish or verify its cached checkpoints before the production process may read combined raw data."
+  }
+}

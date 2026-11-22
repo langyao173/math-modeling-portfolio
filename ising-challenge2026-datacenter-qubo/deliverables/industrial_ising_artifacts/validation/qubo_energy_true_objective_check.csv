@@ -1,0 +1,8 @@
+﻿family,samples,qubo_energy_vs_true_objective_corr,qubo_energy_vs_true_objective_rank_corr,qubo_energy_vs_recourse_only_corr,best_qubo_oracle,best_true_objective_oracle,best_recourse_only_oracle,best_oracle_match
+base_lns,3,0.9999999213930543,0.5,-0.982713708011001,greedy_one_hot,incumbent,random_restart_20,0
+aligned_recourse_lns,3,0.9999999993854816,0.5,-0.998684038679018,greedy_one_hot,incumbent,random_restart_20,0
+tail_cvar_lns,3,0.9999998929243102,0.5,-0.9835145169780438,greedy_one_hot,incumbent,random_restart_20,0
+cloud_sparse_tail_lns,3,0.9999999998823035,0.5,-0.9830511322453523,greedy_one_hot,incumbent,random_restart_20,0
+dummy_rescue_lns,3,0.9999999970698539,0.5,-0.9999305766572638,greedy_one_hot,incumbent,random_restart_20,0
+peak_shave_lns,4,0.9999930894001765,0.7999999999999999,-0.9949164581478287,greedy_one_hot,cloud_balanced,random_restart_20,0
+renewable_absorb_lns,3,0.9999996929144152,0.5,0.8003247937455163,greedy_one_hot,incumbent,incumbent,0

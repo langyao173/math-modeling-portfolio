@@ -1,0 +1,11 @@
+{
+  "action_evidence_scenarios": 6,
+  "browser_server_rules_match": true,
+  "future_evidence_blocks_retention": true,
+  "unknown_action_handoff": true,
+  "new_qualification_refresh": true,
+  "second_person_review": true,
+  "idempotent_case_write": true,
+  "measurement_type": "automated_software_verification",
+  "human_participants": 0
+}

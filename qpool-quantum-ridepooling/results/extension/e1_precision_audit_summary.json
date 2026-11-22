@@ -1,0 +1,121 @@
+{
+  "frozen_instances": 435,
+  "instances_fully_solved_by_reduction": 295,
+  "median_candidates": 10.0,
+  "median_vars_after_reduction": 0.0,
+  "components_with_>=2_vars": 178,
+  "components_fitting_550_spins_and_int8_with_rho>=1": 169,
+  "largest_component_vars": 257,
+  "rho_ladder_distribution": {
+    "0.25": 3,
+    "0.5": 6,
+    "1.0": 10,
+    "2.0": 10,
+    "4.0": 15,
+    "8.0": 18,
+    "16.0": 10,
+    "32.0": 106
+  },
+  "by_precision_class": {
+    "degenerate (rho<1)": {
+      "components": 9,
+      "median_vars": 167.0,
+      "max_vars": 257,
+      "share_with_ties_ladder": 1.0,
+      "share_with_ties_fine": 1.0,
+      "share_upper_tie_is_original_opt_ladder": 0.4444444444444444,
+      "share_upper_tie_is_original_opt_fine": 0.2222222222222222,
+      "worst_tie_loss_vehmin_ladder": 4068.999999999999,
+      "worst_tie_loss_vehmin_fine": 3887.999999999999,
+      "best_tie_loss_vehmin_ladder": 46.99999999999949,
+      "best_tie_loss_vehmin_fine": 90.99999999999963,
+      "after_polish_loss_vehmin_ladder": 64.99999999999973,
+      "after_polish_loss_vehmin_fine": 124.99999999999989,
+      "median_rho_gain_fine_over_ladder": 1.0,
+      "median_bound_over_actual_worst_loss": 5.984766050054407,
+      "polish_reaches_tie_max_share_ladder": 0.7777777777777778
+    },
+    "intermediate (1<=rho<32)": {
+      "components": 63,
+      "median_vars": 25.0,
+      "max_vars": 138,
+      "share_with_ties_ladder": 0.8253968253968254,
+      "share_with_ties_fine": 0.7619047619047619,
+      "share_upper_tie_is_original_opt_ladder": 0.9523809523809523,
+      "share_upper_tie_is_original_opt_fine": 0.8888888888888888,
+      "worst_tie_loss_vehmin_ladder": 1523.9999999999984,
+      "worst_tie_loss_vehmin_fine": 1208.9999999999989,
+      "best_tie_loss_vehmin_ladder": 12.999999999999234,
+      "best_tie_loss_vehmin_fine": 50.999999999999325,
+      "after_polish_loss_vehmin_ladder": 13.99999999999979,
+      "after_polish_loss_vehmin_fine": 76.9999999999994,
+      "median_rho_gain_fine_over_ladder": 1.46875,
+      "median_bound_over_actual_worst_loss": 9.25925925925929,
+      "polish_reaches_tie_max_share_ladder": 0.9841269841269841
+    },
+    "ladder top (rho=32)": {
+      "components": 106,
+      "median_vars": 3.0,
+      "max_vars": 11,
+      "share_with_ties_ladder": 0.14150943396226415,
+      "share_with_ties_fine": 0.14150943396226415,
+      "share_upper_tie_is_original_opt_ladder": 0.9905660377358491,
+      "share_upper_tie_is_original_opt_fine": 0.9905660377358491,
+      "worst_tie_loss_vehmin_ladder": 29.999999999999886,
+      "worst_tie_loss_vehmin_fine": 29.999999999999886,
+      "best_tie_loss_vehmin_ladder": 0.9999999999998899,
+      "best_tie_loss_vehmin_fine": 0.9999999999998899,
+      "after_polish_loss_vehmin_ladder": 0.9999999999998899,
+      "after_polish_loss_vehmin_fine": 0.9999999999998899,
+      "median_rho_gain_fine_over_ladder": 1.0,
+      "median_bound_over_actual_worst_loss": 7.8124999999998845,
+      "polish_reaches_tie_max_share_ladder": 1.0
+    }
+  },
+  "all_nondegenerate": {
+    "components": 169,
+    "median_vars": 5.0,
+    "max_vars": 138,
+    "share_with_ties_ladder": 0.39644970414201186,
+    "share_with_ties_fine": 0.3727810650887574,
+    "share_upper_tie_is_original_opt_ladder": 0.9763313609467456,
+    "share_upper_tie_is_original_opt_fine": 0.9526627218934911,
+    "worst_tie_loss_vehmin_ladder": 1553.9999999999982,
+    "worst_tie_loss_vehmin_fine": 1238.9999999999986,
+    "best_tie_loss_vehmin_ladder": 13.999999999999124,
+    "best_tie_loss_vehmin_fine": 51.99999999999921,
+    "after_polish_loss_vehmin_ladder": 14.99999999999968,
+    "after_polish_loss_vehmin_fine": 77.99999999999929,
+    "median_rho_gain_fine_over_ladder": 1.0,
+    "median_bound_over_actual_worst_loss": 7.812500000000002,
+    "polish_reaches_tie_max_share_ladder": 0.9940828402366864
+  },
+  "runtime_s": 16.776947021484375,
+  "paired_fine_vs_ladder_components": {
+    "after_polish": {
+      "fine_better": 4,
+      "equal": 158,
+      "fine_worse": 7
+    },
+    "best_tie": {
+      "fine_better": 3,
+      "equal": 159,
+      "fine_worse": 7
+    },
+    "worst_tie": {
+      "fine_better": 32,
+      "equal": 121,
+      "fine_worse": 16
+    }
+  },
+  "deployability_by_condition": {
+    "f16_e300_s11": 1.0,
+    "f16_e60_s11": 1.0,
+    "f32_e300_s11": 0.9565,
+    "f32_e60_s11": 1.0,
+    "f48_e300_s11": 0.7391,
+    "f48_e60_s11": 0.9798,
+    "f8_e300_s11": 1.0,
+    "f8_e60_s11": 1.0
+  }
+}

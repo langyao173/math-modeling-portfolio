@@ -1,0 +1,2986 @@
+[
+  {
+    "name": "QP_A01",
+    "stage": "raw_selected",
+    "source_epoch_s": 240,
+    "checked": "unique new requests and vehicles; exactly one pickup before dropoff for each new request",
+    "not_checked": "snapshot does not contain initial vehicle state/ETA; no replay of live route timing",
+    "plans": [
+      {
+        "full_candidate_index": 24,
+        "vehicle": 13,
+        "requests": [
+          2,
+          3,
+          4
+        ],
+        "route": [
+          {
+            "rid": 3,
+            "node": 5,
+            "pickup": true
+          },
+          {
+            "rid": 2,
+            "node": 7,
+            "pickup": true
+          },
+          {
+            "rid": 4,
+            "node": 7,
+            "pickup": true
+          },
+          {
+            "rid": 3,
+            "node": 7,
+            "pickup": false
+          },
+          {
+            "rid": 2,
+            "node": 4,
+            "pickup": false
+          },
+          {
+            "rid": 4,
+            "node": 3,
+            "pickup": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "QP_A01",
+    "stage": "after_classical_polish",
+    "source_epoch_s": 240,
+    "checked": "unique new requests and vehicles; exactly one pickup before dropoff for each new request",
+    "not_checked": "snapshot does not contain initial vehicle state/ETA; no replay of live route timing",
+    "plans": [
+      {
+        "full_candidate_index": 24,
+        "vehicle": 13,
+        "requests": [
+          2,
+          3,
+          4
+        ],
+        "route": [
+          {
+            "rid": 3,
+            "node": 5,
+            "pickup": true
+          },
+          {
+            "rid": 2,
+            "node": 7,
+            "pickup": true
+          },
+          {
+            "rid": 4,
+            "node": 7,
+            "pickup": true
+          },
+          {
+            "rid": 3,
+            "node": 7,
+            "pickup": false
+          },
+          {
+            "rid": 2,
+            "node": 4,
+            "pickup": false
+          },
+          {
+            "rid": 4,
+            "node": 3,
+            "pickup": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "QP_A01",
+    "stage": "classical_seed",
+    "source_epoch_s": 240,
+    "checked": "unique new requests and vehicles; exactly one pickup before dropoff for each new request",
+    "not_checked": "snapshot does not contain initial vehicle state/ETA; no replay of live route timing",
+    "plans": [
+      {
+        "full_candidate_index": 24,
+        "vehicle": 13,
+        "requests": [
+          2,
+          3,
+          4
+        ],
+        "route": [
+          {
+            "rid": 3,
+            "node": 5,
+            "pickup": true
+          },
+          {
+            "rid": 2,
+            "node": 7,
+            "pickup": true
+          },
+          {
+            "rid": 4,
+            "node": 7,
+            "pickup": true
+          },
+          {
+            "rid": 3,
+            "node": 7,
+            "pickup": false
+          },
+          {
+            "rid": 2,
+            "node": 4,
+            "pickup": false
+          },
+          {
+            "rid": 4,
+            "node": 3,
+            "pickup": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "QP_A02",
+    "stage": "raw_selected",
+    "source_epoch_s": 600,
+    "checked": "unique new requests and vehicles; exactly one pickup before dropoff for each new request",
+    "not_checked": "snapshot does not contain initial vehicle state/ETA; no replay of live route timing",
+    "plans": [
+      {
+        "full_candidate_index": 8,
+        "vehicle": 6,
+        "requests": [
+          14
+        ],
+        "route": [
+          {
+            "rid": 14,
+            "node": 6,
+            "pickup": true
+          },
+          {
+            "rid": 14,
+            "node": 21,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 23,
+        "vehicle": 12,
+        "requests": [
+          16
+        ],
+        "route": [
+          {
+            "rid": 16,
+            "node": 13,
+            "pickup": true
+          },
+          {
+            "rid": 16,
+            "node": 12,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 66,
+        "vehicle": 29,
+        "requests": [
+          17
+        ],
+        "route": [
+          {
+            "rid": 17,
+            "node": 4,
+            "pickup": true
+          },
+          {
+            "rid": 17,
+            "node": 14,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 71,
+        "vehicle": 30,
+        "requests": [
+          15,
+          18
+        ],
+        "route": [
+          {
+            "rid": 15,
+            "node": 4,
+            "pickup": true
+          },
+          {
+            "rid": 18,
+            "node": 3,
+            "pickup": true
+          },
+          {
+            "rid": 18,
+            "node": 7,
+            "pickup": false
+          },
+          {
+            "rid": 15,
+            "node": 18,
+            "pickup": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "QP_A02",
+    "stage": "after_classical_polish",
+    "source_epoch_s": 600,
+    "checked": "unique new requests and vehicles; exactly one pickup before dropoff for each new request",
+    "not_checked": "snapshot does not contain initial vehicle state/ETA; no replay of live route timing",
+    "plans": [
+      {
+        "full_candidate_index": 1,
+        "vehicle": 1,
+        "requests": [
+          15,
+          17
+        ],
+        "route": [
+          {
+            "rid": 10,
+            "node": 2,
+            "pickup": true
+          },
+          {
+            "rid": 15,
+            "node": 4,
+            "pickup": true
+          },
+          {
+            "rid": 17,
+            "node": 4,
+            "pickup": true
+          },
+          {
+            "rid": 10,
+            "node": 16,
+            "pickup": false
+          },
+          {
+            "rid": 15,
+            "node": 18,
+            "pickup": false
+          },
+          {
+            "rid": 17,
+            "node": 14,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 8,
+        "vehicle": 6,
+        "requests": [
+          14
+        ],
+        "route": [
+          {
+            "rid": 14,
+            "node": 6,
+            "pickup": true
+          },
+          {
+            "rid": 14,
+            "node": 21,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 16,
+        "vehicle": 9,
+        "requests": [
+          18
+        ],
+        "route": [
+          {
+            "rid": 18,
+            "node": 3,
+            "pickup": true
+          },
+          {
+            "rid": 18,
+            "node": 7,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 23,
+        "vehicle": 12,
+        "requests": [
+          16
+        ],
+        "route": [
+          {
+            "rid": 16,
+            "node": 13,
+            "pickup": true
+          },
+          {
+            "rid": 16,
+            "node": 12,
+            "pickup": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "QP_A02",
+    "stage": "classical_seed",
+    "source_epoch_s": 600,
+    "checked": "unique new requests and vehicles; exactly one pickup before dropoff for each new request",
+    "not_checked": "snapshot does not contain initial vehicle state/ETA; no replay of live route timing",
+    "plans": [
+      {
+        "full_candidate_index": 1,
+        "vehicle": 1,
+        "requests": [
+          15,
+          17
+        ],
+        "route": [
+          {
+            "rid": 10,
+            "node": 2,
+            "pickup": true
+          },
+          {
+            "rid": 15,
+            "node": 4,
+            "pickup": true
+          },
+          {
+            "rid": 17,
+            "node": 4,
+            "pickup": true
+          },
+          {
+            "rid": 10,
+            "node": 16,
+            "pickup": false
+          },
+          {
+            "rid": 15,
+            "node": 18,
+            "pickup": false
+          },
+          {
+            "rid": 17,
+            "node": 14,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 8,
+        "vehicle": 6,
+        "requests": [
+          14
+        ],
+        "route": [
+          {
+            "rid": 14,
+            "node": 6,
+            "pickup": true
+          },
+          {
+            "rid": 14,
+            "node": 21,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 23,
+        "vehicle": 12,
+        "requests": [
+          16
+        ],
+        "route": [
+          {
+            "rid": 16,
+            "node": 13,
+            "pickup": true
+          },
+          {
+            "rid": 16,
+            "node": 12,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 35,
+        "vehicle": 15,
+        "requests": [
+          18
+        ],
+        "route": [
+          {
+            "rid": 18,
+            "node": 3,
+            "pickup": true
+          },
+          {
+            "rid": 18,
+            "node": 7,
+            "pickup": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "QP_A03",
+    "stage": "raw_selected",
+    "source_epoch_s": 3300,
+    "checked": "unique new requests and vehicles; exactly one pickup before dropoff for each new request",
+    "not_checked": "snapshot does not contain initial vehicle state/ETA; no replay of live route timing",
+    "plans": [
+      {
+        "full_candidate_index": 9,
+        "vehicle": 4,
+        "requests": [
+          111,
+          112
+        ],
+        "route": [
+          {
+            "rid": 111,
+            "node": 0,
+            "pickup": true
+          },
+          {
+            "rid": 112,
+            "node": 2,
+            "pickup": true
+          },
+          {
+            "rid": 112,
+            "node": 22,
+            "pickup": false
+          },
+          {
+            "rid": 111,
+            "node": 14,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 72,
+        "vehicle": 35,
+        "requests": [
+          109,
+          114
+        ],
+        "route": [
+          {
+            "rid": 109,
+            "node": 12,
+            "pickup": true
+          },
+          {
+            "rid": 114,
+            "node": 23,
+            "pickup": true
+          },
+          {
+            "rid": 114,
+            "node": 20,
+            "pickup": false
+          },
+          {
+            "rid": 109,
+            "node": 16,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 76,
+        "vehicle": 36,
+        "requests": [
+          110
+        ],
+        "route": [
+          {
+            "rid": 110,
+            "node": 4,
+            "pickup": true
+          },
+          {
+            "rid": 110,
+            "node": 1,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 94,
+        "vehicle": 42,
+        "requests": [
+          113
+        ],
+        "route": [
+          {
+            "rid": 92,
+            "node": 14,
+            "pickup": false
+          },
+          {
+            "rid": 113,
+            "node": 14,
+            "pickup": true
+          },
+          {
+            "rid": 113,
+            "node": 21,
+            "pickup": false
+          },
+          {
+            "rid": 73,
+            "node": 22,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 99,
+        "vehicle": 44,
+        "requests": [
+          108,
+          115
+        ],
+        "route": [
+          {
+            "rid": 108,
+            "node": 7,
+            "pickup": true
+          },
+          {
+            "rid": 115,
+            "node": 15,
+            "pickup": true
+          },
+          {
+            "rid": 115,
+            "node": 17,
+            "pickup": false
+          },
+          {
+            "rid": 108,
+            "node": 22,
+            "pickup": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "QP_A03",
+    "stage": "after_classical_polish",
+    "source_epoch_s": 3300,
+    "checked": "unique new requests and vehicles; exactly one pickup before dropoff for each new request",
+    "not_checked": "snapshot does not contain initial vehicle state/ETA; no replay of live route timing",
+    "plans": [
+      {
+        "full_candidate_index": 9,
+        "vehicle": 4,
+        "requests": [
+          111,
+          112
+        ],
+        "route": [
+          {
+            "rid": 111,
+            "node": 0,
+            "pickup": true
+          },
+          {
+            "rid": 112,
+            "node": 2,
+            "pickup": true
+          },
+          {
+            "rid": 112,
+            "node": 22,
+            "pickup": false
+          },
+          {
+            "rid": 111,
+            "node": 14,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 72,
+        "vehicle": 35,
+        "requests": [
+          109,
+          114
+        ],
+        "route": [
+          {
+            "rid": 109,
+            "node": 12,
+            "pickup": true
+          },
+          {
+            "rid": 114,
+            "node": 23,
+            "pickup": true
+          },
+          {
+            "rid": 114,
+            "node": 20,
+            "pickup": false
+          },
+          {
+            "rid": 109,
+            "node": 16,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 76,
+        "vehicle": 36,
+        "requests": [
+          110
+        ],
+        "route": [
+          {
+            "rid": 110,
+            "node": 4,
+            "pickup": true
+          },
+          {
+            "rid": 110,
+            "node": 1,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 94,
+        "vehicle": 42,
+        "requests": [
+          113
+        ],
+        "route": [
+          {
+            "rid": 92,
+            "node": 14,
+            "pickup": false
+          },
+          {
+            "rid": 113,
+            "node": 14,
+            "pickup": true
+          },
+          {
+            "rid": 113,
+            "node": 21,
+            "pickup": false
+          },
+          {
+            "rid": 73,
+            "node": 22,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 99,
+        "vehicle": 44,
+        "requests": [
+          108,
+          115
+        ],
+        "route": [
+          {
+            "rid": 108,
+            "node": 7,
+            "pickup": true
+          },
+          {
+            "rid": 115,
+            "node": 15,
+            "pickup": true
+          },
+          {
+            "rid": 115,
+            "node": 17,
+            "pickup": false
+          },
+          {
+            "rid": 108,
+            "node": 22,
+            "pickup": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "QP_A03",
+    "stage": "classical_seed",
+    "source_epoch_s": 3300,
+    "checked": "unique new requests and vehicles; exactly one pickup before dropoff for each new request",
+    "not_checked": "snapshot does not contain initial vehicle state/ETA; no replay of live route timing",
+    "plans": [
+      {
+        "full_candidate_index": 9,
+        "vehicle": 4,
+        "requests": [
+          111,
+          112
+        ],
+        "route": [
+          {
+            "rid": 111,
+            "node": 0,
+            "pickup": true
+          },
+          {
+            "rid": 112,
+            "node": 2,
+            "pickup": true
+          },
+          {
+            "rid": 112,
+            "node": 22,
+            "pickup": false
+          },
+          {
+            "rid": 111,
+            "node": 14,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 72,
+        "vehicle": 35,
+        "requests": [
+          109,
+          114
+        ],
+        "route": [
+          {
+            "rid": 109,
+            "node": 12,
+            "pickup": true
+          },
+          {
+            "rid": 114,
+            "node": 23,
+            "pickup": true
+          },
+          {
+            "rid": 114,
+            "node": 20,
+            "pickup": false
+          },
+          {
+            "rid": 109,
+            "node": 16,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 76,
+        "vehicle": 36,
+        "requests": [
+          110
+        ],
+        "route": [
+          {
+            "rid": 110,
+            "node": 4,
+            "pickup": true
+          },
+          {
+            "rid": 110,
+            "node": 1,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 94,
+        "vehicle": 42,
+        "requests": [
+          113
+        ],
+        "route": [
+          {
+            "rid": 92,
+            "node": 14,
+            "pickup": false
+          },
+          {
+            "rid": 113,
+            "node": 14,
+            "pickup": true
+          },
+          {
+            "rid": 113,
+            "node": 21,
+            "pickup": false
+          },
+          {
+            "rid": 73,
+            "node": 22,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 99,
+        "vehicle": 44,
+        "requests": [
+          108,
+          115
+        ],
+        "route": [
+          {
+            "rid": 108,
+            "node": 7,
+            "pickup": true
+          },
+          {
+            "rid": 115,
+            "node": 15,
+            "pickup": true
+          },
+          {
+            "rid": 115,
+            "node": 17,
+            "pickup": false
+          },
+          {
+            "rid": 108,
+            "node": 22,
+            "pickup": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "QP_A04",
+    "stage": "raw_selected",
+    "source_epoch_s": 600,
+    "checked": "unique new requests and vehicles; exactly one pickup before dropoff for each new request",
+    "not_checked": "snapshot does not contain initial vehicle state/ETA; no replay of live route timing",
+    "plans": [
+      {
+        "full_candidate_index": 19,
+        "vehicle": 1,
+        "requests": [
+          15,
+          17,
+          18
+        ],
+        "route": [
+          {
+            "rid": 18,
+            "node": 3,
+            "pickup": true
+          },
+          {
+            "rid": 15,
+            "node": 4,
+            "pickup": true
+          },
+          {
+            "rid": 17,
+            "node": 4,
+            "pickup": true
+          },
+          {
+            "rid": 18,
+            "node": 7,
+            "pickup": false
+          },
+          {
+            "rid": 15,
+            "node": 18,
+            "pickup": false
+          },
+          {
+            "rid": 17,
+            "node": 14,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 25,
+        "vehicle": 2,
+        "requests": [
+          14
+        ],
+        "route": [
+          {
+            "rid": 14,
+            "node": 6,
+            "pickup": true
+          },
+          {
+            "rid": 14,
+            "node": 21,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 26,
+        "vehicle": 4,
+        "requests": [
+          7
+        ],
+        "route": [
+          {
+            "rid": 5,
+            "node": 16,
+            "pickup": false
+          },
+          {
+            "rid": 7,
+            "node": 15,
+            "pickup": true
+          },
+          {
+            "rid": 7,
+            "node": 7,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 27,
+        "vehicle": 5,
+        "requests": [
+          6
+        ],
+        "route": [
+          {
+            "rid": 6,
+            "node": 21,
+            "pickup": true
+          },
+          {
+            "rid": 6,
+            "node": 9,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 36,
+        "vehicle": 7,
+        "requests": [
+          8,
+          10
+        ],
+        "route": [
+          {
+            "rid": 8,
+            "node": 0,
+            "pickup": true
+          },
+          {
+            "rid": 10,
+            "node": 2,
+            "pickup": true
+          },
+          {
+            "rid": 8,
+            "node": 14,
+            "pickup": false
+          },
+          {
+            "rid": 10,
+            "node": 16,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 47,
+        "vehicle": 9,
+        "requests": [
+          9
+        ],
+        "route": [
+          {
+            "rid": 3,
+            "node": 5,
+            "pickup": true
+          },
+          {
+            "rid": 3,
+            "node": 7,
+            "pickup": false
+          },
+          {
+            "rid": 9,
+            "node": 7,
+            "pickup": true
+          },
+          {
+            "rid": 9,
+            "node": 14,
+            "pickup": false
+          },
+          {
+            "rid": 1,
+            "node": 21,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 60,
+        "vehicle": 12,
+        "requests": [
+          11,
+          16
+        ],
+        "route": [
+          {
+            "rid": 16,
+            "node": 13,
+            "pickup": true
+          },
+          {
+            "rid": 11,
+            "node": 23,
+            "pickup": true
+          },
+          {
+            "rid": 11,
+            "node": 22,
+            "pickup": false
+          },
+          {
+            "rid": 16,
+            "node": 12,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 64,
+        "vehicle": 13,
+        "requests": [
+          13
+        ],
+        "route": [
+          {
+            "rid": 13,
+            "node": 7,
+            "pickup": true
+          },
+          {
+            "rid": 13,
+            "node": 10,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 74,
+        "vehicle": 15,
+        "requests": [
+          12
+        ],
+        "route": [
+          {
+            "rid": 12,
+            "node": 3,
+            "pickup": true
+          },
+          {
+            "rid": 12,
+            "node": 23,
+            "pickup": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "QP_A04",
+    "stage": "after_classical_polish",
+    "source_epoch_s": 600,
+    "checked": "unique new requests and vehicles; exactly one pickup before dropoff for each new request",
+    "not_checked": "snapshot does not contain initial vehicle state/ETA; no replay of live route timing",
+    "plans": [
+      {
+        "full_candidate_index": 7,
+        "vehicle": 0,
+        "requests": [
+          15,
+          17,
+          18
+        ],
+        "route": [
+          {
+            "rid": 18,
+            "node": 3,
+            "pickup": true
+          },
+          {
+            "rid": 15,
+            "node": 4,
+            "pickup": true
+          },
+          {
+            "rid": 17,
+            "node": 4,
+            "pickup": true
+          },
+          {
+            "rid": 18,
+            "node": 7,
+            "pickup": false
+          },
+          {
+            "rid": 15,
+            "node": 18,
+            "pickup": false
+          },
+          {
+            "rid": 17,
+            "node": 14,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 25,
+        "vehicle": 2,
+        "requests": [
+          14
+        ],
+        "route": [
+          {
+            "rid": 14,
+            "node": 6,
+            "pickup": true
+          },
+          {
+            "rid": 14,
+            "node": 21,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 26,
+        "vehicle": 4,
+        "requests": [
+          7
+        ],
+        "route": [
+          {
+            "rid": 5,
+            "node": 16,
+            "pickup": false
+          },
+          {
+            "rid": 7,
+            "node": 15,
+            "pickup": true
+          },
+          {
+            "rid": 7,
+            "node": 7,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 27,
+        "vehicle": 5,
+        "requests": [
+          6
+        ],
+        "route": [
+          {
+            "rid": 6,
+            "node": 21,
+            "pickup": true
+          },
+          {
+            "rid": 6,
+            "node": 9,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 29,
+        "vehicle": 6,
+        "requests": [
+          13
+        ],
+        "route": [
+          {
+            "rid": 4,
+            "node": 7,
+            "pickup": true
+          },
+          {
+            "rid": 13,
+            "node": 7,
+            "pickup": true
+          },
+          {
+            "rid": 2,
+            "node": 4,
+            "pickup": false
+          },
+          {
+            "rid": 4,
+            "node": 3,
+            "pickup": false
+          },
+          {
+            "rid": 13,
+            "node": 10,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 36,
+        "vehicle": 7,
+        "requests": [
+          8,
+          10
+        ],
+        "route": [
+          {
+            "rid": 8,
+            "node": 0,
+            "pickup": true
+          },
+          {
+            "rid": 10,
+            "node": 2,
+            "pickup": true
+          },
+          {
+            "rid": 8,
+            "node": 14,
+            "pickup": false
+          },
+          {
+            "rid": 10,
+            "node": 16,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 47,
+        "vehicle": 9,
+        "requests": [
+          9
+        ],
+        "route": [
+          {
+            "rid": 3,
+            "node": 5,
+            "pickup": true
+          },
+          {
+            "rid": 3,
+            "node": 7,
+            "pickup": false
+          },
+          {
+            "rid": 9,
+            "node": 7,
+            "pickup": true
+          },
+          {
+            "rid": 9,
+            "node": 14,
+            "pickup": false
+          },
+          {
+            "rid": 1,
+            "node": 21,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 60,
+        "vehicle": 12,
+        "requests": [
+          11,
+          16
+        ],
+        "route": [
+          {
+            "rid": 16,
+            "node": 13,
+            "pickup": true
+          },
+          {
+            "rid": 11,
+            "node": 23,
+            "pickup": true
+          },
+          {
+            "rid": 11,
+            "node": 22,
+            "pickup": false
+          },
+          {
+            "rid": 16,
+            "node": 12,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 74,
+        "vehicle": 15,
+        "requests": [
+          12
+        ],
+        "route": [
+          {
+            "rid": 12,
+            "node": 3,
+            "pickup": true
+          },
+          {
+            "rid": 12,
+            "node": 23,
+            "pickup": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "QP_A04",
+    "stage": "classical_seed",
+    "source_epoch_s": 600,
+    "checked": "unique new requests and vehicles; exactly one pickup before dropoff for each new request",
+    "not_checked": "snapshot does not contain initial vehicle state/ETA; no replay of live route timing",
+    "plans": [
+      {
+        "full_candidate_index": 7,
+        "vehicle": 0,
+        "requests": [
+          15,
+          17,
+          18
+        ],
+        "route": [
+          {
+            "rid": 18,
+            "node": 3,
+            "pickup": true
+          },
+          {
+            "rid": 15,
+            "node": 4,
+            "pickup": true
+          },
+          {
+            "rid": 17,
+            "node": 4,
+            "pickup": true
+          },
+          {
+            "rid": 18,
+            "node": 7,
+            "pickup": false
+          },
+          {
+            "rid": 15,
+            "node": 18,
+            "pickup": false
+          },
+          {
+            "rid": 17,
+            "node": 14,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 15,
+        "vehicle": 1,
+        "requests": [
+          12
+        ],
+        "route": [
+          {
+            "rid": 12,
+            "node": 3,
+            "pickup": true
+          },
+          {
+            "rid": 12,
+            "node": 23,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 25,
+        "vehicle": 2,
+        "requests": [
+          14
+        ],
+        "route": [
+          {
+            "rid": 14,
+            "node": 6,
+            "pickup": true
+          },
+          {
+            "rid": 14,
+            "node": 21,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 26,
+        "vehicle": 4,
+        "requests": [
+          7
+        ],
+        "route": [
+          {
+            "rid": 5,
+            "node": 16,
+            "pickup": false
+          },
+          {
+            "rid": 7,
+            "node": 15,
+            "pickup": true
+          },
+          {
+            "rid": 7,
+            "node": 7,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 27,
+        "vehicle": 5,
+        "requests": [
+          6
+        ],
+        "route": [
+          {
+            "rid": 6,
+            "node": 21,
+            "pickup": true
+          },
+          {
+            "rid": 6,
+            "node": 9,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 29,
+        "vehicle": 6,
+        "requests": [
+          13
+        ],
+        "route": [
+          {
+            "rid": 4,
+            "node": 7,
+            "pickup": true
+          },
+          {
+            "rid": 13,
+            "node": 7,
+            "pickup": true
+          },
+          {
+            "rid": 2,
+            "node": 4,
+            "pickup": false
+          },
+          {
+            "rid": 4,
+            "node": 3,
+            "pickup": false
+          },
+          {
+            "rid": 13,
+            "node": 10,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 36,
+        "vehicle": 7,
+        "requests": [
+          8,
+          10
+        ],
+        "route": [
+          {
+            "rid": 8,
+            "node": 0,
+            "pickup": true
+          },
+          {
+            "rid": 10,
+            "node": 2,
+            "pickup": true
+          },
+          {
+            "rid": 8,
+            "node": 14,
+            "pickup": false
+          },
+          {
+            "rid": 10,
+            "node": 16,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 47,
+        "vehicle": 9,
+        "requests": [
+          9
+        ],
+        "route": [
+          {
+            "rid": 3,
+            "node": 5,
+            "pickup": true
+          },
+          {
+            "rid": 3,
+            "node": 7,
+            "pickup": false
+          },
+          {
+            "rid": 9,
+            "node": 7,
+            "pickup": true
+          },
+          {
+            "rid": 9,
+            "node": 14,
+            "pickup": false
+          },
+          {
+            "rid": 1,
+            "node": 21,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 60,
+        "vehicle": 12,
+        "requests": [
+          11,
+          16
+        ],
+        "route": [
+          {
+            "rid": 16,
+            "node": 13,
+            "pickup": true
+          },
+          {
+            "rid": 11,
+            "node": 23,
+            "pickup": true
+          },
+          {
+            "rid": 11,
+            "node": 22,
+            "pickup": false
+          },
+          {
+            "rid": 16,
+            "node": 12,
+            "pickup": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "QP_A05",
+    "stage": "raw_selected",
+    "source_epoch_s": 600,
+    "checked": "unique new requests and vehicles; exactly one pickup before dropoff for each new request",
+    "not_checked": "snapshot does not contain initial vehicle state/ETA; no replay of live route timing",
+    "plans": [
+      {
+        "full_candidate_index": 13,
+        "vehicle": 1,
+        "requests": [
+          10,
+          12
+        ],
+        "route": [
+          {
+            "rid": 12,
+            "node": 3,
+            "pickup": true
+          },
+          {
+            "rid": 10,
+            "node": 2,
+            "pickup": true
+          },
+          {
+            "rid": 12,
+            "node": 23,
+            "pickup": false
+          },
+          {
+            "rid": 10,
+            "node": 16,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 36,
+        "vehicle": 7,
+        "requests": [
+          8
+        ],
+        "route": [
+          {
+            "rid": 8,
+            "node": 0,
+            "pickup": true
+          },
+          {
+            "rid": 8,
+            "node": 14,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 71,
+        "vehicle": 12,
+        "requests": [
+          11,
+          16
+        ],
+        "route": [
+          {
+            "rid": 16,
+            "node": 13,
+            "pickup": true
+          },
+          {
+            "rid": 11,
+            "node": 23,
+            "pickup": true
+          },
+          {
+            "rid": 11,
+            "node": 22,
+            "pickup": false
+          },
+          {
+            "rid": 16,
+            "node": 12,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 89,
+        "vehicle": 15,
+        "requests": [
+          15,
+          17,
+          18
+        ],
+        "route": [
+          {
+            "rid": 18,
+            "node": 3,
+            "pickup": true
+          },
+          {
+            "rid": 15,
+            "node": 4,
+            "pickup": true
+          },
+          {
+            "rid": 17,
+            "node": 4,
+            "pickup": true
+          },
+          {
+            "rid": 18,
+            "node": 7,
+            "pickup": false
+          },
+          {
+            "rid": 15,
+            "node": 18,
+            "pickup": false
+          },
+          {
+            "rid": 17,
+            "node": 14,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 107,
+        "vehicle": 20,
+        "requests": [
+          6
+        ],
+        "route": [
+          {
+            "rid": 6,
+            "node": 21,
+            "pickup": true
+          },
+          {
+            "rid": 6,
+            "node": 9,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 140,
+        "vehicle": 25,
+        "requests": [
+          7,
+          9,
+          13
+        ],
+        "route": [
+          {
+            "rid": 7,
+            "node": 15,
+            "pickup": true
+          },
+          {
+            "rid": 9,
+            "node": 7,
+            "pickup": true
+          },
+          {
+            "rid": 7,
+            "node": 7,
+            "pickup": false
+          },
+          {
+            "rid": 13,
+            "node": 7,
+            "pickup": true
+          },
+          {
+            "rid": 9,
+            "node": 14,
+            "pickup": false
+          },
+          {
+            "rid": 13,
+            "node": 10,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 161,
+        "vehicle": 29,
+        "requests": [
+          14
+        ],
+        "route": [
+          {
+            "rid": 3,
+            "node": 5,
+            "pickup": true
+          },
+          {
+            "rid": 3,
+            "node": 7,
+            "pickup": false
+          },
+          {
+            "rid": 14,
+            "node": 6,
+            "pickup": true
+          },
+          {
+            "rid": 1,
+            "node": 21,
+            "pickup": false
+          },
+          {
+            "rid": 14,
+            "node": 21,
+            "pickup": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "QP_A05",
+    "stage": "after_classical_polish",
+    "source_epoch_s": 600,
+    "checked": "unique new requests and vehicles; exactly one pickup before dropoff for each new request",
+    "not_checked": "snapshot does not contain initial vehicle state/ETA; no replay of live route timing",
+    "plans": [
+      {
+        "full_candidate_index": 13,
+        "vehicle": 1,
+        "requests": [
+          10,
+          12
+        ],
+        "route": [
+          {
+            "rid": 12,
+            "node": 3,
+            "pickup": true
+          },
+          {
+            "rid": 10,
+            "node": 2,
+            "pickup": true
+          },
+          {
+            "rid": 12,
+            "node": 23,
+            "pickup": false
+          },
+          {
+            "rid": 10,
+            "node": 16,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 36,
+        "vehicle": 7,
+        "requests": [
+          8
+        ],
+        "route": [
+          {
+            "rid": 8,
+            "node": 0,
+            "pickup": true
+          },
+          {
+            "rid": 8,
+            "node": 14,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 71,
+        "vehicle": 12,
+        "requests": [
+          11,
+          16
+        ],
+        "route": [
+          {
+            "rid": 16,
+            "node": 13,
+            "pickup": true
+          },
+          {
+            "rid": 11,
+            "node": 23,
+            "pickup": true
+          },
+          {
+            "rid": 11,
+            "node": 22,
+            "pickup": false
+          },
+          {
+            "rid": 16,
+            "node": 12,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 89,
+        "vehicle": 15,
+        "requests": [
+          15,
+          17,
+          18
+        ],
+        "route": [
+          {
+            "rid": 18,
+            "node": 3,
+            "pickup": true
+          },
+          {
+            "rid": 15,
+            "node": 4,
+            "pickup": true
+          },
+          {
+            "rid": 17,
+            "node": 4,
+            "pickup": true
+          },
+          {
+            "rid": 18,
+            "node": 7,
+            "pickup": false
+          },
+          {
+            "rid": 15,
+            "node": 18,
+            "pickup": false
+          },
+          {
+            "rid": 17,
+            "node": 14,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 107,
+        "vehicle": 20,
+        "requests": [
+          6
+        ],
+        "route": [
+          {
+            "rid": 6,
+            "node": 21,
+            "pickup": true
+          },
+          {
+            "rid": 6,
+            "node": 9,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 140,
+        "vehicle": 25,
+        "requests": [
+          7,
+          9,
+          13
+        ],
+        "route": [
+          {
+            "rid": 7,
+            "node": 15,
+            "pickup": true
+          },
+          {
+            "rid": 9,
+            "node": 7,
+            "pickup": true
+          },
+          {
+            "rid": 7,
+            "node": 7,
+            "pickup": false
+          },
+          {
+            "rid": 13,
+            "node": 7,
+            "pickup": true
+          },
+          {
+            "rid": 9,
+            "node": 14,
+            "pickup": false
+          },
+          {
+            "rid": 13,
+            "node": 10,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 161,
+        "vehicle": 29,
+        "requests": [
+          14
+        ],
+        "route": [
+          {
+            "rid": 3,
+            "node": 5,
+            "pickup": true
+          },
+          {
+            "rid": 3,
+            "node": 7,
+            "pickup": false
+          },
+          {
+            "rid": 14,
+            "node": 6,
+            "pickup": true
+          },
+          {
+            "rid": 1,
+            "node": 21,
+            "pickup": false
+          },
+          {
+            "rid": 14,
+            "node": 21,
+            "pickup": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "QP_A05",
+    "stage": "classical_seed",
+    "source_epoch_s": 600,
+    "checked": "unique new requests and vehicles; exactly one pickup before dropoff for each new request",
+    "not_checked": "snapshot does not contain initial vehicle state/ETA; no replay of live route timing",
+    "plans": [
+      {
+        "full_candidate_index": 7,
+        "vehicle": 0,
+        "requests": [
+          15,
+          17,
+          18
+        ],
+        "route": [
+          {
+            "rid": 18,
+            "node": 3,
+            "pickup": true
+          },
+          {
+            "rid": 15,
+            "node": 4,
+            "pickup": true
+          },
+          {
+            "rid": 17,
+            "node": 4,
+            "pickup": true
+          },
+          {
+            "rid": 18,
+            "node": 7,
+            "pickup": false
+          },
+          {
+            "rid": 15,
+            "node": 18,
+            "pickup": false
+          },
+          {
+            "rid": 17,
+            "node": 14,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 13,
+        "vehicle": 1,
+        "requests": [
+          10,
+          12
+        ],
+        "route": [
+          {
+            "rid": 12,
+            "node": 3,
+            "pickup": true
+          },
+          {
+            "rid": 10,
+            "node": 2,
+            "pickup": true
+          },
+          {
+            "rid": 12,
+            "node": 23,
+            "pickup": false
+          },
+          {
+            "rid": 10,
+            "node": 16,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 36,
+        "vehicle": 7,
+        "requests": [
+          8
+        ],
+        "route": [
+          {
+            "rid": 8,
+            "node": 0,
+            "pickup": true
+          },
+          {
+            "rid": 8,
+            "node": 14,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 71,
+        "vehicle": 12,
+        "requests": [
+          11,
+          16
+        ],
+        "route": [
+          {
+            "rid": 16,
+            "node": 13,
+            "pickup": true
+          },
+          {
+            "rid": 11,
+            "node": 23,
+            "pickup": true
+          },
+          {
+            "rid": 11,
+            "node": 22,
+            "pickup": false
+          },
+          {
+            "rid": 16,
+            "node": 12,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 107,
+        "vehicle": 20,
+        "requests": [
+          6
+        ],
+        "route": [
+          {
+            "rid": 6,
+            "node": 21,
+            "pickup": true
+          },
+          {
+            "rid": 6,
+            "node": 9,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 140,
+        "vehicle": 25,
+        "requests": [
+          7,
+          9,
+          13
+        ],
+        "route": [
+          {
+            "rid": 7,
+            "node": 15,
+            "pickup": true
+          },
+          {
+            "rid": 9,
+            "node": 7,
+            "pickup": true
+          },
+          {
+            "rid": 7,
+            "node": 7,
+            "pickup": false
+          },
+          {
+            "rid": 13,
+            "node": 7,
+            "pickup": true
+          },
+          {
+            "rid": 9,
+            "node": 14,
+            "pickup": false
+          },
+          {
+            "rid": 13,
+            "node": 10,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 161,
+        "vehicle": 29,
+        "requests": [
+          14
+        ],
+        "route": [
+          {
+            "rid": 3,
+            "node": 5,
+            "pickup": true
+          },
+          {
+            "rid": 3,
+            "node": 7,
+            "pickup": false
+          },
+          {
+            "rid": 14,
+            "node": 6,
+            "pickup": true
+          },
+          {
+            "rid": 1,
+            "node": 21,
+            "pickup": false
+          },
+          {
+            "rid": 14,
+            "node": 21,
+            "pickup": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "QP_A06",
+    "stage": "raw_selected",
+    "source_epoch_s": 600,
+    "checked": "unique new requests and vehicles; exactly one pickup before dropoff for each new request",
+    "not_checked": "snapshot does not contain initial vehicle state/ETA; no replay of live route timing",
+    "plans": [
+      {
+        "full_candidate_index": 37,
+        "vehicle": 7,
+        "requests": [
+          8,
+          10
+        ],
+        "route": [
+          {
+            "rid": 8,
+            "node": 0,
+            "pickup": true
+          },
+          {
+            "rid": 10,
+            "node": 2,
+            "pickup": true
+          },
+          {
+            "rid": 8,
+            "node": 14,
+            "pickup": false
+          },
+          {
+            "rid": 10,
+            "node": 16,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 71,
+        "vehicle": 12,
+        "requests": [
+          11,
+          16
+        ],
+        "route": [
+          {
+            "rid": 16,
+            "node": 13,
+            "pickup": true
+          },
+          {
+            "rid": 11,
+            "node": 23,
+            "pickup": true
+          },
+          {
+            "rid": 11,
+            "node": 22,
+            "pickup": false
+          },
+          {
+            "rid": 16,
+            "node": 12,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 140,
+        "vehicle": 25,
+        "requests": [
+          7,
+          9,
+          13
+        ],
+        "route": [
+          {
+            "rid": 7,
+            "node": 15,
+            "pickup": true
+          },
+          {
+            "rid": 9,
+            "node": 7,
+            "pickup": true
+          },
+          {
+            "rid": 7,
+            "node": 7,
+            "pickup": false
+          },
+          {
+            "rid": 13,
+            "node": 7,
+            "pickup": true
+          },
+          {
+            "rid": 9,
+            "node": 14,
+            "pickup": false
+          },
+          {
+            "rid": 13,
+            "node": 10,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 157,
+        "vehicle": 27,
+        "requests": [
+          14
+        ],
+        "route": [
+          {
+            "rid": 14,
+            "node": 6,
+            "pickup": true
+          },
+          {
+            "rid": 14,
+            "node": 21,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 160,
+        "vehicle": 28,
+        "requests": [
+          6
+        ],
+        "route": [
+          {
+            "rid": 6,
+            "node": 21,
+            "pickup": true
+          },
+          {
+            "rid": 6,
+            "node": 9,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 242,
+        "vehicle": 42,
+        "requests": [
+          15,
+          17,
+          18
+        ],
+        "route": [
+          {
+            "rid": 18,
+            "node": 3,
+            "pickup": true
+          },
+          {
+            "rid": 15,
+            "node": 4,
+            "pickup": true
+          },
+          {
+            "rid": 17,
+            "node": 4,
+            "pickup": true
+          },
+          {
+            "rid": 18,
+            "node": 7,
+            "pickup": false
+          },
+          {
+            "rid": 15,
+            "node": 18,
+            "pickup": false
+          },
+          {
+            "rid": 17,
+            "node": 14,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 247,
+        "vehicle": 44,
+        "requests": [
+          12
+        ],
+        "route": [
+          {
+            "rid": 2,
+            "node": 4,
+            "pickup": false
+          },
+          {
+            "rid": 4,
+            "node": 3,
+            "pickup": false
+          },
+          {
+            "rid": 12,
+            "node": 3,
+            "pickup": true
+          },
+          {
+            "rid": 12,
+            "node": 23,
+            "pickup": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "QP_A06",
+    "stage": "after_classical_polish",
+    "source_epoch_s": 600,
+    "checked": "unique new requests and vehicles; exactly one pickup before dropoff for each new request",
+    "not_checked": "snapshot does not contain initial vehicle state/ETA; no replay of live route timing",
+    "plans": [
+      {
+        "full_candidate_index": 37,
+        "vehicle": 7,
+        "requests": [
+          8,
+          10
+        ],
+        "route": [
+          {
+            "rid": 8,
+            "node": 0,
+            "pickup": true
+          },
+          {
+            "rid": 10,
+            "node": 2,
+            "pickup": true
+          },
+          {
+            "rid": 8,
+            "node": 14,
+            "pickup": false
+          },
+          {
+            "rid": 10,
+            "node": 16,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 71,
+        "vehicle": 12,
+        "requests": [
+          11,
+          16
+        ],
+        "route": [
+          {
+            "rid": 16,
+            "node": 13,
+            "pickup": true
+          },
+          {
+            "rid": 11,
+            "node": 23,
+            "pickup": true
+          },
+          {
+            "rid": 11,
+            "node": 22,
+            "pickup": false
+          },
+          {
+            "rid": 16,
+            "node": 12,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 140,
+        "vehicle": 25,
+        "requests": [
+          7,
+          9,
+          13
+        ],
+        "route": [
+          {
+            "rid": 7,
+            "node": 15,
+            "pickup": true
+          },
+          {
+            "rid": 9,
+            "node": 7,
+            "pickup": true
+          },
+          {
+            "rid": 7,
+            "node": 7,
+            "pickup": false
+          },
+          {
+            "rid": 13,
+            "node": 7,
+            "pickup": true
+          },
+          {
+            "rid": 9,
+            "node": 14,
+            "pickup": false
+          },
+          {
+            "rid": 13,
+            "node": 10,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 157,
+        "vehicle": 27,
+        "requests": [
+          14
+        ],
+        "route": [
+          {
+            "rid": 14,
+            "node": 6,
+            "pickup": true
+          },
+          {
+            "rid": 14,
+            "node": 21,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 160,
+        "vehicle": 28,
+        "requests": [
+          6
+        ],
+        "route": [
+          {
+            "rid": 6,
+            "node": 21,
+            "pickup": true
+          },
+          {
+            "rid": 6,
+            "node": 9,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 242,
+        "vehicle": 42,
+        "requests": [
+          15,
+          17,
+          18
+        ],
+        "route": [
+          {
+            "rid": 18,
+            "node": 3,
+            "pickup": true
+          },
+          {
+            "rid": 15,
+            "node": 4,
+            "pickup": true
+          },
+          {
+            "rid": 17,
+            "node": 4,
+            "pickup": true
+          },
+          {
+            "rid": 18,
+            "node": 7,
+            "pickup": false
+          },
+          {
+            "rid": 15,
+            "node": 18,
+            "pickup": false
+          },
+          {
+            "rid": 17,
+            "node": 14,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 247,
+        "vehicle": 44,
+        "requests": [
+          12
+        ],
+        "route": [
+          {
+            "rid": 2,
+            "node": 4,
+            "pickup": false
+          },
+          {
+            "rid": 4,
+            "node": 3,
+            "pickup": false
+          },
+          {
+            "rid": 12,
+            "node": 3,
+            "pickup": true
+          },
+          {
+            "rid": 12,
+            "node": 23,
+            "pickup": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "QP_A06",
+    "stage": "classical_seed",
+    "source_epoch_s": 600,
+    "checked": "unique new requests and vehicles; exactly one pickup before dropoff for each new request",
+    "not_checked": "snapshot does not contain initial vehicle state/ETA; no replay of live route timing",
+    "plans": [
+      {
+        "full_candidate_index": 7,
+        "vehicle": 0,
+        "requests": [
+          15,
+          17,
+          18
+        ],
+        "route": [
+          {
+            "rid": 18,
+            "node": 3,
+            "pickup": true
+          },
+          {
+            "rid": 15,
+            "node": 4,
+            "pickup": true
+          },
+          {
+            "rid": 17,
+            "node": 4,
+            "pickup": true
+          },
+          {
+            "rid": 18,
+            "node": 7,
+            "pickup": false
+          },
+          {
+            "rid": 15,
+            "node": 18,
+            "pickup": false
+          },
+          {
+            "rid": 17,
+            "node": 14,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 37,
+        "vehicle": 7,
+        "requests": [
+          8,
+          10
+        ],
+        "route": [
+          {
+            "rid": 8,
+            "node": 0,
+            "pickup": true
+          },
+          {
+            "rid": 10,
+            "node": 2,
+            "pickup": true
+          },
+          {
+            "rid": 8,
+            "node": 14,
+            "pickup": false
+          },
+          {
+            "rid": 10,
+            "node": 16,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 71,
+        "vehicle": 12,
+        "requests": [
+          11,
+          16
+        ],
+        "route": [
+          {
+            "rid": 16,
+            "node": 13,
+            "pickup": true
+          },
+          {
+            "rid": 11,
+            "node": 23,
+            "pickup": true
+          },
+          {
+            "rid": 11,
+            "node": 22,
+            "pickup": false
+          },
+          {
+            "rid": 16,
+            "node": 12,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 140,
+        "vehicle": 25,
+        "requests": [
+          7,
+          9,
+          13
+        ],
+        "route": [
+          {
+            "rid": 7,
+            "node": 15,
+            "pickup": true
+          },
+          {
+            "rid": 9,
+            "node": 7,
+            "pickup": true
+          },
+          {
+            "rid": 7,
+            "node": 7,
+            "pickup": false
+          },
+          {
+            "rid": 13,
+            "node": 7,
+            "pickup": true
+          },
+          {
+            "rid": 9,
+            "node": 14,
+            "pickup": false
+          },
+          {
+            "rid": 13,
+            "node": 10,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 157,
+        "vehicle": 27,
+        "requests": [
+          14
+        ],
+        "route": [
+          {
+            "rid": 14,
+            "node": 6,
+            "pickup": true
+          },
+          {
+            "rid": 14,
+            "node": 21,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 160,
+        "vehicle": 28,
+        "requests": [
+          6
+        ],
+        "route": [
+          {
+            "rid": 6,
+            "node": 21,
+            "pickup": true
+          },
+          {
+            "rid": 6,
+            "node": 9,
+            "pickup": false
+          }
+        ]
+      },
+      {
+        "full_candidate_index": 247,
+        "vehicle": 44,
+        "requests": [
+          12
+        ],
+        "route": [
+          {
+            "rid": 2,
+            "node": 4,
+            "pickup": false
+          },
+          {
+            "rid": 4,
+            "node": 3,
+            "pickup": false
+          },
+          {
+            "rid": 12,
+            "node": 3,
+            "pickup": true
+          },
+          {
+            "rid": 12,
+            "node": 23,
+            "pickup": false
+          }
+        ]
+      }
+    ]
+  }
+]

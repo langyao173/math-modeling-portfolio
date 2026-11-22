@@ -1,0 +1,47 @@
+{
+ "onset_terms": [
+  "intercept",
+  "edge",
+  "near",
+  "far",
+  "lspeed",
+  "overlap_behind",
+  "other_flag",
+  "recent",
+  "fam_A",
+  "fam_L"
+ ],
+ "onset_coef": [
+  -5.811882549617403,
+  0.22840238123911655,
+  0.3622851627429913,
+  0.6855976725194938,
+  1.6989092112272979,
+  3.6205523637966377,
+  1.6420987372296925,
+  2.9371489140419347,
+  -0.6936023103216049,
+  -1.5351624015012226
+ ],
+ "persistence_terms": [
+  "intercept"
+ ],
+ "persistence_coef": [
+  1.4422229137790659
+ ],
+ "baseline_rate": 0.0062671575408056865,
+ "markov_onset": 0.0011885513593386944,
+ "markov_stay": 0.8087986463620981,
+ "feature_definition": {
+  "edge": "clip((0.25-kmargin)/0.25,0,3)",
+  "near": "clip((0.30-depth)/0.10,0,3)",
+  "far": "clip((depth-0.45)/0.10,0,3)",
+  "lspeed": "log10(lag-0.1s egocentric speed + 0.01)",
+  "overlap_behind": "clip((0.18-uv_dist)/0.18,0,1)*[depth>depth_other]",
+  "recent": "any flag of the hand in the preceding 1 s",
+  "lage": "log(frames since onset)"
+ },
+ "selected_onset_model": "+task",
+ "selected_persistence_model": "constant",
+ "frozen_before_test": true
+}

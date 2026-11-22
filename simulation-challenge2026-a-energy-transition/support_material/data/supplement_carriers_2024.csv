@@ -1,0 +1,10 @@
+﻿year,carrier,metric,value,unit,qualifier,source_id,scope
+2024,hydrogen,production_mt,36.5,million_tonnes,>,nea_hydrogen_2025,China total hydrogen production includes industrial feedstock uses; report printed page 8 / PDF page 16; not final-energy consumption
+2024,hydrogen,capacity_mt_per_year,50.0,million_tonnes_per_year,>,nea_hydrogen_2025,China hydrogen production capacity at end-2024; report printed page 8 / PDF page 16; not electric power capacity
+2024,hydrogen,coal_based_production_mt,20.7,million_tonnes,approximately,nea_hydrogen_2025,China coal-based hydrogen annual production; report printed page 8 / PDF page 16
+2024,hydrogen,gas_based_production_mt,7.6,million_tonnes,approximately,nea_hydrogen_2025,China natural-gas-based hydrogen annual production; report printed page 8 / PDF page 16
+2024,hydrogen,byproduct_production_mt,7.7,million_tonnes,approximately,nea_hydrogen_2025,China industrial byproduct hydrogen annual production; report printed pages 8-9 / PDF pages 16-17
+2024,hydrogen,electrolysis_production_mt,0.32,million_tonnes,approximately,nea_hydrogen_2025,China all water-electrolysis hydrogen annual production; report printed page 9 / PDF page 17; not all renewable hydrogen
+2024,hydrogen,renewable_electrolysis_capacity_mt_per_year,0.125,million_tonnes_per_year,approximately,nea_hydrogen_2025,China built renewable-electricity water-electrolysis capacity at end-2024; report printed page 9 / PDF page 17; global 25 10000 tonnes per year is a separate statistic
+2024,biomass,capacity_gw,45.99,GW,reported,nea_renewable_2024,NEA nationwide biomass power category; not demonstrated equivalent to Ember bioenergy taxonomy; overlaps NBS thermal
+2024,biomass,generation_twh,208.3,TWh,reported,nea_renewable_2024,NEA nationwide biomass power generation paired with NEA biomass capacity; do not pair with Ember 18.61 GW

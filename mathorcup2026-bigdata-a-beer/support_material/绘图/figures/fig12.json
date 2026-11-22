@@ -1,0 +1,50 @@
+{
+  "figure": 12,
+  "caption": "同预算迁移的逐场景稳定性。四个二元光栅以共同的11来源行索引对齐，每块保留100次共同重拟合场景的原始顺序。a为B=60的低余量与η=1策略；b为B=100的低余量与η=2策略。深青色为同时满足风格分类与感官改善的联合通过，浅色为未通过；上方百分数为全部11×100结果的等权均值。c为对应来源的100次通过率，列顺序与四光栅相同。所有4400个二元结果均来自冻结候选的同一验证阶段，不是实品干预成功率；较早独立200次全预算试验保留于补图S12，未混入本图。逐场景汇总400值另存底表，未新增置信带。",
+  "figure_inches": [
+    6.7,
+    3.65
+  ],
+  "sources": [
+    {
+      "path": "plot_data/fig12_real_refit_rasters.npz",
+      "sha256": "d7abfb645c67112cc9f229c598b517311de4ff6162ed5104d39fc1d3972e706c"
+    },
+    {
+      "path": "../chart_rebuild/plot_data/fig12_frozen_means_recomputed.csv",
+      "sha256": "344f98cd55ecf38506815d74638775c5a3b1a762c39aadab37eff488580f084d"
+    },
+    {
+      "path": "plot_data/fig12_per_refit_source_mean.csv",
+      "sha256": "23bd18eddea6729efe4db957fa8c46ba5e2d3bc545632a89822bc85f98e85461"
+    }
+  ],
+  "new_model_fits": 0,
+  "new_bootstrap_resamples": 0,
+  "style": "shared_index_compositions_v4",
+  "source_count": 11,
+  "refits": 100,
+  "strategies": 4,
+  "binary_cells": 4400,
+  "means_percent": [
+    22.181818181818183,
+    56.63636363636364,
+    33.63636363636363,
+    90.0909090909091
+  ],
+  "source_order": [
+    28,
+    81,
+    90,
+    96,
+    119,
+    124,
+    139,
+    185,
+    209,
+    218,
+    230
+  ],
+  "refit_order_preserved": true,
+  "no_new_ci": true
+}

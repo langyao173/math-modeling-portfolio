@@ -1,0 +1,9 @@
+{
+  "locked_at_utc": "2026-10-25T09:50:27.907421+00:00",
+  "profiles_sha256": "57dee5a98183b5e5ab3f23d2dc465c24809f737bf42103bc8b426a9224154ea8",
+  "frontier_sha256": "fe8d4381efc501244d8bfa931961b850525b832a9b8d0a8923c1c4b2d574c988",
+  "protocol_sha256": "0322482f5df22fb30938852a0e51de169562d3fe0e69e6ed31213eee85d8bb1f",
+  "seed": 202610251503,
+  "scenarios": 100,
+  "validation_results_examined": false
+}

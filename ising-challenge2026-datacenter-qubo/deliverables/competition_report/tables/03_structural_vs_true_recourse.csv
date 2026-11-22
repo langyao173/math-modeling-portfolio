@@ -1,0 +1,2 @@
+﻿run,view,source,jobs,selected_actions,one_hot_violations,dummy_actions,qubo_energy,true_action_cost_usd,expected_recourse_cost_usd,cvar95_recourse_cost_usd,worst_scenario,peak_it_mw,mode_counts,notes
+cloudseed_peakguard_promoted,risk_accepted,cloudseed_peak_shave_contextual_recourse_polish,588,588,0,0,-46716.17798486207,5414.858289000001,35.39452387390732,47.718284903473034,green_short_peak_price,0.03164630399999999,"{""delay"": 294, ""horizon_rescue"": 7, ""normal"": 287}",

@@ -1,0 +1,14 @@
+\begin{ctab}{lcc|ccccc|c}
+\toprule
+ & & validation & \multicolumn{5}{c|}{test: mean error (mm) at horizon} & test cov.\\
+model & par. & NLL & 0.03 s & 0.1 s & 0.5 s & 1 s & 3 s & 90\,\% (1 s)\\
+\midrule
+Hold-last (baseline) & 7 & $-2.040$ & 5.63 & 16.2 & 58.4 & 84.7 & 112.8 & 0.729\\
+Constant velocity (baseline) & 7 & $-1.534$ & 3.12 & 11.9 & 83.6 & 173.7 & 498.5 & 0.821\\
+Damped velocity & 2 & $-2.248$ & 2.31 & 9.6 & 54.2 & 83.6 & 114.7 & 0.706\\
+Mean-reverting, 1 phase & 4 & $-2.410$ & 2.18 & 9.0 & 50.8 & 73.2 & 82.7 & 0.759\\
+Mean-reverting, 2 phases & 5 & $-2.441$ & -- & -- & -- & -- & -- & --\\
+Mean-reverting, 3 phases & 6 & $-2.455$ & -- & -- & -- & -- & -- & --\\
+\textbf{Mean-reverting, 4 phases} & 7 & $-2.462$ & 2.18 & 9.0 & 50.7 & 73.5 & 83.5 & 0.779\\
+\bottomrule
+\end{ctab}

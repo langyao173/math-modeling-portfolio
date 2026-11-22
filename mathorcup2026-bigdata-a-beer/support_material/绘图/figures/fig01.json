@@ -1,0 +1,43 @@
+{
+  "figure": 1,
+  "caption": "四任务建模结构。01在标准化Yz上作Y16/Y50训练内分组凸融合，在2197次公开原分R上以独立CDF-ET输出七档分布；二者为平行分支。02以真实化学与感官观测识别共变模块，并以400次配对风格分层重采样比较总体和风格内Top 3候选。03a以经验区间、跨风格收缩及Schur补生成质量条件谱。03b以固定支持双证书、联合几何和原尺度复核完成稀疏迁移。生成画像与迁移感官验收复用固定六模型基线f*，不调用融合预测器。图标均为机制示意；168/250为4VG字段重复下限观测占比，90.1%为B=100、η=2策略的来源等权联合通过率。",
+  "figure_inches": [
+    6.7,
+    4.9
+  ],
+  "sources": [
+    {
+      "path": "plot_data/fig03_per_attribute_branches_fusion.csv",
+      "sha256": "e8243eaf56adf6cec32d173e93353fa543be5ddc1d19f2aeaa88d813456a7bfc"
+    },
+    {
+      "path": "plot_data/06_network_positions.csv",
+      "sha256": "715cf5d4408a5d1de0dca999b6e0d09a237373497bd0f62f5c1989788692de80"
+    },
+    {
+      "path": "plot_data/fig08_empirical_4VG_atoms.csv",
+      "sha256": "2ebc670c170ee815f11d5c82751e145be352493e8dc9e511c2fec7f7792faa04"
+    },
+    {
+      "path": "plot_data/fig12_frozen_means_recomputed.csv",
+      "sha256": "344f98cd55ecf38506815d74638775c5a3b1a762c39aadab37eff488580f084d"
+    }
+  ],
+  "new_model_fits": 0,
+  "new_bootstrap_resamples": 0,
+  "style": "shared_index_compositions_v4",
+  "illustration_only": true,
+  "task_lanes": [
+    "01",
+    "02",
+    "03a",
+    "03b"
+  ],
+  "frozen_predictor_reuse": true,
+  "raw_model_separate_from_z_fusion": true,
+  "fused_model_distinct_from_f_star": true,
+  "attribution_uses_observed_labels": true,
+  "repeated_atom_field": "4VG",
+  "repeated_atom_n": 168,
+  "repeated_atom_denominator": 250
+}

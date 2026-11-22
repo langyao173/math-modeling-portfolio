@@ -1,0 +1,108 @@
+{
+  "status": "ROOT_REPRODUCED_RECOVERY_METADATA_FAILURE_ZERO_OFFLINE_SOLVES",
+  "utc": "2026-10-19T14:54:38.537679+00:00",
+  "failed_analysis_sha256": "47acaa292c6ec15e9d90c035407ba107ca26d48fb7ea0f37029cd124af0102ff",
+  "actual_successful_baseline_solver_calls": 2880,
+  "completed_physical_trajectory_rows": 2880,
+  "execution_validated_hours_in_original_report": 2160,
+  "offline_solver_calls": 0,
+  "offline_not_run_cases": 8,
+  "failed_bridges": [
+    {
+      "case_id": "phase21_p100_free_rolling",
+      "original_bridge_passed": false,
+      "all_360x47_values_max_difference": 0.0,
+      "summary_fields_match": true,
+      "missing_fields": {
+        "/0/post_shock_observation_hours": {
+          "missing": true
+        },
+        "/1/post_shock_observation_hours": {
+          "missing": true
+        }
+      },
+      "recomputed_metadata_hours": [
+        96,
+        99
+      ],
+      "complete_recovery_after_same_formula": {
+        "passed": true,
+        "numeric_differences": {
+          "/0/event": 0.0,
+          "/0/shock_end_hour": 0.0,
+          "/0/observation_end_hour": 0.0,
+          "/0/stock_ratio": 0.0,
+          "/0/service_limit": 0.0,
+          "/0/window_hours": 0.0,
+          "/0/service_confirmation_hour": 0.0,
+          "/0/joint_confirmation_hour": 0.0,
+          "/0/stock_rebreach_hour_after_joint_confirmation": 0.0,
+          "/0/final_window_stock_floor_ratio": 0.0,
+          "/0/limiting_hour": 0.0,
+          "/0/post_shock_observation_hours": 0.0,
+          "/1/event": 0.0,
+          "/1/shock_end_hour": 0.0,
+          "/1/observation_end_hour": 0.0,
+          "/1/stock_ratio": 0.0,
+          "/1/service_limit": 0.0,
+          "/1/window_hours": 0.0,
+          "/1/service_confirmation_hour": 0.0,
+          "/1/joint_confirmation_hour": 0.0,
+          "/1/stock_rebreach_hour_after_joint_confirmation": 0.0,
+          "/1/final_window_stock_floor_ratio": 0.0,
+          "/1/limiting_hour": 0.0,
+          "/1/post_shock_observation_hours": 0.0
+        },
+        "other_differences": {}
+      }
+    },
+    {
+      "case_id": "phase21_p150_free_rolling",
+      "original_bridge_passed": false,
+      "all_360x47_values_max_difference": 0.0,
+      "summary_fields_match": true,
+      "missing_fields": {
+        "/0/post_shock_observation_hours": {
+          "missing": true
+        },
+        "/1/post_shock_observation_hours": {
+          "missing": true
+        }
+      },
+      "recomputed_metadata_hours": [
+        96,
+        99
+      ],
+      "complete_recovery_after_same_formula": {
+        "passed": true,
+        "numeric_differences": {
+          "/0/event": 0.0,
+          "/0/shock_end_hour": 0.0,
+          "/0/observation_end_hour": 0.0,
+          "/0/stock_ratio": 0.0,
+          "/0/service_limit": 0.0,
+          "/0/window_hours": 0.0,
+          "/0/service_confirmation_hour": 0.0,
+          "/0/joint_confirmation_hour": 0.0,
+          "/0/stock_rebreach_hour_after_joint_confirmation": 0.0,
+          "/0/final_window_stock_floor_ratio": 0.0,
+          "/0/limiting_hour": 0.0,
+          "/0/post_shock_observation_hours": 0.0,
+          "/1/event": 0.0,
+          "/1/shock_end_hour": 0.0,
+          "/1/observation_end_hour": 0.0,
+          "/1/stock_ratio": 0.0,
+          "/1/service_limit": 0.0,
+          "/1/window_hours": 0.0,
+          "/1/service_confirmation_hour": 0.0,
+          "/1/final_window_stock_floor_ratio": 0.0,
+          "/1/limiting_hour": 0.0,
+          "/1/post_shock_observation_hours": 0.0
+        },
+        "other_differences": {}
+      }
+    }
+  ],
+  "scientific_design_change": false,
+  "correction": "Compute the existing V13 post-shock observation duration from each actual recovery row before comparing all original fields; count actual physical rows independently of bridge acceptance. All cohort/objectives/constraints/windows/tolerances remain fixed. Original source, protocol, outputs and failure remain unchanged."
+}

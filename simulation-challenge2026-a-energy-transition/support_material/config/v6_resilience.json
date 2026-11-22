@@ -1,0 +1,56 @@
+{
+  "version": "V6_FIXED_IMPORT_CAPACITY_REPAIR_20261018",
+  "status": "PREDECLARED_DEVELOPMENT_DESIGN_NOT_PROBABILITY_SAMPLE",
+  "hours": 2160,
+  "warmup_hours": 120,
+  "events": [
+    [
+      120,
+      600
+    ],
+    [
+      1200,
+      1680
+    ]
+  ],
+  "import_retention": [
+    0.5,
+    0.05,
+    0.05
+  ],
+  "renewable_retention": {
+    "wind": 0.25,
+    "solar": 0.55,
+    "hydro": 0.7
+  },
+  "event_demand_multiplier": 1.08,
+  "contract_lead_hours": 48,
+  "contract_max_fraction_normal_import_rate": 0.5,
+  "contract_max_fraction_initial_stock_per_event": 0.5,
+  "contract_premium_fraction": 0.5,
+  "years": [
+    2030,
+    2060
+  ],
+  "selected_roles": [
+    "minimum_capital",
+    "frontier_knee",
+    "minimum_net_emissions"
+  ],
+  "strategies": [
+    "coordinated",
+    "decentralized"
+  ],
+  "supply_policies": [
+    "inherited",
+    "contract"
+  ],
+  "service_shortage_threshold_fraction": 0.01,
+  "recovery_stock_fraction_of_preevent": 0.95,
+  "recovery_sustained_hours": 24,
+  "forecast_hours": 24,
+  "control_cases": "frontier_knee_2060, coordinated, each supply policy, with second event absent",
+  "scope": "Continuous state down-drill from an annual end-state, not an actual 90-day historical chronology or an annual stock replacement. All policies share the same perfect next-24-hour physical inputs, retain fuel/SOC/thermal/debt and do not reset at event boundaries. First 120 hours are warmup and reported separately. Contracts add bounded paid fuel; their benefits are resource additions, not algorithm gains. Finite designed cohort, not probabilistic reliability or target feasibility proof.",
+  "contract_capacity_basis": "Independent gross-import channel capacity from annual state; actual normal arrivals remain separate.",
+  "zero_coal_control": "Knee 2060, coordinated, both supply policies; set coal normal-import arrival and channel capacity to zero, holding all other initial states and inputs fixed."
+}

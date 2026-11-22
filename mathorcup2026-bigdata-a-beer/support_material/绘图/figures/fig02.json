@@ -1,0 +1,25 @@
+{
+  "figure": 2,
+  "caption": "50维公开原分七档组成与风格测量覆盖。a各径向柱为同一属性2197次品评的0–6档占比，内径相同、柱长总和均为100%；三个分区按原始属性顺序排列，外侧分类弧分别为香气、风味、口感及扩展，不作逐项独立缩放。b精确展示22风格×3–31次品评的啤酒计数，右侧n为各风格啤酒数；全部250款、2197条记录均保留。",
+  "figure_inches": [
+    6.7,
+    3.9
+  ],
+  "sources": [
+    {
+      "path": "plot_data/fig02_all50_grade_spectra.csv",
+      "sha256": "73af2b91320f7718e0086a19774804774d23b4de5014a52efdad97bef559c40b"
+    },
+    {
+      "path": "plot_data/fig02_style_measurement_points.csv",
+      "sha256": "c7ccc9510bad078425dbf0db6908fe46ac2d68fd1e29f5f11d1e956c1b294ada"
+    }
+  ],
+  "new_model_fits": 0,
+  "new_bootstrap_resamples": 0,
+  "style": "shared_index_compositions_v4",
+  "rating_records": 2197,
+  "attributes": 50,
+  "n_beers": 250,
+  "style_count": 22
+}

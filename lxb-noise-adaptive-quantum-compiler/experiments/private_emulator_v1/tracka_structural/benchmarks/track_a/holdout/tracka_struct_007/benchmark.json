@@ -1,0 +1,24 @@
+{
+  "track": "track_a",
+  "name": "tracka_struct_007",
+  "family": "routing_pressure_random",
+  "logical_qubits": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "expected_output_rule": {
+    "rule_type": "bitstring",
+    "bitstring": "000000",
+    "allowed_bitstrings": [],
+    "parity_checks": []
+  },
+  "metadata": {
+    "backend_size_class": "medium",
+    "backend_snapshot_id": "medium_snapshot_a",
+    "synthetic_family": "routing_pressure_random"
+  }
+}

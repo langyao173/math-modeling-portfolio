@@ -1,0 +1,132 @@
+{
+  "status": "PASS_COMPLETE_FIXED_SEARCH_AND_SELECTED_TRACE_RECONSTRUCTION",
+  "candidate_evaluations": 2460,
+  "evaluation_requests_including_exact_reuse": 2465,
+  "annual_reliable_candidates": 1306,
+  "annual_reliable_frontier_candidates": 28,
+  "selected_cases": 6,
+  "searches": [
+    {
+      "task": "minimum_net",
+      "target_mt": null,
+      "optimizer_converged": false,
+      "message": "Maximum number of iterations has been exceeded.",
+      "iterations": 10,
+      "optimizer_case_id": "plan_00632",
+      "objective_including_search_penalty": 4.809661402285217
+    },
+    {
+      "task": "minimum_capital",
+      "target_mt": null,
+      "optimizer_converged": false,
+      "message": "Maximum number of iterations has been exceeded.",
+      "iterations": 10,
+      "optimizer_case_id": "plan_00938",
+      "objective_including_search_penalty": 34.39091871416374
+    },
+    {
+      "task": "target_4000",
+      "target_mt": 4000.0,
+      "optimizer_converged": false,
+      "message": "Maximum number of iterations has been exceeded.",
+      "iterations": 10,
+      "optimizer_case_id": "plan_01400",
+      "objective_including_search_penalty": 864.2015816840333
+    },
+    {
+      "task": "target_8000",
+      "target_mt": 8000.0,
+      "optimizer_converged": false,
+      "message": "Maximum number of iterations has been exceeded.",
+      "iterations": 10,
+      "optimizer_case_id": "plan_01989",
+      "objective_including_search_penalty": 49.64327729951429
+    },
+    {
+      "task": "target_12000",
+      "target_mt": 12000.0,
+      "optimizer_converged": false,
+      "message": "Maximum number of iterations has been exceeded.",
+      "iterations": 10,
+      "optimizer_case_id": "plan_02129",
+      "objective_including_search_penalty": 41.14697189339008
+    }
+  ],
+  "targets": [
+    {
+      "target_net_mt": 0.0,
+      "status": "STRUCTURALLY_INFEASIBLE_IN_DECLARED_DOMAIN",
+      "best_case_id": null,
+      "best_observed_discounted_capital_trillion_cny": null,
+      "eligible_candidates": 0,
+      "structural_floor_mt": 175.34575974905601
+    },
+    {
+      "target_net_mt": 4000.0,
+      "status": "NO_FEASIBLE_CANDIDATE_FOUND_WITHIN_FIXED_SEARCH",
+      "best_case_id": null,
+      "best_observed_discounted_capital_trillion_cny": null,
+      "eligible_candidates": 0,
+      "structural_floor_mt": 175.34575974905601
+    },
+    {
+      "target_net_mt": 8000.0,
+      "status": "FEASIBLE_CANDIDATE_FOUND_NOT_GLOBAL_MINIMUM",
+      "best_case_id": "plan_01989",
+      "best_observed_discounted_capital_trillion_cny": 49.64327729951429,
+      "eligible_candidates": 630,
+      "structural_floor_mt": 175.34575974905601
+    },
+    {
+      "target_net_mt": 12000.0,
+      "status": "FEASIBLE_CANDIDATE_FOUND_NOT_GLOBAL_MINIMUM",
+      "best_case_id": "plan_01097",
+      "best_observed_discounted_capital_trillion_cny": 40.92931981573693,
+      "eligible_candidates": 1249,
+      "structural_floor_mt": 175.34575974905601
+    }
+  ],
+  "runtime_seconds": 69.50762650000979,
+  "source_hashes": {
+    "src/v6_planning.py": "44c10728e7a260a0701c1d88726c42e3bbb7ec7f6d89a3e2ec3a005f1b3c3e16",
+    "src/v6_annual.py": "c48c5b15a65470fcb6ff1ded73f43cf2e4e3155b76a1709a5525ed75a71f81d8",
+    "src/v3_annual.py": "61aaa876bafe81186aac72d7aeb8289b4924b7155a1de1fdc6ca7ba5ba1e737b",
+    "src/v3_annual_calibrated.py": "aa01ebc38ee260e68632809ba33023ed6e249fb0684c9fcd56254dd0ca18495f",
+    "src/v3_calibration_candidate.py": "468f6ea5d7efad0b15852b6ebcd7c96c584b22d4cc7adc804e9f22191ec01efb",
+    "config/v3_transition.json": "a2019b12bdd9c5ca34a4af3ad36f742ac472b35ab152adea83ba1a3d3baf4b2f",
+    "config/v6_annual_planning.json": "b7e50d1eab9257dc13dce446594c7f3ae10d27a39303ebb485034db9f3a6a007",
+    "data/annual_china.csv": "2d87c3089eb99de84f38354ff9086d30134dcf1481715fec575a228ba2c09c6f",
+    "data/ember_power_china.csv": "72ee74b02a7b5d670ead72c37b0b790a5982aaca059111c78877e21939cb5012",
+    "data/energy_production_china.csv": "b56ad05e90a5b94a243d2a4faff97081a8917d1ab854f201f7ab10b02a811527",
+    "data/fuel_supply_trade.csv": "1ffe9642679b61603f4caf310b6ca15e5f912e1530d48f27a4b4a759a8ea7ffd",
+    "data/supplement_carriers_2024.csv": "3364e05f29a52437b6fd89d4dddcf7a268942a82a5974cc627b4593f6c3deea0",
+    "data/v6_fuel_import_channels.csv": "36c170edaaa3e4f6f915973760fe2fb2fedbeb54bda18e118c1283e177eb084c",
+    "src/v5_annual.py": "cb76c80e61cd3e88ca0dca4bda14a5403013eda6ad493ba0b2da18649742ca97",
+    "src/v5_planning.py": "85053aa435d611b67afcc221109e078e2d1b008ab0aedf87bb67cfb95ea3152e"
+  },
+  "python": "3.13.5",
+  "numpy": "2.3.2",
+  "scipy": "1.15.3",
+  "command": "python -X utf8 -m src.v6_planning",
+  "claim_boundary": "Finite-domain black-box search, not a proof of global optimality. Cost is paid asset capital only, not social welfare or full transition cost. Annual reliability is an aggregate surrogate; selected candidates require separate hourly checks. No free GDP, efficiency, technological cost decline, installed capture or retirement changes are optimized.",
+  "structural_bound": "Under the fixed useful-service/GDP/industrial mapping, national industrial CO2 at 2060 minus fixed sink is an unavoidable net-emission floor, since energy CO2 is nonnegative and no industry-abatement/removal decision is available. Targets below this floor are structurally infeasible in this declared domain.",
+  "outputs_sha256": {
+    "actions_plan_00000.csv": "2c54ec3e4a28f37ed9d4e4a3790f8892b57954a3e90c69ee3391514e8955fb72",
+    "actions_plan_00938.csv": "912eae372ae6c8bb25827f870a2676bd8036f3ad23bbd0147d6edd814db91163",
+    "actions_plan_01097.csv": "0b5ab12c35db85ef77df750a62851b9c109107b4e8f62eb8d6efca90296867bc",
+    "actions_plan_01400.csv": "9236c47d585a17517d99a749c8b2bbc8a5437514e8da389ea56631a410e97974",
+    "actions_plan_01989.csv": "be39465aa52619c13be9f6d746f1b3670907a0ad8cb5c7a8c189d7d084c9be1b",
+    "actions_plan_02349.csv": "533a3001092eea6bf43010a64b0d68cfd2656ee11a715670197b0c0d85b937a4",
+    "annual_reliable_frontier.csv": "927362fa11faab822f9976c43ed083b9ab9b0892259c6639938df32ac05ae5e0",
+    "candidate_evaluations.csv": "31f08e6e2ddb170725307ad114f2c158c8065584a9b946526c4c71d6cb6665e4",
+    "selected_cases.csv": "a3a5e658928ad6ca27137e086f3e8cca5f3f095f92931d24406d59d860e86759",
+    "selected_snapshots.json": "299dfcf69c56e2978191908cb32e3e87294420edbc8a4470249aa899ec67eb30",
+    "target_search_results.csv": "0a1a3cc42c689be688b41f79a2f56c19701ec214caa7fb97334425784c2d3a2a",
+    "trajectory_plan_00000.csv": "a01c8223301dec94f67cf95458e42301f68e2ea4cde7e2d70794c57faea69b0d",
+    "trajectory_plan_00938.csv": "a169292b405b3329afdb67527b0feb6ab24efd0760e52ccc8146357747e4450f",
+    "trajectory_plan_01097.csv": "02b6672be243aa0a576aab970e6ac75a21bcaf74bf05f1acd0d95ce52981f80c",
+    "trajectory_plan_01400.csv": "03b231c6d5a18eea8d6704b54042a605610c1fafebed2f6758952bf06d16a4d8",
+    "trajectory_plan_01989.csv": "9e179ae161dc2c606b9fcfe1fcf1567c029e0e14810a99d20794ea56e8b563e0",
+    "trajectory_plan_02349.csv": "6e197bc6f73e45cc36420d35d0f2d9d8084d29488e77d2c1f9a81e1753c12afe"
+  }
+}

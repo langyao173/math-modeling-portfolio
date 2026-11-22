@@ -1,0 +1,37 @@
+{
+ "n_records": 69,
+ "n_frames": 66070,
+ "n_segments_raw": 349,
+ "n_segments_index": 349,
+ "merge_both": 349,
+ "max_abs_start_diff": 0.0,
+ "max_abs_end_diff": 0.0,
+ "frames_by_dataset": {
+  "EgoDemo": 16414,
+  "EgoPro": 17642,
+  "EgoStandard": 32014
+ },
+ "records_by_dataset": {
+  "EgoDemo": 31,
+  "EgoPro": 14,
+  "EgoStandard": 24
+ },
+ "environments": 24,
+ "env_by_split": {
+  "test": 4,
+  "train": 16,
+  "validation": 4
+ },
+ "records_by_split": {
+  "test": 7,
+  "train": 55,
+  "validation": 7
+ },
+ "frames_by_split": {
+  "test": 12241,
+  "train": 47046,
+  "validation": 6783
+ },
+ "duplicate_content": 0,
+ "duplicate_uuid": 0
+}

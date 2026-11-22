@@ -1,0 +1,16 @@
+{
+  "initial_clients": 2907,
+  "scoreable_next_clients": 2866,
+  "fixed_manual_slots": 268,
+  "scoreable_capacity_percent": 9.351011863224006,
+  "recent_clients_newly_scored": 189,
+  "recent_clients_in_capacity": 4,
+  "existing_episode_in_capacity": 231,
+  "new_episode_in_capacity": 37,
+  "priority_outside_capacity": 3,
+  "observed_overdue": 40,
+  "ledger_missing": 1,
+  "queues_exclusive_and_complete": true,
+  "unscored_probabilities_remain_missing": true,
+  "note": "Expanded portfolio counts are operational inference only. The original 2,677-client risk benchmark is unchanged."
+}

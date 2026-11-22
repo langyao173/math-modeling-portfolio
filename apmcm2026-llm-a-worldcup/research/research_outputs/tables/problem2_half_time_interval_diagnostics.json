@@ -1,0 +1,11 @@
+{
+  "method": "strictly_earlier_expanding_origin_absolute_residuals",
+  "coverage_target": 0.9,
+  "selection_year_max": 2010,
+  "oof_residual_count": 412,
+  "final_absolute_residual_quantile": 1.9190949855148118,
+  "cross_calibrated_count": 360,
+  "cross_calibrated_empirical_coverage": 0.9305555555555556,
+  "cross_calibrated_mean_interval_width": 3.7643389132013807,
+  "exchangeability_claim": "none_time_ordered_empirical_diagnostic"
+}

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+*.egg-info/
+# NYU Sioux Falls trace fetched by scripts/fetch_example_data.py (licence does not allow redistribution)
+data/full_example/
+data/private_example/
+results/extension/_e3_work/

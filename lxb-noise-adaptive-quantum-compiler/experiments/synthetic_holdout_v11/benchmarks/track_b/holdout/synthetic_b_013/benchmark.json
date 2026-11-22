@@ -1,0 +1,42 @@
+{
+  "track": "track_b",
+  "name": "synthetic_b_013",
+  "family": "random_clifford_cnot",
+  "logical_qubits": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "expected_output_rule": {
+    "rule_type": "bitstring",
+    "bitstring": "011110101111100010100001",
+    "allowed_bitstrings": [],
+    "parity_checks": []
+  },
+  "metadata": {
+    "backend_size_class": "large",
+    "backend_snapshot_id": "synthetic_large_twoq_lognormal",
+    "synthetic_family": "random_clifford_cnot"
+  }
+}

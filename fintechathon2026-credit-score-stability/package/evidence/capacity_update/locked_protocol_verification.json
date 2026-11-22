@@ -1,0 +1,10 @@
+{
+  "used_customer_rejected": true,
+  "duplicate_registration_rejected": true,
+  "one_time_open_enforced": true,
+  "immature_negative_rejected": true,
+  "known_outcome_date_required": true,
+  "failed_open_remains_consumed": true,
+  "kind": "software_fixture_only",
+  "new_credit_validation_runs": 0
+}

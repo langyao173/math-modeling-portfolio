@@ -1,0 +1,72 @@
+[
+  {
+    "name": "affine_b_001",
+    "family": "exact_affine_parity_star",
+    "negative_case": false,
+    "logical_qubits": 15,
+    "two_qubit_gates": 12
+  },
+  {
+    "name": "affine_b_002",
+    "family": "exact_affine_parity_star",
+    "negative_case": false,
+    "logical_qubits": 20,
+    "two_qubit_gates": 16
+  },
+  {
+    "name": "affine_b_003",
+    "family": "exact_affine_parity_star",
+    "negative_case": false,
+    "logical_qubits": 24,
+    "two_qubit_gates": 18
+  },
+  {
+    "name": "affine_b_004",
+    "family": "parity_tree",
+    "negative_case": false,
+    "logical_qubits": 16,
+    "two_qubit_gates": 14
+  },
+  {
+    "name": "affine_b_005",
+    "family": "parity_tree",
+    "negative_case": false,
+    "logical_qubits": 24,
+    "two_qubit_gates": 21
+  },
+  {
+    "name": "affine_b_006",
+    "family": "multi_row_affine_parity",
+    "negative_case": false,
+    "logical_qubits": 12,
+    "two_qubit_gates": 16
+  },
+  {
+    "name": "affine_b_007",
+    "family": "multi_row_affine_parity",
+    "negative_case": false,
+    "logical_qubits": 18,
+    "two_qubit_gates": 24
+  },
+  {
+    "name": "affine_b_008",
+    "family": "multi_row_affine_parity",
+    "negative_case": false,
+    "logical_qubits": 24,
+    "two_qubit_gates": 32
+  },
+  {
+    "name": "affine_b_009",
+    "family": "near_miss_non_affine_clifford",
+    "negative_case": true,
+    "logical_qubits": 12,
+    "two_qubit_gates": 13
+  },
+  {
+    "name": "affine_b_010",
+    "family": "near_miss_non_affine_clifford",
+    "negative_case": true,
+    "logical_qubits": 18,
+    "two_qubit_gates": 19
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "type": "actual_DOM_print_export",
+  "renderer": "WeasyPrint",
+  "browser_screenshot": false,
+  "panels": [
+    {
+      "route": "overview",
+      "source_page": 0,
+      "clip": [
+        0,
+        0,
+        915,
+        760
+      ]
+    },
+    {
+      "route": "queue",
+      "source_page": 0,
+      "clip": [
+        0,
+        0,
+        915,
+        760
+      ]
+    },
+    {
+      "route": "review",
+      "source_page": 0,
+      "clip": [
+        0,
+        0,
+        915,
+        760
+      ]
+    },
+    {
+      "route": "handling",
+      "source_page": 0,
+      "clip": [
+        0,
+        0,
+        915,
+        760
+      ]
+    },
+    {
+      "route": "agents",
+      "source_page": 0,
+      "clip": [
+        0,
+        0,
+        915,
+        760
+      ]
+    },
+    {
+      "route": "tasks",
+      "source_page": 0,
+      "clip": [
+        0,
+        0,
+        915,
+        760
+      ]
+    }
+  ],
+  "layout": "two columns, three rows",
+  "operational_records": "local exercise, actual claim/save API",
+  "input_sha256": {
+    "product/export_workbench_dom.cjs": "6092066c1d807aa6c4b54a02d273e553188217c74e7413eddc2ecf36418f9aed",
+    "product/风险复核工作台.html": "7d0578e6b2d9b0dbe331da9a48297e93df828190aec222e38d2e954f35ad9c27"
+  }
+}

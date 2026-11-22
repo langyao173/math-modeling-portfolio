@@ -1,0 +1,57 @@
+{
+  "case_name": "baseline",
+  "scenario": {
+    "name": "repair_005",
+    "gdp_growth": [
+      0.045,
+      0.03,
+      0.018
+    ],
+    "carbon_price_start_cny_t": 100,
+    "carbon_price_drift_cny_t": 10.293106179403145,
+    "cost_decline_per_year": 0.015,
+    "efficiency_improvement_per_year": 0,
+    "carbon_feedback": true,
+    "investment_feedback": true,
+    "cost_response": true,
+    "annual_budget_multiplier": 1,
+    "reserve_multiplier": 1,
+    "import_multiplier": 1,
+    "supply_multiplier": 1,
+    "annual_shock_years": [],
+    "biomass_feedstock_growth_per_year": 0.02,
+    "carbon_reference_decline_per_year": 0.02,
+    "budget_multipliers_by_period": [
+      3,
+      3,
+      3
+    ],
+    "investment_priority": [
+      2,
+      0.1,
+      2.673349222147448,
+      2.673349222147448,
+      0.69495430751517806,
+      0.69495430751517806,
+      2.673349222147448,
+      2.3444183895391304,
+      2.3444183895391304,
+      2,
+      2,
+      2
+    ]
+  },
+  "mechanisms": {
+    "consumer_choice": "responsive",
+    "carbon_feedback": true,
+    "investor_profit_response": true,
+    "investor_utilisation_response": true,
+    "construction_years": "native",
+    "investor_profit_rule": "origin_anchored",
+    "coal_import_channel": "gross_trade",
+    "market_price_rule": "step"
+  },
+  "native_input_file": "outputs/v6/native/annual_native_inputs.mat",
+  "native_input_sha256": "94cc6b82ead014d9df0ad549056006a19647f9d682de151d17cb6f771ffe800e",
+  "scope": "Fixed initial observations and calibrated parameters plus resolved policies/mechanisms; no future Python state or control path"
+}

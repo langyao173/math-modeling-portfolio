@@ -1,0 +1,42 @@
+{
+  "threshold_absolute_pearson": 0.1,
+  "assumption": "descriptive_univariate_not_causal",
+  "ranked_associations": [
+    {
+      "feature": "historical_mean_goals_for_diff",
+      "outcome": "away_win",
+      "pearson_correlation": -0.2311118035441768,
+      "absolute_correlation": 0.2311118035441768
+    },
+    {
+      "feature": "historical_appearances_diff",
+      "outcome": "away_win",
+      "pearson_correlation": -0.22643953650366008,
+      "absolute_correlation": 0.22643953650366008
+    },
+    {
+      "feature": "historical_appearances_diff",
+      "outcome": "home_win",
+      "pearson_correlation": 0.21368814718727008,
+      "absolute_correlation": 0.21368814718727008
+    },
+    {
+      "feature": "historical_mean_goals_for_diff",
+      "outcome": "home_win",
+      "pearson_correlation": 0.17922750917922983,
+      "absolute_correlation": 0.17922750917922983
+    },
+    {
+      "feature": "historical_best_finish_diff",
+      "outcome": "home_win",
+      "pearson_correlation": -0.1624920642155501,
+      "absolute_correlation": 0.1624920642155501
+    },
+    {
+      "feature": "historical_best_finish_diff",
+      "outcome": "away_win",
+      "pearson_correlation": 0.1057532016251679,
+      "absolute_correlation": 0.1057532016251679
+    }
+  ]
+}

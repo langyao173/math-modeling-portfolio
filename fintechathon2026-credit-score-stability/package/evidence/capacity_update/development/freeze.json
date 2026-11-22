@@ -1,0 +1,19 @@
+{
+  "primary": "guard10",
+  "historical_candidates": {
+    "guard10": [
+      0.1
+    ],
+    "guard_six": [
+      0.05,
+      0.08,
+      0.1,
+      0.12,
+      0.15,
+      0.2
+    ]
+  },
+  "radius": 0.01,
+  "reason": "10% fixed operating workload; six-capacity version is a predeclared breadth comparison",
+  "conclusion_scope": "reused development / historical data; new confirmation still requires fresh customers"
+}

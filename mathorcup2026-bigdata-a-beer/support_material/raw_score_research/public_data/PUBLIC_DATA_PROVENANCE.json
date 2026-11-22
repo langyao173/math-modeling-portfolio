@@ -1,0 +1,88 @@
+{
+  "record_id": 23624915,
+  "doi": "10.5281/zenodo.23624915",
+  "title": "Data from: Predicting and improving complex beer flavor through machine learning",
+  "creators": [
+    {
+      "name": "Schreurs, Michiel",
+      "affiliation": null,
+      "orcid": "0000-0002-9449-5619"
+    },
+    {
+      "name": "Piampongsant, Supinya",
+      "affiliation": null,
+      "orcid": "0000-0002-5727-3523"
+    },
+    {
+      "name": "Roncoroni, Miguel",
+      "affiliation": "VIB-KU Leuven Center for Microbiology",
+      "orcid": "0000-0001-7461-1427"
+    },
+    {
+      "name": "Cool, Lloyd",
+      "affiliation": "VIB-KU Leuven Center for Microbiology",
+      "orcid": "0000-0001-9936-3124"
+    },
+    {
+      "name": "Malaver, Beatriz Herrera",
+      "affiliation": "VIB-KU Leuven Center for Microbiology"
+    },
+    {
+      "name": "Vanderaa, Christophe",
+      "affiliation": "KU Leuven",
+      "orcid": "0000-0001-7443-5427"
+    },
+    {
+      "name": "Thesseling, Florian",
+      "affiliation": "VIB-KU Leuven Center for Microbiology",
+      "orcid": "0000-0002-7868-6204"
+    },
+    {
+      "name": "Kreft, Lukasz",
+      "affiliation": "VIB Bioinformatics Core",
+      "orcid": "0000-0001-7620-4657"
+    },
+    {
+      "name": "Botzki, Alexander",
+      "affiliation": "VIB Bioinformatics Core",
+      "orcid": "0000-0001-6691-4233"
+    },
+    {
+      "name": "Malcorps, Philippe",
+      "affiliation": "Anheuser-Busch InBev (Belgium)"
+    },
+    {
+      "name": "Daenen, Luk",
+      "affiliation": "Anheuser-Busch InBev (Belgium)"
+    },
+    {
+      "name": "Wenseleers, Tom",
+      "affiliation": "KU Leuven",
+      "orcid": "0000-0002-1434-861X"
+    },
+    {
+      "name": "Verstrepen, Kevin J.",
+      "affiliation": "VIB-KU Leuven Center for Microbiology",
+      "orcid": "0000-0002-3077-6219"
+    }
+  ],
+  "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "raw": {
+    "filename": "Raw sensory data anonymized.csv",
+    "sha256": "78525c8cbbbd498578c451b06641969a20ada87d0fe4c67fe1e634ad34569628",
+    "published_checksum": "md5:a8f911d8c0061e096abf3b087678e164",
+    "url": "https://zenodo.org/api/records/23624915/files/Raw%20sensory%20data%20anonymized.csv/content"
+  },
+  "workbook": {
+    "filename": "Supplemental Files and Figure source files.xlsx",
+    "included": false,
+    "sha256": "e0a10635c4fbc3c62dc7e06e553cce9fad98c768ea6af5c8adc8a836098d1474",
+    "published_checksum": "md5:52645e38d90aafda272532e19e2fea1c",
+    "url": "https://zenodo.org/api/records/23624915/files/Supplemental%20Files%20and%20Figure%20source%20files.xlsx/content",
+    "reason": "Contains full official-source S1/S4 tables; fetch separately for provenance reconstruction"
+  },
+  "mapping_sha256": "b11b58d3a6a29407624b4567c1aa8cedd2a03228f4efafd894c98a99e8c823c5",
+  "official_attachments_included": false,
+  "full_training_requirement": "Supply the competition attachment 1.csv and 4.csv independently"
+}

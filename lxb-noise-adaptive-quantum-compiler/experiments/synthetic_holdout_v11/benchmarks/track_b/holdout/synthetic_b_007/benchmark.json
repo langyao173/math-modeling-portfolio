@@ -1,0 +1,36 @@
+{
+  "track": "track_b",
+  "name": "synthetic_b_007",
+  "family": "parity_hub_leaf",
+  "logical_qubits": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "expected_output_rule": {
+    "rule_type": "bitstring",
+    "bitstring": "100111101011100010",
+    "allowed_bitstrings": [],
+    "parity_checks": []
+  },
+  "metadata": {
+    "backend_size_class": "large",
+    "backend_snapshot_id": "synthetic_large_original",
+    "synthetic_family": "parity_hub_leaf"
+  }
+}

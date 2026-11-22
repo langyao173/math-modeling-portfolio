@@ -1,0 +1,27 @@
+{
+  "variant": "track_a_v14",
+  "rows": [
+    {
+      "seed": 7,
+      "track_a_score": 0.875,
+      "track_b_score": 0.62158203125,
+      "final_score": 0.8116455078125,
+      "invalid_count": 0
+    },
+    {
+      "seed": 11,
+      "track_a_score": 0.869140625,
+      "track_b_score": 0.61572265625,
+      "final_score": 0.8057861328125,
+      "invalid_count": 0
+    },
+    {
+      "seed": 17,
+      "track_a_score": 0.861328125,
+      "track_b_score": 0.60595703125,
+      "final_score": 0.7974853515625,
+      "invalid_count": 0
+    }
+  ],
+  "mean_final": 0.8049723307291666
+}

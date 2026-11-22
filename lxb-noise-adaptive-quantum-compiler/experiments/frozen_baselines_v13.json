@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "created_for": "v13_measurement_channel_parity",
+  "stable_fallback": {
+    "variant": "track_b_branch",
+    "selector_mode": "proxy_only",
+    "summary_path": "experiments/full_public_summary_v12_stable_default.json",
+    "seed7": {
+      "final_score": 0.793701171875,
+      "track_a_score": 0.8720703125,
+      "track_b_score": 0.55859375,
+      "invalid_count": 0,
+      "track_b_001_success": 0.650390625,
+      "track_b_002_success": 0.466796875,
+      "track_b_002_two_qubit_gates": 97
+    }
+  },
+  "promoted_default": {
+    "variant": "v13_measurement_channel_root",
+    "selector_mode": "proxy_only",
+    "summary_path": "experiments/full_public_summary_v13_measurement_channel_root.json",
+    "seed7": {
+      "final_score": 0.8060302734375,
+      "track_a_score": 0.8720703125,
+      "track_b_score": 0.60791015625,
+      "invalid_count": 0,
+      "track_b_001_success": 0.650390625,
+      "track_b_002_success": 0.5654296875,
+      "track_b_002_two_qubit_gates": 18,
+      "track_b_002_depth": 6,
+      "track_b_002_estimated_log_reliability": -0.6181661479233818,
+      "track_b_002_compile_time_sec": 12.89084730000468
+    },
+    "seed_robustness": {
+      "seeds": [7, 11, 17],
+      "mean_final_score": 0.798828125,
+      "invalid_count_each_seed": 0
+    },
+    "synthetic_holdout_path": "experiments/synthetic_holdout_summary_v13_measurement_channel_nogf2.json",
+    "synthetic_holdout": {
+      "mean_final_score": 0.7630208333333334,
+      "mean_track_a_score": 0.83984375,
+      "mean_track_b_score": 0.5325520833333334,
+      "max_invalid_count": 0,
+      "p95_compile_time_sec": 8.010450700006913
+    },
+    "decision": "promoted_as_root_default",
+    "reason": "public seed7 final improves by 0.0123291015625 over V11/V12 stable, B002 improves from 97 CX / 0.466796875 success to 18 CX / 0.5654296875 success, three-seed mean final is above 0.795, and synthetic holdout remains valid with p95 compile time below 15 seconds"
+  }
+}

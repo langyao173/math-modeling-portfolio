@@ -1,0 +1,51 @@
+{
+  "seed": 20261025,
+  "model": {
+    "kind": "interval_gaussian",
+    "kappa": 2,
+    "nu": 20
+  },
+  "policies": {
+    "attachment_two": {
+      "DMS": {
+        "unit": "ug/L",
+        "threshold": 19.0,
+        "transform": "log10"
+      },
+      "X2.3.butanedione": {
+        "unit": "mg/L",
+        "threshold": 0.09,
+        "transform": "identity"
+      }
+    },
+    "strict_four": {
+      "DMS": {
+        "unit": "ug/L",
+        "threshold": 19.0,
+        "transform": "log10"
+      },
+      "X2.3.butanedione": {
+        "unit": "mg/L",
+        "threshold": 0.09,
+        "transform": "identity"
+      },
+      "X4VG": {
+        "unit": "mg/L",
+        "threshold": 0.2,
+        "transform": "log10"
+      },
+      "X.E..2.nonenal": {
+        "unit": "mg/L",
+        "threshold": 0.0001,
+        "transform": "identity"
+      }
+    }
+  },
+  "primary_policy": "attachment_two",
+  "strict_four": "Sensitivity scenario; the nonenal threshold is external and only one measured beer passes. Never report this as a universal style feasibility standard.",
+  "sample_law": "P_style(X | specified ceilings); exact four/two-dimensional marginal rejection plus conditional Gaussian for other coordinates",
+  "validation": "Post-diagnostic internal three-fold evaluation, no independent new beer data. Fit maps and covariances on training folds only. Conditional-law quality must be evaluated against feasible held-out real beers, not mixed with unconditional-law scores.",
+  "sensory": "Frozen six-model full-data predictions are descriptive, not independent tasting validation.",
+  "original_generated_count": 2200,
+  "real_n": 250
+}

@@ -1,0 +1,2 @@
+﻿Model,R2,AdjustedR2,MAE,RMSE,IndependentSlopeInterpretationAllowed,Caution
+Three-feature OLS,0.7919010306275417,0.7528824738702058,11.4670627506893,14.660644606187008,False,"The joint model may predict totals, but high VIF and non-significant slopes do not support independent causal/mechanism claims."

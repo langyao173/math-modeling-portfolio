@@ -1,0 +1,9 @@
+{
+  "matlab_release": "2026a",
+  "swap_error": 0,
+  "rate_product_range": 2.9263196795336412,
+  "kl_margin_error": 1.1102230246251565E-16,
+  "kl_swap_error": 4.163336342344337E-17,
+  "all_passed": true,
+  "claim_scope": "independent prototype; not production evidence"
+}

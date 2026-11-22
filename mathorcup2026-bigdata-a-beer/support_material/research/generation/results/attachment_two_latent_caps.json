@@ -1,0 +1,14 @@
+[
+  {
+    "field": "DMS",
+    "field_ceiling": 1.2787536009528289,
+    "marginal_cdf": 0.376,
+    "latent_upper": -0.31600330441248287
+  },
+  {
+    "field": "X2.3.butanedione",
+    "field_ceiling": 0.09,
+    "marginal_cdf": 0.272,
+    "latent_upper": -0.606775363514265
+  }
+]

@@ -1,0 +1,12 @@
+\begin{tabularx}{\linewidth}{@{}Yrrrrr@{}}
+\toprule
+Model & WDL LL & Brier & Accuracy & Macro-F1 & Draw recall \\
+\midrule
+Advanced (frozen raw) & 1.023 & 0.609 & 0.531 & 0.389 & 0.000 \\
+Advanced (frozen calibrated) & 1.023 & 0.609 & 0.531 & 0.389 & 0.000 \\
+Official multinomial logit & 0.993 & 0.592 & 0.531 & 0.389 & 0.000 \\
+Independent mirrored Poisson & 0.988 & 0.588 & 0.531 & 0.389 & 0.000 \\
+Legacy mirrored Dixon--Coles & 0.985 & 0.588 & 0.547 & 0.399 & 0.000 \\
+Advanced cost-sensitive decision & -- & -- & 0.422 & 0.404 & 0.385 \\
+\bottomrule
+\end{tabularx}

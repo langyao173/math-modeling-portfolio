@@ -1,0 +1,345 @@
+{
+  "elapsed_sec": 11.422843799984548,
+  "public_shots": 256,
+  "seed": 7,
+  "seed7_gate": {
+    "best_cx": {
+      "track_a_002": 8,
+      "track_a_007": 14,
+      "track_a_008": 14
+    },
+    "final_plus_0_004": false,
+    "final_seed7_delta_estimate": 0.0,
+    "keep": false,
+    "public_deltas": {
+      "track_a_002": 0.0,
+      "track_a_007": 0.0,
+      "track_a_008": 0.0
+    },
+    "raw_deltas": {
+      "track_a_002": 0.0,
+      "track_a_007": 0.0,
+      "track_a_008": 0.0
+    },
+    "target_gate": false
+  },
+  "shots": 4096,
+  "targets": {
+    "track_a_002": {
+      "accepted_metric_guard_count": 0,
+      "best": {
+        "compile_time_sec": 0.2091301999753341,
+        "cx": 8,
+        "depth": 8,
+        "diagnostic_correct": 3600,
+        "diagnostic_shots": 4096,
+        "diagnostic_success": 0.87890625,
+        "elr": -0.15042961556101045,
+        "name": "root_current",
+        "public_correct": 223,
+        "public_shots": 256,
+        "public_success": 0.87109375,
+        "readout_cost": 0.06043044098276841,
+        "valid": true
+      },
+      "family": "hs",
+      "rejection_counts": {
+        "metric_guard_failed": 1
+      },
+      "root": {
+        "compile_time_sec": 0.2091301999753341,
+        "cx": 8,
+        "depth": 8,
+        "diagnostic_correct": 3600,
+        "diagnostic_shots": 4096,
+        "diagnostic_success": 0.87890625,
+        "elr": -0.15042961556101045,
+        "name": "root_current",
+        "public_correct": 223,
+        "public_shots": 256,
+        "public_success": 0.87109375,
+        "readout_cost": 0.06043044098276841,
+        "valid": true
+      },
+      "routed_candidate_count": 1,
+      "source_candidate_count": 1,
+      "top_candidates": [
+        {
+          "accepted_metric_guard": false,
+          "compile_time_sec": 0.20196530007524416,
+          "cx": 15,
+          "cx_delta": 7,
+          "depth": 14,
+          "diagnostic_correct": 3350,
+          "diagnostic_shots": 4096,
+          "diagnostic_success": 0.81787109375,
+          "elr": -0.24303850964357684,
+          "elr_delta": -0.0926088940825664,
+          "layout": {
+            "0": 5,
+            "1": 4,
+            "2": 2,
+            "3": 6,
+            "4": 0,
+            "5": 1
+          },
+          "method": "affine_truth_table",
+          "name": "global_affine_synthesis_r1",
+          "proof": "exact_final_z_truth_table",
+          "public_correct": 210,
+          "public_shots": 256,
+          "public_success": 0.8203125,
+          "readout_cost": 0.06043044098276841,
+          "rejection_reason": "metric_guard_failed",
+          "source_cx": 15,
+          "valid": true
+        }
+      ],
+      "truth_model": {
+        "affine_columns": [
+          21,
+          53,
+          5,
+          13,
+          1,
+          3
+        ],
+        "affine_constant": 38,
+        "anf_degrees": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "deterministic": true,
+        "is_affine": true,
+        "is_permutation": true,
+        "likely_class": "affine_linear_reversible",
+        "max_degree": 1,
+        "width": 6
+      },
+      "valid_count": 1
+    },
+    "track_a_007": {
+      "accepted_metric_guard_count": 0,
+      "best": {
+        "compile_time_sec": 0.9502777999732643,
+        "cx": 14,
+        "depth": 22,
+        "diagnostic_correct": 3393,
+        "diagnostic_shots": 4096,
+        "diagnostic_success": 0.828369140625,
+        "elr": -0.2231225844058102,
+        "name": "root_current",
+        "public_correct": 206,
+        "public_shots": 256,
+        "public_success": 0.8046875,
+        "readout_cost": 0.06043044098276841,
+        "valid": true
+      },
+      "family": "adder",
+      "rejection_counts": {
+        "metric_guard_failed": 2,
+        "physical_final_z_miter_failed": 1
+      },
+      "root": {
+        "compile_time_sec": 0.9502777999732643,
+        "cx": 14,
+        "depth": 22,
+        "diagnostic_correct": 3393,
+        "diagnostic_shots": 4096,
+        "diagnostic_success": 0.828369140625,
+        "elr": -0.2231225844058102,
+        "name": "root_current",
+        "public_correct": 206,
+        "public_shots": 256,
+        "public_success": 0.8046875,
+        "readout_cost": 0.06043044098276841,
+        "valid": true
+      },
+      "routed_candidate_count": 3,
+      "source_candidate_count": 3,
+      "top_candidates": [
+        {
+          "accepted_metric_guard": false,
+          "compile_time_sec": 0.26071820000652224,
+          "cx": 14,
+          "cx_delta": 0,
+          "depth": 22,
+          "diagnostic_correct": 3393,
+          "diagnostic_shots": 4096,
+          "diagnostic_success": 0.828369140625,
+          "elr": -0.2231225844058102,
+          "elr_delta": 0.0,
+          "layout": {
+            "0": 9,
+            "1": 4,
+            "2": 5,
+            "3": 0,
+            "4": 6,
+            "5": 1
+          },
+          "method": "relative_phase_toffoli_global",
+          "name": "relative_phase_toffoli_0_1_3_2_3_5_r0",
+          "proof": "full_final_z_row_phase_miter",
+          "public_correct": 206,
+          "public_shots": 256,
+          "public_success": 0.8046875,
+          "readout_cost": 0.06043044098276841,
+          "rejection_reason": "metric_guard_failed",
+          "source_cx": 9,
+          "valid": true
+        },
+        {
+          "accepted_metric_guard": false,
+          "compile_time_sec": 0.404331199999433,
+          "cx": 19,
+          "cx_delta": 5,
+          "depth": 26,
+          "diagnostic_correct": 3260,
+          "diagnostic_shots": 4096,
+          "diagnostic_success": 0.7958984375,
+          "elr": -0.2710098227660797,
+          "elr_delta": -0.04788723836026951,
+          "layout": {
+            "0": 2,
+            "1": 4,
+            "2": 1,
+            "3": 0,
+            "4": 9,
+            "5": 5
+          },
+          "method": "relative_phase_toffoli_global",
+          "name": "relative_phase_toffoli_0_1_3_r4",
+          "proof": "full_final_z_row_phase_miter",
+          "public_correct": 194,
+          "public_shots": 256,
+          "public_success": 0.7578125,
+          "readout_cost": 0.06245678412800081,
+          "rejection_reason": "metric_guard_failed",
+          "source_cx": 12,
+          "valid": true
+        },
+        {
+          "accepted_metric_guard": false,
+          "method": "relative_phase_toffoli_global",
+          "name": "relative_phase_toffoli_2_3_5_r9",
+          "proof": "full_final_z_row_phase_miter",
+          "rejection_reason": "physical_final_z_miter_failed",
+          "source_cx": 12,
+          "valid": false
+        }
+      ],
+      "truth_model": {
+        "affine_columns": [],
+        "affine_constant": null,
+        "anf_degrees": [
+          1,
+          1,
+          1,
+          2,
+          1,
+          3
+        ],
+        "deterministic": true,
+        "is_affine": false,
+        "is_permutation": true,
+        "likely_class": "nonlinear_reversible",
+        "max_degree": 3,
+        "width": 6
+      },
+      "valid_count": 2
+    },
+    "track_a_008": {
+      "accepted_metric_guard_count": 0,
+      "best": {
+        "compile_time_sec": 7.044850300007965,
+        "cx": 14,
+        "depth": 28,
+        "diagnostic_correct": 3350,
+        "diagnostic_shots": 4096,
+        "diagnostic_success": 0.81787109375,
+        "elr": -0.2430476835579095,
+        "name": "root_current",
+        "public_correct": 206,
+        "public_shots": 256,
+        "public_success": 0.8046875,
+        "readout_cost": 0.07452936536227006,
+        "valid": true
+      },
+      "family": "structured_random",
+      "rejection_counts": {
+        "physical_final_z_miter_failed": 3
+      },
+      "root": {
+        "compile_time_sec": 7.044850300007965,
+        "cx": 14,
+        "depth": 28,
+        "diagnostic_correct": 3350,
+        "diagnostic_shots": 4096,
+        "diagnostic_success": 0.81787109375,
+        "elr": -0.2430476835579095,
+        "name": "root_current",
+        "public_correct": 206,
+        "public_shots": 256,
+        "public_success": 0.8046875,
+        "readout_cost": 0.07452936536227006,
+        "valid": true
+      },
+      "routed_candidate_count": 3,
+      "source_candidate_count": 3,
+      "top_candidates": [
+        {
+          "accepted_metric_guard": false,
+          "method": "relative_phase_toffoli_global",
+          "name": "relative_phase_toffoli_3_4_5_r9",
+          "proof": "full_final_z_row_phase_miter",
+          "rejection_reason": "physical_final_z_miter_failed",
+          "source_cx": 13,
+          "valid": false
+        },
+        {
+          "accepted_metric_guard": false,
+          "method": "relative_phase_toffoli_global",
+          "name": "relative_phase_toffoli_3_4_5_0_4_5_r9",
+          "proof": "full_final_z_row_phase_miter",
+          "rejection_reason": "physical_final_z_miter_failed",
+          "source_cx": 10,
+          "valid": false
+        },
+        {
+          "accepted_metric_guard": false,
+          "method": "relative_phase_toffoli_global",
+          "name": "relative_phase_toffoli_0_4_5_r9",
+          "proof": "full_final_z_row_phase_miter",
+          "rejection_reason": "physical_final_z_miter_failed",
+          "source_cx": 13,
+          "valid": false
+        }
+      ],
+      "truth_model": {
+        "affine_columns": [],
+        "affine_constant": null,
+        "anf_degrees": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2
+        ],
+        "deterministic": true,
+        "is_affine": false,
+        "is_permutation": true,
+        "likely_class": "quadratic_reversible",
+        "max_degree": 2,
+        "width": 7
+      },
+      "valid_count": 0
+    }
+  },
+  "variant": "track_a_global_semantic_resynthesis_probe_dev_only"
+}

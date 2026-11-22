@@ -1,0 +1,3 @@
+policy,reference,comparison,beers,energy_delta,ci95_low,ci95_high
+attachment_two,unconditional,conditional minus reference; negative favors conditional,29,-0.0095681907888612,-0.0163525742840458,-0.0026768276967511
+attachment_two,coordinate_clipping,conditional minus reference; negative favors conditional,29,-0.0071111157637316,-0.0138698120387287,-0.0001795331000223

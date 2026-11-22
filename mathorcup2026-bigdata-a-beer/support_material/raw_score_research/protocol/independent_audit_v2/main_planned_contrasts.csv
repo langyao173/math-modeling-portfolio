@@ -1,0 +1,13 @@
+target_weighting,targets,metric,scenario,method,reference,delta,ci025,ci975,n_beer,resamples,seed,interval_type
+record_equal,all50,pooled_mean_rmse,complete,cdf_et,z_cdf_isotonic,0.013611585742927,0.0039041149006949,0.0238804838440576,250,2000,2026102527,pointwise conditional paired beer bootstrap; no multiplicity adjustment
+record_equal,all50,pooled_mean_rmse,complete,z_affine,direct_et,-0.0194760596670646,-0.0282292411362648,-0.0116780348097498,250,2000,2026102527,pointwise conditional paired beer bootstrap; no multiplicity adjustment
+record_equal,all50,pooled_mean_rmse,complete,z_affine,training_distribution,-0.1589761669187872,-0.1787302110061542,-0.1399906913090601,250,2000,2026102527,pointwise conditional paired beer bootstrap; no multiplicity adjustment
+record_equal,all50,rps,complete,cdf_et,training_distribution,-0.0072870525647159,-0.0082574886882288,-0.0063281427769733,250,2000,2026102527,pointwise conditional paired beer bootstrap; no multiplicity adjustment
+record_equal,all50,rps,complete,cdf_ridge,training_distribution,-0.0050690768282824,-0.006192848634875,-0.0037650528677884,250,2000,2026102527,pointwise conditional paired beer bootstrap; no multiplicity adjustment
+record_equal,all50,rps,complete,z_cdf_isotonic,training_distribution,-0.0075842839981222,-0.0087471617463365,-0.0065011235688746,250,2000,2026102527,pointwise conditional paired beer bootstrap; no multiplicity adjustment
+record_equal,core30,pooled_mean_rmse,complete,cdf_et,z_cdf_isotonic,0.0097392355679216,-0.0034737428643041,0.0246033438340905,250,2000,2026102527,pointwise conditional paired beer bootstrap; no multiplicity adjustment
+record_equal,core30,pooled_mean_rmse,complete,z_affine,direct_et,-0.0147344034886955,-0.0261168669346446,-0.0044259171195346,250,2000,2026102527,pointwise conditional paired beer bootstrap; no multiplicity adjustment
+record_equal,core30,pooled_mean_rmse,complete,z_affine,training_distribution,-0.1404878115125433,-0.1629029322318134,-0.1188239132185773,250,2000,2026102527,pointwise conditional paired beer bootstrap; no multiplicity adjustment
+record_equal,core30,rps,complete,cdf_et,training_distribution,-0.0068219743754824,-0.0079442803097248,-0.0057759248532094,250,2000,2026102527,pointwise conditional paired beer bootstrap; no multiplicity adjustment
+record_equal,core30,rps,complete,cdf_ridge,training_distribution,-0.0043685363503338,-0.0055238059998137,-0.0029497392884152,250,2000,2026102527,pointwise conditional paired beer bootstrap; no multiplicity adjustment
+record_equal,core30,rps,complete,z_cdf_isotonic,training_distribution,-0.0068181257988827,-0.0082053672474656,-0.0055070801888147,250,2000,2026102527,pointwise conditional paired beer bootstrap; no multiplicity adjustment

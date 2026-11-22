@@ -1,0 +1,48 @@
+{
+  "track": "track_b",
+  "name": "affine_struct_012",
+  "family": "near_miss_non_affine_clifford",
+  "logical_qubits": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "expected_output_rule": {
+    "rule_type": "allowed_bitstrings",
+    "bitstring": null,
+    "allowed_bitstrings": [
+      "000000000000000000000000",
+      "010001000000000000000000",
+      "100000000000000000000000",
+      "110001000000000000000000"
+    ],
+    "parity_checks": []
+  },
+  "metadata": {
+    "backend_size_class": "large",
+    "backend_snapshot_id": "large_snapshot_a",
+    "synthetic_family": "near_miss_non_affine_clifford",
+    "negative_case": true
+  }
+}

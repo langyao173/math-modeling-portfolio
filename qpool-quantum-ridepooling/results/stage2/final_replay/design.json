@@ -1,0 +1,25 @@
+{
+  "study": "second development iteration, not sealed test",
+  "method": "qpool_lns_cpu",
+  "fleets": [
+    8,
+    16,
+    32,
+    48
+  ],
+  "epochs": [
+    60,
+    300
+  ],
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "candidate_pool_unchanged": true,
+  "quantum_calls": 0,
+  "minimum_precision": 1,
+  "max_core_variables": 96,
+  "tie_polish_seconds": 0.02,
+  "safeguard": "hold local-search seed on objective ties"
+}

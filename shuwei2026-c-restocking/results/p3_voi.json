@@ -1,0 +1,169 @@
+{
+ "shadow_price": {
+  "S1": {
+   "one_second": {
+    "mean": -0.0019623077181848045,
+    "se": 0.0021527142247444275
+   },
+   "one_cost_unit": {
+    "mean": 0.0,
+    "se": 0.0
+   },
+   "one_review_price": {
+    "mean": -0.0019623077181848045,
+    "se": 0.0021527142247444275
+   }
+  },
+  "S2": {
+   "one_second": {
+    "mean": 0.004276990297766002,
+    "se": 0.003275344078732385
+   },
+   "one_cost_unit": {
+    "mean": 0.0,
+    "se": 0.0
+   },
+   "one_review_price": {
+    "mean": 0.004276990297766002,
+    "se": 0.003275344078732385
+   }
+  },
+  "S3": {
+   "one_second": {
+    "mean": -0.008266012426402196,
+    "se": 0.008788632538531068
+   },
+   "one_cost_unit": {
+    "mean": -0.015628608334093925,
+    "se": 0.009497928171103
+   },
+   "one_review_price": {
+    "mean": -0.013889890670126049,
+    "se": 0.009701968840480841
+   }
+  },
+  "ALL": {
+   "one_second": {
+    "mean": -0.0019837766156069994,
+    "se": 0.003217534828053405
+   },
+   "one_cost_unit": {
+    "mean": -0.005209536111364641,
+    "se": 0.003226147936528028
+   },
+   "one_review_price": {
+    "mean": -0.003858402696848284,
+    "se": 0.0035398364252759843
+   }
+  }
+ },
+ "evpi": {
+  "total": {
+   "mean": 0.18161869362341515,
+   "se": 0.012638097779684283
+  },
+  "per_executed_job": 0.01755712398078127,
+  "by_case": {
+   "S1": {
+    "mean": 0.09114019565833154,
+    "se": 0.006203930394469396
+   },
+   "S2": {
+    "mean": 0.1820244825530464,
+    "se": 0.012596496711492032
+   },
+   "S3": {
+    "mean": 0.2716914026588675,
+    "se": 0.026670644131541188
+   }
+  },
+  "executed_jobs_mean": 10.344444444444445
+ },
+ "prefix_levels": {
+  "family": {
+   "cv_sd_log": 0.8239603536193265,
+   "val_pinball_s": 1.438163269956472,
+   "test_pinball_s": 1.3421336612779236,
+   "val_mae_log": 0.5613175630852845,
+   "test_mae_log": 0.3702375806782692
+  },
+  "feat0": {
+   "cv_sd_log": 0.7833710490779755,
+   "val_pinball_s": 1.102633682529938,
+   "test_pinball_s": 1.5490190143675042,
+   "val_mae_log": 0.4284747118441649,
+   "test_mae_log": 0.5152487492510252
+  },
+  "feat1": {
+   "cv_sd_log": 0.7691323422431268,
+   "val_pinball_s": 1.1749904450377706,
+   "test_pinball_s": 1.634211894385266,
+   "val_mae_log": 0.4528286901072332,
+   "test_mae_log": 0.5230594159659818
+  },
+  "feat2": {
+   "cv_sd_log": 0.7875844141545981,
+   "val_pinball_s": 1.220202859683783,
+   "test_pinball_s": 1.6691368124687678,
+   "val_mae_log": 0.4697452652684508,
+   "test_mae_log": 0.5475151794586116
+  }
+ },
+ "variance_reduction_cv": {
+  "first_review": 0.036022020671544586,
+  "second_review": -0.048557083170189586
+ },
+ "model_based_benefit_per_review": 0.00017833639258657018,
+ "planning_error_per_job_s": 3.5430542163972722,
+ "review_reference_policy": "RO-feat-static",
+ "forced_ABL-review-once_validation": {
+  "delta_utility": {
+   "mean": -0.07236995754559952,
+   "se": 0.010952163403684639
+  },
+  "reviews": 6.0,
+  "per_review": -0.012061659590933254,
+  "delta_on_time": -0.043055555555555555,
+  "delta_overrun_idle_s": -1.004731580788537
+ },
+ "forced_ABL-review-twice_validation": {
+  "delta_utility": {
+   "mean": -0.07045406645457566,
+   "se": 0.010515827511756474
+  },
+  "reviews": 6.0,
+  "per_review": -0.011742344409095945,
+  "delta_on_time": -0.04456018518518518,
+  "delta_overrun_idle_s": -0.9848915769890874
+ },
+ "forced_ABL-review-idle_validation": {
+  "delta_utility": {
+   "mean": -0.0015112919311298717,
+   "se": 0.0010621826448819907
+  },
+  "reviews": 0.05555555555555555,
+  "per_review": -0.027203254760337692,
+  "delta_on_time": -0.0010416666666666667,
+  "delta_overrun_idle_s": 0.07561702313565521
+ },
+ "forced_ABL-review-once_test": {
+  "delta_utility": {
+   "mean": -0.08863274771779392,
+   "se": 0.01771889424057956
+  },
+  "reviews": 6.0,
+  "per_review": -0.01477212461963232,
+  "delta_on_time": -0.04849537037037037,
+  "delta_overrun_idle_s": -2.1870665878855715
+ },
+ "forced_ABL-review-idle_test": {
+  "delta_utility": {
+   "mean": 0.00018141900438812562,
+   "se": 0.00010406446462326286
+  },
+  "reviews": 0.03333333333333333,
+  "per_review": 0.005442570131643769,
+  "delta_on_time": -0.0006944444444444445,
+  "delta_overrun_idle_s": -0.07552324881892038
+ }
+}

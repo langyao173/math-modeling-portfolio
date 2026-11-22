@@ -1,0 +1,9314 @@
+{
+  "max_depth": 4,
+  "max_enumerated_per_width": 12000,
+  "rule_count": 97,
+  "rules": [
+    {
+      "after": [
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 1,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        }
+      ],
+      "before_cx": 1,
+      "before_ops": 5,
+      "family": "h_cx_h_reversal",
+      "row_phase_hash": "dc2d23047f289373950b727e36a5c4ddd072cb1aa2f8741d0116e857fb5e0492",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            0
+          ],
+          "text": "CNOT(q(2), q(0))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 1,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        }
+      ],
+      "before_cx": 1,
+      "before_ops": 5,
+      "family": "h_cx_h_reversal",
+      "row_phase_hash": "c9db13aa50588e77033b7ecffc8aea3f5964fb41f7b3a1fe4873b605ed09c88f",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 1,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        }
+      ],
+      "before_cx": 1,
+      "before_ops": 5,
+      "family": "h_cx_h_reversal",
+      "row_phase_hash": "73f29c2d70027b8b03f2596a3eba1df83348184a2bd2cca29f716148aeb4bfe7",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 1,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        }
+      ],
+      "before_cx": 1,
+      "before_ops": 5,
+      "family": "h_cx_h_reversal",
+      "row_phase_hash": "de5ea650b6095fc19c42cf022c9d3255473cc3addae1dd3471f2c3086decd20c",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 1,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            0
+          ],
+          "text": "CNOT(q(2), q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        }
+      ],
+      "before_cx": 1,
+      "before_ops": 5,
+      "family": "h_cx_h_reversal",
+      "row_phase_hash": "cd2905e35b118b84463ba5ed4a538851d0c696efebc66e0e24d1c14f2429cedf",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 1,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        }
+      ],
+      "before_cx": 1,
+      "before_ops": 5,
+      "family": "h_cx_h_reversal",
+      "row_phase_hash": "8cd80e57dbceb8e49b5728317bff6bbbf6497cfe0d1537d429eb969b9e3fa82c",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 1,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        }
+      ],
+      "before_cx": 1,
+      "before_ops": 5,
+      "family": "h_cx_h_reversal",
+      "row_phase_hash": "cebe3b40dc014969b51db87368e9e5314dc50bdfdf5439ccbd55efde8441c2f7",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            0
+          ],
+          "text": "CNOT(q(2), q(0))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 1,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        }
+      ],
+      "before_cx": 1,
+      "before_ops": 5,
+      "family": "h_cx_h_reversal",
+      "row_phase_hash": "e7d32b36fa4e86a7a539bb9c96d3a0ec7d5f57e08cf495831e63f2516aa2be26",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            0
+          ],
+          "text": "CNOT(q(3), q(0))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 1,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            3
+          ],
+          "text": "CNOT(q(0), q(3))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        }
+      ],
+      "before_cx": 1,
+      "before_ops": 5,
+      "family": "h_cx_h_reversal",
+      "row_phase_hash": "c64fab401a5cc2c3c904fbe9b5663a36de9c24d19b3dcd7b54060bcc6ba13eac",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 1,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        }
+      ],
+      "before_cx": 1,
+      "before_ops": 5,
+      "family": "h_cx_h_reversal",
+      "row_phase_hash": "1da927c0fe1323c08dd0e1409997a3f4becec9005efb09ed23bf2dbfcceaf877",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 1,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        }
+      ],
+      "before_cx": 1,
+      "before_ops": 5,
+      "family": "h_cx_h_reversal",
+      "row_phase_hash": "237978c36d174a01675e6c81fc7976726b3bf34d90d03757b7090140fdd91ae4",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            1
+          ],
+          "text": "CNOT(q(3), q(1))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 1,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            3
+          ],
+          "text": "CNOT(q(1), q(3))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        }
+      ],
+      "before_cx": 1,
+      "before_ops": 5,
+      "family": "h_cx_h_reversal",
+      "row_phase_hash": "12b37c9b0c0bcc6f605d3b71658e7a93183c2d2bbf6945ed6229b3179c66949b",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 1,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            0
+          ],
+          "text": "CNOT(q(2), q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        }
+      ],
+      "before_cx": 1,
+      "before_ops": 5,
+      "family": "h_cx_h_reversal",
+      "row_phase_hash": "27ecf330a156c29595bbdaaea033f996373f8b8f8d0b65cd68d3a732196ced32",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 1,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        }
+      ],
+      "before_cx": 1,
+      "before_ops": 5,
+      "family": "h_cx_h_reversal",
+      "row_phase_hash": "eca88309ef19300d6859ac0174780b273539b52303b468ad07de1c31d9bd1652",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            2
+          ],
+          "text": "CNOT(q(3), q(2))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 1,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            3
+          ],
+          "text": "CNOT(q(2), q(3))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        }
+      ],
+      "before_cx": 1,
+      "before_ops": 5,
+      "family": "h_cx_h_reversal",
+      "row_phase_hash": "64effc0de486ed7d5bf197a95ff9f84367c4fd78b650f75cbf9ddb9a3b9bba3b",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            3
+          ],
+          "text": "CNOT(q(0), q(3))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 1,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            0
+          ],
+          "text": "CNOT(q(3), q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        }
+      ],
+      "before_cx": 1,
+      "before_ops": 5,
+      "family": "h_cx_h_reversal",
+      "row_phase_hash": "f0f44e1eb61d86155d20bb2c4ace8cfafb0ea6f145a4fdb6ba9149140f6f1691",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            3
+          ],
+          "text": "CNOT(q(1), q(3))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 1,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            1
+          ],
+          "text": "CNOT(q(3), q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        }
+      ],
+      "before_cx": 1,
+      "before_ops": 5,
+      "family": "h_cx_h_reversal",
+      "row_phase_hash": "b18497693250534c9be6f9731b9e9e2e08b2785cd0e54851311f954856e91f14",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            3
+          ],
+          "text": "CNOT(q(2), q(3))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 1,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            2
+          ],
+          "text": "CNOT(q(3), q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        }
+      ],
+      "before_cx": 1,
+      "before_ops": 5,
+      "family": "h_cx_h_reversal",
+      "row_phase_hash": "5d5c3289793dc0aff09b703a7b9d4e8db52a53f8df3e94348f7730a1c6c0b2a1",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [],
+      "after_cx": 0,
+      "after_ops": 0,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        }
+      ],
+      "before_cx": 0,
+      "before_ops": 2,
+      "family": "hh_cancel",
+      "row_phase_hash": "9b46ce3dc305ce2c500b8561967cdfed6e8ca5bcef6c55d7f1efec7f207e39bb",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [],
+      "after_cx": 0,
+      "after_ops": 0,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        }
+      ],
+      "before_cx": 0,
+      "before_ops": 2,
+      "family": "hh_cancel",
+      "row_phase_hash": "9b46ce3dc305ce2c500b8561967cdfed6e8ca5bcef6c55d7f1efec7f207e39bb",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [],
+      "after_cx": 0,
+      "after_ops": 0,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        }
+      ],
+      "before_cx": 0,
+      "before_ops": 2,
+      "family": "hh_cancel",
+      "row_phase_hash": "9b46ce3dc305ce2c500b8561967cdfed6e8ca5bcef6c55d7f1efec7f207e39bb",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [],
+      "after_cx": 0,
+      "after_ops": 0,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        }
+      ],
+      "before_cx": 0,
+      "before_ops": 2,
+      "family": "hh_cancel",
+      "row_phase_hash": "f4539e27394c2ed1e0567663764cc890b3b731ed2ee25ddc9bac6a82e80e10f5",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [],
+      "after_cx": 0,
+      "after_ops": 0,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        }
+      ],
+      "before_cx": 0,
+      "before_ops": 2,
+      "family": "hh_cancel",
+      "row_phase_hash": "f4539e27394c2ed1e0567663764cc890b3b731ed2ee25ddc9bac6a82e80e10f5",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [],
+      "after_cx": 0,
+      "after_ops": 0,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        }
+      ],
+      "before_cx": 0,
+      "before_ops": 2,
+      "family": "hh_cancel",
+      "row_phase_hash": "f4539e27394c2ed1e0567663764cc890b3b731ed2ee25ddc9bac6a82e80e10f5",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [],
+      "after_cx": 0,
+      "after_ops": 0,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        }
+      ],
+      "before_cx": 0,
+      "before_ops": 2,
+      "family": "hh_cancel",
+      "row_phase_hash": "f4539e27394c2ed1e0567663764cc890b3b731ed2ee25ddc9bac6a82e80e10f5",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [
+        {
+          "gate": "sdg",
+          "qubits": [
+            0
+          ],
+          "text": "S**-1(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 3,
+      "before": [
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        }
+      ],
+      "before_cx": 2,
+      "before_ops": 4,
+      "family": "mined_row_phase",
+      "row_phase_hash": "575c0bcabe14ed788baf405968137b1256192e9d80bcd22d092fa07dc3a9323f",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "sdg",
+          "qubits": [
+            0
+          ],
+          "text": "S**-1(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 3,
+      "before": [
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        }
+      ],
+      "before_cx": 2,
+      "before_ops": 4,
+      "family": "mined_row_phase",
+      "row_phase_hash": "6511c54e8af8f8687c5d6b122a7e0a35cbefaa617af8ed820b01b236a73d40bf",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "sdg",
+          "qubits": [
+            0
+          ],
+          "text": "S**-1(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            0
+          ],
+          "text": "CNOT(q(2), q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 3,
+      "before": [
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            0
+          ],
+          "text": "CNOT(q(2), q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        }
+      ],
+      "before_cx": 2,
+      "before_ops": 4,
+      "family": "mined_row_phase",
+      "row_phase_hash": "591e7ebd7c4ea47e6122b3bb44c9b15ab83236d9f1b9210372ea37e4052133af",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "sdg",
+          "qubits": [
+            0
+          ],
+          "text": "S**-1(q(0))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 3,
+      "before": [
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        }
+      ],
+      "before_cx": 2,
+      "before_ops": 4,
+      "family": "mined_row_phase",
+      "row_phase_hash": "4f1b7539243a058eb12f59c23f054dba34a761e3a6c1b31bedd045511673a75e",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "sdg",
+          "qubits": [
+            0
+          ],
+          "text": "S**-1(q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 3,
+      "before": [
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        }
+      ],
+      "before_cx": 2,
+      "before_ops": 4,
+      "family": "mined_row_phase",
+      "row_phase_hash": "26d22f948608570dd3cf3478042864e099620e4b57e161f2c2ed5b9dee01135b",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "sdg",
+          "qubits": [
+            0
+          ],
+          "text": "S**-1(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 3,
+      "before": [
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        }
+      ],
+      "before_cx": 2,
+      "before_ops": 4,
+      "family": "mined_row_phase",
+      "row_phase_hash": "575c0bcabe14ed788baf405968137b1256192e9d80bcd22d092fa07dc3a9323f",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "sdg",
+          "qubits": [
+            0
+          ],
+          "text": "S**-1(q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 3,
+      "before": [
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        }
+      ],
+      "before_cx": 2,
+      "before_ops": 4,
+      "family": "mined_row_phase",
+      "row_phase_hash": "2050ef72779400a0203161def9c2cfb151344419c50e40473109db27859162a1",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "sdg",
+          "qubits": [
+            0
+          ],
+          "text": "S**-1(q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 3,
+      "before": [
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        }
+      ],
+      "before_cx": 2,
+      "before_ops": 4,
+      "family": "mined_row_phase",
+      "row_phase_hash": "2d19922d231b6e84c03cbbc839c1aac7ece81f4f6c1dcf15233364cd32bc26c2",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "sdg",
+          "qubits": [
+            0
+          ],
+          "text": "S**-1(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            0
+          ],
+          "text": "CNOT(q(2), q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 3,
+      "before": [
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            0
+          ],
+          "text": "CNOT(q(2), q(0))"
+        }
+      ],
+      "before_cx": 2,
+      "before_ops": 4,
+      "family": "mined_row_phase",
+      "row_phase_hash": "591e7ebd7c4ea47e6122b3bb44c9b15ab83236d9f1b9210372ea37e4052133af",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "sdg",
+          "qubits": [
+            0
+          ],
+          "text": "S**-1(q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 3,
+      "before": [
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        }
+      ],
+      "before_cx": 2,
+      "before_ops": 4,
+      "family": "mined_row_phase",
+      "row_phase_hash": "18580b6803b1e64383642a6d7ee5af3821f7d638937e5ed8b6f49dcd0189cf8b",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "sdg",
+          "qubits": [
+            0
+          ],
+          "text": "S**-1(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 3,
+      "before": [
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        }
+      ],
+      "before_cx": 2,
+      "before_ops": 4,
+      "family": "mined_row_phase",
+      "row_phase_hash": "575c0bcabe14ed788baf405968137b1256192e9d80bcd22d092fa07dc3a9323f",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "sdg",
+          "qubits": [
+            0
+          ],
+          "text": "S**-1(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 3,
+      "before": [
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        }
+      ],
+      "before_cx": 2,
+      "before_ops": 4,
+      "family": "mined_row_phase",
+      "row_phase_hash": "6511c54e8af8f8687c5d6b122a7e0a35cbefaa617af8ed820b01b236a73d40bf",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "sdg",
+          "qubits": [
+            0
+          ],
+          "text": "S**-1(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 3,
+      "before": [
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        }
+      ],
+      "before_cx": 2,
+      "before_ops": 4,
+      "family": "mined_row_phase",
+      "row_phase_hash": "c47ed50515d7239101b0bb5b85ec94f686f8661a66d732c9da52296a2eee3fc7",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "sdg",
+          "qubits": [
+            0
+          ],
+          "text": "S**-1(q(0))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 3,
+      "before": [
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        }
+      ],
+      "before_cx": 2,
+      "before_ops": 4,
+      "family": "mined_row_phase",
+      "row_phase_hash": "f3258a0f98f264eada77644d82c346b1a4b1a918ba7d32915c6530140364c0bb",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "sdg",
+          "qubits": [
+            0
+          ],
+          "text": "S**-1(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 3,
+      "before": [
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        }
+      ],
+      "before_cx": 2,
+      "before_ops": 4,
+      "family": "mined_row_phase",
+      "row_phase_hash": "6511c54e8af8f8687c5d6b122a7e0a35cbefaa617af8ed820b01b236a73d40bf",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "sdg",
+          "qubits": [
+            0
+          ],
+          "text": "S**-1(q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 3,
+      "before": [
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        }
+      ],
+      "before_cx": 2,
+      "before_ops": 4,
+      "family": "mined_row_phase",
+      "row_phase_hash": "ee6fe5cd582969f83632b706df8a269aba5016c4b99fa400cf777612ef0c04b6",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "sdg",
+          "qubits": [
+            0
+          ],
+          "text": "S**-1(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 3,
+      "before": [
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        }
+      ],
+      "before_cx": 2,
+      "before_ops": 4,
+      "family": "mined_row_phase",
+      "row_phase_hash": "c47ed50515d7239101b0bb5b85ec94f686f8661a66d732c9da52296a2eee3fc7",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "sdg",
+          "qubits": [
+            0
+          ],
+          "text": "S**-1(q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 3,
+      "before": [
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        }
+      ],
+      "before_cx": 2,
+      "before_ops": 4,
+      "family": "mined_row_phase",
+      "row_phase_hash": "cbe31e880771bae5c5ae7c82bcbc2107282a157f3f096d53f71acf417b41dd3f",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "sdg",
+          "qubits": [
+            0
+          ],
+          "text": "S**-1(q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            0
+          ],
+          "text": "CNOT(q(2), q(0))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 3,
+      "before": [
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            0
+          ],
+          "text": "CNOT(q(2), q(0))"
+        }
+      ],
+      "before_cx": 2,
+      "before_ops": 4,
+      "family": "mined_row_phase",
+      "row_phase_hash": "3a60d90b45899b22b7502ef20e5161602558017a5b6db043516896765168e74b",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "sdg",
+          "qubits": [
+            0
+          ],
+          "text": "S**-1(q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 3,
+      "before": [
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        }
+      ],
+      "before_cx": 2,
+      "before_ops": 4,
+      "family": "mined_row_phase",
+      "row_phase_hash": "9d8f90bf7d9b240ac9f39d0551c8198040fc3f4f9211ff660406f35516c1675b",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "sdg",
+          "qubits": [
+            0
+          ],
+          "text": "S**-1(q(0))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 3,
+      "before": [
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        }
+      ],
+      "before_cx": 2,
+      "before_ops": 4,
+      "family": "mined_row_phase",
+      "row_phase_hash": "a1e14be91317e70f5de8188e34621f155eb49cd4ccf81054e028e2d58b4c0e89",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "sdg",
+          "qubits": [
+            0
+          ],
+          "text": "S**-1(q(0))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 3,
+      "before": [
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        }
+      ],
+      "before_cx": 2,
+      "before_ops": 4,
+      "family": "mined_row_phase",
+      "row_phase_hash": "f3258a0f98f264eada77644d82c346b1a4b1a918ba7d32915c6530140364c0bb",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "sdg",
+          "qubits": [
+            0
+          ],
+          "text": "S**-1(q(0))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 3,
+      "before": [
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        }
+      ],
+      "before_cx": 2,
+      "before_ops": 4,
+      "family": "mined_row_phase",
+      "row_phase_hash": "4f1b7539243a058eb12f59c23f054dba34a761e3a6c1b31bedd045511673a75e",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "sdg",
+          "qubits": [
+            0
+          ],
+          "text": "S**-1(q(0))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 3,
+      "before": [
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        }
+      ],
+      "before_cx": 2,
+      "before_ops": 4,
+      "family": "mined_row_phase",
+      "row_phase_hash": "f20c7ab5c30bdd14669750aab7855e4a1fe7e474d9266a2fb7b64b1ee4cb4d18",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 3,
+      "before": [
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        }
+      ],
+      "before_cx": 2,
+      "before_ops": 4,
+      "family": "mined_row_phase",
+      "row_phase_hash": "2625be4d4c7232e5c970dc6398b32151173e83ae49018054aac2fd488e48a1eb",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 3,
+      "before": [
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        }
+      ],
+      "before_cx": 2,
+      "before_ops": 4,
+      "family": "mined_row_phase",
+      "row_phase_hash": "2625be4d4c7232e5c970dc6398b32151173e83ae49018054aac2fd488e48a1eb",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 3,
+      "before": [
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        }
+      ],
+      "before_cx": 2,
+      "before_ops": 4,
+      "family": "mined_row_phase",
+      "row_phase_hash": "2625be4d4c7232e5c970dc6398b32151173e83ae49018054aac2fd488e48a1eb",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        }
+      ],
+      "after_cx": 1,
+      "after_ops": 3,
+      "before": [
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        }
+      ],
+      "before_cx": 2,
+      "before_ops": 4,
+      "family": "mined_row_phase",
+      "row_phase_hash": "2625be4d4c7232e5c970dc6398b32151173e83ae49018054aac2fd488e48a1eb",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            0
+          ],
+          "text": "CNOT(q(2), q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        }
+      ],
+      "after_cx": 3,
+      "after_ops": 9,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            0
+          ],
+          "text": "CNOT(q(2), q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            0
+          ],
+          "text": "CNOT(q(2), q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        }
+      ],
+      "before_cx": 6,
+      "before_ops": 15,
+      "family": "relative_phase_toffoli",
+      "row_phase_hash": "595c34a524f92d6a04a1c459fcb34f76dc6474effc814cde9ed063bd0ff88d71",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            0
+          ],
+          "text": "CNOT(q(2), q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            0
+          ],
+          "text": "CNOT(q(2), q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        }
+      ],
+      "after_cx": 3,
+      "after_ops": 9,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            0
+          ],
+          "text": "CNOT(q(2), q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            0
+          ],
+          "text": "CNOT(q(2), q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        }
+      ],
+      "before_cx": 6,
+      "before_ops": 15,
+      "family": "relative_phase_toffoli",
+      "row_phase_hash": "595c34a524f92d6a04a1c459fcb34f76dc6474effc814cde9ed063bd0ff88d71",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        }
+      ],
+      "after_cx": 3,
+      "after_ops": 9,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            0
+          ],
+          "text": "CNOT(q(2), q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            0
+          ],
+          "text": "CNOT(q(2), q(0))"
+        }
+      ],
+      "before_cx": 6,
+      "before_ops": 15,
+      "family": "relative_phase_toffoli",
+      "row_phase_hash": "27b7c9f38254e621dc203d9dd5c61c2ad0ad5af233e20563ac276f7cba3157d1",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        }
+      ],
+      "after_cx": 3,
+      "after_ops": 9,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        }
+      ],
+      "before_cx": 6,
+      "before_ops": 15,
+      "family": "relative_phase_toffoli",
+      "row_phase_hash": "27b7c9f38254e621dc203d9dd5c61c2ad0ad5af233e20563ac276f7cba3157d1",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        }
+      ],
+      "after_cx": 3,
+      "after_ops": 9,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        }
+      ],
+      "before_cx": 6,
+      "before_ops": 15,
+      "family": "relative_phase_toffoli",
+      "row_phase_hash": "d4cc3f98a37bba6c4be336481cea9584d0f0d624103b78535f03552828c1f5f3",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        }
+      ],
+      "after_cx": 3,
+      "after_ops": 9,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        }
+      ],
+      "before_cx": 6,
+      "before_ops": 15,
+      "family": "relative_phase_toffoli",
+      "row_phase_hash": "d4cc3f98a37bba6c4be336481cea9584d0f0d624103b78535f03552828c1f5f3",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            0
+          ],
+          "text": "CNOT(q(2), q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        }
+      ],
+      "after_cx": 3,
+      "after_ops": 9,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            0
+          ],
+          "text": "CNOT(q(2), q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            0
+          ],
+          "text": "CNOT(q(2), q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        }
+      ],
+      "before_cx": 6,
+      "before_ops": 15,
+      "family": "relative_phase_toffoli",
+      "row_phase_hash": "ba2cc6b745498e85f5c6fafac866ef9d99c28d8538c724765d24b096230778ee",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            0
+          ],
+          "text": "CNOT(q(3), q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        }
+      ],
+      "after_cx": 3,
+      "after_ops": 9,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            0
+          ],
+          "text": "CNOT(q(3), q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            0
+          ],
+          "text": "CNOT(q(3), q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            1
+          ],
+          "text": "CNOT(q(3), q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            1
+          ],
+          "text": "CNOT(q(3), q(1))"
+        }
+      ],
+      "before_cx": 6,
+      "before_ops": 15,
+      "family": "relative_phase_toffoli",
+      "row_phase_hash": "5c8b1d67157e5e0d425bd1d3e32ef7fe3ec33c5d67395d19159a28b536f218ae",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            0
+          ],
+          "text": "CNOT(q(2), q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            0
+          ],
+          "text": "CNOT(q(2), q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        }
+      ],
+      "after_cx": 3,
+      "after_ops": 9,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            0
+          ],
+          "text": "CNOT(q(2), q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            0
+          ],
+          "text": "CNOT(q(2), q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        }
+      ],
+      "before_cx": 6,
+      "before_ops": 15,
+      "family": "relative_phase_toffoli",
+      "row_phase_hash": "ba2cc6b745498e85f5c6fafac866ef9d99c28d8538c724765d24b096230778ee",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            0
+          ],
+          "text": "CNOT(q(2), q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            0
+          ],
+          "text": "CNOT(q(3), q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            0
+          ],
+          "text": "CNOT(q(2), q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        }
+      ],
+      "after_cx": 3,
+      "after_ops": 9,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            0
+          ],
+          "text": "CNOT(q(2), q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            0
+          ],
+          "text": "CNOT(q(3), q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            0
+          ],
+          "text": "CNOT(q(2), q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            0
+          ],
+          "text": "CNOT(q(3), q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            2
+          ],
+          "text": "CNOT(q(3), q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            2
+          ],
+          "text": "CNOT(q(3), q(2))"
+        }
+      ],
+      "before_cx": 6,
+      "before_ops": 15,
+      "family": "relative_phase_toffoli",
+      "row_phase_hash": "5f41415ede22b4fd450a8c59860d74ecd0bda4096669921f50a9eab15001ce75",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            0
+          ],
+          "text": "CNOT(q(3), q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            0
+          ],
+          "text": "CNOT(q(3), q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        }
+      ],
+      "after_cx": 3,
+      "after_ops": 9,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            0
+          ],
+          "text": "CNOT(q(3), q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            0
+          ],
+          "text": "CNOT(q(3), q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            3
+          ],
+          "text": "CNOT(q(1), q(3))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            3
+          ],
+          "text": "T**-1(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            3
+          ],
+          "text": "CNOT(q(1), q(3))"
+        }
+      ],
+      "before_cx": 6,
+      "before_ops": 15,
+      "family": "relative_phase_toffoli",
+      "row_phase_hash": "5c8b1d67157e5e0d425bd1d3e32ef7fe3ec33c5d67395d19159a28b536f218ae",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            0
+          ],
+          "text": "CNOT(q(3), q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            0
+          ],
+          "text": "CNOT(q(2), q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            0
+          ],
+          "text": "CNOT(q(3), q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        }
+      ],
+      "after_cx": 3,
+      "after_ops": 9,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            0
+          ],
+          "text": "CNOT(q(3), q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            0
+          ],
+          "text": "CNOT(q(2), q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            0
+          ],
+          "text": "CNOT(q(3), q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            0
+          ],
+          "text": "CNOT(q(2), q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            3
+          ],
+          "text": "CNOT(q(2), q(3))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            0
+          ],
+          "text": "H(q(0))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            3
+          ],
+          "text": "T**-1(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            3
+          ],
+          "text": "CNOT(q(2), q(3))"
+        }
+      ],
+      "before_cx": 6,
+      "before_ops": 15,
+      "family": "relative_phase_toffoli",
+      "row_phase_hash": "5f41415ede22b4fd450a8c59860d74ecd0bda4096669921f50a9eab15001ce75",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        }
+      ],
+      "after_cx": 3,
+      "after_ops": 9,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            0
+          ],
+          "text": "CNOT(q(2), q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            0
+          ],
+          "text": "CNOT(q(2), q(0))"
+        }
+      ],
+      "before_cx": 6,
+      "before_ops": 15,
+      "family": "relative_phase_toffoli",
+      "row_phase_hash": "208cd2ba3a8695fc6068e2491ef94e10d67225b773c9600e44f3a15b89aa74fe",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            1
+          ],
+          "text": "CNOT(q(3), q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        }
+      ],
+      "after_cx": 3,
+      "after_ops": 9,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            1
+          ],
+          "text": "CNOT(q(3), q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            1
+          ],
+          "text": "CNOT(q(3), q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            0
+          ],
+          "text": "CNOT(q(3), q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            0
+          ],
+          "text": "CNOT(q(3), q(0))"
+        }
+      ],
+      "before_cx": 6,
+      "before_ops": 15,
+      "family": "relative_phase_toffoli",
+      "row_phase_hash": "22cf381dc00ed092980b678df78e7367b683f8052de570f7406c1c23965b34bf",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        }
+      ],
+      "after_cx": 3,
+      "after_ops": 9,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        }
+      ],
+      "before_cx": 6,
+      "before_ops": 15,
+      "family": "relative_phase_toffoli",
+      "row_phase_hash": "208cd2ba3a8695fc6068e2491ef94e10d67225b773c9600e44f3a15b89aa74fe",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            1
+          ],
+          "text": "CNOT(q(3), q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        }
+      ],
+      "after_cx": 3,
+      "after_ops": 9,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            1
+          ],
+          "text": "CNOT(q(3), q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            1
+          ],
+          "text": "CNOT(q(3), q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            2
+          ],
+          "text": "CNOT(q(3), q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            2
+          ],
+          "text": "CNOT(q(3), q(2))"
+        }
+      ],
+      "before_cx": 6,
+      "before_ops": 15,
+      "family": "relative_phase_toffoli",
+      "row_phase_hash": "6936b2ed7ff97fc8a765ad0ca00c59f7d2c71a6e5f1f3cb95beb53a427a11094",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            1
+          ],
+          "text": "CNOT(q(3), q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            1
+          ],
+          "text": "CNOT(q(3), q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        }
+      ],
+      "after_cx": 3,
+      "after_ops": 9,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            1
+          ],
+          "text": "CNOT(q(3), q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            1
+          ],
+          "text": "CNOT(q(3), q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            3
+          ],
+          "text": "CNOT(q(0), q(3))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            3
+          ],
+          "text": "T**-1(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            3
+          ],
+          "text": "CNOT(q(0), q(3))"
+        }
+      ],
+      "before_cx": 6,
+      "before_ops": 15,
+      "family": "relative_phase_toffoli",
+      "row_phase_hash": "22cf381dc00ed092980b678df78e7367b683f8052de570f7406c1c23965b34bf",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            1
+          ],
+          "text": "CNOT(q(3), q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            1
+          ],
+          "text": "CNOT(q(3), q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        }
+      ],
+      "after_cx": 3,
+      "after_ops": 9,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            1
+          ],
+          "text": "CNOT(q(3), q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            1
+          ],
+          "text": "CNOT(q(3), q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            3
+          ],
+          "text": "CNOT(q(2), q(3))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            1
+          ],
+          "text": "H(q(1))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            3
+          ],
+          "text": "T**-1(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            3
+          ],
+          "text": "CNOT(q(2), q(3))"
+        }
+      ],
+      "before_cx": 6,
+      "before_ops": 15,
+      "family": "relative_phase_toffoli",
+      "row_phase_hash": "6936b2ed7ff97fc8a765ad0ca00c59f7d2c71a6e5f1f3cb95beb53a427a11094",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        }
+      ],
+      "after_cx": 3,
+      "after_ops": 9,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        }
+      ],
+      "before_cx": 6,
+      "before_ops": 15,
+      "family": "relative_phase_toffoli",
+      "row_phase_hash": "15e2683287896b05e917ab4e2c27739bd91a139452e1904c12d23ff4806756fd",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            2
+          ],
+          "text": "CNOT(q(3), q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        }
+      ],
+      "after_cx": 3,
+      "after_ops": 9,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            2
+          ],
+          "text": "CNOT(q(3), q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            2
+          ],
+          "text": "CNOT(q(3), q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            0
+          ],
+          "text": "CNOT(q(3), q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            0
+          ],
+          "text": "CNOT(q(3), q(0))"
+        }
+      ],
+      "before_cx": 6,
+      "before_ops": 15,
+      "family": "relative_phase_toffoli",
+      "row_phase_hash": "760dc8e4876823d38bf9f077abc8871b1e665407e25d4f907e6240ee45b6f048",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        }
+      ],
+      "after_cx": 3,
+      "after_ops": 9,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        }
+      ],
+      "before_cx": 6,
+      "before_ops": 15,
+      "family": "relative_phase_toffoli",
+      "row_phase_hash": "15e2683287896b05e917ab4e2c27739bd91a139452e1904c12d23ff4806756fd",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            2
+          ],
+          "text": "CNOT(q(3), q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        }
+      ],
+      "after_cx": 3,
+      "after_ops": 9,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            2
+          ],
+          "text": "CNOT(q(3), q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            2
+          ],
+          "text": "CNOT(q(3), q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            1
+          ],
+          "text": "CNOT(q(3), q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            1
+          ],
+          "text": "CNOT(q(3), q(1))"
+        }
+      ],
+      "before_cx": 6,
+      "before_ops": 15,
+      "family": "relative_phase_toffoli",
+      "row_phase_hash": "2b7323a09c4090066b782b3dd7de333b7c36cfa4bf7e0c0b5bff35940e3cc639",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            2
+          ],
+          "text": "CNOT(q(3), q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            2
+          ],
+          "text": "CNOT(q(3), q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        }
+      ],
+      "after_cx": 3,
+      "after_ops": 9,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            2
+          ],
+          "text": "CNOT(q(3), q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            2
+          ],
+          "text": "CNOT(q(3), q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            3
+          ],
+          "text": "CNOT(q(0), q(3))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            3
+          ],
+          "text": "T**-1(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            3
+          ],
+          "text": "CNOT(q(0), q(3))"
+        }
+      ],
+      "before_cx": 6,
+      "before_ops": 15,
+      "family": "relative_phase_toffoli",
+      "row_phase_hash": "760dc8e4876823d38bf9f077abc8871b1e665407e25d4f907e6240ee45b6f048",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            2
+          ],
+          "text": "CNOT(q(3), q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            2
+          ],
+          "text": "CNOT(q(3), q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        }
+      ],
+      "after_cx": 3,
+      "after_ops": 9,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            2
+          ],
+          "text": "CNOT(q(3), q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            2
+          ],
+          "text": "CNOT(q(3), q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            3
+          ],
+          "text": "CNOT(q(1), q(3))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            2
+          ],
+          "text": "H(q(2))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            3
+          ],
+          "text": "T**-1(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            3
+          ],
+          "text": "CNOT(q(1), q(3))"
+        }
+      ],
+      "before_cx": 6,
+      "before_ops": 15,
+      "family": "relative_phase_toffoli",
+      "row_phase_hash": "2b7323a09c4090066b782b3dd7de333b7c36cfa4bf7e0c0b5bff35940e3cc639",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            3
+          ],
+          "text": "CNOT(q(0), q(3))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            3
+          ],
+          "text": "T**-1(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            3
+          ],
+          "text": "CNOT(q(1), q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            3
+          ],
+          "text": "CNOT(q(0), q(3))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            3
+          ],
+          "text": "T**-1(q(3))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        }
+      ],
+      "after_cx": 3,
+      "after_ops": 9,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            3
+          ],
+          "text": "CNOT(q(0), q(3))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            3
+          ],
+          "text": "T**-1(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            3
+          ],
+          "text": "CNOT(q(1), q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            3
+          ],
+          "text": "CNOT(q(0), q(3))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            3
+          ],
+          "text": "T**-1(q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            3
+          ],
+          "text": "CNOT(q(1), q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            0
+          ],
+          "text": "CNOT(q(1), q(0))"
+        }
+      ],
+      "before_cx": 6,
+      "before_ops": 15,
+      "family": "relative_phase_toffoli",
+      "row_phase_hash": "6f1940f13711649462184b6284fa1bc2ad8918c47d3908a1e5045ce2cfb03499",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            3
+          ],
+          "text": "CNOT(q(0), q(3))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            3
+          ],
+          "text": "T**-1(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            3
+          ],
+          "text": "CNOT(q(2), q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            3
+          ],
+          "text": "CNOT(q(0), q(3))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            3
+          ],
+          "text": "T**-1(q(3))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        }
+      ],
+      "after_cx": 3,
+      "after_ops": 9,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            3
+          ],
+          "text": "CNOT(q(0), q(3))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            3
+          ],
+          "text": "T**-1(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            3
+          ],
+          "text": "CNOT(q(2), q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            3
+          ],
+          "text": "CNOT(q(0), q(3))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            3
+          ],
+          "text": "T**-1(q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            3
+          ],
+          "text": "CNOT(q(2), q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            0
+          ],
+          "text": "CNOT(q(2), q(0))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            0
+          ],
+          "text": "CNOT(q(2), q(0))"
+        }
+      ],
+      "before_cx": 6,
+      "before_ops": 15,
+      "family": "relative_phase_toffoli",
+      "row_phase_hash": "b7c2bf1c4b32d9899a8cd6bad307a9d74c80bc3b1c37a6e7fd2e1a0cfdd05321",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            3
+          ],
+          "text": "CNOT(q(1), q(3))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            3
+          ],
+          "text": "T**-1(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            3
+          ],
+          "text": "CNOT(q(0), q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            3
+          ],
+          "text": "CNOT(q(1), q(3))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            3
+          ],
+          "text": "T**-1(q(3))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        }
+      ],
+      "after_cx": 3,
+      "after_ops": 9,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            3
+          ],
+          "text": "CNOT(q(1), q(3))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            3
+          ],
+          "text": "T**-1(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            3
+          ],
+          "text": "CNOT(q(0), q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            3
+          ],
+          "text": "CNOT(q(1), q(3))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            3
+          ],
+          "text": "T**-1(q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            3
+          ],
+          "text": "CNOT(q(0), q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        }
+      ],
+      "before_cx": 6,
+      "before_ops": 15,
+      "family": "relative_phase_toffoli",
+      "row_phase_hash": "6f1940f13711649462184b6284fa1bc2ad8918c47d3908a1e5045ce2cfb03499",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            3
+          ],
+          "text": "CNOT(q(1), q(3))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            3
+          ],
+          "text": "T**-1(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            3
+          ],
+          "text": "CNOT(q(2), q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            3
+          ],
+          "text": "CNOT(q(1), q(3))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            3
+          ],
+          "text": "T**-1(q(3))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        }
+      ],
+      "after_cx": 3,
+      "after_ops": 9,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            3
+          ],
+          "text": "CNOT(q(1), q(3))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            3
+          ],
+          "text": "T**-1(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            3
+          ],
+          "text": "CNOT(q(2), q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            3
+          ],
+          "text": "CNOT(q(1), q(3))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            3
+          ],
+          "text": "T**-1(q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            3
+          ],
+          "text": "CNOT(q(2), q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            1
+          ],
+          "text": "CNOT(q(2), q(1))"
+        }
+      ],
+      "before_cx": 6,
+      "before_ops": 15,
+      "family": "relative_phase_toffoli",
+      "row_phase_hash": "871aaf09c7be3ab570b3612b40cf117c8eafbd1cffbb9a082edad304c21ce220",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            3
+          ],
+          "text": "CNOT(q(2), q(3))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            3
+          ],
+          "text": "T**-1(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            3
+          ],
+          "text": "CNOT(q(0), q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            3
+          ],
+          "text": "CNOT(q(2), q(3))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            3
+          ],
+          "text": "T**-1(q(3))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        }
+      ],
+      "after_cx": 3,
+      "after_ops": 9,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            3
+          ],
+          "text": "CNOT(q(2), q(3))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            3
+          ],
+          "text": "T**-1(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            3
+          ],
+          "text": "CNOT(q(0), q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            3
+          ],
+          "text": "CNOT(q(2), q(3))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            3
+          ],
+          "text": "T**-1(q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            3
+          ],
+          "text": "CNOT(q(0), q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        }
+      ],
+      "before_cx": 6,
+      "before_ops": 15,
+      "family": "relative_phase_toffoli",
+      "row_phase_hash": "b7c2bf1c4b32d9899a8cd6bad307a9d74c80bc3b1c37a6e7fd2e1a0cfdd05321",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            3
+          ],
+          "text": "CNOT(q(2), q(3))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            3
+          ],
+          "text": "T**-1(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            3
+          ],
+          "text": "CNOT(q(1), q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            3
+          ],
+          "text": "CNOT(q(2), q(3))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            3
+          ],
+          "text": "T**-1(q(3))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        }
+      ],
+      "after_cx": 3,
+      "after_ops": 9,
+      "before": [
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            3
+          ],
+          "text": "CNOT(q(2), q(3))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            3
+          ],
+          "text": "T**-1(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            3
+          ],
+          "text": "CNOT(q(1), q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            3
+          ],
+          "text": "CNOT(q(2), q(3))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            3
+          ],
+          "text": "T**-1(q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            3
+          ],
+          "text": "CNOT(q(1), q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        }
+      ],
+      "before_cx": 6,
+      "before_ops": 15,
+      "family": "relative_phase_toffoli",
+      "row_phase_hash": "871aaf09c7be3ab570b3612b40cf117c8eafbd1cffbb9a082edad304c21ce220",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [],
+      "after_cx": 0,
+      "after_ops": 0,
+      "before": [
+        {
+          "gate": "s",
+          "qubits": [
+            0
+          ],
+          "text": "S(q(0))"
+        },
+        {
+          "gate": "sdg",
+          "qubits": [
+            0
+          ],
+          "text": "S**-1(q(0))"
+        }
+      ],
+      "before_cx": 0,
+      "before_ops": 2,
+      "family": "s_sdg_cancel",
+      "row_phase_hash": "9b46ce3dc305ce2c500b8561967cdfed6e8ca5bcef6c55d7f1efec7f207e39bb",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [],
+      "after_cx": 0,
+      "after_ops": 0,
+      "before": [
+        {
+          "gate": "s",
+          "qubits": [
+            1
+          ],
+          "text": "S(q(1))"
+        },
+        {
+          "gate": "sdg",
+          "qubits": [
+            1
+          ],
+          "text": "S**-1(q(1))"
+        }
+      ],
+      "before_cx": 0,
+      "before_ops": 2,
+      "family": "s_sdg_cancel",
+      "row_phase_hash": "9b46ce3dc305ce2c500b8561967cdfed6e8ca5bcef6c55d7f1efec7f207e39bb",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [],
+      "after_cx": 0,
+      "after_ops": 0,
+      "before": [
+        {
+          "gate": "s",
+          "qubits": [
+            2
+          ],
+          "text": "S(q(2))"
+        },
+        {
+          "gate": "sdg",
+          "qubits": [
+            2
+          ],
+          "text": "S**-1(q(2))"
+        }
+      ],
+      "before_cx": 0,
+      "before_ops": 2,
+      "family": "s_sdg_cancel",
+      "row_phase_hash": "9b46ce3dc305ce2c500b8561967cdfed6e8ca5bcef6c55d7f1efec7f207e39bb",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [],
+      "after_cx": 0,
+      "after_ops": 0,
+      "before": [
+        {
+          "gate": "s",
+          "qubits": [
+            0
+          ],
+          "text": "S(q(0))"
+        },
+        {
+          "gate": "sdg",
+          "qubits": [
+            0
+          ],
+          "text": "S**-1(q(0))"
+        }
+      ],
+      "before_cx": 0,
+      "before_ops": 2,
+      "family": "s_sdg_cancel",
+      "row_phase_hash": "f4539e27394c2ed1e0567663764cc890b3b731ed2ee25ddc9bac6a82e80e10f5",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [],
+      "after_cx": 0,
+      "after_ops": 0,
+      "before": [
+        {
+          "gate": "s",
+          "qubits": [
+            1
+          ],
+          "text": "S(q(1))"
+        },
+        {
+          "gate": "sdg",
+          "qubits": [
+            1
+          ],
+          "text": "S**-1(q(1))"
+        }
+      ],
+      "before_cx": 0,
+      "before_ops": 2,
+      "family": "s_sdg_cancel",
+      "row_phase_hash": "f4539e27394c2ed1e0567663764cc890b3b731ed2ee25ddc9bac6a82e80e10f5",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [],
+      "after_cx": 0,
+      "after_ops": 0,
+      "before": [
+        {
+          "gate": "s",
+          "qubits": [
+            2
+          ],
+          "text": "S(q(2))"
+        },
+        {
+          "gate": "sdg",
+          "qubits": [
+            2
+          ],
+          "text": "S**-1(q(2))"
+        }
+      ],
+      "before_cx": 0,
+      "before_ops": 2,
+      "family": "s_sdg_cancel",
+      "row_phase_hash": "f4539e27394c2ed1e0567663764cc890b3b731ed2ee25ddc9bac6a82e80e10f5",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [],
+      "after_cx": 0,
+      "after_ops": 0,
+      "before": [
+        {
+          "gate": "s",
+          "qubits": [
+            3
+          ],
+          "text": "S(q(3))"
+        },
+        {
+          "gate": "sdg",
+          "qubits": [
+            3
+          ],
+          "text": "S**-1(q(3))"
+        }
+      ],
+      "before_cx": 0,
+      "before_ops": 2,
+      "family": "s_sdg_cancel",
+      "row_phase_hash": "f4539e27394c2ed1e0567663764cc890b3b731ed2ee25ddc9bac6a82e80e10f5",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [],
+      "after_cx": 0,
+      "after_ops": 0,
+      "before": [
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        }
+      ],
+      "before_cx": 0,
+      "before_ops": 2,
+      "family": "t_tdg_cancel",
+      "row_phase_hash": "9b46ce3dc305ce2c500b8561967cdfed6e8ca5bcef6c55d7f1efec7f207e39bb",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [],
+      "after_cx": 0,
+      "after_ops": 0,
+      "before": [
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        }
+      ],
+      "before_cx": 0,
+      "before_ops": 2,
+      "family": "t_tdg_cancel",
+      "row_phase_hash": "9b46ce3dc305ce2c500b8561967cdfed6e8ca5bcef6c55d7f1efec7f207e39bb",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [],
+      "after_cx": 0,
+      "after_ops": 0,
+      "before": [
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        }
+      ],
+      "before_cx": 0,
+      "before_ops": 2,
+      "family": "t_tdg_cancel",
+      "row_phase_hash": "9b46ce3dc305ce2c500b8561967cdfed6e8ca5bcef6c55d7f1efec7f207e39bb",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 3
+    },
+    {
+      "after": [],
+      "after_cx": 0,
+      "after_ops": 0,
+      "before": [
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            0
+          ],
+          "text": "T**-1(q(0))"
+        }
+      ],
+      "before_cx": 0,
+      "before_ops": 2,
+      "family": "t_tdg_cancel",
+      "row_phase_hash": "f4539e27394c2ed1e0567663764cc890b3b731ed2ee25ddc9bac6a82e80e10f5",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [],
+      "after_cx": 0,
+      "after_ops": 0,
+      "before": [
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        }
+      ],
+      "before_cx": 0,
+      "before_ops": 2,
+      "family": "t_tdg_cancel",
+      "row_phase_hash": "f4539e27394c2ed1e0567663764cc890b3b731ed2ee25ddc9bac6a82e80e10f5",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [],
+      "after_cx": 0,
+      "after_ops": 0,
+      "before": [
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            2
+          ],
+          "text": "T**-1(q(2))"
+        }
+      ],
+      "before_cx": 0,
+      "before_ops": 2,
+      "family": "t_tdg_cancel",
+      "row_phase_hash": "f4539e27394c2ed1e0567663764cc890b3b731ed2ee25ddc9bac6a82e80e10f5",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    },
+    {
+      "after": [],
+      "after_cx": 0,
+      "after_ops": 0,
+      "before": [
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            3
+          ],
+          "text": "T**-1(q(3))"
+        }
+      ],
+      "before_cx": 0,
+      "before_ops": 2,
+      "family": "t_tdg_cancel",
+      "row_phase_hash": "f4539e27394c2ed1e0567663764cc890b3b731ed2ee25ddc9bac6a82e80e10f5",
+      "runtime_status": "offline_only_requires_pattern_match_and_exact_miter",
+      "verified": true,
+      "width": 4
+    }
+  ],
+  "schema_version": "verified_row_phase_ruleset.v1",
+  "summaries": [
+    {
+      "cx_reducing_rules": 34,
+      "deduped_rules": 49,
+      "mined_rules": 28,
+      "seeded_rules": 21,
+      "width": 3
+    },
+    {
+      "cx_reducing_rules": 24,
+      "deduped_rules": 48,
+      "mined_rules": 0,
+      "seeded_rules": 48,
+      "width": 4
+    }
+  ],
+  "widths": [
+    3,
+    4
+  ]
+}

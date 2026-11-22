@@ -1,0 +1,31 @@
+{
+  "status": "stress_stage_complete",
+  "stress_rows": 24,
+  "scenario_count": 12,
+  "seed_count": 2,
+  "all_structural_checks_passed": true,
+  "maximum_symmetry_error": 1.6653345369377348e-16,
+  "maximum_simplex_error": 2.220446049250313e-16,
+  "maximum_halftime_violation": 0.0,
+  "ten_span_safe_refusal_observed": true,
+  "format_transport": {
+    "audit_count": 5,
+    "expansion_years": [
+      1954,
+      1958,
+      1974,
+      1982,
+      1998
+    ],
+    "direct_total_mae": 27.534510472979683,
+    "offset_mae": 27.821702471127026,
+    "offset_fold_wins": 3,
+    "team_field_expansion_audit_count": 3,
+    "team_field_expansion_direct_mae": 39.49658812724575,
+    "team_field_expansion_offset_mae": 23.446497839161964,
+    "team_field_expansion_offset_fold_wins": 3,
+    "match_volume_separated": true,
+    "claim_scope": "historical_pseudo_transport_not_2026_guarantee"
+  },
+  "audit_outcomes_used": false
+}

@@ -1,0 +1,9 @@
+{
+ "dataset": "lenta",
+ "n": 687029,
+ "features": 191,
+ "propensity": 0.7509028003184727,
+ "ate": 0.007547132670879364,
+ "base_rate_control": 0.10257863253355026,
+ "reps": 5
+}

@@ -1,0 +1,2 @@
+﻿TrainingRange,TestRange,Model,ValidationYear,Accuracy,MacroF1,LogLoss,BrierScore,ECE,DrawRecall,CorrectMatches,MatchCount,PredictedClassCount,ValidationProtocol
+1930-2010,2014,题面四特征多分类逻辑回归,2014,0.578125,0.46527777777777785,1.0260511291464964,0.6169756549892038,0.18079186369672454,0.07692307692307693,37,64,3,train years < validation year; whole Cup frozen

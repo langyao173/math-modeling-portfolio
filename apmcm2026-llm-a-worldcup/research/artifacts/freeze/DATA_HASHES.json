@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "path": "data/raw/WorldCupMatches.csv",
+      "role": "supplied_raw",
+      "bytes": 159480,
+      "sha256": "cb4e68bb7e080a84a82175151a2c1ce5ef4ef43fcb5111a3cf6c53f69bc92363"
+    },
+    {
+      "path": "data/raw/WorldCupPlayers.csv",
+      "role": "supplied_raw",
+      "bytes": 2150588,
+      "sha256": "753a68af0cd4fa38b67c7883c138700dfb37544f1ed898b1d176a03f92748d67"
+    },
+    {
+      "path": "data/raw/WorldCups_preview.csv",
+      "role": "supplied_raw",
+      "bytes": 1412,
+      "sha256": "a66240afe2ce2d7df5b701eebf012052193b90f33e003c9874cd3df85941003e"
+    },
+    {
+      "path": "data/processed/matches.csv",
+      "role": "canonical_processed",
+      "bytes": 212111,
+      "sha256": "18c78cfb173e5de44da517d0b953020f3e724bb0d44eb979e56b2c4decb2e91f"
+    },
+    {
+      "path": "data/processed/players.csv",
+      "role": "canonical_processed",
+      "bytes": 2290938,
+      "sha256": "d57594c822d0de3c1cd966675f013b14b68db1639d687cb3239f32da425c26a3"
+    },
+    {
+      "path": "data/processed/tournaments.csv",
+      "role": "canonical_processed",
+      "bytes": 1860,
+      "sha256": "4b3d57f99bc8ae208e10c204c2c7c750c0aa2c2faa4b62fae8e7f071470420c2"
+    },
+    {
+      "path": "data/development_snapshot/development_features.joblib",
+      "role": "formal_selection_input_through_2010",
+      "bytes": 114287,
+      "sha256": "eced7b6029e1ccc15bfe54de3b7e1841d07d9b0c658627a4dec4f711e5e725f5"
+    },
+    {
+      "path": "data/development_snapshot/tournaments_through_2010.csv",
+      "role": "formal_selection_input_through_2010",
+      "bytes": 1774,
+      "sha256": "5aaf6b0a60157149e72e9421d37bd8e7f74da8f8b83998ebaaa4c4819ab849ec"
+    }
+  ],
+  "selection_data_role": "development_snapshot_only",
+  "selection_cutoff_year": 2010,
+  "audit_year": 2014,
+  "raw_hashing_does_not_parse_or_expose_targets": true,
+  "physical_raw_no_read_claim": false
+}

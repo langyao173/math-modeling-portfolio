@@ -1,0 +1,251 @@
+raw_beer_id,public_s4_row_one_based,beer,official_chemistry_beer_id,published_s4_beer_id,fine_style,raw_tasting_category,raw_records,raw_unique_tasters,raw_dates,repeated_date_anchor,mapping_status,author_codebook_available
+1,1,10,5410228202929,5410228202929,Low/No alcohol,Low-No Alcohol,5,5,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+2,2,86,5410783031019,5410783031019,Low/No alcohol,Low-No Alcohol,5,5,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+3,3,2,5410228142003,5410228142003,Low/No alcohol,Low-No Alcohol,5,5,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+4,4,83,54055520,54055520,Low/No alcohol,Low-No Alcohol,5,5,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+5,5,40,5410228141181,5410228141181,Low/No alcohol,Low-No Alcohol,5,5,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+6,6,247,5411081000264,5411081000264,Fruitbeer,Kriek & Fruitbeer,4,4,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+7,7,48,8711406995211,8711406995211,Dubbel,Amber-Brown-Dubbel,10,10,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+8,8,165,5411081000363,5411081000363,Fruitbeer,Kriek & Fruitbeer,4,4,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+9,9,124,5412186002658,5412186002658,Pils/Lager,Pils,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+10,10,207,5411223030036,5411223030036,Fruitbeer,Kriek & Fruitbeer,4,4,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+11,11,155,5410228188704,5410228188704,Low/No alcohol,Low-No Alcohol,5,5,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+12,12,141,5410228141174,5410228141174,Low/No alcohol,Low-No Alcohol,5,5,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+13,13,179,5411081004736,5411081004736,Flanders old brown,Flemish ales,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+14,14,33,5425005660465,5425005660465,Fruitbeer,Kriek & Fruitbeer,4,4,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+15,15,50,5411223030043,5411223030043,Fruitbeer,Kriek & Fruitbeer,4,4,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+16,16,227,5411223030098,5411223030098,Fruitbeer,Kriek & Fruitbeer,4,4,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+17,17,88,5411081003654,5411081003654,Kriek,Kriek & Fruitbeer,7,7,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+18,18,77,8711406023563,8711406023563,Blond,Blond,10,10,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+19,19,22,5411663001276,5411663001276,Wheat,Wit,7,7,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+20,20,81,8715608222557,8715608222557,Pils/Lager,Pils,10,10,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+21,21,202,5425029020047,5425029020047,Stout/Porter,Stout & Porter,28,11,2,True,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+22,22,64,5410908000128,5410908000128,Blond,Blond,10,10,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+23,23,218,54057142,54057142,Pils/Lager,Pils,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+24,24,96,5411681080000,5411681080000,Pils/Lager,Pils,11,11,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+25,25,230,5410228141235,5410228141235,Pils/Lager,Pils,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+26,26,44,5411633250055,5411633250055,Wheat,Wit,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+27,27,161,5411686700057,5411686700057,Flanders old brown,Flemish ales,18,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+28,28,195,8711406995631,8711406995631,Wheat,Wit,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+29,29,142,54112087,54112087,Wheat,Wit,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+30,30,137,54057012,54057012,Amber,Amber-Brown-Dubbel,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+31,31,236,54107052,54107052,Brett/cofermented,Brett,6,6,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+32,32,223,5410228231325,5410228231325,Low/No alcohol,Low-No Alcohol,5,5,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+33,33,211,5411223030050,5411223030050,Lambic,Geuze & Faro,11,11,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+34,34,190,875213000068,875213000068,Flanders old brown,Flemish ales,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+35,35,197,5412896000111,5412896000111,Wheat,Wit,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+36,36,228,5411663002945,5411663002945,Tripel,Tripel,5,5,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+37,37,185,54055001,54055001,Pils/Lager,Pils,19,13,2,True,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+38,38,166,5425029020252,5425029020252,Saison,Saison,6,6,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+39,39,216,5410228201076,5410228201076,Scotch,Amber-Brown-Dubbel,5,5,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+40,40,200,54125001,54125001,West Flanders ale,Flemish ales,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+41,41,116,5411656051097,5411656051097,Lambic,Geuze & Faro,7,7,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+42,42,139,5410228142027,5410228142027,Pils/Lager,Pils,27,14,3,True,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+43,43,183,5410702000805,5410702000805,Saison,Saison,7,7,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+44,44,111,5411276100540,5411276100540,Dubbel,Amber-Brown-Dubbel,7,7,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+45,45,46,5411276200325,5411276200325,Blond,Blond,10,10,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+46,46,213,5410783004099,5410783004099,Hoppy,Hoppy,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+47,47,250,5411223030067,5411223030067,Faro,Geuze & Faro,7,7,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+48,48,158,54107014,54107014,Amber,Amber-Brown-Dubbel,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+49,49,224,5410228141884,5410228141884,Wheat,Wit,31,8,2,True,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+50,50,54,549619093094,549619093094,Kriek,Kriek & Fruitbeer,4,4,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+51,51,5,5400000000006,5400000000006,Blond,Blond,4,4,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+52,52,209,54085107,54085107,Pils/Lager,Pils,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+53,53,58,5425024151210,5425024151210,Saison,Saison,6,6,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+54,54,11,8718754310017,8718754310017,Amber,Amber-Brown-Dubbel,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+55,55,56,5413963600012,5413963600012,Saison,Saison,7,7,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+56,56,84,5411516000517,5411516000517,West Flanders ale,Flemish ales,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+57,57,172,5411681400310,5411681400310,Wheat,Wit,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+58,58,74,5412783054012,5412783054012,Faro,Geuze & Faro,7,7,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+59,59,188,8711406017487,8711406017487,Stout/Porter,Stout & Porter,10,10,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+60,60,20,5425005660205,5425005660205,Saison,Saison,13,7,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+61,61,122,5425029020191,5425029020191,Brett/cofermented,Brett,6,6,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+62,62,169,5411676710004,5411676710004,Hoppy,Hoppy,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+63,63,194,5411098730307,5411098730307,Dubbel,Amber-Brown-Dubbel,10,10,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+64,64,160,54055438,54055438,Wheat,Wit,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+65,65,43,5041300503,5041300503,Amber,Amber-Brown-Dubbel,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+66,66,100,875213000082,875213000082,Dubbel,Amber-Brown-Dubbel,10,10,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+67,67,7,5425025910809,5425025910809,Saison,Saison,6,6,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+68,68,62,5410228134879,5410228134879,Blond,Blond,11,11,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+69,69,55,5425023990698,5425023990698,Hoppy,Hoppy,5,5,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+70,70,26,54125032,54125032,West Flanders ale,Flemish ales,18,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+71,71,232,5411686700637,5411686700637,Kriek,Kriek & Fruitbeer,7,7,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+72,72,151,5411516001491,5411516001491,Faro,Geuze & Faro,7,7,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+73,73,61,5410702001314,5410702001314,Stout/Porter,Stout & Porter,10,10,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+74,74,156,5410228193371,5410228193371,Kriek,Kriek & Fruitbeer,7,7,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+75,75,138,5411223010557,5411223010557,Kriek,Kriek & Fruitbeer,7,7,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+76,76,70,54085190,54085190,Blond,Blond,11,11,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+77,77,113,5425006700016,5425006700016,Blond,Blond,11,11,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+78,78,176,5411858000183,5411858000183,West Flanders ale,Flemish ales,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+79,79,105,5425006700405,5425006700405,Strong ale,Strong ale,6,6,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+80,80,167,5411858000077,5411858000077,Flanders old brown,Flemish ales,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+81,81,59,5425005660601,5425005660601,Blond,Blond,10,10,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+82,82,135,5410908000029,5410908000029,Tripel,Tripel,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+83,83,82,5411516002269,5411516002269,Kriek,Kriek & Fruitbeer,7,7,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+84,84,241,608782666133,608782666133,Kriek,Kriek & Fruitbeer,6,6,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+85,85,128,5425014681017,5425014681017,Amber,Amber-Brown-Dubbel,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+86,86,244,5413784109060,5413784109060,West Flanders ale,Flemish ales,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+87,87,178,620670293948,620670293948,West Flanders ale,Flemish ales,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+88,88,110,5411098730291,5411098730291,Blond,Blond,10,10,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+89,89,231,5425025390090,5425025390090,Stout/Porter,Stout & Porter,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+90,90,112,5410908000012,5410908000012,Brown,Amber-Brown-Dubbel,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+91,91,219,5411681401775,5411681401775,Hoppy,Hoppy,17,11,2,True,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+92,92,129,5410228146162,5410228146162,Brown,Amber-Brown-Dubbel,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+93,93,42,5411024000047,5411024000047,Lambic,Geuze & Faro,6,6,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+94,94,72,54121096,54121096,Hoppy,Hoppy,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+95,95,186,112161945,112161945,Strong ale,Strong ale,3,3,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+96,96,109,5412858000067,5412858000067,Brown,Amber-Brown-Dubbel,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+97,97,246,5410783001432,5410783001432,Blond,Blond,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+98,98,97,5411676700005,5411676700005,Hoppy,Hoppy,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+99,99,87,5412896001507,5412896001507,Stout/Porter,Stout & Porter,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+100,100,220,5412783053015,5412783053015,Kriek,Kriek & Fruitbeer,14,7,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+101,101,201,741360987296,741360987296,Stout/Porter,Stout & Porter,10,10,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+102,102,14,54040014,54040014,Brett/cofermented,Brett,11,11,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+103,103,173,5425005660809,5425005660809,Stout/Porter,Stout & Porter,10,10,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+104,104,37,5410908000036,5410908000036,Strong ale,Strong ale,31,11,2,True,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+105,105,119,5411831000742,5411831000742,Pils/Lager,Pils,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+106,106,177,5425100322608,5425100322608,Fruitbeer,Kriek & Fruitbeer,4,4,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+107,107,106,5413977000044,5413977000044,Christmas,Christmas,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+108,108,159,5411686700668,5411686700668,Flanders old brown,Flemish ales,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+109,109,90,54017016,54017016,Pils/Lager,Pils,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+110,110,92,9120041150685,9120041150685,Amber,Amber-Brown-Dubbel,6,6,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+111,111,93,5425006700139,5425006700139,Tripel,Tripel,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+112,112,238,5412896000432,5412896000432,Blond,Blond,21,13,2,True,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+113,113,76,5412583240837,5412583240837,Blond,Blond,10,10,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+114,114,107,5412343152332,5412343152332,Dubbel,Amber-Brown-Dubbel,10,10,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+115,115,205,793573165763,793573165763,Brut,Blond,3,3,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+116,116,206,54085015,54085015,Brown,Amber-Brown-Dubbel,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+117,117,53,5411681037004,5411681037004,Brown,Amber-Brown-Dubbel,18,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+118,118,24,5411656050212,5411656050212,Kriek,Kriek & Fruitbeer,7,7,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+119,119,136,54085176,54085176,Blond,Tripel,6,6,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+120,120,69,5411081000332,5411081000332,Tripel,Tripel,11,11,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+121,121,180,5411633330047,5411633330047,Christmas,Christmas,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+122,122,49,5410228208358,5410228208358,Blond,Blond,13,13,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+123,123,243,5412138802510,5412138802510,Wheat,Wit,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+124,124,134,54004238,54004238,Strong ale,Strong ale,7,7,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+125,125,193,5411098700034,5411098700034,Blond,Blond,10,10,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+126,126,39,5430000193009,5430000193009,Hoppy,Hoppy,5,5,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+127,127,240,5410783004594,5410783004594,Tripel,Tripel,10,10,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+128,128,12,5410228141587,5410228141587,Lambic,Geuze & Faro,7,7,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+129,129,150,5425024150275,5425024150275,Brett/cofermented,Brett,11,11,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+130,130,23,5411681014005,5411681014005,Tripel,Tripel,19,11,2,True,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+131,131,226,5412186000715,5412186000715,Strong ale,Strong ale,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+132,132,29,5410702000331,5410702000331,Saison,Saison,7,7,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+133,133,132,5410702000379,5410702000379,Saison,Hoppy,5,5,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+134,134,16,5411098700003,5411098700003,Dubbel,Amber-Brown-Dubbel,10,10,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+135,135,47,5412583240363,5412583240363,Tripel,Tripel,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+136,136,164,5425007658828,5425007658828,Blond,Blond,11,11,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+137,137,115,5411516001453,5411516001453,Lambic,Wit,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+138,138,149,5425031010012,5425031010012,Blond,Blond,6,6,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+139,139,80,5415152000313,5415152000313,Hoppy,Hoppy,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+140,140,120,850413005204,850413005204,Hoppy,Hoppy,6,6,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+141,141,222,5425029490055,5425029490055,Brett/cofermented,Brett,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+142,142,18,1882,1882,Lambic,Geuze & Faro,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+143,143,98,54055315,54055315,Brown,Amber-Brown-Dubbel,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+144,144,221,5412896000067,5412896000067,Dubbel,Amber-Brown-Dubbel,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+145,145,32,54050051,54050051,Amber,Amber-Brown-Dubbel,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+146,146,27,5425036850019,5425036850019,Hoppy,Hoppy,5,5,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+147,147,13,5410228196600,5410228196600,Christmas,Christmas,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+148,148,174,5412583240356,5412583240356,Dubbel,Amber-Brown-Dubbel,10,10,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+149,149,79,5425029020054,5425029020054,Hoppy,Stout & Porter,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+150,150,118,5411364151119,5411364151119,West Flanders ale,Flemish ales,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+151,151,152,5410702001307,5410702001307,Wheat,Wit,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+152,152,184,5412783055019,5412783055019,Fruitbeer,Kriek & Fruitbeer,4,4,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+153,153,19,5425030060032,5425030060032,Amber,Amber-Brown-Dubbel,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+154,154,145,5415152000450,5415152000450,Saison,Saison,7,7,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+155,155,125,5413963300011,5413963300011,Blond,Hoppy,11,11,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+156,156,6,8711406031766,8711406031766,Amber,Amber-Brown-Dubbel,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+157,157,212,5425006700054,5425006700054,Stout/Porter,Stout & Porter,10,10,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+158,158,78,5425006240017,5425006240017,Brown,Amber-Brown-Dubbel,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+159,159,234,5425029490024,5425029490024,Blond,Blond,11,11,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+160,160,147,5412107000466,5412107000466,Tripel,Tripel,11,11,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+161,161,66,5413977000037,5413977000037,Tripel,Tripel,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+162,162,249,9120041150784,9120041150784,Blond,Blond,10,10,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+163,163,104,5412858000081,5412858000081,Strong ale,Strong ale,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+164,164,101,5425036450004,5425036450004,Blond,Blond,10,10,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+165,165,237,5400000000008,5400000000008,Brown,Amber-Brown-Dubbel,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+166,166,127,54138278,54138278,Blond,Blond,25,13,3,True,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+167,167,245,5412186000098,5412186000098,Tripel,Tripel,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+168,168,191,5411098700010,5411098700010,Tripel,Tripel,11,11,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+169,169,60,5425029020078,5425029020078,Christmas,Christmas,5,5,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+170,170,51,5411081000523,5411081000523,Strong ale,Strong ale,6,6,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+171,171,144,5411516002306,5411516002306,Lambic,Geuze & Faro,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+172,172,28,5425036580008,5425036580008,Pils/Lager,Pils,11,11,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+173,173,41,5411656010315,5411656010315,Lambic,Geuze & Faro,11,11,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+174,174,153,5425007810806,5425007810806,Kriek,Kriek & Fruitbeer,7,7,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+175,175,146,54004009,54004009,Scotch,Amber-Brown-Dubbel,5,5,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+176,176,168,5410263060034,5410263060034,Scotch,Amber-Brown-Dubbel,5,5,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+177,177,30,5430000043014,5430000043014,Blond,Tripel,11,11,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+178,178,36,5412896000074,5412896000074,Brown,Strong ale,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+179,179,126,54085060,54085060,Amber,Amber-Brown-Dubbel,6,6,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+180,180,162,5425018070015,5425018070015,Lambic,Geuze & Faro,11,11,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+181,181,123,5425026960018,5425026960018,Stout/Porter,Stout & Porter,5,5,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+182,182,130,5425025910410,5425025910410,Brut,Blond,3,3,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+183,183,8,5425006241304,5425006241304,Hoppy,Hoppy,5,5,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+184,184,31,5411681401164,5411681401164,Hoppy,Hoppy,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+185,185,52,8715951011112,8715951011112,Stout/Porter,Stout & Porter,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+186,186,9,5411081005368,5411081005368,Hoppy,Hoppy,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+187,187,204,5425006240024,5425006240024,Tripel,Tripel,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+188,188,94,5412186003013,5412186003013,Blond,Blond,13,13,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+189,189,131,5410769200088,5410769200088,Scotch,Amber-Brown-Dubbel,5,5,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+190,190,75,5412783052018,5412783052018,Lambic,Geuze & Faro,19,11,2,True,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+191,191,34,5411681038001,5411681038001,Tripel,Tripel,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+192,192,108,5425007658880,5425007658880,Brown,Amber-Brown-Dubbel,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+193,193,187,5425017240075,5425017240075,Dubbel,Amber-Brown-Dubbel,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+194,194,45,5412343201337,5412343201337,Tripel,Tripel,10,10,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+195,195,154,5425029490017,5425029490017,Tripel,Tripel,10,10,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+196,196,121,5414239000093,5414239000093,Blond,Blond,13,13,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+197,197,242,5412138333311,5412138333311,Saison,Saison,7,7,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+198,198,208,54079052,54079052,Wheat,Wit,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+199,199,38,541286000975,541286000975,Christmas,Christmas,3,3,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+200,200,170,5411663002716,5411663002716,Strong ale,Strong ale,6,6,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+201,201,214,5425006240147,5425006240147,Christmas,Christmas,21,10,2,True,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+202,202,35,8711406995075,8711406995075,Blond,Blond,11,11,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+203,203,215,5413963100017,5413963100017,Blond,Blond,11,11,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+204,204,235,5412858000104,5412858000104,Strong ale,Strong ale,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+205,205,89,5412983140027,5412983140027,Brown,Amber-Brown-Dubbel,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+206,206,114,5410769300085,5410769300085,Hoppy,Hoppy,24,9,2,True,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+207,207,181,5412896532032,5412896532032,Christmas,Christmas,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+208,208,225,5411663002600,5411663002600,Strong ale,Strong ale,7,7,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+209,209,57,5410228141921,5410228141921,Tripel,Tripel,10,10,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+210,210,143,5410228225928,5410228225928,Hoppy,Hoppy,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+211,211,133,5412896000081,5412896000081,Strong ale,Tripel,7,7,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+212,212,182,5425028290311,5425028290311,Stout/Porter,Stout & Porter,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+213,213,17,5425014687019,5425014687019,Tripel,Tripel,6,6,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+214,214,229,62067029172,62067029172,Wheat,Wit,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+215,215,148,5400000000012,5400000000012,Strong ale,Strong ale,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+216,216,248,5410263015669,5410263015669,Blond,Blond,13,13,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+217,217,65,5411283000017,5411283000017,Hoppy,Hoppy,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+218,218,73,5410769100081,5410769100081,Blond,Blond,11,11,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+219,219,198,54079007,54079007,Dubbel,Amber-Brown-Dubbel,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+220,220,91,8711406995495,8711406995495,Strong ale,Strong ale,7,7,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+221,221,217,5425006241687,5425006241687,Tripel,Tripel,10,10,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+222,222,163,5425017240457,5425017240457,Tripel,Tripel,11,11,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+223,223,68,9999999999,9999999999,Tripel,Tripel,3,3,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+224,224,15,54079045,54079045,Tripel,Tripel,6,6,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+225,225,1,5413970150111,5413970150111,Brut,Tripel,3,3,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+226,226,71,5410228218791,5410228218791,Blond,Blond,11,11,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+227,227,102,5411911001768,5411911001768,Christmas,Christmas,4,4,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+228,228,140,54050082,54050082,Tripel,Tripel,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+229,229,67,5425026610197,5425026610197,Stout/Porter,Stout & Porter,3,3,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+230,230,210,5413982001005,5413982001005,Amber,Amber-Brown-Dubbel,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+231,231,189,5410228145912,5410228145912,Tripel,Tripel,11,11,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+232,232,233,5413023000264,5413023000264,Scotch,Amber-Brown-Dubbel,5,5,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+233,233,199,5411858000145,5411858000145,Tripel,Tripel,11,11,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+234,234,63,701197206052,701197206052,Amber,Amber-Brown-Dubbel,11,11,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+235,235,95,5412138303314,5412138303314,Christmas,Christmas,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+236,236,25,54079014,54079014,Brown,Amber-Brown-Dubbel,8,8,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+237,237,203,5425017241164,5425017241164,Brett/cofermented,Brett,11,11,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+238,238,85,54112018,54112018,Tripel,Tripel,10,10,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+239,239,3,54055308,54055308,Blond,Blond,13,13,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+240,240,21,5412783052247,5412783052247,Lambic,Geuze & Faro,7,7,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+241,241,192,5410693100324,5410693100324,Brut,Strong ale,3,3,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+242,242,239,54055049,54055049,Tripel,Tripel,11,11,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+243,243,117,9120041150678,9120041150678,Strong ale,Strong ale,3,3,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+244,244,171,5425033240028,5425033240028,Tripel,Tripel,3,3,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+245,245,103,5425024150108,5425024150108,Stout/Porter,Stout & Porter,3,3,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+246,246,175,5410263013665,5410263013665,Strong ale,Strong ale,6,6,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+247,247,196,5411551300818,5411551300818,Strong ale,Strong ale,7,7,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+248,248,4,54079021,54079021,Strong ale,Strong ale,6,6,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+249,249,99,5413970140396,5413970140396,Strong ale,Strong ale,9,9,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False
+250,250,157,5425024150107,5425024150107,Tripel,Tripel,3,3,1,False,fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction,False

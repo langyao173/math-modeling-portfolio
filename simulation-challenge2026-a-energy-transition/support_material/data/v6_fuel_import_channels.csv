@@ -1,0 +1,4 @@
+year,fuel,gross_imports_mtce,physical_import_value,physical_unit,reference_tce_per_physical_unit,source_id,conversion_basis
+2024,coal,387.65061,542.7,million_tonnes,0.7143,nbs_communique_2024_table12;ndrc_cleaner_production_reference_appendixC,"Coal and lignite gross mass times raw-coal reference 0.7143 tce/t; engineering calorific representative, not observed import-weighted heat content"
+2024,oil,859.51719,601.65,million_tonnes_crude_plus_products,1.4286,nbs_communique_2024_table12;nbs_economic_census_reference;ndrc_cleaner_production_reference_appendixC,"Crude 553.42 Mt plus products 48.23 Mt times 1.4286 tce/t; product mixture represented by fuel-oil reference, not an observed weighted product coefficient"
+2024,gas,220.63831,181.7,billion_cubic_metres,1.2143,nea_gas_development_report_2025_page7;ndrc_cleaner_production_reference_appendixC,"Gross 181.7 bcm (pipeline 76.0 + LNG 105.7) times 1.2143 kgce/m3; volume basis, no LNG-only mass conversion"

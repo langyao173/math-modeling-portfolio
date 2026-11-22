@@ -1,0 +1,4 @@
+sample,rejection_reason,count
+track_a_007,no_replacement,48
+track_a_008,illegal_edge,27
+track_a_008,no_replacement,77

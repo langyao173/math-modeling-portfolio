@@ -1,0 +1,5 @@
+field,unit,native_transform,positive_calibration_pairs,maximum_relative_difference,substantive_pair_differences,input_observed_pass,calibrated_pass,screening_ceiling,attachment_threshold_median,threshold_origin
+DMS,ug/L,verified_log10,249,1.1474795877840606e-09,0,94,94,19.0,19.0,Attachment 8 threshold_median
+X2.3.butanedione,mg/L,raw_calibrated_scale_with_exceptions,241,2.526240147200019,3,68,78,0.09,0.09,Attachment 8 threshold_median
+X4VG,mg/L,verified_log10,82,1.1461507398949084e-09,0,232,232,0.2,0.2,Attachment 8 threshold_median
+X.E..2.nonenal,mg/L,raw_calibrated_scale_with_exceptions,249,0.6451841841951372,2,1,1,0.0001,,External literature value in existing transfer code; not listed in attachment threshold sheet

@@ -1,0 +1,119 @@
+{
+  "source_label": "user_platform_screenshot_manual_transcription",
+  "n_returned_rows": 3,
+  "rows_are_not_assumed_independent_runs": true,
+  "raw_feasible_rate": 1.0,
+  "best_raw_feasible_reward": 17.0,
+  "rows": [
+    {
+      "row": 0,
+      "bits": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "selected_variables_zero_based": [
+        0,
+        3,
+        4
+      ],
+      "raw_reward": 17.0,
+      "raw_feasible": true,
+      "raw_conflicts": 0,
+      "qubo_energy": -17.0,
+      "ising_energy": -84.0,
+      "classically_repaired_reward": 17.0,
+      "repaired_bits": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "row": 1,
+      "bits": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "selected_variables_zero_based": [
+        1,
+        2,
+        5
+      ],
+      "raw_reward": 16.0,
+      "raw_feasible": true,
+      "raw_conflicts": 0,
+      "qubo_energy": -16.0,
+      "ising_energy": -76.0,
+      "classically_repaired_reward": 16.0,
+      "repaired_bits": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "row": 2,
+      "bits": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "selected_variables_zero_based": [
+        0,
+        3
+      ],
+      "raw_reward": 13.0,
+      "raw_feasible": true,
+      "raw_conflicts": 0,
+      "qubo_energy": -13.0,
+      "ising_energy": -52.0,
+      "classically_repaired_reward": 13.0,
+      "repaired_bits": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "task_name": "QP_CHECK06_01",
+  "task_id": "8ab1c0e38d454751be647cf38a0d2adb",
+  "project_id": "20201116",
+  "device_displayed": "SPQC-550",
+  "mode_displayed": "optimization",
+  "created_at_displayed": "2026-10-01 13:57:00",
+  "completed_at_displayed": "2026-10-01 13:57:04",
+  "single_evolution_ms_displayed": 0.1243,
+  "timestamp_interval_s": 4,
+  "timestamp_interval_is_not_client_e2e": true,
+  "evidence_type": "platform screenshot provided by user; original export pending",
+  "portal_csv_accepted_for_this_matrix": true,
+  "shown_energy_convention_matches": true,
+  "all_three_shown_rows_feasible": true,
+  "best_matches_enumeration": true,
+  "exact_optimal_reward": 17.0,
+  "n_independent_submissions_observed": 1,
+  "n_displayed_solutions": 3,
+  "independent_success_probability_not_estimated": true,
+  "verification_level": "platform_screenshot_plus_exact_local_recalculation",
+  "provider_original_export_available": false
+}

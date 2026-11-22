@@ -1,0 +1,15 @@
+\begin{tabularx}{\linewidth}{@{}llrrY@{}}
+\toprule
+ID & Removed component & $\Delta$LL & $\Delta$Brier & Evidence decision \\
+\midrule
+A0 & none\_full\_model & +0.000 & +0.000 & Reference configuration. \\
+A1 & dynamic\_ratings & +0.001 & +0.001 & Dynamic-state removal is small and unstable across editions. \\
+A2 & player\_features & -0.003 & -0.000 & Removing player features improves the mean; no retained player-value claim. \\
+A3 & era\_effects & -0.002 & -0.001 & Removing era effects improves the mean; no retained era-benefit claim. \\
+A4 & correlated\_count\_model & +0.000 & +0.000 & Exact zero: the selected A0 model had no correlated-count component. \\
+A5 & machine\_learning\_residual & +0.000 & +0.000 & Exact zero: the selected A0 model had no residual learner. \\
+A6 & probability\_calibration & -0.000 & +0.000 & Calibration has mixed, near-zero aggregate effects. \\
+A7 & hierarchical\_shrinkage & +0.149 & +0.049 & Zero team-effect penalty is much worse; shrinkage is essential here. \\
+A8 & symmetry\_constraint & +0.046 & +0.030 & Structurally ineligible diagnostic. Asymmetric diagnostic degrades scores and violates the structural contract. \\
+\bottomrule
+\end{tabularx}

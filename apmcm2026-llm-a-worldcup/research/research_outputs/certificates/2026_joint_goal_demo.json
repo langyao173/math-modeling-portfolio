@@ -1,0 +1,61 @@
+{
+  "calibration_artifact": null,
+  "calibration_method": "none_structural_joint_distribution",
+  "config_hash": "405d85ccdf418643de2cf0c81b277dc69845c11dd12e771eb5b4878308062614",
+  "data_cutoff": "2014-07-13",
+  "feature_schema": [
+    "historical_appearances_diff",
+    "historical_best_finish_diff",
+    "historical_mean_goals_for_diff",
+    "historical_mean_goals_conceded_diff"
+  ],
+  "feature_schema_hash": "f4d71626573c9f1ebd7b53a2e828a2a1fe779b53eabcdf4670b652df9fcc413f",
+  "generated_at_utc": "2026-07-18T14:36:59.457409+00:00",
+  "goal_interval_90": [
+    0,
+    5
+  ],
+  "information_set": "pre_match",
+  "invariant_status": {
+    "data_cutoff_is_2014": true,
+    "dynamic_features_excluded_for_deployment": true,
+    "joint_distribution_normalized": true,
+    "probability_simplex": true,
+    "swap_symmetry": true
+  },
+  "model_artifact": "models/problem3_joint_poisson_static_2014.json",
+  "model_hash": "61197c3aaf4992775278e6b2879c9fc039e039823f689eb9594af65253eae745",
+  "out_of_distribution_components": {
+    "feature_standardized_distance": 2.0438113772343325,
+    "relative_match_count_expansion": 0.625,
+    "relative_team_count_expansion": 0.5
+  },
+  "out_of_distribution_score": 2.194946456229058,
+  "prediction": {
+    "away_win": 0.2560113370733088,
+    "draw": 0.26351741031819886,
+    "expected_away_goals": 1.0144461188764242,
+    "expected_home_goals": 1.4904367243516052,
+    "home_win": 0.4804712526084923,
+    "most_likely": "home_win",
+    "most_likely_score": "1-1",
+    "retained_untruncated_mass": 0.9999999926801064
+  },
+  "random_seed": 1729,
+  "raw_data_hashes": {
+    "matches": "cb4e68bb7e080a84a82175151a2c1ce5ef4ef43fcb5111a3cf6c53f69bc92363",
+    "players": "753a68af0cd4fa38b67c7883c138700dfb37544f1ed898b1d176a03f92748d67",
+    "tournaments": "a66240afe2ce2d7df5b701eebf012052193b90f33e003c9874cd3df85941003e"
+  },
+  "scenario_label": "deployable_static_history_joint_goal_scenario",
+  "schema_version": 1,
+  "software_versions": {
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "python": "3.12.11",
+    "scikit_learn": "1.6.1",
+    "statsmodels": "0.14.6"
+  },
+  "uncertainty_status": "conditional_score_distribution_parameter_uncertainty_not_included",
+  "warning": "The 90% goal interval is conditional on fitted parameters and supplied historical features; it is not a parameter-uncertainty or conformal guarantee."
+}

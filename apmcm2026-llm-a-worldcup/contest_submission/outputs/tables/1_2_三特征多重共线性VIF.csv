@@ -1,0 +1,4 @@
+﻿Feature,R2RegressedOnOtherFeatures,VIF,Interpretation
+QualifiedTeams,0.9017566669479075,10.178807751460957,Severe multicollinearity; do not interpret this slope independently
+MatchesPlayed,0.9457568933298421,18.435522251349138,Severe multicollinearity; do not interpret this slope independently
+Attendance,0.8720422810499158,7.815081483205369,Material multicollinearity; interpret the slope cautiously

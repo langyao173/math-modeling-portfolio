@@ -1,0 +1,108 @@
+{
+  "model": "uk",
+  "posterior_draws": 1000,
+  "grid_size": 3255,
+  "x_star": [
+    0.22,
+    4.5,
+    4.0
+  ],
+  "P_pareto_x_star": 1.0,
+  "P_win_x_star": {
+    "ideal": 1.0,
+    "topsis": 0.0,
+    "chebyshev": 0.0
+  },
+  "P_win_neighbourhood_x_star(|dbeta|<=0.01,|dgamma|<=0.05,N=4)": {
+    "ideal": 1.0,
+    "topsis": 0.0,
+    "chebyshev": 0.0
+  },
+  "P_win_by_N": {
+    "ideal": {
+      "2": 0.0,
+      "4": 1.0,
+      "6": 0.0,
+      "8": 0.0,
+      "10": 0.0
+    },
+    "topsis": {
+      "2": 1.0,
+      "4": 0.0,
+      "6": 0.0,
+      "8": 0.0,
+      "10": 0.0
+    },
+    "chebyshev": {
+      "2": 0.0,
+      "4": 0.0,
+      "6": 1.0,
+      "8": 0.0,
+      "10": 0.0
+    }
+  },
+  "P_win_gamma_at_upper_bound": {
+    "ideal": 1.0,
+    "topsis": 1.0,
+    "chebyshev": 1.0
+  },
+  "modal_winner": {
+    "ideal": {
+      "beta": 0.22,
+      "gamma": 4.5,
+      "N": 4.0,
+      "prob": 1.0
+    },
+    "topsis": {
+      "beta": 0.22,
+      "gamma": 4.5,
+      "N": 2.0,
+      "prob": 0.916
+    },
+    "chebyshev": {
+      "beta": 0.23,
+      "gamma": 4.5,
+      "N": 6.0,
+      "prob": 0.513
+    }
+  },
+  "expected_pareto_set_size": 149.199,
+  "decision_region_size": 42,
+  "next_simulations": [
+    {
+      "step": 1,
+      "beta": 0.24,
+      "gamma": 3.35,
+      "N": 10.0,
+      "remaining_variance_fraction": 0.9427173711525114
+    },
+    {
+      "step": 2,
+      "beta": 0.24,
+      "gamma": 3.35,
+      "N": 4.0,
+      "remaining_variance_fraction": 0.8906160628437588
+    },
+    {
+      "step": 3,
+      "beta": 0.25,
+      "gamma": 3.2,
+      "N": 4.0,
+      "remaining_variance_fraction": 0.8534484592265557
+    },
+    {
+      "step": 4,
+      "beta": 0.24,
+      "gamma": 3.4,
+      "N": 10.0,
+      "remaining_variance_fraction": 0.8187445045993856
+    },
+    {
+      "step": 5,
+      "beta": 0.23,
+      "gamma": 4.5,
+      "N": 2.0,
+      "remaining_variance_fraction": 0.7893686722969432
+    }
+  ]
+}

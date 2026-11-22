@@ -1,0 +1,15 @@
+{
+  "family": "peak_shave_lns",
+  "oracle": "incumbent",
+  "status": "success",
+  "jobs": 588,
+  "selected_actions": 588,
+  "accepted_under_submission_guard": 1,
+  "true_action_cost_usd": 5414.835365,
+  "expected_recourse_cost_usd": 35.89001195107441,
+  "cvar95_recourse_cost_usd": 48.43857780476869,
+  "true_objective": 84.3285897558431,
+  "source_result": {
+    "source": "restricted_final_incumbent"
+  }
+}

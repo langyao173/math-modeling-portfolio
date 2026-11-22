@@ -1,0 +1,90 @@
+scope,table,column,rows,missing_count,missing_fraction
+raw,tournaments,Year,20,0,0.0
+raw,tournaments,Country,20,0,0.0
+raw,tournaments,Winner,20,0,0.0
+raw,tournaments,Runners-Up,20,0,0.0
+raw,tournaments,Third,20,0,0.0
+raw,tournaments,Fourth,20,0,0.0
+raw,tournaments,GoalsScored,20,0,0.0
+raw,tournaments,QualifiedTeams,20,0,0.0
+raw,tournaments,MatchesPlayed,20,0,0.0
+raw,tournaments,Attendance,20,0,0.0
+raw,matches,Year,852,0,0.0
+raw,matches,Datetime,852,0,0.0
+raw,matches,Stage,852,0,0.0
+raw,matches,Stadium,852,0,0.0
+raw,matches,City,852,0,0.0
+raw,matches,Home Team Name,852,0,0.0
+raw,matches,Home Team Goals,852,0,0.0
+raw,matches,Away Team Goals,852,0,0.0
+raw,matches,Away Team Name,852,0,0.0
+raw,matches,Win conditions,852,0,0.0
+raw,matches,Attendance,852,2,0.002347417840375587
+raw,matches,Half-time Home Goals,852,0,0.0
+raw,matches,Half-time Away Goals,852,0,0.0
+raw,matches,Referee,852,0,0.0
+raw,matches,Assistant 1,852,0,0.0
+raw,matches,Assistant 2,852,0,0.0
+raw,matches,RoundID,852,0,0.0
+raw,matches,MatchID,852,0,0.0
+raw,matches,Home Team Initials,852,0,0.0
+raw,matches,Away Team Initials,852,0,0.0
+raw,players,RoundID,37784,0,0.0
+raw,players,MatchID,37784,0,0.0
+raw,players,Team Initials,37784,0,0.0
+raw,players,Coach Name,37784,0,0.0
+raw,players,Line-up,37784,0,0.0
+raw,players,Shirt Number,37784,0,0.0
+raw,players,Player Name,37784,0,0.0
+raw,players,Position,37784,33641,0.8903504128731738
+raw,players,Event,37784,28715,0.759977768367563
+canonical,tournaments,Year,20,0,0.0
+canonical,tournaments,Country,20,0,0.0
+canonical,tournaments,Winner,20,0,0.0
+canonical,tournaments,Runners-Up,20,0,0.0
+canonical,tournaments,Third,20,0,0.0
+canonical,tournaments,Fourth,20,0,0.0
+canonical,tournaments,GoalsScored,20,0,0.0
+canonical,tournaments,QualifiedTeams,20,0,0.0
+canonical,tournaments,MatchesPlayed,20,0,0.0
+canonical,tournaments,Attendance,20,0,0.0
+canonical,tournaments,Attendance_raw,20,0,0.0
+canonical,tournaments,goals_per_match,20,0,0.0
+canonical,matches,Year,836,0,0.0
+canonical,matches,Datetime,836,0,0.0
+canonical,matches,Stage,836,0,0.0
+canonical,matches,Stadium,836,0,0.0
+canonical,matches,City,836,0,0.0
+canonical,matches,Home Team Name,836,0,0.0
+canonical,matches,Home Team Goals,836,0,0.0
+canonical,matches,Away Team Goals,836,0,0.0
+canonical,matches,Away Team Name,836,0,0.0
+canonical,matches,Win conditions,836,0,0.0
+canonical,matches,Attendance,836,1,0.0011961722488038277
+canonical,matches,Half-time Home Goals,836,0,0.0
+canonical,matches,Half-time Away Goals,836,0,0.0
+canonical,matches,Referee,836,0,0.0
+canonical,matches,Assistant 1,836,0,0.0
+canonical,matches,Assistant 2,836,0,0.0
+canonical,matches,RoundID,836,0,0.0
+canonical,matches,MatchID,836,0,0.0
+canonical,matches,Home Team Initials,836,0,0.0
+canonical,matches,Away Team Initials,836,0,0.0
+canonical,matches,match_datetime,836,0,0.0
+canonical,matches,canonical_stage,836,0,0.0
+canonical,matches,home_team_canonical,836,0,0.0
+canonical,matches,away_team_canonical,836,0,0.0
+canonical,matches,full_time_total_goals,836,0,0.0
+canonical,matches,half_time_total_goals,836,0,0.0
+canonical,matches,scoreline_outcome,836,0,0.0
+canonical,matches,scoreline_result,836,0,0.0
+canonical,players,RoundID,37048,0,0.0
+canonical,players,MatchID,37048,0,0.0
+canonical,players,Team Initials,37048,0,0.0
+canonical,players,Coach Name,37048,0,0.0
+canonical,players,Line-up,37048,0,0.0
+canonical,players,Shirt Number,37048,0,0.0
+canonical,players,Player Name,37048,0,0.0
+canonical,players,Position,37048,33030,0.8915461023537034
+canonical,players,Event,37048,28225,0.7618494925502052
+canonical,players,Year,37048,0,0.0

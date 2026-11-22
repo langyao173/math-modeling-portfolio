@@ -1,0 +1,36 @@
+{
+  "primary_comparison": "tau1 minus tau0",
+  "sensitivity": "tau0.5; all prespecified methods retained",
+  "taus": [
+    0.0,
+    0.5,
+    1.0
+  ],
+  "tau_interpretation": "raw standardized squared-loss weight; concatenate sqrt(tau)*R",
+  "ranks": [
+    4,
+    8,
+    16,
+    32
+  ],
+  "alphas": [
+    1.0,
+    10.0,
+    100.0,
+    1000.0
+  ],
+  "outer_folds": "existing frozen fold vector",
+  "inner_folds": 3,
+  "inner_fold_source": "frozen shared input inner_fold array, reused without changes",
+  "selection": "mean squared official-Z prediction error on core30 normalized by each inner-training target variance",
+  "preprocessing": "training-side median imputation, feature centering/scaling, separate target centering/scaling",
+  "response_coupling": "joint reduced-rank ridge; full-rank ridge is a separation sanity check only",
+  "missingness": "test-time only; derived summaries hidden; paired MCAR on remaining226; frozen full-input tuning",
+  "input_sha256": "0ba2cfd94ff1753c465741bed1946c4378f40418083528af1955f271638cfd45",
+  "script_sha256": "819cfe3596a89b48c93d0586162f14c43c3465b332fba00297ce361a4b6142fa",
+  "source_archive": "/workspace/scratch/4e59b21920ab/work/raw_score_research/models/inputs/inputs.npz",
+  "no_outer_raw_used_for_training": true,
+  "external_independent_validation": false,
+  "no_neural_fits": true,
+  "no_paid_calls": true
+}

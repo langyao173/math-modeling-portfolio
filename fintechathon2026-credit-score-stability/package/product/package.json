@@ -1,0 +1,1 @@
+{"name":"credit-review-043-capacity","private":true,"scripts":{"test":"node verify_dom.cjs"},"devDependencies":{"jsdom":"30.1.2"}}

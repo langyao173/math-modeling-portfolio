@@ -1,0 +1,27 @@
+{
+  "family": "cloud_sparse_tail_lns",
+  "oracle": "greedy_one_hot",
+  "status": "success",
+  "jobs": 588,
+  "selected_actions": 588,
+  "accepted_under_submission_guard": 1,
+  "true_action_cost_usd": 5414.8285670000005,
+  "expected_recourse_cost_usd": 36.71442096736295,
+  "cvar95_recourse_cost_usd": 49.7020814985917,
+  "true_objective": 86.41650246595465,
+  "source_result": {
+    "passes": [
+      {
+        "energy_gain": 0.03916038999996374,
+        "improvements": 32,
+        "pass": 1
+      },
+      {
+        "energy_gain": 0.0,
+        "improvements": 0,
+        "pass": 2
+      }
+    ],
+    "total_improvements": 32
+  }
+}

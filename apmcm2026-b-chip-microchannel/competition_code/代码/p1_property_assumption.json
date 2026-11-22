@@ -1,0 +1,13 @@
+{
+  "Tin_K": 293.0,
+  "Tout_K_estimated": 301.6083,
+  "delta_T_K": 8.6083,
+  "basis": "293 K properties are used as calibration and Reynolds-number baseline.",
+  "density_change_pct_estimated": -0.214,
+  "cp_change_pct_assumed_small": "<0.5% near room temperature",
+  "thermal_conductivity_change_pct_estimated": 2.29,
+  "dynamic_viscosity_293K_Pa_s_from_correlation": 0.00100541,
+  "dynamic_viscosity_Tout_Pa_s_from_correlation": 0.00082428,
+  "dynamic_viscosity_change_pct_estimated": -18.016,
+  "audit_conclusion": "Density, cp and thermal conductivity are relatively weakly varying over the estimated temperature rise, but dynamic viscosity changes materially; the constant-property assumption should not claim all water properties vary by less than 2%."
+}

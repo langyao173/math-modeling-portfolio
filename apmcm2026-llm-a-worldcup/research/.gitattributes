@@ -1,0 +1,22 @@
+* text=auto
+
+# Deterministic source and governance bytes across operating systems.
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.csv text eol=lf
+*.txt text eol=lf
+*.toml text eol=lf
+plan/PROTOCOL_DEVIATIONS.md text eol=lf
+
+# These two frozen inputs were hashed from their supplied Windows bytes.
+data/raw/WorldCupMatches.csv text eol=crlf
+data/development_snapshot/snapshot_manifest.json text eol=crlf
+
+*.joblib binary
+*.parquet binary
+*.pdf binary
+*.png binary
+*.zip binary

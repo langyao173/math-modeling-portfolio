@@ -1,0 +1,7 @@
+model,log_loss,rps,brier,accuracy
+combined logit (contest features + Elo),0.9361,0.1862,0.5443,0.5948
+learned pool,0.9419,0.19,0.553,0.5776
+"contest features, refit",0.9441,0.1908,0.5545,0.5862
+equal-weight pool,0.9464,0.1919,0.5586,0.6034
+Elo (ordered logit),0.9505,0.1912,0.5561,0.5776
+contest logit (submitted),1.0084,0.21,0.6052,0.5776

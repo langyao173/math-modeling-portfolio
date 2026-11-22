@@ -1,0 +1,38 @@
+{
+ "validation_S1": {
+  "trial": 9,
+  "seed": 2026111709,
+  "utility": 0.9146580995480418,
+  "median_utility": 0.9143155913663297
+ },
+ "validation_S2": {
+  "trial": 25,
+  "seed": 2026111725,
+  "utility": 0.7269492017540912,
+  "median_utility": 0.7367004878586907
+ },
+ "validation_S3": {
+  "trial": 21,
+  "seed": 2026111721,
+  "utility": 0.5618307588337885,
+  "median_utility": 0.5481959909594099
+ },
+ "test_S1": {
+  "trial": 7,
+  "seed": 2026112407,
+  "utility": 0.9541818148103112,
+  "median_utility": 0.9544583912330591
+ },
+ "test_S2": {
+  "trial": 3,
+  "seed": 2026112403,
+  "utility": 0.8302436151670842,
+  "median_utility": 0.8308520506302457
+ },
+ "test_S3": {
+  "trial": 27,
+  "seed": 2026112427,
+  "utility": 0.7571018360904879,
+  "median_utility": 0.755669626348769
+ }
+}

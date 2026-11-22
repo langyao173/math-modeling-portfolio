@@ -1,0 +1,38 @@
+{
+  "methods": [
+    "greedy",
+    "local_search",
+    "myopic_mip",
+    "qpool_cpu"
+  ],
+  "fleets": [
+    8,
+    16,
+    32,
+    48
+  ],
+  "epochs_seconds": [
+    60,
+    300
+  ],
+  "seeds_initial_vehicle_positions": [
+    11,
+    22,
+    33
+  ],
+  "common_config": {
+    "capacity": 4,
+    "max_wait": 600,
+    "max_detour": 600,
+    "dwell": 60,
+    "cost_weight": 0.08,
+    "max_new_requests": 3,
+    "solver_budget": 1.0
+  },
+  "trace": "external Sioux Falls example, first 240 requests; original arrival times unchanged",
+  "study_type": "competition development; not a sealed test or native benchmark reproduction",
+  "quantum_backend_used_in_these_runs": false,
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0"
+}

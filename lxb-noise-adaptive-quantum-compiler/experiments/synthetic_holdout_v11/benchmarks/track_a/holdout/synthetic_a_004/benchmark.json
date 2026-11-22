@@ -1,0 +1,25 @@
+{
+  "track": "track_a",
+  "name": "synthetic_a_004",
+  "family": "structured_routing_pressure",
+  "logical_qubits": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "expected_output_rule": {
+    "rule_type": "bitstring",
+    "bitstring": "1100011",
+    "allowed_bitstrings": [],
+    "parity_checks": []
+  },
+  "metadata": {
+    "backend_size_class": "medium",
+    "backend_snapshot_id": "synthetic_medium_readout_jitter",
+    "synthetic_family": "structured_routing_pressure"
+  }
+}

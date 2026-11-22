@@ -1,0 +1,18 @@
+{
+  "provider_reports": 6,
+  "distinct_provider_task_ids": 6,
+  "returned_candidates": 60,
+  "matching_vector_energy_pairs": 60,
+  "tasks_with_known_quantized_optimum": 6,
+  "selected_raw_assignments_feasible": 6,
+  "raw_feasible_candidates": 37,
+  "optimal_returned_candidates": 20,
+  "conditional_original_optimum_after_classical_polish": 5,
+  "complete_original_optimum_after_classical_polish": 3,
+  "report_server_span_within_epoch": 3,
+  "independent_runs_per_instance": 1,
+  "candidate_counts_are_not_success_probabilities": true,
+  "provider_sampling_count": "N/A in all six reports",
+  "full_day_hardware_replay_performed": false,
+  "new_hardware_submissions_by_this_script": 0
+}

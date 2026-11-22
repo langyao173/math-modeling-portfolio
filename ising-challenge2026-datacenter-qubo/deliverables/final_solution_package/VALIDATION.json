@@ -1,0 +1,27 @@
+{
+  "status": "pass",
+  "checks": {
+    "row_count_matches_jobs": true,
+    "unique_jobs_matches_jobs": true,
+    "selected_action_count_matches_instance": true,
+    "no_duplicate_jobs": true,
+    "all_action_ids_exist": true,
+    "canonical_action_ids_unique": true,
+    "selected_rows_match_canonical_actions": true,
+    "is_dummy_values_valid": true,
+    "dummy_count_matches_metrics": true,
+    "one_hot_violations_zero": true,
+    "source_matches_risk_accepted": true
+  },
+  "row_count": 588,
+  "unique_jobs": 588,
+  "expected_jobs": 588,
+  "selected_action_count": 1929,
+  "dummy_actions": 0,
+  "one_hot_violations": 0,
+  "duplicate_jobs": [],
+  "missing_action_ids": [],
+  "duplicate_action_ids": [],
+  "canonical_binding_mismatches": [],
+  "invalid_is_dummy_values": []
+}

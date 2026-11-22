@@ -1,0 +1,2 @@
+{"accepted": false, "reason": "no_accepted_window_candidate", "sample": "track_a_007", "selected_base": "noise_adaptive_l1_balanced"}
+{"accepted": true, "candidate": "exact_small_router_r0_l0_window_synth_13_delete_redundant_ops", "equivalent": true, "errors": [], "new_cx": 22, "new_depth": 32, "new_elr": -0.2953054430091119, "noiseless": true, "old_cx": 24, "old_depth": 34, "old_elr": -0.30993884680987166, "sample": "track_a_008", "selected_base": "exact_small_router_r0_l0", "valid": true}

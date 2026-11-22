@@ -1,0 +1,101 @@
+dataset,rep,learner,calibration_error
+hillstrom,0,T-learner,0.029493347391292557
+hillstrom,0,T-learner + isotonic (proposal),0.01005356049994406
+hillstrom,0,X-learner,0.022730136506682812
+hillstrom,0,DR-learner,0.022469535287299194
+hillstrom,0,causal forest,0.01591205355599027
+hillstrom,1,T-learner,0.03411363116774506
+hillstrom,1,T-learner + isotonic (proposal),0.015423539747505223
+hillstrom,1,X-learner,0.014326080334676233
+hillstrom,1,DR-learner,0.01547218990617417
+hillstrom,1,causal forest,0.016649544516522514
+hillstrom,2,T-learner,0.03354610468376003
+hillstrom,2,T-learner + isotonic (proposal),0.006671469902935972
+hillstrom,2,X-learner,0.016818540625846465
+hillstrom,2,DR-learner,0.017351036437857445
+hillstrom,2,causal forest,0.01677554868822168
+hillstrom,3,T-learner,0.02976028028040032
+hillstrom,3,T-learner + isotonic (proposal),0.010478077690378779
+hillstrom,3,X-learner,0.020335376333463166
+hillstrom,3,DR-learner,0.022659661881272462
+hillstrom,3,causal forest,0.014632092549664608
+hillstrom,4,T-learner,0.024372537311994583
+hillstrom,4,T-learner + isotonic (proposal),0.006525768946105724
+hillstrom,4,X-learner,0.010376842378966671
+hillstrom,4,DR-learner,0.012677459588335445
+hillstrom,4,causal forest,0.012016528768087743
+hillstrom,5,T-learner,0.02747802607220053
+hillstrom,5,T-learner + isotonic (proposal),0.008184513645037464
+hillstrom,5,X-learner,0.007598416438640528
+hillstrom,5,DR-learner,0.020704956651800457
+hillstrom,5,causal forest,0.013120530314673582
+hillstrom,6,T-learner,0.032603945366775675
+hillstrom,6,T-learner + isotonic (proposal),0.005661470687118583
+hillstrom,6,X-learner,0.016660308274433804
+hillstrom,6,DR-learner,0.009250256911909213
+hillstrom,6,causal forest,0.011930785503467283
+hillstrom,7,T-learner,0.03862492554902265
+hillstrom,7,T-learner + isotonic (proposal),0.009911681365183196
+hillstrom,7,X-learner,0.028675540134197038
+hillstrom,7,DR-learner,0.02224782062521568
+hillstrom,7,causal forest,0.013773001174316636
+hillstrom,8,T-learner,0.02606126644450346
+hillstrom,8,T-learner + isotonic (proposal),0.011522649102085903
+hillstrom,8,X-learner,0.013719798628336412
+hillstrom,8,DR-learner,0.019105992127278825
+hillstrom,8,causal forest,0.010415246956919321
+hillstrom,9,T-learner,0.027919768177320857
+hillstrom,9,T-learner + isotonic (proposal),0.012275878206326824
+hillstrom,9,X-learner,0.011391508708240983
+hillstrom,9,DR-learner,0.019136354461864572
+hillstrom,9,causal forest,0.01474945643040318
+hillstrom,10,T-learner,0.026593356966613586
+hillstrom,10,T-learner + isotonic (proposal),0.01026679056502562
+hillstrom,10,X-learner,0.012342740670145128
+hillstrom,10,DR-learner,0.012305621665185198
+hillstrom,10,causal forest,0.011786053275986613
+hillstrom,11,T-learner,0.02491968591507255
+hillstrom,11,T-learner + isotonic (proposal),0.007900756350979615
+hillstrom,11,X-learner,0.01370963244181711
+hillstrom,11,DR-learner,0.018507389099355974
+hillstrom,11,causal forest,0.010378652914245931
+hillstrom,12,T-learner,0.02868431470873468
+hillstrom,12,T-learner + isotonic (proposal),0.009219534959254629
+hillstrom,12,X-learner,0.014054810301421423
+hillstrom,12,DR-learner,0.012721746676696389
+hillstrom,12,causal forest,0.011164606939851137
+hillstrom,13,T-learner,0.0383330506024034
+hillstrom,13,T-learner + isotonic (proposal),0.014872894971442265
+hillstrom,13,X-learner,0.014155930539009442
+hillstrom,13,DR-learner,0.01904836152542414
+hillstrom,13,causal forest,0.01295185685149
+hillstrom,14,T-learner,0.024828323259795258
+hillstrom,14,T-learner + isotonic (proposal),0.01265233989203207
+hillstrom,14,X-learner,0.006452068274192518
+hillstrom,14,DR-learner,0.014200967452938886
+hillstrom,14,causal forest,0.009823006494130069
+hillstrom,15,T-learner,0.032860836747294064
+hillstrom,15,T-learner + isotonic (proposal),0.011003743025729379
+hillstrom,15,X-learner,0.017762053120065
+hillstrom,15,DR-learner,0.011878310388823577
+hillstrom,15,causal forest,0.01480660563286754
+hillstrom,16,T-learner,0.029320037296157973
+hillstrom,16,T-learner + isotonic (proposal),0.007554675617385978
+hillstrom,16,X-learner,0.01216012035834441
+hillstrom,16,DR-learner,0.01959821436606698
+hillstrom,16,causal forest,0.012624132541326867
+hillstrom,17,T-learner,0.03201705892487183
+hillstrom,17,T-learner + isotonic (proposal),0.009844454920944695
+hillstrom,17,X-learner,0.013240905434094457
+hillstrom,17,DR-learner,0.017432526999275146
+hillstrom,17,causal forest,0.014539684163576346
+hillstrom,18,T-learner,0.025534352707073764
+hillstrom,18,T-learner + isotonic (proposal),0.008728448409199943
+hillstrom,18,X-learner,0.012365634014154758
+hillstrom,18,DR-learner,0.010269567902578632
+hillstrom,18,causal forest,0.014062020134653994
+hillstrom,19,T-learner,0.028847505014475652
+hillstrom,19,T-learner + isotonic (proposal),0.007983859771724925
+hillstrom,19,X-learner,0.011473367468761313
+hillstrom,19,DR-learner,0.014387338444844697
+hillstrom,19,causal forest,0.014565065796455202

@@ -1,0 +1,1357 @@
+fold,policy,method,beer,style,observed_passes_ceilings,energy,variogram
+0,attachment_two,unconditional,92,Amber,False,0.5808196862764087,0.1244444963297804
+0,attachment_two,unconditional,6,Amber,True,0.5202785847845062,0.1400523612029088
+0,attachment_two,unconditional,126,Amber,False,0.7080535438954799,0.1532735251302934
+0,attachment_two,unconditional,210,Amber,True,0.529192596042489,0.1484144782643594
+0,attachment_two,coordinate_clipping,92,Amber,False,0.5866659250799802,0.1246227219441504
+0,attachment_two,coordinate_clipping,6,Amber,True,0.5149926249420176,0.1396628032273661
+0,attachment_two,coordinate_clipping,126,Amber,False,0.7121568619764886,0.1532273839785619
+0,attachment_two,coordinate_clipping,210,Amber,True,0.5270081789986508,0.1478613451053743
+0,attachment_two,conditional,92,Amber,False,0.6289240501862456,0.1258462788232915
+0,attachment_two,conditional,6,Amber,True,0.4966546103735721,0.1372059462587499
+0,attachment_two,conditional,126,Amber,False,0.7621847652627461,0.1499391179628304
+0,attachment_two,conditional,210,Amber,True,0.5414026703718188,0.1500678457897001
+0,attachment_two,unconditional,77,Blond,False,0.5980633358406447,0.1585280437427893
+0,attachment_two,unconditional,59,Blond,False,0.721122636164785,0.1740863492504719
+0,attachment_two,unconditional,164,Blond,False,0.4683485663039576,0.1217649098771421
+0,attachment_two,unconditional,125,Blond,False,0.695301063458145,0.1551034983035962
+0,attachment_two,unconditional,249,Blond,False,0.9429115873755106,0.162109418470347
+0,attachment_two,unconditional,127,Blond,False,0.5628047295485236,0.1367541785651902
+0,attachment_two,unconditional,121,Blond,False,0.5947836402321485,0.146033365766705
+0,attachment_two,unconditional,35,Blond,False,0.5454366560163587,0.1354981030793762
+0,attachment_two,unconditional,215,Blond,False,0.6666894808548406,0.1405747644272436
+0,attachment_two,unconditional,73,Blond,False,0.8054793275775403,0.1739836242123868
+0,attachment_two,coordinate_clipping,77,Blond,False,0.6003091233068233,0.1595025471104506
+0,attachment_two,coordinate_clipping,59,Blond,False,0.7283996935870526,0.1750171671962565
+0,attachment_two,coordinate_clipping,164,Blond,False,0.4712495849134649,0.1216562230145469
+0,attachment_two,coordinate_clipping,125,Blond,False,0.7014600419723462,0.1550001385030392
+0,attachment_two,coordinate_clipping,249,Blond,False,0.9455272546722628,0.1617659233515631
+0,attachment_two,coordinate_clipping,127,Blond,False,0.5666270819641591,0.136030930826267
+0,attachment_two,coordinate_clipping,121,Blond,False,0.5997836974657103,0.1465681878295329
+0,attachment_two,coordinate_clipping,35,Blond,False,0.5471441350582654,0.1346232654628966
+0,attachment_two,coordinate_clipping,215,Blond,False,0.6751517269135652,0.1419931782642992
+0,attachment_two,coordinate_clipping,73,Blond,False,0.8136767442697251,0.1746856498008897
+0,attachment_two,conditional,77,Blond,False,0.5789093144018783,0.1556055128915
+0,attachment_two,conditional,59,Blond,False,0.7860153811131935,0.1768086924792531
+0,attachment_two,conditional,164,Blond,False,0.4856983044070167,0.1254572674533278
+0,attachment_two,conditional,125,Blond,False,0.7485744260389777,0.1566161533819342
+0,attachment_two,conditional,249,Blond,False,0.8170796013399245,0.1571641618647511
+0,attachment_two,conditional,127,Blond,False,0.674459819746567,0.1415762437081679
+0,attachment_two,conditional,121,Blond,False,0.7272069954404711,0.1482393524246837
+0,attachment_two,conditional,35,Blond,False,0.5202407338557575,0.1351327335319921
+0,attachment_two,conditional,215,Blond,False,0.7265871478183757,0.144318380955564
+0,attachment_two,conditional,73,Blond,False,0.8042107949965268,0.1780206070150916
+0,attachment_two,unconditional,122,Brett/cofermented,False,0.6527312001262959,0.1705104306220212
+0,attachment_two,unconditional,14,Brett/cofermented,False,0.6632171833923362,0.1502897318449576
+0,attachment_two,coordinate_clipping,122,Brett/cofermented,False,0.6551165763046906,0.1707130420096734
+0,attachment_two,coordinate_clipping,14,Brett/cofermented,False,0.6654089646391429,0.1502179859389565
+0,attachment_two,conditional,122,Brett/cofermented,False,0.7307661160693992,0.177251888337026
+0,attachment_two,conditional,14,Brett/cofermented,False,0.6807567923246707,0.1515496480891828
+0,attachment_two,unconditional,112,Brown,False,0.5269370114228755,0.1290894956372185
+0,attachment_two,unconditional,129,Brown,False,0.6799013723301491,0.1432297241842722
+0,attachment_two,unconditional,109,Brown,False,0.901797422970806,0.1787509302930825
+0,attachment_two,unconditional,89,Brown,False,0.7497585730866091,0.1718190746069283
+0,attachment_two,coordinate_clipping,112,Brown,False,0.5286653975326858,0.1293343159095488
+0,attachment_two,coordinate_clipping,129,Brown,False,0.6815007229111253,0.1435948910576796
+0,attachment_two,coordinate_clipping,109,Brown,False,0.9033314988858808,0.1791162355977789
+0,attachment_two,coordinate_clipping,89,Brown,False,0.7541529160336576,0.1715748570307707
+0,attachment_two,conditional,112,Brown,False,0.5987567307568155,0.1343516556471566
+0,attachment_two,conditional,129,Brown,False,0.7044865295906962,0.1447406156309983
+0,attachment_two,conditional,109,Brown,False,0.8772204122698544,0.1788880017768433
+0,attachment_two,conditional,89,Brown,False,0.7850267080444184,0.1741837689005627
+0,attachment_two,unconditional,130,Brut,False,0.7790120952559114,0.1915082601686277
+0,attachment_two,unconditional,192,Brut,False,1.1817665504081214,0.2604932871928591
+0,attachment_two,coordinate_clipping,130,Brut,False,0.7799070353119423,0.191037589876799
+0,attachment_two,coordinate_clipping,192,Brut,False,1.185377642578608,0.2613032735932813
+0,attachment_two,conditional,130,Brut,False,0.8116576528236037,0.1931373412699999
+0,attachment_two,conditional,192,Brut,False,1.2748051623835237,0.259029337532568
+0,attachment_two,unconditional,38,Christmas,False,0.5964321639331519,0.1405352819990057
+0,attachment_two,unconditional,181,Christmas,True,1.0518908138090193,0.1709633328121144
+0,attachment_two,unconditional,95,Christmas,False,0.7710893929474806,0.194796805374965
+0,attachment_two,coordinate_clipping,38,Christmas,False,0.5927448799002968,0.1400760945998092
+0,attachment_two,coordinate_clipping,181,Christmas,True,1.0504666829149338,0.17265259161612
+0,attachment_two,coordinate_clipping,95,Christmas,False,0.7757754151119874,0.194843071695164
+0,attachment_two,conditional,38,Christmas,False,0.5838823044192165,0.1395732296576573
+0,attachment_two,conditional,181,Christmas,True,1.0819370024804529,0.1738581053172326
+0,attachment_two,conditional,95,Christmas,False,0.8502720610645442,0.1987815788402606
+0,attachment_two,unconditional,48,Dubbel,False,0.5771465522615997,0.1385671317544123
+0,attachment_two,unconditional,111,Dubbel,False,0.585096302651719,0.1351678130228377
+0,attachment_two,unconditional,198,Dubbel,False,0.6134489814435305,0.1481052598619873
+0,attachment_two,coordinate_clipping,48,Dubbel,False,0.5803098729936959,0.1385256878825712
+0,attachment_two,coordinate_clipping,111,Dubbel,False,0.5880372101939595,0.1348506421864651
+0,attachment_two,coordinate_clipping,198,Dubbel,False,0.6160705815455548,0.1483916360023588
+0,attachment_two,conditional,48,Dubbel,False,0.6183623610337177,0.144002662478295
+0,attachment_two,conditional,111,Dubbel,False,0.6145018406033468,0.1390998601771143
+0,attachment_two,conditional,198,Dubbel,False,0.653346482444631,0.153278050533251
+0,attachment_two,unconditional,250,Faro,False,0.6621656728994917,0.1909641360952108
+0,attachment_two,coordinate_clipping,250,Faro,False,0.6628822876451189,0.190874958707245
+0,attachment_two,conditional,250,Faro,False,0.6478206794834485,0.1845956325802391
+0,attachment_two,unconditional,179,Flanders old brown,False,0.6845033783480342,0.1722710699020324
+0,attachment_two,coordinate_clipping,179,Flanders old brown,False,0.6848321057200616,0.1723147726972358
+0,attachment_two,conditional,179,Flanders old brown,False,0.7232055391226304,0.1770538329547664
+0,attachment_two,unconditional,165,Fruitbeer,False,0.6121713301490885,0.1706300074550296
+0,attachment_two,unconditional,227,Fruitbeer,False,0.6389823287060826,0.18102118791246
+0,attachment_two,unconditional,177,Fruitbeer,False,0.7501385058164104,0.1909555500116179
+0,attachment_two,coordinate_clipping,165,Fruitbeer,False,0.6033514668230744,0.1692056637751593
+0,attachment_two,coordinate_clipping,227,Fruitbeer,False,0.6501119699831721,0.1846769469202039
+0,attachment_two,coordinate_clipping,177,Fruitbeer,False,0.7648231878475981,0.1938988589005036
+0,attachment_two,conditional,165,Fruitbeer,False,0.6065574021651495,0.1601064539015737
+0,attachment_two,conditional,227,Fruitbeer,False,0.6241567699649716,0.1673384867913692
+0,attachment_two,conditional,177,Fruitbeer,False,0.7909369245761536,0.2068727362055703
+0,attachment_two,unconditional,219,Hoppy,False,0.7487241991982909,0.1815460048358048
+0,attachment_two,unconditional,72,Hoppy,False,0.5970226633806625,0.1591334152559272
+0,attachment_two,unconditional,27,Hoppy,False,0.5054944920264938,0.1356635764760799
+0,attachment_two,unconditional,79,Hoppy,False,0.5519296674442559,0.1343022776578274
+0,attachment_two,unconditional,8,Hoppy,False,0.6215164162538406,0.142300174224294
+0,attachment_two,coordinate_clipping,219,Hoppy,False,0.7550970149665824,0.1823240172744508
+0,attachment_two,coordinate_clipping,72,Hoppy,False,0.5993313605053042,0.1590183228742294
+0,attachment_two,coordinate_clipping,27,Hoppy,False,0.5128058417003157,0.1363990335472392
+0,attachment_two,coordinate_clipping,79,Hoppy,False,0.556704539057786,0.1343252293053637
+0,attachment_two,coordinate_clipping,8,Hoppy,False,0.6288319211319809,0.1427725086990543
+0,attachment_two,conditional,219,Hoppy,False,0.7970402916470793,0.1902965865139651
+0,attachment_two,conditional,72,Hoppy,False,0.6053228002141692,0.1641126245845088
+0,attachment_two,conditional,27,Hoppy,False,0.6038943330615545,0.1501888196705046
+0,attachment_two,conditional,79,Hoppy,False,0.6391465757647002,0.1445755363218056
+0,attachment_two,conditional,8,Hoppy,False,0.6967329433278802,0.1484209808053219
+0,attachment_two,unconditional,232,Kriek,False,0.6866804912611394,0.1735545585319999
+0,attachment_two,unconditional,138,Kriek,False,0.7074210874365253,0.1723836464500749
+0,attachment_two,unconditional,220,Kriek,False,0.5741809559977605,0.1566764693425927
+0,attachment_two,unconditional,153,Kriek,False,0.6523741030076408,0.1692305704558056
+0,attachment_two,coordinate_clipping,232,Kriek,False,0.6900355788245596,0.1727574436924579
+0,attachment_two,coordinate_clipping,138,Kriek,False,0.7081419137431832,0.1715812354479562
+0,attachment_two,coordinate_clipping,220,Kriek,False,0.5759843391830259,0.1573814338841474
+0,attachment_two,coordinate_clipping,153,Kriek,False,0.6558758481321447,0.1697526504846198
+0,attachment_two,conditional,232,Kriek,False,0.6950606804743308,0.174187395148521
+0,attachment_two,conditional,138,Kriek,False,0.7291179868558173,0.1727053663013663
+0,attachment_two,conditional,220,Kriek,False,0.6138242224758556,0.1638047466530696
+0,attachment_two,conditional,153,Kriek,False,0.7188447572671598,0.1814538550912165
+0,attachment_two,unconditional,115,Lambic,True,0.7571499599256458,0.2064715338435068
+0,attachment_two,unconditional,144,Lambic,False,0.5107903670537688,0.1432153306370574
+0,attachment_two,unconditional,162,Lambic,False,0.5145977185183352,0.1402762698965114
+0,attachment_two,unconditional,21,Lambic,False,0.4974002589093106,0.1344579852829029
+0,attachment_two,coordinate_clipping,115,Lambic,True,0.7555653152494378,0.2063127181577264
+0,attachment_two,coordinate_clipping,144,Lambic,False,0.5130111273807861,0.1429977545283238
+0,attachment_two,coordinate_clipping,162,Lambic,False,0.515618435134208,0.1399013965225562
+0,attachment_two,coordinate_clipping,21,Lambic,False,0.4987198496482651,0.1340732326491197
+0,attachment_two,conditional,115,Lambic,True,0.7335945858398141,0.2028329631324952
+0,attachment_two,conditional,144,Lambic,False,0.5586855935965594,0.1522626081686798
+0,attachment_two,conditional,162,Lambic,False,0.5196791560504401,0.1405341272461194
+0,attachment_two,conditional,21,Lambic,False,0.5128933221840507,0.1395413449495774
+0,attachment_two,unconditional,10,Low/No alcohol,True,0.8675637586763332,0.2632030320644716
+0,attachment_two,unconditional,2,Low/No alcohol,True,0.5298430137055318,0.1303586580062832
+0,attachment_two,unconditional,141,Low/No alcohol,False,0.514823486405864,0.1348061962897111
+0,attachment_two,coordinate_clipping,10,Low/No alcohol,True,0.8670789126956792,0.2630924599470259
+0,attachment_two,coordinate_clipping,2,Low/No alcohol,True,0.5292257495300249,0.1302756488110232
+0,attachment_two,coordinate_clipping,141,Low/No alcohol,False,0.5170898602114011,0.1352367088673743
+0,attachment_two,conditional,10,Low/No alcohol,True,0.8803715151415592,0.2617653001725911
+0,attachment_two,conditional,2,Low/No alcohol,True,0.5196590042625641,0.1275872397414572
+0,attachment_two,conditional,141,Low/No alcohol,False,0.5607326227574858,0.1476567854681051
+0,attachment_two,unconditional,124,Pils/Lager,True,0.5388123226585501,0.1504767246244041
+0,attachment_two,unconditional,96,Pils/Lager,False,0.6694697440408527,0.1742910905638841
+0,attachment_two,unconditional,139,Pils/Lager,False,0.4514174893609292,0.1249670443302025
+0,attachment_two,unconditional,209,Pils/Lager,True,0.5087687537886427,0.1229118913101528
+0,attachment_two,coordinate_clipping,124,Pils/Lager,True,0.5383821931891376,0.1501387054377312
+0,attachment_two,coordinate_clipping,96,Pils/Lager,False,0.6715838463217002,0.1748168562458088
+0,attachment_two,coordinate_clipping,139,Pils/Lager,False,0.4508285355475564,0.1245404534867134
+0,attachment_two,coordinate_clipping,209,Pils/Lager,True,0.5078270812606479,0.1228039010303583
+0,attachment_two,conditional,124,Pils/Lager,True,0.5259960909182337,0.1462345966541745
+0,attachment_two,conditional,96,Pils/Lager,False,0.7282797700934883,0.18173598894415
+0,attachment_two,conditional,139,Pils/Lager,False,0.4437855018927957,0.1225665202453544
+0,attachment_two,conditional,209,Pils/Lager,True,0.5072361782411131,0.1243707557354859
+0,attachment_two,unconditional,7,Saison,False,0.7312816571157739,0.1924487970715048
+0,attachment_two,unconditional,132,Saison,False,0.6155756477559003,0.1525532440426225
+0,attachment_two,unconditional,145,Saison,False,0.8126300506690014,0.1894314376155838
+0,attachment_two,unconditional,242,Saison,False,0.5638898424487301,0.1440841644203924
+0,attachment_two,coordinate_clipping,7,Saison,False,0.7396268364951143,0.1928830184345825
+0,attachment_two,coordinate_clipping,132,Saison,False,0.6259907428062665,0.1535953256490748
+0,attachment_two,coordinate_clipping,145,Saison,False,0.814401663282014,0.1895376365492574
+0,attachment_two,coordinate_clipping,242,Saison,False,0.5600033817454123,0.1443007673849353
+0,attachment_two,conditional,7,Saison,False,0.8177360811088262,0.1980641151722502
+0,attachment_two,conditional,132,Saison,False,0.720712588694971,0.1596271998924666
+0,attachment_two,conditional,145,Saison,False,0.8199925099915171,0.1910965112391976
+0,attachment_two,conditional,242,Saison,False,0.5106553362467635,0.1442587720868746
+0,attachment_two,unconditional,168,Scotch,False,0.643177392439427,0.1509192888646561
+0,attachment_two,coordinate_clipping,168,Scotch,False,0.6468350667008868,0.152101767199454
+0,attachment_two,conditional,168,Scotch,False,0.681494685885413,0.1545874272203928
+0,attachment_two,unconditional,231,Stout/Porter,False,0.8207734473310542,0.1715445493099766
+0,attachment_two,unconditional,201,Stout/Porter,True,0.8040355941655595,0.1888275079360258
+0,attachment_two,unconditional,173,Stout/Porter,False,0.6565376501154085,0.1503671014275232
+0,attachment_two,unconditional,52,Stout/Porter,False,0.590476864654897,0.1427247692092055
+0,attachment_two,coordinate_clipping,231,Stout/Porter,False,0.8229800427367306,0.1710725444478324
+0,attachment_two,coordinate_clipping,201,Stout/Porter,True,0.8017239822197808,0.1901313284201687
+0,attachment_two,coordinate_clipping,173,Stout/Porter,False,0.6591628573026281,0.1499503382707596
+0,attachment_two,coordinate_clipping,52,Stout/Porter,False,0.5984638793489957,0.1434157396705169
+0,attachment_two,conditional,231,Stout/Porter,False,0.8026212808874059,0.1663407755918598
+0,attachment_two,conditional,201,Stout/Porter,True,0.8195099681859621,0.1917706917583313
+0,attachment_two,conditional,173,Stout/Porter,False,0.671117535182717,0.1508688329565854
+0,attachment_two,conditional,52,Stout/Porter,False,0.7037439679880573,0.1490110932565865
+0,attachment_two,unconditional,186,Strong ale,False,0.5023695661191714,0.1401514507837038
+0,attachment_two,unconditional,134,Strong ale,True,0.6888463693070761,0.1399157982686308
+0,attachment_two,unconditional,226,Strong ale,False,0.5339606345523442,0.1423413357547945
+0,attachment_two,unconditional,51,Strong ale,False,0.6501703366215177,0.1750738805300053
+0,attachment_two,unconditional,133,Strong ale,False,0.5978241031656064,0.1508588236157333
+0,attachment_two,unconditional,91,Strong ale,False,0.564849410892941,0.1397021613875642
+0,attachment_two,coordinate_clipping,186,Strong ale,False,0.5013294634545278,0.1400637135062767
+0,attachment_two,coordinate_clipping,134,Strong ale,True,0.6838770662303193,0.1393768415607121
+0,attachment_two,coordinate_clipping,226,Strong ale,False,0.5312199541886564,0.1421052692900482
+0,attachment_two,coordinate_clipping,51,Strong ale,False,0.6505007381509299,0.1750381633289495
+0,attachment_two,coordinate_clipping,133,Strong ale,False,0.6018364269317082,0.150879916620956
+0,attachment_two,coordinate_clipping,91,Strong ale,False,0.5639761676927433,0.1386613740972576
+0,attachment_two,conditional,186,Strong ale,False,0.500713662343729,0.1394285608194345
+0,attachment_two,conditional,134,Strong ale,True,0.7020275932517189,0.1443328835077319
+0,attachment_two,conditional,226,Strong ale,False,0.5433569702752163,0.1471313240310664
+0,attachment_two,conditional,51,Strong ale,False,0.7428944469336239,0.1793423680191115
+0,attachment_two,conditional,133,Strong ale,False,0.7544482996402626,0.1568837880914737
+0,attachment_two,conditional,91,Strong ale,False,0.615598220326513,0.1449432055793186
+0,attachment_two,unconditional,69,Tripel,False,0.6601411075354128,0.1516936240929597
+0,attachment_two,unconditional,240,Tripel,False,0.5389042554132168,0.1269485390680207
+0,attachment_two,unconditional,47,Tripel,False,0.5278133331340364,0.1307213885890379
+0,attachment_two,unconditional,66,Tripel,False,0.5639591884246664,0.1291170388107864
+0,attachment_two,unconditional,45,Tripel,False,0.5914655696845532,0.1519131114625488
+0,attachment_two,unconditional,217,Tripel,False,0.5052335708755937,0.1231821287249446
+0,attachment_two,unconditional,140,Tripel,False,0.600305853970675,0.1522265372142908
+0,attachment_two,unconditional,171,Tripel,False,0.5885922490555332,0.1381102365704743
+0,attachment_two,unconditional,157,Tripel,False,1.115688688417525,0.2246321591682629
+0,attachment_two,coordinate_clipping,69,Tripel,False,0.6603524051382373,0.1519680108414545
+0,attachment_two,coordinate_clipping,240,Tripel,False,0.5355502349641679,0.1264078591728642
+0,attachment_two,coordinate_clipping,47,Tripel,False,0.5259676562054225,0.1300396356867988
+0,attachment_two,coordinate_clipping,66,Tripel,False,0.5717071909066243,0.1296946217776615
+0,attachment_two,coordinate_clipping,45,Tripel,False,0.5953214564280559,0.1518563952770673
+0,attachment_two,coordinate_clipping,217,Tripel,False,0.510132942237668,0.1235394185144384
+0,attachment_two,coordinate_clipping,140,Tripel,False,0.6085513764231101,0.154086109953642
+0,attachment_two,coordinate_clipping,171,Tripel,False,0.589815185296866,0.1372814382209075
+0,attachment_two,coordinate_clipping,157,Tripel,False,1.1156597053628896,0.2248290495637439
+0,attachment_two,conditional,69,Tripel,False,0.7244533013321957,0.1546550211614984
+0,attachment_two,conditional,240,Tripel,False,0.5206435995302098,0.1246389520542616
+0,attachment_two,conditional,47,Tripel,False,0.5862979352869264,0.134278758796178
+0,attachment_two,conditional,66,Tripel,False,0.6744732183129857,0.1312587806713914
+0,attachment_two,conditional,45,Tripel,False,0.7323620514598148,0.1588099428711263
+0,attachment_two,conditional,217,Tripel,False,0.4978117771076944,0.1234256439804678
+0,attachment_two,conditional,140,Tripel,False,0.655399161549242,0.1589363627150823
+0,attachment_two,conditional,171,Tripel,False,0.5958695617310621,0.1368497780738537
+0,attachment_two,conditional,157,Tripel,False,1.2027230204222386,0.2239987389253037
+0,attachment_two,unconditional,200,West Flanders ale,True,0.5341838450576888,0.1354862443820615
+0,attachment_two,unconditional,178,West Flanders ale,False,0.6359432506442906,0.1591437896027817
+0,attachment_two,unconditional,118,West Flanders ale,False,0.7170350572273464,0.1862461633621168
+0,attachment_two,coordinate_clipping,200,West Flanders ale,True,0.5329980425368357,0.1349269634639483
+0,attachment_two,coordinate_clipping,178,West Flanders ale,False,0.641239961341184,0.1597526178446697
+0,attachment_two,coordinate_clipping,118,West Flanders ale,False,0.7231114908604392,0.1861983118409195
+0,attachment_two,conditional,200,West Flanders ale,True,0.537588777982854,0.1338713024591603
+0,attachment_two,conditional,178,West Flanders ale,False,0.7162857132838311,0.1656523350762715
+0,attachment_two,conditional,118,West Flanders ale,False,0.7957320043110718,0.1900579621836494
+0,attachment_two,unconditional,195,Wheat,False,0.6451446160558458,0.1526322252597587
+0,attachment_two,unconditional,197,Wheat,False,0.5658318345302894,0.1501943850594299
+0,attachment_two,unconditional,172,Wheat,False,0.6838544765122944,0.1712502344727429
+0,attachment_two,unconditional,243,Wheat,False,0.5106773672255368,0.1371531060261028
+0,attachment_two,coordinate_clipping,195,Wheat,False,0.6464174719727313,0.1525198339357835
+0,attachment_two,coordinate_clipping,197,Wheat,False,0.5649086601518405,0.1499376688362622
+0,attachment_two,coordinate_clipping,172,Wheat,False,0.6860071239427273,0.1715973328108084
+0,attachment_two,coordinate_clipping,243,Wheat,False,0.5116960265491407,0.1374763800779856
+0,attachment_two,conditional,195,Wheat,False,0.6953591940559593,0.1641856869232659
+0,attachment_two,conditional,197,Wheat,False,0.5573706191804305,0.1482131885137085
+0,attachment_two,conditional,172,Wheat,False,0.7538844053144762,0.1814883095201136
+0,attachment_two,conditional,243,Wheat,False,0.508828249844589,0.134363335135299
+0,strict_four,unconditional,92,Amber,False,0.5885345939662004,0.1247665033182014
+0,strict_four,unconditional,6,Amber,False,0.5218181264091099,0.1404329534652028
+0,strict_four,unconditional,126,Amber,False,0.7197064040048365,0.1531258645111538
+0,strict_four,unconditional,210,Amber,False,0.5296391751065795,0.1475084004764823
+0,strict_four,coordinate_clipping,92,Amber,False,0.609095646401477,0.1272146445269373
+0,strict_four,coordinate_clipping,6,Amber,False,0.5232455094100678,0.1429100866549355
+0,strict_four,coordinate_clipping,126,Amber,False,0.732773205283301,0.1561547264043443
+0,strict_four,coordinate_clipping,210,Amber,False,0.5369523200297528,0.149770823007044
+0,strict_four,conditional,92,Amber,False,0.8433695154165691,0.1488556251500895
+0,strict_four,conditional,6,Amber,False,0.5190589151068364,0.1374206851191794
+0,strict_four,conditional,126,Amber,False,0.7276367058642105,0.1718856309511876
+0,strict_four,conditional,210,Amber,False,0.6791707697479006,0.1823658931502133
+0,strict_four,unconditional,77,Blond,False,0.5986407820609192,0.1588860862912323
+0,strict_four,unconditional,59,Blond,False,0.7134560392268312,0.1745409910752332
+0,strict_four,unconditional,164,Blond,False,0.4655590856008949,0.1199389595227885
+0,strict_four,unconditional,125,Blond,False,0.6887804679683772,0.1549802434048743
+0,strict_four,unconditional,249,Blond,False,0.9357821754617136,0.1607777562275487
+0,strict_four,unconditional,127,Blond,False,0.560069505251559,0.1357358586692308
+0,strict_four,unconditional,121,Blond,False,0.5913075931510405,0.1453294384163302
+0,strict_four,unconditional,35,Blond,False,0.5443419089605432,0.1337767648798842
+0,strict_four,unconditional,215,Blond,False,0.6577999827414867,0.1403111748925994
+0,strict_four,unconditional,73,Blond,False,0.8024822776103133,0.1745481997140373
+0,strict_four,coordinate_clipping,77,Blond,False,0.6035816965221609,0.1627294201526614
+0,strict_four,coordinate_clipping,59,Blond,False,0.7447000479801533,0.1752119504626604
+0,strict_four,coordinate_clipping,164,Blond,False,0.4821907427503158,0.1231670727314162
+0,strict_four,coordinate_clipping,125,Blond,False,0.7114073198503502,0.1553544120417136
+0,strict_four,coordinate_clipping,249,Blond,False,0.949435187669246,0.1630691734129518
+0,strict_four,coordinate_clipping,127,Blond,False,0.5765047087476525,0.1383835722042322
+0,strict_four,coordinate_clipping,121,Blond,False,0.6147191852813508,0.1467567134351607
+0,strict_four,coordinate_clipping,35,Blond,False,0.5580219971627521,0.1370446373231549
+0,strict_four,coordinate_clipping,215,Blond,False,0.6868668967895127,0.1426782817342803
+0,strict_four,coordinate_clipping,73,Blond,False,0.818754013956107,0.1772358448601688
+0,strict_four,conditional,77,Blond,False,0.6086595730564458,0.1736064775607637
+0,strict_four,conditional,59,Blond,False,1.050021587215386,0.1763199890001784
+0,strict_four,conditional,164,Blond,False,0.663329307604529,0.151295039364305
+0,strict_four,conditional,125,Blond,False,0.9989986352707858,0.1600996501564645
+0,strict_four,conditional,249,Blond,False,1.0886314222580802,0.1733640971427772
+0,strict_four,conditional,127,Blond,False,0.8023121418038368,0.1597187893825332
+0,strict_four,conditional,121,Blond,False,0.8763585849326504,0.1532139263953809
+0,strict_four,conditional,35,Blond,False,0.7089642805550853,0.1563682989319298
+0,strict_four,conditional,215,Blond,False,0.9566460632051628,0.1589460374423816
+0,strict_four,conditional,73,Blond,False,1.0010374409998013,0.1940354985160584
+0,strict_four,unconditional,122,Brett/cofermented,False,0.6416441062877036,0.170273768672912
+0,strict_four,unconditional,14,Brett/cofermented,False,0.6559037760039449,0.1490725333724436
+0,strict_four,coordinate_clipping,122,Brett/cofermented,False,0.6700441485289261,0.1702783628061782
+0,strict_four,coordinate_clipping,14,Brett/cofermented,False,0.675379149261759,0.1507182968756684
+0,strict_four,unconditional,112,Brown,False,0.545438998686561,0.1285864807877481
+0,strict_four,unconditional,129,Brown,False,0.6869626825144243,0.1435201710391213
+0,strict_four,unconditional,109,Brown,False,0.894705282827317,0.1788426905757712
+0,strict_four,unconditional,89,Brown,False,0.7535602124334869,0.1710499604453091
+0,strict_four,coordinate_clipping,112,Brown,False,0.5657303310890457,0.130437851655407
+0,strict_four,coordinate_clipping,129,Brown,False,0.683480894677307,0.1442431040783459
+0,strict_four,coordinate_clipping,109,Brown,False,0.9016602668588076,0.1791259688162076
+0,strict_four,coordinate_clipping,89,Brown,False,0.7699457195422007,0.1719261295999351
+0,strict_four,conditional,112,Brown,False,0.6980994729862555,0.1616293983703644
+0,strict_four,conditional,129,Brown,False,0.5789982360645269,0.1428183618190595
+0,strict_four,conditional,109,Brown,False,1.113882057988372,0.1982373019078227
+0,strict_four,conditional,89,Brown,False,1.0372909809171238,0.186498650174935
+0,strict_four,unconditional,130,Brut,False,0.7884936097696766,0.1915400404493025
+0,strict_four,unconditional,192,Brut,False,1.1695740403196673,0.2600682776948379
+0,strict_four,coordinate_clipping,130,Brut,False,0.7952665347885737,0.1927318478764864
+0,strict_four,coordinate_clipping,192,Brut,False,1.173763618895516,0.2624860512488737
+0,strict_four,conditional,130,Brut,False,0.9820031021911494,0.1959546225095546
+0,strict_four,conditional,192,Brut,False,1.1918359539716392,0.2625243972288727
+0,strict_four,unconditional,38,Christmas,False,0.5921165946652435,0.1414043953246617
+0,strict_four,unconditional,181,Christmas,False,1.0489733864781123,0.1697472521809971
+0,strict_four,unconditional,95,Christmas,False,0.765333893195047,0.1936624877066967
+0,strict_four,coordinate_clipping,38,Christmas,False,0.593656719031967,0.1437204374952582
+0,strict_four,coordinate_clipping,181,Christmas,False,1.0679013489205065,0.1714902076213152
+0,strict_four,coordinate_clipping,95,Christmas,False,0.788789421848939,0.1966765994603756
+0,strict_four,conditional,38,Christmas,False,0.6827593376731804,0.1623481397936337
+0,strict_four,conditional,181,Christmas,False,1.2737184870037823,0.1824171708052
+0,strict_four,conditional,95,Christmas,False,0.9601007278063792,0.2080757678442163
+0,strict_four,unconditional,48,Dubbel,False,0.5722119922317539,0.1370690446813782
+0,strict_four,unconditional,111,Dubbel,False,0.5807941967666087,0.1351878398154438
+0,strict_four,unconditional,198,Dubbel,False,0.6085039978731063,0.1503467576656253
+0,strict_four,coordinate_clipping,48,Dubbel,False,0.5811309186167138,0.1385624635698432
+0,strict_four,coordinate_clipping,111,Dubbel,False,0.6022087899689782,0.1362078291916935
+0,strict_four,coordinate_clipping,198,Dubbel,False,0.6253229090667602,0.1550151151476524
+0,strict_four,conditional,48,Dubbel,False,0.6765212714486705,0.1669432133812441
+0,strict_four,conditional,111,Dubbel,False,0.8041606175662515,0.1640310836985048
+0,strict_four,conditional,198,Dubbel,False,0.8220174777963892,0.1740480314440804
+0,strict_four,unconditional,250,Faro,False,0.6529344291167779,0.1899291736602347
+0,strict_four,coordinate_clipping,250,Faro,False,0.6560973942636361,0.191053582443457
+0,strict_four,conditional,250,Faro,False,0.7538070792707641,0.1952753441027874
+0,strict_four,unconditional,179,Flanders old brown,False,0.6854392307790588,0.1723921359845835
+0,strict_four,coordinate_clipping,179,Flanders old brown,False,0.6900887937807005,0.1730459141140857
+0,strict_four,conditional,179,Flanders old brown,False,0.764695809123445,0.1845541134796457
+0,strict_four,unconditional,165,Fruitbeer,False,0.6198138980568625,0.1724666448374585
+0,strict_four,unconditional,227,Fruitbeer,False,0.637131405378562,0.1807805911459744
+0,strict_four,unconditional,177,Fruitbeer,False,0.7459362845643359,0.1906203060764749
+0,strict_four,coordinate_clipping,165,Fruitbeer,False,0.6190335949847496,0.1730232677834098
+0,strict_four,coordinate_clipping,227,Fruitbeer,False,0.6636599973662186,0.1843720729023623
+0,strict_four,coordinate_clipping,177,Fruitbeer,False,0.767126838574887,0.1947416814402582
+0,strict_four,conditional,165,Fruitbeer,False,0.6079502635581887,0.1576339882836852
+0,strict_four,conditional,227,Fruitbeer,False,0.6962746741120197,0.1784791185908171
+0,strict_four,conditional,177,Fruitbeer,False,0.9253433589388504,0.2308297576796617
+0,strict_four,unconditional,219,Hoppy,False,0.7431550908997918,0.1840357566280157
+0,strict_four,unconditional,72,Hoppy,False,0.5860049636154431,0.1583777922036832
+0,strict_four,unconditional,27,Hoppy,False,0.4924191309160607,0.1347213774379195
+0,strict_four,unconditional,79,Hoppy,False,0.5417115176534563,0.1348836383811467
+0,strict_four,unconditional,8,Hoppy,False,0.6093068039273161,0.1408052562934537
+0,strict_four,coordinate_clipping,219,Hoppy,False,0.7791823248230709,0.187635065511223
+0,strict_four,coordinate_clipping,72,Hoppy,False,0.5992279399543801,0.1624130439665015
+0,strict_four,coordinate_clipping,27,Hoppy,False,0.5323901080932409,0.1353990538264638
+0,strict_four,coordinate_clipping,79,Hoppy,False,0.5775234689921006,0.1365090164983855
+0,strict_four,coordinate_clipping,8,Hoppy,False,0.6367151396342927,0.1442593822901625
+0,strict_four,unconditional,232,Kriek,False,0.6776092256292798,0.1716957656273439
+0,strict_four,unconditional,138,Kriek,False,0.7024104809604914,0.1731820014637784
+0,strict_four,unconditional,220,Kriek,False,0.5779123138461685,0.1555454514678267
+0,strict_four,unconditional,153,Kriek,False,0.6536810681268654,0.1702474313650534
+0,strict_four,coordinate_clipping,232,Kriek,False,0.6933274821266481,0.1742273933868591
+0,strict_four,coordinate_clipping,138,Kriek,False,0.7090338639663333,0.1739047281968273
+0,strict_four,coordinate_clipping,220,Kriek,False,0.5885909072572857,0.160720319730827
+0,strict_four,coordinate_clipping,153,Kriek,False,0.6670096839986865,0.1736994919035832
+0,strict_four,conditional,232,Kriek,False,0.788218879755291,0.1888396030890645
+0,strict_four,conditional,138,Kriek,False,0.8925607224143082,0.1950219523878984
+0,strict_four,conditional,220,Kriek,False,0.6188406695166313,0.1747208820088673
+0,strict_four,conditional,153,Kriek,False,0.8756113648106676,0.2016474537903202
+0,strict_four,unconditional,115,Lambic,False,0.7642061121639588,0.2071992045726965
+0,strict_four,unconditional,144,Lambic,False,0.5168732834152306,0.1441808733319155
+0,strict_four,unconditional,162,Lambic,False,0.533576905395753,0.1439327681313757
+0,strict_four,unconditional,21,Lambic,False,0.5163331707689804,0.1378206106963179
+0,strict_four,coordinate_clipping,115,Lambic,False,0.7730947386385811,0.2087913383066703
+0,strict_four,coordinate_clipping,144,Lambic,False,0.5364730784772695,0.1462665268564303
+0,strict_four,coordinate_clipping,162,Lambic,False,0.5473809330277697,0.1458039303995888
+0,strict_four,coordinate_clipping,21,Lambic,False,0.529359217154021,0.1395388289734748
+0,strict_four,conditional,115,Lambic,False,0.8293077482237727,0.2042529890437837
+0,strict_four,conditional,144,Lambic,False,0.762178410857502,0.1803569957894797
+0,strict_four,conditional,162,Lambic,False,0.7215516590317547,0.1743758055183166
+0,strict_four,conditional,21,Lambic,False,0.7038518778565807,0.1728283848400227
+0,strict_four,unconditional,10,Low/No alcohol,False,0.863725410093647,0.2606056054093884
+0,strict_four,unconditional,2,Low/No alcohol,False,0.5258627444655978,0.1282864371796962
+0,strict_four,unconditional,141,Low/No alcohol,False,0.5247908477691859,0.1398225095373197
+0,strict_four,coordinate_clipping,10,Low/No alcohol,False,0.8637355979752123,0.2610750874008196
+0,strict_four,coordinate_clipping,2,Low/No alcohol,False,0.524333851817701,0.1285162206981974
+0,strict_four,coordinate_clipping,141,Low/No alcohol,False,0.5310391325770946,0.1429040190706829
+0,strict_four,conditional,10,Low/No alcohol,False,0.8976110003645155,0.2604855649872176
+0,strict_four,conditional,2,Low/No alcohol,False,0.5036468874158484,0.1255342954137298
+0,strict_four,conditional,141,Low/No alcohol,False,0.5820247164216841,0.1649068907698144
+0,strict_four,unconditional,124,Pils/Lager,False,0.5525426571248259,0.1512720508877318
+0,strict_four,unconditional,96,Pils/Lager,False,0.6792187175119847,0.1729083338868139
+0,strict_four,unconditional,139,Pils/Lager,False,0.4558078253345729,0.1231807294020045
+0,strict_four,unconditional,209,Pils/Lager,False,0.5350886926251444,0.1248052160902546
+0,strict_four,coordinate_clipping,124,Pils/Lager,False,0.5500909187310078,0.1504620450911226
+0,strict_four,coordinate_clipping,96,Pils/Lager,False,0.6906036726370541,0.1750680058979037
+0,strict_four,coordinate_clipping,139,Pils/Lager,False,0.4582193486963742,0.1238625321671426
+0,strict_four,coordinate_clipping,209,Pils/Lager,False,0.5376297587030003,0.1266514514340509
+0,strict_four,conditional,124,Pils/Lager,False,0.5847533989278332,0.1637805517999257
+0,strict_four,conditional,96,Pils/Lager,False,0.73373525564502,0.1869532791066008
+0,strict_four,conditional,139,Pils/Lager,False,0.4261793767417943,0.1177148770044915
+0,strict_four,conditional,209,Pils/Lager,False,0.5032931825651072,0.1365931380287767
+0,strict_four,unconditional,7,Saison,False,0.7301152063836004,0.1931718592596976
+0,strict_four,unconditional,132,Saison,False,0.6173398531610296,0.1533086318166483
+0,strict_four,unconditional,145,Saison,False,0.7991451752515256,0.1908025640435613
+0,strict_four,unconditional,242,Saison,False,0.5487894276429356,0.1445515519368196
+0,strict_four,coordinate_clipping,7,Saison,False,0.7562812498146586,0.1967028044429197
+0,strict_four,coordinate_clipping,132,Saison,False,0.6551638258431428,0.1549215348291189
+0,strict_four,coordinate_clipping,145,Saison,False,0.8196512308321716,0.1936182392334591
+0,strict_four,coordinate_clipping,242,Saison,False,0.5478739295829,0.1455739125751531
+0,strict_four,unconditional,168,Scotch,False,0.6433114465552765,0.1526021393647357
+0,strict_four,coordinate_clipping,168,Scotch,False,0.6538296222660639,0.1555174066985573
+0,strict_four,conditional,168,Scotch,False,0.6423124948508646,0.1576872320669602
+0,strict_four,unconditional,231,Stout/Porter,False,0.8149845894152677,0.1710596609768441
+0,strict_four,unconditional,201,Stout/Porter,False,0.8079495996937343,0.1878958208127239
+0,strict_four,unconditional,173,Stout/Porter,False,0.6609932607301816,0.1483210938995749
+0,strict_four,unconditional,52,Stout/Porter,False,0.6031714185554721,0.1428733304260324
+0,strict_four,coordinate_clipping,231,Stout/Porter,False,0.827838118272286,0.1735361318922622
+0,strict_four,coordinate_clipping,201,Stout/Porter,False,0.8176807183663207,0.1908134776639946
+0,strict_four,coordinate_clipping,173,Stout/Porter,False,0.6854845117673624,0.1499042763435603
+0,strict_four,coordinate_clipping,52,Stout/Porter,False,0.6381516952138111,0.143559212358906
+0,strict_four,unconditional,186,Strong ale,False,0.509437905568,0.1423452801237368
+0,strict_four,unconditional,134,Strong ale,False,0.6807462159194694,0.1408729324578909
+0,strict_four,unconditional,226,Strong ale,False,0.5412497350767823,0.1443198431875338
+0,strict_four,unconditional,51,Strong ale,False,0.6631519729953417,0.1753895535546696
+0,strict_four,unconditional,133,Strong ale,False,0.5894117464944194,0.1501097203661979
+0,strict_four,unconditional,91,Strong ale,False,0.561421822974209,0.1380622065001508
+0,strict_four,coordinate_clipping,186,Strong ale,False,0.5236758430851066,0.1456656767251028
+0,strict_four,coordinate_clipping,134,Strong ale,False,0.6760909016657747,0.1434535373021653
+0,strict_four,coordinate_clipping,226,Strong ale,False,0.541688669293774,0.1453143138968967
+0,strict_four,coordinate_clipping,51,Strong ale,False,0.6753895006910565,0.1801438414692631
+0,strict_four,coordinate_clipping,133,Strong ale,False,0.6206376098626999,0.1508896477407588
+0,strict_four,coordinate_clipping,91,Strong ale,False,0.5690662561469468,0.1411205871913791
+0,strict_four,unconditional,69,Tripel,False,0.6718304703963138,0.152509611988335
+0,strict_four,unconditional,240,Tripel,False,0.5323095856909403,0.1256255531307939
+0,strict_four,unconditional,47,Tripel,False,0.5331782197573556,0.1297756454182295
+0,strict_four,unconditional,66,Tripel,False,0.5679345030748184,0.1302519202542015
+0,strict_four,unconditional,45,Tripel,False,0.5962088122709495,0.1522906989161577
+0,strict_four,unconditional,217,Tripel,False,0.5126188260290835,0.1224407408247486
+0,strict_four,unconditional,140,Tripel,False,0.605762364262468,0.1517809988854553
+0,strict_four,unconditional,171,Tripel,False,0.5987279555277815,0.1377711225656048
+0,strict_four,unconditional,157,Tripel,False,1.116425778105936,0.2245795032275492
+0,strict_four,coordinate_clipping,69,Tripel,False,0.6846312924043143,0.1561609473847618
+0,strict_four,coordinate_clipping,240,Tripel,False,0.529627954876601,0.1258472748569071
+0,strict_four,coordinate_clipping,47,Tripel,False,0.5492519237297142,0.1302125648541811
+0,strict_four,coordinate_clipping,66,Tripel,False,0.594826227568751,0.1329880741795482
+0,strict_four,coordinate_clipping,45,Tripel,False,0.6236713377550348,0.1522881435192769
+0,strict_four,coordinate_clipping,217,Tripel,False,0.5236649052636221,0.1253489374999022
+0,strict_four,coordinate_clipping,140,Tripel,False,0.6192425986337446,0.1549348683579861
+0,strict_four,coordinate_clipping,171,Tripel,False,0.6130085852961165,0.1399348851334608
+0,strict_four,coordinate_clipping,157,Tripel,False,1.1230939048343938,0.2264051880080042
+0,strict_four,unconditional,200,West Flanders ale,False,0.5294090800310981,0.1344124501038044
+0,strict_four,unconditional,178,West Flanders ale,False,0.6313345430997734,0.1594629673290078
+0,strict_four,unconditional,118,West Flanders ale,False,0.7184268037442291,0.1877378014738516
+0,strict_four,coordinate_clipping,200,West Flanders ale,False,0.5300156706511857,0.1349431951700259
+0,strict_four,coordinate_clipping,178,West Flanders ale,False,0.6486818944098364,0.1625152010560067
+0,strict_four,coordinate_clipping,118,West Flanders ale,False,0.7367281918951328,0.1909389668659304
+0,strict_four,conditional,200,West Flanders ale,False,0.5209167595464101,0.1330649197633572
+0,strict_four,conditional,178,West Flanders ale,False,0.7790040525627709,0.1796383054408205
+0,strict_four,conditional,118,West Flanders ale,False,0.8512450387418833,0.2040016174194734
+0,strict_four,unconditional,195,Wheat,False,0.6350652631276905,0.1513357619832506
+0,strict_four,unconditional,197,Wheat,False,0.5624728830390112,0.150400240809686
+0,strict_four,unconditional,172,Wheat,False,0.6818010217753466,0.171344495581225
+0,strict_four,unconditional,243,Wheat,False,0.5077750288231185,0.1379319412366019
+0,strict_four,coordinate_clipping,195,Wheat,False,0.6512745942744419,0.1545654672509414
+0,strict_four,coordinate_clipping,197,Wheat,False,0.5659278193017345,0.1511959329159023
+0,strict_four,coordinate_clipping,172,Wheat,False,0.688139915596205,0.173657802413876
+0,strict_four,coordinate_clipping,243,Wheat,False,0.511744562259607,0.1378177874462737
+0,strict_four,conditional,195,Wheat,False,0.9163575437891917,0.1989725182435032
+0,strict_four,conditional,197,Wheat,False,0.734562843524784,0.1811970638452865
+0,strict_four,conditional,172,Wheat,False,0.8455130852522079,0.1958725217470119
+0,strict_four,conditional,243,Wheat,False,0.5905074736482793,0.1451866804548408
+1,attachment_two,unconditional,11,Amber,False,0.5774630259340948,0.1443251406483157
+1,attachment_two,unconditional,32,Amber,False,0.6258140977106694,0.1518634173413038
+1,attachment_two,unconditional,19,Amber,False,0.6941174711424514,0.1672714008247353
+1,attachment_two,unconditional,63,Amber,False,0.6272121336881104,0.1500837525404983
+1,attachment_two,coordinate_clipping,11,Amber,False,0.5725570004869236,0.1465331420683396
+1,attachment_two,coordinate_clipping,32,Amber,False,0.6263013233050135,0.1518702147498804
+1,attachment_two,coordinate_clipping,19,Amber,False,0.703000524528106,0.1695337746435083
+1,attachment_two,coordinate_clipping,63,Amber,False,0.6255254712335521,0.1511033804228759
+1,attachment_two,conditional,11,Amber,False,0.5412016560196518,0.1383040692974516
+1,attachment_two,conditional,32,Amber,False,0.6168711393106816,0.1482946226214644
+1,attachment_two,conditional,19,Amber,False,0.7681655769129137,0.1685343933390422
+1,attachment_two,conditional,63,Amber,False,0.5790819246249929,0.1456603486742349
+1,attachment_two,unconditional,64,Blond,False,0.6268337975610591,0.1510123021589086
+1,attachment_two,unconditional,70,Blond,False,0.638784921952573,0.1658186160884295
+1,attachment_two,unconditional,113,Blond,False,0.5850150813169226,0.1374260240587871
+1,attachment_two,unconditional,238,Blond,False,0.6088813195839758,0.146297698366624
+1,attachment_two,unconditional,76,Blond,False,0.6698185611980981,0.1557340026068393
+1,attachment_two,unconditional,49,Blond,False,0.6010436091443498,0.1406021385082007
+1,attachment_two,unconditional,193,Blond,False,0.5534030019599853,0.1431611110534328
+1,attachment_two,unconditional,149,Blond,False,0.4892930156691983,0.1328895670106259
+1,attachment_two,unconditional,234,Blond,False,1.10646888437329,0.1901641455253322
+1,attachment_two,unconditional,101,Blond,False,1.145657407560008,0.1978929264517571
+1,attachment_two,unconditional,30,Blond,False,0.5304075739372077,0.1362664928091582
+1,attachment_two,coordinate_clipping,64,Blond,False,0.6254495772543365,0.1506010182697102
+1,attachment_two,coordinate_clipping,70,Blond,False,0.6426861128089818,0.1672260393476356
+1,attachment_two,coordinate_clipping,113,Blond,False,0.589401325281969,0.1391694155349256
+1,attachment_two,coordinate_clipping,238,Blond,False,0.6070330382950374,0.1451606088107891
+1,attachment_two,coordinate_clipping,76,Blond,False,0.6714331482257447,0.1556975640928885
+1,attachment_two,coordinate_clipping,49,Blond,False,0.6010345841073608,0.1396942080982246
+1,attachment_two,coordinate_clipping,193,Blond,False,0.5536384421340865,0.1429498603406939
+1,attachment_two,coordinate_clipping,149,Blond,False,0.4891938398452912,0.1326755012330712
+1,attachment_two,coordinate_clipping,234,Blond,False,1.107361869744376,0.1906852220962188
+1,attachment_two,coordinate_clipping,101,Blond,False,1.1482235141325396,0.1988462487752219
+1,attachment_two,coordinate_clipping,30,Blond,False,0.5333421837312033,0.1357970755998678
+1,attachment_two,conditional,64,Blond,False,0.6958528361237025,0.1569272159067184
+1,attachment_two,conditional,70,Blond,False,0.7347778283739682,0.1763124635157077
+1,attachment_two,conditional,113,Blond,False,0.7318799143193463,0.1523713830114583
+1,attachment_two,conditional,238,Blond,False,0.6716902759041609,0.1519597974920151
+1,attachment_two,conditional,76,Blond,False,0.7154505926709908,0.1627756233220356
+1,attachment_two,conditional,49,Blond,False,0.5632478278127485,0.1397191641135645
+1,attachment_two,conditional,193,Blond,False,0.5599298280957746,0.1471025115451179
+1,attachment_two,conditional,149,Blond,False,0.5187729657157861,0.1387823596932537
+1,attachment_two,conditional,234,Blond,False,1.1715356915969772,0.1911060720959548
+1,attachment_two,conditional,101,Blond,False,1.2295312320231673,0.2001629145356709
+1,attachment_two,conditional,30,Blond,False,0.578799550776592,0.1454962822764984
+1,attachment_two,unconditional,150,Brett/cofermented,False,1.063617461818195,0.1927489414298014
+1,attachment_two,unconditional,222,Brett/cofermented,False,0.6309539510905008,0.1657592548564548
+1,attachment_two,coordinate_clipping,150,Brett/cofermented,False,1.064395309099554,0.1933070798255675
+1,attachment_two,coordinate_clipping,222,Brett/cofermented,False,0.6331287266274873,0.1648669620767087
+1,attachment_two,conditional,150,Brett/cofermented,False,1.1010096456430067,0.1991357556356053
+1,attachment_two,conditional,222,Brett/cofermented,False,0.6385296434451948,0.1640977441397924
+1,attachment_two,unconditional,98,Brown,False,0.6395478594715021,0.1413342387701322
+1,attachment_two,unconditional,237,Brown,True,0.5414931194486532,0.1331526661588624
+1,attachment_two,unconditional,36,Brown,True,0.6812296975927226,0.1463481964695338
+1,attachment_two,unconditional,108,Brown,False,0.5941914251641468,0.1344253872969438
+1,attachment_two,coordinate_clipping,98,Brown,False,0.6393317636120792,0.1414307733864827
+1,attachment_two,coordinate_clipping,237,Brown,True,0.5391141342778557,0.1329054675706956
+1,attachment_two,coordinate_clipping,36,Brown,True,0.678596582856983,0.1455961093128636
+1,attachment_two,coordinate_clipping,108,Brown,False,0.5929258967927411,0.1354872749898021
+1,attachment_two,conditional,98,Brown,False,0.6194212657554984,0.1425338517288037
+1,attachment_two,conditional,237,Brown,True,0.5496508390531527,0.1343277954800989
+1,attachment_two,conditional,36,Brown,True,0.6944745047023866,0.1451090877084506
+1,attachment_two,conditional,108,Brown,False,0.5711068058804619,0.1335504715748416
+1,attachment_two,unconditional,205,Brut,False,0.6324239283498317,0.1569998601858638
+1,attachment_two,coordinate_clipping,205,Brut,False,0.6362144863260769,0.1569974104468628
+1,attachment_two,conditional,205,Brut,False,0.6474773240167875,0.1553060423540146
+1,attachment_two,unconditional,106,Christmas,False,0.6667815193940789,0.1548400754775319
+1,attachment_two,unconditional,13,Christmas,False,0.6183620293335224,0.1424625353208494
+1,attachment_two,unconditional,214,Christmas,False,0.6467409092617016,0.162936519476305
+1,attachment_two,coordinate_clipping,106,Christmas,False,0.6725784890677861,0.1552428599233218
+1,attachment_two,coordinate_clipping,13,Christmas,False,0.6181543067858445,0.14183096373439
+1,attachment_two,coordinate_clipping,214,Christmas,False,0.649006172144581,0.1630241681099895
+1,attachment_two,conditional,106,Christmas,False,0.7420637152347773,0.1559808429486527
+1,attachment_two,conditional,13,Christmas,False,0.6036606282394058,0.1445163184703925
+1,attachment_two,conditional,214,Christmas,False,0.7225497005867076,0.1687707689261415
+1,attachment_two,unconditional,100,Dubbel,False,0.4883607475641954,0.1329407098436369
+1,attachment_two,unconditional,107,Dubbel,False,0.57509000734704,0.1302533310327523
+1,attachment_two,unconditional,16,Dubbel,True,0.5862357943812678,0.1293929627416409
+1,attachment_two,unconditional,187,Dubbel,False,0.4372735853332159,0.1229002973277574
+1,attachment_two,coordinate_clipping,100,Dubbel,False,0.4871676294112807,0.1327791903187959
+1,attachment_two,coordinate_clipping,107,Dubbel,False,0.5772920996267404,0.1303730714861597
+1,attachment_two,coordinate_clipping,16,Dubbel,True,0.583283747556752,0.1299425014360653
+1,attachment_two,coordinate_clipping,187,Dubbel,False,0.4399051994963291,0.1224965609642314
+1,attachment_two,conditional,100,Dubbel,False,0.5002428005304222,0.1339810587558643
+1,attachment_two,conditional,107,Dubbel,False,0.6387208384362838,0.136394190558021
+1,attachment_two,conditional,16,Dubbel,True,0.5365142452288658,0.1270550557146871
+1,attachment_two,conditional,187,Dubbel,False,0.4619155470054139,0.1270824555842967
+1,attachment_two,unconditional,151,Faro,False,0.655466421090044,0.1797995784577871
+1,attachment_two,coordinate_clipping,151,Faro,False,0.6554835914887536,0.1798955009282184
+1,attachment_two,conditional,151,Faro,False,0.6585320185530515,0.1776839261008525
+1,attachment_two,unconditional,161,Flanders old brown,False,0.603417667574274,0.1566691822844342
+1,attachment_two,unconditional,190,Flanders old brown,True,0.5717249520045553,0.1476335298878903
+1,attachment_two,coordinate_clipping,161,Flanders old brown,False,0.6041291988331083,0.1572194631447752
+1,attachment_two,coordinate_clipping,190,Flanders old brown,True,0.5690276661331786,0.1478517158709399
+1,attachment_two,conditional,161,Flanders old brown,False,0.6016356332674063,0.1559539142891298
+1,attachment_two,conditional,190,Flanders old brown,True,0.5391680377624453,0.1432633493708104
+1,attachment_two,unconditional,247,Fruitbeer,False,0.6933215785687383,0.1892251460318562
+1,attachment_two,unconditional,33,Fruitbeer,False,0.7419588362252002,0.1924479087232269
+1,attachment_two,coordinate_clipping,247,Fruitbeer,False,0.6999475123650876,0.1911149479036026
+1,attachment_two,coordinate_clipping,33,Fruitbeer,False,0.7493411279566415,0.1939091533154043
+1,attachment_two,conditional,247,Fruitbeer,False,0.6961935357549398,0.1830705612992547
+1,attachment_two,conditional,33,Fruitbeer,False,0.7687856775177434,0.1973516249860446
+1,attachment_two,unconditional,213,Hoppy,False,0.557821211601586,0.1338905651823705
+1,attachment_two,unconditional,80,Hoppy,False,0.5433189949685499,0.1315744710790134
+1,attachment_two,unconditional,120,Hoppy,False,0.560669109080316,0.1489807307391998
+1,attachment_two,unconditional,114,Hoppy,False,0.6257049666931508,0.1472589556535955
+1,attachment_two,unconditional,143,Hoppy,False,0.6444731931993606,0.1601884023037272
+1,attachment_two,unconditional,65,Hoppy,False,0.6042246869281447,0.1499263618117254
+1,attachment_two,coordinate_clipping,213,Hoppy,False,0.5569289111112707,0.1338105128051266
+1,attachment_two,coordinate_clipping,80,Hoppy,False,0.5545779387421216,0.1345839195625114
+1,attachment_two,coordinate_clipping,120,Hoppy,False,0.5661285265671064,0.1501972944226743
+1,attachment_two,coordinate_clipping,114,Hoppy,False,0.6301834172754054,0.1497955315898911
+1,attachment_two,coordinate_clipping,143,Hoppy,False,0.6435382908791406,0.1597659306843209
+1,attachment_two,coordinate_clipping,65,Hoppy,False,0.6048203171522952,0.1508887203659966
+1,attachment_two,conditional,213,Hoppy,False,0.5470819237478977,0.1321267341277334
+1,attachment_two,conditional,80,Hoppy,False,0.6125827052289257,0.1418379313793127
+1,attachment_two,conditional,120,Hoppy,False,0.5858407944848799,0.1527895210612775
+1,attachment_two,conditional,114,Hoppy,False,0.6936052854848928,0.1515068485403461
+1,attachment_two,conditional,143,Hoppy,False,0.6441849695729186,0.160022624814619
+1,attachment_two,conditional,65,Hoppy,False,0.5988972953013929,0.1515471120228472
+1,attachment_two,unconditional,88,Kriek,False,0.6751773619948481,0.1625772524275972
+1,attachment_two,unconditional,156,Kriek,False,0.6931881368372356,0.1845093554245118
+1,attachment_two,unconditional,82,Kriek,False,0.5912921172223525,0.1694581218931652
+1,attachment_two,coordinate_clipping,88,Kriek,False,0.6763819330451322,0.1624536989298397
+1,attachment_two,coordinate_clipping,156,Kriek,False,0.6948125309546429,0.1854840648438618
+1,attachment_two,coordinate_clipping,82,Kriek,False,0.5924125048278017,0.1696445608686547
+1,attachment_two,conditional,88,Kriek,False,0.6978629024584907,0.1691574413315884
+1,attachment_two,conditional,156,Kriek,False,0.674679924042577,0.1844790635491229
+1,attachment_two,conditional,82,Kriek,False,0.5989427569613871,0.1726946517313086
+1,attachment_two,unconditional,211,Lambic,False,0.6636396313946519,0.182309751355426
+1,attachment_two,unconditional,116,Lambic,False,0.5875882748082426,0.151119821710488
+1,attachment_two,unconditional,41,Lambic,False,0.5050595991020866,0.1250049231921818
+1,attachment_two,unconditional,75,Lambic,False,0.5545587086064566,0.1501333676781426
+1,attachment_two,coordinate_clipping,211,Lambic,False,0.6647426938206826,0.1819808528811288
+1,attachment_two,coordinate_clipping,116,Lambic,False,0.5894042861667845,0.151869118260017
+1,attachment_two,coordinate_clipping,41,Lambic,False,0.5078199378294406,0.1256934620992525
+1,attachment_two,coordinate_clipping,75,Lambic,False,0.5539767922709194,0.1492471279893528
+1,attachment_two,conditional,211,Lambic,False,0.640160910244574,0.1745227239201966
+1,attachment_two,conditional,116,Lambic,False,0.6308595235807997,0.1633475159230492
+1,attachment_two,conditional,41,Lambic,False,0.5420598245642483,0.1313168336029516
+1,attachment_two,conditional,75,Lambic,False,0.5964224450624062,0.1549615168636143
+1,attachment_two,unconditional,86,Low/No alcohol,True,0.610114168016397,0.1550857816880262
+1,attachment_two,unconditional,83,Low/No alcohol,True,0.6191767662381565,0.1641798941319708
+1,attachment_two,unconditional,223,Low/No alcohol,False,0.6556441569739871,0.1615304366521804
+1,attachment_two,coordinate_clipping,86,Low/No alcohol,True,0.6092157159386095,0.1547890034972057
+1,attachment_two,coordinate_clipping,83,Low/No alcohol,True,0.6183468980493596,0.1636913136414874
+1,attachment_two,coordinate_clipping,223,Low/No alcohol,False,0.6568029796941052,0.161610961130757
+1,attachment_two,conditional,86,Low/No alcohol,True,0.5853565025637198,0.1463769021265506
+1,attachment_two,conditional,83,Low/No alcohol,True,0.5951223263875106,0.153618961362959
+1,attachment_two,conditional,223,Low/No alcohol,False,0.6544498306708105,0.1622772398481174
+1,attachment_two,unconditional,81,Pils/Lager,False,0.5680454099924189,0.1505516515009498
+1,attachment_two,unconditional,218,Pils/Lager,False,0.4935747221962623,0.1401659330313053
+1,attachment_two,unconditional,230,Pils/Lager,True,0.491963206833314,0.1420913693193907
+1,attachment_two,coordinate_clipping,81,Pils/Lager,False,0.5688389236074226,0.1506788781937162
+1,attachment_two,coordinate_clipping,218,Pils/Lager,False,0.4937024042559271,0.1404594934216775
+1,attachment_two,coordinate_clipping,230,Pils/Lager,True,0.4912437910183829,0.1420554020698049
+1,attachment_two,conditional,81,Pils/Lager,False,0.5564190848440231,0.151118246007647
+1,attachment_two,conditional,218,Pils/Lager,False,0.481475157976342,0.1329833882256544
+1,attachment_two,conditional,230,Pils/Lager,True,0.4848497339678159,0.1369880232435623
+1,attachment_two,unconditional,166,Saison,False,0.559091324773977,0.1434343691621127
+1,attachment_two,unconditional,183,Saison,True,0.5787989877816844,0.1438380433686057
+1,attachment_two,unconditional,58,Saison,False,0.6809871892082654,0.1530491909146904
+1,attachment_two,coordinate_clipping,166,Saison,False,0.5614121210828598,0.1426842477116335
+1,attachment_two,coordinate_clipping,183,Saison,True,0.5726866990688821,0.1433007977981081
+1,attachment_two,coordinate_clipping,58,Saison,False,0.6848683548094485,0.1535569010521609
+1,attachment_two,conditional,166,Saison,False,0.6750214119328591,0.1593779706642872
+1,attachment_two,conditional,183,Saison,True,0.5790700513126843,0.1442500996429843
+1,attachment_two,conditional,58,Saison,False,0.7841461746674452,0.1630867657587649
+1,attachment_two,unconditional,146,Scotch,False,0.4872915802417132,0.1301456398838248
+1,attachment_two,unconditional,233,Scotch,False,0.6671636299311384,0.1445823850298335
+1,attachment_two,coordinate_clipping,146,Scotch,False,0.4945749479953838,0.1327311364692998
+1,attachment_two,coordinate_clipping,233,Scotch,False,0.6680886658845072,0.1442927243942503
+1,attachment_two,conditional,146,Scotch,False,0.5214606752322939,0.1361687559021836
+1,attachment_two,conditional,233,Scotch,False,0.661405714689847,0.1448012439482185
+1,attachment_two,unconditional,87,Stout/Porter,True,0.8157397608722465,0.1833799653381692
+1,attachment_two,unconditional,182,Stout/Porter,False,0.5911801224836278,0.1455839904986708
+1,attachment_two,unconditional,67,Stout/Porter,False,0.6382466870402748,0.1530949391567772
+1,attachment_two,unconditional,103,Stout/Porter,False,1.227921363197799,0.2910852697445903
+1,attachment_two,coordinate_clipping,87,Stout/Porter,True,0.8135466230980571,0.183891932599883
+1,attachment_two,coordinate_clipping,182,Stout/Porter,False,0.5931537847534561,0.1453830770534393
+1,attachment_two,coordinate_clipping,67,Stout/Porter,False,0.6368042004397583,0.1523815787049348
+1,attachment_two,coordinate_clipping,103,Stout/Porter,False,1.2257773741984974,0.2908542845612955
+1,attachment_two,conditional,87,Stout/Porter,True,0.7666076516738384,0.1840226538393751
+1,attachment_two,conditional,182,Stout/Porter,False,0.5933093061418416,0.1478979277779148
+1,attachment_two,conditional,67,Stout/Porter,False,0.6239466949672824,0.1540006961749617
+1,attachment_two,conditional,103,Stout/Porter,False,1.306891277323104,0.2941885119159921
+1,attachment_two,unconditional,170,Strong ale,False,0.5631972437089239,0.1450456872280059
+1,attachment_two,unconditional,235,Strong ale,True,0.5382458740904413,0.1395757618651456
+1,attachment_two,unconditional,225,Strong ale,False,0.6068022575766783,0.157312092491639
+1,attachment_two,unconditional,148,Strong ale,False,0.5764286680928976,0.1514768656183006
+1,attachment_two,unconditional,4,Strong ale,False,0.5827923983216865,0.1495885004106261
+1,attachment_two,unconditional,99,Strong ale,False,0.5668213031920295,0.1478146741344458
+1,attachment_two,coordinate_clipping,170,Strong ale,False,0.5689021583414097,0.1461544539932455
+1,attachment_two,coordinate_clipping,235,Strong ale,True,0.5339610022805221,0.1399109406803051
+1,attachment_two,coordinate_clipping,225,Strong ale,False,0.6140130513701009,0.1590222664986919
+1,attachment_two,coordinate_clipping,148,Strong ale,False,0.5764827944064359,0.151170987386088
+1,attachment_two,coordinate_clipping,4,Strong ale,False,0.5841360962089179,0.1497419773079147
+1,attachment_two,coordinate_clipping,99,Strong ale,False,0.567880458128912,0.1485507832275805
+1,attachment_two,conditional,170,Strong ale,False,0.6911173873457394,0.1518726074922503
+1,attachment_two,conditional,235,Strong ale,True,0.543708686758558,0.1380825574693152
+1,attachment_two,conditional,225,Strong ale,False,0.7399085712432037,0.1687619482495208
+1,attachment_two,conditional,148,Strong ale,False,0.6333139806910223,0.1596827917941543
+1,attachment_two,conditional,4,Strong ale,False,0.6331888681965848,0.1530276002228406
+1,attachment_two,conditional,99,Strong ale,False,0.6262554233535859,0.1505151802185025
+1,attachment_two,unconditional,135,Tripel,False,0.7907705360764102,0.1612485077011249
+1,attachment_two,unconditional,147,Tripel,False,0.6395075073405124,0.1359364444829831
+1,attachment_two,unconditional,245,Tripel,False,0.540767588329731,0.1337957547190725
+1,attachment_two,unconditional,191,Tripel,False,0.5635955739007644,0.1325987430217046
+1,attachment_two,unconditional,154,Tripel,False,0.7818781343929307,0.1688506231732218
+1,attachment_two,unconditional,17,Tripel,False,0.5117797540715225,0.1346951686051022
+1,attachment_two,unconditional,68,Tripel,False,0.9115578993514296,0.1604593464882726
+1,attachment_two,unconditional,189,Tripel,False,0.4869973849120976,0.1310250928556708
+1,attachment_two,unconditional,199,Tripel,False,0.5674201563019831,0.1338892120371239
+1,attachment_two,coordinate_clipping,135,Tripel,False,0.7917897660839761,0.1601948883641009
+1,attachment_two,coordinate_clipping,147,Tripel,False,0.6392369115392349,0.1351589542495527
+1,attachment_two,coordinate_clipping,245,Tripel,False,0.5478168305413195,0.1352408803842426
+1,attachment_two,coordinate_clipping,191,Tripel,False,0.566202848437318,0.1319086575828017
+1,attachment_two,coordinate_clipping,154,Tripel,False,0.7871224982794648,0.1683793258858123
+1,attachment_two,coordinate_clipping,17,Tripel,False,0.5187309307997912,0.1359599210578449
+1,attachment_two,coordinate_clipping,68,Tripel,False,0.911495734583042,0.1604262121048194
+1,attachment_two,coordinate_clipping,189,Tripel,False,0.4871218251628301,0.1322000176194131
+1,attachment_two,coordinate_clipping,199,Tripel,False,0.5702414850639047,0.134437356560548
+1,attachment_two,conditional,135,Tripel,False,0.932121178656112,0.1662018533079068
+1,attachment_two,conditional,147,Tripel,False,0.7431550626968753,0.140133093967137
+1,attachment_two,conditional,245,Tripel,False,0.639909358370478,0.1404600205166878
+1,attachment_two,conditional,191,Tripel,False,0.6092460730217191,0.1336067113207
+1,attachment_two,conditional,154,Tripel,False,0.8992457185179077,0.1734956771555587
+1,attachment_two,conditional,17,Tripel,False,0.6109177555519065,0.1426465281059659
+1,attachment_two,conditional,68,Tripel,False,1.033028389838892,0.1616122574215442
+1,attachment_two,conditional,189,Tripel,False,0.4972830586567795,0.1313221143602313
+1,attachment_two,conditional,199,Tripel,False,0.4959671738928518,0.128368945621355
+1,attachment_two,unconditional,176,West Flanders ale,False,0.566126366474606,0.1634600222922774
+1,attachment_two,unconditional,244,West Flanders ale,False,0.5183598985991569,0.1437224551346403
+1,attachment_two,coordinate_clipping,176,West Flanders ale,False,0.5671691014877699,0.1626897247054267
+1,attachment_two,coordinate_clipping,244,West Flanders ale,False,0.5192227643036763,0.1432139579465309
+1,attachment_two,conditional,176,West Flanders ale,False,0.5313249009815599,0.1535979338820657
+1,attachment_two,conditional,244,West Flanders ale,False,0.5374936243816144,0.1494611013486976
+1,attachment_two,unconditional,22,Wheat,True,0.5940271758715795,0.15528485985199
+1,attachment_two,unconditional,142,Wheat,True,0.6208387414820893,0.1462425887090318
+1,attachment_two,unconditional,224,Wheat,False,0.6684910637781508,0.1601988882782305
+1,attachment_two,unconditional,160,Wheat,False,0.7019710626443616,0.1716795675711332
+1,attachment_two,coordinate_clipping,22,Wheat,True,0.5918331126893173,0.1552614326316322
+1,attachment_two,coordinate_clipping,142,Wheat,True,0.6206534089507622,0.1464054538383281
+1,attachment_two,coordinate_clipping,224,Wheat,False,0.671721334713679,0.1610179284181834
+1,attachment_two,coordinate_clipping,160,Wheat,False,0.7021961810221931,0.1714487681674767
+1,attachment_two,conditional,22,Wheat,True,0.5819490398346898,0.1551497091781112
+1,attachment_two,conditional,142,Wheat,True,0.6088893046203322,0.1447335442991036
+1,attachment_two,conditional,224,Wheat,False,0.7354969826198676,0.1683507561528602
+1,attachment_two,conditional,160,Wheat,False,0.7076110100756943,0.1694576690374512
+1,strict_four,unconditional,11,Amber,False,0.559982902200257,0.14217403490345
+1,strict_four,unconditional,32,Amber,False,0.6081879274348764,0.1509551374185466
+1,strict_four,unconditional,19,Amber,False,0.6694518310146429,0.16737718200493
+1,strict_four,unconditional,63,Amber,False,0.5982649483293774,0.148365116867631
+1,strict_four,coordinate_clipping,11,Amber,False,0.5596159343960747,0.1503309039964009
+1,strict_four,coordinate_clipping,32,Amber,False,0.6030787494526543,0.1469165422295485
+1,strict_four,coordinate_clipping,19,Amber,False,0.7019736791563685,0.173404773776042
+1,strict_four,coordinate_clipping,63,Amber,False,0.6161505955738036,0.1578141282243188
+1,strict_four,unconditional,64,Blond,False,0.6432640694616413,0.1507477917591485
+1,strict_four,unconditional,70,Blond,False,0.6309871025077067,0.1631711201408744
+1,strict_four,unconditional,113,Blond,False,0.5818498903518299,0.13697429007988
+1,strict_four,unconditional,238,Blond,False,0.6329330359283853,0.1462507124332734
+1,strict_four,unconditional,76,Blond,False,0.674062344890018,0.1563633435414987
+1,strict_four,unconditional,49,Blond,False,0.6107427003902928,0.1400813301319113
+1,strict_four,unconditional,193,Blond,False,0.5727060867988297,0.1429323732932887
+1,strict_four,unconditional,149,Blond,False,0.5062880285371492,0.1347081955865045
+1,strict_four,unconditional,234,Blond,False,1.0990821161104798,0.1884205082853035
+1,strict_four,unconditional,101,Blond,False,1.1353451310817422,0.1962869956199919
+1,strict_four,unconditional,30,Blond,False,0.5411934909127676,0.1371959391906569
+1,strict_four,coordinate_clipping,64,Blond,False,0.654767430627377,0.1582839197783546
+1,strict_four,coordinate_clipping,70,Blond,False,0.6547290528978493,0.1711277030947432
+1,strict_four,coordinate_clipping,113,Blond,False,0.6118973492721141,0.138252596086568
+1,strict_four,coordinate_clipping,238,Blond,False,0.6517207692466748,0.153367565460507
+1,strict_four,coordinate_clipping,76,Blond,False,0.6848191177907222,0.1686104677400742
+1,strict_four,coordinate_clipping,49,Blond,False,0.6177275687132993,0.1498158956437209
+1,strict_four,coordinate_clipping,193,Blond,False,0.5822116700963572,0.1488521207468006
+1,strict_four,coordinate_clipping,149,Blond,False,0.5127578880887024,0.1416706148192797
+1,strict_four,coordinate_clipping,234,Blond,False,1.11223788019445,0.1896657693906857
+1,strict_four,coordinate_clipping,101,Blond,False,1.141020253196381,0.2051735299083624
+1,strict_four,coordinate_clipping,30,Blond,False,0.5635763067232245,0.1442973121342404
+1,strict_four,unconditional,150,Brett/cofermented,False,1.0742910382400417,0.1943846632107903
+1,strict_four,unconditional,222,Brett/cofermented,False,0.6395048254695906,0.165309414485989
+1,strict_four,coordinate_clipping,150,Brett/cofermented,False,1.0889131968252523,0.1956978517005674
+1,strict_four,coordinate_clipping,222,Brett/cofermented,False,0.6672653992059627,0.1715159759553037
+1,strict_four,unconditional,98,Brown,False,0.6411285244131953,0.1409643623678186
+1,strict_four,unconditional,237,Brown,False,0.5432432954217006,0.1327721441020226
+1,strict_four,unconditional,36,Brown,False,0.6791428043158516,0.1455439801103922
+1,strict_four,unconditional,108,Brown,False,0.6025909982484902,0.1333523522914951
+1,strict_four,coordinate_clipping,98,Brown,False,0.6478640504170877,0.1453621234175393
+1,strict_four,coordinate_clipping,237,Brown,False,0.5631079679181964,0.1414562378443346
+1,strict_four,coordinate_clipping,36,Brown,False,0.6954450028457014,0.154298140259016
+1,strict_four,coordinate_clipping,108,Brown,False,0.6078316234016693,0.1431319479931749
+1,strict_four,unconditional,205,Brut,False,0.6387861418605563,0.1572506273899567
+1,strict_four,coordinate_clipping,205,Brut,False,0.6514844528057521,0.1616614491014983
+1,strict_four,unconditional,106,Christmas,False,0.6700498278854632,0.1545549953150127
+1,strict_four,unconditional,13,Christmas,False,0.613455379096201,0.1424597591255414
+1,strict_four,unconditional,214,Christmas,False,0.6486539053480029,0.1624774652964282
+1,strict_four,coordinate_clipping,106,Christmas,False,0.689797602901005,0.1686542075579135
+1,strict_four,coordinate_clipping,13,Christmas,False,0.6090543365387691,0.1456972644732734
+1,strict_four,coordinate_clipping,214,Christmas,False,0.6621527309782063,0.1745023439449646
+1,strict_four,unconditional,100,Dubbel,False,0.4927770073117736,0.132240618633461
+1,strict_four,unconditional,107,Dubbel,False,0.5834968865183964,0.1315470510140841
+1,strict_four,unconditional,16,Dubbel,False,0.5933537577896605,0.1290314207280052
+1,strict_four,unconditional,187,Dubbel,False,0.4450255302395101,0.1227855651737577
+1,strict_four,coordinate_clipping,100,Dubbel,False,0.5030902616491569,0.1430454134972306
+1,strict_four,coordinate_clipping,107,Dubbel,False,0.6116358222787539,0.1342567018488749
+1,strict_four,coordinate_clipping,16,Dubbel,False,0.5885868131321819,0.1320091404557614
+1,strict_four,coordinate_clipping,187,Dubbel,False,0.4620516687388301,0.1354070349445664
+1,strict_four,unconditional,151,Faro,False,0.6490374188338864,0.1800993433183842
+1,strict_four,coordinate_clipping,151,Faro,False,0.6610050920144549,0.1915600097466187
+1,strict_four,unconditional,161,Flanders old brown,False,0.6003800823169414,0.1562710835437513
+1,strict_four,unconditional,190,Flanders old brown,False,0.5603211306728774,0.1459022416544025
+1,strict_four,coordinate_clipping,161,Flanders old brown,False,0.6117515887288397,0.1652540286911401
+1,strict_four,coordinate_clipping,190,Flanders old brown,False,0.5591046963280193,0.1475494637515206
+1,strict_four,unconditional,247,Fruitbeer,False,0.6936560198416506,0.1878159268782933
+1,strict_four,unconditional,33,Fruitbeer,False,0.7473324427899987,0.1935511587374188
+1,strict_four,coordinate_clipping,247,Fruitbeer,False,0.6987935337200725,0.1869029849350079
+1,strict_four,coordinate_clipping,33,Fruitbeer,False,0.7779570040621622,0.2028209830404776
+1,strict_four,unconditional,213,Hoppy,False,0.5599980617291194,0.1340970196658757
+1,strict_four,unconditional,80,Hoppy,False,0.5352202329384299,0.1303420782859367
+1,strict_four,unconditional,120,Hoppy,False,0.5500687316990643,0.1477480048922285
+1,strict_four,unconditional,114,Hoppy,False,0.6245216060384686,0.1464477646309564
+1,strict_four,unconditional,143,Hoppy,False,0.6470134607448627,0.1618706776306213
+1,strict_four,unconditional,65,Hoppy,False,0.6033627331481944,0.1494303320987577
+1,strict_four,coordinate_clipping,213,Hoppy,False,0.5714272331326645,0.1453073236999483
+1,strict_four,coordinate_clipping,80,Hoppy,False,0.5773628593390806,0.1379365431209266
+1,strict_four,coordinate_clipping,120,Hoppy,False,0.5942994913518914,0.1503819571839441
+1,strict_four,coordinate_clipping,114,Hoppy,False,0.6585998813914827,0.155364797931094
+1,strict_four,coordinate_clipping,143,Hoppy,False,0.6746702714154931,0.1701147049808246
+1,strict_four,coordinate_clipping,65,Hoppy,False,0.6311565881166985,0.1576393319770674
+1,strict_four,unconditional,88,Kriek,False,0.6838423301961282,0.1626106411886876
+1,strict_four,unconditional,156,Kriek,False,0.6963896065686016,0.1844217485381028
+1,strict_four,unconditional,82,Kriek,False,0.6023341395745269,0.1697754714126143
+1,strict_four,coordinate_clipping,88,Kriek,False,0.6900811975632392,0.1681042865925651
+1,strict_four,coordinate_clipping,156,Kriek,False,0.7168335104093522,0.1937284646290253
+1,strict_four,coordinate_clipping,82,Kriek,False,0.6232600853748714,0.1812425053646354
+1,strict_four,unconditional,211,Lambic,False,0.664960692621662,0.1820426308505857
+1,strict_four,unconditional,116,Lambic,False,0.5813088265176972,0.1491278132217403
+1,strict_four,unconditional,41,Lambic,False,0.5078041346122606,0.1243167721890764
+1,strict_four,unconditional,75,Lambic,False,0.5652072944134555,0.151794231334522
+1,strict_four,coordinate_clipping,211,Lambic,False,0.6714901713769239,0.1847837834555423
+1,strict_four,coordinate_clipping,116,Lambic,False,0.5898432542067223,0.1631510489011754
+1,strict_four,coordinate_clipping,41,Lambic,False,0.5313585716795224,0.1373768133723743
+1,strict_four,coordinate_clipping,75,Lambic,False,0.5786189725025658,0.1611869529048699
+1,strict_four,unconditional,86,Low/No alcohol,False,0.6132042993287032,0.158360340219673
+1,strict_four,unconditional,83,Low/No alcohol,True,0.6231954781222879,0.1683953376285031
+1,strict_four,unconditional,223,Low/No alcohol,False,0.6574759636141522,0.1615855616730451
+1,strict_four,coordinate_clipping,86,Low/No alcohol,False,0.6085495777407499,0.1557659283211625
+1,strict_four,coordinate_clipping,83,Low/No alcohol,True,0.6186796541855872,0.1662854210105554
+1,strict_four,coordinate_clipping,223,Low/No alcohol,False,0.6601631232130105,0.1641682197188152
+1,strict_four,unconditional,81,Pils/Lager,False,0.5620169631426325,0.1496941391273898
+1,strict_four,unconditional,218,Pils/Lager,False,0.4843711928077377,0.1382677879084667
+1,strict_four,unconditional,230,Pils/Lager,False,0.4845514457678389,0.1399065269118966
+1,strict_four,coordinate_clipping,81,Pils/Lager,False,0.570089458565199,0.1569697045649861
+1,strict_four,coordinate_clipping,218,Pils/Lager,False,0.4853355573291023,0.1369281244669292
+1,strict_four,coordinate_clipping,230,Pils/Lager,False,0.4860408006518836,0.1404409589462446
+1,strict_four,unconditional,166,Saison,False,0.5612742558537656,0.1450156797174546
+1,strict_four,unconditional,183,Saison,False,0.5835822353161586,0.1458483837768754
+1,strict_four,unconditional,58,Saison,False,0.691462022429802,0.1562456002389439
+1,strict_four,coordinate_clipping,166,Saison,False,0.5915969063155967,0.147842789097881
+1,strict_four,coordinate_clipping,183,Saison,False,0.5898778043205077,0.1585374738084277
+1,strict_four,coordinate_clipping,58,Saison,False,0.7209251245833106,0.1585946742018435
+1,strict_four,unconditional,146,Scotch,False,0.4853976956019409,0.1305233567826857
+1,strict_four,unconditional,233,Scotch,False,0.6575713226309626,0.1433493512769768
+1,strict_four,coordinate_clipping,146,Scotch,False,0.5070186673745318,0.141764386790211
+1,strict_four,coordinate_clipping,233,Scotch,False,0.6695640931157908,0.1534755456240694
+1,strict_four,unconditional,87,Stout/Porter,False,0.8118354404941106,0.1833528647255111
+1,strict_four,unconditional,182,Stout/Porter,False,0.5941617052498771,0.1451083700148595
+1,strict_four,unconditional,67,Stout/Porter,False,0.6332289960225798,0.1520487177950001
+1,strict_four,unconditional,103,Stout/Porter,False,1.2428181507104108,0.2935403929092117
+1,strict_four,coordinate_clipping,87,Stout/Porter,False,0.820052660477915,0.1911240922854503
+1,strict_four,coordinate_clipping,182,Stout/Porter,False,0.6051822722898572,0.1560749607746086
+1,strict_four,coordinate_clipping,67,Stout/Porter,False,0.6698813529128935,0.1546514500503587
+1,strict_four,coordinate_clipping,103,Stout/Porter,False,1.242467591786358,0.2949205129993302
+1,strict_four,unconditional,170,Strong ale,False,0.5715564467479666,0.1445895666121599
+1,strict_four,unconditional,235,Strong ale,False,0.5388093830668433,0.1392548826408293
+1,strict_four,unconditional,225,Strong ale,False,0.607061447584817,0.1562315616201892
+1,strict_four,unconditional,148,Strong ale,False,0.5820059892986975,0.1520213500259804
+1,strict_four,unconditional,4,Strong ale,False,0.5891527439681968,0.1504035622812244
+1,strict_four,unconditional,99,Strong ale,False,0.5750733870273724,0.1486801368926447
+1,strict_four,coordinate_clipping,170,Strong ale,False,0.5989790520994122,0.1564043483877727
+1,strict_four,coordinate_clipping,235,Strong ale,False,0.5413010310906308,0.1453112381113448
+1,strict_four,coordinate_clipping,225,Strong ale,False,0.6401396359974528,0.1663955731936283
+1,strict_four,coordinate_clipping,148,Strong ale,False,0.6044277972644292,0.1614097524043545
+1,strict_four,coordinate_clipping,4,Strong ale,False,0.6049437039945392,0.1563006485915768
+1,strict_four,coordinate_clipping,99,Strong ale,False,0.6020428100670208,0.1587628806348388
+1,strict_four,unconditional,135,Tripel,False,0.8105289564997523,0.1618836800650963
+1,strict_four,unconditional,147,Tripel,False,0.6579739114279338,0.1370170253381904
+1,strict_four,unconditional,245,Tripel,False,0.5473456600466126,0.1322855906305536
+1,strict_four,unconditional,191,Tripel,False,0.5718395351309713,0.1337625646164585
+1,strict_four,unconditional,154,Tripel,False,0.7955188218656895,0.1682940530341828
+1,strict_four,unconditional,17,Tripel,False,0.5167613591471052,0.1348641279493709
+1,strict_four,unconditional,68,Tripel,False,0.9279251917008282,0.1614355901474318
+1,strict_four,unconditional,189,Tripel,False,0.4908240923922021,0.1301744883840697
+1,strict_four,unconditional,199,Tripel,False,0.5639719478892027,0.1319349046182145
+1,strict_four,coordinate_clipping,135,Tripel,False,0.8351561902275162,0.1675758751116826
+1,strict_four,coordinate_clipping,147,Tripel,False,0.6697230191988606,0.1417897004474488
+1,strict_four,coordinate_clipping,245,Tripel,False,0.5689960224152159,0.1416075434087586
+1,strict_four,coordinate_clipping,191,Tripel,False,0.585879824314534,0.1399050923125678
+1,strict_four,coordinate_clipping,154,Tripel,False,0.8184849392562321,0.1760732073934466
+1,strict_four,coordinate_clipping,17,Tripel,False,0.5472823394786163,0.142170478735586
+1,strict_four,coordinate_clipping,68,Tripel,False,0.944632016465602,0.17225454702221
+1,strict_four,coordinate_clipping,189,Tripel,False,0.4990162142837426,0.1394027476473971
+1,strict_four,coordinate_clipping,199,Tripel,False,0.5655165507398573,0.1363887306573407
+1,strict_four,unconditional,176,West Flanders ale,False,0.5663209026785876,0.1627779321951601
+1,strict_four,unconditional,244,West Flanders ale,False,0.5184713426975757,0.1431415166391891
+1,strict_four,coordinate_clipping,176,West Flanders ale,False,0.5723052155310067,0.1681783564419373
+1,strict_four,coordinate_clipping,244,West Flanders ale,False,0.5294051173213563,0.1526131693632729
+1,strict_four,unconditional,22,Wheat,False,0.5883708557552697,0.1551264777750471
+1,strict_four,unconditional,142,Wheat,False,0.62211741604975,0.1470207960223768
+1,strict_four,unconditional,224,Wheat,False,0.6553722702208227,0.1579004652876447
+1,strict_four,unconditional,160,Wheat,False,0.7006919026494742,0.1735671593278341
+1,strict_four,coordinate_clipping,22,Wheat,False,0.5994758824586224,0.1637291515786947
+1,strict_four,coordinate_clipping,142,Wheat,False,0.6287742159070685,0.1539406544824141
+1,strict_four,coordinate_clipping,224,Wheat,False,0.6695123764908139,0.1689602738337642
+1,strict_four,coordinate_clipping,160,Wheat,False,0.6980081833417838,0.1746453438322985
+2,attachment_two,unconditional,137,Amber,False,0.5678906030191243,0.119407163221334
+2,attachment_two,unconditional,158,Amber,False,0.6796258981530126,0.1694407317227672
+2,attachment_two,unconditional,43,Amber,False,0.6375224750090983,0.1195295100621815
+2,attachment_two,unconditional,128,Amber,True,0.551114308191233,0.1228439803362793
+2,attachment_two,coordinate_clipping,137,Amber,False,0.5701894318978807,0.1200528991672564
+2,attachment_two,coordinate_clipping,158,Amber,False,0.6838131606240615,0.1706641746517739
+2,attachment_two,coordinate_clipping,43,Amber,False,0.6394500556702994,0.1196314400350532
+2,attachment_two,coordinate_clipping,128,Amber,True,0.5460757253158779,0.1233564350985534
+2,attachment_two,conditional,137,Amber,False,0.597984825055628,0.120893120471941
+2,attachment_two,conditional,158,Amber,False,0.7158923025060986,0.1704304319703385
+2,attachment_two,conditional,43,Amber,False,0.6442733720036012,0.1224710991117046
+2,attachment_two,conditional,128,Amber,True,0.5272517803521595,0.1237749609950756
+2,attachment_two,unconditional,46,Blond,False,0.6460323716880445,0.1521112810144154
+2,attachment_two,unconditional,5,Blond,False,1.0471809597723718,0.2066267841762488
+2,attachment_two,unconditional,62,Blond,False,0.5450413231479548,0.1279882648599028
+2,attachment_two,unconditional,110,Blond,False,0.5235958813855957,0.129868572590478
+2,attachment_two,unconditional,246,Blond,False,0.8293072577127851,0.1803637170303243
+2,attachment_two,unconditional,136,Blond,False,0.6423131258382924,0.1567918257879669
+2,attachment_two,unconditional,94,Blond,False,0.511025625076623,0.1319277806448345
+2,attachment_two,unconditional,248,Blond,False,0.607498969599325,0.1583092360700073
+2,attachment_two,unconditional,71,Blond,False,0.6939842709081833,0.1550174632498119
+2,attachment_two,unconditional,3,Blond,False,0.5325739569174315,0.1303779063194995
+2,attachment_two,coordinate_clipping,46,Blond,False,0.648983008652942,0.1517499886661039
+2,attachment_two,coordinate_clipping,5,Blond,False,1.0453047743899393,0.2075518137192849
+2,attachment_two,coordinate_clipping,62,Blond,False,0.5447132116452322,0.1272165309370366
+2,attachment_two,coordinate_clipping,110,Blond,False,0.5292167984172768,0.1308144673959096
+2,attachment_two,coordinate_clipping,246,Blond,False,0.8271896004054685,0.1802396038024755
+2,attachment_two,coordinate_clipping,136,Blond,False,0.6480973506095399,0.1592351974436615
+2,attachment_two,coordinate_clipping,94,Blond,False,0.5169487295405167,0.1324347698857148
+2,attachment_two,coordinate_clipping,248,Blond,False,0.6110154710239386,0.1592096018866924
+2,attachment_two,coordinate_clipping,71,Blond,False,0.6888572191020674,0.1572331313119381
+2,attachment_two,coordinate_clipping,3,Blond,False,0.5361459938555722,0.1309398933649922
+2,attachment_two,conditional,46,Blond,False,0.6283603828896417,0.1500763883586731
+2,attachment_two,conditional,5,Blond,False,1.12045906580308,0.2103830330719364
+2,attachment_two,conditional,62,Blond,False,0.4716462497484619,0.1274475902576334
+2,attachment_two,conditional,110,Blond,False,0.6665957568740322,0.13826600767666
+2,attachment_two,conditional,246,Blond,False,0.8463462312557419,0.183586082316709
+2,attachment_two,conditional,136,Blond,False,0.7578081874927192,0.1662305611421271
+2,attachment_two,conditional,94,Blond,False,0.5547689369281229,0.1317938735878411
+2,attachment_two,conditional,248,Blond,False,0.6754098383984959,0.1635537304206094
+2,attachment_two,conditional,71,Blond,False,0.6331522204914382,0.1600927777405778
+2,attachment_two,conditional,3,Blond,False,0.5947369081451643,0.1340693292498131
+2,attachment_two,unconditional,236,Brett/cofermented,False,0.5697183655317271,0.1486736309313333
+2,attachment_two,unconditional,203,Brett/cofermented,False,0.5526272350504776,0.1435919947483636
+2,attachment_two,coordinate_clipping,236,Brett/cofermented,False,0.574029903341822,0.1493081069735811
+2,attachment_two,coordinate_clipping,203,Brett/cofermented,False,0.5526345840821274,0.1436807579512189
+2,attachment_two,conditional,236,Brett/cofermented,False,0.6308894167047259,0.1516338516961596
+2,attachment_two,conditional,203,Brett/cofermented,False,0.5820394096807796,0.1450682586971222
+2,attachment_two,unconditional,206,Brown,False,0.6189819642471318,0.169012188477199
+2,attachment_two,unconditional,53,Brown,False,0.5572003495725899,0.1349245030108295
+2,attachment_two,unconditional,78,Brown,False,0.4594655427313998,0.1228542127310781
+2,attachment_two,unconditional,25,Brown,False,0.516420722565153,0.1260652163305532
+2,attachment_two,coordinate_clipping,206,Brown,False,0.6223711677536482,0.1695887065043303
+2,attachment_two,coordinate_clipping,53,Brown,False,0.5585764901117987,0.1347808095925415
+2,attachment_two,coordinate_clipping,78,Brown,False,0.4595433148613259,0.1229761182787025
+2,attachment_two,coordinate_clipping,25,Brown,False,0.519147923323187,0.1263017338433937
+2,attachment_two,conditional,206,Brown,False,0.7037909637785721,0.1751612073682557
+2,attachment_two,conditional,53,Brown,False,0.576381451325351,0.139591890962724
+2,attachment_two,conditional,78,Brown,False,0.4843540615374576,0.1250679686738362
+2,attachment_two,conditional,25,Brown,False,0.5673911732599649,0.1351527080090253
+2,attachment_two,unconditional,1,Brut,False,0.4958575607307824,0.1368949333075367
+2,attachment_two,coordinate_clipping,1,Brut,False,0.4987639030539824,0.1373309477515837
+2,attachment_two,conditional,1,Brut,False,0.5263900724057083,0.137599104551665
+2,attachment_two,unconditional,180,Christmas,False,0.5242589440448778,0.1306299082160451
+2,attachment_two,unconditional,60,Christmas,False,0.5854171513091071,0.1424697326555166
+2,attachment_two,unconditional,102,Christmas,False,0.6179388517272201,0.1446501626966964
+2,attachment_two,coordinate_clipping,180,Christmas,False,0.5270109661711739,0.1305123622910377
+2,attachment_two,coordinate_clipping,60,Christmas,False,0.5915550513689947,0.1428289622860181
+2,attachment_two,coordinate_clipping,102,Christmas,False,0.6173205678938323,0.1445174110460757
+2,attachment_two,conditional,180,Christmas,False,0.5876940366282708,0.1327045512101609
+2,attachment_two,conditional,60,Christmas,False,0.6596759844816756,0.1437505735563391
+2,attachment_two,conditional,102,Christmas,False,0.6125750824695272,0.1417440329840939
+2,attachment_two,unconditional,194,Dubbel,False,0.7485866547403691,0.1621977769814997
+2,attachment_two,unconditional,221,Dubbel,True,0.5738010069414535,0.1354602147200874
+2,attachment_two,unconditional,174,Dubbel,False,0.4830192481028485,0.1295546731629179
+2,attachment_two,coordinate_clipping,194,Dubbel,False,0.7496072819195791,0.1622373453995607
+2,attachment_two,coordinate_clipping,221,Dubbel,True,0.5667921157102861,0.1353532285277423
+2,attachment_two,coordinate_clipping,174,Dubbel,False,0.4840527805804485,0.1298384107388367
+2,attachment_two,conditional,194,Dubbel,False,0.7959796616560998,0.1645960367427768
+2,attachment_two,conditional,221,Dubbel,True,0.5501673025969064,0.1341574384398792
+2,attachment_two,conditional,174,Dubbel,False,0.4977583278622826,0.1324984805972134
+2,attachment_two,unconditional,74,Faro,False,0.5005235340923001,0.1335657910880689
+2,attachment_two,coordinate_clipping,74,Faro,False,0.4998162780604592,0.1334259303013595
+2,attachment_two,conditional,74,Faro,False,0.4966237630576104,0.1307737570804011
+2,attachment_two,unconditional,167,Flanders old brown,True,0.4995515283503214,0.130977911937015
+2,attachment_two,unconditional,159,Flanders old brown,False,0.5012781791811416,0.1300939939721889
+2,attachment_two,coordinate_clipping,167,Flanders old brown,True,0.4966779869792776,0.1308115368432184
+2,attachment_two,coordinate_clipping,159,Flanders old brown,False,0.5035243449531509,0.1301495119366207
+2,attachment_two,conditional,167,Flanders old brown,True,0.4780074620516243,0.1303319682044923
+2,attachment_two,conditional,159,Flanders old brown,False,0.5288333748675368,0.1349764442282605
+2,attachment_two,unconditional,207,Fruitbeer,False,0.6336007470642296,0.1802461175783999
+2,attachment_two,unconditional,50,Fruitbeer,True,0.6237502391360856,0.1692083053305516
+2,attachment_two,unconditional,184,Fruitbeer,False,0.6314419576754794,0.1589537137739453
+2,attachment_two,coordinate_clipping,207,Fruitbeer,False,0.625982474329728,0.1789524334514332
+2,attachment_two,coordinate_clipping,50,Fruitbeer,True,0.6189398923291324,0.1674382785870735
+2,attachment_two,coordinate_clipping,184,Fruitbeer,False,0.6407347153023928,0.1610677781459699
+2,attachment_two,conditional,207,Fruitbeer,False,0.6629932886465693,0.1843700108695954
+2,attachment_two,conditional,50,Fruitbeer,True,0.6166151158980205,0.1573606279235009
+2,attachment_two,conditional,184,Fruitbeer,False,0.717295951524251,0.1780941270525575
+2,attachment_two,unconditional,169,Hoppy,False,0.5151609740482689,0.1324009241047878
+2,attachment_two,unconditional,55,Hoppy,False,0.5647871587810762,0.1318222417879747
+2,attachment_two,unconditional,97,Hoppy,False,0.6449965334966266,0.1399336311607731
+2,attachment_two,unconditional,39,Hoppy,False,0.5413844614065418,0.1330440838440084
+2,attachment_two,unconditional,31,Hoppy,False,0.6402966989693356,0.1509634415924046
+2,attachment_two,unconditional,9,Hoppy,False,0.8129267487016657,0.1691925686236029
+2,attachment_two,coordinate_clipping,169,Hoppy,False,0.5222229383044968,0.1334395544526019
+2,attachment_two,coordinate_clipping,55,Hoppy,False,0.5632088147854274,0.1323144427302913
+2,attachment_two,coordinate_clipping,97,Hoppy,False,0.6521101053361389,0.1415564567876851
+2,attachment_two,coordinate_clipping,39,Hoppy,False,0.5480177525672282,0.1342465108198247
+2,attachment_two,coordinate_clipping,31,Hoppy,False,0.6419815646896813,0.1506369133367242
+2,attachment_two,coordinate_clipping,9,Hoppy,False,0.8183662231204061,0.1708861302980362
+2,attachment_two,conditional,169,Hoppy,False,0.5245588568660496,0.1353470085488144
+2,attachment_two,conditional,55,Hoppy,False,0.6724142346223713,0.1471139894567711
+2,attachment_two,conditional,97,Hoppy,False,0.7354232889113014,0.1503645245550207
+2,attachment_two,conditional,39,Hoppy,False,0.6795774751520672,0.1494853583163858
+2,attachment_two,conditional,31,Hoppy,False,0.6946311262502382,0.1549657089840065
+2,attachment_two,conditional,9,Hoppy,False,0.848428002556908,0.1703511749783526
+2,attachment_two,unconditional,54,Kriek,False,0.4683266833619805,0.1333797896399773
+2,attachment_two,unconditional,241,Kriek,False,0.5926013600681624,0.1330044735546202
+2,attachment_two,unconditional,24,Kriek,False,0.6014221296092218,0.1580810340255431
+2,attachment_two,coordinate_clipping,54,Kriek,False,0.4669391200447444,0.1332593894103158
+2,attachment_two,coordinate_clipping,241,Kriek,False,0.5944101287638212,0.1333960136378271
+2,attachment_two,coordinate_clipping,24,Kriek,False,0.6058713762569191,0.159154238784558
+2,attachment_two,conditional,54,Kriek,False,0.4472348584158138,0.1322617863067621
+2,attachment_two,conditional,241,Kriek,False,0.6038431760565364,0.1395302110866539
+2,attachment_two,conditional,24,Kriek,False,0.6638491738936357,0.1692552524724136
+2,attachment_two,unconditional,42,Lambic,False,0.5854107030923046,0.1500441393700962
+2,attachment_two,unconditional,12,Lambic,False,0.6195666384374625,0.1629627792452821
+2,attachment_two,unconditional,18,Lambic,False,0.4797874869419351,0.1295869972509026
+2,attachment_two,coordinate_clipping,42,Lambic,False,0.5884681932338187,0.1506437537312692
+2,attachment_two,coordinate_clipping,12,Lambic,False,0.6189875274864122,0.1630852081669057
+2,attachment_two,coordinate_clipping,18,Lambic,False,0.4797980623033063,0.1291890227258057
+2,attachment_two,conditional,42,Lambic,False,0.6307989949675391,0.1591370858095273
+2,attachment_two,conditional,12,Lambic,False,0.5988808820958259,0.1615883566161206
+2,attachment_two,conditional,18,Lambic,False,0.5151298929166821,0.1389622514036946
+2,attachment_two,unconditional,40,Low/No alcohol,True,0.8443319090188718,0.2248207842395317
+2,attachment_two,unconditional,155,Low/No alcohol,False,0.4575159856799843,0.1322314186843282
+2,attachment_two,coordinate_clipping,40,Low/No alcohol,True,0.8438485904837466,0.2244798504182484
+2,attachment_two,coordinate_clipping,155,Low/No alcohol,False,0.4588321745072878,0.1327327158673754
+2,attachment_two,conditional,40,Low/No alcohol,True,0.8271369077326048,0.2180349620590729
+2,attachment_two,conditional,155,Low/No alcohol,False,0.4893363598571725,0.1426614389558884
+2,attachment_two,unconditional,185,Pils/Lager,True,0.4606425394877166,0.1295967471726795
+2,attachment_two,unconditional,119,Pils/Lager,False,0.5357052562401026,0.1340041940100698
+2,attachment_two,unconditional,90,Pils/Lager,False,0.4308205398052577,0.1208689730043076
+2,attachment_two,unconditional,28,Pils/Lager,False,0.6920587022403036,0.1524494483033368
+2,attachment_two,coordinate_clipping,185,Pils/Lager,True,0.4591006894266257,0.1293686899996176
+2,attachment_two,coordinate_clipping,119,Pils/Lager,False,0.5369840835070145,0.1345007030246793
+2,attachment_two,coordinate_clipping,90,Pils/Lager,False,0.4311417016857909,0.120713795472744
+2,attachment_two,coordinate_clipping,28,Pils/Lager,False,0.6939474055949074,0.1526721449165513
+2,attachment_two,conditional,185,Pils/Lager,True,0.4453503652358774,0.1282550228165
+2,attachment_two,conditional,119,Pils/Lager,False,0.5346070423421627,0.1352581890635106
+2,attachment_two,conditional,90,Pils/Lager,False,0.4331346508025452,0.1198462679310972
+2,attachment_two,conditional,28,Pils/Lager,False,0.6997023206328563,0.1561489098876296
+2,attachment_two,unconditional,56,Saison,False,0.5684334606927989,0.1356610671274468
+2,attachment_two,unconditional,20,Saison,False,0.6015819642581115,0.1492967460919484
+2,attachment_two,unconditional,29,Saison,False,0.7352494771599696,0.180668302688337
+2,attachment_two,coordinate_clipping,56,Saison,False,0.5683936778750169,0.1346593334404746
+2,attachment_two,coordinate_clipping,20,Saison,False,0.6052768911586802,0.151001047734369
+2,attachment_two,coordinate_clipping,29,Saison,False,0.7413586161184152,0.1811012042940066
+2,attachment_two,conditional,56,Saison,False,0.5677670546891955,0.1381231662527748
+2,attachment_two,conditional,20,Saison,False,0.6014638841652058,0.1531344055810392
+2,attachment_two,conditional,29,Saison,False,0.777392731772079,0.1851683641692693
+2,attachment_two,unconditional,216,Scotch,False,0.5499003062502598,0.132504561913085
+2,attachment_two,unconditional,131,Scotch,False,0.4772545048658736,0.116950980445014
+2,attachment_two,coordinate_clipping,216,Scotch,False,0.5539038424754537,0.1335622811064234
+2,attachment_two,coordinate_clipping,131,Scotch,False,0.4810490898161567,0.1182702351220363
+2,attachment_two,conditional,216,Scotch,False,0.6295110445911035,0.1417429867134005
+2,attachment_two,conditional,131,Scotch,False,0.548091452558851,0.1266963694779388
+2,attachment_two,unconditional,202,Stout/Porter,False,0.6514856949231519,0.1612545665320121
+2,attachment_two,unconditional,188,Stout/Porter,False,0.5617398058514804,0.1447481556005045
+2,attachment_two,unconditional,61,Stout/Porter,False,0.6041596829943915,0.1571405012632097
+2,attachment_two,unconditional,212,Stout/Porter,False,0.5532545464526365,0.1335408466454026
+2,attachment_two,unconditional,123,Stout/Porter,False,0.5820142170792707,0.131644389504619
+2,attachment_two,coordinate_clipping,202,Stout/Porter,False,0.6550445226338579,0.1609626748405155
+2,attachment_two,coordinate_clipping,188,Stout/Porter,False,0.5656045756934496,0.1461758796688475
+2,attachment_two,coordinate_clipping,61,Stout/Porter,False,0.6078712646483403,0.1568156463053908
+2,attachment_two,coordinate_clipping,212,Stout/Porter,False,0.5585632818409866,0.1343441567913278
+2,attachment_two,coordinate_clipping,123,Stout/Porter,False,0.5865071954252795,0.1321729039613077
+2,attachment_two,conditional,202,Stout/Porter,False,0.7504863434325214,0.1678989457821888
+2,attachment_two,conditional,188,Stout/Porter,False,0.5904236172034679,0.1505269809977468
+2,attachment_two,conditional,61,Stout/Porter,False,0.7146785194772237,0.1612715844128521
+2,attachment_two,conditional,212,Stout/Porter,False,0.6676559352540425,0.141318132658828
+2,attachment_two,conditional,123,Stout/Porter,False,0.6743744018296859,0.1358917777513819
+2,attachment_two,unconditional,105,Strong ale,False,0.8793918355174031,0.1832269160584471
+2,attachment_two,unconditional,37,Strong ale,False,0.6489273039198041,0.1715913959478459
+2,attachment_two,unconditional,104,Strong ale,False,0.7071666297200222,0.1452991903585531
+2,attachment_two,unconditional,117,Strong ale,False,0.5912402347244456,0.161480159935156
+2,attachment_two,unconditional,175,Strong ale,False,0.6168191697129513,0.1529930364823357
+2,attachment_two,unconditional,196,Strong ale,False,0.6187686931513305,0.1645768518764446
+2,attachment_two,coordinate_clipping,105,Strong ale,False,0.8830814524972993,0.1832160203721954
+2,attachment_two,coordinate_clipping,37,Strong ale,False,0.6505156993879865,0.1720459754093782
+2,attachment_two,coordinate_clipping,104,Strong ale,False,0.7072008845453008,0.1458319475042694
+2,attachment_two,coordinate_clipping,117,Strong ale,False,0.5980708616990195,0.1620847180940858
+2,attachment_two,coordinate_clipping,175,Strong ale,False,0.6155534800341869,0.1526613847194655
+2,attachment_two,coordinate_clipping,196,Strong ale,False,0.6252529376892529,0.1655541842793846
+2,attachment_two,conditional,105,Strong ale,False,0.8570770520347146,0.1877347671744112
+2,attachment_two,conditional,37,Strong ale,False,0.7281941050751098,0.1798274599898819
+2,attachment_two,conditional,104,Strong ale,False,0.688065718516053,0.145723683905349
+2,attachment_two,conditional,117,Strong ale,False,0.6573080270547554,0.1700997456899312
+2,attachment_two,conditional,175,Strong ale,False,0.613299061112068,0.1575427322878756
+2,attachment_two,conditional,196,Strong ale,False,0.6981362993649263,0.1739385277208215
+2,attachment_two,unconditional,228,Tripel,False,0.7574026267968231,0.190164754384898
+2,attachment_two,unconditional,93,Tripel,False,0.6729131616617885,0.1638605093491192
+2,attachment_two,unconditional,23,Tripel,False,0.4810679580603664,0.1280873665508095
+2,attachment_two,unconditional,204,Tripel,False,0.5880863611184152,0.1440137687120674
+2,attachment_two,unconditional,34,Tripel,False,0.7717934797847334,0.2111945697549936
+2,attachment_two,unconditional,57,Tripel,False,0.5340714459810828,0.1261005572359104
+2,attachment_two,unconditional,163,Tripel,False,0.6204264475249908,0.164821328954602
+2,attachment_two,unconditional,15,Tripel,False,0.5587235132688382,0.1266051404104443
+2,attachment_two,unconditional,85,Tripel,False,0.5488651230356906,0.1208619094569428
+2,attachment_two,unconditional,239,Tripel,False,0.5925491504983749,0.142451362078172
+2,attachment_two,coordinate_clipping,228,Tripel,False,0.7631575428192898,0.1905928136935082
+2,attachment_two,coordinate_clipping,93,Tripel,False,0.6739905077775546,0.1651074685776232
+2,attachment_two,coordinate_clipping,23,Tripel,False,0.4869947088894998,0.1290839105681511
+2,attachment_two,coordinate_clipping,204,Tripel,False,0.5920524982147423,0.1459667299264069
+2,attachment_two,coordinate_clipping,34,Tripel,False,0.7728842779562356,0.2109952930799864
+2,attachment_two,coordinate_clipping,57,Tripel,False,0.5334358786486921,0.1280557792668066
+2,attachment_two,coordinate_clipping,163,Tripel,False,0.6190480196529317,0.1678830557223469
+2,attachment_two,coordinate_clipping,15,Tripel,False,0.5641731686613188,0.1284175046576557
+2,attachment_two,coordinate_clipping,85,Tripel,False,0.5464739657885803,0.1220953343533727
+2,attachment_two,coordinate_clipping,239,Tripel,False,0.593883138757352,0.1419898998341125
+2,attachment_two,conditional,228,Tripel,False,0.8335297969299931,0.190823803874344
+2,attachment_two,conditional,93,Tripel,False,0.6683066087456677,0.16675729612314
+2,attachment_two,conditional,23,Tripel,False,0.5636606498766006,0.1338399776880567
+2,attachment_two,conditional,204,Tripel,False,0.6337035307075403,0.1483066338142801
+2,attachment_two,conditional,34,Tripel,False,0.7887992699529842,0.2051708289737442
+2,attachment_two,conditional,57,Tripel,False,0.5350501931131386,0.1299009187161101
+2,attachment_two,conditional,163,Tripel,False,0.5760460328397311,0.1604185742486107
+2,attachment_two,conditional,15,Tripel,False,0.6057660652547633,0.1367521027481418
+2,attachment_two,conditional,85,Tripel,False,0.482568033399107,0.1210966273380453
+2,attachment_two,conditional,239,Tripel,False,0.5814887369726666,0.1466131187822492
+2,attachment_two,unconditional,84,West Flanders ale,False,0.6336604920975494,0.1553663110305885
+2,attachment_two,unconditional,26,West Flanders ale,False,0.5341432267134488,0.1455913384129159
+2,attachment_two,coordinate_clipping,84,West Flanders ale,False,0.6319070750432171,0.1552938546155004
+2,attachment_two,coordinate_clipping,26,West Flanders ale,False,0.5345063775165428,0.1449019874183407
+2,attachment_two,conditional,84,West Flanders ale,False,0.6007052655200551,0.1566491760755259
+2,attachment_two,conditional,26,West Flanders ale,False,0.5057106710927227,0.1430224572642206
+2,attachment_two,unconditional,44,Wheat,False,0.6204106452749181,0.1702341434621916
+2,attachment_two,unconditional,152,Wheat,False,0.5539660202716524,0.1384676481742113
+2,attachment_two,unconditional,208,Wheat,False,0.5540646445732544,0.1358326792459983
+2,attachment_two,unconditional,229,Wheat,False,0.7633262007454719,0.1624250976886864
+2,attachment_two,coordinate_clipping,44,Wheat,False,0.6203170230936205,0.1698099877911446
+2,attachment_two,coordinate_clipping,152,Wheat,False,0.5527424436773681,0.1387272660293453
+2,attachment_two,coordinate_clipping,208,Wheat,False,0.5521189383303114,0.1364532785398814
+2,attachment_two,coordinate_clipping,229,Wheat,False,0.7665860003788777,0.1628861903137016
+2,attachment_two,conditional,44,Wheat,False,0.593862926922586,0.1644255751370405
+2,attachment_two,conditional,152,Wheat,False,0.5583487638221727,0.1417217655131319
+2,attachment_two,conditional,208,Wheat,False,0.5318411895359066,0.1329392426085016
+2,attachment_two,conditional,229,Wheat,False,0.8229695682744012,0.1667259374968041
+2,strict_four,unconditional,137,Amber,False,0.5564094076866304,0.1187407780125993
+2,strict_four,unconditional,158,Amber,False,0.6687466322463964,0.1675618254005461
+2,strict_four,unconditional,43,Amber,False,0.6356311664994702,0.1205652342129275
+2,strict_four,unconditional,128,Amber,False,0.5372961469246161,0.1222324294346852
+2,strict_four,coordinate_clipping,137,Amber,False,0.5715686212309758,0.1218133873708692
+2,strict_four,coordinate_clipping,158,Amber,False,0.6824929769900473,0.1711978029513747
+2,strict_four,coordinate_clipping,43,Amber,False,0.651024825210277,0.1243544854169942
+2,strict_four,coordinate_clipping,128,Amber,False,0.5408886477261865,0.1256180710783775
+2,strict_four,conditional,137,Amber,False,0.7386914904227467,0.1544341689650109
+2,strict_four,conditional,158,Amber,False,0.8038727137379347,0.1851098823937844
+2,strict_four,conditional,43,Amber,False,0.8735102617782744,0.1550251183186894
+2,strict_four,conditional,128,Amber,False,0.727455480642224,0.1606328847853795
+2,strict_four,unconditional,46,Blond,False,0.6562817924495667,0.1513489389029106
+2,strict_four,unconditional,5,Blond,False,1.0457882211950038,0.2071071899728094
+2,strict_four,unconditional,62,Blond,False,0.5595340171695418,0.1288152405161519
+2,strict_four,unconditional,110,Blond,False,0.5199629424086132,0.1296375904932781
+2,strict_four,unconditional,246,Blond,False,0.830332479340019,0.1793050459118711
+2,strict_four,unconditional,136,Blond,False,0.6467055681230419,0.1569926027259707
+2,strict_four,unconditional,94,Blond,False,0.5199663412453588,0.1321695795683754
+2,strict_four,unconditional,248,Blond,False,0.6091803083946953,0.158795280629999
+2,strict_four,unconditional,71,Blond,False,0.7040138639864519,0.1542673960449558
+2,strict_four,unconditional,3,Blond,False,0.5365160768450277,0.1305160876991649
+2,strict_four,coordinate_clipping,46,Blond,False,0.6616560810247656,0.1524852511701988
+2,strict_four,coordinate_clipping,5,Blond,False,1.071242035739709,0.2057552048802629
+2,strict_four,coordinate_clipping,62,Blond,False,0.5562158690110149,0.1312271651319412
+2,strict_four,coordinate_clipping,110,Blond,False,0.540643278234389,0.1342682531747973
+2,strict_four,coordinate_clipping,246,Blond,False,0.8255978537849484,0.1805989330585048
+2,strict_four,coordinate_clipping,136,Blond,False,0.6702610250671595,0.1587912154212532
+2,strict_four,coordinate_clipping,94,Blond,False,0.5395368307103081,0.1363650361473696
+2,strict_four,coordinate_clipping,248,Blond,False,0.6121502756172269,0.1633844371341106
+2,strict_four,coordinate_clipping,71,Blond,False,0.690091015389936,0.1568515645183367
+2,strict_four,coordinate_clipping,3,Blond,False,0.5506870948646216,0.1335209088367306
+2,strict_four,unconditional,236,Brett/cofermented,False,0.5670933169999469,0.1480100188830419
+2,strict_four,unconditional,203,Brett/cofermented,False,0.547930904879145,0.144264497964377
+2,strict_four,coordinate_clipping,236,Brett/cofermented,False,0.5938668986905393,0.1515168663199076
+2,strict_four,coordinate_clipping,203,Brett/cofermented,False,0.5581087925505223,0.1469993756102323
+2,strict_four,unconditional,206,Brown,False,0.6228050459736049,0.1675056083403471
+2,strict_four,unconditional,53,Brown,False,0.5680281931675398,0.1357745271108458
+2,strict_four,unconditional,78,Brown,False,0.4654708730682003,0.1244296177234605
+2,strict_four,unconditional,25,Brown,False,0.5179876986556908,0.1271383273509144
+2,strict_four,coordinate_clipping,206,Brown,False,0.6381931671053723,0.170158317627882
+2,strict_four,coordinate_clipping,53,Brown,False,0.5803481455966266,0.1380281527073376
+2,strict_four,coordinate_clipping,78,Brown,False,0.4720075227540595,0.127086758210272
+2,strict_four,coordinate_clipping,25,Brown,False,0.5355483688744244,0.1304720823446187
+2,strict_four,conditional,206,Brown,False,0.811415225301969,0.1875491885601701
+2,strict_four,conditional,53,Brown,False,0.6655125119958737,0.165593860577336
+2,strict_four,conditional,78,Brown,False,0.6160869519416375,0.1584208367954567
+2,strict_four,conditional,25,Brown,False,0.756859635629206,0.1717200977100351
+2,strict_four,unconditional,1,Brut,False,0.4979608952647618,0.1371763619755728
+2,strict_four,coordinate_clipping,1,Brut,False,0.5133455391593379,0.1404027697776906
+2,strict_four,conditional,1,Brut,False,0.6783760092227359,0.1608220682728251
+2,strict_four,unconditional,180,Christmas,False,0.54552254900016,0.1295771987244635
+2,strict_four,unconditional,60,Christmas,False,0.6120468527858328,0.1417742472632567
+2,strict_four,unconditional,102,Christmas,False,0.655205406404608,0.1465987342720915
+2,strict_four,coordinate_clipping,180,Christmas,False,0.5586710649854371,0.1314641716718607
+2,strict_four,coordinate_clipping,60,Christmas,False,0.6455118791346235,0.1414891349044396
+2,strict_four,coordinate_clipping,102,Christmas,False,0.6511540392815872,0.1468083160414102
+2,strict_four,conditional,180,Christmas,False,0.7089462903585445,0.1538786846297712
+2,strict_four,conditional,60,Christmas,False,0.8179505965986984,0.1645655556030456
+2,strict_four,conditional,102,Christmas,False,0.5726198078404278,0.1428006734086172
+2,strict_four,unconditional,194,Dubbel,False,0.7609668651821961,0.1616402639902069
+2,strict_four,unconditional,221,Dubbel,False,0.5793059738910488,0.1358542227205124
+2,strict_four,unconditional,174,Dubbel,False,0.4843480551487804,0.1294136001069354
+2,strict_four,coordinate_clipping,194,Dubbel,False,0.7698787010904821,0.1628713979658659
+2,strict_four,coordinate_clipping,221,Dubbel,False,0.5820038310061124,0.138207852749219
+2,strict_four,coordinate_clipping,174,Dubbel,False,0.5027339235027959,0.1314028191851538
+2,strict_four,conditional,194,Dubbel,False,1.007620578564337,0.1866767843127589
+2,strict_four,conditional,221,Dubbel,False,0.7183198810362637,0.1593317735201943
+2,strict_four,conditional,174,Dubbel,False,0.6106840316739426,0.1713721768953303
+2,strict_four,unconditional,74,Faro,False,0.5154291994378338,0.1340694162497928
+2,strict_four,coordinate_clipping,74,Faro,False,0.5185781123889839,0.1352527503173336
+2,strict_four,conditional,74,Faro,False,0.5376230927909866,0.1428563045694853
+2,strict_four,unconditional,167,Flanders old brown,False,0.5015768001298304,0.1336730826291094
+2,strict_four,unconditional,159,Flanders old brown,False,0.506232375458739,0.1305784742492536
+2,strict_four,coordinate_clipping,167,Flanders old brown,False,0.4969054527813449,0.1330060271000602
+2,strict_four,coordinate_clipping,159,Flanders old brown,False,0.5164315138558807,0.1336793703638953
+2,strict_four,conditional,167,Flanders old brown,False,0.4577595050376364,0.1301505134159802
+2,strict_four,conditional,159,Flanders old brown,False,0.6110225668981824,0.1560698297016933
+2,strict_four,unconditional,207,Fruitbeer,False,0.6355221873728506,0.1814943684250178
+2,strict_four,unconditional,50,Fruitbeer,False,0.6257770098792823,0.1693135493880471
+2,strict_four,unconditional,184,Fruitbeer,False,0.629217635690951,0.1592836600771566
+2,strict_four,coordinate_clipping,207,Fruitbeer,False,0.6346820147782065,0.1812395390887284
+2,strict_four,coordinate_clipping,50,Fruitbeer,False,0.6293241369853688,0.1682490375707321
+2,strict_four,coordinate_clipping,184,Fruitbeer,False,0.6452232092204775,0.1643244423670691
+2,strict_four,conditional,207,Fruitbeer,False,0.7510378733892218,0.2126398468523402
+2,strict_four,conditional,50,Fruitbeer,False,0.7329412828239694,0.1893876169974045
+2,strict_four,conditional,184,Fruitbeer,False,0.7451893963493252,0.1977893258237575
+2,strict_four,unconditional,169,Hoppy,False,0.5150014611722895,0.1319077724166295
+2,strict_four,unconditional,55,Hoppy,False,0.5641056698042571,0.1300929992259656
+2,strict_four,unconditional,97,Hoppy,False,0.6451159862706014,0.1386873989535986
+2,strict_four,unconditional,39,Hoppy,False,0.5446847222097467,0.1343679200922351
+2,strict_four,unconditional,31,Hoppy,False,0.6444169029711934,0.1517380470641209
+2,strict_four,unconditional,9,Hoppy,False,0.8182764997557157,0.1691338934764838
+2,strict_four,coordinate_clipping,169,Hoppy,False,0.5402316218639399,0.1363411845797311
+2,strict_four,coordinate_clipping,55,Hoppy,False,0.5876814453085619,0.1314963726617881
+2,strict_four,coordinate_clipping,97,Hoppy,False,0.6656467522524216,0.1450101257036254
+2,strict_four,coordinate_clipping,39,Hoppy,False,0.5890692020183264,0.1373785743982561
+2,strict_four,coordinate_clipping,31,Hoppy,False,0.6737791934813082,0.1547596401917914
+2,strict_four,coordinate_clipping,9,Hoppy,False,0.8601435038655516,0.1698943423390848
+2,strict_four,unconditional,54,Kriek,False,0.4594721132064246,0.1342193903256818
+2,strict_four,unconditional,241,Kriek,False,0.5810185993417342,0.1337410752782044
+2,strict_four,unconditional,24,Kriek,False,0.5962746507230967,0.1582976367635208
+2,strict_four,coordinate_clipping,54,Kriek,False,0.4653396943122284,0.1352839971581743
+2,strict_four,coordinate_clipping,241,Kriek,False,0.5962827657932678,0.1379424473391686
+2,strict_four,coordinate_clipping,24,Kriek,False,0.6137274099863672,0.1614587963575459
+2,strict_four,conditional,54,Kriek,False,0.5457503448022398,0.1533694208659218
+2,strict_four,conditional,241,Kriek,False,0.7171173169853624,0.1694445032151575
+2,strict_four,conditional,24,Kriek,False,0.8089542031973849,0.1903510017300798
+2,strict_four,unconditional,42,Lambic,False,0.5869707697425836,0.1507159667144148
+2,strict_four,unconditional,12,Lambic,False,0.6209158410558172,0.1647523452238048
+2,strict_four,unconditional,18,Lambic,False,0.4753414237907657,0.1297021447598818
+2,strict_four,coordinate_clipping,42,Lambic,False,0.60529731930958,0.1550602261231521
+2,strict_four,coordinate_clipping,12,Lambic,False,0.6210580509118709,0.1669313694945069
+2,strict_four,coordinate_clipping,18,Lambic,False,0.4903585751813775,0.1338165220592339
+2,strict_four,conditional,42,Lambic,False,0.756847059460333,0.195967391025123
+2,strict_four,conditional,12,Lambic,False,0.6071986522679889,0.1699431833618409
+2,strict_four,conditional,18,Lambic,False,0.7316509504602817,0.1814321526391797
+2,strict_four,unconditional,40,Low/No alcohol,False,0.8345287606236466,0.2215886462216779
+2,strict_four,unconditional,155,Low/No alcohol,False,0.4640740945859954,0.1321952519951962
+2,strict_four,coordinate_clipping,40,Low/No alcohol,False,0.8330349827464363,0.2199057626422647
+2,strict_four,coordinate_clipping,155,Low/No alcohol,False,0.4681554211412395,0.1351169009378164
+2,strict_four,conditional,40,Low/No alcohol,False,0.8338989854140072,0.2156826273145084
+2,strict_four,conditional,155,Low/No alcohol,False,0.5057335444909677,0.1523975167121548
+2,strict_four,unconditional,185,Pils/Lager,False,0.4629924838378945,0.1280676312434208
+2,strict_four,unconditional,119,Pils/Lager,False,0.5358836691504875,0.133572116933326
+2,strict_four,unconditional,90,Pils/Lager,False,0.4352946313886103,0.1209046957228884
+2,strict_four,unconditional,28,Pils/Lager,False,0.6911719761704215,0.1521274231184835
+2,strict_four,coordinate_clipping,185,Pils/Lager,False,0.4637397398869435,0.1302073694536373
+2,strict_four,coordinate_clipping,119,Pils/Lager,False,0.5439714943972652,0.137045241755283
+2,strict_four,coordinate_clipping,90,Pils/Lager,False,0.4381171319218193,0.1228348464707054
+2,strict_four,coordinate_clipping,28,Pils/Lager,False,0.701977053379162,0.1542666583246008
+2,strict_four,conditional,185,Pils/Lager,False,0.4898378970166275,0.1557190982602435
+2,strict_four,conditional,119,Pils/Lager,False,0.603655168350997,0.1594966082992921
+2,strict_four,conditional,90,Pils/Lager,False,0.4555706209417873,0.1285856988522996
+2,strict_four,conditional,28,Pils/Lager,False,0.7967040179051168,0.175874910552615
+2,strict_four,unconditional,56,Saison,False,0.5749513146211531,0.1364523419561793
+2,strict_four,unconditional,20,Saison,False,0.60886421880273,0.1511573364088835
+2,strict_four,unconditional,29,Saison,False,0.7336777373542512,0.1798197359905186
+2,strict_four,coordinate_clipping,56,Saison,False,0.591159863071936,0.1400175199140628
+2,strict_four,coordinate_clipping,20,Saison,False,0.6262416963167696,0.1567287200112841
+2,strict_four,coordinate_clipping,29,Saison,False,0.7597521139766434,0.1836079984602891
+2,strict_four,unconditional,216,Scotch,False,0.5338361464054024,0.1322463434209154
+2,strict_four,unconditional,131,Scotch,False,0.4674580352537362,0.1178846612928109
+2,strict_four,coordinate_clipping,216,Scotch,False,0.5423537989886068,0.1382374356589488
+2,strict_four,coordinate_clipping,131,Scotch,False,0.4784859254411234,0.121189592716485
+2,strict_four,conditional,216,Scotch,False,0.6583962616971142,0.1649566013818516
+2,strict_four,conditional,131,Scotch,False,0.6397954068221682,0.1578789767105113
+2,strict_four,unconditional,202,Stout/Porter,False,0.6550562747610909,0.1609079036074008
+2,strict_four,unconditional,188,Stout/Porter,False,0.5609522558992649,0.1439871137700353
+2,strict_four,unconditional,61,Stout/Porter,False,0.6154439503580058,0.1578132186204441
+2,strict_four,unconditional,212,Stout/Porter,False,0.5707067992359235,0.1332466085638996
+2,strict_four,unconditional,123,Stout/Porter,False,0.5999020446680456,0.1325358363844282
+2,strict_four,coordinate_clipping,202,Stout/Porter,False,0.6828819525235656,0.1612765016115318
+2,strict_four,coordinate_clipping,188,Stout/Porter,False,0.584685653849387,0.1463274621332917
+2,strict_four,coordinate_clipping,61,Stout/Porter,False,0.6362122170198198,0.1596398084905237
+2,strict_four,coordinate_clipping,212,Stout/Porter,False,0.5954317862739612,0.1356361231229799
+2,strict_four,coordinate_clipping,123,Stout/Porter,False,0.6198599453211842,0.1357594642382297
+2,strict_four,conditional,202,Stout/Porter,False,1.013026203517572,0.1878152309325748
+2,strict_four,conditional,188,Stout/Porter,False,0.7094891586648983,0.1742419736409398
+2,strict_four,conditional,61,Stout/Porter,False,0.9399077761072812,0.1808929770456033
+2,strict_four,conditional,212,Stout/Porter,False,0.7870715246395708,0.1758943526456663
+2,strict_four,conditional,123,Stout/Porter,False,0.7296917399677415,0.1739342156072989
+2,strict_four,unconditional,105,Strong ale,False,0.8658281612605431,0.1840992891388065
+2,strict_four,unconditional,37,Strong ale,False,0.64917015022266,0.1728173733779658
+2,strict_four,unconditional,104,Strong ale,False,0.6952883963669483,0.1448234814740698
+2,strict_four,unconditional,117,Strong ale,False,0.591478941417616,0.1631398181393756
+2,strict_four,unconditional,175,Strong ale,False,0.6163437334907599,0.1539667726269935
+2,strict_four,unconditional,196,Strong ale,False,0.6216108768619648,0.1655808299555097
+2,strict_four,coordinate_clipping,105,Strong ale,False,0.8854224542758875,0.1856890654883793
+2,strict_four,coordinate_clipping,37,Strong ale,False,0.6633458983280717,0.1756552371877035
+2,strict_four,coordinate_clipping,104,Strong ale,False,0.7020489379443112,0.147363568493459
+2,strict_four,coordinate_clipping,117,Strong ale,False,0.6268977636495302,0.1646756212713899
+2,strict_four,coordinate_clipping,175,Strong ale,False,0.6256838796534914,0.156487475458046
+2,strict_four,coordinate_clipping,196,Strong ale,False,0.6391504207225963,0.1682586561233914
+2,strict_four,conditional,105,Strong ale,False,1.0522033873719867,0.222063215308914
+2,strict_four,conditional,37,Strong ale,False,0.9197491935042402,0.2123758513769157
+2,strict_four,conditional,104,Strong ale,False,0.8764443077988789,0.1801277635013639
+2,strict_four,conditional,117,Strong ale,False,0.8720865383089138,0.1958085422617596
+2,strict_four,conditional,175,Strong ale,False,0.745732068968303,0.198737181787703
+2,strict_four,conditional,196,Strong ale,False,0.8453388673062217,0.1957273286999924
+2,strict_four,unconditional,228,Tripel,False,0.7614148525935686,0.1901353481100726
+2,strict_four,unconditional,93,Tripel,False,0.6695140757586802,0.1641927810112425
+2,strict_four,unconditional,23,Tripel,False,0.4860728523744479,0.1293537907258651
+2,strict_four,unconditional,204,Tripel,False,0.5900799134176241,0.1438744806051845
+2,strict_four,unconditional,34,Tripel,False,0.7696379117181859,0.2100962560364605
+2,strict_four,unconditional,57,Tripel,False,0.5321706529102147,0.127390478877194
+2,strict_four,unconditional,163,Tripel,False,0.6145977463732083,0.1645415959796517
+2,strict_four,unconditional,15,Tripel,False,0.5509124841331273,0.1260943820122273
+2,strict_four,unconditional,85,Tripel,False,0.5438131869767718,0.1234977118072202
+2,strict_four,unconditional,239,Tripel,False,0.5913483237395205,0.142586503744811
+2,strict_four,coordinate_clipping,228,Tripel,False,0.7780890480366894,0.1914398992581724
+2,strict_four,coordinate_clipping,93,Tripel,False,0.6881875147327281,0.1692113151149636
+2,strict_four,coordinate_clipping,23,Tripel,False,0.5108813394925872,0.130840133766429
+2,strict_four,coordinate_clipping,204,Tripel,False,0.5994736441300756,0.1470043216682607
+2,strict_four,coordinate_clipping,34,Tripel,False,0.8016207945564334,0.2074671857006503
+2,strict_four,coordinate_clipping,57,Tripel,False,0.5313368830549215,0.1311060801041098
+2,strict_four,coordinate_clipping,163,Tripel,False,0.6135633743784046,0.1703973241532885
+2,strict_four,coordinate_clipping,15,Tripel,False,0.5652816050580282,0.1313566962498966
+2,strict_four,coordinate_clipping,85,Tripel,False,0.5417654615228412,0.1281557012238303
+2,strict_four,coordinate_clipping,239,Tripel,False,0.5999944463312171,0.1459725273466576
+2,strict_four,unconditional,84,West Flanders ale,False,0.6424946133427141,0.1558022026338461
+2,strict_four,unconditional,26,West Flanders ale,False,0.5409861166273042,0.1458597882336356
+2,strict_four,coordinate_clipping,84,West Flanders ale,False,0.6491543506547267,0.1591055456854828
+2,strict_four,coordinate_clipping,26,West Flanders ale,False,0.5452973284919349,0.1478771683801031
+2,strict_four,conditional,84,West Flanders ale,False,0.6854792724843135,0.1817511161515053
+2,strict_four,conditional,26,West Flanders ale,False,0.5339686932580677,0.1567000515884128
+2,strict_four,unconditional,44,Wheat,False,0.6232057248989804,0.1716889554089433
+2,strict_four,unconditional,152,Wheat,False,0.5528673650863699,0.1390987453609667
+2,strict_four,unconditional,208,Wheat,False,0.5565799374135504,0.1373787187641073
+2,strict_four,unconditional,229,Wheat,False,0.7633385384599881,0.1626059569086293
+2,strict_four,coordinate_clipping,44,Wheat,False,0.6320611795263484,0.1731750679127515
+2,strict_four,coordinate_clipping,152,Wheat,False,0.5588936087375995,0.1434037950064669
+2,strict_four,coordinate_clipping,208,Wheat,False,0.5532103664058142,0.1378979496329233
+2,strict_four,coordinate_clipping,229,Wheat,False,0.7784547596759499,0.1670376931760741
+2,strict_four,conditional,44,Wheat,False,0.648859923449491,0.1686456842934651
+2,strict_four,conditional,152,Wheat,False,0.6687472437808013,0.1765860879273291
+2,strict_four,conditional,208,Wheat,False,0.6079998920983974,0.1522475991411879
+2,strict_four,conditional,229,Wheat,False,1.0507793408682058,0.1942120056547856

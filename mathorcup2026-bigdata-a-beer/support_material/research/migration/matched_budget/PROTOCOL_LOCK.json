@@ -1,0 +1,66 @@
+{
+  "experiment": "matched-budget low-margin challenger",
+  "target_rho": 0.1,
+  "policies": [
+    "strict"
+  ],
+  "budgets": [
+    60,
+    100
+  ],
+  "sources": [
+    28,
+    81,
+    90,
+    96,
+    119,
+    124,
+    139,
+    185,
+    209,
+    218,
+    230
+  ],
+  "new_strategy": "low_margin_same_qp",
+  "style_logit_margin": 1e-05,
+  "objective": "same H=P+0.2 I and gradient as v1 QP",
+  "lambdas": [
+    0,
+    0.01,
+    0.03,
+    0.1,
+    0.3,
+    1,
+    3,
+    10
+  ],
+  "reweight_steps": 3,
+  "repair_trigger": "only source with no initial complete nominal accepted candidate",
+  "repair_proxy_margins": [
+    0.05,
+    0.1,
+    0.25,
+    0.5
+  ],
+  "repair_lambdas": [
+    0,
+    0.1,
+    1,
+    3
+  ],
+  "repair_steps": 2,
+  "acceptance": "unchanged frozen complete six-model stale nonincrease, all strict chemical caps, support box, fixed classifier Tripel, target distance reduction at least 10 percent; original linear proxy guard also retained",
+  "selection": "same old32 development paired joint scores as v1; per budget maximize joint frequency, then style frequency, then fewer edits, then quadratic objective, then stable ID",
+  "existing_controls": "fixed v1 original minimum-edit at both budgets; fixed margin1 at B60; fixed margin2 at both budgets. These candidates will not be re-optimized or selected again.",
+  "validation_seed": 202610251503,
+  "validation_scenarios": 100,
+  "validation_fit": "same multinomial logistic plus complete six-family fifty-target sensory refits, fixed original model specifications and ensemble weights",
+  "inference": "conditional empirical model-refit stability, with11-source dependence retained within each scenario block; no external generalization or physical success interpretation",
+  "reporting": "all sources and all planned method-budget controls, including unavailable candidates, negative contrasts, edit cost and achieved distance",
+  "locked_at_utc": "2026-10-25T09:48:42.736121+00:00",
+  "v1_candidate_freeze_sha256": "945ad719a53f67809dddb9e6b726fdab9ed8e0f2bae4806644fd75f9a626bf51",
+  "v1_primary_lock_sha256": "b06b6f3554d247a2b615610185331ed7d886c89470ef63dfff30e67e4de34e2c",
+  "script_sha256": "46a6dcdb91a747bf253e9862b9b5beac64b3dde7c817b8713ecf55a697a5ee58",
+  "qp_implementation_sha256": "d5047779898686a7df15e6420b9323f1b4a9d00edce707161851d7b3869be70d",
+  "new_validation_results_examined": false
+}

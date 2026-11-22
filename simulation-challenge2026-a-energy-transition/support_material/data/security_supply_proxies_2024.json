@@ -1,0 +1,16 @@
+{
+  "year": 2024,
+  "pumped_hydro_capacity_gw": 58.69,
+  "source_id": "nea_renewable_2024",
+  "crude_oil_import_share_of_output_plus_imports": 0.7221873002197933,
+  "natural_gas_apparent_consumption_gap_share": 0.421544419669053,
+  "coal_import_share_of_raw_output_plus_imports": 0.1019403798110337,
+  "scope": "Security proxies, not published external-dependence statistics. Crude and coal shares omit exports/stocks; gas uses apparent consumption minus production, not measured net imports. Coal/lignite trade and raw-coal output are related but not identical product baskets.",
+  "sources": [
+    "nbs_yearbook_2025_9_17",
+    "nbs_yearbook_2025_9_19",
+    "nbs_communique_2024",
+    "ndrc_gas_consumption_2024",
+    "nea_renewable_2024"
+  ]
+}

@@ -1,0 +1,1061 @@
+{
+  "schema_version": 1,
+  "access_date": "2026-10-16",
+  "primary_baseline_year": 2024,
+  "calibration_window": [
+    2010,
+    2024
+  ],
+  "currency_basis": "World Bank constant 2015 US$; GDP index 2010=100",
+  "missing_policy": "empty means unobserved/not downloaded; no interpolation or replacement by incompatible sources",
+  "sources": [
+    {
+      "id": "nbs_yearbook_2025_9_2",
+      "title": "中国统计年鉴2025 表9-2 能源消费总量及构成",
+      "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C09-02.jpg",
+      "access_date": "2026-10-16",
+      "geography": "China mainland / CHN; Hong Kong, Macao and Taiwan not merged",
+      "frequency": "annual",
+      "scope": "2010-2024 same-publication-vintage national energy consumption balance; coal/oil/gas/primary electricity and other energy",
+      "transformation": "Visually transcribe rows 2010-2024 from preserved official image. Divide 10000 tce by 100 to Mtce; percent by 100 to fractions. Preserve rounding; no rescaling shares.",
+      "license": "Public official release; no explicit open-data license identified; original yearbook copyright retained.",
+      "upstream": [],
+      "raw_files": [
+        {
+          "path": "raw/nbs_2025_C09-02.jpg",
+          "sha256": "f7bb733936e7ad95a80f06f795a734347b62837c402f611e53796d5bf3575708",
+          "bytes": 145728
+        },
+        {
+          "path": "raw/nbs_energy_2010_2024_transcribed.csv",
+          "sha256": "7c33cdef039b30070ccc2b72542d1c2d6cf74f67afe062fba82d688b20acaf74",
+          "bytes": 544
+        },
+        {
+          "path": "raw/nbs_energy_2005_transcribed.csv",
+          "sha256": "67a228a8674fa8cbd4c68ef8728fc85be7f37b21c4ba6b6320591fd467cc4753",
+          "bytes": 112
+        }
+      ]
+    },
+    {
+      "id": "nbs_yearbook_2025_9_15",
+      "title": "中国统计年鉴2025 表9-15 发电装机容量",
+      "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C09-15.jpg",
+      "access_date": "2026-10-16",
+      "geography": "China mainland / CHN; Hong Kong, Macao and Taiwan not merged",
+      "frequency": "annual",
+      "scope": "Year-end installed capacity, total/thermal/hydro/nuclear/wind/solar/other. Thermal is not coal-only. Hydro includes pumped storage.",
+      "transformation": "Visually transcribe rows 2010-2024. Divide 10000 kW by 100 to GW.",
+      "license": "Public official release; no explicit open-data license identified; original yearbook copyright retained.",
+      "upstream": [
+        "China Electricity Council / 中国电力企业联合会"
+      ],
+      "raw_files": [
+        {
+          "path": "raw/nbs_2025_C09-15.jpg",
+          "sha256": "b9b9fc6e4c15a5e61fb0be058e3739174d703af7bb8c5ed9178a889e28e5652b",
+          "bytes": 132128
+        },
+        {
+          "path": "raw/nbs_capacity_2010_2024_transcribed.csv",
+          "sha256": "8c1cbd3910148ff1098f6fe2e1405eefb21a502e96631e0c541a60a17fad5acd",
+          "bytes": 747
+        }
+      ]
+    },
+    {
+      "id": "nbs_yearbook_2025_9_6",
+      "title": "中国统计年鉴2025 表9-6 电力平衡表",
+      "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C09-06.jpg",
+      "access_date": "2026-10-16",
+      "geography": "China mainland / CHN; Hong Kong, Macao and Taiwan not merged",
+      "frequency": "annual",
+      "scope": "Selected historical generation years in the balance table; 2010, 2015, 2020, 2022, 2023. Blank solar is not zero.",
+      "transformation": "Manually transcribe total, thermal, hydro, nuclear and wind for selected available years. 100 million kWh / 10 = TWh; source precision retained.",
+      "license": "Public official release; no explicit open-data license identified; original yearbook copyright retained.",
+      "upstream": [],
+      "raw_files": [
+        {
+          "path": "raw/nbs_2025_C09-06.jpg",
+          "sha256": "8d415663790fc15d22add695af264dab44f847009367891b7613b629e94d02b3",
+          "bytes": 131917
+        },
+        {
+          "path": "raw/nbs_generation_transcribed.csv",
+          "sha256": "5e953057002cfc6f86c54dfc8ffc515159532cabf3911ffde925d364f1ded06e",
+          "bytes": 1525
+        }
+      ]
+    },
+    {
+      "id": "nbs_yearbook_2025_9_17",
+      "title": "中国统计年鉴2025 表9-17 主要能源产品产量",
+      "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C09-17.jpg",
+      "access_date": "2026-10-16",
+      "geography": "China mainland / CHN; Hong Kong, Macao and Taiwan not merged",
+      "frequency": "annual",
+      "scope": "2023/2024 total, thermal and hydro generation; preferred over rounded balance-table values",
+      "transformation": "Manual transcription of exact displayed decimals; divide 100 million kWh by 10.",
+      "license": "Public official release; no explicit open-data license identified; original yearbook copyright retained.",
+      "upstream": [],
+      "raw_files": [
+        {
+          "path": "raw/nbs_2025_C09-17.jpg",
+          "sha256": "71386813ab665998cd3c34dd23314cde0b624156ce318987b9601b8ffaf000c6",
+          "bytes": 48140
+        },
+        {
+          "path": "raw/nbs_generation_transcribed.csv",
+          "sha256": "5e953057002cfc6f86c54dfc8ffc515159532cabf3911ffde925d364f1ded06e",
+          "bytes": 1525
+        }
+      ]
+    },
+    {
+      "id": "nbs_communique_2024",
+      "title": "中华人民共和国2024年国民经济和社会发展统计公报",
+      "url": "https://www.stats.gov.cn/xxgk/sjfb/tjgb2020/202502/t20250228_1958817.html",
+      "access_date": "2026-10-16",
+      "geography": "China mainland / CHN; Hong Kong, Macao and Taiwan not merged",
+      "frequency": "annual",
+      "scope": "Preliminary 2024 release. Clean energy 28.6% includes natural gas. Capacity vintage differs from later yearbook.",
+      "transformation": "Extract total energy, coal share, clean-energy share and installed capacity for comparison only; nuclear/wind/solar generation supplements missing yearbook cells. Preserve publication-vintage differences.",
+      "license": "Public official release; no explicit open-data license identified; original yearbook copyright retained.",
+      "upstream": [],
+      "raw_files": [
+        {
+          "path": "raw/nbs_2024_communique.html",
+          "sha256": "a57b3121789b27b459064f2ce7f453044f8134821ccd5d904eab9544e14ae736",
+          "bytes": 541626
+        },
+        {
+          "path": "raw/nbs_nea_benchmark_2024_2025.csv",
+          "sha256": "6a99f7c7ef66d1d4972512e8673e7994a55324718544783e2ac81d72ae91a829",
+          "bytes": 1933
+        }
+      ]
+    },
+    {
+      "id": "nbs_communique_2025",
+      "title": "中华人民共和国2025年国民经济和社会发展统计公报",
+      "url": "https://www.stats.gov.cn/xxgk/sjfb/tjgb2020/202602/t20260228_1962662.html",
+      "access_date": "2026-10-16",
+      "geography": "China mainland / CHN; Hong Kong, Macao and Taiwan not merged",
+      "frequency": "annual",
+      "scope": "Preliminary 2025 supplement; energy 61.7 hundred-million tce, coal share 51.4%, clean energy 30.4%; no nonfossil/gas/oil fraction inferred",
+      "transformation": "Extract published fields; 61.7*100 = 6170 Mtce. Oil/gas/nonfossil missing values remain empty. Capacity GW and generation TWh conversions as above.",
+      "license": "Public official release; no explicit open-data license identified; original yearbook copyright retained.",
+      "upstream": [],
+      "raw_files": [
+        {
+          "path": "raw/nbs_2025_communique.html",
+          "sha256": "4c22ecfd22fbbfb149799927134f416e9886b812758da8330f0288eebcd9e319",
+          "bytes": 535447
+        },
+        {
+          "path": "raw/nbs_nea_benchmark_2024_2025.csv",
+          "sha256": "6a99f7c7ef66d1d4972512e8673e7994a55324718544783e2ac81d72ae91a829",
+          "bytes": 1933
+        }
+      ]
+    },
+    {
+      "id": "nbs_energy_method",
+      "title": "中国统计年鉴2025 能源篇简要说明",
+      "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/sm09.htm",
+      "access_date": "2026-10-16",
+      "geography": "China mainland / CHN; Hong Kong, Macao and Taiwan not merged",
+      "frequency": "annual",
+      "scope": "All-society energy balance; electricity converted to standard coal at average generation coal consumption for energy balance",
+      "transformation": "Preserved explanatory source; no replacement by fixed direct-equivalent electricity conversion.",
+      "license": "Public official release; no explicit open-data license identified; original yearbook copyright retained.",
+      "upstream": [],
+      "raw_files": [
+        {
+          "path": "raw/nbs_2025_energy_notes.htm",
+          "sha256": "68da3c75aa259763152aeab3b33e2c7f21779e1a0075761cfceb801117a560e8",
+          "bytes": 3507
+        }
+      ]
+    },
+    {
+      "id": "nbs_energy_faq",
+      "title": "七、能源统计（21）",
+      "url": "https://www.stats.gov.cn/hd/cjwtjd/202302/t20230207_1902276.html",
+      "access_date": "2026-10-16",
+      "geography": "China mainland / CHN; Hong Kong, Macao and Taiwan not merged",
+      "frequency": "annual",
+      "scope": "Energy consumption = final consumption + transformation losses + energy losses; primary/secondary must not be double-counted",
+      "transformation": "Preserve boundary definition; no numeric transform.",
+      "license": "Public official release; no explicit open-data license identified; original yearbook copyright retained.",
+      "upstream": [],
+      "raw_files": [
+        {
+          "path": "raw/nbs_energy_faq.html",
+          "sha256": "fbec9ef9a49821afa38219577d35655c14d466777cf6c03a96fc6942286d2cbe",
+          "bytes": 120290
+        }
+      ]
+    },
+    {
+      "id": "nbs_nonfossil_definition",
+      "title": "国家统计局能源统计司 化石与非化石能源种类答复",
+      "url": "https://www.stats.gov.cn/hd/lyzx/zxgk/202605/t20260509_1963653.html",
+      "access_date": "2026-10-16",
+      "geography": "China mainland / CHN; Hong Kong, Macao and Taiwan not merged",
+      "frequency": "annual",
+      "scope": "Coal, oil and gas are fossil; nonfossil includes primary electricity and biomass; both classes cover all energy varieties",
+      "transformation": "Map yearbook fourth energy class to nonfossil_share while retaining raw category as nbs_primary_electricity_other_share.",
+      "license": "Public official release; no explicit open-data license identified; original yearbook copyright retained.",
+      "upstream": [],
+      "raw_files": [
+        {
+          "path": "raw/nbs_nonfossil_definition.html",
+          "sha256": "c69981a88456264889ddde4f106686ce62854bb8332459a763c87bc30a90ba11",
+          "bytes": 59259
+        }
+      ]
+    },
+    {
+      "id": "nea_electricity_2024",
+      "title": "国家能源局 2024年全社会用电量同比增长6.8%",
+      "url": "https://www.nea.gov.cn/20250120/4f7f249bac714e7693adecac996d742f/c.html",
+      "access_date": "2026-10-16",
+      "geography": "China mainland / CHN; Hong Kong, Macao and Taiwan not merged",
+      "frequency": "annual",
+      "scope": "All-society electricity consumption, distinct from gross generation plus net imports",
+      "transformation": "98521 hundred-million kWh / 10 = 9852.1 TWh; benchmark column only.",
+      "license": "Public official release; no explicit open-data license identified; original yearbook copyright retained.",
+      "upstream": [],
+      "raw_files": [
+        {
+          "path": "raw/nea_electricity_2024.html",
+          "sha256": "087b74b45fec2e316acbd1b13721212a96d1a0f321b4090d811433ff0ef67fbf",
+          "bytes": 9928
+        }
+      ]
+    },
+    {
+      "id": "nea_electricity_2025",
+      "title": "国家能源局 2025年全社会用电量同比增长5.0%",
+      "url": "https://www.nea.gov.cn/20260121/715f79826488476a9162da7c8bd77c80/c.html",
+      "access_date": "2026-10-16",
+      "geography": "China mainland / CHN; Hong Kong, Macao and Taiwan not merged",
+      "frequency": "annual",
+      "scope": "All-society electricity consumption",
+      "transformation": "103682 hundred-million kWh / 10 = 10368.2 TWh; benchmark column only.",
+      "license": "Public official release; no explicit open-data license identified; original yearbook copyright retained.",
+      "upstream": [],
+      "raw_files": [
+        {
+          "path": "raw/nea_electricity_2025.html",
+          "sha256": "df34f205d321ee86f3cc07ca70fee0d2088b139743a3514fb5433775d80f0174",
+          "bytes": 10251
+        }
+      ]
+    },
+    {
+      "id": "owid_energy_2026_ember_ei",
+      "title": "OWID Energy dataset, new TES release snapshot",
+      "url": "https://catalog.ourworldindata.org/energy/owid_energy/owid_energy.csv",
+      "access_date": "2026-10-16",
+      "geography": "China mainland / CHN; Hong Kong, Macao and Taiwan not merged",
+      "frequency": "annual",
+      "scope": "Only electricity generation and demand are used in annual_china. Primary energy TES fields deliberately excluded from NBS analysis. Demand is gross generation plus net imports.",
+      "transformation": "Download whole CSV, select country=China and years 2010-2025 without changing cell values; read electricity_demand_twh and electricity_generation_twh. Preserve publication snapshot, not overwritten by newer direct Ember data.",
+      "license": "CC BY 4.0 for producer/OWID processing; original third-party source terms remain applicable; cite producer and OWID.",
+      "upstream": [
+        "Energy Institute Statistical Review 2026",
+        "Ember Yearly Electricity Data 2026",
+        "See preserved per-variable codebook and upstream sources CSV"
+      ],
+      "raw_files": [
+        {
+          "path": "raw/owid_energy_china_2010_2025.csv",
+          "sha256": "829050618bee560742047d3197e0094f725638a1d1784a706dafd822f86a36d4",
+          "bytes": 23004
+        },
+        {
+          "path": "raw/owid_energy_codebook.csv",
+          "sha256": "b00441944a4f84110709a858ae4ed3d54694df95f98286777dfad1c94c544cf9",
+          "bytes": 67242
+        },
+        {
+          "path": "raw/owid_energy_sources.csv",
+          "sha256": "3b53e9087d7a17b9a49604f6d6ffe739fb847293214c39d78f76aeeeaffa8ac8",
+          "bytes": 10159
+        },
+        {
+          "path": "raw/owid_energy_readme.md",
+          "sha256": "ae684e113f6ce21c117d3dbef40b872bf64328deee9a0ae814b905c050234b02",
+          "bytes": 99553
+        }
+      ]
+    },
+    {
+      "id": "owid_gcb_2025",
+      "title": "OWID CO2 dataset based on Global Carbon Budget 2025",
+      "url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "access_date": "2026-10-16",
+      "geography": "China mainland / CHN; Hong Kong, Macao and Taiwan not merged",
+      "frequency": "annual",
+      "scope": "Territorial fossil-fuel and industrial CO2 excluding land-use change; historical records currently end in 2024; no 2025 observation inserted",
+      "transformation": "Select country=China and requested years. energy_co2_mt = coal_co2+oil_co2+gas_co2+flaring_co2 in MtCO2; retain cement, other industry and total separately. Fuel-related proxy, not IPCC energy-sector inventory.",
+      "license": "CC BY 4.0 for producer/OWID processing; original third-party source terms remain applicable; cite producer and OWID.",
+      "upstream": [
+        "Global Carbon Budget 2025: https://globalcarbonbudget.org/datahub/the-latest-gcb-data-2025/",
+        "Original source terms: https://globalcarbonbudget.org/"
+      ],
+      "raw_files": [
+        {
+          "path": "raw/owid_co2_china_2010_2025.csv",
+          "sha256": "148e03be961a01a0f41497a87d7845ac8f3bc2ab2e8b96e13222442793d6aca1",
+          "bytes": 10492
+        },
+        {
+          "path": "raw/owid_co2_codebook.csv",
+          "sha256": "33b4f5e00efd58c7b83863f736beba1af4df946b43642b0400c3ec38648e0e8e",
+          "bytes": 24149
+        },
+        {
+          "path": "raw/owid_co2_readme.md",
+          "sha256": "6c78052304913b07e0b38b60f4e8488427cc2fb62d341ce66c1bf7974d21c9ed",
+          "bytes": 11950
+        },
+        {
+          "path": "raw/owid_co2_china_2005.csv",
+          "sha256": "3798d13fca257ca63af02dc47304fca0b797424c86adefb7c67109733ea52d68",
+          "bytes": 2256
+        }
+      ]
+    },
+    {
+      "id": "worldbank_NY.GDP.MKTP.KD",
+      "title": "World Bank World Development Indicators GDP constant 2015 US$",
+      "url": "https://api.worldbank.org/v2/country/CHN/indicator/NY.GDP.MKTP.KD?format=json&date=2010:2025&per_page=100",
+      "access_date": "2026-10-16",
+      "geography": "China mainland / CHN; Hong Kong, Macao and Taiwan not merged",
+      "frequency": "annual",
+      "scope": "CHN real GDP, 2015 US dollars, API metadata lastupdated=2026-10-08",
+      "transformation": "Keep value as gdp_real_usd2015; divide by 2010 value and multiply by 100 to form gdp_real_index. No PPP/Maddison GDP used.",
+      "license": "CC BY 4.0; https://data.worldbank.org/indicator/NY.GDP.MKTP.KD",
+      "upstream": [
+        "Country official statistics / National Statistical Organizations / World Bank estimates"
+      ],
+      "raw_files": [
+        {
+          "path": "raw/worldbank_gdp_china.json",
+          "sha256": "32db3dd46b7069aa1e23c78171f94155e857b651c6e6cacc0821eb8ee0eaf73d",
+          "bytes": 3466
+        }
+      ]
+    },
+    {
+      "id": "ember_latest_2026_10_16",
+      "title": "Ember Yearly Electricity Data, current global release",
+      "url": "https://files.ember-energy.org/public-downloads/generation/outputs/release_generation_yearly_global.csv",
+      "access_date": "2026-10-16",
+      "geography": "China mainland / CHN; Hong Kong, Macao and Taiwan not merged",
+      "frequency": "annual",
+      "scope": "Own fuel taxonomy; capacity GEM/IRENA for China; generation from NBS/CEC/EI/EIA and other sources; hydro excludes pumping where possible; 2026 methodology v1.6",
+      "transformation": "Select Area=China, years 2010-2025; fuel rows plus Total generation; map spaces to underscores in technology only; direct GW/TWh values. Do not mix with NBS panel.",
+      "license": "CC BY 4.0; https://ember-energy.org/data/yearly-electricity-data/",
+      "upstream": [
+        "Methodology: https://files.ember-energy.org/public-downloads/ember_electricity_data_methodology.pdf"
+      ],
+      "raw_files": [
+        {
+          "path": "raw/ember_china_latest_2010_2025.csv",
+          "sha256": "d44b8f8c148f07b617d8344edc0083a6d46ad40b45e17559f43f270566f5069b",
+          "bytes": 41883
+        },
+        {
+          "path": "raw/ember_methodology.pdf",
+          "sha256": "67c5eaac3bfbeb7e67bb786f9ea9680f67f6f26e75318560562ee52d439de908",
+          "bytes": 1487777
+        }
+      ]
+    },
+    {
+      "id": "ember_legacy_2026_snapshot",
+      "title": "Ember legacy long-format download used to inspect schema and cross-check OWID snapshot",
+      "url": "https://files.ember-energy.org/public-downloads/yearly_full_release_long_format.csv",
+      "access_date": "2026-10-16",
+      "geography": "China mainland / CHN; Hong Kong, Macao and Taiwan not merged",
+      "frequency": "annual",
+      "scope": "Retained source inspection snapshot only; not used to fill NBS or latest Ember output",
+      "transformation": "Select Area=China and years 2010-2025 without edits; download hash in metadata.",
+      "license": "CC BY 4.0; upstream terms as Ember",
+      "upstream": [
+        "Ember annual electricity data"
+      ],
+      "raw_files": [
+        {
+          "path": "raw/ember_china_2010_2025.csv",
+          "sha256": "21e22da329e7c3bdde4212c25f543c95e887786d95d607ba2247495b20568b85",
+          "bytes": 124090
+        }
+      ]
+    },
+    {
+      "id": "nbs_yearbook_2025_9_1",
+      "title": "中国统计年鉴2025 表9-1 一次能源生产总量及构成",
+      "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C09-01.jpg",
+      "access_date": "2026-10-16",
+      "geography": "China mainland / CHN, unless provincial rows",
+      "frequency": "annual unless explicitly a price-period snapshot",
+      "scope": "2010-2024 primary energy output and composition, same yearbook vintage",
+      "transformation": "Manual transcription; 10000 tce / 100 = Mtce, percentage / 100. Fuel output and consumption Mtce derived from their respective rounded shares. Gap is not measured net imports.",
+      "license": "Public official release; no explicit open-data license identified; original yearbook copyright retained.",
+      "raw_files": [
+        {
+          "path": "raw/nbs_2025_C09-01.jpg",
+          "sha256": "cc7d20189a1782dd3e6327e173a0871ab0ffdcc2304e8a521e9a885cdf5b4ae3",
+          "bytes": 143489
+        },
+        {
+          "path": "raw/nbs_production_2010_2024_transcribed.csv",
+          "sha256": "3ebefea2788926393da7312adf057d339d8cfba116ed68ef54691fa9c0ca2ebf",
+          "bytes": 535
+        }
+      ]
+    },
+    {
+      "id": "nbs_yearbook_2025_9_4",
+      "title": "中国统计年鉴2025 表9-4 石油平衡表",
+      "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C09-04.jpg",
+      "access_date": "2026-10-16",
+      "geography": "China mainland / CHN, unless provincial rows",
+      "frequency": "annual unless explicitly a price-period snapshot",
+      "scope": "Selected 2005/2010/2015/2020/2022/2023 petroleum-balance years; production is crude oil; trade includes petroleum products",
+      "transformation": "Manual transcription; 10000 tonnes / 100 = million tonnes. Keep stock and statistical discrepancy; do not treat oil-balance imports as crude-only.",
+      "license": "Public official release; no explicit open-data license identified; original yearbook copyright retained.",
+      "raw_files": [
+        {
+          "path": "raw/nbs_2025_C09-04.jpg",
+          "sha256": "04879f1944b4f45aaddcd17c6f8e4f9d7d576f9ab85f04ba1049dcbd73f7b6b5",
+          "bytes": 163593
+        },
+        {
+          "path": "raw/nbs_selected_fuel_balances_transcribed.csv",
+          "sha256": "def0592c286db843642d914833e1f5523b5ea8aaa6d284a0fbed96fde83b4bdc",
+          "bytes": 999
+        }
+      ]
+    },
+    {
+      "id": "nbs_yearbook_2025_9_5",
+      "title": "中国统计年鉴2025 表9-5 煤炭平衡表",
+      "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C09-05.jpg",
+      "access_date": "2026-10-16",
+      "geography": "China mainland / CHN, unless provincial rows",
+      "frequency": "annual unless explicitly a price-period snapshot",
+      "scope": "Selected historical coal balance years; not interchangeable with raw-coal regional-output product",
+      "transformation": "Manual transcription; 10000 tonnes / 100 = million tonnes. Preserve reported stock change and unclosed statistical discrepancy.",
+      "license": "Public official release; no explicit open-data license identified; original yearbook copyright retained.",
+      "raw_files": [
+        {
+          "path": "raw/nbs_2025_C09-05.jpg",
+          "sha256": "2d29ed89b2cbe42a1adefe75ad63621b42617184b0f094d19def390694dbe988",
+          "bytes": 204544
+        },
+        {
+          "path": "raw/nbs_selected_fuel_balances_transcribed.csv",
+          "sha256": "def0592c286db843642d914833e1f5523b5ea8aaa6d284a0fbed96fde83b4bdc",
+          "bytes": 999
+        }
+      ]
+    },
+    {
+      "id": "nbs_yearbook_2025_9_19",
+      "title": "中国统计年鉴2025 表9-19 分地区主要能源产品产量",
+      "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C09-19.jpg",
+      "access_date": "2026-10-16",
+      "geography": "China mainland / CHN, unless provincial rows",
+      "frequency": "annual unless explicitly a price-period snapshot",
+      "scope": "National history 2010-2024 and 2024 provincial raw coal, natural gas, total generation and hydro generation",
+      "transformation": "Manual transcription; raw coal 100 million tonnes * 100 = Mt, gas 100 million m3 /10 = bcm, generation 100 million kWh /10=TWh. Blank province cells remain empty; no rescaling of province rounding sums.",
+      "license": "Public official release; no explicit open-data license identified; original yearbook copyright retained.",
+      "raw_files": [
+        {
+          "path": "raw/nbs_2025_C09-19.jpg",
+          "sha256": "7b1d1c5d526905e4611c80f9fd97b637de3b62385218733aa20b55599b0f4d75",
+          "bytes": 250455
+        },
+        {
+          "path": "raw/nbs_national_products_2010_2024_transcribed.csv",
+          "sha256": "bb78c0d303a13232020a314326e1e2c82fd55674a4cadb92f07be9fe1a8cd3c8",
+          "bytes": 659
+        },
+        {
+          "path": "raw/nbs_regional_products_2024_transcribed.csv",
+          "sha256": "2e2e44c760adac89a00e3289501e6e73c8e4eca858717a8ec1adffbbf0e8a97e",
+          "bytes": 1066
+        }
+      ]
+    },
+    {
+      "id": "worldbank_NY.GDP.MKTP.KD_2005",
+      "title": "World Bank real GDP China 2005 benchmark",
+      "url": "https://api.worldbank.org/v2/country/CHN/indicator/NY.GDP.MKTP.KD?format=json&date=2005&per_page=100",
+      "access_date": "2026-10-16",
+      "geography": "China mainland / CHN, unless provincial rows",
+      "frequency": "annual unless explicitly a price-period snapshot",
+      "scope": "Constant 2015 US dollars, 2005 isolated benchmark",
+      "transformation": "Divide 2005 GDP by saved 2010 World Bank GDP *100. Keep outside the contiguous training window.",
+      "license": "CC BY 4.0; World Bank WDI",
+      "raw_files": [
+        {
+          "path": "raw/worldbank_gdp_china_2005.json",
+          "sha256": "44d2fb6ca844c602266f3972981e6f6e06fce2b72c772b50da3a64e7e9e1689c",
+          "bytes": 302
+        }
+      ]
+    },
+    {
+      "id": "nbs_prices_2024_dec_late",
+      "title": "2024年12月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202501/t20250103_1958140.html",
+      "access_date": "2026-10-16",
+      "geography": "China mainland / CHN, unless provincial rows",
+      "frequency": "annual unless explicitly a price-period snapshot",
+      "scope": "National circulation wholesale/distribution prices for a single ten-day period; not annual mean, retail tariff or plant-delivered cost",
+      "transformation": "Parse HTML table, retain 12 energy rows, prices in CNY/physical tonne and comparison with preceding ten-day period; no energy-equivalent conversion.",
+      "license": "Public official release; no explicit open-data license identified; original yearbook copyright retained.",
+      "raw_files": [
+        {
+          "path": "raw/nbs_prices_2024_dec_late.html",
+          "sha256": "3a27d3033aa2a2d8cfdd447fb455258476045d8bd6ba8cbb5d582dc9f321c25d",
+          "bytes": 230637
+        }
+      ]
+    },
+    {
+      "id": "ndrc_gas_consumption_2024",
+      "title": "国家发展改革委 2024年12月份全国天然气运行快报",
+      "url": "https://www.ndrc.gov.cn/fggz/jjyxtj/202501/t20250123_1395858.html",
+      "access_date": "2026-10-16",
+      "geography": "China mainland / CHN, unless provincial rows",
+      "frequency": "annual unless explicitly a price-period snapshot",
+      "scope": "2024 national apparent natural-gas consumption 4260.5 hundred-million cubic metres",
+      "transformation": "Divide by10 to 426.05 bcm; consumption-minus-output gap is a supply proxy, not directly observed net imports.",
+      "license": "Public official release; no explicit open-data license identified; original yearbook copyright retained.",
+      "raw_files": [
+        {
+          "path": "raw/ndrc_gas_consumption_2024.html",
+          "sha256": "a55466c36ff019534d5e36615377bb3779f344c516242dc17a20d04b7d026330",
+          "bytes": 6496
+        }
+      ]
+    },
+    {
+      "id": "nea_renewable_2024",
+      "title": "国家能源局 2024年可再生能源并网运行情况",
+      "url": "https://www.nea.gov.cn/20250221/e10f363cabe3458aaf78ba4558970054/c.html",
+      "access_date": "2026-10-16",
+      "geography": "China mainland / CHN, unless provincial rows",
+      "frequency": "annual unless explicitly a price-period snapshot",
+      "scope": "2024 year-end pumped-storage capacity 5869 * 10000kW; conventional hydro rounded to 3.77 hundred-million kW",
+      "transformation": "5869 *10000kW /100 =58.69GW; source separate from Ember hydro; no storage-duration assumption derived from power capacity. Carrier supplement retains NEA biomass 4599*10000kW=45.99GW and 2083*100millionkWh=208.3TWh as a paired national category, not merged into Ember bioenergy.",
+      "license": "Public official release; no explicit open-data license identified; original yearbook copyright retained.",
+      "raw_files": [
+        {
+          "path": "raw/nea_renewable_2024.html",
+          "sha256": "13fabe3f96b292ab2aab7ab2332541d8839fe21e1f144b2f56184f65fbe552cd",
+          "bytes": 13012
+        },
+        {
+          "path": "raw/nbs_nea_benchmark_2024_2025.csv",
+          "sha256": "6a99f7c7ef66d1d4972512e8673e7994a55324718544783e2ac81d72ae91a829",
+          "bytes": 1933
+        },
+        {
+          "path": "raw/supplement_carriers_2024_transcribed.csv",
+          "sha256": "bfc627bc938c84cdf5c008d0cc4b6f5e1727c1f5324f5aa6cb1bb6151c36495a",
+          "bytes": 1843
+        }
+      ]
+    },
+    {
+      "id": "nbs_production_2024_preliminary",
+      "title": "国家统计局 2024年12月份能源生产情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202501/t20250117_1958326.html",
+      "access_date": "2026-10-16",
+      "geography": "China mainland / CHN, unless provincial rows",
+      "frequency": "annual unless explicitly a price-period snapshot",
+      "scope": "Above-designated-size industrial energy output and customs imports; retained as preliminary-publication comparison, not preferred over yearbook",
+      "transformation": "Preserve raw HTML; all-society and above-designated-size scopes must not be interchanged; annual final output uses yearbook values.",
+      "license": "Public official release; no explicit open-data license identified; original yearbook copyright retained.",
+      "raw_files": [
+        {
+          "path": "raw/nbs_production_2024.html",
+          "sha256": "f033822ccd9ef7bf511ca23d2c261c4225859a93947d5ce5373af3ba0eaf64b6",
+          "bytes": 103486
+        }
+      ]
+    },
+    {
+      "id": "nbs_energy_mix_2025_supplement",
+      "title": "非凡十四五奋进新征程 经济社会发展成就 能源消费结构补充",
+      "url": "https://www.stats.gov.cn/zt_18555/ztfx/sswjjshfzcjbg/202606/t20260601_1963846.html",
+      "access_date": "2026-10-16",
+      "geography": "China mainland / CHN, unless provincial rows",
+      "frequency": "annual unless explicitly a price-period snapshot",
+      "scope": "2025 coal/oil/gas/primary electricity+other 51.4/18.2/8.7/21.7% from June 2026 NBS summary",
+      "transformation": "Supplement only in benchmarks_2025.json; do not silently alter the frozen 2010-2024 calibration vintage or insert unobserved carbon data.",
+      "license": "Public official release; no explicit open-data license identified; original yearbook copyright retained.",
+      "raw_files": [
+        {
+          "path": "raw/nbs_energy_mix_2025_supplement.html",
+          "sha256": "cd35d669c1e7bef1e0604919ca1ccadb5340e9f08504fe40b087242fca67d26d",
+          "bytes": 60394
+        },
+        {
+          "path": "raw/nbs_nea_benchmark_2024_2025.csv",
+          "sha256": "6a99f7c7ef66d1d4972512e8673e7994a55324718544783e2ac81d72ae91a829",
+          "bytes": 1933
+        }
+      ]
+    },
+    {
+      "id": "competition_attachment_1",
+      "title": "附件1.xlsx",
+      "url": null,
+      "access_date": "2026-10-16",
+      "geography": "Supplied Chinese generating assets, sparse/mixed coverage",
+      "frequency": "static; no observation year",
+      "scope": "Names, raw capacity and locations; no observed time series or network topology",
+      "transformation": "Read workbook data_only without saving originals; retain valid named rows and original Excel row numbers. Flag repeated names/classification/geography; no deduplication. MW inferred from attachment1 KW column.",
+      "license": "Competition-supplied attachment; rights and permitted use follow competition materials.",
+      "raw_files": [
+        {
+          "path": "../../2026年第二届全国大学生仿真建模应用挑战赛赛题/A题/附件1.xlsx",
+          "sha256": "4cd3f519f72d18869d33713fc9dd2ec7a3ba83d5178ee6d4170d37adf45ea1cd",
+          "bytes": 35592
+        }
+      ]
+    },
+    {
+      "id": "competition_attachment_2",
+      "title": "附件2.xlsx",
+      "url": null,
+      "access_date": "2026-10-16",
+      "geography": "Supplied Chinese generating assets, sparse/mixed coverage",
+      "frequency": "static; no observation year",
+      "scope": "Names, raw capacity and locations; no observed time series or network topology",
+      "transformation": "Read workbook data_only without saving originals; retain valid named rows and original Excel row numbers. Flag repeated names/classification/geography; no deduplication. MW inferred from attachment1 KW column.",
+      "license": "Competition-supplied attachment; rights and permitted use follow competition materials.",
+      "raw_files": [
+        {
+          "path": "../../2026年第二届全国大学生仿真建模应用挑战赛赛题/A题/附件2.xlsx",
+          "sha256": "7a35204be5db7e8cbfddf77a8a36604fafa87dabbf80c69c752b8b8f0d97a330",
+          "bytes": 19997
+        }
+      ]
+    },
+    {
+      "id": "competition_attachment_3",
+      "title": "附件3.xlsx",
+      "url": null,
+      "access_date": "2026-10-16",
+      "geography": "Supplied Chinese generating assets, sparse/mixed coverage",
+      "frequency": "static; no observation year",
+      "scope": "Names, raw capacity and locations; no observed time series or network topology",
+      "transformation": "Read workbook data_only without saving originals; retain valid named rows and original Excel row numbers. Flag repeated names/classification/geography; no deduplication. MW inferred from attachment1 KW column.",
+      "license": "Competition-supplied attachment; rights and permitted use follow competition materials.",
+      "raw_files": [
+        {
+          "path": "../../2026年第二届全国大学生仿真建模应用挑战赛赛题/A题/附件3.xlsx",
+          "sha256": "df616d471bd31fe865ad9d509ea3fc1fa68d8bd172af7c10bb15ffba7a74987e",
+          "bytes": 10556
+        }
+      ]
+    },
+    {
+      "id": "competition_attachment_4",
+      "title": "附件4.xlsx",
+      "url": null,
+      "access_date": "2026-10-16",
+      "geography": "Supplied Chinese generating assets, sparse/mixed coverage",
+      "frequency": "static; no observation year",
+      "scope": "Names, raw capacity and locations; no observed time series or network topology",
+      "transformation": "Read workbook data_only without saving originals; retain valid named rows and original Excel row numbers. Flag repeated names/classification/geography; no deduplication. MW inferred from attachment1 KW column.",
+      "license": "Competition-supplied attachment; rights and permitted use follow competition materials.",
+      "raw_files": [
+        {
+          "path": "../../2026年第二届全国大学生仿真建模应用挑战赛赛题/A题/附件4.xlsx",
+          "sha256": "a7945ce8d6c279ecb695c3e56b7d331c1d3f098a282b59a8d1826a69b8736eaf",
+          "bytes": 10209
+        }
+      ]
+    },
+    {
+      "id": "nea_hydrogen_2025",
+      "title": "中国氢能发展报告（2025）",
+      "url": "https://www.nea.gov.cn/20250430/96022785b3a747248288ad1c57d3a025/83d863317f2f44edb605348e4de40993.pdf",
+      "access_date": "2026-10-16",
+      "publisher": "国家能源局能源节约和科技装备司、国能氢创科技有限责任公司",
+      "geography": "China; global renewable hydrogen capacity is explicitly excluded",
+      "frequency": "annual 2024, published 2025",
+      "scope": "National hydrogen production and production capacity, including industrial feedstock uses; not final-energy consumption. Report printed pages 8-9 / PDF pages 16-17. China built renewable electrolysis capacity approx 125000 tonnes/year, not global 250000.",
+      "transformation": "Manually transcribe seven hydrogen observations from report; rows source_id=nea_hydrogen_2025. Divide 10000 tonnes by100 to Mt and 10000 tonnes/year by100 to Mt/year. Preserve greater-than lower bounds and approximate qualifiers; do not add hydrogen production to primary energy totals.",
+      "license": "Public official report; no explicit open-data license identified; original authorship and copyright retained.",
+      "raw_files": [
+        {
+          "path": "raw/nea_hydrogen_report_2025.pdf",
+          "sha256": "e9a25766a2094e3206ab2daff821556bd5c56401081b53e8c3e68f97ae71b374",
+          "bytes": 1379195
+        },
+        {
+          "path": "raw/supplement_carriers_2024_transcribed.csv",
+          "sha256": "bfc627bc938c84cdf5c008d0cc4b6f5e1727c1f5324f5aa6cb1bb6151c36495a",
+          "bytes": 1843
+        }
+      ]
+    }
+  ],
+  "download_original_metadata": [
+    {
+      "file": "owid_energy_china_2010_2025.csv",
+      "url": "https://catalog.ourworldindata.org/energy/owid_energy/owid_energy.csv",
+      "download_sha256": "9d8efc4a9b1cc2ffdfa7f7f6f1e171b2922e0be2d97c0edf2982e874357ed6de",
+      "download_bytes": 9081888,
+      "rows_selected": 16,
+      "columns": [
+        "country",
+        "year",
+        "iso_code",
+        "population",
+        "gdp",
+        "bioenergy_electricity_per_capita_kwh",
+        "bioenergy_electricity_share_pct",
+        "bioenergy_electricity_twh",
+        "biofuels_energy_annual_change_pct",
+        "biofuels_energy_annual_change_twh",
+        "biofuels_energy_per_capita_kwh",
+        "biofuels_energy_share_pct",
+        "biofuels_energy_twh",
+        "coal_electricity_per_capita_kwh",
+        "coal_electricity_share_pct",
+        "coal_electricity_twh",
+        "coal_energy_annual_change_pct",
+        "coal_energy_annual_change_twh",
+        "coal_energy_per_capita_kwh",
+        "coal_energy_share_pct",
+        "coal_energy_twh",
+        "coal_production_annual_change_pct",
+        "coal_production_annual_change_twh",
+        "coal_production_per_capita_kwh",
+        "coal_production_twh",
+        "electricity_carbon_intensity_gco2eq_per_kwh",
+        "electricity_demand_per_capita_kwh",
+        "electricity_demand_twh",
+        "electricity_emissions_mtco2eq",
+        "electricity_generation_per_capita_kwh",
+        "electricity_generation_twh",
+        "electricity_net_imports_share_of_demand_pct",
+        "electricity_net_imports_twh",
+        "electricity_share_of_total_energy_pct",
+        "fossil_fuels_electricity_per_capita_kwh",
+        "fossil_fuels_electricity_share_pct",
+        "fossil_fuels_electricity_twh",
+        "fossil_fuels_energy_annual_change_pct",
+        "fossil_fuels_energy_annual_change_twh",
+        "fossil_fuels_energy_per_capita_kwh",
+        "fossil_fuels_energy_share_pct",
+        "fossil_fuels_energy_twh",
+        "gas_electricity_per_capita_kwh",
+        "gas_electricity_share_pct",
+        "gas_electricity_twh",
+        "gas_energy_annual_change_pct",
+        "gas_energy_annual_change_twh",
+        "gas_energy_per_capita_kwh",
+        "gas_energy_share_pct",
+        "gas_energy_twh",
+        "gas_production_annual_change_pct",
+        "gas_production_annual_change_twh",
+        "gas_production_per_capita_kwh",
+        "gas_production_twh",
+        "hydro_electricity_per_capita_kwh",
+        "hydro_electricity_share_pct",
+        "hydro_electricity_twh",
+        "hydro_energy_annual_change_pct",
+        "hydro_energy_annual_change_twh",
+        "hydro_energy_per_capita_kwh",
+        "hydro_energy_share_pct",
+        "hydro_energy_twh",
+        "low_carbon_electricity_per_capita_kwh",
+        "low_carbon_electricity_share_pct",
+        "low_carbon_electricity_twh",
+        "low_carbon_energy_annual_change_pct",
+        "low_carbon_energy_annual_change_twh",
+        "low_carbon_energy_per_capita_kwh",
+        "low_carbon_energy_share_pct",
+        "low_carbon_energy_twh",
+        "nuclear_electricity_per_capita_kwh",
+        "nuclear_electricity_share_pct",
+        "nuclear_electricity_twh",
+        "nuclear_energy_annual_change_pct",
+        "nuclear_energy_annual_change_twh",
+        "nuclear_energy_per_capita_kwh",
+        "nuclear_energy_share_pct",
+        "nuclear_energy_twh",
+        "oil_electricity_per_capita_kwh",
+        "oil_electricity_share_pct",
+        "oil_electricity_twh",
+        "oil_energy_annual_change_pct",
+        "oil_energy_annual_change_twh",
+        "oil_energy_per_capita_kwh",
+        "oil_energy_share_pct",
+        "oil_energy_twh",
+        "oil_production_annual_change_pct",
+        "oil_production_annual_change_twh",
+        "oil_production_per_capita_kwh",
+        "oil_production_twh",
+        "other_renewables_excluding_bioenergy_electricity_per_capita_kwh",
+        "other_renewables_excluding_bioenergy_electricity_share_pct",
+        "other_renewables_excluding_bioenergy_electricity_twh",
+        "other_renewables_including_bioenergy_electricity_per_capita_kwh",
+        "other_renewables_including_bioenergy_electricity_share_pct",
+        "other_renewables_including_bioenergy_electricity_twh",
+        "other_renewables_including_bioenergy_energy_annual_change_pct",
+        "other_renewables_including_bioenergy_energy_annual_change_twh",
+        "other_renewables_including_bioenergy_energy_per_capita_kwh",
+        "other_renewables_including_bioenergy_energy_share_pct",
+        "other_renewables_including_bioenergy_energy_twh",
+        "renewables_electricity_per_capita_kwh",
+        "renewables_electricity_share_pct",
+        "renewables_electricity_twh",
+        "renewables_energy_annual_change_pct",
+        "renewables_energy_annual_change_twh",
+        "renewables_energy_per_capita_kwh",
+        "renewables_energy_share_pct",
+        "renewables_energy_twh",
+        "solar_electricity_per_capita_kwh",
+        "solar_electricity_share_pct",
+        "solar_electricity_twh",
+        "solar_energy_annual_change_pct",
+        "solar_energy_annual_change_twh",
+        "solar_energy_per_capita_kwh",
+        "solar_energy_share_pct",
+        "solar_energy_twh",
+        "total_energy_annual_change_pct",
+        "total_energy_annual_change_twh",
+        "total_energy_per_capita_kwh",
+        "total_energy_per_gdp_kwh_per_dollar",
+        "total_energy_twh",
+        "wind_electricity_per_capita_kwh",
+        "wind_electricity_share_pct",
+        "wind_electricity_twh",
+        "wind_energy_annual_change_pct",
+        "wind_energy_annual_change_twh",
+        "wind_energy_per_capita_kwh",
+        "wind_energy_share_pct",
+        "wind_energy_twh"
+      ],
+      "filter": "country == China and 2010 <= year <= 2025",
+      "headers": {
+        "Content-Type": "text/csv; charset=utf-8",
+        "Content-Length": "9081888",
+        "ETag": "\"a95c4bd1835a60fbe3fd20ea37a53d67-2\"",
+        "Last-Modified": "Wed, 30 Sep 2026 14:42:02 GMT"
+      },
+      "access_date": "2026-10-16"
+    },
+    {
+      "file": "owid_co2_china_2010_2025.csv",
+      "url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "download_sha256": "7f78e2b218ce4bb8c538bbec04fdc9a7982e8d40bff972e650df603899edd5f6",
+      "download_bytes": 14377942,
+      "rows_selected": 15,
+      "columns": [
+        "country",
+        "year",
+        "iso_code",
+        "population",
+        "gdp",
+        "cement_co2",
+        "cement_co2_per_capita",
+        "co2",
+        "co2_growth_abs",
+        "co2_growth_prct",
+        "co2_including_luc",
+        "co2_including_luc_growth_abs",
+        "co2_including_luc_growth_prct",
+        "co2_including_luc_per_capita",
+        "co2_including_luc_per_gdp",
+        "co2_including_luc_per_unit_energy",
+        "co2_per_capita",
+        "co2_per_gdp",
+        "co2_per_unit_energy",
+        "coal_co2",
+        "coal_co2_per_capita",
+        "consumption_co2",
+        "consumption_co2_per_capita",
+        "consumption_co2_per_gdp",
+        "cumulative_cement_co2",
+        "cumulative_co2",
+        "cumulative_co2_including_luc",
+        "cumulative_coal_co2",
+        "cumulative_flaring_co2",
+        "cumulative_gas_co2",
+        "cumulative_luc_co2",
+        "cumulative_oil_co2",
+        "cumulative_other_co2",
+        "energy_per_capita",
+        "energy_per_gdp",
+        "flaring_co2",
+        "flaring_co2_per_capita",
+        "gas_co2",
+        "gas_co2_per_capita",
+        "ghg_excluding_lucf_per_capita",
+        "ghg_per_capita",
+        "land_use_change_co2",
+        "land_use_change_co2_per_capita",
+        "methane",
+        "methane_per_capita",
+        "nitrous_oxide",
+        "nitrous_oxide_per_capita",
+        "oil_co2",
+        "oil_co2_per_capita",
+        "other_co2_per_capita",
+        "other_industry_co2",
+        "primary_energy_consumption",
+        "share_global_cement_co2",
+        "share_global_co2",
+        "share_global_co2_including_luc",
+        "share_global_coal_co2",
+        "share_global_cumulative_cement_co2",
+        "share_global_cumulative_co2",
+        "share_global_cumulative_co2_including_luc",
+        "share_global_cumulative_coal_co2",
+        "share_global_cumulative_flaring_co2",
+        "share_global_cumulative_gas_co2",
+        "share_global_cumulative_luc_co2",
+        "share_global_cumulative_oil_co2",
+        "share_global_cumulative_other_co2",
+        "share_global_flaring_co2",
+        "share_global_gas_co2",
+        "share_global_luc_co2",
+        "share_global_oil_co2",
+        "share_global_other_co2",
+        "share_of_temperature_change_from_ghg",
+        "temperature_change_from_ch4",
+        "temperature_change_from_co2",
+        "temperature_change_from_ghg",
+        "temperature_change_from_n2o",
+        "total_ghg",
+        "total_ghg_excluding_lucf",
+        "trade_co2",
+        "trade_co2_share"
+      ],
+      "filter": "country == China and 2010 <= year <= 2025",
+      "headers": {
+        "Content-Length": "14377942",
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"63a02d5c7948e0a86986c8680130d4ff2c9f3074ed3e0c7b99ab5b7d8e351c99\""
+      },
+      "access_date": "2026-10-16"
+    },
+    {
+      "file": "ember_china_2010_2025.csv",
+      "url": "https://files.ember-energy.org/public-downloads/yearly_full_release_long_format.csv",
+      "download_sha256": "259e1095ee8ffeaf0aff37ad557916ae1823a2da13312da50ba4cec6b4574c3b",
+      "download_bytes": 49079981,
+      "rows_selected": 992,
+      "columns": [
+        "Area",
+        "ISO 3 code",
+        "Year",
+        "Area type",
+        "Continent",
+        "Ember region",
+        "EU",
+        "OECD",
+        "G20",
+        "G7",
+        "ASEAN",
+        "Category",
+        "Subcategory",
+        "Variable",
+        "Unit",
+        "Value",
+        "YoY absolute change",
+        "YoY % change"
+      ],
+      "filter": "Area == China and 2010 <= Year <= 2025",
+      "headers": {
+        "Last-Modified": "Tue, 23 Jun 2026 10:58:24 GMT",
+        "ETag": "\"e4c54c09953364d6e86cd164711cda8a\"",
+        "Content-Type": "text/csv",
+        "Content-Length": "49079981"
+      },
+      "access_date": "2026-10-16"
+    },
+    {
+      "file": "ember_china_latest_2010_2025.csv",
+      "url": "https://files.ember-energy.org/public-downloads/generation/outputs/release_generation_yearly_global.csv",
+      "download_sha256": "b2ac49fa9b27035fedda3c6afb85917bf136de9253bfcbaf09c3410904ec7cd1",
+      "download_bytes": 16123048,
+      "filter": "Area == China and 2010 <= Year <= 2025",
+      "headers": {
+        "Last-Modified": "Tue, 06 Oct 2026 18:04:43 GMT",
+        "ETag": "\"b8972990fc141f8c734eda2ff50148a5\"",
+        "Content-Type": "text/csv;charset=utf-8",
+        "Content-Length": "16123048"
+      },
+      "access_date": "2026-10-16"
+    },
+    {
+      "file": "ember_methodology.pdf",
+      "url": "https://files.ember-energy.org/public-downloads/ember_electricity_data_methodology.pdf",
+      "download_sha256": "67c5eaac3bfbeb7e67bb786f9ea9680f67f6f26e75318560562ee52d439de908",
+      "download_bytes": 1487777,
+      "filter": "none, full source preserved",
+      "headers": {
+        "Last-Modified": "Tue, 22 Sep 2026 11:58:42 GMT",
+        "ETag": "\"9e4a04176b5b87901bdf0da81b05935b\"",
+        "Content-Type": "application/pdf",
+        "Content-Length": "1487777"
+      },
+      "access_date": "2026-10-16"
+    },
+    {
+      "file": "owid_co2_china_2005.csv",
+      "url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "access_date": "2026-10-16",
+      "download_sha256": "7f78e2b218ce4bb8c538bbec04fdc9a7982e8d40bff972e650df603899edd5f6",
+      "download_bytes": 14377942,
+      "filter": "country == China and year == 2005",
+      "rows_selected": 1
+    }
+  ],
+  "rebuild_command": "python src/prepare_data.py",
+  "rebuild_network": "none; all computation uses preserved source snapshots",
+  "attachment_policy": "Original four contest spreadsheets copied unchanged to data/raw/contest_attachments for self-contained offline asset audit; not treated as complete national statistics.",
+  "documents": [
+    "docs/数据与口径.md"
+  ],
+  "processor": {
+    "path": "../src/prepare_data.py",
+    "sha256": "5e474984aaf29d86ba134b26b88e4b5e12c1f3240479da678b9ceae08ef0895a"
+  },
+  "product_snapshot_sha256": {
+    "annual_china.csv": "2d87c3089eb99de84f38354ff9086d30134dcf1481715fec575a228ba2c09c6f",
+    "power_china.csv": "be331346a7bb9d6a4b0179fe18438d53b1f824ffc5866b44b31c9b915fba2005",
+    "ember_power_china.csv": "72ee74b02a7b5d670ead72c37b0b790a5982aaca059111c78877e21939cb5012",
+    "asset_audit.csv": "98cfe832024716b9182b965a037bf72db1701fa7ac35a9a61128540c65c979cb",
+    "attachment_assets.csv": "c9104f48a1a509e55a8e1f16b038e543d665f48b9a30f1ee5f9b1ba8fbf29dc5",
+    "publication_vintage_checks.csv": "33449927d358ba7fb426a9a23db58cb3379f6bec15ec96996f30b8e5d0a124c6",
+    "benchmarks_2005.json": "5afb1c156e95b0cab2d6b7396ac6fe4fdb5eaeac1e16a304714425d2f7ede453",
+    "benchmarks_2025.json": "abdb404c769b9918b9b23991aafe3e002361168b2950859b70dd0e15b9b5819a",
+    "energy_production_china.csv": "b56ad05e90a5b94a243d2a4faff97081a8917d1ab854f201f7ab10b02a811527",
+    "fuel_supply_trade.csv": "1ffe9642679b61603f4caf310b6ca15e5f912e1530d48f27a4b4a759a8ea7ffd",
+    "regional_energy_2024.csv": "0dcd088a7544b9a3c6b0b1b305d99a6f7a094d9497d81a6ff55a755a644a550f",
+    "energy_prices_snapshot.csv": "817c764b870fa8dc0bcbe918ba84732a3d24e76f7631f1837eb2fef099909928",
+    "security_supply_proxies_2024.json": "76f3cb245c7eb9a1d03b9b50bc46d0893c61618be8343b92a1a6b959b5b8a8b0",
+    "data_quality.json": "22c74ea7c89ea0196918c368c5febfbdc02d80d20ff91fe4b355f20012740af2",
+    "supplement_carriers_2024.csv": "3364e05f29a52437b6fd89d4dddcf7a268942a82a5974cc627b4593f6c3deea0"
+  }
+}

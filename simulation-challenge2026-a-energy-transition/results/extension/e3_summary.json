@@ -1,0 +1,149 @@
+{
+ "net_additions_2022_2024_gw": {
+  "wind": [
+   36.99,
+   75.93,
+   79.38
+  ],
+  "solar": [
+   86.06,
+   216.89,
+   277.18
+  ]
+ },
+ "lag_leaves_2025_unchanged": true,
+ "changes_vs_native": {
+  "baseline | last year | pipeline+anchor | delay x1.0": {
+   "wind_solar_2030_gw": 224.2588061679121,
+   "energy_co2_2030_mt": -154.53474033671773,
+   "nonfossil_share_2030_pp": 1.0338680725758165,
+   "remaining_net_co2_2060_mt": -226.09443521182038,
+   "cumulative_unserved_twh": 31280.845362854394,
+   "capex_wind_and_solar_tn_cny": 3.0731098393133394,
+   "capex_firm_generation_tn_cny": -1.0000257510022479,
+   "capex_storage_tn_cny": 0.011520014094933806,
+   "capex_fuel_supply_tn_cny": -2.0846041024060273
+  },
+  "baseline | linear trend | pipeline+anchor | delay x1.0": {
+   "wind_solar_2030_gw": 494.35720603665186,
+   "energy_co2_2030_mt": -427.16202354407505,
+   "nonfossil_share_2030_pp": 2.50096332107399,
+   "remaining_net_co2_2060_mt": -1205.398181738732,
+   "cumulative_unserved_twh": 70922.27360482205,
+   "capex_wind_and_solar_tn_cny": 6.1829386180671335,
+   "capex_firm_generation_tn_cny": -2.567197089421766,
+   "capex_storage_tn_cny": 0.11289270509406574,
+   "capex_fuel_supply_tn_cny": -3.7286342337394345
+  },
+  "baseline | observed 2025 | pipeline+anchor | delay x1.0": {
+   "wind_solar_2030_gw": 359.4468117402066,
+   "energy_co2_2030_mt": -334.03878930434075,
+   "nonfossil_share_2030_pp": 2.1091544121280337,
+   "remaining_net_co2_2060_mt": -925.84498460143,
+   "cumulative_unserved_twh": 60699.65873796126,
+   "capex_wind_and_solar_tn_cny": 5.3806942853165864,
+   "capex_firm_generation_tn_cny": -2.1850087697623835,
+   "capex_storage_tn_cny": 0.07305581687833257,
+   "capex_fuel_supply_tn_cny": -3.2687413324325325
+  },
+  "baseline | observed 2025 | pipeline | delay x1.0": {
+   "wind_solar_2030_gw": 205.56968431209953,
+   "energy_co2_2030_mt": -102.47120394617014,
+   "nonfossil_share_2030_pp": 1.079144248574193,
+   "remaining_net_co2_2060_mt": -39.64492244700523,
+   "cumulative_unserved_twh": -3337.000273293179,
+   "capex_wind_and_solar_tn_cny": 0.12092401360315108,
+   "capex_firm_generation_tn_cny": -0.2722066218113177,
+   "capex_storage_tn_cny": -0.005235322291074596,
+   "capex_fuel_supply_tn_cny": 0.15651793049923501
+  },
+  "baseline | native | pipeline+anchor | delay x1.5": {
+   "wind_solar_2030_gw": -251.19324871336357,
+   "energy_co2_2030_mt": -217.61827934558642,
+   "nonfossil_share_2030_pp": -1.0688706230405298,
+   "remaining_net_co2_2060_mt": 588.5031116078499,
+   "cumulative_unserved_twh": 36150.362013807,
+   "capex_wind_and_solar_tn_cny": -0.4583329381757011,
+   "capex_firm_generation_tn_cny": 1.679824297332619,
+   "capex_storage_tn_cny": 0.13112991069664953,
+   "capex_fuel_supply_tn_cny": -1.3526212698535707
+  },
+  "baseline | native | pipeline+anchor | delay x2.0": {
+   "wind_solar_2030_gw": -319.35193799786384,
+   "energy_co2_2030_mt": -449.44644818028246,
+   "nonfossil_share_2030_pp": -1.186328394804942,
+   "remaining_net_co2_2060_mt": 625.6265418503426,
+   "cumulative_unserved_twh": 77859.37414277249,
+   "capex_wind_and_solar_tn_cny": -0.21928547707542378,
+   "capex_firm_generation_tn_cny": 2.669333099476443,
+   "capex_storage_tn_cny": 0.3088532045038805,
+   "capex_fuel_supply_tn_cny": -2.7589008269049042
+  },
+  "policy | last year | pipeline+anchor | delay x1.0": {
+   "wind_solar_2030_gw": 278.50142953647355,
+   "energy_co2_2030_mt": -269.84342391536666,
+   "nonfossil_share_2030_pp": 1.3640275681671477,
+   "remaining_net_co2_2060_mt": 0.18902602074194874,
+   "cumulative_unserved_twh": 1492.996428216844,
+   "capex_wind_and_solar_tn_cny": 3.307588141066887,
+   "capex_firm_generation_tn_cny": -1.6206238368119763,
+   "capex_storage_tn_cny": 0.28493100755368683,
+   "capex_fuel_supply_tn_cny": -1.9718953118085967
+  },
+  "policy | linear trend | pipeline+anchor | delay x1.0": {
+   "wind_solar_2030_gw": 555.3946781615391,
+   "energy_co2_2030_mt": -510.6891222874965,
+   "nonfossil_share_2030_pp": 2.7957289125941864,
+   "remaining_net_co2_2060_mt": 94.90042018847635,
+   "cumulative_unserved_twh": 9326.609792381856,
+   "capex_wind_and_solar_tn_cny": 6.83408759810807,
+   "capex_firm_generation_tn_cny": -3.1262823301445923,
+   "capex_storage_tn_cny": 0.5200612732625489,
+   "capex_fuel_supply_tn_cny": -4.227866541226032
+  },
+  "policy | observed 2025 | pipeline+anchor | delay x1.0": {
+   "wind_solar_2030_gw": 416.1557044297824,
+   "energy_co2_2030_mt": -452.98066181362265,
+   "nonfossil_share_2030_pp": 2.477524612737947,
+   "remaining_net_co2_2060_mt": 58.40226598065965,
+   "cumulative_unserved_twh": 5763.323811311668,
+   "capex_wind_and_solar_tn_cny": 5.835476683840369,
+   "capex_firm_generation_tn_cny": -2.8339207247485128,
+   "capex_storage_tn_cny": 0.47633875503479883,
+   "capex_fuel_supply_tn_cny": -3.477894714126654
+  },
+  "policy | observed 2025 | pipeline | delay x1.0": {
+   "wind_solar_2030_gw": 234.29118678718442,
+   "energy_co2_2030_mt": -278.5816929872799,
+   "nonfossil_share_2030_pp": 1.523510305707504,
+   "remaining_net_co2_2060_mt": -2.626067593018888,
+   "cumulative_unserved_twh": -1.0913936421275139e-11,
+   "capex_wind_and_solar_tn_cny": -0.29266067212905966,
+   "capex_firm_generation_tn_cny": -0.38744731198826443,
+   "capex_storage_tn_cny": 0.0159838788731399,
+   "capex_fuel_supply_tn_cny": 0.664124105244186
+  },
+  "policy | native | pipeline+anchor | delay x1.5": {
+   "wind_solar_2030_gw": -295.77611615325213,
+   "energy_co2_2030_mt": -176.29366768722866,
+   "nonfossil_share_2030_pp": -1.3837585448147616,
+   "remaining_net_co2_2060_mt": 154.46552430840893,
+   "cumulative_unserved_twh": 9816.03262907877,
+   "capex_wind_and_solar_tn_cny": 0.8021109660015355,
+   "capex_firm_generation_tn_cny": 1.3693942046915417,
+   "capex_storage_tn_cny": 0.0068633397302453325,
+   "capex_fuel_supply_tn_cny": -2.1783685104233186
+  },
+  "policy | native | pipeline+anchor | delay x2.0": {
+   "wind_solar_2030_gw": -377.67545438955995,
+   "energy_co2_2030_mt": -424.13493814936373,
+   "nonfossil_share_2030_pp": -1.5454972900344366,
+   "remaining_net_co2_2060_mt": 390.1627487953192,
+   "cumulative_unserved_twh": 23323.156007396385,
+   "capex_wind_and_solar_tn_cny": 1.024219953496619,
+   "capex_firm_generation_tn_cny": 2.4727276562529745,
+   "capex_storage_tn_cny": 0.018783637384718777,
+   "capex_fuel_supply_tn_cny": -3.5157312471343154
+  }
+ }
+}

@@ -1,0 +1,4 @@
+table,deduplication_key,raw_rows,duplicates_removed,canonical_rows,conflicting_groups
+tournaments,none (Year must already be unique),20,0,20,0
+matches,"RoundID,MatchID",852,16,836,0
+players,exact full raw row,37784,736,37048,0

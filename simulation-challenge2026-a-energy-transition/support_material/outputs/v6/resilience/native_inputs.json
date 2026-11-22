@@ -1,0 +1,658 @@
+{
+  "default_snapshot_key": "plan_02349_2060",
+  "snapshots": {
+    "plan_00000_2030": {
+      "year": 2030,
+      "scenario": "plan_00000",
+      "electricity_demand_twh": 12935.782834706888,
+      "capacity_gw": {
+        "coal": 1363.7861953087754,
+        "gas": 201.17175549497045,
+        "nuclear": 75.03251381511257,
+        "hydro": 418.09992606262574,
+        "wind": 823.2936451318974,
+        "solar": 1781.6005407042094,
+        "biomass": 47.115596971931936,
+        "battery_power": 55.89380869875581,
+        "battery_energy": 223.57523479502325,
+        "pumped_power": 58.64236438295894,
+        "pumped_energy": 351.85418629775364
+      },
+      "fuel_domestic_supply_mtce_per_year": {
+        "coal": 2536.825886564467,
+        "oil": 85.29201251821883,
+        "gas": 410.41178289594745
+      },
+      "fuel_import_supply_mtce_per_year": {
+        "coal": 504.82193177581536,
+        "oil": 1119.3149631579854,
+        "gas": 287.3284731267447
+      },
+      "fuel_import_capacity_mtce_per_year": {
+        "coal": 504.82193177581536,
+        "oil": 1119.3149631579854,
+        "gas": 287.3284731267447
+      },
+      "fuel_initial_stocks_mtce": {
+        "coal": 390.9106849315076,
+        "oil": 148.337414441266,
+        "gas": 0.0
+      },
+      "direct_fuel_demand_mtce_per_year": {
+        "coal": 1042.6811020745522,
+        "oil": 1203.1812504680463,
+        "gas": 688.7834903002845
+      },
+      "fuel_efficiency": {
+        "coal": 0.4,
+        "gas": 0.55
+      },
+      "carbon_price_cny_t": 112.64735424208752,
+      "biomass_generation_budget_twh_per_year": 234.857594183984
+    },
+    "plan_00000_2060": {
+      "year": 2060,
+      "scenario": "plan_00000",
+      "electricity_demand_twh": 24804.09637070545,
+      "capacity_gw": {
+        "coal": 1964.5814199692577,
+        "gas": 506.61357563575984,
+        "nuclear": 133.89996016671762,
+        "hydro": 619.0384277326584,
+        "wind": 2391.2584676578776,
+        "solar": 6594.789978159556,
+        "biomass": 86.80958178900264,
+        "battery_power": 23.783699416164573,
+        "battery_energy": 95.1347976646583,
+        "pumped_power": 51.16309269592199,
+        "pumped_energy": 306.97855617553193
+      },
+      "fuel_domestic_supply_mtce_per_year": {
+        "coal": 1986.8150928375815,
+        "oil": 0.0,
+        "gas": 1563.6013871447544
+      },
+      "fuel_import_supply_mtce_per_year": {
+        "coal": 969.3174283958481,
+        "oil": 639.6333015782623,
+        "gas": 551.7044310979051
+      },
+      "fuel_import_capacity_mtce_per_year": {
+        "coal": 969.3174283958481,
+        "oil": 2149.2162550004136,
+        "gas": 551.7044310979051
+      },
+      "fuel_initial_stocks_mtce": {
+        "coal": 390.9106849315076,
+        "oil": 155.33829981038627,
+        "gas": 260.2228780797218
+      },
+      "direct_fuel_demand_mtce_per_year": {
+        "coal": 76.55148175570648,
+        "oil": 639.6333015782623,
+        "gas": 2051.48335263269
+      },
+      "fuel_efficiency": {
+        "coal": 0.4,
+        "gas": 0.55
+      },
+      "carbon_price_cny_t": 591.4289103338111,
+      "biomass_generation_budget_twh_per_year": 427.9384377771218
+    },
+    "plan_01989_2030": {
+      "year": 2030,
+      "scenario": "plan_01989",
+      "electricity_demand_twh": 12896.892289635874,
+      "capacity_gw": {
+        "coal": 1361.910682334666,
+        "gas": 272.87376962026667,
+        "nuclear": 81.65308333333331,
+        "hydro": 460.12201533333325,
+        "wind": 854.0235491423,
+        "solar": 1890.424348132882,
+        "biomass": 49.006405254813465,
+        "battery_power": 67.95747582584309,
+        "battery_energy": 271.82990330337236,
+        "pumped_power": 62.247962788326696,
+        "pumped_energy": 373.48777672996016
+      },
+      "fuel_domestic_supply_mtce_per_year": {
+        "coal": 2527.332171063362,
+        "oil": 78.1375250475628,
+        "gas": 457.86010494777895
+      },
+      "fuel_import_supply_mtce_per_year": {
+        "coal": 504.82193177581536,
+        "oil": 1119.3149631579854,
+        "gas": 287.3284731267447
+      },
+      "fuel_import_capacity_mtce_per_year": {
+        "coal": 504.82193177581536,
+        "oil": 1119.3149631579854,
+        "gas": 287.3284731267447
+      },
+      "fuel_initial_stocks_mtce": {
+        "coal": 390.9106849315067,
+        "oil": 147.5221386711164,
+        "gas": 15.137612500843147
+      },
+      "direct_fuel_demand_mtce_per_year": {
+        "coal": 1035.9364157277712,
+        "oil": 1196.5684581101666,
+        "gas": 701.3332468479708
+      },
+      "fuel_efficiency": {
+        "coal": 0.4,
+        "gas": 0.55
+      },
+      "carbon_price_cny_t": 119.54385156846783,
+      "biomass_generation_budget_twh_per_year": 234.857594183984
+    },
+    "plan_01989_2060": {
+      "year": 2060,
+      "scenario": "plan_01989",
+      "electricity_demand_twh": 24300.09327000339,
+      "capacity_gw": {
+        "coal": 1509.793511769587,
+        "gas": 1220.1101145908597,
+        "nuclear": 430.3732682343112,
+        "hydro": 1621.6929859220304,
+        "wind": 2349.870239142434,
+        "solar": 6626.232985421798,
+        "biomass": 89.28438543479768,
+        "battery_power": 61.32034637489301,
+        "battery_energy": 245.28138549957205,
+        "pumped_power": 98.95336656494278,
+        "pumped_energy": 593.7201993896567
+      },
+      "fuel_domestic_supply_mtce_per_year": {
+        "coal": 82.36294712470044,
+        "oil": 0.0,
+        "gas": 1558.8735394226032
+      },
+      "fuel_import_supply_mtce_per_year": {
+        "coal": 969.3174283958481,
+        "oil": 657.913613937259,
+        "gas": 551.7044310979051
+      },
+      "fuel_import_capacity_mtce_per_year": {
+        "coal": 969.3174283958481,
+        "oil": 2149.2162550004136,
+        "gas": 551.7044310979051
+      },
+      "fuel_initial_stocks_mtce": {
+        "coal": 390.91068493150647,
+        "oil": 152.57506979465518,
+        "gas": 259.7822046643596
+      },
+      "direct_fuel_demand_mtce_per_year": {
+        "coal": 81.07623847721156,
+        "oil": 657.913613937259,
+        "gas": 2107.1223267220294
+      },
+      "fuel_efficiency": {
+        "coal": 0.4,
+        "gas": 0.55
+      },
+      "carbon_price_cny_t": 407.137582071237,
+      "biomass_generation_budget_twh_per_year": 427.9384377771218
+    },
+    "plan_01097_2030": {
+      "year": 2030,
+      "scenario": "plan_01097",
+      "electricity_demand_twh": 12975.837942136839,
+      "capacity_gw": {
+        "coal": 1595.1693931060317,
+        "gas": 272.87376962026667,
+        "nuclear": 76.62199194660573,
+        "hydro": 430.0507670810733,
+        "wind": 779.0366237207866,
+        "solar": 1617.2384251834608,
+        "biomass": 49.006405254813465,
+        "battery_power": 74.5506017580067,
+        "battery_energy": 298.2024070320268,
+        "pumped_power": 64.2483493078144,
+        "pumped_energy": 385.49009584688633
+      },
+      "fuel_domestic_supply_mtce_per_year": {
+        "coal": 2788.3055412173608,
+        "oil": 74.18242686431836,
+        "gas": 417.1612578018925
+      },
+      "fuel_import_supply_mtce_per_year": {
+        "coal": 504.82193177581536,
+        "oil": 1119.3149631579854,
+        "gas": 287.3284731267447
+      },
+      "fuel_import_capacity_mtce_per_year": {
+        "coal": 504.82193177581536,
+        "oil": 1119.3149631579854,
+        "gas": 287.3284731267447
+      },
+      "fuel_initial_stocks_mtce": {
+        "coal": 405.4817836188122,
+        "oil": 147.05221090101873,
+        "gas": 86.21901057221339
+      },
+      "direct_fuel_demand_mtce_per_year": {
+        "coal": 1026.8856613703163,
+        "oil": 1192.756821752708,
+        "gas": 699.3319746412866
+      },
+      "fuel_efficiency": {
+        "coal": 0.4,
+        "gas": 0.55
+      },
+      "carbon_price_cny_t": 159.11930819081792,
+      "biomass_generation_budget_twh_per_year": 234.857594183984
+    },
+    "plan_01097_2060": {
+      "year": 2060,
+      "scenario": "plan_01097",
+      "electricity_demand_twh": 25876.107564155278,
+      "capacity_gw": {
+        "coal": 2498.53770934622,
+        "gas": 1378.946502812836,
+        "nuclear": 181.2316855333554,
+        "hydro": 779.0725118641776,
+        "wind": 2146.6730219925817,
+        "solar": 5957.771507995336,
+        "biomass": 89.28438543479768,
+        "battery_power": 83.25622305216429,
+        "battery_energy": 333.02489220865715,
+        "pumped_power": 124.7157027447908,
+        "pumped_energy": 748.2942164687448
+      },
+      "fuel_domestic_supply_mtce_per_year": {
+        "coal": 1344.8855831361846,
+        "oil": 0.0,
+        "gas": 2180.30091167266
+      },
+      "fuel_import_supply_mtce_per_year": {
+        "coal": 969.3174283958481,
+        "oil": 600.2030975796571,
+        "gas": 551.7044310979051
+      },
+      "fuel_import_capacity_mtce_per_year": {
+        "coal": 969.3174283958481,
+        "oil": 2149.2162550004136,
+        "gas": 551.7044310979051
+      },
+      "fuel_initial_stocks_mtce": {
+        "coal": 419.89552186667515,
+        "oil": 151.36135474464913,
+        "gas": 336.1892509293866
+      },
+      "direct_fuel_demand_mtce_per_year": {
+        "coal": 67.39977367539534,
+        "oil": 600.2030975796571,
+        "gas": 1932.971816860112
+      },
+      "fuel_efficiency": {
+        "coal": 0.4,
+        "gas": 0.55
+      },
+      "carbon_price_cny_t": 957.3309345851197,
+      "biomass_generation_budget_twh_per_year": 427.9384377771218
+    },
+    "plan_01400_2030": {
+      "year": 2030,
+      "scenario": "plan_01400",
+      "electricity_demand_twh": 12997.497870376588,
+      "capacity_gw": {
+        "coal": 1520.925805627745,
+        "gas": 232.48256590319815,
+        "nuclear": 79.8418058682202,
+        "hydro": 447.5224396655911,
+        "wind": 1107.061238097623,
+        "solar": 2724.527582231809,
+        "biomass": 48.91723463680513,
+        "battery_power": 74.68002793011962,
+        "battery_energy": 298.7201117204785,
+        "pumped_power": 63.46317758324978,
+        "pumped_energy": 380.7790654994987
+      },
+      "fuel_domestic_supply_mtce_per_year": {
+        "coal": 2215.9446770300324,
+        "oil": 73.1080032910495,
+        "gas": 416.5930039961729
+      },
+      "fuel_import_supply_mtce_per_year": {
+        "coal": 504.82193177581536,
+        "oil": 1119.3149631579854,
+        "gas": 287.3284731267447
+      },
+      "fuel_import_capacity_mtce_per_year": {
+        "coal": 504.82193177581536,
+        "oil": 1119.3149631579854,
+        "gas": 287.3284731267447
+      },
+      "fuel_initial_stocks_mtce": {
+        "coal": 390.9106849315076,
+        "oil": 146.9225646664636,
+        "gas": 86.15086550905801
+      },
+      "direct_fuel_demand_mtce_per_year": {
+        "coal": 1024.409902393122,
+        "oil": 1191.7052467390931,
+        "gas": 698.7792424623592
+      },
+      "fuel_efficiency": {
+        "coal": 0.4,
+        "gas": 0.55
+      },
+      "carbon_price_cny_t": 168.77534640253862,
+      "biomass_generation_budget_twh_per_year": 234.857594183984
+    },
+    "plan_01400_2060": {
+      "year": 2060,
+      "scenario": "plan_01400",
+      "electricity_demand_twh": 24775.896788423168,
+      "capacity_gw": {
+        "coal": 2758.1295946187256,
+        "gas": 817.072664902028,
+        "nuclear": 467.6390796742911,
+        "hydro": 1723.1572135293854,
+        "wind": 3301.2318252742316,
+        "solar": 9018.229627373164,
+        "biomass": 89.10069399557732,
+        "battery_power": 617.8211354072197,
+        "battery_energy": 2471.2845416288787,
+        "pumped_power": 223.50952594275296,
+        "pumped_energy": 1341.0571556565178
+      },
+      "fuel_domestic_supply_mtce_per_year": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 1506.3645875756397
+      },
+      "fuel_import_supply_mtce_per_year": {
+        "coal": 76.76228594742177,
+        "oil": 640.4800246534369,
+        "gas": 551.7044310979051
+      },
+      "fuel_import_capacity_mtce_per_year": {
+        "coal": 969.3174283958481,
+        "oil": 2149.2162550004136,
+        "gas": 551.7044310979051
+      },
+      "fuel_initial_stocks_mtce": {
+        "coal": 390.9106849315076,
+        "oil": 151.29800668314977,
+        "gas": 253.31806371211906
+      },
+      "direct_fuel_demand_mtce_per_year": {
+        "coal": 76.76228594741954,
+        "oil": 640.4800246534369,
+        "gas": 2054.6909612205177
+      },
+      "fuel_efficiency": {
+        "coal": 0.4,
+        "gas": 0.55
+      },
+      "carbon_price_cny_t": 562.8542238371131,
+      "biomass_generation_budget_twh_per_year": 427.9384377771218
+    },
+    "plan_00938_2030": {
+      "year": 2030,
+      "scenario": "plan_00938",
+      "electricity_demand_twh": 12979.64755566616,
+      "capacity_gw": {
+        "coal": 1609.909764860282,
+        "gas": 243.11904422230015,
+        "nuclear": 76.11064791875499,
+        "hydro": 426.2302159992214,
+        "wind": 748.8206460115738,
+        "solar": 1542.946216614869,
+        "biomass": 49.006405254813465,
+        "battery_power": 75.25168305169846,
+        "battery_energy": 301.00673220679386,
+        "pumped_power": 64.46106078692091,
+        "pumped_energy": 386.76636472152546
+      },
+      "fuel_domestic_supply_mtce_per_year": {
+        "coal": 2837.5927249246415,
+        "oil": 73.98979830129656,
+        "gas": 417.0595246164984
+      },
+      "fuel_import_supply_mtce_per_year": {
+        "coal": 504.82193177581536,
+        "oil": 1119.3149631579854,
+        "gas": 287.3284731267447
+      },
+      "fuel_import_capacity_mtce_per_year": {
+        "coal": 504.82193177581536,
+        "oil": 1119.3149631579854,
+        "gas": 287.3284731267447
+      },
+      "fuel_initial_stocks_mtce": {
+        "coal": 411.377666118271,
+        "oil": 147.0294206476019,
+        "gas": 86.20703278003305
+      },
+      "direct_fuel_demand_mtce_per_year": {
+        "coal": 1026.4500889155095,
+        "oil": 1192.571967474994,
+        "gas": 699.2348214380459
+      },
+      "fuel_efficiency": {
+        "coal": 0.4,
+        "gas": 0.55
+      },
+      "carbon_price_cny_t": 161.08711298208144,
+      "biomass_generation_budget_twh_per_year": 234.857594183984
+    },
+    "plan_00938_2060": {
+      "year": 2060,
+      "scenario": "plan_00938",
+      "electricity_demand_twh": 26237.223883277868,
+      "capacity_gw": {
+        "coal": 2702.1758816060674,
+        "gas": 757.1294367610408,
+        "nuclear": 143.0063526517519,
+        "hydro": 638.616180111936,
+        "wind": 1634.763273813103,
+        "solar": 4487.233297757526,
+        "biomass": 87.1415374700411,
+        "battery_power": 66.71848414037773,
+        "battery_energy": 266.8739365615109,
+        "pumped_power": 112.7692399222795,
+        "pumped_energy": 676.615439533677
+      },
+      "fuel_domestic_supply_mtce_per_year": {
+        "coal": 2976.5246145052743,
+        "oil": 0.0,
+        "gas": 1779.6299560751254
+      },
+      "fuel_import_supply_mtce_per_year": {
+        "coal": 969.3174283958481,
+        "oil": 587.0008728710976,
+        "gas": 551.7044310979051
+      },
+      "fuel_import_capacity_mtce_per_year": {
+        "coal": 969.3174283958481,
+        "oil": 2149.2162550004136,
+        "gas": 551.7044310979051
+      },
+      "fuel_initial_stocks_mtce": {
+        "coal": 485.4265080393934,
+        "oil": 151.28933788236338,
+        "gas": 287.1094246178759
+      },
+      "direct_fuel_demand_mtce_per_year": {
+        "coal": 64.50680226336908,
+        "oil": 587.0008728710976,
+        "gas": 1892.8766845043285
+      },
+      "fuel_efficiency": {
+        "coal": 0.4,
+        "gas": 0.55
+      },
+      "carbon_price_cny_t": 1094.2686205526825,
+      "biomass_generation_budget_twh_per_year": 427.9384377771218
+    },
+    "plan_02349_2030": {
+      "year": 2030,
+      "scenario": "plan_02349",
+      "electricity_demand_twh": 12957.530239818161,
+      "capacity_gw": {
+        "coal": 1433.4288173172936,
+        "gas": 182.45753549040057,
+        "nuclear": 81.65308333333331,
+        "hydro": 460.12201533333325,
+        "wind": 850.3187930132653,
+        "solar": 1878.9683612177403,
+        "biomass": 49.006405254813465,
+        "battery_power": 67.30560385421357,
+        "battery_energy": 269.2224154168543,
+        "pumped_power": 62.05018165720675,
+        "pumped_energy": 372.3010899432405
+      },
+      "fuel_domestic_supply_mtce_per_year": {
+        "coal": 2608.6525714476898,
+        "oil": 75.10594374447555,
+        "gas": 415.74706656028764
+      },
+      "fuel_import_supply_mtce_per_year": {
+        "coal": 504.82193177581536,
+        "oil": 1119.3149631579854,
+        "gas": 287.3284731267447
+      },
+      "fuel_import_capacity_mtce_per_year": {
+        "coal": 504.82193177581536,
+        "oil": 1119.3149631579854,
+        "gas": 287.3284731267447
+      },
+      "fuel_initial_stocks_mtce": {
+        "coal": 390.9106849315067,
+        "oil": 147.16158567521916,
+        "gas": 86.27647882215581
+      },
+      "direct_fuel_demand_mtce_per_year": {
+        "coal": 1028.980411445383,
+        "oil": 1193.6439726990002,
+        "gas": 699.7981060019308
+      },
+      "fuel_efficiency": {
+        "coal": 0.4,
+        "gas": 0.55
+      },
+      "carbon_price_cny_t": 149.7296891343075,
+      "biomass_generation_budget_twh_per_year": 234.857594183984
+    },
+    "plan_02349_2060": {
+      "year": 2060,
+      "scenario": "plan_02349",
+      "electricity_demand_twh": 25061.056584388156,
+      "capacity_gw": {
+        "coal": 1768.9724760494498,
+        "gas": 352.68821631519694,
+        "nuclear": 371.26498515348806,
+        "hydro": 1437.4410054647255,
+        "wind": 2529.9681780401474,
+        "solar": 7065.883018381088,
+        "biomass": 89.28438543479768,
+        "battery_power": 61.48671401720662,
+        "battery_energy": 245.9468560688265,
+        "pumped_power": 95.78190782871253,
+        "pumped_energy": 574.6914469722752
+      },
+      "fuel_domestic_supply_mtce_per_year": {
+        "coal": 211.59789162478887,
+        "oil": 0.0,
+        "gas": 1702.4651721072064
+      },
+      "fuel_import_supply_mtce_per_year": {
+        "coal": 969.3174283958481,
+        "oil": 630.0358727690374,
+        "gas": 551.7044310979051
+      },
+      "fuel_import_capacity_mtce_per_year": {
+        "coal": 969.3174283958481,
+        "oil": 2149.2162550004136,
+        "gas": 551.7044310979051
+      },
+      "fuel_initial_stocks_mtce": {
+        "coal": 390.91068493150624,
+        "oil": 151.70346796408808,
+        "gas": 274.47012654064974
+      },
+      "direct_fuel_demand_mtce_per_year": {
+        "coal": 74.25604276875895,
+        "oil": 630.0358727690374,
+        "gas": 2023.205610742564
+      },
+      "fuel_efficiency": {
+        "coal": 0.4,
+        "gas": 0.55
+      },
+      "carbon_price_cny_t": 668.1022774978924,
+      "biomass_generation_budget_twh_per_year": 427.9384377771218
+    }
+  },
+  "protocol": {
+    "version": "V6_FIXED_IMPORT_CAPACITY_REPAIR_20261018",
+    "status": "PREDECLARED_DEVELOPMENT_DESIGN_NOT_PROBABILITY_SAMPLE",
+    "hours": 2160,
+    "warmup_hours": 120,
+    "events": [
+      [
+        120,
+        600
+      ],
+      [
+        1200,
+        1680
+      ]
+    ],
+    "import_retention": [
+      0.5,
+      0.05,
+      0.05
+    ],
+    "renewable_retention": {
+      "wind": 0.25,
+      "solar": 0.55,
+      "hydro": 0.7
+    },
+    "event_demand_multiplier": 1.08,
+    "contract_lead_hours": 48,
+    "contract_max_fraction_normal_import_rate": 0.5,
+    "contract_max_fraction_initial_stock_per_event": 0.5,
+    "contract_premium_fraction": 0.5,
+    "years": [
+      2030,
+      2060
+    ],
+    "selected_roles": [
+      "minimum_capital",
+      "frontier_knee",
+      "minimum_net_emissions"
+    ],
+    "strategies": [
+      "coordinated",
+      "decentralized"
+    ],
+    "supply_policies": [
+      "inherited",
+      "contract"
+    ],
+    "service_shortage_threshold_fraction": 0.01,
+    "recovery_stock_fraction_of_preevent": 0.95,
+    "recovery_sustained_hours": 24,
+    "forecast_hours": 24,
+    "control_cases": "frontier_knee_2060, coordinated, each supply policy, with second event absent",
+    "scope": "Continuous state down-drill from an annual end-state, not an actual 90-day historical chronology or an annual stock replacement. All policies share the same perfect next-24-hour physical inputs, retain fuel/SOC/thermal/debt and do not reset at event boundaries. First 120 hours are warmup and reported separately. Contracts add bounded paid fuel; their benefits are resource additions, not algorithm gains. Finite designed cohort, not probabilistic reliability or target feasibility proof.",
+    "contract_capacity_basis": "Independent gross-import channel capacity from annual state; actual normal arrivals remain separate.",
+    "zero_coal_control": "Knee 2060, coordinated, both supply policies; set coal normal-import arrival and channel capacity to zero, holding all other initial states and inputs fixed."
+  },
+  "source_sha256": {
+    "src/v6_resilience.py": "bc01b49769038eedb233a8f8373c35f05c27e3f3334095f4089daff162404e0a",
+    "config/v6_resilience.json": "db22d499a6bae17088739db306b381dc9d8921dd93864e9363faf967b3a349e5",
+    "outputs/v6/planning/selected_cases.csv": "a3a5e658928ad6ca27137e086f3e8cca5f3f095f92931d24406d59d860e86759",
+    "outputs/v6/planning/selected_snapshots.json": "299dfcf69c56e2978191908cb32e3e87294420edbc8a4470249aa899ec67eb30",
+    "src/v3_hourly.py": "d4ce2fd11f5388b1508251f21b1e478f0dacf5cc6935eafa1291f9493824df59",
+    "src/v4_hourly.py": "6c6271dcad532a97cf4fa6934311d01d35e0738e4f07c9e44fd769c152578261",
+    "data/v6_fuel_import_channels.csv": "36c170edaaa3e4f6f915973760fe2fb2fedbeb54bda18e118c1283e177eb084c"
+  }
+}

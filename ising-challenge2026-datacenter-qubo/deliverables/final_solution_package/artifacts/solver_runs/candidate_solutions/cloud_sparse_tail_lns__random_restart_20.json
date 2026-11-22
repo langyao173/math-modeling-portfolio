@@ -1,0 +1,15 @@
+{
+  "family": "cloud_sparse_tail_lns",
+  "oracle": "random_restart_20",
+  "status": "success",
+  "jobs": 588,
+  "selected_actions": 588,
+  "accepted_under_submission_guard": 0,
+  "true_action_cost_usd": 45003010.514547,
+  "expected_recourse_cost_usd": 31.985678385425885,
+  "cvar95_recourse_cost_usd": 43.68781282002617,
+  "true_objective": 75.67349120545205,
+  "source_result": {
+    "restarts": 20
+  }
+}

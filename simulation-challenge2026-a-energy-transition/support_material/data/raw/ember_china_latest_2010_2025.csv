@@ -1,0 +1,257 @@
+﻿Area,ISO 3 code,Year,Area type,Electricity source,Is aggregated source,Generation (TWh),Generation YoY change (TWh),Generation YoY change (%),Share of generation (%),Share of generation YoY change (% points),Capacity (GW),Emissions (MtCO2e),Emissions YoY change (MtCO2e),Emissions YoY change (%),Share of emissions (%),Emissions intensity (gCO2e/kWh),Continent,Ember region,EU member,OECD member,G20 member,G7 member,ASEAN member
+China,CHN,2010,Country or economy,Solar,False,0.701,0.422,151.254,0.017,0.009,1.02,0.033,0.02,153.846,0.001,47.076,Asia,Asia,False,False,True,False,False
+China,CHN,2010,Country or economy,Wind,False,49.4,21.785,78.888,1.177,0.434,29.63,0.622,0.275,79.251,0.02,12.591,Asia,Asia,False,False,True,False,False
+China,CHN,2010,Country or economy,Hydro,False,711.383,95.739,15.551,16.952,0.379,199.13,16.902,2.274,15.546,0.542,23.759,Asia,Asia,False,False,True,False,False
+China,CHN,2010,Country or economy,Bioenergy,False,17.865,-2.994,-14.354,0.426,-0.136,2.33,3.862,-0.648,-14.368,0.124,216.177,Asia,Asia,False,False,True,False,False
+China,CHN,2010,Country or economy,Nuclear,False,74.742,4.692,6.698,1.781,-0.105,10.82,0.414,0.026,6.701,0.013,5.539,Asia,Asia,False,False,True,False,False
+China,CHN,2010,Country or economy,Coal,False,3243.712,332.192,11.41,77.298,-1.081,633.91,3045.515,300.615,10.952,97.751,938.898,Asia,Asia,False,False,True,False,False
+China,CHN,2010,Country or economy,Gas,False,77.727,21.168,37.426,1.852,0.329,32.04,34.533,9.405,37.428,1.108,444.286,Asia,Asia,False,False,True,False,False
+China,CHN,2010,Country or economy,Other fossil,False,20.842,8.718,71.907,0.497,0.171,9.9,13.714,5.736,71.898,0.44,657.998,Asia,Asia,False,False,True,False,False
+China,CHN,2010,Country or economy,Net imports,False,-13.514,-2.134,18.752,-0.322,-0.016,,0.0,0.0,,0.0,0.0,Asia,Asia,False,False,True,False,False
+China,CHN,2010,Country or economy,Wind and solar,True,50.101,22.207,79.612,1.194,0.443,30.65,0.656,0.296,82.222,0.021,13.094,Asia,Asia,False,False,True,False,False
+China,CHN,2010,Country or economy,"Hydro, bioenergy and other renewables",True,729.248,92.745,14.571,17.378,0.243,201.46,20.765,1.628,8.507,0.666,28.475,Asia,Asia,False,False,True,False,False
+China,CHN,2010,Country or economy,Renewables,True,779.348,114.951,17.302,18.572,0.686,232.11,21.42,1.922,9.857,0.688,27.485,Asia,Asia,False,False,True,False,False
+China,CHN,2010,Country or economy,Clean,True,854.09,119.642,16.29,20.353,0.581,242.93,21.834,1.948,9.796,0.701,25.564,Asia,Asia,False,False,True,False,False
+China,CHN,2010,Country or economy,Fossil,True,3342.281,362.078,12.149,79.647,-0.581,675.8499999999999,3093.762,315.756,11.366,99.299,925.644,Asia,Asia,False,False,True,False,False
+China,CHN,2010,Country or economy,Total generation,True,4196.371,481.72,12.968,100.0,0.0,918.78,3115.596,317.705,11.355,100.0,742.45,Asia,Asia,False,False,True,False,False
+China,CHN,2010,Country or economy,Demand,True,4182.857,479.586,12.95,99.678,-0.016,,,,,,,Asia,Asia,False,False,True,False,False
+China,CHN,2011,Country or economy,Solar,False,2.61,1.909,272.325,0.056,0.039,3.11,0.124,0.091,275.758,0.003,47.51,Asia,Asia,False,False,True,False,False
+China,CHN,2011,Country or economy,Wind,False,74.1,24.7,50.0,1.576,0.399,46.35,0.934,0.312,50.161,0.026,12.605,Asia,Asia,False,False,True,False,False
+China,CHN,2011,Country or economy,Hydro,False,688.045,-23.338,-3.281,14.633,-2.319,214.6,16.348,-0.554,-3.278,0.461,23.76,Asia,Asia,False,False,True,False,False
+China,CHN,2011,Country or economy,Bioenergy,False,20.319,2.454,13.736,0.432,0.006,2.68,4.393,0.531,13.749,0.124,216.202,Asia,Asia,False,False,True,False,False
+China,CHN,2011,Country or economy,Nuclear,False,87.2,12.458,16.668,1.854,0.073,12.57,0.483,0.069,16.667,0.014,5.539,Asia,Asia,False,False,True,False,False
+China,CHN,2011,Country or economy,Coal,False,3702.292,458.58,14.138,78.737,1.439,692.0,3462.454,416.939,13.69,97.66,935.219,Asia,Asia,False,False,True,False,False
+China,CHN,2011,Country or economy,Gas,False,108.767,31.04,39.935,2.313,0.461,34.78,48.324,13.791,39.936,1.363,444.289,Asia,Asia,False,False,True,False,False
+China,CHN,2011,Country or economy,Other fossil,False,18.787,-2.055,-9.86,0.4,-0.097,4.41,12.362,-1.352,-9.859,0.349,658.008,Asia,Asia,False,False,True,False,False
+China,CHN,2011,Country or economy,Net imports,False,-12.745,0.769,-5.69,-0.271,0.051,,0.0,0.0,,0.0,0.0,Asia,Asia,False,False,True,False,False
+China,CHN,2011,Country or economy,Wind and solar,True,76.71,26.609,53.111,1.631,0.437,49.46,1.058,0.402,61.28,0.03,13.792,Asia,Asia,False,False,True,False,False
+China,CHN,2011,Country or economy,"Hydro, bioenergy and other renewables",True,708.364,-20.884,-2.864,15.065,-2.313,217.28,20.741,-0.024,-0.116,0.585,29.28,Asia,Asia,False,False,True,False,False
+China,CHN,2011,Country or economy,Renewables,True,785.074,5.726,0.735,16.696,-1.876,266.74,21.799,0.379,1.769,0.615,27.767,Asia,Asia,False,False,True,False,False
+China,CHN,2011,Country or economy,Clean,True,872.274,18.184,2.129,18.551,-1.802,279.31,22.282,0.448,2.052,0.628,25.545,Asia,Asia,False,False,True,False,False
+China,CHN,2011,Country or economy,Fossil,True,3829.845,487.564,14.588,81.449,1.802,731.1899999999999,3523.139,429.377,13.879,99.372,919.917,Asia,Asia,False,False,True,False,False
+China,CHN,2011,Country or economy,Total generation,True,4702.119,505.748,12.052,100.0,0.0,1010.5,3545.421,429.825,13.796,100.0,754.005,Asia,Asia,False,False,True,False,False
+China,CHN,2011,Country or economy,Demand,True,4689.374,506.517,12.109,99.729,0.051,,,,,,,Asia,Asia,False,False,True,False,False
+China,CHN,2012,Country or economy,Solar,False,3.595,0.985,37.739,0.072,0.016,6.72,0.171,0.047,37.903,0.005,47.566,Asia,Asia,False,False,True,False,False
+China,CHN,2012,Country or economy,Wind,False,103.05,28.95,39.069,2.07,0.494,61.6,1.299,0.365,39.079,0.036,12.606,Asia,Asia,False,False,True,False,False
+China,CHN,2012,Country or economy,Hydro,False,862.794,174.749,25.398,17.331,2.698,229.14,20.5,4.152,25.398,0.571,23.76,Asia,Asia,False,False,True,False,False
+China,CHN,2012,Country or economy,Bioenergy,False,23.218,2.899,14.267,0.466,0.034,3.47,5.02,0.627,14.273,0.14,216.212,Asia,Asia,False,False,True,False,False
+China,CHN,2012,Country or economy,Nuclear,False,98.318,11.118,12.75,1.975,0.121,12.57,0.544,0.061,12.629,0.015,5.533,Asia,Asia,False,False,True,False,False
+China,CHN,2012,Country or economy,Coal,False,3759.652,57.36,1.549,75.522,-3.215,740.28,3504.857,42.403,1.225,97.552,932.229,Asia,Asia,False,False,True,False,False
+China,CHN,2012,Country or economy,Gas,False,110.252,1.485,1.365,2.215,-0.098,36.2,48.983,0.659,1.364,1.363,444.282,Asia,Asia,False,False,True,False,False
+China,CHN,2012,Country or economy,Other fossil,False,17.361,-1.426,-7.59,0.349,-0.051,7.25,11.424,-0.938,-7.588,0.318,658.027,Asia,Asia,False,False,True,False,False
+China,CHN,2012,Country or economy,Net imports,False,-10.779,1.966,-15.426,-0.217,0.054,,0.0,0.0,,0.0,0.0,Asia,Asia,False,False,True,False,False
+China,CHN,2012,Country or economy,Wind and solar,True,106.644,29.934,39.022,2.142,0.511,68.32000000000001,1.47,0.412,38.941,0.041,13.784,Asia,Asia,False,False,True,False,False
+China,CHN,2012,Country or economy,"Hydro, bioenergy and other renewables",True,886.012,177.648,25.079,17.798,2.733,232.60999999999999,25.52,4.779,23.041,0.71,28.803,Asia,Asia,False,False,True,False,False
+China,CHN,2012,Country or economy,Renewables,True,992.656,207.582,26.441,19.94,3.244,300.93,26.99,5.191,23.813,0.751,27.19,Asia,Asia,False,False,True,False,False
+China,CHN,2012,Country or economy,Clean,True,1090.974,218.7,25.072,21.915,3.364,313.5,27.534,5.252,23.571,0.766,25.238,Asia,Asia,False,False,True,False,False
+China,CHN,2012,Country or economy,Fossil,True,3887.266,57.421,1.499,78.085,-3.364,783.73,3565.264,42.125,1.196,99.234,917.165,Asia,Asia,False,False,True,False,False
+China,CHN,2012,Country or economy,Total generation,True,4978.24,276.121,5.872,100.0,0.0,1097.23,3592.798,47.377,1.336,100.0,721.7,Asia,Asia,False,False,True,False,False
+China,CHN,2012,Country or economy,Demand,True,4967.461,278.087,5.93,99.783,0.054,,,,,,,Asia,Asia,False,False,True,False,False
+China,CHN,2013,Country or economy,Solar,False,8.374,4.779,132.935,0.154,0.082,17.76,0.398,0.227,132.749,0.01,47.528,Asia,Asia,False,False,True,False,False
+China,CHN,2013,Country or economy,Wind,False,138.264,35.214,34.172,2.551,0.481,76.73,1.744,0.445,34.257,0.045,12.614,Asia,Asia,False,False,True,False,False
+China,CHN,2013,Country or economy,Hydro,False,909.612,46.818,5.426,16.78,-0.551,258.91,21.612,1.112,5.424,0.554,23.76,Asia,Asia,False,False,True,False,False
+China,CHN,2013,Country or economy,Bioenergy,False,27.757,4.539,19.549,0.512,0.046,4.39,6.001,0.981,19.542,0.154,216.198,Asia,Asia,False,False,True,False,False
+China,CHN,2013,Country or economy,Nuclear,False,111.501,13.183,13.409,2.057,0.082,14.66,0.617,0.073,13.419,0.016,5.534,Asia,Asia,False,False,True,False,False
+China,CHN,2013,Country or economy,Coal,False,4090.2,330.548,8.792,75.452,-0.07,787.13,3803.865,299.008,8.531,97.576,929.995,Asia,Asia,False,False,True,False,False
+China,CHN,2013,Country or economy,Gas,False,116.388,6.136,5.565,2.147,-0.068,41.86,51.71,2.727,5.567,1.326,444.29,Asia,Asia,False,False,True,False,False
+China,CHN,2013,Country or economy,Other fossil,False,18.859,1.498,8.629,0.348,-0.001,7.6,12.409,0.985,8.622,0.318,657.988,Asia,Asia,False,False,True,False,False
+China,CHN,2013,Country or economy,Net imports,False,-11.231,-0.452,4.193,-0.207,0.01,,0.0,0.0,,0.0,0.0,Asia,Asia,False,False,True,False,False
+China,CHN,2013,Country or economy,Wind and solar,True,146.638,39.994,37.502,2.705,0.563,94.49000000000001,2.142,0.672,45.714,0.055,14.607,Asia,Asia,False,False,True,False,False
+China,CHN,2013,Country or economy,"Hydro, bioenergy and other renewables",True,937.369,51.357,5.796,17.292,-0.506,263.3,27.613,2.093,8.201,0.708,29.458,Asia,Asia,False,False,True,False,False
+China,CHN,2013,Country or economy,Renewables,True,1084.007,91.351,9.203,19.997,0.057,357.79,29.755,2.765,10.245,0.763,27.449,Asia,Asia,False,False,True,False,False
+China,CHN,2013,Country or economy,Clean,True,1195.508,104.534,9.582,22.053,0.138,372.45000000000005,30.373,2.839,10.311,0.779,25.406,Asia,Asia,False,False,True,False,False
+China,CHN,2013,Country or economy,Fossil,True,4225.447,338.181,8.7,77.947,-0.138,836.59,3867.984,302.72,8.491,99.221,915.402,Asia,Asia,False,False,True,False,False
+China,CHN,2013,Country or economy,Total generation,True,5420.955,442.715,8.893,100.0,0.0,1209.04,3898.357,305.559,8.505,100.0,719.127,Asia,Asia,False,False,True,False,False
+China,CHN,2013,Country or economy,Demand,True,5409.724,442.263,8.903,99.793,0.01,,,,,,,Asia,Asia,False,False,True,False,False
+China,CHN,2014,Country or economy,Solar,False,23.512,15.138,180.774,0.407,0.253,28.4,1.117,0.719,180.653,0.028,47.508,Asia,Asia,False,False,True,False,False
+China,CHN,2014,Country or economy,Wind,False,159.763,21.499,15.549,2.763,0.212,96.82,2.014,0.27,15.482,0.05,12.606,Asia,Asia,False,False,True,False,False
+China,CHN,2014,Country or economy,Hydro,False,1059.692,150.08,16.499,18.33,1.55,282.75,25.178,3.566,16.5,0.626,23.76,Asia,Asia,False,False,True,False,False
+China,CHN,2014,Country or economy,Bioenergy,False,33.142,5.385,19.401,0.573,0.061,4.76,7.165,1.164,19.397,0.178,216.191,Asia,Asia,False,False,True,False,False
+China,CHN,2014,Country or economy,Nuclear,False,133.218,21.717,19.477,2.304,0.247,20.08,0.738,0.121,19.611,0.018,5.54,Asia,Asia,False,False,True,False,False
+China,CHN,2014,Country or economy,Coal,False,4218.029,127.829,3.125,72.96,-2.492,818.93,3913.331,109.466,2.878,97.29,927.763,Asia,Asia,False,False,True,False,False
+China,CHN,2014,Country or economy,Gas,False,133.283,16.895,14.516,2.305,0.158,54.95,59.215,7.505,14.514,1.472,444.28,Asia,Asia,False,False,True,False,False
+China,CHN,2014,Country or economy,Other fossil,False,20.629,1.77,9.385,0.357,0.009,7.01,13.574,1.165,9.388,0.337,658.006,Asia,Asia,False,False,True,False,False
+China,CHN,2014,Country or economy,Net imports,False,-11.408,-0.177,1.576,-0.197,0.01,,0.0,0.0,,0.0,0.0,Asia,Asia,False,False,True,False,False
+China,CHN,2014,Country or economy,Wind and solar,True,183.275,36.637,24.985,3.17,0.465,125.22,3.131,0.989,46.172,0.078,17.084,Asia,Asia,False,False,True,False,False
+China,CHN,2014,Country or economy,"Hydro, bioenergy and other renewables",True,1092.833,155.464,16.585,18.903,1.611,287.51,32.344,4.731,17.133,0.804,29.596,Asia,Asia,False,False,True,False,False
+China,CHN,2014,Country or economy,Renewables,True,1276.108,192.101,17.721,22.073,2.076,412.72999999999996,35.475,5.72,19.224,0.882,27.799,Asia,Asia,False,False,True,False,False
+China,CHN,2014,Country or economy,Clean,True,1409.326,213.818,17.885,24.377,2.324,432.80999999999995,36.212,5.839,19.224,0.9,25.695,Asia,Asia,False,False,True,False,False
+China,CHN,2014,Country or economy,Fossil,True,4371.941,146.494,3.467,75.623,-2.324,880.89,3986.121,118.137,3.054,99.1,911.751,Asia,Asia,False,False,True,False,False
+China,CHN,2014,Country or economy,Total generation,True,5781.267,360.312,6.647,100.0,0.0,1313.6999999999998,4022.333,123.976,3.18,100.0,695.753,Asia,Asia,False,False,True,False,False
+China,CHN,2014,Country or economy,Demand,True,5769.859,360.135,6.657,99.803,0.01,,,,,,,Asia,Asia,False,False,True,False,False
+China,CHN,2015,Country or economy,Solar,False,39.481,15.969,67.919,0.681,0.274,43.55,1.876,0.759,67.95,0.048,47.517,Asia,Asia,False,False,True,False,False
+China,CHN,2015,Country or economy,Wind,False,185.591,25.828,16.166,3.2,0.437,131.05,2.339,0.325,16.137,0.06,12.603,Asia,Asia,False,False,True,False,False
+China,CHN,2015,Country or economy,Hydro,False,1114.515,54.823,5.173,19.22,0.89,296.5,26.481,1.303,5.175,0.682,23.76,Asia,Asia,False,False,True,False,False
+China,CHN,2015,Country or economy,Bioenergy,False,38.973,5.831,17.594,0.672,0.099,5.64,8.426,1.261,17.599,0.217,216.201,Asia,Asia,False,False,True,False,False
+China,CHN,2015,Country or economy,Nuclear,False,171.378,38.16,28.645,2.955,0.651,27.17,0.949,0.211,28.591,0.024,5.537,Asia,Asia,False,False,True,False,False
+China,CHN,2015,Country or economy,Coal,False,4058.84,-159.189,-3.774,69.994,-2.966,879.65,3754.05,-159.281,-4.07,96.667,924.907,Asia,Asia,False,False,True,False,False
+China,CHN,2015,Country or economy,Gas,False,166.907,33.624,25.228,2.878,0.573,63.86,74.154,14.939,25.228,1.909,444.283,Asia,Asia,False,False,True,False,False
+China,CHN,2015,Country or economy,Other fossil,False,23.133,2.504,12.138,0.399,0.042,6.68,15.222,1.648,12.141,0.392,658.021,Asia,Asia,False,False,True,False,False
+China,CHN,2015,Country or economy,Net imports,False,-12.444,-1.036,9.081,-0.215,-0.018,,0.0,0.0,,0.0,0.0,Asia,Asia,False,False,True,False,False
+China,CHN,2015,Country or economy,Wind and solar,True,225.072,41.797,22.806,3.881,0.711,174.60000000000002,4.215,1.084,34.622,0.109,18.727,Asia,Asia,False,False,True,False,False
+China,CHN,2015,Country or economy,"Hydro, bioenergy and other renewables",True,1153.488,60.655,5.55,19.892,0.989,302.14,34.907,2.563,7.924,0.899,30.262,Asia,Asia,False,False,True,False,False
+China,CHN,2015,Country or economy,Renewables,True,1378.56,102.452,8.028,23.773,1.7,476.74,39.122,3.647,10.28,1.007,28.379,Asia,Asia,False,False,True,False,False
+China,CHN,2015,Country or economy,Clean,True,1549.938,140.612,9.977,26.729,2.352,503.91,40.071,3.859,10.657,1.032,25.853,Asia,Asia,False,False,True,False,False
+China,CHN,2015,Country or economy,Fossil,True,4248.88,-123.061,-2.815,73.271,-2.352,950.1899999999999,3843.425,-142.696,-3.58,98.968,904.574,Asia,Asia,False,False,True,False,False
+China,CHN,2015,Country or economy,Total generation,True,5798.818,17.551,0.304,100.0,0.0,1454.1000000000001,3883.496,-138.837,-3.452,100.0,669.705,Asia,Asia,False,False,True,False,False
+China,CHN,2015,Country or economy,Demand,True,5786.374,16.515,0.286,99.785,-0.018,,,,,,,Asia,Asia,False,False,True,False,False
+China,CHN,2016,Country or economy,Solar,False,66.528,27.047,68.506,1.09,0.409,77.82,3.161,1.285,68.497,0.079,47.514,Asia,Asia,False,False,True,False,False
+China,CHN,2016,Country or economy,Wind,False,240.86,55.269,29.78,3.947,0.747,148.52,3.047,0.708,30.269,0.076,12.651,Asia,Asia,False,False,True,False,False
+China,CHN,2016,Country or economy,Hydro,False,1153.268,38.753,3.477,18.899,-0.321,305.38,27.402,0.921,3.478,0.687,23.76,Asia,Asia,False,False,True,False,False
+China,CHN,2016,Country or economy,Bioenergy,False,47.08,8.107,20.802,0.772,0.1,6.4,10.179,1.753,20.805,0.255,216.206,Asia,Asia,False,False,True,False,False
+China,CHN,2016,Country or economy,Nuclear,False,213.178,41.8,24.391,3.493,0.538,33.64,1.18,0.231,24.341,0.03,5.535,Asia,Asia,False,False,True,False,False
+China,CHN,2016,Country or economy,Coal,False,4165.506,106.666,2.628,68.26,-1.734,921.08,3839.917,85.867,2.287,96.317,921.837,Asia,Asia,False,False,True,False,False
+China,CHN,2016,Country or economy,Gas,False,188.28,21.373,12.805,3.085,0.207,67.49,83.65,9.496,12.806,2.098,444.285,Asia,Asia,False,False,True,False,False
+China,CHN,2016,Country or economy,Other fossil,False,27.679,4.546,19.652,0.454,0.055,4.96,18.213,2.991,19.649,0.457,658.008,Asia,Asia,False,False,True,False,False
+China,CHN,2016,Country or economy,Net imports,False,-12.722,-0.278,2.234,-0.208,0.007,,0.0,0.0,,0.0,0.0,Asia,Asia,False,False,True,False,False
+China,CHN,2016,Country or economy,Wind and solar,True,307.388,82.316,36.573,5.037,1.156,226.34,6.209,1.994,47.307,0.156,20.199,Asia,Asia,False,False,True,False,False
+China,CHN,2016,Country or economy,"Hydro, bioenergy and other renewables",True,1200.348,46.86,4.062,19.67,-0.222,311.78,37.58,2.673,7.657,0.943,31.308,Asia,Asia,False,False,True,False,False
+China,CHN,2016,Country or economy,Renewables,True,1507.736,129.176,9.37,24.707,0.934,538.12,43.789,4.667,11.929,1.098,29.043,Asia,Asia,False,False,True,False,False
+China,CHN,2016,Country or economy,Clean,True,1720.915,170.977,11.031,28.201,1.472,571.76,44.969,4.898,12.223,1.128,26.131,Asia,Asia,False,False,True,False,False
+China,CHN,2016,Country or economy,Fossil,True,4381.465,132.585,3.12,71.799,-1.472,993.5300000000001,3941.78,98.355,2.559,98.872,899.649,Asia,Asia,False,False,True,False,False
+China,CHN,2016,Country or economy,Total generation,True,6102.38,303.562,5.235,100.0,0.0,1565.29,3986.75,103.254,2.659,100.0,653.311,Asia,Asia,False,False,True,False,False
+China,CHN,2016,Country or economy,Demand,True,6089.657,303.283,5.241,99.792,0.007,,,,,,,Asia,Asia,False,False,True,False,False
+China,CHN,2017,Country or economy,Solar,False,117.8,51.272,77.068,1.793,0.703,130.83,5.598,2.437,77.096,0.132,47.521,Asia,Asia,False,False,True,False,False
+China,CHN,2017,Country or economy,Wind,False,304.6,63.74,26.464,4.635,0.688,164.37,3.871,0.824,27.043,0.091,12.708,Asia,Asia,False,False,True,False,False
+China,CHN,2017,Country or economy,Hydro,False,1165.065,11.797,1.023,17.729,-1.17,314.38,27.682,0.28,1.022,0.652,23.76,Asia,Asia,False,False,True,False,False
+China,CHN,2017,Country or economy,Bioenergy,False,57.025,9.945,21.124,0.868,0.096,7.59,12.329,2.15,21.122,0.29,216.203,Asia,Asia,False,False,True,False,False
+China,CHN,2017,Country or economy,Nuclear,False,248.1,34.922,16.382,3.775,0.282,35.82,1.374,0.194,16.441,0.032,5.538,Asia,Asia,False,False,True,False,False
+China,CHN,2017,Country or economy,Coal,False,4443.197,277.691,6.666,67.612,-0.648,954.21,4084.493,244.576,6.369,96.171,919.269,Asia,Asia,False,False,True,False,False
+China,CHN,2017,Country or economy,Gas,False,203.2,14.92,7.924,3.092,0.007,73.09,90.279,6.629,7.925,2.126,444.286,Asia,Asia,False,False,True,False,False
+China,CHN,2017,Country or economy,Other fossil,False,32.66,4.981,17.996,0.497,0.043,5.61,21.49,3.277,17.993,0.506,657.991,Asia,Asia,False,False,True,False,False
+China,CHN,2017,Country or economy,Net imports,False,-13.047,-0.325,2.555,-0.199,0.009,,0.0,0.0,,0.0,0.0,Asia,Asia,False,False,True,False,False
+China,CHN,2017,Country or economy,Wind and solar,True,422.4,115.012,37.416,6.428,1.391,295.20000000000005,9.469,3.26,52.504,0.223,22.417,Asia,Asia,False,False,True,False,False
+China,CHN,2017,Country or economy,"Hydro, bioenergy and other renewables",True,1222.09,21.742,1.811,18.596,-1.074,321.96999999999997,40.011,2.431,6.469,0.942,32.74,Asia,Asia,False,False,True,False,False
+China,CHN,2017,Country or economy,Renewables,True,1644.49,136.754,9.07,25.024,0.317,617.17,49.48,5.691,12.996,1.165,30.088,Asia,Asia,False,False,True,False,False
+China,CHN,2017,Country or economy,Clean,True,1892.59,171.675,9.976,28.799,0.598,652.99,50.854,5.885,13.087,1.197,26.87,Asia,Asia,False,False,True,False,False
+China,CHN,2017,Country or economy,Fossil,True,4679.057,297.592,6.792,71.201,-0.598,1032.9099999999999,4196.262,254.482,6.456,98.803,896.818,Asia,Asia,False,False,True,False,False
+China,CHN,2017,Country or economy,Total generation,True,6571.647,469.267,7.69,100.0,0.0,1685.8999999999996,4247.116,260.366,6.531,100.0,646.279,Asia,Asia,False,False,True,False,False
+China,CHN,2017,Country or economy,Demand,True,6558.6,468.943,7.701,99.801,0.009,,,,,,,Asia,Asia,False,False,True,False,False
+China,CHN,2018,Country or economy,Solar,False,176.9,59.1,50.17,2.48,0.687,175.26,8.406,2.808,50.161,0.184,47.518,Asia,Asia,False,False,True,False,False
+China,CHN,2018,Country or economy,Wind,False,365.8,61.2,20.092,5.128,0.493,184.66,4.674,0.803,20.744,0.103,12.777,Asia,Asia,False,False,True,False,False
+China,CHN,2018,Country or economy,Hydro,False,1198.887,33.822,2.903,16.807,-0.922,322.27,28.486,0.804,2.904,0.625,23.76,Asia,Asia,False,False,True,False,False
+China,CHN,2018,Country or economy,Bioenergy,False,65.434,8.409,14.746,0.917,0.049,8.66,14.147,1.818,14.746,0.31,216.203,Asia,Asia,False,False,True,False,False
+China,CHN,2018,Country or economy,Nuclear,False,295.0,46.9,18.904,4.136,0.361,44.66,1.633,0.259,18.85,0.036,5.536,Asia,Asia,False,False,True,False,False
+China,CHN,2018,Country or economy,Coal,False,4776.274,333.077,7.496,66.958,-0.654,976.69,4379.786,295.293,7.23,96.073,916.988,Asia,Asia,False,False,True,False,False
+China,CHN,2018,Country or economy,Gas,False,215.5,12.3,6.053,3.021,-0.071,81.91,95.743,5.464,6.052,2.1,444.283,Asia,Asia,False,False,True,False,False
+China,CHN,2018,Country or economy,Other fossil,False,39.439,6.779,20.756,0.553,0.056,6.3,25.951,4.461,20.758,0.569,658.003,Asia,Asia,False,False,True,False,False
+China,CHN,2018,Country or economy,Net imports,False,-15.218,-2.171,16.64,-0.213,-0.014,,0.0,0.0,,0.0,0.0,Asia,Asia,False,False,True,False,False
+China,CHN,2018,Country or economy,Wind and solar,True,542.7,120.3,28.48,7.608,1.18,359.91999999999996,13.08,3.611,38.135,0.287,24.102,Asia,Asia,False,False,True,False,False
+China,CHN,2018,Country or economy,"Hydro, bioenergy and other renewables",True,1264.321,42.231,3.456,17.724,-0.872,330.93,42.632,2.621,6.551,0.935,33.719,Asia,Asia,False,False,True,False,False
+China,CHN,2018,Country or economy,Renewables,True,1807.021,162.531,9.883,25.332,0.308,690.85,55.712,6.232,12.595,1.222,30.831,Asia,Asia,False,False,True,False,False
+China,CHN,2018,Country or economy,Clean,True,2102.021,209.431,11.066,29.468,0.669,735.51,57.346,6.492,12.766,1.258,27.281,Asia,Asia,False,False,True,False,False
+China,CHN,2018,Country or economy,Fossil,True,5031.212,352.155,7.526,70.532,-0.669,1064.9,4501.48,305.218,7.274,98.742,894.711,Asia,Asia,False,False,True,False,False
+China,CHN,2018,Country or economy,Total generation,True,7133.233,561.586,8.546,100.0,0.0,1800.41,4558.825,311.709,7.339,100.0,639.097,Asia,Asia,False,False,True,False,False
+China,CHN,2018,Country or economy,Demand,True,7118.015,559.415,8.529,99.787,-0.014,,,,,,,Asia,Asia,False,False,True,False,False
+China,CHN,2019,Country or economy,Solar,False,224.0,47.1,26.625,2.998,0.518,204.97,10.644,2.238,26.624,0.229,47.518,Asia,Asia,False,False,True,False,False
+China,CHN,2019,Country or economy,Wind,False,405.3,39.5,10.798,5.425,0.297,209.58,5.19,0.516,11.04,0.112,12.805,Asia,Asia,False,False,True,False,False
+China,CHN,2019,Country or economy,Hydro,False,1272.538,73.651,6.143,17.032,0.225,327.75,30.236,1.75,6.143,0.651,23.76,Asia,Asia,False,False,True,False,False
+China,CHN,2019,Country or economy,Bioenergy,False,77.538,12.104,18.498,1.038,0.121,10.53,16.764,2.617,18.499,0.361,216.204,Asia,Asia,False,False,True,False,False
+China,CHN,2019,Country or economy,Nuclear,False,348.7,53.7,18.203,4.667,0.531,48.74,1.931,0.298,18.249,0.042,5.538,Asia,Asia,False,False,True,False,False
+China,CHN,2019,Country or economy,Coal,False,4865.086,88.812,1.859,65.115,-1.843,1019.28,4448.995,69.209,1.58,95.734,914.474,Asia,Asia,False,False,True,False,False
+China,CHN,2019,Country or economy,Gas,False,232.5,17.0,7.889,3.112,0.091,90.82,103.296,7.553,7.889,2.223,444.284,Asia,Asia,False,False,True,False,False
+China,CHN,2019,Country or economy,Other fossil,False,45.866,6.427,16.296,0.614,0.061,7.76,30.18,4.229,16.296,0.649,658.004,Asia,Asia,False,False,True,False,False
+China,CHN,2019,Country or economy,Net imports,False,-16.797,-1.579,10.376,-0.225,-0.012,,0.0,0.0,,0.0,0.0,Asia,Asia,False,False,True,False,False
+China,CHN,2019,Country or economy,Wind and solar,True,629.3,86.6,15.957,8.423,0.815,414.55,15.835,2.755,21.063,0.341,25.163,Asia,Asia,False,False,True,False,False
+China,CHN,2019,Country or economy,"Hydro, bioenergy and other renewables",True,1350.076,85.755,6.783,18.07,0.346,338.28,46.999,4.367,10.243,1.011,34.812,Asia,Asia,False,False,True,False,False
+China,CHN,2019,Country or economy,Renewables,True,1979.375,172.354,9.538,26.492,1.16,752.83,62.834,7.122,12.784,1.352,31.744,Asia,Asia,False,False,True,False,False
+China,CHN,2019,Country or economy,Clean,True,2328.076,226.055,10.754,31.159,1.691,801.57,64.764,7.418,12.936,1.394,27.819,Asia,Asia,False,False,True,False,False
+China,CHN,2019,Country or economy,Fossil,True,5143.452,112.24,2.231,68.841,-1.691,1117.86,4582.471,80.991,1.799,98.606,890.933,Asia,Asia,False,False,True,False,False
+China,CHN,2019,Country or economy,Total generation,True,7471.528,338.295,4.743,100.0,0.0,1919.4299999999998,4647.236,88.411,1.939,100.0,621.993,Asia,Asia,False,False,True,False,False
+China,CHN,2019,Country or economy,Demand,True,7454.731,336.716,4.73,99.775,-0.012,,,,,,,Asia,Asia,False,False,True,False,False
+China,CHN,2020,Country or economy,Solar,False,261.1,37.1,16.563,3.371,0.373,253.86,12.407,1.763,16.563,0.263,47.518,Asia,Asia,False,False,True,False,False
+China,CHN,2020,Country or economy,Wind,False,466.5,61.2,15.1,6.023,0.598,281.99,5.988,0.798,15.376,0.127,12.836,Asia,Asia,False,False,True,False,False
+China,CHN,2020,Country or economy,Hydro,False,1321.709,49.171,3.864,17.064,0.032,338.67,31.404,1.168,3.863,0.666,23.76,Asia,Asia,False,False,True,False,False
+China,CHN,2020,Country or economy,Bioenergy,False,90.52,12.982,16.743,1.169,0.131,14.19,19.57,2.806,16.738,0.415,216.195,Asia,Asia,False,False,True,False,False
+China,CHN,2020,Country or economy,Nuclear,False,366.2,17.5,5.019,4.728,0.061,49.89,2.028,0.097,5.023,0.043,5.538,Asia,Asia,False,False,True,False,False
+China,CHN,2020,Country or economy,Coal,False,4930.977,65.891,1.354,63.662,-1.453,1048.86,4496.957,47.962,1.078,95.327,911.981,Asia,Asia,False,False,True,False,False
+China,CHN,2020,Country or economy,Gas,False,252.5,20.0,8.602,3.26,0.148,97.95,112.182,8.886,8.602,2.378,444.285,Asia,Asia,False,False,True,False,False
+China,CHN,2020,Country or economy,Other fossil,False,56.054,10.188,22.213,0.724,0.11,9.49,36.884,6.704,22.213,0.782,658.008,Asia,Asia,False,False,True,False,False
+China,CHN,2020,Country or economy,Net imports,False,-17.042,-0.245,1.459,-0.22,0.005,,0.0,0.0,,0.0,0.0,Asia,Asia,False,False,True,False,False
+China,CHN,2020,Country or economy,Wind and solar,True,727.6,98.3,15.621,9.394,0.971,535.85,18.395,2.56,16.167,0.39,25.282,Asia,Asia,False,False,True,False,False
+China,CHN,2020,Country or economy,"Hydro, bioenergy and other renewables",True,1412.228,62.152,4.604,18.233,0.163,352.86,50.974,3.975,8.458,1.081,36.095,Asia,Asia,False,False,True,False,False
+China,CHN,2020,Country or economy,Renewables,True,2139.828,160.453,8.106,27.627,1.135,888.71,69.369,6.535,10.4,1.47,32.418,Asia,Asia,False,False,True,False,False
+China,CHN,2020,Country or economy,Clean,True,2506.028,177.952,7.644,32.354,1.195,938.6,71.397,6.633,10.242,1.513,28.49,Asia,Asia,False,False,True,False,False
+China,CHN,2020,Country or economy,Fossil,True,5239.532,96.08,1.868,67.646,-1.195,1156.3,4646.023,63.552,1.387,98.487,886.725,Asia,Asia,False,False,True,False,False
+China,CHN,2020,Country or economy,Total generation,True,7745.56,274.032,3.668,100.0,0.0,2094.9000000000005,4717.42,70.184,1.51,100.0,609.048,Asia,Asia,False,False,True,False,False
+China,CHN,2020,Country or economy,Demand,True,7728.518,273.787,3.673,99.78,0.005,,,,,,,Asia,Asia,False,False,True,False,False
+China,CHN,2021,Country or economy,Solar,False,327.0,65.9,25.239,3.849,0.478,306.97,15.539,3.132,25.244,0.304,47.52,Asia,Asia,False,False,True,False,False
+China,CHN,2021,Country or economy,Wind,False,655.8,189.3,40.579,7.719,1.696,328.97,8.684,2.696,45.023,0.17,13.242,Asia,Asia,False,False,True,False,False
+China,CHN,2021,Country or economy,Hydro,False,1300.6,-21.109,-1.597,15.309,-1.755,354.53,30.902,-0.502,-1.599,0.604,23.76,Asia,Asia,False,False,True,False,False
+China,CHN,2021,Country or economy,Bioenergy,False,103.085,12.565,13.881,1.213,0.044,16.7,22.287,2.717,13.883,0.436,216.2,Asia,Asia,False,False,True,False,False
+China,CHN,2021,Country or economy,Nuclear,False,407.5,41.3,11.278,4.796,0.068,53.26,2.256,0.228,11.243,0.044,5.536,Asia,Asia,False,False,True,False,False
+China,CHN,2021,Country or economy,Coal,False,5341.047,410.07,8.316,62.867,-0.795,1074.01,4861.565,364.608,8.108,95.003,910.227,Asia,Asia,False,False,True,False,False
+China,CHN,2021,Country or economy,Gas,False,287.1,34.6,13.703,3.379,0.119,105.06,127.554,15.372,13.703,2.493,444.284,Asia,Asia,False,False,True,False,False
+China,CHN,2021,Country or economy,Other fossil,False,73.717,17.663,31.511,0.868,0.144,12.53,48.506,11.622,31.51,0.948,658.003,Asia,Asia,False,False,True,False,False
+China,CHN,2021,Country or economy,Net imports,False,-14.238,2.804,-16.453,-0.168,0.052,,0.0,0.0,,0.0,0.0,Asia,Asia,False,False,True,False,False
+China,CHN,2021,Country or economy,Wind and solar,True,982.8,255.2,35.074,11.568,2.174,635.94,24.223,5.828,31.683,0.473,24.647,Asia,Asia,False,False,True,False,False
+China,CHN,2021,Country or economy,"Hydro, bioenergy and other renewables",True,1403.685,-8.543,-0.605,16.522,-1.711,371.22999999999996,53.189,2.215,4.345,1.039,37.892,Asia,Asia,False,False,True,False,False
+China,CHN,2021,Country or economy,Renewables,True,2386.485,246.657,11.527,28.09,0.463,1007.1700000000001,77.412,8.043,11.595,1.513,32.438,Asia,Asia,False,False,True,False,False
+China,CHN,2021,Country or economy,Clean,True,2793.985,287.957,11.491,32.886,0.532,1060.43,79.669,8.272,11.586,1.557,28.514,Asia,Asia,False,False,True,False,False
+China,CHN,2021,Country or economy,Fossil,True,5701.864,462.332,8.824,67.114,-0.532,1191.6,5037.625,391.602,8.429,98.443,883.505,Asia,Asia,False,False,True,False,False
+China,CHN,2021,Country or economy,Total generation,True,8495.849,750.289,9.687,100.0,0.0,2252.0299999999997,5117.294,399.874,8.477,100.0,602.329,Asia,Asia,False,False,True,False,False
+China,CHN,2021,Country or economy,Demand,True,8481.611,753.093,9.744,99.832,0.052,,,,,,,Asia,Asia,False,False,True,False,False
+China,CHN,2022,Country or economy,Solar,False,427.27,100.27,30.664,4.855,1.006,393.03,20.304,4.765,30.665,0.391,47.52,Asia,Asia,False,False,True,False,False
+China,CHN,2022,Country or economy,Wind,False,762.67,106.87,16.296,8.666,0.947,365.96,10.118,1.434,16.513,0.195,13.267,Asia,Asia,False,False,True,False,False
+China,CHN,2022,Country or economy,Hydro,False,1303.9,3.3,0.254,14.816,-0.493,367.71,30.981,0.079,0.256,0.597,23.76,Asia,Asia,False,False,True,False,False
+China,CHN,2022,Country or economy,Bioenergy,False,109.0,5.915,5.738,1.239,0.026,17.46,23.566,1.279,5.739,0.454,216.202,Asia,Asia,False,False,True,False,False
+China,CHN,2022,Country or economy,Nuclear,False,417.78,10.28,2.523,4.747,-0.049,55.53,2.313,0.057,2.527,0.045,5.536,Asia,Asia,False,False,True,False,False
+China,CHN,2022,Country or economy,Coal,False,5422.278,81.231,1.521,61.614,-1.253,1101.21,4928.341,66.776,1.374,94.922,908.906,Asia,Asia,False,False,True,False,False
+China,CHN,2022,Country or economy,Gas,False,275.624,-11.476,-3.997,3.132,-0.247,113.06,122.456,-5.098,-3.997,2.359,444.286,Asia,Asia,False,False,True,False,False
+China,CHN,2022,Country or economy,Other fossil,False,81.895,8.178,11.094,0.931,0.063,13.87,53.887,5.381,11.093,1.038,658.001,Asia,Asia,False,False,True,False,False
+China,CHN,2022,Country or economy,Net imports,False,-12.95,1.288,-9.046,-0.147,0.021,,0.0,0.0,,0.0,0.0,Asia,Asia,False,False,True,False,False
+China,CHN,2022,Country or economy,Wind and solar,True,1189.94,207.14,21.077,13.521,1.953,758.99,30.422,6.199,25.591,0.586,25.566,Asia,Asia,False,False,True,False,False
+China,CHN,2022,Country or economy,"Hydro, bioenergy and other renewables",True,1412.9,9.215,0.656,16.055,-0.467,385.16999999999996,54.546,1.357,2.551,1.051,38.606,Asia,Asia,False,False,True,False,False
+China,CHN,2022,Country or economy,Renewables,True,2602.84,216.355,9.066,29.576,1.486,1144.1599999999999,84.969,7.557,9.762,1.637,32.645,Asia,Asia,False,False,True,False,False
+China,CHN,2022,Country or economy,Clean,True,3020.62,226.635,8.112,34.324,1.438,1199.6899999999998,87.282,7.613,9.556,1.681,28.895,Asia,Asia,False,False,True,False,False
+China,CHN,2022,Country or economy,Fossil,True,5779.798,77.934,1.367,65.676,-1.438,1228.1399999999999,5104.684,67.059,1.331,98.319,883.194,Asia,Asia,False,False,True,False,False
+China,CHN,2022,Country or economy,Total generation,True,8800.417,304.568,3.585,100.0,0.0,2427.83,5191.966,74.672,1.459,100.0,589.968,Asia,Asia,False,False,True,False,False
+China,CHN,2022,Country or economy,Demand,True,8787.467,305.856,3.606,99.853,0.021,,,,,,,Asia,Asia,False,False,True,False,False
+China,CHN,2023,Country or economy,Solar,False,584.15,156.88,36.717,6.213,1.358,609.92,27.759,7.455,36.717,0.503,47.52,Asia,Asia,False,False,True,False,False
+China,CHN,2023,Country or economy,Wind,False,885.87,123.2,16.154,9.421,0.755,441.89,11.762,1.644,16.248,0.213,13.277,Asia,Asia,False,False,True,False,False
+China,CHN,2023,Country or economy,Hydro,False,1232.15,-71.75,-5.503,13.104,-1.712,370.6,29.276,-1.705,-5.503,0.531,23.76,Asia,Asia,False,False,True,False,False
+China,CHN,2023,Country or economy,Bioenergy,False,118.725,9.725,8.922,1.263,0.024,18.37,25.668,2.102,8.92,0.466,216.197,Asia,Asia,False,False,True,False,False
+China,CHN,2023,Country or economy,Nuclear,False,434.72,16.94,4.055,4.623,-0.124,56.91,2.407,0.094,4.064,0.044,5.537,Asia,Asia,False,False,True,False,False
+China,CHN,2023,Country or economy,Coal,False,5761.32,339.042,6.253,61.273,-0.341,1146.51,5226.359,298.018,6.047,94.793,907.146,Asia,Asia,False,False,True,False,False
+China,CHN,2023,Country or economy,Gas,False,297.8,22.176,8.046,3.167,0.035,122.12,132.308,9.852,8.045,2.4,444.285,Asia,Asia,False,False,True,False,False
+China,CHN,2023,Country or economy,Other fossil,False,88.007,6.112,7.463,0.936,0.005,14.9,57.908,4.021,7.462,1.05,657.993,Asia,Asia,False,False,True,False,False
+China,CHN,2023,Country or economy,Net imports,False,-17.08,-4.13,31.892,-0.182,-0.035,,0.0,0.0,,0.0,0.0,Asia,Asia,False,False,True,False,False
+China,CHN,2023,Country or economy,Wind and solar,True,1470.02,280.08,23.537,15.634,2.113,1051.81,39.52,9.098,29.906,0.717,26.884,Asia,Asia,False,False,True,False,False
+China,CHN,2023,Country or economy,"Hydro, bioenergy and other renewables",True,1350.875,-62.025,-4.39,14.367,-1.688,388.97,54.944,0.398,0.73,0.997,40.673,Asia,Asia,False,False,True,False,False
+China,CHN,2023,Country or economy,Renewables,True,2820.895,218.055,8.378,30.001,0.425,1440.78,94.465,9.496,11.176,1.713,33.488,Asia,Asia,False,False,True,False,False
+China,CHN,2023,Country or economy,Clean,True,3255.615,234.995,7.78,34.624,0.3,1497.69,96.872,9.59,10.987,1.757,29.755,Asia,Asia,False,False,True,False,False
+China,CHN,2023,Country or economy,Fossil,True,6147.127,367.329,6.355,65.376,-0.3,1283.5300000000002,5416.575,311.891,6.11,98.243,881.156,Asia,Asia,False,False,True,False,False
+China,CHN,2023,Country or economy,Total generation,True,9402.742,602.325,6.844,100.0,0.0,2781.22,5513.447,321.481,6.192,100.0,586.366,Asia,Asia,False,False,True,False,False
+China,CHN,2023,Country or economy,Demand,True,9385.662,598.195,6.807,99.818,-0.035,,,,,,,Asia,Asia,False,False,True,False,False
+China,CHN,2024,Country or economy,Solar,False,839.04,254.89,43.634,8.369,2.156,887.1,39.871,12.112,43.633,0.712,47.52,Asia,Asia,False,False,True,False,False
+China,CHN,2024,Country or economy,Wind,False,997.04,111.17,12.549,9.946,0.525,521.27,13.158,1.396,11.869,0.235,13.197,Asia,Asia,False,False,True,False,False
+China,CHN,2024,Country or economy,Hydro,False,1363.81,131.66,10.685,13.604,0.5,377.26,32.404,3.128,10.685,0.578,23.76,Asia,Asia,False,False,True,False,False
+China,CHN,2024,Country or economy,Bioenergy,False,124.183,5.458,4.597,1.239,-0.024,18.61,26.848,1.18,4.597,0.479,216.197,Asia,Asia,False,False,True,False,False
+China,CHN,2024,Country or economy,Nuclear,False,450.85,16.13,3.71,4.497,-0.126,60.83,2.496,0.089,3.698,0.045,5.536,Asia,Asia,False,False,True,False,False
+China,CHN,2024,Country or economy,Coal,False,5836.352,75.032,1.302,58.218,-3.055,1173.38,5285.156,58.797,1.125,94.317,905.558,Asia,Asia,False,False,True,False,False
+China,CHN,2024,Country or economy,Gas,False,320.719,22.919,7.696,3.199,0.032,138.94,142.491,10.183,7.696,2.543,444.286,Asia,Asia,False,False,True,False,False
+China,CHN,2024,Country or economy,Other fossil,False,93.014,5.007,5.689,0.928,-0.008,15.79,61.203,3.295,5.69,1.092,657.998,Asia,Asia,False,False,True,False,False
+China,CHN,2024,Country or economy,Net imports,False,-17.0,0.08,-0.468,-0.17,0.012,,0.0,0.0,,0.0,0.0,Asia,Asia,False,False,True,False,False
+China,CHN,2024,Country or economy,Wind and solar,True,1836.08,366.06,24.902,18.315,2.681,1408.37,53.03,13.51,34.185,0.946,28.882,Asia,Asia,False,False,True,False,False
+China,CHN,2024,Country or economy,"Hydro, bioenergy and other renewables",True,1487.993,137.118,10.15,14.843,0.476,395.87,59.252,4.308,7.841,1.057,39.82,Asia,Asia,False,False,True,False,False
+China,CHN,2024,Country or economy,Renewables,True,3324.073,503.178,17.838,33.158,3.157,1804.24,112.282,17.817,18.861,2.004,33.778,Asia,Asia,False,False,True,False,False
+China,CHN,2024,Country or economy,Clean,True,3774.923,519.308,15.951,37.655,3.031,1865.07,114.778,17.906,18.484,2.048,30.405,Asia,Asia,False,False,True,False,False
+China,CHN,2024,Country or economy,Fossil,True,6250.085,102.958,1.675,62.345,-3.031,1328.1100000000001,5488.849,72.274,1.334,97.952,878.204,Asia,Asia,False,False,True,False,False
+China,CHN,2024,Country or economy,Total generation,True,10025.008,622.266,6.618,100.0,0.0,3193.18,5603.628,90.181,1.636,100.0,558.965,Asia,Asia,False,False,True,False,False
+China,CHN,2024,Country or economy,Demand,True,10008.008,622.346,6.631,99.83,0.012,,,,,,,Asia,Asia,False,False,True,False,False
+China,CHN,2025,Country or economy,Solar,False,1173.24,334.2,39.831,11.168,2.799,1202.18,55.752,15.881,39.831,1.005,47.52,Asia,Asia,False,False,True,False,False
+China,CHN,2025,Country or economy,Wind,False,1127.92,130.88,13.127,10.736,0.79,640.63,14.886,1.728,13.133,0.268,13.198,Asia,Asia,False,False,True,False,False
+China,CHN,2025,Country or economy,Hydro,False,1392.157,28.347,2.079,13.251,-0.353,382.08,33.078,0.674,2.08,0.596,23.76,Asia,Asia,False,False,True,False,False
+China,CHN,2025,Country or economy,Bioenergy,False,136.642,12.459,10.033,1.301,0.062,18.77,29.542,2.694,10.034,0.532,216.2,Asia,Asia,False,False,True,False,False
+China,CHN,2025,Country or economy,Nuclear,False,485.23,34.38,7.626,4.619,0.122,62.48,2.687,0.191,7.652,0.048,5.538,Asia,Asia,False,False,True,False,False
+China,CHN,2025,Country or economy,Coal,False,5755.915,-80.437,-1.378,54.788,-3.43,1243.29,5200.164,-84.992,-1.608,93.698,903.447,Asia,Asia,False,False,True,False,False
+China,CHN,2025,Country or economy,Gas,False,337.61,16.891,5.267,3.214,0.015,160.51,149.995,7.504,5.266,2.703,444.285,Asia,Asia,False,False,True,False,False
+China,CHN,2025,Country or economy,Other fossil,False,97.026,4.012,4.313,0.924,-0.004,16.57,63.843,2.64,4.314,1.15,657.999,Asia,Asia,False,False,True,False,False
+China,CHN,2025,Country or economy,Net imports,False,-19.469,-2.469,14.524,-0.185,-0.015,,0.0,0.0,,0.0,0.0,Asia,Asia,False,False,True,False,False
+China,CHN,2025,Country or economy,Wind and solar,True,2301.16,465.08,25.33,21.904,3.589,1842.81,70.638,17.608,33.204,1.273,30.697,Asia,Asia,False,False,True,False,False
+China,CHN,2025,Country or economy,"Hydro, bioenergy and other renewables",True,1528.8,40.807,2.742,14.552,-0.291,400.84999999999997,62.62,3.368,5.684,1.128,40.96,Asia,Asia,False,False,True,False,False
+China,CHN,2025,Country or economy,Renewables,True,3829.96,505.887,15.219,36.456,3.298,2243.66,133.258,20.976,18.682,2.401,34.794,Asia,Asia,False,False,True,False,False
+China,CHN,2025,Country or economy,Clean,True,4315.19,540.267,14.312,41.075,3.42,2306.14,135.945,21.167,18.442,2.449,31.504,Asia,Asia,False,False,True,False,False
+China,CHN,2025,Country or economy,Fossil,True,6190.551,-59.534,-0.953,58.925,-3.42,1420.37,5414.002,-74.847,-1.364,97.551,874.559,Asia,Asia,False,False,True,False,False
+China,CHN,2025,Country or economy,Total generation,True,10505.74,480.732,4.795,100.0,0.0,3726.51,5549.947,-53.681,-0.958,100.0,528.278,Asia,Asia,False,False,True,False,False
+China,CHN,2025,Country or economy,Demand,True,10486.272,478.264,4.779,99.815,-0.015,,,,,,,Asia,Asia,False,False,True,False,False

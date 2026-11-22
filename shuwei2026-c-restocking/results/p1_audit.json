@@ -1,0 +1,107 @@
+{
+ "time": {
+  "records": 69,
+  "frames": 66070,
+  "gaps_gt_1p5dt": 0,
+  "non_increasing_timestamps": 0,
+  "records_30hz": 66,
+  "records_other_rate": {
+   "5": 25.0,
+   "11": 25.0,
+   "68": 25.0
+  },
+  "dt_ms_min": 33.31899999999999,
+  "dt_ms_max": 40.000000000000036,
+  "within_record_dt_jitter_us_max": 3.814697265625,
+  "mcap_stream_max_abs_dt_ns": 0.0,
+  "video_vs_pose_max_abs_dt_ns": 0.0,
+  "segments": 349,
+  "frames_inside_segments": 65764,
+  "unannotated_tail_s_max": 0.46666700000000105,
+  "unannotated_tail_s_mean": 0.12223907907523095,
+  "segment_gaps": 0
+ },
+ "coordinates": {
+  "stereo_baseline_mm_mean": 63.972160518302985,
+  "stereo_baseline_mm_sd": 0.13766319071764194,
+  "baseline_vertical_component_mm_meanabs": 3.220151096598406,
+  "baseline_in_camera_axes_mm": [
+   63.96940253349635,
+   0.11076343081566936,
+   0.10555818360873155
+  ],
+  "world_up_in_camera_y_mean": -0.7160627660942163,
+  "frac_frames_up_maps_to_minus_y": 0.991342515513849,
+  "frac_frames_right_handed": 0.9654911457545028,
+  "hands_in_front_of_camera_frac": 1.0,
+  "left_hand_left_of_right_frac": 1.0,
+  "head_height_range_m": [
+   -0.9950762391090393,
+   1.4728039503097534
+  ],
+  "reach_m_median": 0.47802478300149975,
+  "palm_bone_cv_max": 4.1444054288364055e-06,
+  "edge_margin_median": {
+   "good": 0.6315659336665865,
+   "occlusion": 0.6296234235129805,
+   "near_edge": -0.12232600079072764
+  },
+  "frac_any_keypoint_outside_image": {
+   "good": 0.002302882415738905,
+   "occlusion": 0.023479188900747065,
+   "near_edge": 0.8095238095238095
+  }
+ },
+ "duplicates": {
+  "duplicate_episode_uuid": 0,
+  "duplicate_content_hash": 0,
+  "environments": 24,
+  "scenes": 30,
+  "operators": 41,
+  "records_per_environment_max": 18,
+  "operators_shared_train_test": 3,
+  "operators_shared_train_val": 0,
+  "scenes_shared_across_splits": 0
+ },
+ "completeness": {
+  "nan_values": 0,
+  "all_zero_hand_frames": 0,
+  "exact_repeated_hand_frames": 0
+ },
+ "flags": {
+  "flagged_frames_any_hand": 828,
+  "flagged_hand_frames": 1000,
+  "hand_frames_occlusion": 937,
+  "hand_frames_near_edge": 63,
+  "both_hands_flagged_frames": 172,
+  "flagged_runs": 186,
+  "records_with_flags": 22,
+  "run_median_s": 0.09999900000000217,
+  "run_mean_s": 0.1792077019297292,
+  "run_max_s": 1.899981000000016,
+  "bad_without_reason": 0
+ },
+ "thresholds": {
+  "V_MAX": 2.5,
+  "A_MAX": 50.0,
+  "VH_MAX": 2.0,
+  "GUARD": 2,
+  "MIN_RUN_S": 1.0
+ },
+ "retention_total": {
+  "hand_frames": 132140,
+  "ref": 130331,
+  "flagged": 1000,
+  "suspect": 102,
+  "guard": 707,
+  "run_frames": 130103,
+  "runs": 250,
+  "short_fragment_frames": 228,
+  "dyn_frames": 128317
+ },
+ "hand_scale_mm": {
+  "knuckle_span_index_little_median": 57.914827976061915,
+  "palm_length_wrist_middle_mcp_median": 85.68035583760913,
+  "hand_length_wrist_middle_tip_median": 162.7647939256689
+ }
+}

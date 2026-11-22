@@ -1,0 +1,94 @@
+{
+  "format_version": 2,
+  "model_family": "TabICLv2 complementary-output fusion",
+  "chosen_cv_candidate": "fixed_half_y16_native50",
+  "selection": {
+    "mode": "engineering_fixed_half",
+    "primary_internal_experiment": "inner_groupwise_y16_native50 remains the preregistered primary; all three prespecified procedures are reported.",
+    "choice_rationale": "Fixed-half deployment reduces calibration complexity; it is not claimed to optimize every metric.",
+    "outer_CV_predictions_recomputed_with_final_weights": false
+  },
+  "task": {
+    "inputs": 231,
+    "outputs": 50,
+    "context_rows": 250,
+    "input_units": "Exactly the transformed feature columns of contest attachment 1.csv; preserve existing log10 transforms.",
+    "output_units": "Standardized sensory values of contest attachment 4.csv, not raw 0-6 panel ratings."
+  },
+  "target_encoding": {
+    "kind": "standardize_pca",
+    "outputs": 16,
+    "rank": 16,
+    "standard_deviation_ddof": 1,
+    "variance_retained": 0.8118437064113162,
+    "note": "Refitted on all 250 examples for deployment only; CV encodings remain train-fold-specific."
+  },
+  "input_encoding": "Official TabICL preprocessing fitted to the saved context at inference time",
+  "relative_grades": {
+    "range": [
+      0,
+      6
+    ],
+    "quantiles": [
+      0.14285714285714285,
+      0.2857142857142857,
+      0.42857142857142855,
+      0.5714285714285714,
+      0.7142857142857143,
+      0.8571428571428571
+    ],
+    "side": "right",
+    "reference": "All 250 training-context sensory rows",
+    "interpretation": "Within-study training-reference relative grades, not recovered raw panel scores."
+  },
+  "context_file": "model_context.npz",
+  "context_sha256": "cd11dd5cb7632a82eb54557007b3edda6691b37163e004be74204142e8445030",
+  "checkpoint": {
+    "relative_path": "../models/tabicl-regressor-v2-20260212.ckpt",
+    "sha256": "0db9cb538f114e79026bf08f45f41ad8dd7ad2de2aaca9a5ca8cd3bd9748ae7a",
+    "license": "BSD-3-Clause",
+    "repository": "https://huggingface.co/jingang/TabICL",
+    "revision": "4dcd344ece2c00be9e831fdd35bed57b5ad83e19"
+  },
+  "parameters": {
+    "n_estimators": 8,
+    "random_state": 20261023,
+    "device": "cpu",
+    "n_jobs": 6,
+    "use_amp": false,
+    "allow_auto_download": false,
+    "norm_methods": null,
+    "batch_size": 8,
+    "kv_cache": false,
+    "outlier_threshold": 4.0,
+    "feat_shuffle_method": "latin"
+  },
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0"
+  },
+  "required_tabicl_version": "2.2.0",
+  "required_torch_version": "2.14.1+cpu",
+  "data_sha256": {
+    "1.csv": "419849227a02e0c792cd405e6865035b7f58af1a92efa362dbb68a7ca2882f69",
+    "4.csv": "43a7b38682ed81ce64d97ebc1874c09dffac023ade4877f34e3c83ef7d42dc1c"
+  },
+  "source_fold_sha256": "19a765548313818741b4425a3d5f0745d807b9f1c1abbdd73d1c0f1f52c90f98",
+  "exporter_sha256": "0faa4ef6cd5d9bab3323be4673f714fbf2a455c7863a73c7041b2a19b37ada5a",
+  "inference_script_sha256": "e341a88b455242dec634171e23b639173f8a82397161e32fa1503bfc578792e1",
+  "fit_predictions_generated": false,
+  "fusion": {
+    "mode": "fixed_half",
+    "core30_y16_weight": 0.5,
+    "other20_y16_weight": 0.5,
+    "calibration": "No weight fitting; fixed half on all targets.",
+    "branches": {
+      "y16": "16 scalar latent targets, decoded to 50 responses",
+      "native50": "50 scalar original-response targets"
+    },
+    "scalar_inference_targets": 66,
+    "pretrained_neural_checkpoints": 1
+  },
+  "new_neural_inference_validated": false
+}

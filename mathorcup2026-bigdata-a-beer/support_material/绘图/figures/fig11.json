@@ -1,0 +1,35 @@
+{
+  "figure": 11,
+  "caption": "分类最少编辑返回支持的双证书。a以相同11款来源顺序对齐两类边界：左为满足分类条件时不可避免的目标距离增幅下界，右为源距离不增椭球内分类余量的上界；中央列示支持基数k。所有距离增幅下界为正、余量上界为负，分别排除对应约束集合内的可行连续值。b将同一对界放入摘要坐标，点面积随k增大；两轴来自不同约束集合，不构成实际联合可行域投影或排除锥。结论限于求解器返回的固定支持，非穷举全部同大小支持。数值不是置信区间。",
+  "figure_inches": [
+    6.7,
+    3.45
+  ],
+  "sources": [
+    {
+      "path": "plot_data/fig11_certificate_phase_space.csv",
+      "sha256": "5fd6df35538f19f1a83b9d5e60bcf61f92efac3117089a65d0fd21adb710187b"
+    }
+  ],
+  "new_model_fits": 0,
+  "new_bootstrap_resamples": 0,
+  "style": "shared_index_compositions_v4",
+  "certificate_cases": 11,
+  "source_order": [
+    28,
+    81,
+    90,
+    96,
+    119,
+    124,
+    139,
+    185,
+    209,
+    218,
+    230
+  ],
+  "all_distance_lower_bounds_positive": true,
+  "all_margin_upper_bounds_negative": true,
+  "bounds_are_not_ci": true,
+  "no_exclusion_cones": true
+}

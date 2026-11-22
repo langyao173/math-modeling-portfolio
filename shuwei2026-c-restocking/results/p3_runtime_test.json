@@ -1,0 +1,18 @@
+{
+ "FROZEN": 17.3,
+ "FIFO-mean": 0.1,
+ "EDD-median": 0.1,
+ "EDD-min": 0.1,
+ "Index-static": 6.5,
+ "RO-family-static": 15.4,
+ "RO-family-learn": 16.3,
+ "RO-feat-static": 17.1,
+ "RO-feat-learn": 17.6,
+ "RO-bma-static": 17.3,
+ "RO-bma-learn": 17.6,
+ "ABL-review-once": 20.8,
+ "ABL-review-idle": 16.2,
+ "RES-min": 10.2,
+ "RES-q75": 12.7,
+ "CLAIRVOYANT": 1.4
+}

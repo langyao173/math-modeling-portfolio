@@ -1,0 +1,17 @@
+\begin{ctab}{lccccc}
+\toprule
+ & \multicolumn{5}{c}{length of the missing window}\\
+predictor & 0.2 s & 0.5 s & 1 s & 2 s & 3 s\\
+\midrule
+Hold-last & 18.0 & 35.1 & 54.3 & 75.0 & 86.7\\
+Constant velocity & 15.3 & 41.6 & 86.4 & 173.1 & 254.6\\
+Damped velocity & 12.0 & 29.6 & 50.4 & 73.3 & 86.1\\
+Mean-reverting, 1 phase & 11.4 & 27.9 & 46.0 & 62.0 & 68.5\\
+\textbf{Mean-reverting, 4 phases} & 11.4 & 27.9 & 46.0 & 62.4 & 68.9\\
+\midrule
+windows evaluated & 1519 & 1497 & 1456 & 1380 & 1311\\
+coverage at window end, Gaussian 90\,\% & 0.830 & 0.779 & 0.769 & 0.760 & 0.770\\
+coverage at window end, calibrated 90\,\% & 0.930 & 0.899 & 0.894 & 0.882 & 0.882\\
+calibrated 90\,\% radius at window end (mm) & 43 & 94 & 131 & 142 & 143\\
+\bottomrule
+\end{ctab}

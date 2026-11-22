@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "created_for": "v12_simulation_selector_gate",
+  "stable_default": {
+    "variant": "track_b_branch",
+    "selector_mode": "proxy_only",
+    "summary_path": "experiments/full_public_summary_v12_stable_default.json",
+    "seed7": {
+      "final_score": 0.793701171875,
+      "track_a_score": 0.8720703125,
+      "track_b_score": 0.55859375,
+      "invalid_count": 0,
+      "track_b_001_compile_time_sec": 3.257,
+      "track_b_002_compile_time_sec": 12.675
+    },
+    "synthetic_holdout_path": "experiments/synthetic_holdout_summary_v11_proxy_only.json",
+    "synthetic_holdout": {
+      "mean_final_score": 0.7630208333333334,
+      "mean_track_a_score": 0.83984375,
+      "mean_track_b_score": 0.5325520833333334,
+      "max_invalid_count": 0,
+      "p95_compile_time_sec": 8.897578999982215
+    }
+  },
+  "v12_simulation_selector": {
+    "variant": "track_b_branch_sim_selector",
+    "selector_mode": "proxy_plus_common_random_noise",
+    "public_ablation_path": "experiments/ablation_summary_v12_sim_selector.json",
+    "public_seed7": {
+      "final_score": 0.793701171875,
+      "track_a_score": 0.8720703125,
+      "track_b_score": 0.55859375,
+      "invalid_count": 0,
+      "mean_compile_time_sec": 4.939099700003863
+    },
+    "synthetic_holdout_path": "experiments/synthetic_holdout_summary_v12_sim_selector.json",
+    "synthetic_holdout": {
+      "mean_final_score": 0.7630458733974358,
+      "mean_track_a_score": 0.83984375,
+      "mean_track_b_score": 0.5326522435897436,
+      "max_invalid_count": 0,
+      "p95_compile_time_sec": 12.253149700001813
+    },
+    "decision": "not_promoted_as_default",
+    "reason": "public score unchanged and synthetic mean improvement is far below the 0.005 keep threshold while compile-time p95 increases"
+  }
+}

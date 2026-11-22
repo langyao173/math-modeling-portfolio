@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "scenario_label": "scenario_demo_only_data_cutoff_2014",
+  "information_set": "pre_match",
+  "data_cutoff": "2014-07-13",
+  "raw_data_hashes": {
+    "tournaments": "a66240afe2ce2d7df5b701eebf012052193b90f33e003c9874cd3df85941003e",
+    "matches": "cb4e68bb7e080a84a82175151a2c1ce5ef4ef43fcb5111a3cf6c53f69bc92363",
+    "players": "753a68af0cd4fa38b67c7883c138700dfb37544f1ed898b1d176a03f92748d67"
+  },
+  "feature_schema": [
+    "historical_appearances_diff",
+    "historical_best_finish_diff",
+    "historical_mean_goals_for_diff",
+    "historical_mean_goals_conceded_diff"
+  ],
+  "feature_schema_hash": "f4d71626573c9f1ebd7b53a2e828a2a1fe779b53eabcdf4670b652df9fcc413f",
+  "model_hash": "fd71c27d6a054049da95835de837fe55c4bee911ac4d53f69a29f724386b1d45",
+  "model_artifact": "models/problem3_outcome_logit_2014.json",
+  "config_hash": "405d85ccdf418643de2cf0c81b277dc69845c11dd12e771eb5b4878308062614",
+  "random_seed": 1729,
+  "software_versions": {
+    "python": "3.12.11",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "scikit_learn": "1.6.1",
+    "statsmodels": "0.14.6"
+  },
+  "calibration_method": "none_official_baseline",
+  "calibration_artifact": null,
+  "prediction": {
+    "home_win": 0.5945486080868997,
+    "draw": 0.2136262621485668,
+    "away_win": 0.19182512976453364,
+    "most_likely": "home_win"
+  },
+  "goal_interval_90": null,
+  "uncertainty_status": "probabilities_uncalibrated_official_baseline",
+  "out_of_distribution_score": 2.194946456229058,
+  "out_of_distribution_components": {
+    "feature_standardized_distance": 2.0438113772343325,
+    "relative_team_count_expansion": 0.5,
+    "relative_match_count_expansion": 0.625
+  },
+  "invariant_status": {
+    "probability_simplex": true,
+    "swap_symmetry": true,
+    "data_cutoff_is_2014": true,
+    "format_shift_disclosed": true
+  },
+  "warning": "Scenario only: teams are illustrative and no 2026 fixture, squad, result, or post-2014 performance data were used."
+}

@@ -1,0 +1,29 @@
+{
+  "experiment_id": "matlab_equivariant_prototype_v1",
+  "data_version": "supplied World Cup CSVs through 2014",
+  "time_split": "expanding-origin outer folds 1986-2010",
+  "feature_set": "strictly prior tournament team scoring sums and differences",
+  "preprocessing": "within-fold centering/scaling",
+  "model_family": "penalized S2 even-odd Poisson GLM",
+  "hyperparameters": {
+    "ridge_alpha": 1
+  },
+  "random_seed": "not applicable; deterministic optimizer",
+  "validation_metrics": [
+    "log_loss",
+    "multiclass_brier",
+    "accuracy"
+  ],
+  "runtime_seconds": 8.2346696,
+  "selected_features": [
+    "prior goals-for sum",
+    "prior goals-conceded sum",
+    "prior goals-for difference",
+    "prior goals-conceded difference"
+  ],
+  "artifact_paths": [
+    "advanced_prototype_metrics.csv",
+    "advanced_theory_invariants.json"
+  ],
+  "production_dependency": false
+}

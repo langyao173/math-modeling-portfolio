@@ -1,0 +1,21 @@
+{
+ "selected_candidate": "RO-family-static",
+ "mode": "family",
+ "learn": false,
+ "rollout": true,
+ "rho": 0.3,
+ "q_min": 0.5,
+ "base_rule": {
+  "n_scen": 100,
+  "q0": 0.4,
+  "k_atc": 4.0,
+  "lam_late": 0.15,
+  "p_min": 0.5
+ },
+ "policy_seed": 20261120,
+ "review_rule": "none (value of information below its price)",
+ "duration_model": "results/frozen_p3_duration.json",
+ "selection": "one-standard-error rule on the validation pool; the standard error is the pool-to-pool standard deviation of the paired difference, measured on 60 emulated pools of training environments",
+ "inputs_of_the_rule": "validation trials of the six belief configurations and the emulated pools of training environments",
+ "replay": "python code/p3_run.py custom --split <split> --seeds <s1,s2,...> --policies FROZEN --tag <tag>"
+}

@@ -1,0 +1,361 @@
+{
+ "training_matches": 836,
+ "elo_matched_share": 1.0,
+ "corr_contest_internal_elo_vs_international_elo": 0.5171501532783095,
+ "C_refit": 1.0,
+ "C_combined": 0.1,
+ "selection_logloss_refit": 0.9918589200800593,
+ "selection_logloss_combined": 0.9730869162995369,
+ "learned_pool_weight_on_contest": 0.10306094138113024,
+ "scores": {
+  "combined logit (contest features + Elo)": {
+   "log_loss": 0.9361,
+   "rps": 0.1862,
+   "brier": 0.5443,
+   "accuracy": 0.5948
+  },
+  "learned pool": {
+   "log_loss": 0.9419,
+   "rps": 0.19,
+   "brier": 0.553,
+   "accuracy": 0.5776
+  },
+  "contest features, refit": {
+   "log_loss": 0.9441,
+   "rps": 0.1908,
+   "brier": 0.5545,
+   "accuracy": 0.5862
+  },
+  "equal-weight pool": {
+   "log_loss": 0.9464,
+   "rps": 0.1919,
+   "brier": 0.5586,
+   "accuracy": 0.6034
+  },
+  "Elo (ordered logit)": {
+   "log_loss": 0.9505,
+   "rps": 0.1912,
+   "brier": 0.5561,
+   "accuracy": 0.5776
+  },
+  "contest logit (submitted)": {
+   "log_loss": 1.0084,
+   "rps": 0.21,
+   "brier": 0.6052,
+   "accuracy": 0.5776
+  }
+ },
+ "paired_bootstrap": {
+  "contest logit (submitted) minus equal-weight pool (log_loss)": [
+   0.062070031377293944,
+   0.031188256905259913,
+   0.09281607953633948
+  ],
+  "contest logit (submitted) minus equal-weight pool (rps)": [
+   0.018091330011425533,
+   0.00901062227046845,
+   0.027289452905458575
+  ],
+  "contest features, refit minus equal-weight pool (log_loss)": [
+   -0.0022127972594534417,
+   -0.0371503026383339,
+   0.033276408376992674
+  ],
+  "contest features, refit minus equal-weight pool (rps)": [
+   -0.0011312269210929343,
+   -0.01102852477093421,
+   0.009286901776595016
+  ],
+  "combined logit (contest features + Elo) minus equal-weight pool (log_loss)": [
+   -0.010268316197998383,
+   -0.04984914527109843,
+   0.0327942533081884
+  ],
+  "combined logit (contest features + Elo) minus equal-weight pool (rps)": [
+   -0.005742698603213346,
+   -0.015183592491367782,
+   0.0039327645598963385
+  ],
+  "Elo (ordered logit) minus equal-weight pool (log_loss)": [
+   0.004133907680703421,
+   -0.03163091316100025,
+   0.04132802074725416
+  ],
+  "Elo (ordered logit) minus equal-weight pool (rps)": [
+   -0.0006803205098844035,
+   -0.00924419845334089,
+   0.008549467701030032
+  ],
+  "learned pool minus equal-weight pool (log_loss)": [
+   -0.004485981648720071,
+   -0.03157522278361218,
+   0.024148848239169518
+  ],
+  "learned pool minus equal-weight pool (rps)": [
+   -0.001964622513204409,
+   -0.00889363292674299,
+   0.005022369877835382
+  ],
+  "contest logit (submitted) minus Elo (ordered logit) (log_loss)": [
+   0.05793612369659052,
+   -0.012543505459444253,
+   0.12518998824258776
+  ],
+  "contest logit (submitted) minus Elo (ordered logit) (rps)": [
+   0.018771650521309937,
+   0.0002858422242411684,
+   0.036296207952214464
+  ],
+  "contest features, refit minus Elo (ordered logit) (log_loss)": [
+   -0.0063467049401568585,
+   -0.056633522914320784,
+   0.04133158127176696
+  ],
+  "contest features, refit minus Elo (ordered logit) (rps)": [
+   -0.00045090641120853076,
+   -0.014872617171537634,
+   0.013784086047460464
+  ],
+  "combined logit (contest features + Elo) minus Elo (ordered logit) (log_loss)": [
+   -0.014402223878701804,
+   -0.03673000011842362,
+   0.009200486563323248
+  ],
+  "combined logit (contest features + Elo) minus Elo (ordered logit) (rps)": [
+   -0.005062378093328944,
+   -0.010540800385561528,
+   0.0006281783338181133
+  ],
+  "equal-weight pool minus Elo (ordered logit) (log_loss)": [
+   -0.004133907680703421,
+   -0.04350103296625088,
+   0.03336262921379897
+  ],
+  "equal-weight pool minus Elo (ordered logit) (rps)": [
+   0.0006803205098844035,
+   -0.008366062352998246,
+   0.00938626718406441
+  ],
+  "learned pool minus Elo (ordered logit) (log_loss)": [
+   -0.008619889329423492,
+   -0.019689251989030685,
+   0.0011013844366719878
+  ],
+  "learned pool minus Elo (ordered logit) (rps)": [
+   -0.0012843020033200057,
+   -0.003154581385839428,
+   0.0006112638279034823
+  ],
+  "contest features, refit minus contest logit (submitted) (log_loss)": [
+   -0.0642828286367474,
+   -0.11213413675525528,
+   -0.01696201063369102
+  ],
+  "contest features, refit minus contest logit (submitted) (rps)": [
+   -0.019222556932518474,
+   -0.03181561243752311,
+   -0.00642859474848864
+  ],
+  "combined logit (contest features + Elo) minus contest logit (submitted) (log_loss)": [
+   -0.07233834757529232,
+   -0.13903278917683362,
+   -0.004048094994610243
+  ],
+  "combined logit (contest features + Elo) minus contest logit (submitted) (rps)": [
+   -0.02383402861463888,
+   -0.04122867972499021,
+   -0.0057505908291896665
+  ],
+  "Elo (ordered logit) minus contest logit (submitted) (log_loss)": [
+   -0.05793612369659052,
+   -0.12281604513992644,
+   0.010779277941971319
+  ],
+  "Elo (ordered logit) minus contest logit (submitted) (rps)": [
+   -0.018771650521309937,
+   -0.03613435920996678,
+   -0.0005830147716880591
+  ],
+  "equal-weight pool minus contest logit (submitted) (log_loss)": [
+   -0.062070031377293944,
+   -0.09261107056459597,
+   -0.03196641065711864
+  ],
+  "equal-weight pool minus contest logit (submitted) (rps)": [
+   -0.018091330011425533,
+   -0.026787546613800728,
+   -0.009149280945886696
+  ],
+  "learned pool minus contest logit (submitted) (log_loss)": [
+   -0.06655601302601401,
+   -0.12281731215275617,
+   -0.010525860218513188
+  ],
+  "learned pool minus contest logit (submitted) (rps)": [
+   -0.02005595252462995,
+   -0.03570600420720112,
+   -0.0037681310945226767
+  ]
+ },
+ "by_tournament_vs_elo": {
+  "contest features, refit minus Elo, 2018 (log_loss)": [
+   -0.007089268090717332,
+   -0.08603056310133451,
+   0.06610051378931694
+  ],
+  "contest features, refit minus Elo, 2022 (log_loss)": [
+   -0.07808364480693228,
+   -0.16166295985923992,
+   0.002294045089834688
+  ],
+  "contest features, refit minus Elo, 2026 (log_loss)": [
+   0.038256066147434424,
+   -0.045618468290098135,
+   0.12076502883697342
+  ],
+  "contest features, refit minus Elo, heterogeneity permutation p": 0.17068293170682933,
+  "combined logit (contest features + Elo) minus Elo, 2018 (log_loss)": [
+   -0.005001998673941891,
+   -0.042541966337281634,
+   0.0342800758470138
+  ],
+  "combined logit (contest features + Elo) minus Elo, 2022 (log_loss)": [
+   -0.0007715337590561734,
+   -0.039940538363330884,
+   0.04375401417797305
+  ],
+  "combined logit (contest features + Elo) minus Elo, 2026 (log_loss)": [
+   -0.02857509484756676,
+   -0.06596575293100178,
+   0.008032377986869487
+  ],
+  "combined logit (contest features + Elo) minus Elo, heterogeneity permutation p": 0.5994400559944005,
+  "log_loss_by_tournament_and_unrecorded_team": [
+   {
+    "model": "Elo (ordered logit)",
+    "year": 2018,
+    "team_without_record_to_2014": false,
+    "log_loss": 0.9859,
+    "matches": 58
+   },
+   {
+    "model": "Elo (ordered logit)",
+    "year": 2018,
+    "team_without_record_to_2014": true,
+    "log_loss": 0.8986,
+    "matches": 6
+   },
+   {
+    "model": "Elo (ordered logit)",
+    "year": 2022,
+    "team_without_record_to_2014": false,
+    "log_loss": 1.0838,
+    "matches": 61
+   },
+   {
+    "model": "Elo (ordered logit)",
+    "year": 2022,
+    "team_without_record_to_2014": true,
+    "log_loss": 0.835,
+    "matches": 3
+   },
+   {
+    "model": "Elo (ordered logit)",
+    "year": 2026,
+    "team_without_record_to_2014": false,
+    "log_loss": 0.826,
+    "matches": 79
+   },
+   {
+    "model": "Elo (ordered logit)",
+    "year": 2026,
+    "team_without_record_to_2014": true,
+    "log_loss": 0.9626,
+    "matches": 25
+   },
+   {
+    "model": "contest features, refit",
+    "year": 2018,
+    "team_without_record_to_2014": false,
+    "log_loss": 0.9895,
+    "matches": 58
+   },
+   {
+    "model": "contest features, refit",
+    "year": 2018,
+    "team_without_record_to_2014": true,
+    "log_loss": 0.7882,
+    "matches": 6
+   },
+   {
+    "model": "contest features, refit",
+    "year": 2022,
+    "team_without_record_to_2014": false,
+    "log_loss": 1.0114,
+    "matches": 61
+   },
+   {
+    "model": "contest features, refit",
+    "year": 2022,
+    "team_without_record_to_2014": true,
+    "log_loss": 0.6415,
+    "matches": 3
+   },
+   {
+    "model": "contest features, refit",
+    "year": 2026,
+    "team_without_record_to_2014": false,
+    "log_loss": 0.9107,
+    "matches": 79
+   },
+   {
+    "model": "contest features, refit",
+    "year": 2026,
+    "team_without_record_to_2014": true,
+    "log_loss": 0.8542,
+    "matches": 25
+   }
+  ]
+ },
+ "log_loss_by_tournament": {
+  "Elo (ordered logit)": {
+   "2018": 0.9777,
+   "2022": 1.0722,
+   "2026": 0.8588
+  },
+  "combined logit (contest features + Elo)": {
+   "2018": 0.9727,
+   "2022": 1.0714,
+   "2026": 0.8303
+  },
+  "contest features, refit": {
+   "2018": 0.9706,
+   "2022": 0.9941,
+   "2026": 0.8971
+  },
+  "contest logit (submitted)": {
+   "2018": 1.024,
+   "2022": 1.0287,
+   "2026": 0.9863
+  },
+  "equal-weight pool": {
+   "2018": 0.9769,
+   "2022": 1.0179,
+   "2026": 0.8835
+  },
+  "learned pool": {
+   "2018": 0.973,
+   "2022": 1.0518,
+   "2026": 0.855
+  }
+ },
+ "draw_rate_observed": 0.22413793103448276,
+ "mean_p_draw": {
+  "Elo (ordered logit)": 0.207,
+  "combined logit (contest features + Elo)": 0.2087,
+  "contest features, refit": 0.2149,
+  "contest logit (submitted)": 0.3318,
+  "equal-weight pool": 0.2694,
+  "learned pool": 0.2199
+ }
+}

@@ -1,0 +1,21 @@
+{
+  "raw_rows": 3840312,
+  "raw_customers": 103558,
+  "past_role_customers": {
+    "past": 98560,
+    "extension": 9956,
+    "v17_development": 41928,
+    "general": 49371,
+    "event_development": 7547,
+    "event_evaluation": 2907
+  },
+  "unused_customers": 4998,
+  "unused_rows": 16734,
+  "unused_limit_increases": 380,
+  "eligible_new_events": 0,
+  "new_outcomes_generated": false,
+  "raw_files": {
+    "part0.parquet": "78e9e35fa359267d9c298c1ad59b2cf98fa1443d45b967280b82861f00c58a13",
+    "part1.parquet": "9858076dbbf615b12102935131f17339f0f4287f397f5a0cabd93f5e62d4df89"
+  }
+}

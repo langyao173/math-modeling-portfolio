@@ -1,0 +1,3 @@
+phase,nondecreasing_minimum_radius_pp,one_pp_feasible,condition
+0,21.93841280021662,False,prior static p; nongated current p fixed; same frozen model and cohort
+1,25.573712239106623,False,prior static p; nongated current p fixed; same frozen model and cohort

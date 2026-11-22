@@ -1,0 +1,239 @@
+{
+ "episodes": 186,
+ "records_with_episodes": 22,
+ "records": 69,
+ "hand_minutes": 73.54448321520636,
+ "episodes_per_hand_minute": 2.52908160977521,
+ "flagged_share_of_hand_frames": 0.007567731194187983,
+ "by_reason": {
+  "mixed": {
+   "n": 8,
+   "median_s": 0.15,
+   "mean_s": 0.1916,
+   "max_s": 0.4999
+  },
+  "near edge": {
+   "n": 13,
+   "median_s": 0.1,
+   "mean_s": 0.1102,
+   "max_s": 0.2667
+  },
+  "occlusion": {
+   "n": 165,
+   "median_s": 0.1,
+   "mean_s": 0.184,
+   "max_s": 1.9
+  }
+ },
+ "duration_quantiles_s": {
+  "0.25": 0.03333400000000353,
+  "0.5": 0.09999900000000217,
+  "0.75": 0.23333099999999263,
+  "0.9": 0.4333289999999863,
+  "0.95": 0.4999950000000042,
+  "0.99": 0.7916629499999952
+ },
+ "duration_mean_s": 0.1792077019297292,
+ "duration_max_s": 1.899981000000016,
+ "censored": 4,
+ "share_single_frame": 0.2903225806451613,
+ "share_le_0p2s": 0.7204301075268817,
+ "share_gt_0p5s": 0.04838709677419355,
+ "both_hands_share": 0.43548387096774194,
+ "rate_by_dataset": {
+  "EgoDemo": {
+   "rate_per_hand_min": 1.4185076817429554,
+   "ci_low": 0.13760036735240785,
+   "ci_high": 2.9238960514913948,
+   "episodes": 26,
+   "hand_minutes": 18.329121748606365,
+   "n_env": 13
+  },
+  "EgoPro": {
+   "rate_per_hand_min": 4.336974333844291,
+   "ci_low": 2.268903339817549,
+   "ci_high": 7.167261276176118,
+   "episodes": 85,
+   "hand_minutes": 19.59891699996667,
+   "n_env": 6
+  },
+  "EgoStandard": {
+   "rate_per_hand_min": 2.1057688694968553,
+   "ci_low": 0.9158625405188364,
+   "ci_high": 3.5913211207805267,
+   "episodes": 75,
+   "hand_minutes": 35.61644446663333,
+   "n_env": 11
+  }
+ },
+ "rate_by_family": {
+  "A": {
+   "rate_per_hand_min": 2.0329138431752183,
+   "ci_low": 0.6867726631128726,
+   "ci_high": 3.8556644508250124,
+   "episodes": 49,
+   "hand_minutes": 24.103333333333328,
+   "n_env": 13
+  },
+  "L": {
+   "rate_per_hand_min": 0.12825994014536124,
+   "ci_low": 0.0,
+   "ci_high": 0.7582139848357203,
+   "episodes": 1,
+   "hand_minutes": 7.796666666666668,
+   "n_env": 4
+  },
+  "P": {
+   "rate_per_hand_min": 3.239584172777823,
+   "ci_low": 1.7231916486261547,
+   "ci_high": 5.293398575057083,
+   "episodes": 134,
+   "hand_minutes": 41.36333333333333,
+   "n_env": 13
+  }
+ },
+ "rate_by_split": {
+  "test": {
+   "rate_per_hand_min": 2.6483463107376592,
+   "ci_low": 0.0,
+   "ci_high": 4.460609186796048,
+   "episodes": 36,
+   "hand_minutes": 13.593388392612713,
+   "n_env": 4
+  },
+  "train": {
+   "rate_per_hand_min": 2.1560780147003786,
+   "ci_low": 1.0540336538255273,
+   "ci_high": 3.630599707692916,
+   "episodes": 113,
+   "hand_minutes": 52.40997738929365,
+   "n_env": 16
+  },
+  "validation": {
+   "rate_per_hand_min": 4.906434666647111,
+   "ci_low": 2.502158267371236,
+   "ci_high": 9.330578322439449,
+   "episodes": 37,
+   "hand_minutes": 7.5411174333,
+   "n_env": 4
+  }
+ },
+ "recovery": {
+  "p_stay_geometric": 0.8135245901639344,
+  "mean_duration_frames": 5.362637362637362,
+  "hazard_frames_1_3": 0.23728813559322035,
+  "hazard_frames_4_10": 0.14933333333333335,
+  "hazard_frames_11_plus": 0.14893617021276595,
+  "hazard_ci": {
+   "f1_3": [
+    0.19399362737691828,
+    0.28191991800203653
+   ],
+   "f4_10": [
+    0.11470281862745098,
+    0.1887946336694793
+   ],
+   "f11": [
+    0.09743161094224924,
+    0.24476843910806168
+   ]
+  },
+  "half_recovered_s": 0.09999900000000217,
+  "recovered_90pct_s": 0.4333289999999863
+ },
+ "reoccurrence": {
+  "p_new_onset_within_1s_after_recovery": 0.430939226519337,
+  "n": 181,
+  "base_rate_any_1s_window": 0.03504879858174459,
+  "ratio": 12.295406517694296
+ },
+ "bridging": {
+  "episodes_used": 131,
+  "gap_s_median": 0.43333333333333335,
+  "natural_model_mm": 77.08269645481766,
+  "natural_hold_mm": 74.3929773411411,
+  "matched_artificial_model_mm": 39.5289527921946,
+  "matched_artificial_hold_mm": 44.86203669726639,
+  "propensity_weighted_model_mm": 47.02579651869384,
+  "propensity_weighted_hold_mm": 54.66439248340669,
+  "ratio_natural_to_artificial_model": [
+   1.9500313317189226,
+   1.6519345986804417,
+   2.280253645332949
+  ],
+  "ratio_natural_to_ipw_model": [
+   1.6391576998419477,
+   1.406312798380754,
+   1.9233452312090529
+  ],
+  "ratio_natural_to_artificial_hold": [
+   1.658261256463957,
+   1.396128470108879,
+   1.9349917653098299
+  ],
+  "natural_inside_calibrated_90": 0.7557251908396947,
+  "artificial_inside_calibrated_90": 0.9152995593559183,
+  "natural_inside_twice_radius": 0.9389312977099237,
+  "model_vs_hold_natural_reduction": -0.0361555513680063,
+  "by_split": {
+   "train": {
+    "n": 73,
+    "natural_model_mm": 59.70813266315233,
+    "artificial_model_mm": 39.37619243850046,
+    "inside90": 0.8767123287671232
+   },
+   "validation": {
+    "n": 23,
+    "natural_model_mm": 140.4391105480565,
+    "artificial_model_mm": 41.13757822926048,
+    "inside90": 0.30434782608695654
+   },
+   "test": {
+    "n": 35,
+    "natural_model_mm": 71.68685738759132,
+    "artificial_model_mm": 38.79047052839908,
+    "inside90": 0.8
+   }
+  },
+  "correction_rule": {
+   "estimated_on": "train+validation",
+   "n_fit": 96,
+   "factor": 2.0,
+   "ratio_natural_to_artificial_model": [
+    1.986269406431506,
+    1.6262601653532345,
+    2.381766799226485
+   ],
+   "fit_inside_calibrated_90": 0.7395833333333334,
+   "fit_inside_twice_radius": 0.9166666666666666,
+   "n_test": 35,
+   "test_inside_calibrated_90": 0.8,
+   "test_inside_twice_radius": 1.0,
+   "test_inside_twice_radius_count": 35
+  }
+ },
+ "selection": {
+  "median_speed_before_onset": 0.19861994071605002,
+  "median_speed_all_reference": 0.11379273345946248,
+  "share_onsets_in_fastest_phase": 0.4732824427480916,
+  "propensity_weight_cv": 1.0055988325216951,
+  "propensity_weight_p99_over_median": 5.822763013193239
+ }
+}
+    frames  empirical_survival  geometric_survival  empirical_recovery_hazard  at_risk
+0        1               1.000               1.000                      0.291      182
+1        2               0.709               0.814                      0.209      129
+2        3               0.560               0.662                      0.176      102
+3        4               0.462               0.538                      0.119       84
+4        5               0.407               0.438                      0.162       74
+5        6               0.341               0.356                      0.177       62
+6        7               0.280               0.290                      0.196       51
+7        8               0.225               0.236                      0.171       41
+8        9               0.187               0.192                      0.147       34
+9       10               0.159               0.156                      0.034       29
+10      11               0.154               0.127                      0.071       28
+11      12               0.143               0.103                      0.231       26
+12      13               0.110               0.084                      0.150       20
+13      14               0.093               0.068                      0.235       17
+14      15               0.071               0.056                      0.308       13
+15      16               0.049               0.045                      0.222        9

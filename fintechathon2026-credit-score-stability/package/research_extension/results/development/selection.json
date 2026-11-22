@@ -1,0 +1,7 @@
+{
+  "selected": "reference_stress_bypass",
+  "new_candidate_passed": true,
+  "eligible_reference_count": 2,
+  "selection_inputs": "customer-out-of-fold development predictions only",
+  "code_sha256": "30318f21d68916665b8dea7d5f7d101f1587a0f318bd0e5194706e4ba4a3a955"
+}

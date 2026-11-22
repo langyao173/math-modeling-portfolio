@@ -1,0 +1,108 @@
+{
+  "protocol": {
+    "version": "V6_FIXED_IMPORT_CAPACITY_REPAIR_20261018",
+    "status": "PREDECLARED_DEVELOPMENT_DESIGN_NOT_PROBABILITY_SAMPLE",
+    "hours": 2160,
+    "warmup_hours": 120,
+    "events": [
+      [
+        120,
+        600
+      ],
+      [
+        1200,
+        1680
+      ]
+    ],
+    "import_retention": [
+      0.5,
+      0.05,
+      0.05
+    ],
+    "renewable_retention": {
+      "wind": 0.25,
+      "solar": 0.55,
+      "hydro": 0.7
+    },
+    "event_demand_multiplier": 1.08,
+    "contract_lead_hours": 48,
+    "contract_max_fraction_normal_import_rate": 0.5,
+    "contract_max_fraction_initial_stock_per_event": 0.5,
+    "contract_premium_fraction": 0.5,
+    "years": [
+      2030,
+      2060
+    ],
+    "selected_roles": [
+      "minimum_capital",
+      "frontier_knee",
+      "minimum_net_emissions"
+    ],
+    "strategies": [
+      "coordinated",
+      "decentralized"
+    ],
+    "supply_policies": [
+      "inherited",
+      "contract"
+    ],
+    "service_shortage_threshold_fraction": 0.01,
+    "recovery_stock_fraction_of_preevent": 0.95,
+    "recovery_sustained_hours": 24,
+    "forecast_hours": 24,
+    "control_cases": "frontier_knee_2060, coordinated, each supply policy, with second event absent",
+    "scope": "Continuous state down-drill from an annual end-state, not an actual 90-day historical chronology or an annual stock replacement. All policies share the same perfect next-24-hour physical inputs, retain fuel/SOC/thermal/debt and do not reset at event boundaries. First 120 hours are warmup and reported separately. Contracts add bounded paid fuel; their benefits are resource additions, not algorithm gains. Finite designed cohort, not probabilistic reliability or target feasibility proof.",
+    "contract_capacity_basis": "Independent gross-import channel capacity from annual state; actual normal arrivals remain separate.",
+    "zero_coal_control": "Knee 2060, coordinated, both supply policies; set coal normal-import arrival and channel capacity to zero, holding all other initial states and inputs fixed."
+  },
+  "plan_roles": {
+    "plan_00938": [
+      "minimum_capital"
+    ],
+    "plan_02349": [
+      "frontier_knee"
+    ],
+    "plan_01400": [
+      "minimum_net_emissions"
+    ]
+  },
+  "case_ids": [
+    "plan_00938_2030_inherited_coordinated_repeated",
+    "plan_00938_2030_inherited_decentralized_repeated",
+    "plan_00938_2030_contract_coordinated_repeated",
+    "plan_00938_2030_contract_decentralized_repeated",
+    "plan_00938_2060_inherited_coordinated_repeated",
+    "plan_00938_2060_inherited_decentralized_repeated",
+    "plan_00938_2060_contract_coordinated_repeated",
+    "plan_00938_2060_contract_decentralized_repeated",
+    "plan_02349_2030_inherited_coordinated_repeated",
+    "plan_02349_2030_inherited_decentralized_repeated",
+    "plan_02349_2030_contract_coordinated_repeated",
+    "plan_02349_2030_contract_decentralized_repeated",
+    "plan_02349_2060_inherited_coordinated_repeated",
+    "plan_02349_2060_inherited_decentralized_repeated",
+    "plan_02349_2060_contract_coordinated_repeated",
+    "plan_02349_2060_contract_decentralized_repeated",
+    "plan_01400_2030_inherited_coordinated_repeated",
+    "plan_01400_2030_inherited_decentralized_repeated",
+    "plan_01400_2030_contract_coordinated_repeated",
+    "plan_01400_2030_contract_decentralized_repeated",
+    "plan_01400_2060_inherited_coordinated_repeated",
+    "plan_01400_2060_inherited_decentralized_repeated",
+    "plan_01400_2060_contract_coordinated_repeated",
+    "plan_01400_2060_contract_decentralized_repeated",
+    "plan_02349_2060_inherited_coordinated_single",
+    "plan_02349_2060_contract_coordinated_single",
+    "plan_02349_2060_inherited_coordinated_zero_coal_channel",
+    "plan_02349_2060_contract_coordinated_zero_coal_channel"
+  ],
+  "source_sha256": {
+    "src/v6_resilience.py": "bc01b49769038eedb233a8f8373c35f05c27e3f3334095f4089daff162404e0a",
+    "config/v6_resilience.json": "db22d499a6bae17088739db306b381dc9d8921dd93864e9363faf967b3a349e5",
+    "outputs/v6/planning/selected_cases.csv": "a3a5e658928ad6ca27137e086f3e8cca5f3f095f92931d24406d59d860e86759",
+    "outputs/v6/planning/selected_snapshots.json": "299dfcf69c56e2978191908cb32e3e87294420edbc8a4470249aa899ec67eb30",
+    "src/v3_hourly.py": "d4ce2fd11f5388b1508251f21b1e478f0dacf5cc6935eafa1291f9493824df59",
+    "src/v4_hourly.py": "6c6271dcad532a97cf4fa6934311d01d35e0738e4f07c9e44fd769c152578261",
+    "data/v6_fuel_import_channels.csv": "36c170edaaa3e4f6f915973760fe2fb2fedbeb54bda18e118c1283e177eb084c"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "family": "renewable_absorb_lns",
+  "oracle": "greedy_one_hot",
+  "status": "success",
+  "jobs": 588,
+  "selected_actions": 588,
+  "accepted_under_submission_guard": 1,
+  "true_action_cost_usd": 5414.796204,
+  "expected_recourse_cost_usd": 36.225154343393065,
+  "cvar95_recourse_cost_usd": 49.503461447645044,
+  "true_objective": 85.72861579103811,
+  "source_result": {
+    "passes": [
+      {
+        "energy_gain": 3.342759965060395,
+        "improvements": 54,
+        "pass": 1
+      },
+      {
+        "energy_gain": 0.3603650709870294,
+        "improvements": 15,
+        "pass": 2
+      },
+      {
+        "energy_gain": 0.01683261418378379,
+        "improvements": 3,
+        "pass": 3
+      },
+      {
+        "energy_gain": 0.0026241659570587217,
+        "improvements": 1,
+        "pass": 4
+      },
+      {
+        "energy_gain": 0.0,
+        "improvements": 0,
+        "pass": 5
+      }
+    ],
+    "total_improvements": 73
+  }
+}

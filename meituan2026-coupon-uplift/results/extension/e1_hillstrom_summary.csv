@@ -1,0 +1,11 @@
+,,qini_area,qini_area,increment_at_30pct,increment_at_30pct,share_of_total_increment_at_30pct,share_of_total_increment_at_30pct
+,,mean,std,mean,std,mean,std
+outcome,policy,,,,,,
+conversion,T-learner uplift (who buys because of it),0.00015,0.00026,0.00172,0.00041,0.34813,0.08327
+conversion,random,3e-05,0.00029,0.00149,0.00053,0.29995,0.10637
+conversion,response model (who will buy),0.00015,0.00018,0.00171,0.0003,0.34421,0.0606
+conversion,uplift + IPTW isotonic calibration,0.00015,0.00026,0.00172,0.00041,0.34813,0.08327
+visit,T-learner uplift (who buys because of it),0.00248,0.00118,0.02197,0.00186,0.36084,0.03061
+visit,random,-0.0002,0.00121,0.01751,0.00195,0.28753,0.0321
+visit,response model (who will buy),0.00256,0.00084,0.02196,0.00153,0.36064,0.02517
+visit,uplift + IPTW isotonic calibration,0.00248,0.00118,0.02197,0.00186,0.36084,0.03061

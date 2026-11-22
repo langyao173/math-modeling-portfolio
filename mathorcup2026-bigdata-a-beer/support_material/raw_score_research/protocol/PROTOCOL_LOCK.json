@@ -1,0 +1,236 @@
+{
+  "protocol_version": "raw-score-v1.1",
+  "locked_at_utc": "2026-10-25T17:57:19.025691+00:00",
+  "status": "decisions_and_identity_inputs_locked",
+  "registration_scope": "Internal prospective analysis decisions for this raw-score extension; not external preregistration. Identity/source audits and all previous official-Z results were known; new raw-score model outcomes were not used to choose this protocol.",
+  "new_outcomes_used_for_protocol_selection": false,
+  "identity": {
+    "mapping_status": "fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction",
+    "mapping_formula": "raw beer_name k -> one-based row k of published S4 -> its beer key -> official chemistry/sensory beer key",
+    "mapping_searches": 0,
+    "labels_used_to_select_pairs": false,
+    "source_declared_anonymization_codebook_available": false,
+    "author_confirmation_obtained_by_this_team": false
+  },
+  "input_sha256": {
+    "raw": "78525c8cbbbd498578c451b06641969a20ada87d0fe4c67fe1e634ad34569628",
+    "public_workbook": "e0a10635c4fbc3c62dc7e06e553cce9fad98c768ea6af5c8adc8a836098d1474",
+    "official_X": "419849227a02e0c792cd405e6865035b7f58af1a92efa362dbb68a7ca2882f69",
+    "official_Yz": "43a7b38682ed81ce64d97ebc1874c09dffac023ade4877f34e3c83ef7d42dc1c",
+    "identity_result": "ac70254bcf265b8bc88e403651ec7bac75f059e85c3f70cf08f72b551360e4ab",
+    "mapping": "b11b58d3a6a29407624b4567c1aa8cedd2a03228f4efafd894c98a99e8c823c5",
+    "outer_oof": "5ded646e830a9c059396493a5fd42c2e7878ac5e4fd0a08ef910c70db985ffef",
+    "inner_oof_outer0": "415e5f92ee1f622a3c86c477b08905008a7a4f681e0c8f9f2f46353d58eabecf",
+    "inner_oof_outer1": "02d7e217044865779ce37270d02e82b98011325db1019a2f57cf56567cd2dbd3",
+    "inner_oof_outer2": "7e79ad287e991f01b3b0053dfd38b4f13251b6d3d7e6b964fd047d93d44f2112",
+    "inner_oof_outer3": "7916f532480a24e73fdd620a6de83857cb1e8074e62e1320179f7518851837a7",
+    "inner_oof_outer4": "3f13450b3f2e4f26e6813168081785dafd33c0ff47a62668c321da8c8a56a8f7"
+  },
+  "input_paths": {
+    "raw": "work/raw_sensory_check/Raw sensory data anonymized.csv",
+    "public_workbook": "work/raw_sensory_check/Supplemental Files and Figure source files.xlsx",
+    "official_X": "work/contest_data_roles/official/1.csv",
+    "official_Yz": "work/contest_data_roles/official/4.csv",
+    "identity_result": "work/raw_score_research/identity/identity_result.json",
+    "mapping": "work/raw_score_research/identity/raw_to_competition_mapping.csv",
+    "outer_oof": "work/raw_score_research/baseline/A题_理论与实验深化_20261025/research/prediction/fusion_replay_v1/outer_predictions.npz",
+    "inner_oof_outer0": "work/raw_score_research/baseline/A题_理论与实验深化_20261025/research/checkpoint/unpacked/nested_selection/outer_0/inner_oof.npz",
+    "inner_oof_outer1": "work/raw_score_research/baseline/A题_理论与实验深化_20261025/research/checkpoint/unpacked/nested_selection/outer_1/inner_oof.npz",
+    "inner_oof_outer2": "work/raw_score_research/baseline/A题_理论与实验深化_20261025/research/checkpoint/unpacked/nested_selection/outer_2/inner_oof.npz",
+    "inner_oof_outer3": "work/raw_score_research/baseline/A题_理论与实验深化_20261025/research/checkpoint/unpacked/nested_selection/outer_3/inner_oof.npz",
+    "inner_oof_outer4": "work/raw_score_research/baseline/A题_理论与实验深化_20261025/research/checkpoint/unpacked/nested_selection/outer_4/inner_oof.npz"
+  },
+  "data_roles": {
+    "official_X": "contest chemistry inputs only",
+    "official_Yz": "contest standardized sensory target; old performance retains this identity",
+    "raw_scores": "public supplementary repeated ratings, not independent new beer objects or committee-certified replacement labels",
+    "full_data_reconstruction": "descriptive identity/processing audit only; no full-data taster parameters enter predictive fits"
+  },
+  "target_definition": {
+    "raw_primary": "within each mapped beer and attribute, observed rating records receive equal weight; q[k] is empirical frequency over 0..6, m=sum(k*q[k])",
+    "raw_sensitivity": "within each beer average repeated records for each taster, then average distinct observed tasters equally; keep predictions and hyperparameters unchanged",
+    "official_primary": "the unchanged 50 official standardized target columns",
+    "aggregation": "equal beer weight then equal target weight; never pool all 2197 records as independent units",
+    "core_targets": "first 30 canonical targets (15 Aroma + 15 Flavour) primary; all 50 reported in parallel",
+    "inputs_at_prediction": "chemical fields only; no beer identity, official test labels, taster/date or test raw scores as covariates"
+  },
+  "outer_design": {
+    "folds": 5,
+    "source": "exact beer and fold arrays in frozen outer_predictions.npz, seed20261023; no regeneration if identity differs",
+    "group": "all rating records of a beer remain in the same outer split",
+    "inner_folds": 3,
+    "inner_source": "shared input inner_fold vector aligned with original frozen training order when available",
+    "foldwise_fit": "imputation, input scaling/rank transformation, response scale, low-rank representation and all fitted calibrators use current training beer only",
+    "prediction_cache_use": "only genuine stored fold-excluded predictions for those exact beers; no relabelled cache inference on altered chemistry"
+  },
+  "raw_point_methods": {
+    "train_beer_mean": "equal-beer training mean of m",
+    "raw_ridge": {
+      "alpha": [
+        1,
+        10,
+        100,
+        1000
+      ],
+      "selection": "inner raw-mean core30 MSE"
+    },
+    "raw_extra_trees": {
+      "n_estimators": 240,
+      "max_features": 0.7,
+      "min_samples_leaf": [
+        2,
+        5
+      ],
+      "seed_base": 20261025,
+      "selection": "inner raw-mean core30 MSE"
+    },
+    "point_bounds": "clip continuous raw score predictions to [0,6] before scoring and output"
+  },
+  "raw_distribution_methods": {
+    "train_beer_frequency": "mean of training beer q, equal beer weight",
+    "cdf_ridge": {
+      "alpha": [
+        1,
+        10,
+        100,
+        1000
+      ],
+      "thresholds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "selection": "inner projected CDF squared error, core30"
+    },
+    "cdf_extra_trees": {
+      "n_estimators": 240,
+      "max_features": 0.7,
+      "min_samples_leaf": [
+        2,
+        5
+      ],
+      "seed_base": 20261025,
+      "selection": "inner projected CDF squared error, core30"
+    },
+    "validity": "equal-coordinate Euclidean projection onto 0<=F0<=...<=F5<=1, PAVA plus common bounds; p from CDF differences",
+    "decisions": "mean from p for squared raw-score loss; lower median for ordinal absolute loss; mode (lower tied grade) only as separately named exact-class decision"
+  },
+  "calibration_methods": {
+    "base": "fixed_half_y16_native50 = 0.5*(f16+f50), unchanged neural checkpoints and fixed coefficients",
+    "training_inputs": "each outer train set uses its own inner_oof.npz raw231_y16_no_residual/raw231_y50_native; no slicing full outer OOF to make calibration training input",
+    "affine_mean": "per-attribute affine with nonnegative slope, clip [0,6], fixed method no hyperparameter selection",
+    "isotonic_mean": "per-attribute increasing isotonic regression y in [0,6], out-of-bounds clip, fixed method",
+    "isotonic_cdf": "per-attribute six decreasing threshold probabilities Pr(R<=h) against scalar predicted Z, then the same CDF projection; fixed method",
+    "no_cross_method_selection": "report all specified calibration methods, no choice using outer outcomes"
+  },
+  "official_auxiliary_methods": {
+    "count_weighted_ridge": {
+      "comparators": [
+        "uniform weights",
+        "n/(n+median_training_n)"
+      ],
+      "alpha": [
+        1,
+        10,
+        100,
+        1000
+      ],
+      "selection": "inner official-Z core30 variance-normalized MSE; training-side variances only",
+      "weight_normalization": "divide by mean weight within current training subset; recompute n median and normalization in each inner train and outer final fit"
+    },
+    "reduced_rank_ridge": {
+      "tau": [
+        0,
+        0.5,
+        1
+      ],
+      "primary_contrast": "tau1 vs tau0",
+      "sensitivity": "tau0.5",
+      "target_stack": "[Zstandardized, sqrt(tau)*Mstandardized]",
+      "rank": [
+        4,
+        8,
+        16,
+        32
+      ],
+      "lambda": [
+        1,
+        10,
+        100,
+        1000
+      ],
+      "selection": "inner official-Z core30 variance-normalized MSE, inner train variances",
+      "implementation_control": "at a fixed lambda with no rank constraint, Z block must be invariant to tau"
+    }
+  },
+  "missingness": {
+    "methods": "all direct raw point/CDF methods and official auxiliary contrasts; frozen neural calibration complete-input only unless genuine matching missingness cache is independently recovered",
+    "scenarios": [
+      "original",
+      "derived_only_missing",
+      "MCAR_10_strict",
+      "MCAR_30_strict",
+      "MCAR_50_strict"
+    ],
+    "derived": [
+      "kcalperc",
+      "esters_sum",
+      "aroma_hops_sum",
+      "acids_sum",
+      "sulfur_sum"
+    ],
+    "mask": "for each outer test block draw rng.random(Xtest.shape) over all 231 coordinates with seed=20261023+1000*outer_fold+level and set draw<level/100 to NaN; force all five derived coordinates to NaN afterwards, matching original legacy source",
+    "fit": "complete outer train fit and original-input inner selection remain fixed; no test-time retuning or masking target values",
+    "audit": "save actual masks or exact mask hashes, train/test IDs, and original missingness pattern"
+  },
+  "metrics": {
+    "raw_point_primary": "core30 RMSE against raw beer means",
+    "raw_point_secondary": [
+      "core30 MAE against raw beer means",
+      "core30 macroR2 against raw beer means",
+      "all50 parallel values",
+      "per-target and per-fold values"
+    ],
+    "raw_distribution_primary": "core30 mean observed-rating RPS, normalized by 6 thresholds; report reducible CDF error and fixed within-panel term separately",
+    "raw_distribution_secondary": [
+      "all50 RPS",
+      "Brier",
+      "NLL",
+      "per-beer expected ordinal absolute loss",
+      "per-beer exact-class probability",
+      "per-beer within-one-grade probability"
+    ],
+    "NLL_epsilon": 1e-06,
+    "NLL_floor_scope": "separate floor-and-renormalize copy only; do not change main projected probabilities or RPS",
+    "official_comparison": "core30 and all50 macroR2 on unchanged official Yz; keep separate from raw results",
+    "inference": "paired resampling of beer rows preserves all targets and methods together; model fits fixed; intervals do not quantify new training-sample or new-batch uncertainty",
+    "paired_bootstrap": {
+      "resamples": 2000,
+      "seed": 2026102527,
+      "block": "beer",
+      "statistics": [
+        "core30/all50 RMSE difference for raw point comparisons",
+        "core30/all50 total RPS difference for distribution comparisons",
+        "core30/all50 official macroR2 difference for auxiliary contrasts"
+      ],
+      "interpretation": "conditional on stored out-of-fold predictions and observed beer-level targets; no model retraining in bootstrap"
+    }
+  },
+  "reporting": {
+    "all_candidates": "retain all scheduled methods, negative increments, and missingness outcomes",
+    "main_text": "methods with demonstrable task value and relevant theory; nonadvantageous extensions remain in supporting results",
+    "terminology": "no claim of author codebook, own author correspondence, exact mathematical inverse of aggregated Z, independent external validation from the same beer objects, or official competition score threshold",
+    "previous_results": "do not relabel old quantile grades as observed raw grades or old Z R2 as raw-score R2"
+  },
+  "amendments": [
+    {
+      "recorded_at_utc": "2026-10-25T17:58:08.667114+00:00",
+      "previous_lock_sha256": "4703ac875f9f6ece336f0586d6c40f1b9f5191f15cf6c3b7451ad11be72728aa",
+      "reason": "Clarify training-mean normalization of predetermined count weights so global loss scale does not alter the Ridge penalty, and fix paired bootstrap reproducibility. No new predictive outcomes inspected by protocol reviewer.",
+      "new_outcomes_used": false
+    }
+  ]
+}

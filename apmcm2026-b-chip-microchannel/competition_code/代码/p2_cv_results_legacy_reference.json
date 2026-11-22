@@ -1,0 +1,149 @@
+{
+  "loocv": {
+    "R": {
+      "GPR-Matern": {
+        "R2": 0.9986,
+        "RMSE": 0.00042,
+        "MAE": 0.00019,
+        "MaxRelErr_pct": 0.36,
+        "CI95_coverage_pct": 100.0
+      },
+      "RSM-2次": {
+        "R2": 0.7098,
+        "RMSE": 0.00603,
+        "MAE": 0.00492,
+        "MaxRelErr_pct": 2.03
+      },
+      "RSM-3次": {
+        "R2": 1.0,
+        "RMSE": 0.0,
+        "MAE": 0.0,
+        "MaxRelErr_pct": 0.0
+      },
+      "KRR-RBF": {
+        "R2": 0.9899,
+        "RMSE": 0.00112,
+        "MAE": 0.00071,
+        "MaxRelErr_pct": 0.59
+      },
+      "SVR-RBF": {
+        "R2": 0.9977,
+        "RMSE": 0.00054,
+        "MAE": 0.00038,
+        "MaxRelErr_pct": 0.3
+      },
+      "随机森林": {
+        "R2": 0.9147,
+        "RMSE": 0.00327,
+        "MAE": 0.0025,
+        "MaxRelErr_pct": 1.25
+      },
+      "MLP(16-8)": {
+        "R2": -175.3614,
+        "RMSE": 0.14873,
+        "MAE": 0.11479,
+        "MaxRelErr_pct": 55.42
+      }
+    },
+    "dP": {
+      "GPR-Matern": {
+        "R2": 0.9991,
+        "RMSE": 0.00081,
+        "MAE": 0.0004,
+        "MaxRelErr_pct": 3.16,
+        "CI95_coverage_pct": 94.0
+      },
+      "RSM-2次": {
+        "R2": 0.9678,
+        "RMSE": 0.00495,
+        "MAE": 0.00414,
+        "MaxRelErr_pct": 12.39
+      },
+      "RSM-3次": {
+        "R2": 0.9996,
+        "RMSE": 0.00053,
+        "MAE": 0.00023,
+        "MaxRelErr_pct": 3.12
+      },
+      "KRR-RBF": {
+        "R2": 0.9993,
+        "RMSE": 0.00073,
+        "MAE": 0.00045,
+        "MaxRelErr_pct": 3.01
+      },
+      "SVR-RBF": {
+        "R2": 0.9992,
+        "RMSE": 0.00078,
+        "MAE": 0.00046,
+        "MaxRelErr_pct": 4.22
+      },
+      "随机森林": {
+        "R2": 0.954,
+        "RMSE": 0.00592,
+        "MAE": 0.0042,
+        "MaxRelErr_pct": 17.79
+      },
+      "MLP(16-8)": {
+        "R2": -3.5018,
+        "RMSE": 0.05857,
+        "MAE": 0.04344,
+        "MaxRelErr_pct": 312.44
+      }
+    },
+    "phi": {
+      "GPR-Matern": {
+        "R2": 0.9966,
+        "RMSE": 0.00112,
+        "MAE": 0.00063,
+        "MaxRelErr_pct": 0.75,
+        "CI95_coverage_pct": 98.8
+      },
+      "RSM-2次": {
+        "R2": 0.7385,
+        "RMSE": 0.00988,
+        "MAE": 0.00804,
+        "MaxRelErr_pct": 2.95
+      },
+      "RSM-3次": {
+        "R2": 0.9998,
+        "RMSE": 0.00029,
+        "MAE": 0.00013,
+        "MaxRelErr_pct": 0.23
+      },
+      "KRR-RBF": {
+        "R2": 0.9881,
+        "RMSE": 0.00211,
+        "MAE": 0.00129,
+        "MaxRelErr_pct": 1.49
+      },
+      "SVR-RBF": {
+        "R2": 0.9974,
+        "RMSE": 0.00098,
+        "MAE": 0.00061,
+        "MaxRelErr_pct": 0.47
+      },
+      "随机森林": {
+        "R2": 0.8843,
+        "RMSE": 0.00657,
+        "MAE": 0.00459,
+        "MaxRelErr_pct": 3.89
+      },
+      "MLP(16-8)": {
+        "R2": -59.4493,
+        "RMSE": 0.15027,
+        "MAE": 0.11623,
+        "MaxRelErr_pct": 45.09
+      }
+    }
+  },
+  "tuned_hyperparams": {
+    "R": "{'KRR': {'kernelridge__alpha': 0.0001, 'kernelridge__gamma': 0.05}, 'SVR': {'svr__C': 10, 'svr__epsilon': 0.0001, 'svr__gamma': 0.05}}",
+    "dP": "{'KRR': {'kernelridge__alpha': 0.0001, 'kernelridge__gamma': 0.05}, 'SVR': {'svr__C': 100, 'svr__epsilon': 0.0001, 'svr__gamma': 0.05}}",
+    "phi": "{'KRR': {'kernelridge__alpha': 0.0001, 'kernelridge__gamma': 0.05}, 'SVR': {'svr__C': 100, 'svr__epsilon': 0.0001, 'svr__gamma': 0.05}}"
+  },
+  "learned_kernels": {
+    "R": "31.6**2 * Matern(length_scale=[12.7, 12.4, 12.4], nu=2.5) + WhiteKernel(noise_level=1e-10)",
+    "dP": "14.1**2 * Matern(length_scale=[11.1, 18.8, 11], nu=2.5) + WhiteKernel(noise_level=0.000173)",
+    "phi": "31.6**2 * Matern(length_scale=[10.3, 11.5, 9.74], nu=2.5) + WhiteKernel(noise_level=1e-10)"
+  }
+}

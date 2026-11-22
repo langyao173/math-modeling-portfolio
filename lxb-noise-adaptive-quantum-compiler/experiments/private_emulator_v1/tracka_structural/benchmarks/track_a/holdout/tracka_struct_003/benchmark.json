@@ -1,0 +1,24 @@
+{
+  "track": "track_a",
+  "name": "tracka_struct_003",
+  "family": "toffoli_carry_chain",
+  "logical_qubits": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "expected_output_rule": {
+    "rule_type": "bitstring",
+    "bitstring": "000000",
+    "allowed_bitstrings": [],
+    "parity_checks": []
+  },
+  "metadata": {
+    "backend_size_class": "medium",
+    "backend_snapshot_id": "medium_snapshot_a",
+    "synthetic_family": "toffoli_carry_chain"
+  }
+}

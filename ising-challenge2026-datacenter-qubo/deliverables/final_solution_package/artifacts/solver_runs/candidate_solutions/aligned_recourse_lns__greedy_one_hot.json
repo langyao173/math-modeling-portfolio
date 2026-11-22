@@ -1,0 +1,27 @@
+{
+  "family": "aligned_recourse_lns",
+  "oracle": "greedy_one_hot",
+  "status": "success",
+  "jobs": 588,
+  "selected_actions": 588,
+  "accepted_under_submission_guard": 1,
+  "true_action_cost_usd": 5414.828647,
+  "expected_recourse_cost_usd": 36.12565579840492,
+  "cvar95_recourse_cost_usd": 49.07307245698649,
+  "true_objective": 85.19872825539142,
+  "source_result": {
+    "passes": [
+      {
+        "energy_gain": 0.9770166824970374,
+        "improvements": 22,
+        "pass": 1
+      },
+      {
+        "energy_gain": 0.0,
+        "improvements": 0,
+        "pass": 2
+      }
+    ],
+    "total_improvements": 22
+  }
+}

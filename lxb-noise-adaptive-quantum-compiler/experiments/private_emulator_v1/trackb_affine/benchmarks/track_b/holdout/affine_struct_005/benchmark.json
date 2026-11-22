@@ -1,0 +1,40 @@
+{
+  "track": "track_b",
+  "name": "affine_struct_005",
+  "family": "parity_tree",
+  "logical_qubits": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "expected_output_rule": {
+    "rule_type": "allowed_bitstrings",
+    "bitstring": null,
+    "allowed_bitstrings": [
+      "0000000000000000",
+      "0101010110101010",
+      "1001000010001010",
+      "1100010100100000"
+    ],
+    "parity_checks": []
+  },
+  "metadata": {
+    "backend_size_class": "large",
+    "backend_snapshot_id": "large_snapshot_a",
+    "synthetic_family": "parity_tree",
+    "negative_case": false
+  }
+}

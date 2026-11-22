@@ -1,0 +1,12 @@
+\begin{ctab}{lc|c|ccc|cccc}
+\toprule
+ & & train CV & \multicolumn{3}{c|}{validation pool (35 units)} & \multicolumn{4}{c}{test pool (62 units)}\\
+duration model & par. & MAE$_{\log}$ & MAE$_{\log}$ & bias$_{\log}$ & pinball (s) & MAE$_{\log}$ & bias$_{\log}$ & pinball (s) & cov. 50/90\,\%\\
+\midrule
+Pooled constant (baseline) & 1 & 0.553 & 0.550 & $+$0.226 & 1.413 & 0.415 & $+$0.245 & 1.338 & 0.24 / 0.97\\
+\textbf{Family constant (final policy)} & 3 & 0.659 & 0.561 & $+$0.179 & 1.438 & 0.370 & $+$0.190 & 1.342 & 0.11 / 0.97\\
+Family + 0.2-s prefix & 15 & 0.605 & 0.428 & $-$0.007 & 1.103 & 0.515 & $-$0.031 & 1.549 & 0.45 / 0.98\\
+Family + 0.6-s prefix & 15 & 0.600 & 0.453 & $+$0.027 & 1.175 & 0.523 & $-$0.069 & 1.634 & 0.45 / 0.98\\
+Family + 1.0-s prefix & 15 & 0.608 & 0.470 & $+$0.076 & 1.220 & 0.548 & $-$0.034 & 1.669 & 0.40 / 0.98\\
+\bottomrule
+\end{ctab}

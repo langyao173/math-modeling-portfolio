@@ -1,0 +1,293 @@
+\begin{thebibliography}{37}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Arntzen and Hvattum(2021)]{arntzenhvattum2021}
+Halvor Arntzen and Lars~Magnus Hvattum.
+\newblock Predicting match outcomes in association football using team ratings
+  and player ratings.
+\newblock \emph{Statistical Modelling}, 21\penalty0 (5):\penalty0 449--470,
+  2021.
+\newblock \doi{10.1177/1471082X20929881}.
+
+\bibitem[Baio and Blangiardo(2010)]{baioblangiardo2010}
+Gianluca Baio and Marta Blangiardo.
+\newblock Bayesian hierarchical model for the prediction of football results.
+\newblock \emph{Journal of Applied Statistics}, 37\penalty0 (2):\penalty0
+  253--264, 2010.
+\newblock \doi{10.1080/02664760802684177}.
+
+\bibitem[Barber et~al.(2023)Barber, Cand{\`e}s, Ramdas, and
+  Tibshirani]{barber2023}
+Rina~Foygel Barber, Emmanuel~J. Cand{\`e}s, Aaditya Ramdas, and Ryan~J.
+  Tibshirani.
+\newblock Conformal prediction beyond exchangeability.
+\newblock \emph{The Annals of Statistics}, 51\penalty0 (2):\penalty0 816--845,
+  2023.
+\newblock \doi{10.1214/23-AOS2276}.
+
+\bibitem[Berrar et~al.(2019)Berrar, Lopes, and Dubitzky]{berrar2019}
+Daniel Berrar, Philippe Lopes, and Werner Dubitzky.
+\newblock Incorporating domain knowledge in machine learning for soccer outcome
+  prediction.
+\newblock \emph{Machine Learning}, 108:\penalty0 97--126, 2019.
+\newblock \doi{10.1007/s10994-018-5747-8}.
+
+\bibitem[Brier(1950)]{brier1950}
+Glenn~W. Brier.
+\newblock Verification of forecasts expressed in terms of probability.
+\newblock \emph{Monthly Weather Review}, 78\penalty0 (1):\penalty0 1--3, 1950.
+\newblock \doi{10.1175/1520-0493(1950)078<0001:VOFEIT>2.0.CO;2}.
+
+\bibitem[Clegg et~al.(2026)Clegg, Song, and Cartlidge]{clegg2026aft}
+Lawrence Clegg, Zixing Song, and John Cartlidge.
+\newblock A market-calibrated accelerated failure time model for in-play
+  football forecasting, 2026.
+\newblock Preprint.
+
+\bibitem[Devriesere et~al.(2025)Devriesere, Csat{\'o}, and
+  Goossens]{devriesere2025}
+Karel Devriesere, L{\'a}szl{\'o} Csat{\'o}, and Dries Goossens.
+\newblock Tournament design: A review from an operational research perspective.
+\newblock \emph{European Journal of Operational Research}, 324\penalty0
+  (1):\penalty0 1--21, 2025.
+\newblock \doi{10.1016/j.ejor.2024.10.044}.
+
+\bibitem[Dixon and Coles(1997)]{dixoncoles1997}
+Mark~J. Dixon and Stuart~G. Coles.
+\newblock Modelling association football scores and inefficiencies in the
+  football betting market.
+\newblock \emph{Journal of the Royal Statistical Society: Series C (Applied
+  Statistics)}, 46\penalty0 (2):\penalty0 265--280, 1997.
+\newblock \doi{10.1111/1467-9876.00065}.
+
+\bibitem[Dyte and Clarke(2000)]{dyteclarke2000}
+David Dyte and Stephen~R. Clarke.
+\newblock A ratings based poisson model for world cup soccer simulation.
+\newblock \emph{Journal of the Operational Research Society}, 51:\penalty0
+  993--998, 2000.
+\newblock \doi{10.1057/palgrave.jors.2600997}.
+
+\bibitem[{FIFA}(2026)]{fifa2026regulations}
+{FIFA}.
+\newblock Regulations for the {FIFA} world cup 26.
+\newblock Official competition regulations, May 2026.
+\newblock URL
+  \url{https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf}.
+\newblock Article 12 and Annex C; accessed 18 July 2026.
+
+\bibitem[Gebru et~al.(2021)Gebru, Morgenstern, Vecchione, Vaughan, Wallach,
+  Daum{\'e}~III, and Crawford]{gebru2021}
+Timnit Gebru, Jamie Morgenstern, Briana Vecchione, Jennifer~Wortman Vaughan,
+  Hanna Wallach, Hal Daum{\'e}~III, and Kate Crawford.
+\newblock Datasheets for datasets.
+\newblock \emph{Communications of the ACM}, 64\penalty0 (12):\penalty0 86--92,
+  2021.
+\newblock \doi{10.1145/3458723}.
+
+\bibitem[Gibbs and Cand{\`e}s(2021)]{gibbs2021}
+Isaac Gibbs and Emmanuel Cand{\`e}s.
+\newblock Adaptive conformal inference under distribution shift.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~34, 2021.
+\newblock URL
+  \url{https://proceedings.neurips.cc/paper/2021/hash/0d441de75945e5acbc865406fc9a2559-Abstract.html}.
+
+\bibitem[Gibbs and Cand{\`e}s(2024)]{gibbs2024}
+Isaac Gibbs and Emmanuel~J. Cand{\`e}s.
+\newblock Conformal inference for online prediction with arbitrary distribution
+  shifts.
+\newblock \emph{Journal of Machine Learning Research}, 25\penalty0
+  (162):\penalty0 1--36, 2024.
+\newblock URL \url{https://jmlr.org/papers/v25/22-1218.html}.
+
+\bibitem[Gneiting and Raftery(2007)]{gneitingraftery2007}
+Tilmann Gneiting and Adrian~E. Raftery.
+\newblock Strictly proper scoring rules, prediction, and estimation.
+\newblock \emph{Journal of the American Statistical Association}, 102\penalty0
+  (477):\penalty0 359--378, 2007.
+\newblock \doi{10.1198/016214506000001437}.
+
+\bibitem[Gneiting et~al.(2007)Gneiting, Balabdaoui, and
+  Raftery]{gneitingetal2007}
+Tilmann Gneiting, Fadoua Balabdaoui, and Adrian~E. Raftery.
+\newblock Probabilistic forecasts, calibration and sharpness.
+\newblock \emph{Journal of the Royal Statistical Society: Series B (Statistical
+  Methodology)}, 69\penalty0 (2):\penalty0 243--268, 2007.
+\newblock \doi{10.1111/j.1467-9868.2007.00587.x}.
+
+\bibitem[Groll et~al.(2019)Groll, Ley, Schauberger, and
+  Van~Eetvelde]{groll2019}
+Andreas Groll, Christophe Ley, Gunther Schauberger, and Hans Van~Eetvelde.
+\newblock A hybrid random forest to predict soccer matches in international
+  tournaments.
+\newblock \emph{Journal of Quantitative Analysis in Sports}, 15\penalty0
+  (4):\penalty0 271--287, 2019.
+\newblock \doi{10.1515/jqas-2018-0060}.
+
+\bibitem[Guo et~al.(2017)Guo, Pleiss, Sun, and Weinberger]{guo2017}
+Chuan Guo, Geoff Pleiss, Yu~Sun, and Kilian~Q. Weinberger.
+\newblock On calibration of modern neural networks.
+\newblock In \emph{Proceedings of the 34th International Conference on Machine
+  Learning}, volume~70 of \emph{Proceedings of Machine Learning Research},
+  pages 1321--1330, 2017.
+\newblock URL \url{https://proceedings.mlr.press/v70/guo17a.html}.
+
+\bibitem[Hvattum and Arntzen(2010)]{hvattumarntzen2010}
+Lars~Magnus Hvattum and Halvor Arntzen.
+\newblock Using {ELO} ratings for match result prediction in association
+  football.
+\newblock \emph{International Journal of Forecasting}, 26\penalty0
+  (3):\penalty0 460--470, 2010.
+\newblock \doi{10.1016/j.ijforecast.2009.10.002}.
+
+\bibitem[Kapoor and Narayanan(2023)]{kapoor2023}
+Sayash Kapoor and Arvind Narayanan.
+\newblock Leakage and the reproducibility crisis in machine-learning-based
+  science.
+\newblock \emph{Patterns}, 4\penalty0 (9):\penalty0 100804, 2023.
+\newblock \doi{10.1016/j.patter.2023.100804}.
+
+\bibitem[Karlis and Ntzoufras(2003)]{karlisntzoufras2003}
+Dimitris Karlis and Ioannis Ntzoufras.
+\newblock Analysis of sports data by using bivariate poisson models.
+\newblock \emph{Journal of the Royal Statistical Society: Series D (The
+  Statistician)}, 52\penalty0 (3):\penalty0 381--393, 2003.
+\newblock \doi{10.1111/1467-9884.00366}.
+
+\bibitem[Kaufman et~al.(2012)Kaufman, Rosset, Perlich, and
+  Stitelman]{kaufman2012}
+Shachar Kaufman, Saharon Rosset, Claudia Perlich, and Ori Stitelman.
+\newblock Leakage in data mining.
+\newblock \emph{ACM Transactions on Knowledge Discovery from Data}, 6\penalty0
+  (4):\penalty0 1--21, 2012.
+\newblock \doi{10.1145/2382577.2382579}.
+
+\bibitem[Kharrat et~al.(2020)Kharrat, McHale, and Pe{\~n}a]{kharrat2020}
+Tarak Kharrat, Ian~G. McHale, and Javier~L{\'o}pez Pe{\~n}a.
+\newblock Plus--minus player ratings for soccer.
+\newblock \emph{European Journal of Operational Research}, 283\penalty0
+  (2):\penalty0 726--736, 2020.
+\newblock \doi{10.1016/j.ejor.2019.11.026}.
+
+\bibitem[Koopman and Lit(2015)]{koopmanlit2015}
+Siem~Jan Koopman and Rutger Lit.
+\newblock A dynamic bivariate poisson model for analysing and forecasting match
+  results in the english premier league.
+\newblock \emph{Journal of the Royal Statistical Society: Series A (Statistics
+  in Society)}, 178\penalty0 (1):\penalty0 167--186, 2015.
+\newblock \doi{10.1111/rssa.12042}.
+
+\bibitem[Kull et~al.(2019)Kull, Perello-Nieto, K{\"a}ngsepp, Silva~Filho, Song,
+  and Flach]{kull2019}
+Meelis Kull, Miquel Perello-Nieto, Markus K{\"a}ngsepp, Telmo Silva~Filho, Hao
+  Song, and Peter Flach.
+\newblock Beyond temperature scaling: Obtaining well-calibrated multiclass
+  probabilities with dirichlet calibration.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~32, 2019.
+\newblock URL
+  \url{https://proceedings.neurips.cc/paper_files/paper/2019/hash/8ca01ea920679a0fe3728441494041b9-Abstract.html}.
+
+\bibitem[Macr{\`i}-Demartino et~al.(2026)Macr{\`i}-Demartino, Egidi, and
+  Torelli]{macridemartino2026}
+Roberto Macr{\`i}-Demartino, Leonardo Egidi, and Nicola Torelli.
+\newblock Bayesian weighted discrete-time dynamic models for association
+  football prediction.
+\newblock \emph{Journal of the Royal Statistical Society Series C: Applied
+  Statistics}, 2026.
+\newblock \doi{10.1093/jrsssc/qlag032}.
+\newblock Advance article.
+
+\bibitem[Maher(1982)]{maher1982}
+Michael~J. Maher.
+\newblock Modelling association football scores.
+\newblock \emph{Statistica Neerlandica}, 36\penalty0 (3):\penalty0 109--118,
+  1982.
+\newblock \doi{10.1111/j.1467-9574.1982.tb00782.x}.
+
+\bibitem[McHale and Scarf(2011)]{mchalescarf2011}
+Ian~G. McHale and Philip~A. Scarf.
+\newblock Modelling the dependence of goals scored by opposing teams in
+  international soccer matches.
+\newblock \emph{Statistical Modelling}, 11\penalty0 (3):\penalty0 219--236,
+  2011.
+\newblock \doi{10.1177/1471082X1001100303}.
+
+\bibitem[Michels et~al.(2025)Michels, {\"O}tting, and Karlis]{michels2025}
+Rouven Michels, Marius {\"O}tting, and Dimitris Karlis.
+\newblock Extending the {Dixon--Coles} model: An application to women's
+  football data.
+\newblock \emph{Journal of the Royal Statistical Society Series C: Applied
+  Statistics}, 74\penalty0 (1):\penalty0 167--186, 2025.
+\newblock \doi{10.1093/jrsssc/qlae050}.
+
+\bibitem[Mitchell et~al.(2019)Mitchell, Wu, Zaldivar, Barnes, Vasserman,
+  Hutchinson, Spitzer, Raji, and Gebru]{mitchell2019}
+Margaret Mitchell, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman,
+  Ben Hutchinson, Elena Spitzer, Inioluwa~Deborah Raji, and Timnit Gebru.
+\newblock Model cards for model reporting.
+\newblock In \emph{Proceedings of the Conference on Fairness, Accountability,
+  and Transparency}, pages 220--229, 2019.
+\newblock \doi{10.1145/3287560.3287596}.
+
+\bibitem[Murphy(1973)]{murphy1973}
+Allan~H. Murphy.
+\newblock A new vector partition of the probability score.
+\newblock \emph{Journal of Applied Meteorology}, 12\penalty0 (4):\penalty0
+  595--600, 1973.
+\newblock \doi{10.1175/1520-0450(1973)012<0595:ANVPOT>2.0.CO;2}.
+
+\bibitem[Nguyen and Tran(2026)]{nguyen2026glicko}
+Bich~Van Nguyen and Nam~Anh Tran.
+\newblock An adaptive {Glicko-2} rating framework for probabilistic football
+  forecasting and season simulation, 2026.
+\newblock Preprint.
+
+\bibitem[Rezaei and Samadi(2026)]{rezaei2026sdr}
+Mina Rezaei and S.~Yaser Samadi.
+\newblock Predicting the 2026 {FIFA} world cup with sufficient dimension
+  reduction of {Elo} rating histories, 2026.
+\newblock Preprint.
+
+\bibitem[Rue and Salvesen(2000)]{ruesalvesen2000}
+H{\aa}vard Rue and {\O}yvind Salvesen.
+\newblock Prediction and retrospective analysis of soccer matches in a league.
+\newblock \emph{Journal of the Royal Statistical Society: Series D (The
+  Statistician)}, 49\penalty0 (3):\penalty0 399--418, 2000.
+\newblock \doi{10.1111/1467-9884.00243}.
+
+\bibitem[Tsokos et~al.(2019)Tsokos, Narayanan, Kosmidis, Baio, Cucuringu,
+  Whitaker, and Kir{\'a}ly]{tsokos2019}
+Alexandros Tsokos, Santhosh Narayanan, Ioannis Kosmidis, Gianluca Baio, Mihai
+  Cucuringu, Gavin Whitaker, and Franz Kir{\'a}ly.
+\newblock Modeling outcomes of soccer matches.
+\newblock \emph{Machine Learning}, 108:\penalty0 77--95, 2019.
+\newblock \doi{10.1007/s10994-018-5741-1}.
+
+\bibitem[Wheatcroft(2021)]{wheatcroft2021}
+Edward Wheatcroft.
+\newblock Evaluating probabilistic forecasts of football matches: The case
+  against the ranked probability score.
+\newblock \emph{Journal of Quantitative Analysis in Sports}, 2021.
+\newblock \doi{10.1515/jqas-2019-0089}.
+
+\bibitem[Whitaker et~al.(2021)]{whitaker2021}
+Gavin Whitaker et~al.
+\newblock A bayesian approach for determining player abilities in football.
+\newblock \emph{Journal of the Royal Statistical Society: Series C (Applied
+  Statistics)}, 2021.
+\newblock \doi{10.1111/rssc.12454}.
+
+\bibitem[Xu and Xie(2021)]{xu2021}
+Chen Xu and Yao Xie.
+\newblock Conformal prediction interval for dynamic time-series.
+\newblock In \emph{Proceedings of the 38th International Conference on Machine
+  Learning}, volume 139 of \emph{Proceedings of Machine Learning Research},
+  pages 11559--11569, 2021.
+\newblock URL \url{https://proceedings.mlr.press/v139/xu21h.html}.
+
+\end{thebibliography}

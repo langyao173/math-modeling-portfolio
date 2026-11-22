@@ -1,0 +1,31 @@
+{
+  "published_GBR_R2_reference_split": 0.21,
+  "reference_split_R2": {
+    "GBR (reference study's best model)": 0.1667,
+    "Ridge": -1.5412,
+    "Extra Trees": 0.2216,
+    "KRR-RBF, 50 independent outputs": 0.1702,
+    "KRR-RBF, 16-d low-rank targets": 0.171,
+    "Grouped convex fusion (contest design)": 0.1722
+  },
+  "repeated_splits": 10,
+  "repeated_mean_R2": {
+    "Extra Trees": 0.2307,
+    "GBR (reference study's best model)": 0.1692,
+    "Grouped convex fusion (contest design)": 0.1986,
+    "KRR-RBF, 16-d low-rank targets": 0.1915,
+    "KRR-RBF, 50 independent outputs": 0.1911,
+    "Ridge": -18.9319
+  },
+  "repeated_sd_R2": {
+    "Extra Trees": 0.0187,
+    "GBR (reference study's best model)": 0.03,
+    "Grouped convex fusion (contest design)": 0.0218,
+    "KRR-RBF, 16-d low-rank targets": 0.0202,
+    "KRR-RBF, 50 independent outputs": 0.0219,
+    "Ridge": 41.6189
+  },
+  "fusion_minus_GBR_mean": 0.029446753115203683,
+  "fusion_beats_GBR_in_splits": 9,
+  "fusion_minus_best_single_branch_mean": 0.00432769608588614
+}

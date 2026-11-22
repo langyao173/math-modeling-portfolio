@@ -1,0 +1,9 @@
+{
+ "dataset": "x5",
+ "n": 200039,
+ "features": 23,
+ "propensity": 0.5,
+ "ate": 0.03323083953462003,
+ "base_rate_control": 0.6032800975434248,
+ "reps": 10
+}

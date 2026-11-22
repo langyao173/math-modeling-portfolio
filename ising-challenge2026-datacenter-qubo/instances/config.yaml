@@ -1,0 +1,37 @@
+project:
+  name: TAOLIN-DC-SIM
+  data_root: data
+
+mvp_scope:
+  workload:
+    primary: data/raw/workload/alibaba_gpu/cluster-trace-gpu-v2023
+    fallback: data/raw/workload/alibaba_gpu/cluster-trace-gpu-v2020/data
+    extension_not_default: data/raw/workload/alibaba_gpu/cluster-trace-gpu-v2026
+  power_trace_auxiliary: data/raw/workload/google_cluster
+  renewable:
+    nsrdb: data/raw/energy/nsrdb
+    wind_toolkit: data/raw/energy/wind_toolkit
+  price_demand:
+    caiso_oasis: data/raw/price/caiso_oasis
+  grid:
+    pglib_opf: data/raw/grid/pglib
+
+schema_targets:
+  jobs_manifest: data/interim/jobs_manifest.parquet
+  site_timeseries: data/interim/site_timeseries.parquet
+  grid_case: data/interim/grid_case.json
+  actions: data/processed/actions.parquet
+
+cleaning:
+  horizon_slots: 24
+  delta_t_hours: 1.0
+  synthetic_anchor_utc: "2024-01-01T00:00:00Z"
+  workload_source: data/raw/workload/alibaba_gpu/cluster-trace-gpu-v2023/csv/openb_pod_list_default.csv
+  workload_time_policy: relative_trace_seconds_aligned_to_synthetic_utc_anchor
+  site_time_policy: synthetic_utc_slot_alignment
+  price_policy: synthetic_fallback_until_caiso_available
+  units:
+    power: MW
+    energy: MWh
+    price: USD/MWh
+    carbon: kgCO2/MWh

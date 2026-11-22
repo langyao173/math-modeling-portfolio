@@ -1,0 +1,5 @@
+candidate,baseline,metric,clusters,replicates,seed,mean_difference,median_difference,ci_low,ci_high,sampling_unit,paired
+advanced_nested_calibrated,legacy_mirrored_dixon_coles,log_loss,7,2000,17290,-0.0204226748671749,-0.0245165963608606,-0.0365238640326812,-0.0034510608851039,tournament_edition,True
+advanced_nested_calibrated,legacy_mirrored_dixon_coles,multiclass_brier,7,2000,17291,-0.0130221785708517,-0.015469396208893,-0.0237492178767106,-0.0026679366925216,tournament_edition,True
+advanced_nested_calibrated,legacy_mirrored_dixon_coles,scoreline_log_loss,7,2000,17292,-0.0079518205102432,-0.0076387449256491,-0.0282272470461336,0.0105239699422173,tournament_edition,True
+advanced_nested_calibrated,legacy_mirrored_dixon_coles,total_goal_crps,7,2000,17293,0.0115536054158562,-0.0070141039333833,-0.0083831638762395,0.0350726118104119,tournament_edition,True

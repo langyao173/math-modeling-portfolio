@@ -1,0 +1,12 @@
+{
+ "FIFO-mean": 0.1,
+ "EDD-median": 0.1,
+ "EDD-min": 0.1,
+ "Index-static": 6.8,
+ "RO-family-static": 20.6,
+ "RO-family-learn": 16.7,
+ "RO-feat-static": 17.9,
+ "RO-feat-learn": 18.5,
+ "RO-bma-static": 19.6,
+ "RO-bma-learn": 19.8
+}

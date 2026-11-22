@@ -1,0 +1,20 @@
+{
+  "benchmark": "track_b_002",
+  "shots": 1024,
+  "seed_bases": [
+    7,
+    11,
+    17,
+    23,
+    31
+  ],
+  "layout_count": 0,
+  "candidate_count": 0,
+  "simulated_count": 0,
+  "rejected": {
+    "channel": 1
+  },
+  "elapsed_sec": 20.34725360001903,
+  "top_by_success": [],
+  "top_by_proxy": []
+}

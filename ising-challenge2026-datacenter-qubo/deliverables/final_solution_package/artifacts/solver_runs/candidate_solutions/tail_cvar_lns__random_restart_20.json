@@ -1,0 +1,15 @@
+{
+  "family": "tail_cvar_lns",
+  "oracle": "random_restart_20",
+  "status": "success",
+  "jobs": 588,
+  "selected_actions": 588,
+  "accepted_under_submission_guard": 0,
+  "true_action_cost_usd": 63005789.186887,
+  "expected_recourse_cost_usd": 29.563214534927234,
+  "cvar95_recourse_cost_usd": 40.52275849431591,
+  "true_objective": 70.08597302924315,
+  "source_result": {
+    "restarts": 20
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "track": "track_a",
+  "name": "track_a_006_original",
+  "family": "or_jitter",
+  "logical_qubits": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "expected_output_rule": {
+    "rule_type": "bitstring",
+    "bitstring": "011101",
+    "allowed_bitstrings": [],
+    "parity_checks": []
+  },
+  "metadata": {
+    "family": "or",
+    "logical_qubits": 6,
+    "clifford_only": false,
+    "split": "public",
+    "backend_snapshot_id": "medium_snapshot_a_original",
+    "backend_size_class": "medium",
+    "jitter_variant": "original"
+  }
+}

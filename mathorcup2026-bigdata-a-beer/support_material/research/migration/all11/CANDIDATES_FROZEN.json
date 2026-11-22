@@ -1,0 +1,9 @@
+{
+  "profile_sha256": "2741c0c6278a46a44a01aa9797eba5dcc616cecb18674f198af178bcee25967b",
+  "frontier_sha256": "9410b47e3039ed65fefab18c3c6228ac4a4bfe7fa4e29fe690655350f1d047fa",
+  "validation_seed": 202610250731,
+  "validation_replicates": 200,
+  "rho": 0.1,
+  "selection": "By development paired joint model-refit frequency under each prespecified field budget; ties by style frequency, lower edits, objective, stable id.",
+  "validation_unused": true
+}

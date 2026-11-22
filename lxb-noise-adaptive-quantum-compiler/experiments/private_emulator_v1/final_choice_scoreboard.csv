@@ -1,0 +1,2 @@
+variant,weighted_mean_delta,weighted_negative_fraction,worst_seed_delta,invalid_count,near_miss_false_accept,p95_compile_time_sec,max_compile_time_sec,promotion_gate
+v18_measurement_tail,0.00011393229166666665,0.0,0.0,0,0,11.271266299998388,13.04599060001783,fail

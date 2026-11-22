@@ -1,0 +1,24 @@
+raw_stage,canonical_stage,first_year,last_year,match_rows
+Final,final,1930,2014,19
+First round,round_of_16,1938,1938,9
+Group 1,group_stage,1930,1982,62
+Group 2,group_stage,1930,1982,59
+Group 3,group_stage,1930,1982,56
+Group 4,group_stage,1930,1982,55
+Group 5,group_stage,1982,1982,6
+Group 6,group_stage,1950,1982,12
+Group A,group_stage,1974,2014,60
+Group B,group_stage,1974,2014,60
+Group C,group_stage,1986,2014,48
+Group D,group_stage,1986,2014,48
+Group E,group_stage,1986,2014,48
+Group F,group_stage,1986,2014,48
+Group G,group_stage,1998,2014,30
+Group H,group_stage,1998,2014,30
+Match for third place,third_place,1934,2010,15
+Play-off for third place,third_place,2014,2014,1
+Preliminary round,round_of_16,1934,1934,8
+Quarter-finals,quarter_final,1934,2014,62
+Round of 16,round_of_16,1986,2014,64
+Semi-finals,semi_final,1930,2014,34
+Third place,third_place,2002,2006,2

@@ -1,0 +1,63 @@
+{
+  "calibration_artifact": "models/problem1_loocv_interval_calibration.json",
+  "calibration_method": "leave_one_tournament_out_absolute_residual_interval",
+  "config_hash": "405d85ccdf418643de2cf0c81b277dc69845c11dd12e771eb5b4878308062614",
+  "data_cutoff": "2014-07-13",
+  "feature_schema": [
+    "QualifiedTeams",
+    "MatchesPlayed",
+    "Attendance"
+  ],
+  "feature_schema_hash": "e299bac3b26cd3523d9f2de21393e505a2c8dc0cb021b0998b4b5030bd04e60d",
+  "generated_at_utc": "2026-07-18T14:36:56.997332+00:00",
+  "goal_interval_90": [
+    116.07971589473127,
+    189.02590610856376
+  ],
+  "information_set": "pre_match",
+  "invariant_status": {
+    "2018_excluded_from_fit_and_calibration": true,
+    "calibration_artifact_hash_verified": true,
+    "interval_contains_point": true,
+    "point_prediction_nonnegative": true
+  },
+  "model_artifact": "models/problem1_aggregate_ols.json",
+  "model_hash": "658c9d2e1ee080e40a3200aaad8e35f20799f1a6d7f7ab59d4e351b479d291bf",
+  "out_of_distribution_components": {
+    "Attendance_absolute_standardized_distance": 1.871851506037277,
+    "MatchesPlayed_absolute_standardized_distance": 1.3227884280213176,
+    "QualifiedTeams_absolute_standardized_distance": 1.517437047467259
+  },
+  "out_of_distribution_score": 2.7488565766491497,
+  "prediction": {
+    "absolute_error": 16.447188998352487,
+    "actual_total_goals": 169.0,
+    "attendance_strategy": "pre_2018_log_linear_forecast",
+    "data_cutoff": 2014,
+    "empirical_loocv_interval_90_lower": 116.07971589473127,
+    "empirical_loocv_interval_90_upper": 189.02590610856376,
+    "forecast_attendance": 3828410.2950456175,
+    "matches_played": 64,
+    "predicted_total_goals": 152.5528110016475,
+    "prediction_year": 2018,
+    "qualified_teams": 32,
+    "signed_error": -16.447188998352487
+  },
+  "random_seed": 1729,
+  "raw_data_hashes": {
+    "matches": "cb4e68bb7e080a84a82175151a2c1ce5ef4ef43fcb5111a3cf6c53f69bc92363",
+    "players": "753a68af0cd4fa38b67c7883c138700dfb37544f1ed898b1d176a03f92748d67",
+    "tournaments": "a66240afe2ce2d7df5b701eebf012052193b90f33e003c9874cd3df85941003e"
+  },
+  "scenario_label": "problem1_frozen_2018_external_audit",
+  "schema_version": 1,
+  "software_versions": {
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "python": "3.12.11",
+    "scikit_learn": "1.6.1",
+    "statsmodels": "0.14.6"
+  },
+  "uncertainty_status": "empirical_leave_one_tournament_out_no_coverage_guarantee",
+  "warning": "The observed 2018 total is included only for the frozen external audit; it was excluded from model fitting and interval calibration."
+}

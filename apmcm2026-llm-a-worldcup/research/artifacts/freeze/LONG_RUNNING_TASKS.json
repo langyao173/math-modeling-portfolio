@@ -1,0 +1,63 @@
+{
+  "captured_at": "2026-07-18T17:32:38.2973550+08:00",
+  "classification": "exceeded_wall_clock_budget_terminated_ineligible",
+  "terminated_at": "2026-07-18T17:33:00+08:00",
+  "remaining_process_count_after_verification": 0,
+  "decision_rule": "A computation exceeding its explicit wall-clock budget is ineligible for promotion; retain diagnostics and terminate the exact process tree.",
+  "processes": [
+    {
+      "pid": 101024,
+      "parent_pid": 100248,
+      "name": "pytest.exe",
+      "started": "2026-07-18T15:37:40.4705660+08:00",
+      "cpu_seconds": 0.0,
+      "working_set_bytes": 6549504,
+      "command_line": "pytest.exe tests/test_selective_team_penalty.py -q"
+    },
+    {
+      "pid": 26148,
+      "parent_pid": 101024,
+      "name": "python.exe",
+      "started": "2026-07-18T15:37:40.4864640+08:00",
+      "cpu_seconds": 0.0,
+      "working_set_bytes": 5533696,
+      "command_line": "python.exe pytest.exe tests/test_selective_team_penalty.py -q"
+    },
+    {
+      "pid": 101764,
+      "parent_pid": 26148,
+      "name": "python.exe",
+      "started": "2026-07-18T15:37:40.5017580+08:00",
+      "cpu_seconds": 6728.438,
+      "working_set_bytes": 194060288,
+      "command_line": "python.exe pytest.exe tests/test_selective_team_penalty.py -q"
+    },
+    {
+      "pid": 35208,
+      "parent_pid": 17752,
+      "name": "uv.exe",
+      "started": "2026-07-18T15:39:21.8308360+08:00",
+      "cpu_seconds": 0.047,
+      "working_set_bytes": 25874432,
+      "command_line": "uv run python selective-team-penalty diagnostic"
+    },
+    {
+      "pid": 96008,
+      "parent_pid": 35208,
+      "name": "python.exe",
+      "started": "2026-07-18T15:39:21.8749590+08:00",
+      "cpu_seconds": 0.0,
+      "working_set_bytes": 5537792,
+      "command_line": "python.exe selective-team-penalty diagnostic"
+    },
+    {
+      "pid": 33336,
+      "parent_pid": 96008,
+      "name": "python.exe",
+      "started": "2026-07-18T15:39:21.8914400+08:00",
+      "cpu_seconds": 6626.125,
+      "working_set_bytes": 179982336,
+      "command_line": "python.exe selective-team-penalty diagnostic"
+    }
+  ]
+}

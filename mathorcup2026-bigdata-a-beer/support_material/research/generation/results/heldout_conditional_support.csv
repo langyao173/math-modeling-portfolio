@@ -1,0 +1,133 @@
+fold,policy,style,validation_n,validation_feasible_n,conditioned_available,sampled,proposed,error
+0,attachment_two,Amber,4,2,True,512,20000,
+0,attachment_two,Blond,10,0,True,512,20000,
+0,attachment_two,Brett/cofermented,2,0,True,512,20000,
+0,attachment_two,Brown,4,0,True,512,20000,
+0,attachment_two,Brut,2,0,True,512,20000,
+0,attachment_two,Christmas,3,1,True,512,20000,
+0,attachment_two,Dubbel,3,0,True,512,20000,
+0,attachment_two,Faro,1,0,True,512,20000,
+0,attachment_two,Flanders old brown,1,0,True,512,20000,
+0,attachment_two,Fruitbeer,3,0,True,512,20000,
+0,attachment_two,Hoppy,5,0,True,512,40000,
+0,attachment_two,Kriek,4,0,True,512,20000,
+0,attachment_two,Lambic,4,1,True,512,20000,
+0,attachment_two,Low/No alcohol,3,2,True,512,20000,
+0,attachment_two,Pils/Lager,4,2,True,512,20000,
+0,attachment_two,Saison,4,0,True,512,20000,
+0,attachment_two,Scotch,1,0,True,512,20000,
+0,attachment_two,Stout/Porter,4,1,True,512,20000,
+0,attachment_two,Strong ale,6,1,True,512,20000,
+0,attachment_two,Tripel,9,0,True,512,40000,
+0,attachment_two,West Flanders ale,3,1,True,512,20000,
+0,attachment_two,Wheat,4,0,True,512,20000,
+0,strict_four,Amber,4,0,True,512,740000,
+0,strict_four,Blond,10,0,True,512,1320000,
+0,strict_four,Brett/cofermented,2,0,False,57,5000000,proposal budget exhausted
+0,strict_four,Brown,4,0,True,512,4660000,
+0,strict_four,Brut,2,0,True,512,4500000,
+0,strict_four,Christmas,3,0,True,512,720000,
+0,strict_four,Dubbel,3,0,True,512,1040000,
+0,strict_four,Faro,1,0,True,512,540000,
+0,strict_four,Flanders old brown,1,0,True,512,100000,
+0,strict_four,Fruitbeer,3,0,True,512,1620000,
+0,strict_four,Hoppy,5,0,False,1,5000000,proposal budget exhausted
+0,strict_four,Kriek,4,0,True,512,1480000,
+0,strict_four,Lambic,4,0,True,512,1420000,
+0,strict_four,Low/No alcohol,3,0,True,512,20000,
+0,strict_four,Pils/Lager,4,0,True,512,120000,
+0,strict_four,Saison,4,0,False,24,5000000,proposal budget exhausted
+0,strict_four,Scotch,1,0,True,512,1300000,
+0,strict_four,Stout/Porter,4,0,False,183,5000000,proposal budget exhausted
+0,strict_four,Strong ale,6,0,False,123,5000000,proposal budget exhausted
+0,strict_four,Tripel,9,0,False,176,5000000,proposal budget exhausted
+0,strict_four,West Flanders ale,3,0,True,512,320000,
+0,strict_four,Wheat,4,0,True,512,380000,
+1,attachment_two,Amber,4,0,True,512,20000,
+1,attachment_two,Blond,11,0,True,512,20000,
+1,attachment_two,Brett/cofermented,2,0,True,512,20000,
+1,attachment_two,Brown,4,2,True,512,20000,
+1,attachment_two,Brut,1,0,True,512,20000,
+1,attachment_two,Christmas,3,0,True,512,20000,
+1,attachment_two,Dubbel,4,1,True,512,20000,
+1,attachment_two,Faro,1,0,True,512,20000,
+1,attachment_two,Flanders old brown,2,1,True,512,20000,
+1,attachment_two,Fruitbeer,2,0,True,512,20000,
+1,attachment_two,Hoppy,6,0,True,512,60000,
+1,attachment_two,Kriek,3,0,True,512,20000,
+1,attachment_two,Lambic,4,0,True,512,20000,
+1,attachment_two,Low/No alcohol,3,2,True,512,20000,
+1,attachment_two,Pils/Lager,3,1,True,512,20000,
+1,attachment_two,Saison,3,1,True,512,20000,
+1,attachment_two,Scotch,2,0,True,512,20000,
+1,attachment_two,Stout/Porter,4,1,True,512,20000,
+1,attachment_two,Strong ale,6,1,True,512,20000,
+1,attachment_two,Tripel,9,0,True,512,20000,
+1,attachment_two,West Flanders ale,2,0,True,512,20000,
+1,attachment_two,Wheat,4,2,True,512,20000,
+1,strict_four,Amber,4,0,False,0,0,No training marginal support passes the ceiling for X.E..2.nonenal
+1,strict_four,Blond,11,0,False,0,0,No training marginal support passes the ceiling for X.E..2.nonenal
+1,strict_four,Brett/cofermented,2,0,False,0,0,No training marginal support passes the ceiling for X.E..2.nonenal
+1,strict_four,Brown,4,0,False,0,0,No training marginal support passes the ceiling for X.E..2.nonenal
+1,strict_four,Brut,1,0,False,0,0,No training marginal support passes the ceiling for X.E..2.nonenal
+1,strict_four,Christmas,3,0,False,0,0,No training marginal support passes the ceiling for X.E..2.nonenal
+1,strict_four,Dubbel,4,0,False,0,0,No training marginal support passes the ceiling for X.E..2.nonenal
+1,strict_four,Faro,1,0,False,0,0,No training marginal support passes the ceiling for X.E..2.nonenal
+1,strict_four,Flanders old brown,2,0,False,0,0,No training marginal support passes the ceiling for X.E..2.nonenal
+1,strict_four,Fruitbeer,2,0,False,0,0,No training marginal support passes the ceiling for X.E..2.nonenal
+1,strict_four,Hoppy,6,0,False,0,0,No training marginal support passes the ceiling for X.E..2.nonenal
+1,strict_four,Kriek,3,0,False,0,0,No training marginal support passes the ceiling for X.E..2.nonenal
+1,strict_four,Lambic,4,0,False,0,0,No training marginal support passes the ceiling for X.E..2.nonenal
+1,strict_four,Low/No alcohol,3,1,False,0,0,No training marginal support passes the ceiling for X.E..2.nonenal
+1,strict_four,Pils/Lager,3,0,False,0,0,No training marginal support passes the ceiling for X.E..2.nonenal
+1,strict_four,Saison,3,0,False,0,0,No training marginal support passes the ceiling for X.E..2.nonenal
+1,strict_four,Scotch,2,0,False,0,0,No training marginal support passes the ceiling for X.E..2.nonenal
+1,strict_four,Stout/Porter,4,0,False,0,0,No training marginal support passes the ceiling for X.E..2.nonenal
+1,strict_four,Strong ale,6,0,False,0,0,No training marginal support passes the ceiling for X.E..2.nonenal
+1,strict_four,Tripel,9,0,False,0,0,No training marginal support passes the ceiling for X.E..2.nonenal
+1,strict_four,West Flanders ale,2,0,False,0,0,No training marginal support passes the ceiling for X.E..2.nonenal
+1,strict_four,Wheat,4,0,False,0,0,No training marginal support passes the ceiling for X.E..2.nonenal
+2,attachment_two,Amber,4,1,True,512,20000,
+2,attachment_two,Blond,10,0,True,512,40000,
+2,attachment_two,Brett/cofermented,2,0,True,512,20000,
+2,attachment_two,Brown,4,0,True,512,20000,
+2,attachment_two,Brut,1,0,True,512,20000,
+2,attachment_two,Christmas,3,0,True,512,20000,
+2,attachment_two,Dubbel,3,1,True,512,20000,
+2,attachment_two,Faro,1,0,True,512,20000,
+2,attachment_two,Flanders old brown,2,1,True,512,20000,
+2,attachment_two,Fruitbeer,3,1,True,512,20000,
+2,attachment_two,Hoppy,6,0,True,512,60000,
+2,attachment_two,Kriek,3,0,True,512,20000,
+2,attachment_two,Lambic,3,0,True,512,20000,
+2,attachment_two,Low/No alcohol,2,1,True,512,20000,
+2,attachment_two,Pils/Lager,4,1,True,512,20000,
+2,attachment_two,Saison,3,0,True,512,20000,
+2,attachment_two,Scotch,2,0,True,512,20000,
+2,attachment_two,Stout/Porter,5,0,True,512,20000,
+2,attachment_two,Strong ale,6,0,True,512,20000,
+2,attachment_two,Tripel,10,0,True,512,20000,
+2,attachment_two,West Flanders ale,2,0,True,512,20000,
+2,attachment_two,Wheat,4,0,True,512,20000,
+2,strict_four,Amber,4,0,True,512,760000,
+2,strict_four,Blond,10,0,False,112,5000000,proposal budget exhausted
+2,strict_four,Brett/cofermented,2,0,False,38,5000000,proposal budget exhausted
+2,strict_four,Brown,4,0,True,512,1000000,
+2,strict_four,Brut,1,0,True,512,1240000,
+2,strict_four,Christmas,3,0,True,512,1040000,
+2,strict_four,Dubbel,3,0,True,512,1260000,
+2,strict_four,Faro,1,0,True,512,380000,
+2,strict_four,Flanders old brown,2,0,True,512,140000,
+2,strict_four,Fruitbeer,3,0,True,512,2520000,
+2,strict_four,Hoppy,6,0,False,0,5000000,proposal budget exhausted
+2,strict_four,Kriek,3,0,True,512,1620000,
+2,strict_four,Lambic,3,0,True,512,3420000,
+2,strict_four,Low/No alcohol,2,0,True,512,20000,
+2,strict_four,Pils/Lager,4,0,True,512,80000,
+2,strict_four,Saison,3,0,False,79,5000000,proposal budget exhausted
+2,strict_four,Scotch,2,0,True,512,1320000,
+2,strict_four,Stout/Porter,5,0,True,512,2440000,
+2,strict_four,Strong ale,6,0,True,512,2700000,
+2,strict_four,Tripel,10,0,False,313,5000000,proposal budget exhausted
+2,strict_four,West Flanders ale,2,0,True,512,380000,
+2,strict_four,Wheat,4,0,True,512,320000,

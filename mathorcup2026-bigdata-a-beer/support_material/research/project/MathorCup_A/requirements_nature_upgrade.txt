@@ -1,0 +1,5 @@
+
+# The original pinned analysis dependencies are preserved in requirements.txt.
+# Tested with CPython 3.12.14 on Linux x86_64.
+-r requirements.txt
+catboost==1.2.10

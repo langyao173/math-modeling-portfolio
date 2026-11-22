@@ -1,0 +1,22 @@
+# Competition-revision reproduction and editable DOCX generation.
+# Observed execution environment: CPython 3.12.14, Linux x86_64.
+# Keep the pinned scientific packages when loading the supplied joblib models.
+-r requirements.txt
+python-docx==1.2.0
+lxml==6.1.1
+Pillow==12.3.0
+# The current document builder records these installed versions in the paper.
+pypdf==6.10.0
+reportlab==4.4.9
+# Used for the delivered PDF's page inspection, not for fitting old models.
+PyMuPDF==1.26.6
+
+# External commands (not installable by pip):
+#   pandoc: required by --build-report to convert Markdown/math into DOCX.
+#   LibreOffice / soffice: optional DOCX-to-PDF conversion and layout review.
+#   Poppler / pdftoppm: optional PDF page rendering for visual inspection.
+# Fonts: the package includes assets/fonts/NotoSansCJKsc-Regular.otf for figures.
+# DOCX layout also references Noto Serif CJK SC, Noto Sans CJK SC,
+# Liberation Serif, DejaVu Sans Mono, and Latin Modern Math.
+# No CatBoost runtime is needed for this entry point: its comparison is read
+# from saved CSV files. Older full-training workflows have separate requirements.

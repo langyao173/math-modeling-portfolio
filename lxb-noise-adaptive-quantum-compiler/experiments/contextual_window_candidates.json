@@ -1,0 +1,4041 @@
+{
+  "elapsed_sec": 28.491669400013052,
+  "public_shots": 256,
+  "rule_count": 97,
+  "ruleset": "D:\\BaiduNetdiskDownload\\\u91cf\u65cb\u676f\\experiments\\verified_ruleset_row_phase.json",
+  "seed": 7,
+  "seed7_gate": {
+    "best_cx": {
+      "track_a_002": 8,
+      "track_a_007": 14,
+      "track_a_008": 14
+    },
+    "final_plus_0_003": false,
+    "final_seed7_delta_estimate": 0.0,
+    "keep": false,
+    "public_deltas": {
+      "track_a_002": 0.0,
+      "track_a_007": 0.0,
+      "track_a_008": 0.0
+    },
+    "raw_deltas": {
+      "track_a_002": 0.0,
+      "track_a_007": 0.0,
+      "track_a_008": 0.0
+    },
+    "target_gate": false
+  },
+  "shots": 4096,
+  "targets": {
+    "track_a_002": {
+      "accepted": [],
+      "accepted_metric_guard_count": 0,
+      "best": {
+        "compile_time_sec": 0.18477590003749356,
+        "cx": 8,
+        "depth": 8,
+        "diagnostic_correct": 3600,
+        "diagnostic_shots": 4096,
+        "diagnostic_success": 0.87890625,
+        "elr": -0.15042961556101045,
+        "name": "root_current",
+        "public_correct": 223,
+        "public_shots": 256,
+        "public_success": 0.87109375,
+        "readout_cost": 0.06043044098276841,
+        "valid": true
+      },
+      "family": "hs",
+      "miter_count": 92,
+      "rejection_counts": {
+        "contextual_final_z_miter_failed": 92,
+        "duplicate": 170
+      },
+      "root": {
+        "compile_time_sec": 0.18477590003749356,
+        "cx": 8,
+        "depth": 8,
+        "diagnostic_correct": 3600,
+        "diagnostic_shots": 4096,
+        "diagnostic_success": 0.87890625,
+        "elr": -0.15042961556101045,
+        "name": "root_current",
+        "public_correct": 223,
+        "public_shots": 256,
+        "public_success": 0.87109375,
+        "readout_cost": 0.06043044098276841,
+        "valid": true
+      },
+      "tested_contextual_candidates": 92,
+      "top_candidates": [
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              9,
+              10,
+              11
+            ]
+          },
+          "name": "context_global_delete_cx_triple_9_10_11",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              9,
+              10,
+              11
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              8,
+              9,
+              11
+            ]
+          },
+          "name": "context_global_delete_cx_triple_8_9_11",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              8,
+              9,
+              11
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              8,
+              9,
+              10
+            ]
+          },
+          "name": "context_global_delete_cx_triple_8_9_10",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              8,
+              9,
+              10
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              8,
+              10,
+              11
+            ]
+          },
+          "name": "context_global_delete_cx_triple_8_10_11",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              8,
+              10,
+              11
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              7,
+              9,
+              11
+            ]
+          },
+          "name": "context_global_delete_cx_triple_7_9_11",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              7,
+              9,
+              11
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              7,
+              9,
+              10
+            ]
+          },
+          "name": "context_global_delete_cx_triple_7_9_10",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              7,
+              9,
+              10
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              7,
+              8,
+              9
+            ]
+          },
+          "name": "context_global_delete_cx_triple_7_8_9",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              7,
+              8,
+              9
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              7,
+              8,
+              11
+            ]
+          },
+          "name": "context_global_delete_cx_triple_7_8_11",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              7,
+              8,
+              11
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              7,
+              8,
+              10
+            ]
+          },
+          "name": "context_global_delete_cx_triple_7_8_10",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              7,
+              8,
+              10
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              7,
+              10,
+              11
+            ]
+          },
+          "name": "context_global_delete_cx_triple_7_10_11",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              7,
+              10,
+              11
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              6,
+              9,
+              11
+            ]
+          },
+          "name": "context_global_delete_cx_triple_6_9_11",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              6,
+              9,
+              11
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              6,
+              9,
+              10
+            ]
+          },
+          "name": "context_global_delete_cx_triple_6_9_10",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              6,
+              9,
+              10
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              6,
+              8,
+              9
+            ]
+          },
+          "name": "context_global_delete_cx_triple_6_8_9",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              6,
+              8,
+              9
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              6,
+              8,
+              11
+            ]
+          },
+          "name": "context_global_delete_cx_triple_6_8_11",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              6,
+              8,
+              11
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              6,
+              8,
+              10
+            ]
+          },
+          "name": "context_global_delete_cx_triple_6_8_10",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              6,
+              8,
+              10
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              6,
+              7,
+              9
+            ]
+          },
+          "name": "context_global_delete_cx_triple_6_7_9",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              6,
+              7,
+              9
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              6,
+              7,
+              8
+            ]
+          },
+          "name": "context_global_delete_cx_triple_6_7_8",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              6,
+              7,
+              8
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              6,
+              7,
+              11
+            ]
+          },
+          "name": "context_global_delete_cx_triple_6_7_11",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              6,
+              7,
+              11
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              6,
+              7,
+              10
+            ]
+          },
+          "name": "context_global_delete_cx_triple_6_7_10",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              6,
+              7,
+              10
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              6,
+              10,
+              11
+            ]
+          },
+          "name": "context_global_delete_cx_triple_6_10_11",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              6,
+              10,
+              11
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              5,
+              9,
+              11
+            ]
+          },
+          "name": "context_global_delete_cx_triple_5_9_11",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              5,
+              9,
+              11
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              5,
+              9,
+              10
+            ]
+          },
+          "name": "context_global_delete_cx_triple_5_9_10",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              5,
+              9,
+              10
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              5,
+              8,
+              9
+            ]
+          },
+          "name": "context_global_delete_cx_triple_5_8_9",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              5,
+              8,
+              9
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              5,
+              8,
+              11
+            ]
+          },
+          "name": "context_global_delete_cx_triple_5_8_11",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              5,
+              8,
+              11
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              5,
+              8,
+              10
+            ]
+          },
+          "name": "context_global_delete_cx_triple_5_8_10",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              5,
+              8,
+              10
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              5,
+              7,
+              9
+            ]
+          },
+          "name": "context_global_delete_cx_triple_5_7_9",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              5,
+              7,
+              9
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              5,
+              7,
+              8
+            ]
+          },
+          "name": "context_global_delete_cx_triple_5_7_8",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              5,
+              7,
+              8
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              5,
+              7,
+              11
+            ]
+          },
+          "name": "context_global_delete_cx_triple_5_7_11",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              5,
+              7,
+              11
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              5,
+              7,
+              10
+            ]
+          },
+          "name": "context_global_delete_cx_triple_5_7_10",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              5,
+              7,
+              10
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              5,
+              6,
+              9
+            ]
+          },
+          "name": "context_global_delete_cx_triple_5_6_9",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              5,
+              6,
+              9
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              5,
+              6,
+              8
+            ]
+          },
+          "name": "context_global_delete_cx_triple_5_6_8",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              5,
+              6,
+              8
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              5,
+              6,
+              7
+            ]
+          },
+          "name": "context_global_delete_cx_triple_5_6_7",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              5,
+              6,
+              7
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              5,
+              6,
+              11
+            ]
+          },
+          "name": "context_global_delete_cx_triple_5_6_11",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              5,
+              6,
+              11
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              5,
+              6,
+              10
+            ]
+          },
+          "name": "context_global_delete_cx_triple_5_6_10",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              5,
+              6,
+              10
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              5,
+              10,
+              11
+            ]
+          },
+          "name": "context_global_delete_cx_triple_5_10_11",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              5,
+              10,
+              11
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              4,
+              9,
+              11
+            ]
+          },
+          "name": "context_global_delete_cx_triple_4_9_11",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              4,
+              9,
+              11
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              4,
+              9,
+              10
+            ]
+          },
+          "name": "context_global_delete_cx_triple_4_9_10",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              4,
+              9,
+              10
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              4,
+              8,
+              9
+            ]
+          },
+          "name": "context_global_delete_cx_triple_4_8_9",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              4,
+              8,
+              9
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              4,
+              8,
+              11
+            ]
+          },
+          "name": "context_global_delete_cx_triple_4_8_11",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              4,
+              8,
+              11
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              4,
+              8,
+              10
+            ]
+          },
+          "name": "context_global_delete_cx_triple_4_8_10",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              4,
+              8,
+              10
+            ],
+            "start": 0,
+            "stop": 12
+          }
+        }
+      ],
+      "valid_count": 0,
+      "window_count": 29,
+      "windows": [
+        {
+          "cx_count": 5,
+          "h_count": 0,
+          "phase_count": 0,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            9
+          ],
+          "score": 32.719063914468634,
+          "start": 4,
+          "stop": 9
+        },
+        {
+          "cx_count": 4,
+          "h_count": 0,
+          "phase_count": 0,
+          "qubits": [
+            4,
+            5,
+            9,
+            13
+          ],
+          "score": 26.90194273536131,
+          "start": 8,
+          "stop": 12
+        },
+        {
+          "cx_count": 4,
+          "h_count": 0,
+          "phase_count": 0,
+          "qubits": [
+            0,
+            1,
+            4,
+            5
+          ],
+          "score": 26.41800072951685,
+          "start": 4,
+          "stop": 8
+        },
+        {
+          "cx_count": 4,
+          "h_count": 0,
+          "phase_count": 0,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            13
+          ],
+          "score": 26.36800072951685,
+          "start": 3,
+          "stop": 8
+        },
+        {
+          "cx_count": 4,
+          "h_count": 0,
+          "phase_count": 0,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            13
+          ],
+          "score": 26.31800072951685,
+          "start": 2,
+          "stop": 8
+        },
+        {
+          "cx_count": 4,
+          "h_count": 0,
+          "phase_count": 0,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            13
+          ],
+          "score": 26.26800072951685,
+          "start": 1,
+          "stop": 8
+        },
+        {
+          "cx_count": 4,
+          "h_count": 0,
+          "phase_count": 0,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            13
+          ],
+          "score": 26.218000729516852,
+          "start": 0,
+          "stop": 8
+        },
+        {
+          "cx_count": 4,
+          "h_count": 0,
+          "phase_count": 0,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            9
+          ],
+          "score": 24.600959411588295,
+          "start": 5,
+          "stop": 9
+        },
+        {
+          "cx_count": 3,
+          "h_count": 0,
+          "phase_count": 0,
+          "qubits": [
+            4,
+            5,
+            9,
+            13
+          ],
+          "score": 20.600879550409527,
+          "start": 9,
+          "stop": 12
+        },
+        {
+          "cx_count": 3,
+          "h_count": 0,
+          "phase_count": 0,
+          "qubits": [
+            0,
+            1,
+            5,
+            9,
+            13
+          ],
+          "score": 18.671440444033088,
+          "start": 7,
+          "stop": 10
+        },
+        {
+          "cx_count": 3,
+          "h_count": 0,
+          "phase_count": 0,
+          "qubits": [
+            4,
+            5,
+            9,
+            13
+          ],
+          "score": 18.649669979160347,
+          "start": 8,
+          "stop": 11
+        },
+        {
+          "cx_count": 3,
+          "h_count": 0,
+          "phase_count": 0,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            9
+          ],
+          "score": 18.51550172583972,
+          "start": 6,
+          "stop": 9
+        },
+        {
+          "cx_count": 3,
+          "h_count": 0,
+          "phase_count": 0,
+          "qubits": [
+            0,
+            1,
+            4,
+            5
+          ],
+          "score": 18.299896226636513,
+          "start": 4,
+          "stop": 7
+        },
+        {
+          "cx_count": 3,
+          "h_count": 0,
+          "phase_count": 0,
+          "qubits": [
+            0,
+            1,
+            4,
+            5
+          ],
+          "score": 18.299896226636513,
+          "start": 5,
+          "stop": 8
+        },
+        {
+          "cx_count": 3,
+          "h_count": 0,
+          "phase_count": 0,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            13
+          ],
+          "score": 18.249896226636512,
+          "start": 3,
+          "stop": 7
+        },
+        {
+          "cx_count": 3,
+          "h_count": 0,
+          "phase_count": 0,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            13
+          ],
+          "score": 18.19989622663651,
+          "start": 2,
+          "stop": 7
+        },
+        {
+          "cx_count": 3,
+          "h_count": 0,
+          "phase_count": 0,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            13
+          ],
+          "score": 18.14989622663651,
+          "start": 1,
+          "stop": 7
+        },
+        {
+          "cx_count": 3,
+          "h_count": 0,
+          "phase_count": 0,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            13
+          ],
+          "score": 18.09989622663651,
+          "start": 0,
+          "stop": 7
+        },
+        {
+          "cx_count": 2,
+          "h_count": 0,
+          "phase_count": 0,
+          "qubits": [
+            5,
+            9,
+            13
+          ],
+          "score": 12.553335941152747,
+          "start": 8,
+          "stop": 10
+        },
+        {
+          "cx_count": 2,
+          "h_count": 0,
+          "phase_count": 0,
+          "qubits": [
+            0,
+            1,
+            5,
+            9
+          ],
+          "score": 12.419167687832124,
+          "start": 7,
+          "stop": 9
+        },
+        {
+          "cx_count": 2,
+          "h_count": 0,
+          "phase_count": 0,
+          "qubits": [
+            4,
+            5,
+            9,
+            13
+          ],
+          "score": 12.34860679420856,
+          "start": 9,
+          "stop": 11
+        },
+        {
+          "cx_count": 2,
+          "h_count": 0,
+          "phase_count": 0,
+          "qubits": [
+            4,
+            5,
+            9,
+            13
+          ],
+          "score": 12.34860679420856,
+          "start": 10,
+          "stop": 12
+        },
+        {
+          "cx_count": 2,
+          "h_count": 0,
+          "phase_count": 0,
+          "qubits": [
+            0,
+            1,
+            4,
+            5
+          ],
+          "score": 12.214438540887937,
+          "start": 6,
+          "stop": 8
+        },
+        {
+          "cx_count": 2,
+          "h_count": 0,
+          "phase_count": 0,
+          "qubits": [
+            0,
+            1,
+            4
+          ],
+          "score": 12.203562188628915,
+          "start": 4,
+          "stop": 6
+        },
+        {
+          "cx_count": 2,
+          "h_count": 0,
+          "phase_count": 0,
+          "qubits": [
+            0,
+            4,
+            5
+          ],
+          "score": 12.181791723756172,
+          "start": 5,
+          "stop": 7
+        }
+      ]
+    },
+    "track_a_007": {
+      "accepted": [],
+      "accepted_metric_guard_count": 0,
+      "best": {
+        "compile_time_sec": 1.1619547000154853,
+        "cx": 14,
+        "depth": 22,
+        "diagnostic_correct": 3393,
+        "diagnostic_shots": 4096,
+        "diagnostic_success": 0.828369140625,
+        "elr": -0.2231225844058102,
+        "name": "root_current",
+        "public_correct": 206,
+        "public_shots": 256,
+        "public_success": 0.8046875,
+        "readout_cost": 0.06043044098276841,
+        "valid": true
+      },
+      "family": "adder",
+      "miter_count": 281,
+      "rejection_counts": {
+        "contextual_final_z_miter_failed": 281,
+        "duplicate": 1740
+      },
+      "root": {
+        "compile_time_sec": 1.1619547000154853,
+        "cx": 14,
+        "depth": 22,
+        "diagnostic_correct": 3393,
+        "diagnostic_shots": 4096,
+        "diagnostic_success": 0.828369140625,
+        "elr": -0.2231225844058102,
+        "name": "root_current",
+        "public_correct": 206,
+        "public_shots": 256,
+        "public_success": 0.8046875,
+        "readout_cost": 0.06043044098276841,
+        "valid": true
+      },
+      "tested_contextual_candidates": 281,
+      "top_candidates": [
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              8,
+              9,
+              25
+            ]
+          },
+          "name": "context_global_delete_cx_triple_8_9_25",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              8,
+              9,
+              25
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              8,
+              9,
+              23
+            ]
+          },
+          "name": "context_global_delete_cx_triple_8_9_23",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              8,
+              9,
+              23
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              8,
+              9,
+              21
+            ]
+          },
+          "name": "context_global_delete_cx_triple_8_9_21",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              8,
+              9,
+              21
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              8,
+              9,
+              18
+            ]
+          },
+          "name": "context_global_delete_cx_triple_8_9_18",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              8,
+              9,
+              18
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              8,
+              9,
+              17
+            ]
+          },
+          "name": "context_global_delete_cx_triple_8_9_17",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              8,
+              9,
+              17
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              8,
+              9,
+              15
+            ]
+          },
+          "name": "context_global_delete_cx_triple_8_9_15",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              8,
+              9,
+              15
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              8,
+              9,
+              14
+            ]
+          },
+          "name": "context_global_delete_cx_triple_8_9_14",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              8,
+              9,
+              14
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              8,
+              9,
+              13
+            ]
+          },
+          "name": "context_global_delete_cx_triple_8_9_13",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              8,
+              9,
+              13
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              8,
+              9,
+              11
+            ]
+          },
+          "name": "context_global_delete_cx_triple_8_9_11",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              8,
+              9,
+              11
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              8,
+              9,
+              10
+            ]
+          },
+          "name": "context_global_delete_cx_triple_8_9_10",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              8,
+              9,
+              10
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              8,
+              14,
+              17
+            ]
+          },
+          "name": "context_global_delete_cx_triple_8_14_17",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              8,
+              14,
+              17
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              8,
+              13,
+              25
+            ]
+          },
+          "name": "context_global_delete_cx_triple_8_13_25",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              8,
+              13,
+              25
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              8,
+              13,
+              23
+            ]
+          },
+          "name": "context_global_delete_cx_triple_8_13_23",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              8,
+              13,
+              23
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              8,
+              13,
+              21
+            ]
+          },
+          "name": "context_global_delete_cx_triple_8_13_21",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              8,
+              13,
+              21
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              8,
+              13,
+              18
+            ]
+          },
+          "name": "context_global_delete_cx_triple_8_13_18",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              8,
+              13,
+              18
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              8,
+              13,
+              17
+            ]
+          },
+          "name": "context_global_delete_cx_triple_8_13_17",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              8,
+              13,
+              17
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              8,
+              13,
+              15
+            ]
+          },
+          "name": "context_global_delete_cx_triple_8_13_15",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              8,
+              13,
+              15
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              8,
+              11,
+              25
+            ]
+          },
+          "name": "context_global_delete_cx_triple_8_11_25",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              8,
+              11,
+              25
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              8,
+              11,
+              23
+            ]
+          },
+          "name": "context_global_delete_cx_triple_8_11_23",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              8,
+              11,
+              23
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              8,
+              11,
+              21
+            ]
+          },
+          "name": "context_global_delete_cx_triple_8_11_21",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              8,
+              11,
+              21
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              8,
+              11,
+              18
+            ]
+          },
+          "name": "context_global_delete_cx_triple_8_11_18",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              8,
+              11,
+              18
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              8,
+              11,
+              17
+            ]
+          },
+          "name": "context_global_delete_cx_triple_8_11_17",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              8,
+              11,
+              17
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              8,
+              11,
+              15
+            ]
+          },
+          "name": "context_global_delete_cx_triple_8_11_15",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              8,
+              11,
+              15
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              8,
+              11,
+              14
+            ]
+          },
+          "name": "context_global_delete_cx_triple_8_11_14",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              8,
+              11,
+              14
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              8,
+              11,
+              13
+            ]
+          },
+          "name": "context_global_delete_cx_triple_8_11_13",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              8,
+              11,
+              13
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              8,
+              10,
+              25
+            ]
+          },
+          "name": "context_global_delete_cx_triple_8_10_25",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              8,
+              10,
+              25
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              8,
+              10,
+              23
+            ]
+          },
+          "name": "context_global_delete_cx_triple_8_10_23",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              8,
+              10,
+              23
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              8,
+              10,
+              21
+            ]
+          },
+          "name": "context_global_delete_cx_triple_8_10_21",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              8,
+              10,
+              21
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              8,
+              10,
+              18
+            ]
+          },
+          "name": "context_global_delete_cx_triple_8_10_18",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              8,
+              10,
+              18
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              8,
+              10,
+              17
+            ]
+          },
+          "name": "context_global_delete_cx_triple_8_10_17",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              8,
+              10,
+              17
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              8,
+              10,
+              15
+            ]
+          },
+          "name": "context_global_delete_cx_triple_8_10_15",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              8,
+              10,
+              15
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              8,
+              10,
+              14
+            ]
+          },
+          "name": "context_global_delete_cx_triple_8_10_14",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              8,
+              10,
+              14
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              8,
+              10,
+              13
+            ]
+          },
+          "name": "context_global_delete_cx_triple_8_10_13",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              8,
+              10,
+              13
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              8,
+              10,
+              11
+            ]
+          },
+          "name": "context_global_delete_cx_triple_8_10_11",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              8,
+              10,
+              11
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              4,
+              9,
+              25
+            ]
+          },
+          "name": "context_global_delete_cx_triple_4_9_25",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              4,
+              9,
+              25
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              4,
+              9,
+              23
+            ]
+          },
+          "name": "context_global_delete_cx_triple_4_9_23",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              4,
+              9,
+              23
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              4,
+              9,
+              21
+            ]
+          },
+          "name": "context_global_delete_cx_triple_4_9_21",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              4,
+              9,
+              21
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              4,
+              9,
+              18
+            ]
+          },
+          "name": "context_global_delete_cx_triple_4_9_18",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              4,
+              9,
+              18
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              4,
+              9,
+              17
+            ]
+          },
+          "name": "context_global_delete_cx_triple_4_9_17",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              4,
+              9,
+              17
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              4,
+              9,
+              15
+            ]
+          },
+          "name": "context_global_delete_cx_triple_4_9_15",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              4,
+              9,
+              15
+            ],
+            "start": 0,
+            "stop": 28
+          }
+        }
+      ],
+      "valid_count": 0,
+      "window_count": 90,
+      "windows": [
+        {
+          "cx_count": 11,
+          "h_count": 2,
+          "phase_count": 6,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            9
+          ],
+          "score": 92.50183282306554,
+          "start": 9,
+          "stop": 28
+        },
+        {
+          "cx_count": 11,
+          "h_count": 1,
+          "phase_count": 6,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            9
+          ],
+          "score": 90.05183282306554,
+          "start": 9,
+          "stop": 27
+        },
+        {
+          "cx_count": 11,
+          "h_count": 1,
+          "phase_count": 5,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            9
+          ],
+          "score": 88.70183282306554,
+          "start": 9,
+          "stop": 26
+        },
+        {
+          "cx_count": 10,
+          "h_count": 2,
+          "phase_count": 6,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            9
+          ],
+          "score": 84.41637513731696,
+          "start": 10,
+          "stop": 28
+        },
+        {
+          "cx_count": 10,
+          "h_count": 1,
+          "phase_count": 6,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            9
+          ],
+          "score": 81.96637513731697,
+          "start": 10,
+          "stop": 27
+        },
+        {
+          "cx_count": 10,
+          "h_count": 1,
+          "phase_count": 5,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            9
+          ],
+          "score": 80.61637513731696,
+          "start": 10,
+          "stop": 26
+        },
+        {
+          "cx_count": 10,
+          "h_count": 1,
+          "phase_count": 5,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            9
+          ],
+          "score": 80.5837283201852,
+          "start": 9,
+          "stop": 25
+        },
+        {
+          "cx_count": 10,
+          "h_count": 1,
+          "phase_count": 4,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            9
+          ],
+          "score": 79.2337283201852,
+          "start": 9,
+          "stop": 24
+        },
+        {
+          "cx_count": 9,
+          "h_count": 2,
+          "phase_count": 6,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            9
+          ],
+          "score": 76.11531195236519,
+          "start": 11,
+          "stop": 28
+        },
+        {
+          "cx_count": 9,
+          "h_count": 1,
+          "phase_count": 6,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            9
+          ],
+          "score": 73.66531195236519,
+          "start": 11,
+          "stop": 27
+        },
+        {
+          "cx_count": 9,
+          "h_count": 1,
+          "phase_count": 4,
+          "qubits": [
+            0,
+            4,
+            5,
+            6,
+            9
+          ],
+          "score": 73.3610979179456,
+          "start": 7,
+          "stop": 21
+        },
+        {
+          "cx_count": 9,
+          "h_count": 1,
+          "phase_count": 4,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            9
+          ],
+          "score": 73.1047296917934,
+          "start": 9,
+          "stop": 23
+        },
+        {
+          "cx_count": 9,
+          "h_count": 1,
+          "phase_count": 5,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            9
+          ],
+          "score": 72.49827063443662,
+          "start": 10,
+          "stop": 25
+        },
+        {
+          "cx_count": 9,
+          "h_count": 1,
+          "phase_count": 5,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            9
+          ],
+          "score": 72.31531195236518,
+          "start": 11,
+          "stop": 26
+        },
+        {
+          "cx_count": 9,
+          "h_count": 1,
+          "phase_count": 3,
+          "qubits": [
+            0,
+            4,
+            5,
+            6,
+            9
+          ],
+          "score": 72.01109791794559,
+          "start": 8,
+          "stop": 21
+        },
+        {
+          "cx_count": 9,
+          "h_count": 1,
+          "phase_count": 3,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            9
+          ],
+          "score": 71.7547296917934,
+          "start": 9,
+          "stop": 22
+        },
+        {
+          "cx_count": 9,
+          "h_count": 1,
+          "phase_count": 4,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            9
+          ],
+          "score": 71.14827063443661,
+          "start": 10,
+          "stop": 24
+        },
+        {
+          "cx_count": 9,
+          "h_count": 0,
+          "phase_count": 4,
+          "qubits": [
+            0,
+            4,
+            5,
+            6,
+            9
+          ],
+          "score": 70.9110979179456,
+          "start": 7,
+          "stop": 20
+        },
+        {
+          "cx_count": 9,
+          "h_count": 0,
+          "phase_count": 3,
+          "qubits": [
+            0,
+            4,
+            5,
+            6,
+            9
+          ],
+          "score": 69.5610979179456,
+          "start": 7,
+          "stop": 19
+        },
+        {
+          "cx_count": 9,
+          "h_count": 0,
+          "phase_count": 3,
+          "qubits": [
+            0,
+            4,
+            5,
+            6,
+            9
+          ],
+          "score": 69.5610979179456,
+          "start": 8,
+          "stop": 20
+        },
+        {
+          "cx_count": 9,
+          "h_count": 0,
+          "phase_count": 2,
+          "qubits": [
+            0,
+            4,
+            5,
+            6,
+            9
+          ],
+          "score": 68.2110979179456,
+          "start": 8,
+          "stop": 19
+        },
+        {
+          "cx_count": 8,
+          "h_count": 2,
+          "phase_count": 6,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            9
+          ],
+          "score": 68.0298542666166,
+          "start": 12,
+          "stop": 28
+        },
+        {
+          "cx_count": 8,
+          "h_count": 2,
+          "phase_count": 5,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            9
+          ],
+          "score": 66.6798542666166,
+          "start": 13,
+          "stop": 28
+        },
+        {
+          "cx_count": 8,
+          "h_count": 1,
+          "phase_count": 3,
+          "qubits": [
+            0,
+            4,
+            5,
+            9
+          ],
+          "score": 65.63662518891307,
+          "start": 9,
+          "stop": 21
+        },
+        {
+          "cx_count": 8,
+          "h_count": 1,
+          "phase_count": 6,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            9
+          ],
+          "score": 65.5798542666166,
+          "start": 12,
+          "stop": 27
+        }
+      ]
+    },
+    "track_a_008": {
+      "accepted": [],
+      "accepted_metric_guard_count": 0,
+      "best": {
+        "compile_time_sec": 8.408778999990318,
+        "cx": 14,
+        "depth": 28,
+        "diagnostic_correct": 3350,
+        "diagnostic_shots": 4096,
+        "diagnostic_success": 0.81787109375,
+        "elr": -0.2430476835579095,
+        "name": "root_current",
+        "public_correct": 206,
+        "public_shots": 256,
+        "public_success": 0.8046875,
+        "readout_cost": 0.07452936536227006,
+        "valid": true
+      },
+      "family": "structured_random",
+      "miter_count": 269,
+      "rejection_counts": {
+        "contextual_final_z_miter_failed": 269,
+        "duplicate": 1755
+      },
+      "root": {
+        "compile_time_sec": 8.408778999990318,
+        "cx": 14,
+        "depth": 28,
+        "diagnostic_correct": 3350,
+        "diagnostic_shots": 4096,
+        "diagnostic_success": 0.81787109375,
+        "elr": -0.2430476835579095,
+        "name": "root_current",
+        "public_correct": 206,
+        "public_shots": 256,
+        "public_success": 0.8046875,
+        "readout_cost": 0.07452936536227006,
+        "valid": true
+      },
+      "tested_contextual_candidates": 269,
+      "top_candidates": [
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              7,
+              9,
+              29
+            ]
+          },
+          "name": "context_global_delete_cx_triple_7_9_29",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              7,
+              9,
+              29
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              7,
+              9,
+              27
+            ]
+          },
+          "name": "context_global_delete_cx_triple_7_9_27",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              7,
+              9,
+              27
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              7,
+              9,
+              25
+            ]
+          },
+          "name": "context_global_delete_cx_triple_7_9_25",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              7,
+              9,
+              25
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              7,
+              9,
+              24
+            ]
+          },
+          "name": "context_global_delete_cx_triple_7_9_24",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              7,
+              9,
+              24
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              7,
+              9,
+              21
+            ]
+          },
+          "name": "context_global_delete_cx_triple_7_9_21",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              7,
+              9,
+              21
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              7,
+              9,
+              18
+            ]
+          },
+          "name": "context_global_delete_cx_triple_7_9_18",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              7,
+              9,
+              18
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              7,
+              9,
+              16
+            ]
+          },
+          "name": "context_global_delete_cx_triple_7_9_16",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              7,
+              9,
+              16
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              7,
+              9,
+              14
+            ]
+          },
+          "name": "context_global_delete_cx_triple_7_9_14",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              7,
+              9,
+              14
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              7,
+              9,
+              11
+            ]
+          },
+          "name": "context_global_delete_cx_triple_7_9_11",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              7,
+              9,
+              11
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              7,
+              16,
+              21
+            ]
+          },
+          "name": "context_global_delete_cx_triple_7_16_21",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              7,
+              16,
+              21
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              7,
+              16,
+              18
+            ]
+          },
+          "name": "context_global_delete_cx_triple_7_16_18",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              7,
+              16,
+              18
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              7,
+              14,
+              29
+            ]
+          },
+          "name": "context_global_delete_cx_triple_7_14_29",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              7,
+              14,
+              29
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              7,
+              14,
+              27
+            ]
+          },
+          "name": "context_global_delete_cx_triple_7_14_27",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              7,
+              14,
+              27
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              7,
+              14,
+              25
+            ]
+          },
+          "name": "context_global_delete_cx_triple_7_14_25",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              7,
+              14,
+              25
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              7,
+              14,
+              24
+            ]
+          },
+          "name": "context_global_delete_cx_triple_7_14_24",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              7,
+              14,
+              24
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              7,
+              14,
+              21
+            ]
+          },
+          "name": "context_global_delete_cx_triple_7_14_21",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              7,
+              14,
+              21
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              7,
+              14,
+              18
+            ]
+          },
+          "name": "context_global_delete_cx_triple_7_14_18",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              7,
+              14,
+              18
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              7,
+              14,
+              16
+            ]
+          },
+          "name": "context_global_delete_cx_triple_7_14_16",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              7,
+              14,
+              16
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              7,
+              11,
+              29
+            ]
+          },
+          "name": "context_global_delete_cx_triple_7_11_29",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              7,
+              11,
+              29
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              7,
+              11,
+              27
+            ]
+          },
+          "name": "context_global_delete_cx_triple_7_11_27",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              7,
+              11,
+              27
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              7,
+              11,
+              25
+            ]
+          },
+          "name": "context_global_delete_cx_triple_7_11_25",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              7,
+              11,
+              25
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              7,
+              11,
+              24
+            ]
+          },
+          "name": "context_global_delete_cx_triple_7_11_24",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              7,
+              11,
+              24
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              7,
+              11,
+              21
+            ]
+          },
+          "name": "context_global_delete_cx_triple_7_11_21",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              7,
+              11,
+              21
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              7,
+              11,
+              18
+            ]
+          },
+          "name": "context_global_delete_cx_triple_7_11_18",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              7,
+              11,
+              18
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              7,
+              11,
+              16
+            ]
+          },
+          "name": "context_global_delete_cx_triple_7_11_16",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              7,
+              11,
+              16
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              7,
+              11,
+              14
+            ]
+          },
+          "name": "context_global_delete_cx_triple_7_11_14",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              7,
+              11,
+              14
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              6,
+              9,
+              29
+            ]
+          },
+          "name": "context_global_delete_cx_triple_6_9_29",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              6,
+              9,
+              29
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              6,
+              9,
+              27
+            ]
+          },
+          "name": "context_global_delete_cx_triple_6_9_27",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              6,
+              9,
+              27
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              6,
+              9,
+              25
+            ]
+          },
+          "name": "context_global_delete_cx_triple_6_9_25",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              6,
+              9,
+              25
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              6,
+              9,
+              24
+            ]
+          },
+          "name": "context_global_delete_cx_triple_6_9_24",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              6,
+              9,
+              24
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              6,
+              9,
+              21
+            ]
+          },
+          "name": "context_global_delete_cx_triple_6_9_21",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              6,
+              9,
+              21
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              6,
+              9,
+              18
+            ]
+          },
+          "name": "context_global_delete_cx_triple_6_9_18",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              6,
+              9,
+              18
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              6,
+              9,
+              16
+            ]
+          },
+          "name": "context_global_delete_cx_triple_6_9_16",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              6,
+              9,
+              16
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              6,
+              9,
+              14
+            ]
+          },
+          "name": "context_global_delete_cx_triple_6_9_14",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              6,
+              9,
+              14
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              6,
+              9,
+              11
+            ]
+          },
+          "name": "context_global_delete_cx_triple_6_9_11",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              6,
+              9,
+              11
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              6,
+              8,
+              9
+            ]
+          },
+          "name": "context_global_delete_cx_triple_6_8_9",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              6,
+              8,
+              9
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              6,
+              8,
+              29
+            ]
+          },
+          "name": "context_global_delete_cx_triple_6_8_29",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              6,
+              8,
+              29
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              6,
+              8,
+              27
+            ]
+          },
+          "name": "context_global_delete_cx_triple_6_8_27",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              6,
+              8,
+              27
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              6,
+              8,
+              25
+            ]
+          },
+          "name": "context_global_delete_cx_triple_6_8_25",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              6,
+              8,
+              25
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        },
+        {
+          "accepted_metric_guard": false,
+          "kind": "global_delete_cx_triple",
+          "metadata": {
+            "global_deleted_indices": [
+              6,
+              8,
+              24
+            ]
+          },
+          "name": "context_global_delete_cx_triple_6_8_24",
+          "rejection_reason": "contextual_final_z_miter_failed",
+          "valid": false,
+          "window": {
+            "deleted_indices": [
+              6,
+              8,
+              24
+            ],
+            "start": 0,
+            "stop": 33
+          }
+        }
+      ],
+      "valid_count": 0,
+      "window_count": 90,
+      "windows": [
+        {
+          "cx_count": 8,
+          "h_count": 4,
+          "phase_count": 8,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            6
+          ],
+          "score": 77.6205992332109,
+          "start": 12,
+          "stop": 33
+        },
+        {
+          "cx_count": 8,
+          "h_count": 3,
+          "phase_count": 8,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            6
+          ],
+          "score": 75.22059923321089,
+          "start": 12,
+          "stop": 31
+        },
+        {
+          "cx_count": 8,
+          "h_count": 3,
+          "phase_count": 8,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            6
+          ],
+          "score": 75.1705992332109,
+          "start": 12,
+          "stop": 32
+        },
+        {
+          "cx_count": 8,
+          "h_count": 3,
+          "phase_count": 8,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            6
+          ],
+          "score": 75.1705992332109,
+          "start": 13,
+          "stop": 33
+        },
+        {
+          "cx_count": 8,
+          "h_count": 3,
+          "phase_count": 7,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            6
+          ],
+          "score": 73.87059923321088,
+          "start": 12,
+          "stop": 30
+        },
+        {
+          "cx_count": 8,
+          "h_count": 3,
+          "phase_count": 7,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            6
+          ],
+          "score": 73.82059923321088,
+          "start": 14,
+          "stop": 33
+        },
+        {
+          "cx_count": 8,
+          "h_count": 2,
+          "phase_count": 8,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            6
+          ],
+          "score": 72.77059923321089,
+          "start": 13,
+          "stop": 31
+        },
+        {
+          "cx_count": 8,
+          "h_count": 2,
+          "phase_count": 8,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            6
+          ],
+          "score": 72.72059923321089,
+          "start": 13,
+          "stop": 32
+        },
+        {
+          "cx_count": 8,
+          "h_count": 3,
+          "phase_count": 6,
+          "qubits": [
+            1,
+            4,
+            5,
+            6,
+            9
+          ],
+          "score": 72.71886932279828,
+          "start": 9,
+          "stop": 27
+        },
+        {
+          "cx_count": 8,
+          "h_count": 2,
+          "phase_count": 7,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            6
+          ],
+          "score": 71.4205992332109,
+          "start": 13,
+          "stop": 30
+        },
+        {
+          "cx_count": 8,
+          "h_count": 2,
+          "phase_count": 7,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            6
+          ],
+          "score": 71.4205992332109,
+          "start": 14,
+          "stop": 31
+        },
+        {
+          "cx_count": 8,
+          "h_count": 2,
+          "phase_count": 7,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            6
+          ],
+          "score": 71.37059923321088,
+          "start": 14,
+          "stop": 32
+        },
+        {
+          "cx_count": 8,
+          "h_count": 3,
+          "phase_count": 5,
+          "qubits": [
+            1,
+            4,
+            5,
+            6,
+            9
+          ],
+          "score": 71.36886932279829,
+          "start": 9,
+          "stop": 26
+        },
+        {
+          "cx_count": 8,
+          "h_count": 2,
+          "phase_count": 6,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            6
+          ],
+          "score": 70.07059923321088,
+          "start": 14,
+          "stop": 30
+        },
+        {
+          "cx_count": 7,
+          "h_count": 3,
+          "phase_count": 7,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            6
+          ],
+          "score": 65.7742651952033,
+          "start": 12,
+          "stop": 29
+        },
+        {
+          "cx_count": 7,
+          "h_count": 3,
+          "phase_count": 7,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            6
+          ],
+          "score": 65.72426519520329,
+          "start": 15,
+          "stop": 33
+        },
+        {
+          "cx_count": 7,
+          "h_count": 3,
+          "phase_count": 6,
+          "qubits": [
+            1,
+            4,
+            5,
+            6,
+            9
+          ],
+          "score": 64.6398706944065,
+          "start": 11,
+          "stop": 27
+        },
+        {
+          "cx_count": 7,
+          "h_count": 3,
+          "phase_count": 6,
+          "qubits": [
+            1,
+            4,
+            5,
+            6,
+            9
+          ],
+          "score": 64.5898706944065,
+          "start": 10,
+          "stop": 27
+        },
+        {
+          "cx_count": 7,
+          "h_count": 3,
+          "phase_count": 6,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            6
+          ],
+          "score": 64.42426519520329,
+          "start": 12,
+          "stop": 28
+        },
+        {
+          "cx_count": 7,
+          "h_count": 3,
+          "phase_count": 6,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            6
+          ],
+          "score": 64.3742651952033,
+          "start": 16,
+          "stop": 33
+        },
+        {
+          "cx_count": 7,
+          "h_count": 2,
+          "phase_count": 7,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            6
+          ],
+          "score": 63.324265195203296,
+          "start": 13,
+          "stop": 29
+        },
+        {
+          "cx_count": 7,
+          "h_count": 2,
+          "phase_count": 7,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            6
+          ],
+          "score": 63.324265195203296,
+          "start": 15,
+          "stop": 31
+        },
+        {
+          "cx_count": 7,
+          "h_count": 3,
+          "phase_count": 5,
+          "qubits": [
+            1,
+            4,
+            5,
+            6,
+            9
+          ],
+          "score": 63.28987069440649,
+          "start": 11,
+          "stop": 26
+        },
+        {
+          "cx_count": 7,
+          "h_count": 2,
+          "phase_count": 7,
+          "qubits": [
+            0,
+            1,
+            4,
+            5,
+            6
+          ],
+          "score": 63.27426519520329,
+          "start": 15,
+          "stop": 32
+        },
+        {
+          "cx_count": 7,
+          "h_count": 3,
+          "phase_count": 5,
+          "qubits": [
+            1,
+            4,
+            5,
+            6,
+            9
+          ],
+          "score": 63.27253528479069,
+          "start": 9,
+          "stop": 25
+        }
+      ]
+    }
+  },
+  "variant": "contextual_row_phase_window_miner_dev_only"
+}

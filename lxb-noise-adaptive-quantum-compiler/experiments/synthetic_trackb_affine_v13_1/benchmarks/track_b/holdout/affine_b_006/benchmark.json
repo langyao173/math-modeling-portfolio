@@ -1,0 +1,40 @@
+{
+  "track": "track_b",
+  "name": "affine_b_006",
+  "family": "multi_row_affine_parity",
+  "logical_qubits": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "expected_output_rule": {
+    "rule_type": "allowed_bitstrings",
+    "bitstring": null,
+    "allowed_bitstrings": [
+      "000000000000",
+      "000100001010",
+      "001000000000",
+      "001100001010",
+      "010001100110",
+      "010101101100",
+      "011001100110",
+      "011101101100"
+    ],
+    "parity_checks": []
+  },
+  "metadata": {
+    "backend_size_class": "large",
+    "backend_snapshot_id": "large_snapshot_a",
+    "synthetic_family": "multi_row_affine_parity",
+    "negative_case": false
+  }
+}

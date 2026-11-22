@@ -1,0 +1,38 @@
+{
+  "track": "track_b",
+  "name": "synthetic_b_008",
+  "family": "parity_hub_leaf",
+  "logical_qubits": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "expected_output_rule": {
+    "rule_type": "bitstring",
+    "bitstring": "00010101101100001111",
+    "allowed_bitstrings": [],
+    "parity_checks": []
+  },
+  "metadata": {
+    "backend_size_class": "large",
+    "backend_snapshot_id": "synthetic_large_worst_edge_relocated",
+    "synthetic_family": "parity_hub_leaf"
+  }
+}

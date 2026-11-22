@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-18T17:58:17.2405188+08:00",
+  "baseline": {
+    "solver": "trust-ncg",
+    "wall_clock_limit_seconds": null,
+    "pytest_leaf_cpu_seconds": 6728.438,
+    "diagnostic_leaf_cpu_seconds": 6626.125,
+    "classification": "timeout_or_nonconvergence_ineligible_for_production"
+  },
+  "repair": {
+    "solver": "L-BFGS-B",
+    "cooperative_deadline_seconds": 30.0,
+    "hard_process_deadline_seconds": 30.0,
+    "hard_timeout_action": "terminate_then_kill_exact_spawned_worker",
+    "postfit_audits": [
+      "finite_objective_and_parameters",
+      "kkt_residual",
+      "team_block_sum_to_zero",
+      "identifiable_gauge",
+      "full_rank_hessian"
+    ],
+    "timeout_exception": "OptimizationTimeoutError",
+    "selection_failure_policy": "eligible=false"
+  },
+  "verification": {
+    "selective_contract_tests": {
+      "passed": 11,
+      "failed": 0,
+      "pytest_seconds": 18.35,
+      "process_seconds": 19.418
+    },
+    "timeout_selection_ledger_test": {
+      "passed": 1,
+      "failed": 0,
+      "pytest_seconds": 3.25
+    },
+    "ruff": "passed"
+  },
+  "frozen_model_policy": {
+    "rc0_tag": "rc0-pre2014",
+    "rc0_evidence_commit": "fd9186e3277efb5ab8125c6c8348dc1b337f3ef7",
+    "solver_change_requires_prediction_and_model_hash_comparison": true,
+    "silent_reuse_of_old_model_identity": false
+  }
+}

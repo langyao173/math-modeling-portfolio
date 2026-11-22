@@ -1,0 +1,40 @@
+{
+  "status": "advanced_research_evidence_published",
+  "stage_order": [
+    "nested",
+    "evaluate",
+    "stress",
+    "ablation",
+    "parameter",
+    "simulate",
+    "decompose"
+  ],
+  "all_stage_checkpoints_verified": true,
+  "promotion": {
+    "decision": "promote_to_one_time_audit",
+    "system_promoted": true,
+    "evidence_bundle_sha256": "7679fab637da7dd890df8a3c0284fcee02ad20bbe3245a01dd429b7798b2f03c",
+    "final_fit_hash": "10238a4c6d368e50acb9ac28e4523dbd1b4f1b64710667ba0e8eb511b8774f53"
+  },
+  "audit": {
+    "status": "one_time_2014_audit_complete",
+    "match_count": 64,
+    "models_compared": [
+      "advanced_raw",
+      "advanced_calibrated",
+      "official_outcome_logit",
+      "independent_mirrored_poisson",
+      "legacy_mirrored_dixon_coles",
+      "advanced_cost_sensitive_decision"
+    ],
+    "target_reads": 1,
+    "selection_reopened": false,
+    "cached_repeats_only": true
+  },
+  "source_file_count": 130,
+  "source_tree_sha256": "e6b4653b805514973ec501d623ad2788ce879e56b595fee18781e1c06ccae7fb",
+  "copied_tree_sha256": "e6b4653b805514973ec501d623ad2788ce879e56b595fee18781e1c06ccae7fb",
+  "copy_verified_byte_for_byte": true,
+  "selected_model": "advanced_nested_calibrated",
+  "claim_boundary": "single_frozen_2014_audit_not_external_validation_or_2026_performance_claim"
+}

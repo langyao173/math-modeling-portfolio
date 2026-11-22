@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "check": "static_history_cutoff_before_prediction_year",
+      "rows_checked": 836,
+      "features_checked": 4,
+      "violations": 0
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "feature_schema": [
+    "canonical_stage",
+    "half_time_total_goals",
+    "attendance"
+  ],
+  "feature_schema_hash": "9da8699c3e4739d0abf46c9e8df84851e045ff6207ed8796dc37efb9ce049b37",
+  "random_seed": 1729,
+  "split_rule": "train Year <= 2010; test Year == 2014",
+  "training_rows": 772,
+  "test_rows": 64
+}

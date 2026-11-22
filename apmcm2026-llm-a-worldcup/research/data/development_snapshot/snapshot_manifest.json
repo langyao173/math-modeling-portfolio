@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "snapshot_role": "formal_advanced_development_inputs_through_2010",
+  "cutoff_year": 2010,
+  "audit_year": 2014,
+  "development_rows": 772,
+  "feature_schema_hash": "f5db6b9a447b6300bf466673cda9fa4e0265bc13c1ab2c81d44a0e63b3fdb9cc",
+  "development_frame_hash": "23eba94cf43c6773cad691e66704022442683169311b7c9b5a09ca9817216451",
+  "source_raw_hashes": {
+    "matches": "cb4e68bb7e080a84a82175151a2c1ce5ef4ef43fcb5111a3cf6c53f69bc92363",
+    "players": "753a68af0cd4fa38b67c7883c138700dfb37544f1ed898b1d176a03f92748d67",
+    "tournaments": "a66240afe2ce2d7df5b701eebf012052193b90f33e003c9874cd3df85941003e"
+  },
+  "artifacts": [
+    {
+      "path": "development_features.joblib",
+      "bytes": 114287,
+      "sha256": "eced7b6029e1ccc15bfe54de3b7e1841d07d9b0c658627a4dec4f711e5e725f5"
+    },
+    {
+      "path": "tournaments_through_2010.csv",
+      "bytes": 1774,
+      "sha256": "5aaf6b0a60157149e72e9421d37bd8e7f74da8f8b83998ebaaa4c4819ab849ec"
+    }
+  ],
+  "audit_outcomes_used": false,
+  "physical_raw_no_read_claim": false,
+  "formal_preaudit_reads_combined_raw": false,
+  "origin_disclosure": "Bootstrap was derived once from the combined supplied tables after prior human and legacy-code access; it creates a prospective software boundary but cannot restore researcher blinding or prove historical byte-level non-access."
+}

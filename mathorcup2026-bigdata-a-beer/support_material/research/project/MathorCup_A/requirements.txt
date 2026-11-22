@@ -1,0 +1,13 @@
+# MathorCup 2026 A: executed analysis and supplied inference models.
+
+# Tested interpreter: CPython 3.12.14, Linux x86_64.
+# These are the observed direct dependency versions, not claims of latest versions.
+# Keep versions aligned when loading the supplied scikit-learn/joblib models.
+numpy==2.3.5
+pandas==2.2.3
+scipy==1.17.0
+scikit-learn==1.8.0
+joblib==1.5.3
+openpyxl==3.1.5
+matplotlib==3.10.8
+threadpoolctl==3.6.0

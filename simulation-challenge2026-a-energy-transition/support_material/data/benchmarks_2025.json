@@ -1,0 +1,24 @@
+{
+  "year": 2025,
+  "role": "Additional validation only; separate from 2010-2024 yearbook training vintage",
+  "energy_total_mtce": 6170.0,
+  "coal_share": 0.514,
+  "clean_energy_share": 0.304,
+  "total_capacity_gw": 3891.34,
+  "thermal_capacity_gw": 1539.04,
+  "hydro_capacity_gw": 448.02,
+  "nuclear_capacity_gw": 62.48,
+  "wind_capacity_gw": 640.01,
+  "solar_capacity_gw": 1201.73,
+  "electricity_consumption_twh": 10368.2,
+  "oil_share": 0.182,
+  "gas_share": 0.087,
+  "nonfossil_share": 0.217,
+  "energy_co2_mt": null,
+  "source_ids": [
+    "nbs_communique_2025",
+    "nbs_energy_mix_2025_supplement",
+    "nea_electricity_2025"
+  ],
+  "scope": "Energy mix supplement published June 2026; GCB observed 2025 fuel-related CO2 not available in preserved snapshot; no carbon-intensity validation for 2025"
+}

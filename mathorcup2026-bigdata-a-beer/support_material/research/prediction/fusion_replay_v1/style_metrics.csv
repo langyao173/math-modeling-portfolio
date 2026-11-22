@@ -1,0 +1,463 @@
+method,targets,style,n,nmse
+raw231_y16_no_residual,all50,Amber,12,0.7437111535527363
+raw231_y16_no_residual,all50,Blond,31,0.5962562038732847
+raw231_y16_no_residual,all50,Brett/cofermented,6,0.6538762965599809
+raw231_y16_no_residual,all50,Brown,12,0.4531080173946816
+raw231_y16_no_residual,all50,Brut,4,1.6432199264356582
+raw231_y16_no_residual,all50,Christmas,9,1.1010904644506707
+raw231_y16_no_residual,all50,Dubbel,10,0.48165404617960905
+raw231_y16_no_residual,all50,Faro,3,0.7675102672482979
+raw231_y16_no_residual,all50,Flanders old brown,5,0.7003853085921603
+raw231_y16_no_residual,all50,Fruitbeer,8,0.8509856223469205
+raw231_y16_no_residual,all50,Hoppy,17,0.8077932667754313
+raw231_y16_no_residual,all50,Kriek,10,0.6985650680376384
+raw231_y16_no_residual,all50,Lambic,11,0.5760918786075164
+raw231_y16_no_residual,all50,Low/No alcohol,8,0.7793182815630801
+raw231_y16_no_residual,all50,Pils/Lager,11,0.41044889906894244
+raw231_y16_no_residual,all50,Saison,10,0.9525670703521146
+raw231_y16_no_residual,all50,Scotch,5,0.8025351954073204
+raw231_y16_no_residual,all50,Stout/Porter,13,0.7915266254296253
+raw231_y16_no_residual,all50,Strong ale,18,0.8445179388529785
+raw231_y16_no_residual,all50,Tripel,28,0.7535729256783908
+raw231_y16_no_residual,all50,West Flanders ale,7,0.6829638051177849
+raw231_y16_no_residual,all50,Wheat,12,0.5534561035582208
+raw231_y16_no_residual,core30,Amber,12,0.7615534970888305
+raw231_y16_no_residual,core30,Blond,31,0.6472171876458869
+raw231_y16_no_residual,core30,Brett/cofermented,6,0.7895174822667849
+raw231_y16_no_residual,core30,Brown,12,0.5008696495052483
+raw231_y16_no_residual,core30,Brut,4,1.857709332683291
+raw231_y16_no_residual,core30,Christmas,9,1.053278464987312
+raw231_y16_no_residual,core30,Dubbel,10,0.49807093036222533
+raw231_y16_no_residual,core30,Faro,3,0.5700880002383569
+raw231_y16_no_residual,core30,Flanders old brown,5,0.6257337389668737
+raw231_y16_no_residual,core30,Fruitbeer,8,1.035528142884698
+raw231_y16_no_residual,core30,Hoppy,17,1.0692715404380313
+raw231_y16_no_residual,core30,Kriek,10,0.745054867311098
+raw231_y16_no_residual,core30,Lambic,11,0.4915717623995721
+raw231_y16_no_residual,core30,Low/No alcohol,8,0.6691134524961334
+raw231_y16_no_residual,core30,Pils/Lager,11,0.2873751895568937
+raw231_y16_no_residual,core30,Saison,10,1.0384714249139777
+raw231_y16_no_residual,core30,Scotch,5,0.9875791399420392
+raw231_y16_no_residual,core30,Stout/Porter,13,0.9497293487811658
+raw231_y16_no_residual,core30,Strong ale,18,1.0351487466726232
+raw231_y16_no_residual,core30,Tripel,28,0.7478826775209041
+raw231_y16_no_residual,core30,West Flanders ale,7,0.5265035895145119
+raw231_y16_no_residual,core30,Wheat,12,0.3220513885340237
+raw231_y16_no_residual,other20,Amber,12,0.7169476382485953
+raw231_y16_no_residual,other20,Blond,31,0.5198147282143815
+raw231_y16_no_residual,other20,Brett/cofermented,6,0.45041451799977483
+raw231_y16_no_residual,other20,Brown,12,0.3814655692288317
+raw231_y16_no_residual,other20,Brut,4,1.3214858170642092
+raw231_y16_no_residual,other20,Christmas,9,1.172808463645709
+raw231_y16_no_residual,other20,Dubbel,10,0.45702871990568483
+raw231_y16_no_residual,other20,Faro,3,1.0636436677632088
+raw231_y16_no_residual,other20,Flanders old brown,5,0.8123626630300903
+raw231_y16_no_residual,other20,Fruitbeer,8,0.5741718415402545
+raw231_y16_no_residual,other20,Hoppy,17,0.41557585628153154
+raw231_y16_no_residual,other20,Kriek,10,0.6288303691274489
+raw231_y16_no_residual,other20,Lambic,11,0.702872052919433
+raw231_y16_no_residual,other20,Low/No alcohol,8,0.9446255251635
+raw231_y16_no_residual,other20,Pils/Lager,11,0.5950594633370158
+raw231_y16_no_residual,other20,Saison,10,0.8237105385093204
+raw231_y16_no_residual,other20,Scotch,5,0.5249692786052422
+raw231_y16_no_residual,other20,Stout/Porter,13,0.5542225404023143
+raw231_y16_no_residual,other20,Strong ale,18,0.5585717271235111
+raw231_y16_no_residual,other20,Tripel,28,0.7621082979146208
+raw231_y16_no_residual,other20,West Flanders ale,7,0.9176541285226942
+raw231_y16_no_residual,other20,Wheat,12,0.9005631760945165
+raw231_y50_native,all50,Amber,12,0.7330175207001141
+raw231_y50_native,all50,Blond,31,0.5991801780844174
+raw231_y50_native,all50,Brett/cofermented,6,0.6703888997226555
+raw231_y50_native,all50,Brown,12,0.44010613232210377
+raw231_y50_native,all50,Brut,4,1.546842783429236
+raw231_y50_native,all50,Christmas,9,1.032529342082055
+raw231_y50_native,all50,Dubbel,10,0.4714002936355123
+raw231_y50_native,all50,Faro,3,0.7305188035135566
+raw231_y50_native,all50,Flanders old brown,5,0.6780934573637808
+raw231_y50_native,all50,Fruitbeer,8,0.9296816633372784
+raw231_y50_native,all50,Hoppy,17,0.8141220922435682
+raw231_y50_native,all50,Kriek,10,0.727005502758062
+raw231_y50_native,all50,Lambic,11,0.5501102736011851
+raw231_y50_native,all50,Low/No alcohol,8,0.6942378103127613
+raw231_y50_native,all50,Pils/Lager,11,0.4046601093998199
+raw231_y50_native,all50,Saison,10,0.941822434773095
+raw231_y50_native,all50,Scotch,5,0.8094776112911655
+raw231_y50_native,all50,Stout/Porter,13,0.7798841974277636
+raw231_y50_native,all50,Strong ale,18,0.8426580378376249
+raw231_y50_native,all50,Tripel,28,0.7678203534244429
+raw231_y50_native,all50,West Flanders ale,7,0.6125745980535608
+raw231_y50_native,all50,Wheat,12,0.5675481340470603
+raw231_y50_native,core30,Amber,12,0.7523176213981375
+raw231_y50_native,core30,Blond,31,0.6535704261145177
+raw231_y50_native,core30,Brett/cofermented,6,0.7763607511615527
+raw231_y50_native,core30,Brown,12,0.5020786482061462
+raw231_y50_native,core30,Brut,4,1.750681670514062
+raw231_y50_native,core30,Christmas,9,1.029942524116513
+raw231_y50_native,core30,Dubbel,10,0.5033196298427113
+raw231_y50_native,core30,Faro,3,0.5631003290811164
+raw231_y50_native,core30,Flanders old brown,5,0.5944054853638288
+raw231_y50_native,core30,Fruitbeer,8,1.132329275845078
+raw231_y50_native,core30,Hoppy,17,1.067192186243012
+raw231_y50_native,core30,Kriek,10,0.8210809489856782
+raw231_y50_native,core30,Lambic,11,0.48975486810379704
+raw231_y50_native,core30,Low/No alcohol,8,0.6504054928412131
+raw231_y50_native,core30,Pils/Lager,11,0.2759447571368737
+raw231_y50_native,core30,Saison,10,1.053184323037206
+raw231_y50_native,core30,Scotch,5,1.0117997833395285
+raw231_y50_native,core30,Stout/Porter,13,0.9330709144469219
+raw231_y50_native,core30,Strong ale,18,1.0784105464622447
+raw231_y50_native,core30,Tripel,28,0.7773907372182626
+raw231_y50_native,core30,West Flanders ale,7,0.4654199401168012
+raw231_y50_native,core30,Wheat,12,0.3087830668343302
+raw231_y50_native,other20,Amber,12,0.7040673696530793
+raw231_y50_native,other20,Blond,31,0.517594806039267
+raw231_y50_native,other20,Brett/cofermented,6,0.51143112256431
+raw231_y50_native,other20,Brown,12,0.3471473584960399
+raw231_y50_native,other20,Brut,4,1.2410844528019969
+raw231_y50_native,other20,Christmas,9,1.0364095690303674
+raw231_y50_native,other20,Dubbel,10,0.4235212893247141
+raw231_y50_native,other20,Faro,3,0.9816465151622168
+raw231_y50_native,other20,Flanders old brown,5,0.8036254153637087
+raw231_y50_native,other20,Fruitbeer,8,0.6257102445755789
+raw231_y50_native,other20,Hoppy,17,0.4345169512444025
+raw231_y50_native,other20,Kriek,10,0.5858923334166377
+raw231_y50_native,other20,Lambic,11,0.6406433818472674
+raw231_y50_native,other20,Low/No alcohol,8,0.7599862865200839
+raw231_y50_native,other20,Pils/Lager,11,0.597733137794239
+raw231_y50_native,other20,Saison,10,0.7747796023769286
+raw231_y50_native,other20,Scotch,5,0.5059943532186213
+raw231_y50_native,other20,Stout/Porter,13,0.5501041218990259
+raw231_y50_native,other20,Strong ale,18,0.4890292749006953
+raw231_y50_native,other20,Tripel,28,0.7534647777337133
+raw231_y50_native,other20,West Flanders ale,7,0.8333065849587004
+raw231_y50_native,other20,Wheat,12,0.9556957348661553
+old_nested_ensemble,all50,Amber,12,0.7700925952945677
+old_nested_ensemble,all50,Blond,31,0.5899453554314845
+old_nested_ensemble,all50,Brett/cofermented,6,0.6939935356445026
+old_nested_ensemble,all50,Brown,12,0.44721455967870855
+old_nested_ensemble,all50,Brut,4,1.771324248767521
+old_nested_ensemble,all50,Christmas,9,1.131304415484306
+old_nested_ensemble,all50,Dubbel,10,0.44122192117217
+old_nested_ensemble,all50,Faro,3,0.7784890911621907
+old_nested_ensemble,all50,Flanders old brown,5,0.5786370729939835
+old_nested_ensemble,all50,Fruitbeer,8,0.9276818177436732
+old_nested_ensemble,all50,Hoppy,17,0.8229774432801084
+old_nested_ensemble,all50,Kriek,10,0.782654976959808
+old_nested_ensemble,all50,Lambic,11,0.6203457410142121
+old_nested_ensemble,all50,Low/No alcohol,8,0.8098636461477631
+old_nested_ensemble,all50,Pils/Lager,11,0.3950832246795796
+old_nested_ensemble,all50,Saison,10,0.9249200414430351
+old_nested_ensemble,all50,Scotch,5,0.842004637499708
+old_nested_ensemble,all50,Stout/Porter,13,0.8667964267839527
+old_nested_ensemble,all50,Strong ale,18,0.8486990482020784
+old_nested_ensemble,all50,Tripel,28,0.7777047140830137
+old_nested_ensemble,all50,West Flanders ale,7,0.6967751039371087
+old_nested_ensemble,all50,Wheat,12,0.5464836063632417
+old_nested_ensemble,core30,Amber,12,0.7842589433096128
+old_nested_ensemble,core30,Blond,31,0.6238971766727079
+old_nested_ensemble,core30,Brett/cofermented,6,0.7544449425207134
+old_nested_ensemble,core30,Brown,12,0.49172521019576293
+old_nested_ensemble,core30,Brut,4,2.0213349192228574
+old_nested_ensemble,core30,Christmas,9,1.0651054923599153
+old_nested_ensemble,core30,Dubbel,10,0.4539593689081182
+old_nested_ensemble,core30,Faro,3,0.5778357504159415
+old_nested_ensemble,core30,Flanders old brown,5,0.4994288399515581
+old_nested_ensemble,core30,Fruitbeer,8,1.1273227997168191
+old_nested_ensemble,core30,Hoppy,17,1.0836802884909582
+old_nested_ensemble,core30,Kriek,10,0.8844610536829112
+old_nested_ensemble,core30,Lambic,11,0.4847226220834297
+old_nested_ensemble,core30,Low/No alcohol,8,0.6718030335551712
+old_nested_ensemble,core30,Pils/Lager,11,0.26678982344539953
+old_nested_ensemble,core30,Saison,10,1.0141826257472573
+old_nested_ensemble,core30,Scotch,5,1.029252892990957
+old_nested_ensemble,core30,Stout/Porter,13,1.0631116961745244
+old_nested_ensemble,core30,Strong ale,18,1.0520423553550173
+old_nested_ensemble,core30,Tripel,28,0.7828180097811878
+old_nested_ensemble,core30,West Flanders ale,7,0.48508140552321927
+old_nested_ensemble,core30,Wheat,12,0.31414754563196934
+old_nested_ensemble,other20,Amber,12,0.7488430732720005
+old_nested_ensemble,other20,Blond,31,0.5390176235696493
+old_nested_ensemble,other20,Brett/cofermented,6,0.6033164253301865
+old_nested_ensemble,other20,Brown,12,0.38044858390312714
+old_nested_ensemble,other20,Brut,4,1.3963082430845166
+old_nested_ensemble,other20,Christmas,9,1.2306028001708926
+old_nested_ensemble,other20,Dubbel,10,0.42211574956824793
+old_nested_ensemble,other20,Faro,3,1.0794691022815646
+old_nested_ensemble,other20,Flanders old brown,5,0.6974494225576215
+old_nested_ensemble,other20,Fruitbeer,8,0.6282203447839543
+old_nested_ensemble,other20,Hoppy,17,0.4319231754638338
+old_nested_ensemble,other20,Kriek,10,0.6299458618751539
+old_nested_ensemble,other20,Lambic,11,0.8237804194103859
+old_nested_ensemble,other20,Low/No alcohol,8,1.0169545650366512
+old_nested_ensemble,other20,Pils/Lager,11,0.5875233265308498
+old_nested_ensemble,other20,Saison,10,0.7910261649867019
+old_nested_ensemble,other20,Scotch,5,0.5611322542628349
+old_nested_ensemble,other20,Stout/Porter,13,0.5723235226980952
+old_nested_ensemble,other20,Strong ale,18,0.5436840874726705
+old_nested_ensemble,other20,Tripel,28,0.7700347705357524
+old_nested_ensemble,other20,West Flanders ale,7,1.0143156515579426
+old_nested_ensemble,other20,Wheat,12,0.8949876974601502
+tabicl_nested_selection,all50,Amber,12,0.7238394226732201
+tabicl_nested_selection,all50,Blond,31,0.5998465416488479
+tabicl_nested_selection,all50,Brett/cofermented,6,0.674471056010831
+tabicl_nested_selection,all50,Brown,12,0.4419978349872591
+tabicl_nested_selection,all50,Brut,4,1.5643275470581879
+tabicl_nested_selection,all50,Christmas,9,1.070697744181416
+tabicl_nested_selection,all50,Dubbel,10,0.47722989326327614
+tabicl_nested_selection,all50,Faro,3,0.7491120284823322
+tabicl_nested_selection,all50,Flanders old brown,5,0.7000353379121899
+tabicl_nested_selection,all50,Fruitbeer,8,0.8995959802411151
+tabicl_nested_selection,all50,Hoppy,17,0.8170764594910808
+tabicl_nested_selection,all50,Kriek,10,0.6993973701869229
+tabicl_nested_selection,all50,Lambic,11,0.5717500570732337
+tabicl_nested_selection,all50,Low/No alcohol,8,0.7832140369991996
+tabicl_nested_selection,all50,Pils/Lager,11,0.40112499433875076
+tabicl_nested_selection,all50,Saison,10,0.9751029400487573
+tabicl_nested_selection,all50,Scotch,5,0.8047171158309575
+tabicl_nested_selection,all50,Stout/Porter,13,0.7965377568999547
+tabicl_nested_selection,all50,Strong ale,18,0.8493325905518209
+tabicl_nested_selection,all50,Tripel,28,0.7570332991377958
+tabicl_nested_selection,all50,West Flanders ale,7,0.6479505294524405
+tabicl_nested_selection,all50,Wheat,12,0.5619426945679659
+tabicl_nested_selection,core30,Amber,12,0.720463223081179
+tabicl_nested_selection,core30,Blond,31,0.6541274526480627
+tabicl_nested_selection,core30,Brett/cofermented,6,0.7987256908078993
+tabicl_nested_selection,core30,Brown,12,0.49767715588108646
+tabicl_nested_selection,core30,Brut,4,1.7769920201044802
+tabicl_nested_selection,core30,Christmas,9,1.0145375331074504
+tabicl_nested_selection,core30,Dubbel,10,0.4987578284537949
+tabicl_nested_selection,core30,Faro,3,0.5563654396410617
+tabicl_nested_selection,core30,Flanders old brown,5,0.6196476802907938
+tabicl_nested_selection,core30,Fruitbeer,8,1.103445985045432
+tabicl_nested_selection,core30,Hoppy,17,1.0720312400620733
+tabicl_nested_selection,core30,Kriek,10,0.7708765259683594
+tabicl_nested_selection,core30,Lambic,11,0.48427623576151646
+tabicl_nested_selection,core30,Low/No alcohol,8,0.681635000670689
+tabicl_nested_selection,core30,Pils/Lager,11,0.28471041389043505
+tabicl_nested_selection,core30,Saison,10,1.0740769890032356
+tabicl_nested_selection,core30,Scotch,5,0.9954674959109271
+tabicl_nested_selection,core30,Stout/Porter,13,0.962645946714196
+tabicl_nested_selection,core30,Strong ale,18,1.0683565459161466
+tabicl_nested_selection,core30,Tripel,28,0.7619847419188824
+tabicl_nested_selection,core30,West Flanders ale,7,0.5045839653369188
+tabicl_nested_selection,core30,Wheat,12,0.32025872717285137
+tabicl_nested_selection,other20,Amber,12,0.7289037220612815
+tabicl_nested_selection,other20,Blond,31,0.5184251751500257
+tabicl_nested_selection,other20,Brett/cofermented,6,0.48808910381522824
+tabicl_nested_selection,other20,Brown,12,0.35847885364651805
+tabicl_nested_selection,other20,Brut,4,1.2453308374887495
+tabicl_nested_selection,other20,Christmas,9,1.1549380607923645
+tabicl_nested_selection,other20,Dubbel,10,0.44493799047749816
+tabicl_nested_selection,other20,Faro,3,1.0382319117442373
+tabicl_nested_selection,other20,Flanders old brown,5,0.8206168243442843
+tabicl_nested_selection,other20,Fruitbeer,8,0.5938209730346403
+tabicl_nested_selection,other20,Hoppy,17,0.43464428863459187
+tabicl_nested_selection,other20,Kriek,10,0.5921786365147679
+tabicl_nested_selection,other20,Lambic,11,0.7029607890408096
+tabicl_nested_selection,other20,Low/No alcohol,8,0.9355825914919654
+tabicl_nested_selection,other20,Pils/Lager,11,0.5757468650112244
+tabicl_nested_selection,other20,Saison,10,0.8266418666170395
+tabicl_nested_selection,other20,Scotch,5,0.5185915457110033
+tabicl_nested_selection,other20,Stout/Porter,13,0.5473754721785927
+tabicl_nested_selection,other20,Strong ale,18,0.5207966575053322
+tabicl_nested_selection,other20,Tripel,28,0.7496061349661657
+tabicl_nested_selection,other20,West Flanders ale,7,0.8630003756257228
+tabicl_nested_selection,other20,Wheat,12,0.9244686456606376
+fixed_half_y16_native50,all50,Amber,12,0.7256223144202962
+fixed_half_y16_native50,all50,Blond,31,0.584632617618989
+fixed_half_y16_native50,all50,Brett/cofermented,6,0.6423409821819697
+fixed_half_y16_native50,all50,Brown,12,0.43442088347221114
+fixed_half_y16_native50,all50,Brut,4,1.5713237510861162
+fixed_half_y16_native50,all50,Christmas,9,1.047681061399694
+fixed_half_y16_native50,all50,Dubbel,10,0.4640309248217453
+fixed_half_y16_native50,all50,Faro,3,0.7331641642940303
+fixed_half_y16_native50,all50,Flanders old brown,5,0.674882031040816
+fixed_half_y16_native50,all50,Fruitbeer,8,0.8662209853881293
+fixed_half_y16_native50,all50,Hoppy,17,0.79534111622355
+fixed_half_y16_native50,all50,Kriek,10,0.6977257898287395
+fixed_half_y16_native50,all50,Lambic,11,0.5480014222659313
+fixed_half_y16_native50,all50,Low/No alcohol,8,0.7173524362408515
+fixed_half_y16_native50,all50,Pils/Lager,11,0.39760119965293494
+fixed_half_y16_native50,all50,Saison,10,0.9327213080411927
+fixed_half_y16_native50,all50,Scotch,5,0.7905974300509772
+fixed_half_y16_native50,all50,Stout/Porter,13,0.7634034404249628
+fixed_half_y16_native50,all50,Strong ale,18,0.8263786534663577
+fixed_half_y16_native50,all50,Tripel,28,0.747526608139749
+fixed_half_y16_native50,all50,West Flanders ale,7,0.6315433650168558
+fixed_half_y16_native50,all50,Wheat,12,0.5453037857671981
+fixed_half_y16_native50,core30,Amber,12,0.7441481208098523
+fixed_half_y16_native50,core30,Blond,31,0.6385208091472984
+fixed_half_y16_native50,core30,Brett/cofermented,6,0.7608167683543681
+fixed_half_y16_native50,core30,Brown,12,0.49058645328816863
+fixed_half_y16_native50,core30,Brut,4,1.7851333026579994
+fixed_half_y16_native50,core30,Christmas,9,1.0242290349701837
+fixed_half_y16_native50,core30,Dubbel,10,0.4889414244429057
+fixed_half_y16_native50,core30,Faro,3,0.5543055059432299
+fixed_half_y16_native50,core30,Flanders old brown,5,0.5962033524487347
+fixed_half_y16_native50,core30,Fruitbeer,8,1.0605705887990573
+fixed_half_y16_native50,core30,Hoppy,17,1.05057551957937
+fixed_half_y16_native50,core30,Kriek,10,0.769574382251537
+fixed_half_y16_native50,core30,Lambic,11,0.4772474532733964
+fixed_half_y16_native50,core30,Low/No alcohol,8,0.6444850863345342
+fixed_half_y16_native50,core30,Pils/Lager,11,0.27380631413816015
+fixed_half_y16_native50,core30,Saison,10,1.0310375098237607
+fixed_half_y16_native50,core30,Scotch,5,0.9833089123432223
+fixed_half_y16_native50,core30,Stout/Porter,13,0.9168417429840454
+fixed_half_y16_native50,core30,Strong ale,18,1.0412221120803014
+fixed_half_y16_native50,core30,Tripel,28,0.7500872151727149
+fixed_half_y16_native50,core30,West Flanders ale,7,0.48219719534365907
+fixed_half_y16_native50,core30,Wheat,12,0.30518572699785945
+fixed_half_y16_native50,other20,Amber,12,0.697833604835962
+fixed_half_y16_native50,other20,Blond,31,0.5038003303265247
+fixed_half_y16_native50,other20,Brett/cofermented,6,0.46462730292337207
+fixed_half_y16_native50,other20,Brown,12,0.35017252874827487
+fixed_half_y16_native50,other20,Brut,4,1.2506094237282919
+fixed_half_y16_native50,other20,Christmas,9,1.0828591010439599
+fixed_half_y16_native50,other20,Dubbel,10,0.42666517539000465
+fixed_half_y16_native50,other20,Faro,3,1.001452151820231
+fixed_half_y16_native50,other20,Flanders old brown,5,0.7929000489289382
+fixed_half_y16_native50,other20,Fruitbeer,8,0.5746965802717376
+fixed_half_y16_native50,other20,Hoppy,17,0.41248951118981964
+fixed_half_y16_native50,other20,Kriek,10,0.5899529011945431
+fixed_half_y16_native50,other20,Lambic,11,0.6541323757547338
+fixed_half_y16_native50,other20,Low/No alcohol,8,0.8266534611003277
+fixed_half_y16_native50,other20,Pils/Lager,11,0.5832935279250971
+fixed_half_y16_native50,other20,Saison,10,0.7852470053673403
+fixed_half_y16_native50,other20,Scotch,5,0.5015302066126095
+fixed_half_y16_native50,other20,Stout/Porter,13,0.5332459865863389
+fixed_half_y16_native50,other20,Strong ale,18,0.5041134655454425
+fixed_half_y16_native50,other20,Tripel,28,0.7436856975903
+fixed_half_y16_native50,other20,West Flanders ale,7,0.8555626195266514
+fixed_half_y16_native50,other20,Wheat,12,0.9054808739212057
+inner_core_scalar_y16_native50,all50,Amber,12,0.7244578083050863
+inner_core_scalar_y16_native50,all50,Blond,31,0.584887771848035
+inner_core_scalar_y16_native50,all50,Brett/cofermented,6,0.646680802100784
+inner_core_scalar_y16_native50,all50,Brown,12,0.43385939227358195
+inner_core_scalar_y16_native50,all50,Brut,4,1.5690031702630407
+inner_core_scalar_y16_native50,all50,Christmas,9,1.0510567326454254
+inner_core_scalar_y16_native50,all50,Dubbel,10,0.46466552371297953
+inner_core_scalar_y16_native50,all50,Faro,3,0.7350960159634515
+inner_core_scalar_y16_native50,all50,Flanders old brown,5,0.6748359130081456
+inner_core_scalar_y16_native50,all50,Fruitbeer,8,0.8678466154392536
+inner_core_scalar_y16_native50,all50,Hoppy,17,0.7968625898482992
+inner_core_scalar_y16_native50,all50,Kriek,10,0.6969081014531099
+inner_core_scalar_y16_native50,all50,Lambic,11,0.5485049759756264
+inner_core_scalar_y16_native50,all50,Low/No alcohol,8,0.7194439446010447
+inner_core_scalar_y16_native50,all50,Pils/Lager,11,0.3974931207756931
+inner_core_scalar_y16_native50,all50,Saison,10,0.9341035990304362
+inner_core_scalar_y16_native50,all50,Scotch,5,0.7917737897821182
+inner_core_scalar_y16_native50,all50,Stout/Porter,13,0.7652002786769702
+inner_core_scalar_y16_native50,all50,Strong ale,18,0.8291629201469884
+inner_core_scalar_y16_native50,all50,Tripel,28,0.7467557844129207
+inner_core_scalar_y16_native50,all50,West Flanders ale,7,0.6332339160692924
+inner_core_scalar_y16_native50,all50,Wheat,12,0.5444970680104128
+inner_core_scalar_y16_native50,core30,Amber,12,0.7404805724672694
+inner_core_scalar_y16_native50,core30,Blond,31,0.6389951934235699
+inner_core_scalar_y16_native50,core30,Brett/cofermented,6,0.7667112633799439
+inner_core_scalar_y16_native50,core30,Brown,12,0.49089951513774055
+inner_core_scalar_y16_native50,core30,Brut,4,1.7828279029303002
+inner_core_scalar_y16_native50,core30,Christmas,9,1.02667449866388
+inner_core_scalar_y16_native50,core30,Dubbel,10,0.4899836302700146
+inner_core_scalar_y16_native50,core30,Faro,3,0.5559439879435154
+inner_core_scalar_y16_native50,core30,Flanders old brown,5,0.5965506911397834
+inner_core_scalar_y16_native50,core30,Fruitbeer,8,1.062174535616229
+inner_core_scalar_y16_native50,core30,Hoppy,17,1.0522504172378455
+inner_core_scalar_y16_native50,core30,Kriek,10,0.7688976569748405
+inner_core_scalar_y16_native50,core30,Lambic,11,0.4771362771795976
+inner_core_scalar_y16_native50,core30,Low/No alcohol,8,0.6466575648054648
+inner_core_scalar_y16_native50,core30,Pils/Lager,11,0.2742016824577517
+inner_core_scalar_y16_native50,core30,Saison,10,1.0325107206264175
+inner_core_scalar_y16_native50,core30,Scotch,5,0.9825415308268854
+inner_core_scalar_y16_native50,core30,Stout/Porter,13,0.9200368846723719
+inner_core_scalar_y16_native50,core30,Strong ale,18,1.0449964758172379
+inner_core_scalar_y16_native50,core30,Tripel,28,0.7495524500543939
+inner_core_scalar_y16_native50,core30,West Flanders ale,7,0.48420256943682655
+inner_core_scalar_y16_native50,core30,Wheat,12,0.3065940101981531
+inner_core_scalar_y16_native50,other20,Amber,12,0.700423662061812
+inner_core_scalar_y16_native50,other20,Blond,31,0.5037266394847324
+inner_core_scalar_y16_native50,other20,Brett/cofermented,6,0.46663511018204423
+inner_core_scalar_y16_native50,other20,Brown,12,0.348299207977344
+inner_core_scalar_y16_native50,other20,Brut,4,1.2482660712621514
+inner_core_scalar_y16_native50,other20,Christmas,9,1.0876300836177435
+inner_core_scalar_y16_native50,other20,Dubbel,10,0.42668836387742687
+inner_core_scalar_y16_native50,other20,Faro,3,1.0038240579933557
+inner_core_scalar_y16_native50,other20,Flanders old brown,5,0.7922637458106889
+inner_core_scalar_y16_native50,other20,Fruitbeer,8,0.5763547351737902
+inner_core_scalar_y16_native50,other20,Hoppy,17,0.4137808487639797
+inner_core_scalar_y16_native50,other20,Kriek,10,0.5889237681705138
+inner_core_scalar_y16_native50,other20,Lambic,11,0.6555580241696698
+inner_core_scalar_y16_native50,other20,Low/No alcohol,8,0.8286235142944143
+inner_core_scalar_y16_native50,other20,Pils/Lager,11,0.5824302782526052
+inner_core_scalar_y16_native50,other20,Saison,10,0.786492916636464
+inner_core_scalar_y16_native50,other20,Scotch,5,0.5056221782149677
+inner_core_scalar_y16_native50,other20,Stout/Porter,13,0.5329453696838676
+inner_core_scalar_y16_native50,other20,Strong ale,18,0.5054125866416146
+inner_core_scalar_y16_native50,other20,Tripel,28,0.7425607859507108
+inner_core_scalar_y16_native50,other20,West Flanders ale,7,0.8567809360179913
+inner_core_scalar_y16_native50,other20,Wheat,12,0.9013516547288025
+inner_groupwise_y16_native50,all50,Amber,12,0.7238615200749708
+inner_groupwise_y16_native50,all50,Blond,31,0.5849316809949056
+inner_groupwise_y16_native50,all50,Brett/cofermented,6,0.6520136932719057
+inner_groupwise_y16_native50,all50,Brown,12,0.4326548945753213
+inner_groupwise_y16_native50,all50,Brut,4,1.567915310341597
+inner_groupwise_y16_native50,all50,Christmas,9,1.0392961867454862
+inner_groupwise_y16_native50,all50,Dubbel,10,0.4626064169850519
+inner_groupwise_y16_native50,all50,Faro,3,0.7295421990424192
+inner_groupwise_y16_native50,all50,Flanders old brown,5,0.6734346487145206
+inner_groupwise_y16_native50,all50,Fruitbeer,8,0.8726184272348858
+inner_groupwise_y16_native50,all50,Hoppy,17,0.7978487427144005
+inner_groupwise_y16_native50,all50,Kriek,10,0.695410870580853
+inner_groupwise_y16_native50,all50,Lambic,11,0.543529946856545
+inner_groupwise_y16_native50,all50,Low/No alcohol,8,0.7107129012015903
+inner_groupwise_y16_native50,all50,Pils/Lager,11,0.39940332056646244
+inner_groupwise_y16_native50,all50,Saison,10,0.930508167618372
+inner_groupwise_y16_native50,all50,Scotch,5,0.7899765461063926
+inner_groupwise_y16_native50,all50,Stout/Porter,13,0.7646217095802643
+inner_groupwise_y16_native50,all50,Strong ale,18,0.8254839466562114
+inner_groupwise_y16_native50,all50,Tripel,28,0.7465298970070499
+inner_groupwise_y16_native50,all50,West Flanders ale,7,0.6303344613817367
+inner_groupwise_y16_native50,all50,Wheat,12,0.5501299129595293
+inner_groupwise_y16_native50,core30,Amber,12,0.7404805724672694
+inner_groupwise_y16_native50,core30,Blond,31,0.6389951934235699
+inner_groupwise_y16_native50,core30,Brett/cofermented,6,0.7667112633799439
+inner_groupwise_y16_native50,core30,Brown,12,0.49089951513774055
+inner_groupwise_y16_native50,core30,Brut,4,1.7828279029303002
+inner_groupwise_y16_native50,core30,Christmas,9,1.02667449866388
+inner_groupwise_y16_native50,core30,Dubbel,10,0.4899836302700146
+inner_groupwise_y16_native50,core30,Faro,3,0.5559439879435154
+inner_groupwise_y16_native50,core30,Flanders old brown,5,0.5965506911397834
+inner_groupwise_y16_native50,core30,Fruitbeer,8,1.062174535616229
+inner_groupwise_y16_native50,core30,Hoppy,17,1.0522504172378455
+inner_groupwise_y16_native50,core30,Kriek,10,0.7688976569748405
+inner_groupwise_y16_native50,core30,Lambic,11,0.4771362771795976
+inner_groupwise_y16_native50,core30,Low/No alcohol,8,0.6466575648054648
+inner_groupwise_y16_native50,core30,Pils/Lager,11,0.2742016824577517
+inner_groupwise_y16_native50,core30,Saison,10,1.0325107206264175
+inner_groupwise_y16_native50,core30,Scotch,5,0.9825415308268854
+inner_groupwise_y16_native50,core30,Stout/Porter,13,0.9200368846723719
+inner_groupwise_y16_native50,core30,Strong ale,18,1.0449964758172379
+inner_groupwise_y16_native50,core30,Tripel,28,0.7495524500543939
+inner_groupwise_y16_native50,core30,West Flanders ale,7,0.48420256943682655
+inner_groupwise_y16_native50,core30,Wheat,12,0.3065940101981531
+inner_groupwise_y16_native50,other20,Amber,12,0.6989329414865233
+inner_groupwise_y16_native50,other20,Blond,31,0.5038364123519089
+inner_groupwise_y16_native50,other20,Brett/cofermented,6,0.47996733810984826
+inner_groupwise_y16_native50,other20,Brown,12,0.3452879637316924
+inner_groupwise_y16_native50,other20,Brut,4,1.2455464214585426
+inner_groupwise_y16_native50,other20,Christmas,9,1.0582287188678956
+inner_groupwise_y16_native50,other20,Dubbel,10,0.4215405970576079
+inner_groupwise_y16_native50,other20,Faro,3,0.9899395156907748
+inner_groupwise_y16_native50,other20,Flanders old brown,5,0.7887605850766265
+inner_groupwise_y16_native50,other20,Fruitbeer,8,0.588284264662871
+inner_groupwise_y16_native50,other20,Hoppy,17,0.41624623092923313
+inner_groupwise_y16_native50,other20,Kriek,10,0.5851806909898718
+inner_groupwise_y16_native50,other20,Lambic,11,0.643120451371966
+inner_groupwise_y16_native50,other20,Low/No alcohol,8,0.8067959057957786
+inner_groupwise_y16_native50,other20,Pils/Lager,11,0.5872057777295285
+inner_groupwise_y16_native50,other20,Saison,10,0.7775043381063037
+inner_groupwise_y16_native50,other20,Scotch,5,0.5011290690256535
+inner_groupwise_y16_native50,other20,Stout/Porter,13,0.5314989469421033
+inner_groupwise_y16_native50,other20,Strong ale,18,0.49621515291467194
+inner_groupwise_y16_native50,other20,Tripel,28,0.7419960674360339
+inner_groupwise_y16_native50,other20,West Flanders ale,7,0.8495322992991019
+inner_groupwise_y16_native50,other20,Wheat,12,0.9154337671015937

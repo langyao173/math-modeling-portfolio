@@ -1,0 +1,66 @@
+[
+  {
+    "name": "tracka_struct_001",
+    "track": "track_a",
+    "family": "cnot_ladder_phase",
+    "backend_size_class": "medium",
+    "backend_snapshot_id": "medium_snapshot_a",
+    "logical_qubits": 6
+  },
+  {
+    "name": "tracka_struct_002",
+    "track": "track_a",
+    "family": "cnot_ladder_phase",
+    "backend_size_class": "medium",
+    "backend_snapshot_id": "medium_snapshot_a",
+    "logical_qubits": 7
+  },
+  {
+    "name": "tracka_struct_003",
+    "track": "track_a",
+    "family": "toffoli_carry_chain",
+    "backend_size_class": "medium",
+    "backend_snapshot_id": "medium_snapshot_a",
+    "logical_qubits": 6
+  },
+  {
+    "name": "tracka_struct_004",
+    "track": "track_a",
+    "family": "toffoli_carry_chain",
+    "backend_size_class": "medium",
+    "backend_snapshot_id": "medium_snapshot_a",
+    "logical_qubits": 7
+  },
+  {
+    "name": "tracka_struct_005",
+    "track": "track_a",
+    "family": "structured_random_phase",
+    "backend_size_class": "medium",
+    "backend_snapshot_id": "medium_snapshot_a",
+    "logical_qubits": 6
+  },
+  {
+    "name": "tracka_struct_006",
+    "track": "track_a",
+    "family": "structured_random_phase",
+    "backend_size_class": "medium",
+    "backend_snapshot_id": "medium_snapshot_a",
+    "logical_qubits": 7
+  },
+  {
+    "name": "tracka_struct_007",
+    "track": "track_a",
+    "family": "routing_pressure_random",
+    "backend_size_class": "medium",
+    "backend_snapshot_id": "medium_snapshot_a",
+    "logical_qubits": 6
+  },
+  {
+    "name": "tracka_struct_008",
+    "track": "track_a",
+    "family": "routing_pressure_random",
+    "backend_size_class": "medium",
+    "backend_snapshot_id": "medium_snapshot_a",
+    "logical_qubits": 7
+  }
+]

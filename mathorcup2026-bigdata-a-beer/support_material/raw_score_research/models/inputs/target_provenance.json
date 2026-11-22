@@ -1,0 +1,178 @@
+{
+  "input_files": {
+    "work/contest_data_roles/official/1.csv": "419849227a02e0c792cd405e6865035b7f58af1a92efa362dbb68a7ca2882f69",
+    "work/contest_data_roles/official/4.csv": "43a7b38682ed81ce64d97ebc1874c09dffac023ade4877f34e3c83ef7d42dc1c",
+    "work/raw_sensory_check/Raw sensory data anonymized.csv": "78525c8cbbbd498578c451b06641969a20ada87d0fe4c67fe1e634ad34569628",
+    "work/raw_score_research/identity/raw_to_competition_mapping.csv": "b11b58d3a6a29407624b4567c1aa8cedd2a03228f4efafd894c98a99e8c823c5",
+    "work/raw_score_research/identity/identity_result.json": "ac70254bcf265b8bc88e403651ec7bac75f059e85c3f70cf08f72b551360e4ab"
+  },
+  "frozen_cache_files": {
+    "work/raw_score_research/baseline/A题_理论与实验深化_20261025/research/prediction/fusion_replay_v1/outer_predictions.npz": "5ded646e830a9c059396493a5fd42c2e7878ac5e4fd0a08ef910c70db985ffef",
+    "work/raw_score_research/baseline/A题_理论与实验深化_20261025/research/checkpoint/unpacked/nested_selection/outer_0/inner_oof.npz": "415e5f92ee1f622a3c86c477b08905008a7a4f681e0c8f9f2f46353d58eabecf",
+    "work/raw_score_research/baseline/A题_理论与实验深化_20261025/research/checkpoint/unpacked/nested_selection/outer_0/inner_0/raw231_y16_complete.npz": "617310377533e206adc2d9111cadb55dd815aae4d7297944c52e0dd45b3a1a4b",
+    "work/raw_score_research/baseline/A题_理论与实验深化_20261025/research/checkpoint/unpacked/nested_selection/outer_0/inner_1/raw231_y16_complete.npz": "a4ec8357151b775b4db26205946b89f4cb6df1bd9d0165f7a1c3cc6507857882",
+    "work/raw_score_research/baseline/A题_理论与实验深化_20261025/research/checkpoint/unpacked/nested_selection/outer_0/inner_2/raw231_y16_complete.npz": "8e65dd1eb7b9decd4ae1d5eb3a8ee6d6149ac138e038b87f8b9662ae4fb89336",
+    "work/raw_score_research/baseline/A题_理论与实验深化_20261025/research/checkpoint/unpacked/nested_selection/outer_1/inner_oof.npz": "02d7e217044865779ce37270d02e82b98011325db1019a2f57cf56567cd2dbd3",
+    "work/raw_score_research/baseline/A题_理论与实验深化_20261025/research/checkpoint/unpacked/nested_selection/outer_1/inner_0/raw231_y16_complete.npz": "fc9e96b9abc19128c54cf8676962050ad7e0ed798ff2b79a1c883d101351f166",
+    "work/raw_score_research/baseline/A题_理论与实验深化_20261025/research/checkpoint/unpacked/nested_selection/outer_1/inner_1/raw231_y16_complete.npz": "ff2a5607a5842e817897d66bd41400a2175f4e104149c6b6a61c2e1731ad8961",
+    "work/raw_score_research/baseline/A题_理论与实验深化_20261025/research/checkpoint/unpacked/nested_selection/outer_1/inner_2/raw231_y16_complete.npz": "71af3e61b0d7884da954fe477b3c107f770f89a2b07401edca7c6afe3e36f6dd",
+    "work/raw_score_research/baseline/A题_理论与实验深化_20261025/research/checkpoint/unpacked/nested_selection/outer_2/inner_oof.npz": "7e79ad287e991f01b3b0053dfd38b4f13251b6d3d7e6b964fd047d93d44f2112",
+    "work/raw_score_research/baseline/A题_理论与实验深化_20261025/research/checkpoint/unpacked/nested_selection/outer_2/inner_0/raw231_y16_complete.npz": "8205551ed7d7cfafcc636841eb85f38017c247b991ff61819b93614c1b93d2f4",
+    "work/raw_score_research/baseline/A题_理论与实验深化_20261025/research/checkpoint/unpacked/nested_selection/outer_2/inner_1/raw231_y16_complete.npz": "07e7f31e257ea4d8e5d1ed69573e8f89b24dd672bd6540b5c0a0fa49afb49677",
+    "work/raw_score_research/baseline/A题_理论与实验深化_20261025/research/checkpoint/unpacked/nested_selection/outer_2/inner_2/raw231_y16_complete.npz": "7533bd939f795e1843fa7a65f29efdf0b5bca3ba975bc192f01964fbc9408083",
+    "work/raw_score_research/baseline/A题_理论与实验深化_20261025/research/checkpoint/unpacked/nested_selection/outer_3/inner_oof.npz": "7916f532480a24e73fdd620a6de83857cb1e8074e62e1320179f7518851837a7",
+    "work/raw_score_research/baseline/A题_理论与实验深化_20261025/research/checkpoint/unpacked/nested_selection/outer_3/inner_0/raw231_y16_complete.npz": "b071dc3c23405908e71f24b7bfd55c538f6591c82a03d0dc892d8759b17b9fc9",
+    "work/raw_score_research/baseline/A题_理论与实验深化_20261025/research/checkpoint/unpacked/nested_selection/outer_3/inner_1/raw231_y16_complete.npz": "10278a255901847b9fe3e28b0711828418fed2e1c57ceaab32bf122c72be99f3",
+    "work/raw_score_research/baseline/A题_理论与实验深化_20261025/research/checkpoint/unpacked/nested_selection/outer_3/inner_2/raw231_y16_complete.npz": "b3b0dad5f2feedf3b33b35f70f9d53a84e1a452b6d5948cc4bdd42e205398256",
+    "work/raw_score_research/baseline/A题_理论与实验深化_20261025/research/checkpoint/unpacked/nested_selection/outer_4/inner_oof.npz": "3f13450b3f2e4f26e6813168081785dafd33c0ff47a62668c321da8c8a56a8f7",
+    "work/raw_score_research/baseline/A题_理论与实验深化_20261025/research/checkpoint/unpacked/nested_selection/outer_4/inner_0/raw231_y16_complete.npz": "73eec4defab85842e1ade2c07893e7177d35c76014d9acef8d8ffbd396eadefd",
+    "work/raw_score_research/baseline/A题_理论与实验深化_20261025/research/checkpoint/unpacked/nested_selection/outer_4/inner_1/raw231_y16_complete.npz": "1350d54757cfc119a183ea66c3f1152dbb18c8031c906d78e5951c24927b17b6",
+    "work/raw_score_research/baseline/A题_理论与实验深化_20261025/research/checkpoint/unpacked/nested_selection/outer_4/inner_2/raw231_y16_complete.npz": "c099b29732e1928c5a76d48ebda9fd141f66e5e220a9562c8f03ddf789774331"
+  },
+  "identity_record": {
+    "status": "PASS",
+    "mapping_status": "fixed_structural_rule_with_repeat_anchors_and_full_numerical_reproduction",
+    "mapping_formula": "raw beer_name k -> one-based row k of published S4 -> its beer key -> official chemistry/sensory beer key",
+    "mapping_searches": 0,
+    "predictive_model_fits": 0,
+    "labels_used_to_select_pairs": false,
+    "source_declared_anonymization_codebook_available": false,
+    "author_confirmation_obtained_by_this_team": false,
+    "evidence_scope": {
+      "structural_rule_fixed_before_pair_search": true,
+      "published_repeated_beer_ids": [
+        23,
+        37,
+        75,
+        114,
+        127,
+        139,
+        185,
+        202,
+        214,
+        219,
+        224,
+        238
+      ],
+      "raw_repeated_ids": [
+        21,
+        37,
+        42,
+        49,
+        91,
+        104,
+        112,
+        130,
+        166,
+        190,
+        201,
+        206
+      ],
+      "fixed_rule_repeat_anchor_set_exact": true,
+      "whole_250_numerical_reproduction": {
+        "cells": 12500,
+        "rmse": 4.0967858513550354e-10,
+        "max_absolute_difference": 2.8338009281556642e-08,
+        "median_absolute_difference": 2.4722961178280656e-10,
+        "cells_within_1e_8": 12498,
+        "cells_within_3e_8": 12500
+      },
+      "missing_source_evidence": "Original anonymization generator and original raw-to-S4 preprocessing code are not in the public deposit."
+    },
+    "raw_only_processing": {
+      "within_taster_center": "mean per taster and sensory attribute over all raw records for this descriptive audit",
+      "within_taster_scale": "sample standard deviation, ddof=1",
+      "zero_sd_fallback": "c_j = -mean_a(mu_aj)/mean_a(sigma_aj); only raw scores enter these means",
+      "aggregation": "arithmetic mean of all included rating records within raw beer ID",
+      "predictive_use": "Recompute all learned means, SDs and fallback values using TRAIN BEERS ONLY; the full-data audit parameters must not be used as fold-fitted parameters."
+    },
+    "comparisons": {
+      "naive_drop_zero_sd": {
+        "cells": 12500,
+        "rmse": 0.02463309226547988,
+        "max_absolute_difference": 0.9929158489207424,
+        "median_absolute_difference": 2.769399709556808e-10,
+        "cells_within_1e_8": 11272,
+        "cells_within_3e_8": 11274
+      },
+      "zero_sd_fill_zero": {
+        "cells": 12500,
+        "rmse": 0.018266025271207815,
+        "max_absolute_difference": 0.16210223230979445,
+        "median_absolute_difference": 2.769399709556808e-10,
+        "cells_within_1e_8": 11272,
+        "cells_within_3e_8": 11274
+      },
+      "raw_only_pooled_zero_sd": {
+        "cells": 12500,
+        "rmse": 4.0967858513550354e-10,
+        "max_absolute_difference": 2.8338009281556642e-08,
+        "median_absolute_difference": 2.4722961178280656e-10,
+        "cells_within_1e_8": 12498,
+        "cells_within_3e_8": 12500
+      }
+    },
+    "official_public_match": {
+      "chemistry_max_absolute_difference": 8.881784197001252e-16,
+      "sensory_max_absolute_difference": 1.1102230246251565e-16,
+      "chemistry_stable_barcode_equal": true,
+      "official_sensory_barcode_warning": "Rounded scientific-notation identifiers in official 4.csv are not used as the linking key."
+    },
+    "raw_data_summary": {
+      "records": 2197,
+      "beer_objects": 250,
+      "tasters": 16,
+      "sessions": 37,
+      "score_min": 0,
+      "score_max": 6,
+      "integer_scores": true,
+      "missing_scores": 0,
+      "zero_scores": 64425,
+      "score_cells": 109850,
+      "zero_fraction": 0.5864815657715066,
+      "records_per_beer_min": 3,
+      "records_per_beer_max": 31,
+      "unique_tasters_per_beer_min": 3,
+      "unique_tasters_per_beer_max": 14
+    },
+    "input_paths": {
+      "raw": "/workspace/scratch/4e59b21920ab/work/raw_sensory_check/Raw sensory data anonymized.csv",
+      "workbook": "/workspace/scratch/4e59b21920ab/work/raw_sensory_check/Supplemental Files and Figure source files.xlsx",
+      "official_chemistry": "/workspace/scratch/4e59b21920ab/work/contest_data_roles/official/1.csv",
+      "official_sensory": "/workspace/scratch/4e59b21920ab/work/contest_data_roles/official/4.csv"
+    },
+    "input_sha256": {
+      "raw": "78525c8cbbbd498578c451b06641969a20ada87d0fe4c67fe1e634ad34569628",
+      "workbook": "e0a10635c4fbc3c62dc7e06e553cce9fad98c768ea6af5c8adc8a836098d1474",
+      "official_chemistry": "419849227a02e0c792cd405e6865035b7f58af1a92efa362dbb68a7ca2882f69",
+      "official_sensory": "43a7b38682ed81ce64d97ebc1874c09dffac023ade4877f34e3c83ef7d42dc1c"
+    },
+    "source_files_unchanged": true,
+    "script_sha256": "9076713a796f1227574e020f1e70e7304e403f532bcdcbe81ed0428489650919",
+    "outputs": {
+      "raw_to_competition_mapping.csv": "b11b58d3a6a29407624b4567c1aa8cedd2a03228f4efafd894c98a99e8c823c5",
+      "standardized_sensory_reconstruction.csv": "d12c33f4fcd244c14333eea53fa2a81c7e6b322ddad5c66daf2a15b6b3284bb6",
+      "raw_mean_scores.csv": "2797255b2d56519f68a049b46cfe279029e02794d38c64d819b70c915e844515",
+      "all_reconstruction_residuals.csv": "9ccc7bf8e40357f205e9eb47052768947b725114af150704d079312b17bfd3d3",
+      "reconstruction_conflicts.csv": "48a67edc90a7cfc4f30ed6d4d458d737897d34ea2eae3e7689c9432017ae8f75",
+      "target_reconstruction_summary.csv": "e89073a31b9aed71afee7a0f02ba218f6ca06c431207511bf0d86647b8b9395b",
+      "full_data_audit_taster_parameters.csv": "43ac882c255b07db94c5acf4bb20f6cbe4484a6e7a535d9581aa0fffd02e351b",
+      "zero_variance_taster_targets.csv": "0bb667941f2a48a4927b23eaf540b8e0899b7673d246abb5eba36a9c0fe1da53",
+      "column_aliases.csv": "cf3d70909b4223bc227e90bf00c29b2814c0106e44c6ba82ec0f812529429c14"
+    }
+  },
+  "no_identity_search": true,
+  "label_dependent_mapping": false,
+  "primary_target": "empirical distribution with observed records equally weighted within each beer",
+  "sensitivity_target": "each taster equally weighted within beer; repeats averaged within taster",
+  "evaluation_weighting": "beers equally weighted, then targets equally weighted",
+  "beers": 250,
+  "targets": 50,
+  "raw_records": 2197,
+  "original_score_range": [
+    0,
+    6
+  ],
+  "output_sha256": "0ba2cfd94ff1753c465741bed1946c4378f40418083528af1955f271638cfd45",
+  "script_sha256": "37c098c362ba278e2c159c1503f455e4f60a41b14b402ac141379cb86334cce9"
+}

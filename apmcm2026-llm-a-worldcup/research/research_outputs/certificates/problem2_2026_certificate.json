@@ -1,0 +1,53 @@
+{
+  "calibration_artifact": null,
+  "calibration_method": "none_official_ols_point_prediction",
+  "config_hash": "405d85ccdf418643de2cf0c81b277dc69845c11dd12e771eb5b4878308062614",
+  "data_cutoff": "2014-07-13",
+  "feature_schema": [
+    "canonical_stage",
+    "half_time_total_goals",
+    "attendance"
+  ],
+  "feature_schema_hash": "9da8699c3e4739d0abf46c9e8df84851e045ff6207ed8796dc37efb9ce049b37",
+  "generated_at_utc": "2026-07-18T14:36:57.175117+00:00",
+  "goal_interval_90": null,
+  "information_set": "half_time",
+  "invariant_status": {
+    "canonical_stage_known": true,
+    "format_shift_disclosed": true,
+    "nonnegative_prediction": true
+  },
+  "model_artifact": "models/problem2_match_goal_ols_2014.json",
+  "model_hash": "debcb0377ff98be406a4e29eca37630118f4c685c5e9e69f3319cb1a32f3db40",
+  "out_of_distribution_components": {
+    "numeric_range_excess": 0.0,
+    "numeric_standardized_distance": 0.1257229730989529,
+    "relative_match_count_expansion": 0.625,
+    "relative_team_count_expansion": 0.5,
+    "unseen_stage": 0.0
+  },
+  "out_of_distribution_score": 0.810204459358772,
+  "prediction": {
+    "attendance": 45000.0,
+    "half_time_total_goals": 1.0,
+    "predicted_full_time_total_goals": 2.5340885579534405,
+    "stage": "group_stage"
+  },
+  "random_seed": 1729,
+  "raw_data_hashes": {
+    "matches": "cb4e68bb7e080a84a82175151a2c1ce5ef4ef43fcb5111a3cf6c53f69bc92363",
+    "players": "753a68af0cd4fa38b67c7883c138700dfb37544f1ed898b1d176a03f92748d67",
+    "tournaments": "a66240afe2ce2d7df5b701eebf012052193b90f33e003c9874cd3df85941003e"
+  },
+  "scenario_label": "problem2_2026_group_stage_reusable_input",
+  "schema_version": 1,
+  "software_versions": {
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "python": "3.12.11",
+    "scikit_learn": "1.6.1",
+    "statsmodels": "0.14.6"
+  },
+  "uncertainty_status": "official_baseline_point_prediction_no_interval",
+  "warning": "2026 is a format-shift scenario only: 48 teams and 104 matches are metadata, not observed outcomes or fixtures."
+}

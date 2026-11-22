@@ -1,0 +1,28 @@
+{
+  "S1_unseen_sizes": {
+    "circuits": 46,
+    "seeds": 2,
+    "mean_success_submission": 0.8307,
+    "mean_success_baseline": 0.7225,
+    "mean_gap": 0.1081,
+    "invalid_submission": 2,
+    "invalid_baseline": 0,
+    "circuit_seed_pairs_submission_better": 87,
+    "worse": 3,
+    "mean_2q_submission": 9.6,
+    "mean_2q_baseline": 14.8
+  },
+  "S2_qasmbench": {
+    "circuits": 11,
+    "seeds": 2,
+    "mean_success_submission": 0.8178,
+    "mean_success_baseline": 0.7532,
+    "mean_gap": 0.0646,
+    "invalid_submission": 1,
+    "invalid_baseline": 0,
+    "circuit_seed_pairs_submission_better": 18,
+    "worse": 1,
+    "mean_2q_submission": 18.6,
+    "mean_2q_baseline": 28.9
+  }
+}

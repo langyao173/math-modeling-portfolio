@@ -1,0 +1,45 @@
+policy,style,real_n,real_pass,real_pass_rate,original_n,original_pass,original_pass_rate,filtered_retained,filtered_conditional_pass_rate,DMS_real_pass,DMS_original_pass,X2.3.butanedione_real_pass,X2.3.butanedione_original_pass,X4VG_real_pass,X4VG_original_pass,X.E..2.nonenal_real_pass,X.E..2.nonenal_original_pass
+attachment_two,Amber,12,3,0.25,100,8,0.08,8,1.0,5,46,6,29,,,,
+attachment_two,Blond,31,0,0.0,100,2,0.02,2,1.0,1,15,7,17,,,,
+attachment_two,Brett/cofermented,6,0,0.0,100,2,0.02,2,1.0,1,28,1,25,,,,
+attachment_two,Brown,12,2,0.1666666666666666,100,10,0.1,10,1.0,4,36,4,27,,,,
+attachment_two,Brut,4,0,0.0,100,3,0.03,3,1.0,0,9,2,38,,,,
+attachment_two,Christmas,9,1,0.1111111111111111,100,12,0.12,12,1.0,3,45,4,28,,,,
+attachment_two,Dubbel,10,2,0.2,100,15,0.15,15,1.0,5,40,2,33,,,,
+attachment_two,Faro,3,0,0.0,100,21,0.21,21,1.0,3,46,0,34,,,,
+attachment_two,Flanders old brown,5,2,0.4,100,38,0.38,38,1.0,5,82,2,46,,,,
+attachment_two,Fruitbeer,8,1,0.125,100,6,0.06,6,1.0,3,17,1,26,,,,
+attachment_two,Hoppy,17,0,0.0,100,1,0.01,1,1.0,3,16,0,6,,,,
+attachment_two,Kriek,10,0,0.0,100,7,0.07,7,1.0,9,78,0,10,,,,
+attachment_two,Lambic,11,1,0.0909090909090909,100,13,0.13,13,1.0,2,46,3,22,,,,
+attachment_two,Low/No alcohol,8,5,0.625,100,37,0.37,37,1.0,8,96,5,38,,,,
+attachment_two,Pils/Lager,11,4,0.3636363636363636,100,26,0.26,26,1.0,8,62,6,44,,,,
+attachment_two,Saison,10,1,0.1,100,5,0.05,5,1.0,3,25,2,25,,,,
+attachment_two,Scotch,5,0,0.0,100,5,0.05,5,1.0,4,53,0,9,,,,
+attachment_two,Stout/Porter,13,2,0.1538461538461538,100,5,0.05,5,1.0,4,30,3,11,,,,
+attachment_two,Strong ale,18,2,0.1111111111111111,100,7,0.07,7,1.0,8,26,4,29,,,,
+attachment_two,Tripel,28,0,0.0,100,2,0.02,2,1.0,3,17,9,34,,,,
+attachment_two,West Flanders ale,7,1,0.1428571428571428,100,18,0.18,18,1.0,6,83,1,23,,,,
+attachment_two,Wheat,12,2,0.1666666666666666,100,12,0.12,12,1.0,6,37,6,46,,,,
+strict_four,Amber,12,0,0.0,100,0,0.0,0,,5,46,6,29,12.0,93.0,0.0,0.0
+strict_four,Blond,31,0,0.0,100,0,0.0,0,,1,15,7,17,24.0,79.0,0.0,0.0
+strict_four,Brett/cofermented,6,0,0.0,100,0,0.0,0,,1,28,1,25,5.0,94.0,0.0,0.0
+strict_four,Brown,12,0,0.0,100,0,0.0,0,,4,36,4,27,11.0,96.0,0.0,0.0
+strict_four,Brut,4,0,0.0,100,0,0.0,0,,0,9,2,38,4.0,96.0,0.0,0.0
+strict_four,Christmas,9,0,0.0,100,0,0.0,0,,3,45,4,28,9.0,98.0,0.0,0.0
+strict_four,Dubbel,10,0,0.0,100,0,0.0,0,,5,40,2,33,10.0,99.0,0.0,0.0
+strict_four,Faro,3,0,0.0,100,1,0.01,1,1.0,3,46,0,34,3.0,100.0,0.0,1.0
+strict_four,Flanders old brown,5,0,0.0,100,1,0.01,1,1.0,5,82,2,46,5.0,99.0,0.0,1.0
+strict_four,Fruitbeer,8,0,0.0,100,0,0.0,0,,3,17,1,26,8.0,97.0,0.0,2.0
+strict_four,Hoppy,17,0,0.0,100,0,0.0,0,,3,16,0,6,16.0,91.0,0.0,0.0
+strict_four,Kriek,10,0,0.0,100,0,0.0,0,,9,78,0,10,10.0,98.0,0.0,0.0
+strict_four,Lambic,11,0,0.0,100,0,0.0,0,,2,46,3,22,11.0,100.0,0.0,0.0
+strict_four,Low/No alcohol,8,1,0.125,100,2,0.02,2,1.0,8,96,5,38,7.0,91.0,1.0,5.0
+strict_four,Pils/Lager,11,0,0.0,100,0,0.0,0,,8,62,6,44,11.0,96.0,0.0,0.0
+strict_four,Saison,10,0,0.0,100,0,0.0,0,,3,25,2,25,8.0,89.0,0.0,0.0
+strict_four,Scotch,5,0,0.0,100,0,0.0,0,,4,53,0,9,5.0,99.0,0.0,0.0
+strict_four,Stout/Porter,13,0,0.0,100,0,0.0,0,,4,30,3,11,13.0,98.0,0.0,0.0
+strict_four,Strong ale,18,0,0.0,100,0,0.0,0,,8,26,4,29,18.0,98.0,0.0,0.0
+strict_four,Tripel,28,0,0.0,100,0,0.0,0,,3,17,9,34,28.0,96.0,0.0,0.0
+strict_four,West Flanders ale,7,0,0.0,100,1,0.01,1,1.0,6,83,1,23,7.0,98.0,0.0,1.0
+strict_four,Wheat,12,0,0.0,100,0,0.0,0,,6,37,6,46,7.0,63.0,0.0,0.0

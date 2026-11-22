@@ -1,0 +1,24 @@
+\begin{ctab}{p{8.6cm}p{7.6cm}}
+\toprule
+check & result\\
+\midrule
+Non-increasing timestamps / gaps longer than $1.5\Delta$ & 0 / 0\\
+Largest within-record variation of the frame interval & 3.8 $\mu$s\\
+Sampling rate & 66 records at 30 Hz; 3 training records at 25 Hz\\
+Pose, camera and video-frame time stamps of the MCAP sessions & largest difference 0 ns\\
+Semantic segments against the official index & 349 of 349 identical; 0 gaps between segments; unannotated tail $\le$ 0.47 s\\
+Unit of length (stereo baseline of the head cameras) & $63.97 \pm 0.14$ mm\\
+World frame & right-handed, vertical axis up; head height from $-1.00$ to 1.47 m (record-specific origin)\\
+Camera frame / head frame & $x$ right, $y$ down, $z$ forward / $x$ forward, $y$ left, $z$ up\\
+Hands in front of the camera / left hand to the left of the right hand & 100\,\% / 100\,\% of frames\\
+Variation of palm bone lengths within a record & coefficient of variation $<10^{-5}$\\
+Duplicated \texttt{episode\_uuid} / duplicated content hash & 0 / 0\\
+Environments / scenes / operators & 24 / 30 / 41 (at most 18 records per environment)\\
+Scenes shared across splits; operators shared train--test / train--validation & 0; 3 / 0\\
+Missing values / all-zero hand frames / exactly repeated hand frames & 0 / 0 / 0\\
+Flagged hand-frames (occlusion / near edge) & 1\,000 (937 / 63); 186 runs in 22 records\\
+Length of flagged runs: median / mean / maximum & 0.10 / 0.18 / 1.9 s\\
+Share of frames with a keypoint outside the image: unflagged / occlusion / near edge & 0.23\,\% / 2.3\,\% / 81\,\%\\
+Plausibility thresholds (hand speed, acceleration, head speed); guard band; shortest run & 2.5 m/s, 50 m/s$^2$, 2.0 m/s; $\pm$2 frames; 1 s\\
+\bottomrule
+\end{ctab}

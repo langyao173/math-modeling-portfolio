@@ -1,0 +1,8 @@
+numpy>=1.24,<3
+scipy>=1.11
+pytest>=8,<9
+matplotlib>=3.7
+# Install licensed Kaiwu separately using the official distribution for Python 3.10.
+
+# PDF result import (optional when only running the scheduler).
+PyMuPDF>=1.23

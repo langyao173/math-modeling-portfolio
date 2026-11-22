@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "input_sha256": "0ba2cfd94ff1753c465741bed1946c4378f40418083528af1955f271638cfd45",
+  "input_unchanged": true,
+  "implementation_sha256": "819cfe3596a89b48c93d0586162f14c43c3465b332fba00297ce361a4b6142fa",
+  "unrestricted_ridge_separation_max_error": 0.0,
+  "outer_folds": 5,
+  "inner_folds_per_outer": 3,
+  "parameter_grid_per_tau": 16,
+  "tau_strategies": 3,
+  "theoretical_candidate_fits": 735,
+  "elapsed_seconds": 0.5802165499990224,
+  "new_neural_fits": 0,
+  "new_paid_calls": 0,
+  "all_prespecified_strategies_reported": true,
+  "no_method_selected_on_outer_scores": true,
+  "source_manifest": {
+    "target_metrics.csv": "4f9c6f90b95b9e4c591125d1bec0eb7e81cd311fa9f4a721feb5bd340a88269e",
+    "training_identity_trace.json": "4450412dfbdd270e122df9002dac4e104224393dc6e529aae7721999d1a009e5",
+    "inner_selection_grid.csv": "bf0a1343fe638533357b6a07a96de99cb374157ea15ba46d1b6bd4ffda38a398",
+    "outer_predictions.npz": "dfaca9eb5e958a576ecc74aac0a28e23b46e49141f5705c02ff732ac179ce539",
+    "PROTOCOL_LOCK.json": "b9d9741d6a6781fa7e6e79908387d803bff2228952dc64b0e9707f74dcbfa92f",
+    "pooled_metrics.csv": "fbca3013b736f20f31a8b8c566c83a12c7b174f14b04e97cf4a03335ad5bb361",
+    "paired_differences.csv": "e86fee26e66d307300c17d2984041f1a11f5960e235a72144f80d10d0ceae89c",
+    "selected_parameters.csv": "cdb3a34189e3c00dd18ca4fe5f99d706d30e4a08837db3cc29b77ba53c5efd77"
+  }
+}

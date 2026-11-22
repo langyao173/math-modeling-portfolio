@@ -1,0 +1,25 @@
+{
+  "year": 2005,
+  "role": "isolated policy base-year benchmark, excluded from training panel",
+  "energy_total_mtce": 2613.69,
+  "coal_share": 0.724,
+  "oil_share": 0.178,
+  "gas_share": 0.024,
+  "nonfossil_share": 0.074,
+  "gdp_real_usd2015": 4518338478814.27,
+  "gdp_real_index": 58.59296263728242,
+  "coal_co2_mt": 4424.24,
+  "oil_co2_mt": 850.176,
+  "gas_co2_mt": 84.957,
+  "flaring_co2_mt": 5.588,
+  "energy_co2_mt": 5364.961,
+  "fossil_industry_co2_mt": 5881.991,
+  "source_ids": [
+    "nbs_yearbook_2025_9_2",
+    "owid_gcb_2025",
+    "worldbank_NY.GDP.MKTP.KD_2005"
+  ],
+  "access_date": "2026-10-16",
+  "intensity_change_formula": "(year_value/year_gdp_real_index)/(benchmark_value/benchmark_gdp_real_index)-1",
+  "carbon_scope": "Fuel-related coal+oil+gas+flaring proxy; not the inventory metric used to assess official carbon-intensity target compliance"
+}

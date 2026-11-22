@@ -1,0 +1,82 @@
+{
+  "updates": 5584,
+  "original_clipped": 106,
+  "guard_exceptions": 14,
+  "exception_customers": 14,
+  "max_exception_excess_pp": 18.957659940956,
+  "restored_event_windows": 3,
+  "removed_event_windows": 0,
+  "coverage": [
+    {
+      "method": "base_reference",
+      "slots": 559,
+      "customers": 331,
+      "event_windows": 79,
+      "event_customers": 61,
+      "known": 558,
+      "missing_vs_base": 0,
+      "added_vs_base": 0
+    },
+    {
+      "method": "old_bound",
+      "slots": 559,
+      "customers": 328,
+      "event_windows": 76,
+      "event_customers": 59,
+      "known": 558,
+      "missing_vs_base": 11,
+      "added_vs_base": 11
+    },
+    {
+      "method": "guard10",
+      "slots": 559,
+      "customers": 331,
+      "event_windows": 79,
+      "event_customers": 61,
+      "known": 558,
+      "missing_vs_base": 0,
+      "added_vs_base": 0
+    },
+    {
+      "method": "guard_six",
+      "slots": 559,
+      "customers": 331,
+      "event_windows": 79,
+      "event_customers": 61,
+      "known": 558,
+      "missing_vs_base": 0,
+      "added_vs_base": 0
+    },
+    {
+      "method": "strong_S",
+      "slots": 559,
+      "customers": 347,
+      "event_windows": 78,
+      "event_customers": 60,
+      "known": 558,
+      "missing_vs_base": 74,
+      "added_vs_base": 74
+    },
+    {
+      "method": "previous_tail",
+      "slots": 559,
+      "customers": 345,
+      "event_windows": 75,
+      "event_customers": 55,
+      "known": 557,
+      "missing_vs_base": 65,
+      "added_vs_base": 65
+    },
+    {
+      "method": "incumbent_R",
+      "slots": 559,
+      "customers": 356,
+      "event_windows": 80,
+      "event_customers": 61,
+      "known": 558,
+      "missing_vs_base": 106,
+      "added_vs_base": 106
+    }
+  ],
+  "inference_scope": "reused historical cohort; development-fixed capacity; customer-cluster intervals are descriptive"
+}

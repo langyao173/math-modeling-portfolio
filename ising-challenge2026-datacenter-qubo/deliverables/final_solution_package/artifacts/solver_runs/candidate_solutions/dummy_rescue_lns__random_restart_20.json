@@ -1,0 +1,15 @@
+{
+  "family": "dummy_rescue_lns",
+  "oracle": "random_restart_20",
+  "status": "success",
+  "jobs": 588,
+  "selected_actions": 588,
+  "accepted_under_submission_guard": 0,
+  "true_action_cost_usd": 70004409.176755,
+  "expected_recourse_cost_usd": 30.27789976075753,
+  "cvar95_recourse_cost_usd": 41.101525956771184,
+  "true_objective": 71.37942571752872,
+  "source_result": {
+    "restarts": 20
+  }
+}

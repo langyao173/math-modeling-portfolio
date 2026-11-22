@@ -1,0 +1,5 @@
+{
+  "eps0_lower_bound_hit_rate": 0.1,
+  "eps0_mean": 0.3625409463896986,
+  "interpretation": "If no_pin_direct_heat keeps comparable AIC/BIC and eps0 repeatedly hits the lower bound, direct pin-fin heat transfer should be treated as weakly identified rather than claimed as an independent strong mechanism."
+}

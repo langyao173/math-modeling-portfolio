@@ -1,0 +1,151 @@
+target_label,rank,compound,selection_frequency
+麦芽总香,1,2-acetylfuran,0.835
+麦芽总香,2,Methylpyrazine,0.532
+麦芽总香,3,"2,6-dimethylpyrazine",0.385
+谷物香,1,Propylene glycol,0.26
+谷物香,2,Z-nerolidol,0.218
+谷物香,3,E-β-ionone,0.2
+面包香,1,Benzaldehyde,0.262
+面包香,2,Ethyl tiglate,0.245
+面包香,3,2-acetylpyrrole,0.2
+焦糖香,1,Furfural,0.615
+焦糖香,2,2-acetylfuran,0.59
+焦糖香,3,Octyl acetate,0.505
+焦烤香,1,Methylpyrazine,0.885
+焦烤香,2,2-acetylfuran,0.5
+焦烤香,3,"2,6-dimethylpyrazine",0.33
+酒花总香,1,Iron,0.455
+酒花总香,2,"2,3-dihydro-farnesol",0.312
+酒花总香,3,Carbon dioxide,0.255
+柑橘酒花香,1,Methyl heptenone,0.442
+柑橘酒花香,2,Carbon dioxide,0.41200000000000003
+柑橘酒花香,3,E-dihydro-apofarnesal,0.212
+热带酒花香,1,Dimethyl sulfide,0.452
+热带酒花香,2,Caryophyllene,0.345
+热带酒花香,3,Carbon dioxide,0.275
+传统酒花香,1,Iron,0.36
+传统酒花香,2,Ethyl octanoate,0.265
+传统酒花香,3,Ethyl decanoate,0.252
+木质酒花香,1,"Z,Z-farnesol",0.44
+木质酒花香,2,Car-3-en-2-one,0.245
+木质酒花香,3,Iron,0.235
+酯类总香,1,Acetaldehyde,0.745
+酯类总香,2,N-hexanol,0.598
+酯类总香,3,Lactic acid,0.222
+乙酸乙酯香,1,Acetaldehyde,0.345
+乙酸乙酯香,2,Ethyl acetate,0.292
+乙酸乙酯香,3,Phenethyl alcohol,0.188
+香蕉酯香,1,N-hexanol,0.7120000000000001
+香蕉酯香,2,Methionol,0.242
+香蕉酯香,3,Tau-cadinol,0.185
+花香,1,Terpinolene,0.37
+花香,2,Ethyl lactate,0.295
+花香,3,Carbon disulfide,0.182
+果香,1,Beta-phellandrene,0.898
+果香,2,Eugenol,0.36200000000000004
+果香,3,Caryophyllene acetate,0.188
+麦芽总味,1,"2,6-dimethylpyrazine",0.795
+麦芽总味,2,2-acetylfuran,0.575
+麦芽总味,3,Acetaldehyde,0.568
+谷物味,1,Octyl acetate,0.278
+谷物味,2,E-β-ionone,0.24
+谷物味,3,N-propyl acetate,0.205
+面包味,1,2-acetylpyrrole,0.418
+面包味,2,Ethyl tiglate,0.32
+面包味,3,Glycerol,0.25
+焦糖味,1,Acetaldehyde,0.688
+焦糖味,2,Octyl acetate,0.442
+焦糖味,3,Phenethyl alcohol,0.29
+焦烤味,1,Methylpyrazine,0.885
+焦烤味,2,2-acetylfuran,0.36
+焦烤味,3,"2,6-dimethylpyrazine",0.215
+酒花总味,1,Iron,0.645
+酒花总味,2,Cis-dihydro-β-terpineol,0.45
+酒花总味,3,Dimethyl sulfide,0.175
+柑橘酒花味,1,Furfural,0.282
+柑橘酒花味,2,Ethyl furoate,0.23800000000000002
+柑橘酒花味,3,Geosmin,0.16
+热带酒花味,1,Methyl heptenone,0.43
+热带酒花味,2,Hexyl acetate,0.402
+热带酒花味,3,Amyl acetate,0.23199999999999998
+传统酒花味,1,Iron,0.738
+传统酒花味,2,Ethyl 2-hexenoate,0.308
+传统酒花味,3,Cis-dihydro-β-terpineol,0.287
+木质酒花味,1,Isobutanol,0.915
+木质酒花味,2,"Z,Z-farnesol",0.245
+木质酒花味,3,9-epi-E-caryophyllene,0.16
+酯类总味,1,Acetaldehyde,0.91
+酯类总味,2,Phenethyl alcohol,0.43799999999999994
+酯类总味,3,N-hexanol,0.37
+乙酸乙酯味,1,Ethyl acetate,0.665
+乙酸乙酯味,2,Car-3-en-2-one,0.292
+乙酸乙酯味,3,Acetaldehyde,0.255
+香蕉酯味,1,N-hexanol,0.38
+香蕉酯味,2,Phenethyl alcohol,0.29
+香蕉酯味,3,2-methyltetrahydrofuran-3-one,0.252
+花味,1,Eucalyptol,0.4
+花味,2,Diethyl sulfide,0.295
+花味,3,Beta-phellandrene,0.228
+果味,1,Beta-phellandrene,0.415
+果味,2,Phenethyl alcohol,0.348
+果味,3,Diethyl sulfide,0.298
+酸感,1,Lactic acid,0.752
+酸感,2,Acetic acid,0.5579999999999999
+酸感,3,Ethyl 3-methylbutyrate,0.402
+苦感,1,Iron,0.932
+苦感,2,Ethyl octanoate,0.81
+苦感,3,Ethyl decanoate,0.507
+甜感,1,Acetaldehyde,0.498
+甜感,2,Ethyl decanoate,0.455
+甜感,3,β-cyclohomocitral,0.335
+4VG感,1,4-vinylguaiacol,1.0
+4VG感,2,Terpiryl acetate,0.998
+4VG感,3,Diethyl sulfide,0.235
+双乙酰感,1,Eugenol,0.855
+双乙酰感,2,Vinyl caprylate,0.268
+双乙酰感,3,Dehydroxy-cis-linalool oxide,0.235
+DMS感,1,Sulfur dioxide,0.55
+DMS感,2,E-nerolidol,0.20800000000000002
+DMS感,3,Glycerol,0.188
+金属感,1,Iron,0.97
+金属感,2,Linalool isovalerate,0.475
+金属感,3,"Z,Z-geranyl linalool",0.168
+陈旧酒花味,1,Linalool isovalerate,0.302
+陈旧酒花味,2,Isobutanol,0.225
+陈旧酒花味,3,Iron,0.225
+t2n感,1,Glycerol,0.295
+t2n感,2,Vinyl caprylate,0.215
+t2n感,3,Z-nerolidol,0.188
+橙味,1,Limonene,0.84
+橙味,2,Eucalyptol,0.405
+橙味,3,Cis-β-terpineol,0.322
+芫荽味,1,Cis-linalool oxide,0.45799999999999996
+芫荽味,2,Limonene,0.42200000000000004
+芫荽味,3,X-methyl-1-octanol,0.41
+丁香味,1,Eucalyptol,0.945
+丁香味,2,Terpinen-4-ol acetate,0.51
+丁香味,3,Limonene,0.358
+乳酸感,1,Acetic acid,0.6
+乳酸感,2,Ethyl 3-methylbutyrate,0.5579999999999999
+乳酸感,3,Lactic acid,0.49200000000000005
+乙酸感,1,Ethyl 3-methylbutyrate,0.5920000000000001
+乙酸感,2,Acetic acid,0.525
+乙酸感,3,Ethyl acetate,0.312
+畜棚味,1,Linalool isovalerate,0.335
+畜棚味,2,Isobutanol,0.26
+畜棚味,3,N-propyl acetate,0.205
+酒精感,1,Ethanol,1.0
+酒精感,2,Acetaldehyde,0.685
+酒精感,3,Ethyl acetate,0.282
+余味,1,Ethanol,0.568
+余味,2,Ethyl 3-methylbutyrate,0.49
+余味,3,Acetaldehyde,0.305
+酒体,1,Ethanol,1.0
+酒体,2,Isobutanol,0.375
+酒体,3,Glycerol,0.34
+碳酸感,1,Carbon dioxide,0.945
+碳酸感,2,Ethyl octanoate,0.5479999999999999
+碳酸感,3,Nerol,0.158
+总体欣赏度,1,Cis-linalool oxide,0.382
+总体欣赏度,2,Ethyl acetate,0.215
+总体欣赏度,3,Trans-dihydro-β-terpineol,0.198

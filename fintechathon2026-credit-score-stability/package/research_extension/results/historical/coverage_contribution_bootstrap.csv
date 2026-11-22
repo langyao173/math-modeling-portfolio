@@ -1,0 +1,6 @@
+comparator,event_slot_difference,ci95_low,ci95_high,scope
+actual_static,-2.0,-11.0,7.0,"fixed selected sets; repeated event windows are slots, not unique incidents"
+previous_tail,1.0,-5.0,7.0,"fixed selected sets; repeated event windows are slots, not unique incidents"
+reference_static,-3.0,-7.0,0.0,"fixed selected sets; repeated event windows are slots, not unique incidents"
+incumbent_R,-4.0,-14.0,6.0,"fixed selected sets; repeated event windows are slots, not unique incidents"
+reference_rank100,-3.0,-7.0,0.0,"fixed selected sets; repeated event windows are slots, not unique incidents"

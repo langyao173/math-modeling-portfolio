@@ -1,0 +1,142 @@
+         split      dataset  records  environments  frames    ref  flagged  suspect  guard  runs_ge1s  run_frames  short_fragment_frames  dyn_frames  hand_frames  ref_pct  run_pct
+0         test      EgoDemo        2             1     648   1296        0        0      0          4        1296                      0        1296         1296   100.00   100.00
+1         test       EgoPro        2             1    3137   6039      168        8     59         17        6027                     12        6027         6274    96.25    96.06
+2         test  EgoStandard        3             3    8456  16747       82        4     79         22       16744                      3       16744        16912    99.02    99.01
+3        train      EgoDemo       27            10   14369  28474      159        9     96         65       28372                    102       27236        28738    99.08    98.73
+4        train       EgoPro        8             3    9652  18924      164       44    172         42       18894                     30       18894        19304    98.03    97.88
+5        train  EgoStandard       20             7   23025  45606      268       17    159         68       45570                     36       44920        46050    99.04    98.96
+6   validation      EgoDemo        2             2    1397   2794        0        0      0          4        2794                      0        2794         2794   100.00   100.00
+7   validation       EgoPro        4             2    4853   9487      108       12     99         20        9451                     36        9451         9706    97.74    97.37
+8   validation  EgoStandard        1             1     533    964       51        8     43          8         955                      9         955         1066    90.43    89.59
+9         test          ALL        7             4   12241  24082      250       12    138         43       24067                     15       24067        24482    98.37    98.30
+10       train          ALL       55            16   47046  93004      591       70    427        175       92836                    168       91050        94092    98.84    98.67
+11  validation          ALL        7             4    6783  13245      159       20    142         32       13200                     45       13200        13566    97.63    97.30
+                         point  n_keypoints  jitter_rms_mm  hold_1f_mm  cv_1f_mm  hold_0p5s_mm  within_run_sd_mm  flagged_to_ref_speed_ratio
+0                        wrist            1          0.815       4.365     1.964        40.292            59.822                       2.098
+1  palm centre (wrist + 4 MCP)            5          0.827       4.708     2.028        44.950            66.271                       2.015
+2     centroid of 21 keypoints           21          0.841       5.015     2.119        48.263            69.912                       2.007
+3              index fingertip            1          0.955       5.884     2.516        55.834            78.929                       1.946
+4   thumb-index pinch midpoint            2          0.902       5.254     2.236        51.376            74.460                       1.876
+         split  horizon_s  world_hold_mm  ego_hold_mm
+0        train        0.1           26.1         13.3
+1        train        0.5          115.9         45.0
+2        train        1.0          208.9         62.5
+3        train        2.0          341.0         74.4
+4        train        3.0          410.8         77.5
+5   validation        0.1           21.8         17.3
+6   validation        0.5           87.3         58.9
+7   validation        1.0          146.8         82.0
+8   validation        2.0          224.7        103.5
+9   validation        3.0          241.4        103.0
+10        test        0.1           39.6         16.3
+11        test        0.5          182.3         58.6
+12        test        1.0          337.2         84.8
+13        test        2.0          577.0        105.8
+14        test        3.0          725.4        112.8
+{
+ "time": {
+  "records": 69,
+  "frames": 66070,
+  "gaps_gt_1p5dt": 0,
+  "non_increasing_timestamps": 0,
+  "records_30hz": 66,
+  "records_other_rate": {
+   "5": 25.0,
+   "11": 25.0,
+   "68": 25.0
+  },
+  "dt_ms_min": 33.31899999999999,
+  "dt_ms_max": 40.000000000000036,
+  "within_record_dt_jitter_us_max": 3.814697265625,
+  "mcap_stream_max_abs_dt_ns": 0.0,
+  "video_vs_pose_max_abs_dt_ns": 0.0,
+  "segments": 349,
+  "frames_inside_segments": 65764,
+  "unannotated_tail_s_max": 0.46666700000000105,
+  "unannotated_tail_s_mean": 0.12223907907523095,
+  "segment_gaps": 0
+ },
+ "coordinates": {
+  "stereo_baseline_mm_mean": 63.972160518302985,
+  "stereo_baseline_mm_sd": 0.13766319071764194,
+  "baseline_vertical_component_mm_meanabs": 3.220151096598406,
+  "baseline_in_camera_axes_mm": [
+   63.96940253349635,
+   0.11076343081566936,
+   0.10555818360873155
+  ],
+  "world_up_in_camera_y_mean": -0.7160627660942163,
+  "frac_frames_up_maps_to_minus_y": 0.991342515513849,
+  "frac_frames_right_handed": 0.9654911457545028,
+  "hands_in_front_of_camera_frac": 1.0,
+  "left_hand_left_of_right_frac": 1.0,
+  "head_height_range_m": [
+   -0.9950762391090393,
+   1.4728039503097534
+  ],
+  "reach_m_median": 0.47802478300149975,
+  "palm_bone_cv_max": 4.1444054288364055e-06,
+  "edge_margin_median": {
+   "good": 0.6315659336665865,
+   "occlusion": 0.6296234235129805,
+   "near_edge": -0.12232600079072764
+  },
+  "frac_any_keypoint_outside_image": {
+   "good": 0.002302882415738905,
+   "occlusion": 0.023479188900747065,
+   "near_edge": 0.8095238095238095
+  }
+ },
+ "duplicates": {
+  "duplicate_episode_uuid": 0,
+  "duplicate_content_hash": 0,
+  "environments": 24,
+  "scenes": 30,
+  "operators": 41,
+  "records_per_environment_max": 18,
+  "operators_shared_train_test": 3,
+  "operators_shared_train_val": 0,
+  "scenes_shared_across_splits": 0
+ },
+ "completeness": {
+  "nan_values": 0,
+  "all_zero_hand_frames": 0,
+  "exact_repeated_hand_frames": 0
+ },
+ "flags": {
+  "flagged_frames_any_hand": 828,
+  "flagged_hand_frames": 1000,
+  "hand_frames_occlusion": 937,
+  "hand_frames_near_edge": 63,
+  "both_hands_flagged_frames": 172,
+  "flagged_runs": 186,
+  "records_with_flags": 22,
+  "run_median_s": 0.09999900000000217,
+  "run_mean_s": 0.1792077019297292,
+  "run_max_s": 1.899981000000016,
+  "bad_without_reason": 0
+ },
+ "thresholds": {
+  "V_MAX": 2.5,
+  "A_MAX": 50.0,
+  "VH_MAX": 2.0,
+  "GUARD": 2,
+  "MIN_RUN_S": 1.0
+ },
+ "retention_total": {
+  "hand_frames": 132140,
+  "ref": 130331,
+  "flagged": 1000,
+  "suspect": 102,
+  "guard": 707,
+  "run_frames": 130103,
+  "runs": 250,
+  "short_fragment_frames": 228,
+  "dyn_frames": 128317
+ },
+ "hand_scale_mm": {
+  "knuckle_span_index_little_median": 57.914827976061915,
+  "palm_length_wrist_middle_mcp_median": 85.68035583760913,
+  "hand_length_wrist_middle_tip_median": 162.7647939256689
+ }
+}

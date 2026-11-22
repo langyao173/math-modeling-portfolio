@@ -1,0 +1,301 @@
+model,attribute,r2
+GBR (reference study's best model),A_malt_all,0.4536362893864664
+GBR (reference study's best model),A_malt_grain,-0.19134524542179787
+GBR (reference study's best model),A_malt_bread,0.002602359266697607
+GBR (reference study's best model),A_malt_cara,0.4065869896251365
+GBR (reference study's best model),A_malt_burn,0.4520653181457732
+GBR (reference study's best model),A_hops_all,0.05648994624794468
+GBR (reference study's best model),A_hops_citrus,-0.0696655655839189
+GBR (reference study's best model),A_hops_tropical,-0.6078275769635451
+GBR (reference study's best model),A_hops_noble,0.19390278091359758
+GBR (reference study's best model),A_hops_woody,0.0070811305979833206
+GBR (reference study's best model),A_esters_all,0.07271074203875005
+GBR (reference study's best model),A_esters_ethac,-0.057544068749628696
+GBR (reference study's best model),A_esters_isoaa,0.12991216444788745
+GBR (reference study's best model),A_esters_flower,-0.04581596672962851
+GBR (reference study's best model),A_esters_fruity,0.05356566454924783
+GBR (reference study's best model),F_malt_all,0.4850555676644407
+GBR (reference study's best model),F_malt_grain,-0.1136266471906473
+GBR (reference study's best model),F_malt_bread,0.19282524012756608
+GBR (reference study's best model),F_malt_cara,0.3165936656830701
+GBR (reference study's best model),F_malt_burn,0.37758354268721295
+GBR (reference study's best model),F_hops_all,0.3705114763720333
+GBR (reference study's best model),F_hops_citrus,-0.061045832159232205
+GBR (reference study's best model),F_hops_tropical,-0.30105643403746796
+GBR (reference study's best model),F_hops_noble,0.3162594104103219
+GBR (reference study's best model),F_hops_woody,0.15320069955346705
+GBR (reference study's best model),F_esters_all,0.3116839723410245
+GBR (reference study's best model),F_esters_ethac,0.17221632735487347
+GBR (reference study's best model),F_esters_isoaa,0.1239552830552425
+GBR (reference study's best model),F_esters_flower,-0.03638805521567412
+GBR (reference study's best model),F_esters_fruity,0.16835888113372754
+GBR (reference study's best model),acidity,0.7660227312760591
+GBR (reference study's best model),bitternes,0.6295432716994996
+GBR (reference study's best model),sweetness,0.46461336049269086
+GBR (reference study's best model),X4vg,0.27008633479047617
+GBR (reference study's best model),diacetyl,-0.25078771328614424
+GBR (reference study's best model),dms,0.038528820509187156
+GBR (reference study's best model),metallic,0.051626340845475904
+GBR (reference study's best model),stale_hops,-0.33198532928479185
+GBR (reference study's best model),t2n,-0.20822759926485457
+GBR (reference study's best model),orange,0.17576100274572326
+GBR (reference study's best model),coriander,0.12153052089170169
+GBR (reference study's best model),clove,0.06664380110520374
+GBR (reference study's best model),lactic,0.6270025159213962
+GBR (reference study's best model),acetic,0.7614770386428777
+GBR (reference study's best model),barnyard,-0.1885987956309909
+GBR (reference study's best model),alcohol,0.7606992395180623
+GBR (reference study's best model),aftertaste,0.46793773124087346
+GBR (reference study's best model),body,0.5120954409078724
+GBR (reference study's best model),co2,0.26274204282076064
+GBR (reference study's best model),overall,0.004950700722773704
+Ridge,A_malt_all,-1.126955630833396
+Ridge,A_malt_grain,-0.7071975655724154
+Ridge,A_malt_bread,-1.0441173329598734
+Ridge,A_malt_cara,-0.47052211533933685
+Ridge,A_malt_burn,-0.17960510028768706
+Ridge,A_hops_all,-0.06836971492494626
+Ridge,A_hops_citrus,-2.0113325455058693
+Ridge,A_hops_tropical,-0.1650174475396915
+Ridge,A_hops_noble,-1.329364618515649
+Ridge,A_hops_woody,-2.523963752947447
+Ridge,A_esters_all,-0.535766976602776
+Ridge,A_esters_ethac,0.08542224681222632
+Ridge,A_esters_isoaa,-0.23611211828790468
+Ridge,A_esters_flower,-0.24963378152134363
+Ridge,A_esters_fruity,-0.4971384502160545
+Ridge,F_malt_all,-2.5832181194314683
+Ridge,F_malt_grain,-0.5880908562410074
+Ridge,F_malt_bread,-3.22290304963743
+Ridge,F_malt_cara,-2.4075695873049505
+Ridge,F_malt_burn,-0.6988520039312838
+Ridge,F_hops_all,-0.81660673132597
+Ridge,F_hops_citrus,-0.12273955876395104
+Ridge,F_hops_tropical,-0.9842082328929331
+Ridge,F_hops_noble,-0.5658316333798061
+Ridge,F_hops_woody,-0.018156454712616954
+Ridge,F_esters_all,-0.06295659076534177
+Ridge,F_esters_ethac,-0.6557708322699696
+Ridge,F_esters_isoaa,-1.142992643341488
+Ridge,F_esters_flower,-0.043295514536491275
+Ridge,F_esters_fruity,0.21535115524610315
+Ridge,acidity,-3.5618984551518835
+Ridge,bitternes,-0.15327289216886442
+Ridge,sweetness,0.1974336139991557
+Ridge,X4vg,-2.5479438721017127
+Ridge,diacetyl,-0.7744636218294423
+Ridge,dms,-5.360769997199966
+Ridge,metallic,-3.4669105117417995
+Ridge,stale_hops,-0.7642332300273742
+Ridge,t2n,-0.028256720340023245
+Ridge,orange,0.1405899868997459
+Ridge,coriander,0.1464676618387054
+Ridge,clove,-2.3335066530912605
+Ridge,lactic,-2.974545569041014
+Ridge,acetic,-18.17724602549211
+Ridge,barnyard,-1.1122390599546907
+Ridge,alcohol,-1.0884198076244678
+Ridge,aftertaste,0.023521659802003048
+Ridge,body,-0.5841997270710524
+Ridge,co2,-7.195029697845685
+Ridge,overall,-2.6897108518619497
+Extra Trees,A_malt_all,0.3496189392302974
+Extra Trees,A_malt_grain,0.13304020645137837
+Extra Trees,A_malt_bread,0.07471240218618402
+Extra Trees,A_malt_cara,0.33433192874461737
+Extra Trees,A_malt_burn,0.16079857459126068
+Extra Trees,A_hops_all,0.2402392328366163
+Extra Trees,A_hops_citrus,0.0788451276394998
+Extra Trees,A_hops_tropical,-0.0989052541479396
+Extra Trees,A_hops_noble,0.25201132238712665
+Extra Trees,A_hops_woody,0.03732732861695931
+Extra Trees,A_esters_all,0.15735728882429312
+Extra Trees,A_esters_ethac,0.1150970708614506
+Extra Trees,A_esters_isoaa,0.08278385444055802
+Extra Trees,A_esters_flower,0.0963678649335441
+Extra Trees,A_esters_fruity,0.09868149427816786
+Extra Trees,F_malt_all,0.41550752937820434
+Extra Trees,F_malt_grain,0.07770617158434323
+Extra Trees,F_malt_bread,0.2010163148496683
+Extra Trees,F_malt_cara,0.3146751898453447
+Extra Trees,F_malt_burn,0.28460432185505813
+Extra Trees,F_hops_all,0.39824990420231954
+Extra Trees,F_hops_citrus,0.09688177665233066
+Extra Trees,F_hops_tropical,0.019114087590353268
+Extra Trees,F_hops_noble,0.3312585461021984
+Extra Trees,F_hops_woody,0.20492396930965762
+Extra Trees,F_esters_all,0.26254682368298676
+Extra Trees,F_esters_ethac,0.18699898640464585
+Extra Trees,F_esters_isoaa,0.19359198950785694
+Extra Trees,F_esters_flower,0.03868333638583066
+Extra Trees,F_esters_fruity,0.17055516408271698
+Extra Trees,acidity,0.6597379815139433
+Extra Trees,bitternes,0.5828422084701995
+Extra Trees,sweetness,0.33623053387414104
+Extra Trees,X4vg,0.2518777456742304
+Extra Trees,diacetyl,-0.03747316355875596
+Extra Trees,dms,-0.021128964768852176
+Extra Trees,metallic,0.15013906333100158
+Extra Trees,stale_hops,0.04196309544695942
+Extra Trees,t2n,0.0019903219298395003
+Extra Trees,orange,0.18559807665511519
+Extra Trees,coriander,0.18219389085547433
+Extra Trees,clove,0.19214510051573808
+Extra Trees,lactic,0.5878880273190883
+Extra Trees,acetic,0.609862392151713
+Extra Trees,barnyard,0.03402815645464341
+Extra Trees,alcohol,0.6729245201539689
+Extra Trees,aftertaste,0.4460686243130628
+Extra Trees,body,0.4811652415271903
+Extra Trees,co2,0.3549331258209516
+Extra Trees,overall,0.05764103818193622
+"KRR-RBF, 50 independent outputs",A_malt_all,0.24408375280262573
+"KRR-RBF, 50 independent outputs",A_malt_grain,0.08919974172289724
+"KRR-RBF, 50 independent outputs",A_malt_bread,0.019933418130077984
+"KRR-RBF, 50 independent outputs",A_malt_cara,0.24858187032616252
+"KRR-RBF, 50 independent outputs",A_malt_burn,0.08742172398405157
+"KRR-RBF, 50 independent outputs",A_hops_all,0.16139153486498492
+"KRR-RBF, 50 independent outputs",A_hops_citrus,0.03164593204067556
+"KRR-RBF, 50 independent outputs",A_hops_tropical,-0.19764002083415844
+"KRR-RBF, 50 independent outputs",A_hops_noble,0.19075134827273554
+"KRR-RBF, 50 independent outputs",A_hops_woody,0.06725597300760733
+"KRR-RBF, 50 independent outputs",A_esters_all,0.1339464680484076
+"KRR-RBF, 50 independent outputs",A_esters_ethac,0.06168816363609608
+"KRR-RBF, 50 independent outputs",A_esters_isoaa,0.09740361734430525
+"KRR-RBF, 50 independent outputs",A_esters_flower,0.06288307486072908
+"KRR-RBF, 50 independent outputs",A_esters_fruity,0.06319139594933354
+"KRR-RBF, 50 independent outputs",F_malt_all,0.30307124213719017
+"KRR-RBF, 50 independent outputs",F_malt_grain,0.05775014214748719
+"KRR-RBF, 50 independent outputs",F_malt_bread,0.14492991163194913
+"KRR-RBF, 50 independent outputs",F_malt_cara,0.22483285449419532
+"KRR-RBF, 50 independent outputs",F_malt_burn,0.21873111114814792
+"KRR-RBF, 50 independent outputs",F_hops_all,0.28483684623919836
+"KRR-RBF, 50 independent outputs",F_hops_citrus,-0.013695728015208575
+"KRR-RBF, 50 independent outputs",F_hops_tropical,-0.07183691361016731
+"KRR-RBF, 50 independent outputs",F_hops_noble,0.25141066073368445
+"KRR-RBF, 50 independent outputs",F_hops_woody,0.12080332550993789
+"KRR-RBF, 50 independent outputs",F_esters_all,0.2653830013613
+"KRR-RBF, 50 independent outputs",F_esters_ethac,0.19981749616122013
+"KRR-RBF, 50 independent outputs",F_esters_isoaa,0.09417607184109433
+"KRR-RBF, 50 independent outputs",F_esters_flower,-0.00032653287383443974
+"KRR-RBF, 50 independent outputs",F_esters_fruity,0.1386360906967833
+"KRR-RBF, 50 independent outputs",acidity,0.5562236054771789
+"KRR-RBF, 50 independent outputs",bitternes,0.49841406330483173
+"KRR-RBF, 50 independent outputs",sweetness,0.27480847091760563
+"KRR-RBF, 50 independent outputs",X4vg,0.23917411795116228
+"KRR-RBF, 50 independent outputs",diacetyl,-0.08049046296687834
+"KRR-RBF, 50 independent outputs",dms,0.06656424569634534
+"KRR-RBF, 50 independent outputs",metallic,0.0698496197320968
+"KRR-RBF, 50 independent outputs",stale_hops,0.024270491392039517
+"KRR-RBF, 50 independent outputs",t2n,-0.01220715748977308
+"KRR-RBF, 50 independent outputs",orange,0.23042610213796166
+"KRR-RBF, 50 independent outputs",coriander,0.17374574427729683
+"KRR-RBF, 50 independent outputs",clove,0.1975045839699514
+"KRR-RBF, 50 independent outputs",lactic,0.455249034644192
+"KRR-RBF, 50 independent outputs",acetic,0.49058903796552444
+"KRR-RBF, 50 independent outputs",barnyard,-0.005875511600979877
+"KRR-RBF, 50 independent outputs",alcohol,0.587463581682141
+"KRR-RBF, 50 independent outputs",aftertaste,0.40887807256996533
+"KRR-RBF, 50 independent outputs",body,0.4421231434487123
+"KRR-RBF, 50 independent outputs",co2,0.26148751376057033
+"KRR-RBF, 50 independent outputs",overall,0.05024032164304715
+"KRR-RBF, 16-d low-rank targets",A_malt_all,0.23914031209442577
+"KRR-RBF, 16-d low-rank targets",A_malt_grain,0.11083987454701183
+"KRR-RBF, 16-d low-rank targets",A_malt_bread,0.0327646029267995
+"KRR-RBF, 16-d low-rank targets",A_malt_cara,0.26260838541834075
+"KRR-RBF, 16-d low-rank targets",A_malt_burn,0.08955086001558099
+"KRR-RBF, 16-d low-rank targets",A_hops_all,0.16866303648558978
+"KRR-RBF, 16-d low-rank targets",A_hops_citrus,0.042697782266326145
+"KRR-RBF, 16-d low-rank targets",A_hops_tropical,-0.17085429814341535
+"KRR-RBF, 16-d low-rank targets",A_hops_noble,0.18654682545199075
+"KRR-RBF, 16-d low-rank targets",A_hops_woody,0.04119405245999208
+"KRR-RBF, 16-d low-rank targets",A_esters_all,0.1499579024617721
+"KRR-RBF, 16-d low-rank targets",A_esters_ethac,0.07726724473416868
+"KRR-RBF, 16-d low-rank targets",A_esters_isoaa,0.08807977749526474
+"KRR-RBF, 16-d low-rank targets",A_esters_flower,0.06435916941636077
+"KRR-RBF, 16-d low-rank targets",A_esters_fruity,0.06879843829158716
+"KRR-RBF, 16-d low-rank targets",F_malt_all,0.3107663549803482
+"KRR-RBF, 16-d low-rank targets",F_malt_grain,0.06733064135762479
+"KRR-RBF, 16-d low-rank targets",F_malt_bread,0.1527693461083246
+"KRR-RBF, 16-d low-rank targets",F_malt_cara,0.23211856724999047
+"KRR-RBF, 16-d low-rank targets",F_malt_burn,0.20746482675538402
+"KRR-RBF, 16-d low-rank targets",F_hops_all,0.2826438922713086
+"KRR-RBF, 16-d low-rank targets",F_hops_citrus,-0.017019689237268043
+"KRR-RBF, 16-d low-rank targets",F_hops_tropical,-0.08358603057478131
+"KRR-RBF, 16-d low-rank targets",F_hops_noble,0.2534855766424644
+"KRR-RBF, 16-d low-rank targets",F_hops_woody,0.1324479524455321
+"KRR-RBF, 16-d low-rank targets",F_esters_all,0.2502511933221687
+"KRR-RBF, 16-d low-rank targets",F_esters_ethac,0.17086245438566727
+"KRR-RBF, 16-d low-rank targets",F_esters_isoaa,0.11274434977242298
+"KRR-RBF, 16-d low-rank targets",F_esters_flower,0.015632153982269248
+"KRR-RBF, 16-d low-rank targets",F_esters_fruity,0.15509925481528541
+"KRR-RBF, 16-d low-rank targets",acidity,0.5579638633908279
+"KRR-RBF, 16-d low-rank targets",bitternes,0.48477233596006875
+"KRR-RBF, 16-d low-rank targets",sweetness,0.2577084529774002
+"KRR-RBF, 16-d low-rank targets",X4vg,0.24455818236941995
+"KRR-RBF, 16-d low-rank targets",diacetyl,-0.07809775359384008
+"KRR-RBF, 16-d low-rank targets",dms,0.02573223430936422
+"KRR-RBF, 16-d low-rank targets",metallic,0.07256994103050851
+"KRR-RBF, 16-d low-rank targets",stale_hops,0.022254086246711657
+"KRR-RBF, 16-d low-rank targets",t2n,-0.0025405340298847445
+"KRR-RBF, 16-d low-rank targets",orange,0.2816326824106258
+"KRR-RBF, 16-d low-rank targets",coriander,0.13930635134193992
+"KRR-RBF, 16-d low-rank targets",clove,0.20921056053891707
+"KRR-RBF, 16-d low-rank targets",lactic,0.4481850232983883
+"KRR-RBF, 16-d low-rank targets",acetic,0.47336339486886114
+"KRR-RBF, 16-d low-rank targets",barnyard,-0.00032544588404692654
+"KRR-RBF, 16-d low-rank targets",alcohol,0.555340796769463
+"KRR-RBF, 16-d low-rank targets",aftertaste,0.39307713768141395
+"KRR-RBF, 16-d low-rank targets",body,0.4181472975043461
+"KRR-RBF, 16-d low-rank targets",co2,0.2974244291151149
+"KRR-RBF, 16-d low-rank targets",overall,0.05640834886910984
+Grouped convex fusion (contest design),A_malt_all,0.2419851426874361
+Grouped convex fusion (contest design),A_malt_grain,0.10290169899702695
+Grouped convex fusion (contest design),A_malt_bread,0.02965973351327822
+Grouped convex fusion (contest design),A_malt_cara,0.2581655603033197
+Grouped convex fusion (contest design),A_malt_burn,0.08912654033823042
+Grouped convex fusion (contest design),A_hops_all,0.16581245424669522
+Grouped convex fusion (contest design),A_hops_citrus,0.03877763955969715
+Grouped convex fusion (contest design),A_hops_tropical,-0.18171410797100274
+Grouped convex fusion (contest design),A_hops_noble,0.1897229404120443
+Grouped convex fusion (contest design),A_hops_woody,0.05423881764169891
+Grouped convex fusion (contest design),A_esters_all,0.14355732183572734
+Grouped convex fusion (contest design),A_esters_ethac,0.07234275803162271
+Grouped convex fusion (contest design),A_esters_isoaa,0.09374282171207637
+Grouped convex fusion (contest design),A_esters_flower,0.06449140694853528
+Grouped convex fusion (contest design),A_esters_fruity,0.06693747398354732
+Grouped convex fusion (contest design),F_malt_all,0.3066935503385416
+Grouped convex fusion (contest design),F_malt_grain,0.0627363532390236
+Grouped convex fusion (contest design),F_malt_bread,0.15019989078543472
+Grouped convex fusion (contest design),F_malt_cara,0.2296515637902734
+Grouped convex fusion (contest design),F_malt_burn,0.2147814197108494
+Grouped convex fusion (contest design),F_hops_all,0.2849791643110159
+Grouped convex fusion (contest design),F_hops_citrus,-0.013771525195411138
+Grouped convex fusion (contest design),F_hops_tropical,-0.07527477346412592
+Grouped convex fusion (contest design),F_hops_noble,0.2544681712036343
+Grouped convex fusion (contest design),F_hops_woody,0.12724010228302096
+Grouped convex fusion (contest design),F_esters_all,0.2602259402544119
+Grouped convex fusion (contest design),F_esters_ethac,0.18976567445060344
+Grouped convex fusion (contest design),F_esters_isoaa,0.10348138265156481
+Grouped convex fusion (contest design),F_esters_flower,0.007090461921221869
+Grouped convex fusion (contest design),F_esters_fruity,0.14639835905786014
+Grouped convex fusion (contest design),acidity,0.5566665941583777
+Grouped convex fusion (contest design),bitternes,0.49704012024646793
+Grouped convex fusion (contest design),sweetness,0.273243626199383
+Grouped convex fusion (contest design),X4vg,0.24079942243582675
+Grouped convex fusion (contest design),diacetyl,-0.07748205936140051
+Grouped convex fusion (contest design),dms,0.06109762764625737
+Grouped convex fusion (contest design),metallic,0.07123642817788012
+Grouped convex fusion (contest design),stale_hops,0.022515695236981492
+Grouped convex fusion (contest design),t2n,-0.009929298763931671
+Grouped convex fusion (contest design),orange,0.2390378170543126
+Grouped convex fusion (contest design),coriander,0.1691094612662427
+Grouped convex fusion (contest design),clove,0.2006628849988814
+Grouped convex fusion (contest design),lactic,0.45455004403126464
+Grouped convex fusion (contest design),acetic,0.4883599841363675
+Grouped convex fusion (contest design),barnyard,-0.004927399036443569
+Grouped convex fusion (contest design),alcohol,0.5836692609834997
+Grouped convex fusion (contest design),aftertaste,0.4070408176963811
+Grouped convex fusion (contest design),body,0.4389195915023577
+Grouped convex fusion (contest design),co2,0.268869957459
+Grouped convex fusion (contest design),overall,0.05205802610119792

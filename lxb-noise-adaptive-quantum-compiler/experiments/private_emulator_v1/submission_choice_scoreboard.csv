@@ -1,0 +1,3 @@
+variant,choice_score,public_5seed_mean,public_delta_vs_baseline,worst_seed_final,synthetic_hard_mean,synthetic_affine_trackb,backend_jitter_mean,public_invalid_count,aggregate_invalid_count,negative_public_seed_count,public_seed_deltas,p95_compile_time_sec,max_compile_time_sec,compile_time_risk,aggressive_gate
+v19_relative_phase_toffoli,0.5516573079427083,0.8190673828125,0.013256835937500044,0.8084716796875,0.76357421875,0.5057454427083334,0.0,0,5,0,0.012085;0.016479;0.014648;0.013916;0.009155,8.221962200012058,8.332137899997178,0.0,pass
+final_c0_conservative,0.5408797200520833,0.805810546875,0.0,0.7938232421875,0.74765625,0.5055013020833334,0.8045068359374999,0,5,0,0.000000;0.000000;0.000000;0.000000;0.000000,8.693880999984685,9.63904249999905,0.0,baseline

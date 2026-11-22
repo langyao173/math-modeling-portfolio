@@ -1,0 +1,42 @@
+{
+  "audit_date": "2026-10-24",
+  "model_package": "tabdpt==1.3.1",
+  "checkpoint": "tabdpt1_3.safetensors",
+  "checkpoint_sha256": "97dc3b60bfad6b42ec1a07b7e121d86b0fc7c9fd67c8d2eaac3d815da197eacb",
+  "actual_header_manifest": "tabdpt_datasets/training/extended_openml_filtered_deduped.csv",
+  "public_training_tree_commit": "af0340c5cdebe2ceb6b94c09d6f9564ee80b89df",
+  "public_training_tree_truncated": false,
+  "actual_manifest_present_in_inspected_tree": false,
+  "old_manifest_rows": {
+    "noleak_training_datasets.csv": 123,
+    "noleak_training_datasets_anysize.csv": 79
+  },
+  "turbo_paper_corpus_count": 1445,
+  "actual_v13_corpus_count_independently_verified": false,
+  "conclusion": "No direct overlap established; absence of overlap with beer data and derived tables remains unverified.",
+  "cannot_claim": [
+    "Uncontaminated external SOTA",
+    "All beer variants excluded by 200-column filter",
+    "Old manifests certify current checkpoint"
+  ],
+  "primary_sources": [
+    "https://github.com/layer6ai-labs/TabDPT-training",
+    "https://github.com/layer6ai-labs/TabDPT-inference/releases/tag/v1.3.0",
+    "https://arxiv.org/html/2608.01400v2",
+    "https://arxiv.org/html/2410.18164v3"
+  ],
+  "additional_discovery_queries_2026_10_24": {
+    "queries": [
+      "site:openml.org beer \"250\"",
+      "site:openml.org \"beer\" sensory",
+      "site:openml.org \"beer\" \"sensory\"",
+      "site:openml.org \"A_malt_all\" OR \"Predicting and improving complex beer flavor\""
+    ],
+    "engines": [
+      "system2",
+      "system1"
+    ],
+    "finding": "No relevant original beer table located in these web discovery results.",
+    "interpretation": "Negative keyword search is not an exclusion certificate and does not change the unverified-overlap conclusion."
+  }
+}

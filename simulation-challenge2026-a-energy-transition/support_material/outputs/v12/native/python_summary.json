@@ -1,0 +1,16 @@
+{
+  "net_emissions_2060_mt": 10065.198603031837,
+  "energy_co2_2060_mt": 9889.85284328278,
+  "national_gross_co2_2060_mt": 10865.198603031837,
+  "industrial_co2_2060_mt": 975.345759749056,
+  "structural_net_floor_mt": 175.34575974905601,
+  "discounted_capital_trillion_cny": 74.57935439000109,
+  "paid_capital_trillion_cny": 164.71084784760254,
+  "max_power_shortfall_fraction": 2.0613442608113796e-16,
+  "max_direct_fuel_shortfall_fraction": 0.0,
+  "max_useful_service_shortfall_fraction": 3.3306690738754696e-16,
+  "nonfossil_share_2060": 0.543190273611746,
+  "annual_capital_budget_violation_million_cny": 9.313225746154785e-10,
+  "fuel_balance_residual_mtce": 4.547473508864641e-13,
+  "power_balance_residual_twh": 3.637978807091713e-12
+}

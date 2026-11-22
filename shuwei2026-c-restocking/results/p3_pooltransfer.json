@@ -1,0 +1,86 @@
+{
+ "n_pools": 60,
+ "envs_per_pool": 4,
+ "trials_per_pool": 30,
+ "seeds": [
+  2026111700,
+  2026111701,
+  2026111702,
+  2026111703,
+  2026111704,
+  2026111705,
+  2026111706,
+  2026111707,
+  2026111708,
+  2026111709
+ ],
+ "best_on_validation": "RO-feat-learn",
+ "selected_pool_level_rule": "RO-family-static",
+ "rule": [
+  {
+   "policy": "RO-family-static",
+   "validation_mean": 0.7071991246027202,
+   "gap_to_best": 0.03203777275389208,
+   "pool_sd_of_gap": 0.05585280876831523,
+   "within_one_pool_se": true
+  },
+  {
+   "policy": "RO-family-learn",
+   "validation_mean": 0.709734692185469,
+   "gap_to_best": 0.029502205171143214,
+   "pool_sd_of_gap": 0.04038767609637376,
+   "within_one_pool_se": true
+  },
+  {
+   "policy": "RO-feat-static",
+   "validation_mean": 0.7389615251798259,
+   "gap_to_best": 0.00027537217678630377,
+   "pool_sd_of_gap": 0.04826245113753996,
+   "within_one_pool_se": true
+  },
+  {
+   "policy": "RO-feat-learn",
+   "validation_mean": 0.7392368973566122,
+   "gap_to_best": 0.0,
+   "pool_sd_of_gap": 0.0,
+   "within_one_pool_se": true
+  },
+  {
+   "policy": "RO-bma-static",
+   "validation_mean": 0.7361613462416212,
+   "gap_to_best": 0.0030755511149910264,
+   "pool_sd_of_gap": 0.04736134639406649,
+   "within_one_pool_se": true
+  },
+  {
+   "policy": "RO-bma-learn",
+   "validation_mean": 0.7371416641769621,
+   "gap_to_best": 0.0020952331796501023,
+   "pool_sd_of_gap": 0.03824745830460434,
+   "within_one_pool_se": true
+  }
+ ],
+ "mean_objective": {
+  "EDD-median": 0.34176679354136547,
+  "Index-static": 0.4420674179352983,
+  "RO-family-static": 0.4564209510510899,
+  "RO-family-learn": 0.5369598955776907,
+  "RO-feat-static": 0.5143800673016887,
+  "RO-feat-learn": 0.5613394828789384,
+  "RO-bma-static": 0.48293533856736076,
+  "RO-bma-learn": 0.5453126409022105
+ },
+ "sd_objective": {
+  "EDD-median": 0.3137036700908925,
+  "Index-static": 0.22535107637299748,
+  "RO-family-static": 0.2932903561110257,
+  "RO-family-learn": 0.2997437012321375,
+  "RO-feat-static": 0.25719289765143216,
+  "RO-feat-learn": 0.2785530338414253,
+  "RO-bma-static": 0.285424690051992,
+  "RO-bma-learn": 0.2940781020164063
+ },
+ "duration_mae_family": 0.6881731152553466,
+ "duration_mae_prefix": 0.663482234803748,
+ "share_pools_prefix_predicts_better": 0.8
+}

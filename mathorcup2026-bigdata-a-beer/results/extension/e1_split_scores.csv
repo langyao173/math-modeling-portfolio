@@ -1,0 +1,67 @@
+split_seed,model,macro_r2
+0,GBR (reference study's best model),0.1666828703242955
+0,Ridge,-1.5412429865506891
+0,Extra Trees,0.2215849701833823
+0,"KRR-RBF, 50 independent outputs",0.17017392384545002
+0,"KRR-RBF, 16-d low-rank targets",0.17102632390746486
+0,Grouped convex fusion (contest design),0.17221905079493513
+100,GBR (reference study's best model),0.2132398124352165
+100,Ridge,0.2219913197468046
+100,Extra Trees,0.2633905858350716
+100,"KRR-RBF, 50 independent outputs",0.2215309208899506
+100,"KRR-RBF, 16-d low-rank targets",0.22214087981814234
+100,Grouped convex fusion (contest design),0.2289056849821473
+101,GBR (reference study's best model),0.19867151666537428
+101,Ridge,-45.92466183206995
+101,Extra Trees,0.24514459288524204
+101,"KRR-RBF, 50 independent outputs",0.19003364037846324
+101,"KRR-RBF, 16-d low-rank targets",0.18198802605518666
+101,Grouped convex fusion (contest design),0.1912762539142453
+102,GBR (reference study's best model),0.13608482880791725
+102,Ridge,-7.467264939734508
+102,Extra Trees,0.22364748372079135
+102,"KRR-RBF, 50 independent outputs",0.18664307215950354
+102,"KRR-RBF, 16-d low-rank targets",0.1960316600821697
+102,Grouped convex fusion (contest design),0.2034676668748428
+103,GBR (reference study's best model),0.15027974486461024
+103,Ridge,-0.6397548478186259
+103,Extra Trees,0.22009125247923886
+103,"KRR-RBF, 50 independent outputs",0.18534929117268767
+103,"KRR-RBF, 16-d low-rank targets",0.18183010523808818
+103,Grouped convex fusion (contest design),0.18924973865457545
+104,GBR (reference study's best model),0.161567485657992
+104,Ridge,-130.30596662408445
+104,Extra Trees,0.21651045021318482
+104,"KRR-RBF, 50 independent outputs",0.16065869963967155
+104,"KRR-RBF, 16-d low-rank targets",0.16958326754981964
+104,Grouped convex fusion (contest design),0.17140642852863222
+105,GBR (reference study's best model),0.1546496925242149
+105,Ridge,-5.305690164650221
+105,Extra Trees,0.22305007846554614
+105,"KRR-RBF, 50 independent outputs",0.16860817341606993
+105,"KRR-RBF, 16-d low-rank targets",0.16929180260753104
+105,Grouped convex fusion (contest design),0.1728506484212188
+106,GBR (reference study's best model),0.18247367128348643
+106,Ridge,0.1295774866978422
+106,Extra Trees,0.21689093374613347
+106,"KRR-RBF, 50 independent outputs",0.19472975595205694
+106,"KRR-RBF, 16-d low-rank targets",0.1869198360360464
+106,Grouped convex fusion (contest design),0.20084778637705952
+107,GBR (reference study's best model),0.1186813291563924
+107,Ridge,-0.41166158491779464
+107,Extra Trees,0.2073730318333202
+107,"KRR-RBF, 50 independent outputs",0.16905361880848524
+107,"KRR-RBF, 16-d low-rank targets",0.1749759732226726
+107,Grouped convex fusion (contest design),0.17852135158297472
+108,GBR (reference study's best model),0.1957698017369033
+108,Ridge,0.20074022809702272
+108,Extra Trees,0.25748844397611775
+108,"KRR-RBF, 50 independent outputs",0.2205299818181376
+108,"KRR-RBF, 16-d low-rank targets",0.21184400382641283
+108,Grouped convex fusion (contest design),0.22726218337123022
+109,GBR (reference study's best model),0.18046745384261428
+109,Ridge,0.18364536497060815
+109,Extra Trees,0.2332766311349209
+109,"KRR-RBF, 50 independent outputs",0.21397289060172597
+109,"KRR-RBF, 16-d low-rank targets",0.22040965466621618
+109,Grouped convex fusion (contest design),0.22256512541983203

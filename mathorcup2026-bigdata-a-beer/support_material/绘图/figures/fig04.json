@@ -1,0 +1,41 @@
+{
+  "figure": 4,
+  "caption": "核心30维缺测压力测试。三个同构环形单元分别展示宏R²、相对等级MAE与±1档率；每圈依次为完整、屏蔽派生、10%、30%、50%五种输入场景，每组内均按TabICL-Y16、KNN集成、中位数集成排列。颜色只编码方法。半径采用显式非零截断基线，量程分别为0.10–0.26、1.40–1.66与45%–60%，对应下方各自的比例尺，不能跨圈比较长度；截断只增强指标内差异的可见性，不改变原始数值。数据为冻结五折汇总45值，不表示逐属性或重复训练分布。后四场景先屏蔽5项派生量。",
+  "figure_inches": [
+    6.7,
+    3.25
+  ],
+  "sources": [
+    {
+      "path": "../visual_redesign/source_data/historical_plot_data/05_modern_missingness_all.csv",
+      "sha256": "18442b53b6ad77c5479812872814b70e3f128f06071b06a238f6b4b6bf4da4a2"
+    }
+  ],
+  "new_model_fits": 0,
+  "new_bootstrap_resamples": 0,
+  "style": "shared_index_compositions_v4",
+  "aggregate_values": 45,
+  "shared_scenario_order": [
+    "完整",
+    "派生",
+    "10%",
+    "30%",
+    "50%"
+  ],
+  "original_zero_radii": false,
+  "radial_scale_ranges": [
+    [
+      0.1,
+      0.26
+    ],
+    [
+      1.4,
+      1.66
+    ],
+    [
+      45,
+      60
+    ]
+  ],
+  "per_attribute_official_missingness_cache_available": false
+}

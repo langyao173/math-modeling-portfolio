@@ -1,0 +1,17 @@
+defaults:
+  - official
+  - _self_
+
+project:
+  track: final_frozen_closed
+
+runtime:
+  clean_outputs: true
+
+deployment:
+  selected_model: joint_poisson_static_history
+  model_artifact: models/problem3_joint_poisson_static_2014.json
+  decision_status: frozen_after_development_evidence
+  rationale: >-
+    Deploy the static-history joint-goal distribution; keep the dynamic-state
+    variant research-only until future pre-match 2026 state inputs are supplied.

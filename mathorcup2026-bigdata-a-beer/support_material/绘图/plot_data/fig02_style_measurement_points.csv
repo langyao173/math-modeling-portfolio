@@ -1,0 +1,251 @@
+beer,style,records
+137,Amber,9
+158,Amber,8
+11,Amber,9
+43,Amber,8
+128,Amber,8
+92,Amber,6
+32,Amber,8
+19,Amber,8
+6,Amber,8
+126,Amber,6
+210,Amber,8
+63,Amber,11
+77,Blond,10
+64,Blond,10
+46,Blond,10
+5,Blond,4
+62,Blond,11
+70,Blond,11
+113,Blond,11
+59,Blond,10
+110,Blond,10
+246,Blond,9
+238,Blond,21
+76,Blond,10
+136,Blond,6
+49,Blond,13
+193,Blond,10
+164,Blond,11
+149,Blond,6
+125,Blond,11
+234,Blond,11
+249,Blond,10
+101,Blond,10
+127,Blond,25
+30,Blond,11
+94,Blond,13
+121,Blond,13
+35,Blond,11
+215,Blond,11
+248,Blond,13
+73,Blond,11
+71,Blond,11
+3,Blond,13
+236,Brett/cofermented,6
+122,Brett/cofermented,6
+14,Brett/cofermented,11
+150,Brett/cofermented,11
+222,Brett/cofermented,8
+203,Brett/cofermented,11
+112,Brown,9
+129,Brown,8
+109,Brown,9
+206,Brown,8
+53,Brown,18
+98,Brown,8
+78,Brown,8
+237,Brown,8
+36,Brown,8
+108,Brown,8
+89,Brown,8
+25,Brown,8
+205,Brut,3
+130,Brut,3
+1,Brut,3
+192,Brut,3
+106,Christmas,9
+180,Christmas,9
+13,Christmas,9
+60,Christmas,5
+38,Christmas,3
+214,Christmas,21
+181,Christmas,9
+102,Christmas,4
+95,Christmas,9
+48,Dubbel,10
+111,Dubbel,7
+194,Dubbel,10
+100,Dubbel,10
+107,Dubbel,10
+16,Dubbel,10
+221,Dubbel,9
+174,Dubbel,10
+187,Dubbel,9
+198,Dubbel,9
+250,Faro,7
+74,Faro,7
+151,Faro,7
+179,Flanders old brown,8
+161,Flanders old brown,18
+190,Flanders old brown,9
+167,Flanders old brown,9
+159,Flanders old brown,9
+247,Fruitbeer,4
+165,Fruitbeer,4
+207,Fruitbeer,4
+33,Fruitbeer,4
+50,Fruitbeer,4
+227,Fruitbeer,4
+177,Fruitbeer,4
+184,Fruitbeer,4
+213,Hoppy,9
+169,Hoppy,9
+55,Hoppy,5
+219,Hoppy,17
+72,Hoppy,9
+97,Hoppy,9
+39,Hoppy,5
+80,Hoppy,9
+120,Hoppy,6
+27,Hoppy,5
+79,Hoppy,9
+8,Hoppy,5
+31,Hoppy,9
+9,Hoppy,9
+114,Hoppy,24
+143,Hoppy,9
+65,Hoppy,9
+88,Kriek,7
+54,Kriek,4
+232,Kriek,7
+156,Kriek,7
+138,Kriek,7
+82,Kriek,7
+241,Kriek,6
+220,Kriek,14
+24,Kriek,7
+153,Kriek,7
+211,Lambic,11
+116,Lambic,7
+42,Lambic,6
+12,Lambic,7
+115,Lambic,8
+18,Lambic,8
+144,Lambic,8
+41,Lambic,11
+162,Lambic,11
+75,Lambic,19
+21,Lambic,7
+10,Low/No alcohol,5
+86,Low/No alcohol,5
+2,Low/No alcohol,5
+83,Low/No alcohol,5
+40,Low/No alcohol,5
+155,Low/No alcohol,5
+141,Low/No alcohol,5
+223,Low/No alcohol,5
+124,Pils/Lager,8
+81,Pils/Lager,10
+218,Pils/Lager,8
+96,Pils/Lager,11
+230,Pils/Lager,8
+185,Pils/Lager,19
+139,Pils/Lager,27
+209,Pils/Lager,8
+119,Pils/Lager,8
+90,Pils/Lager,8
+28,Pils/Lager,11
+166,Saison,6
+183,Saison,7
+58,Saison,6
+56,Saison,7
+20,Saison,13
+7,Saison,6
+29,Saison,7
+132,Saison,5
+145,Saison,7
+242,Saison,7
+216,Scotch,5
+146,Scotch,5
+168,Scotch,5
+131,Scotch,5
+233,Scotch,5
+202,Stout/Porter,28
+188,Stout/Porter,10
+61,Stout/Porter,10
+231,Stout/Porter,8
+87,Stout/Porter,8
+201,Stout/Porter,10
+173,Stout/Porter,10
+212,Stout/Porter,10
+123,Stout/Porter,5
+52,Stout/Porter,8
+182,Stout/Porter,8
+67,Stout/Porter,3
+103,Stout/Porter,3
+105,Strong ale,6
+186,Strong ale,3
+37,Strong ale,31
+134,Strong ale,7
+226,Strong ale,9
+104,Strong ale,9
+51,Strong ale,6
+170,Strong ale,6
+235,Strong ale,9
+225,Strong ale,7
+133,Strong ale,7
+148,Strong ale,9
+91,Strong ale,7
+117,Strong ale,3
+175,Strong ale,6
+196,Strong ale,7
+4,Strong ale,6
+99,Strong ale,9
+228,Tripel,5
+135,Tripel,8
+93,Tripel,8
+69,Tripel,11
+240,Tripel,10
+23,Tripel,19
+47,Tripel,9
+147,Tripel,11
+66,Tripel,9
+245,Tripel,8
+191,Tripel,11
+204,Tripel,8
+34,Tripel,8
+45,Tripel,10
+154,Tripel,10
+57,Tripel,10
+17,Tripel,6
+217,Tripel,10
+163,Tripel,11
+68,Tripel,3
+15,Tripel,6
+140,Tripel,9
+189,Tripel,11
+199,Tripel,11
+85,Tripel,10
+239,Tripel,11
+171,Tripel,3
+157,Tripel,3
+200,West Flanders ale,9
+84,West Flanders ale,9
+26,West Flanders ale,18
+176,West Flanders ale,9
+244,West Flanders ale,9
+178,West Flanders ale,9
+118,West Flanders ale,9
+22,Wheat,7
+44,Wheat,8
+195,Wheat,8
+142,Wheat,8
+197,Wheat,8
+224,Wheat,31
+172,Wheat,8
+160,Wheat,8
+243,Wheat,8
+152,Wheat,8
+208,Wheat,8
+229,Wheat,8

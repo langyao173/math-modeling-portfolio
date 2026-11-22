@@ -1,0 +1,21 @@
+{
+  "protocol": "V4 supplemental government-consumer-investor full factorial v1",
+  "declared_before_new_execution": "2026-10-17",
+  "calibration_end": 2020,
+  "initial_year": 2024,
+  "final_year": 2060,
+  "endpoint_years": [2030, 2060],
+  "scenarios": ["baseline", "policy", "risk", "technology"],
+  "bit_order": ["government", "consumer", "investor"],
+  "bit_interpretation": "1 retains the mechanism, 0 removes it; consumer=0 freezes initial carrier shares; investor=0 jointly disables profit and all operating feedback. Native construction and physical constraints remain.",
+  "reused_cells": {"000": "all_behaviour_simplified", "011": "government_feedback_off", "101": "consumer_choices_frozen", "110": "investor_all_response_off", "111": "full"},
+  "new_cells": ["001", "010", "100"],
+  "metrics": ["energy_co2_mt", "useful_service_unserved_fraction", "nonfossil_share", "cumulative_investment_million_cny"],
+  "source_cohort_receipt": "outputs/v4/annual/run_receipt.json",
+  "expected_reused_runs": 20,
+  "expected_new_runs": 12,
+  "expected_cells": 32,
+  "shapley_direction": "Contribution to full(111) minus all-disabled(000) model outcome. Negative emissions contribution can coincide with positive service loss. Contributions add arithmetically for this model-specific game, not independent empirical causality.",
+  "interaction": "Mobius first/pair/triple differences relative to 000; explicitly report the interaction terms rather than calling single-removal deltas additive.",
+  "claim_boundaries": ["Supplementary cohort: 12 newly executed cases and 20 reused cases, not 32 new independent simulations.", "The original fixed 88-case cohort is retained unchanged.", "Effects depend on the chosen baseline mechanism absence, scenario and metric.", "No parameter selection and no use of 2025 for tuning.", "Annual V4 Python experiments are distinct from later native execution checks."]
+}

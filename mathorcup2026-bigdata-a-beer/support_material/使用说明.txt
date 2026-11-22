@@ -1,0 +1,29 @@
+计算程序与支撑数据
+
+目录
+research：三问基准、现代预测、分组凸融合、共变与风格内解释、区间Copula生成、几何迁移及验证。
+raw_score_research：公开逐次原分的身份对应、预定评分、正式v2模型与留出输出。
+图表源码与最终矢量图由同包绘图目录提供。完整结果CSV位于完整提交包的计算结果目录。
+
+数据准备
+将竞赛原始附件1.csv、2.csv、3.xlsx、4.csv、5.csv、6.csv、7.csv、8.xlsx放在同一目录，保持文件名与文件字节。public_data中保存与250款竞赛样本对应的公开匿名原始品评记录及来源记录，不能将其称为外部独立验证集。
+
+从原始附件重算
+cd research
+python run_submission.py --list
+python run_submission.py --check-input --data-dir /path/to/A_attachments
+python run_submission.py --prepare-only --data-dir /path/to/A_attachments --work-dir /path/to/fresh_run
+按research/README.md安装分环境依赖，准备固定版本公开权重和字体，再以--stages all执行各阶段。准备目录须为独立的新目录；计算会新生成模型和结果。
+
+冻结预测复算
+cd research
+python prediction/run_prespecified_fusion.py --modern project/MathorCup_A/frontier_revision/experiments/modern_prediction --nested checkpoint/unpacked/nested_selection --output /path/to/fusion_replay
+该复算读取保留的52项折内/折外预测与划分，无需重新神经推理。独立算术核验方法见prediction/REPRODUCE.md。
+
+条件生成和迁移
+操作顺序分别见research/generation/README.md、research/migration/README.md。先设置MATHORCUP_PROJECT_DIR指向research/project/MathorCup_A，并放回竞赛附件。matched_budget/replay_frozen.py重放正文的100次冻结候选验证，不重新优化或选择候选。
+
+原分预测
+操作顺序见raw_score_research/models/README.md。正式留出预测在models/results_v2/predictions.npz；部署模型位于models/deployment，部署训练不作为留出成绩。
+
+模型、数据、权重和字体的来源及许可保留在对应模块。

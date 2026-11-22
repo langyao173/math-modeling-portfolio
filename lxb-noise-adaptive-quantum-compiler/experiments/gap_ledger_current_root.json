@@ -1,0 +1,2645 @@
+{
+  "aggregate_headroom": {
+    "final": 0.0879208285127192,
+    "track_a": 0.04541766547396812,
+    "track_b": 0.04250316303875108
+  },
+  "largest_residuals": [
+    {
+      "benchmark": "track_b_001",
+      "current_cx_count": 21,
+      "current_depth": 16,
+      "current_success": 0.6669921875,
+      "raw_headroom_to_readout_cap": 0.19126021690444595,
+      "readout_only_upper_bound": 0.858252404404446,
+      "recommended_next_action": "Track B: only low-risk physical placement/readout assignment; do not rewrite semantics",
+      "terminal_readout_cost": 0.21116656961524577,
+      "track": "track_b",
+      "twoq_log_cost": 0.29429572512909563,
+      "weighted_final_headroom": 0.023907527113055743
+    },
+    {
+      "benchmark": "track_b_002",
+      "current_cx_count": 19,
+      "current_depth": 6,
+      "current_success": 0.61328125,
+      "raw_headroom_to_readout_cap": 0.1487650874055627,
+      "readout_only_upper_bound": 0.7620463374055627,
+      "recommended_next_action": "Track B: only low-risk physical placement/readout assignment; do not rewrite semantics",
+      "terminal_readout_cost": 0.29001822893429613,
+      "track": "track_b",
+      "twoq_log_cost": 0.24633015832064278,
+      "weighted_final_headroom": 0.01859563592569534
+    },
+    {
+      "benchmark": "track_a_007",
+      "current_cx_count": 14,
+      "current_depth": 22,
+      "current_success": 0.8046875,
+      "raw_headroom_to_readout_cap": 0.14719596037409177,
+      "readout_only_upper_bound": 0.9518834603740918,
+      "recommended_next_action": "Track A: semantic row-phase/Peres/carry/H-boundary mining, not generic router",
+      "terminal_readout_cost": 0.06043044098276841,
+      "track": "track_a",
+      "twoq_log_cost": 0.14868513875287231,
+      "weighted_final_headroom": 0.013799621285071104
+    },
+    {
+      "benchmark": "track_a_008",
+      "current_cx_count": 14,
+      "current_depth": 28,
+      "current_success": 0.8046875,
+      "raw_headroom_to_readout_cap": 0.13767712577035085,
+      "readout_only_upper_bound": 0.9423646257703508,
+      "recommended_next_action": "Track A: semantic row-phase/Peres/carry/H-boundary mining, not generic router",
+      "terminal_readout_cost": 0.07452936536227006,
+      "track": "track_a",
+      "twoq_log_cost": 0.14950881185755224,
+      "weighted_final_headroom": 0.012907230540970392
+    },
+    {
+      "benchmark": "track_a_002",
+      "current_cx_count": 8,
+      "current_depth": 8,
+      "current_success": 0.87109375,
+      "raw_headroom_to_readout_cap": 0.08078971037409177,
+      "readout_only_upper_bound": 0.9518834603740918,
+      "recommended_next_action": "Track A: inspect semantic rewrite or lower-noise exact route",
+      "terminal_readout_cost": 0.06043044098276841,
+      "track": "track_a",
+      "twoq_log_cost": 0.0859971732439079,
+      "weighted_final_headroom": 0.007574035347571104
+    },
+    {
+      "benchmark": "track_a_004",
+      "current_cx_count": 5,
+      "current_depth": 13,
+      "current_success": 0.9140625,
+      "raw_headroom_to_readout_cap": 0.03782096037409177,
+      "readout_only_upper_bound": 0.9518834603740918,
+      "recommended_next_action": "Readout placement/tail cleanup only",
+      "terminal_readout_cost": 0.05032327876352605,
+      "track": "track_a",
+      "twoq_log_cost": 0.035496762293732005,
+      "weighted_final_headroom": 0.0035457150350711036
+    }
+  ],
+  "readout_only_caps": {
+    "final": 0.9155575472627193,
+    "track_a": 0.9506936060486242,
+    "track_b": 0.8101493709050043
+  },
+  "samples": [
+    {
+      "benchmark": "track_b_001",
+      "candidate_count": 7,
+      "candidate_families": [
+        "ghz_tree"
+      ],
+      "compile_time_sec": 9.94505099998787,
+      "correct_shots": 683,
+      "current_cx_count": 21,
+      "current_depth": 16,
+      "current_success": 0.6669921875,
+      "estimated_log_reliability": -0.506462795077925,
+      "family": "ghz",
+      "fresh_compile_time_sec": 7.707489599997643,
+      "log_cost_share": {
+        "readout": 0.41694389334710247,
+        "singleq": 0.0019754665955859525,
+        "twoq": 0.5810806400573114
+      },
+      "measurement_readout": {
+        "max_readout_error": 0.02,
+        "mean_readout_error": 0.01310625,
+        "qubits": [
+          10,
+          13,
+          9,
+          23,
+          1,
+          30,
+          18,
+          2,
+          5,
+          4,
+          20,
+          29,
+          15,
+          3,
+          27,
+          6
+        ],
+        "readout_error_sum": 0.2097,
+        "readout_errors": [
+          0.01,
+          0.012,
+          0.014,
+          0.014,
+          0.009900000000000003,
+          0.014,
+          0.02,
+          0.014,
+          0.0088,
+          0.011000000000000001,
+          0.012,
+          0.018000000000000002,
+          0.018000000000000002,
+          0.01,
+          0.012,
+          0.012
+        ],
+        "readout_log_cost": 0.21116656961524577
+      },
+      "op_counts": {
+        "cx": 21,
+        "h": 1,
+        "measure": 1
+      },
+      "positive_log_cost_total": 0.506462795077925,
+      "raw_headroom_to_readout_cap": 0.19126021690444595,
+      "readout_only_upper_bound": 0.858252404404446,
+      "recommended_next_action": "Track B: only low-risk physical placement/readout assignment; do not rewrite semantics",
+      "sample_weight": 0.125,
+      "selected_candidate": "ghz_leaf_steiner_tree_relabel",
+      "semantic_rewrite_triggered": [
+        "final-Z GHZ tree/leaf-tree measurement-channel"
+      ],
+      "shots": 1024,
+      "singleq_log_cost": 0.0010005003335835344,
+      "source_cx_count": 15,
+      "source_op_counts": {
+        "cx": 15,
+        "h": 1,
+        "measure": 1
+      },
+      "summary_depth": 16,
+      "summary_estimated_log_reliability": -0.506462795077925,
+      "terminal_readout_cost": 0.21116656961524577,
+      "track": "track_b",
+      "twoq_log_cost": 0.29429572512909563,
+      "used_edges": {
+        "directed_edge_counts": [
+          {
+            "count": 1,
+            "edge": [
+              10,
+              1
+            ],
+            "error": 0.012199999999999999
+          },
+          {
+            "count": 1,
+            "edge": [
+              10,
+              2
+            ],
+            "error": 0.013399999999999999
+          },
+          {
+            "count": 1,
+            "edge": [
+              10,
+              9
+            ],
+            "error": 0.014599999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              10,
+              11
+            ],
+            "error": 0.012199999999999999
+          },
+          {
+            "count": 1,
+            "edge": [
+              11,
+              3
+            ],
+            "error": 0.011
+          },
+          {
+            "count": 1,
+            "edge": [
+              11,
+              12
+            ],
+            "error": 0.016999999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              11,
+              19
+            ],
+            "error": 0.013399999999999999
+          },
+          {
+            "count": 1,
+            "edge": [
+              12,
+              4
+            ],
+            "error": 0.015799999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              12,
+              20
+            ],
+            "error": 0.011
+          },
+          {
+            "count": 1,
+            "edge": [
+              12,
+              21
+            ],
+            "error": 0.014599999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              14,
+              5
+            ],
+            "error": 0.016999999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              14,
+              6
+            ],
+            "error": 0.011
+          },
+          {
+            "count": 1,
+            "edge": [
+              14,
+              15
+            ],
+            "error": 0.016999999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              19,
+              18
+            ],
+            "error": 0.014599999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              19,
+              27
+            ],
+            "error": 0.015799999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              21,
+              13
+            ],
+            "error": 0.015799999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              21,
+              22
+            ],
+            "error": 0.014599999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              21,
+              29
+            ],
+            "error": 0.011
+          },
+          {
+            "count": 1,
+            "edge": [
+              21,
+              30
+            ],
+            "error": 0.014599999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              22,
+              14
+            ],
+            "error": 0.013399999999999999
+          },
+          {
+            "count": 1,
+            "edge": [
+              22,
+              23
+            ],
+            "error": 0.012199999999999999
+          }
+        ],
+        "edge_counts": [
+          {
+            "count": 1,
+            "edge": [
+              5,
+              14
+            ],
+            "error": 0.016999999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              11,
+              12
+            ],
+            "error": 0.016999999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              14,
+              15
+            ],
+            "error": 0.016999999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              4,
+              12
+            ],
+            "error": 0.015799999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              13,
+              21
+            ],
+            "error": 0.015799999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              19,
+              27
+            ],
+            "error": 0.015799999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              9,
+              10
+            ],
+            "error": 0.014599999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              12,
+              21
+            ],
+            "error": 0.014599999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              18,
+              19
+            ],
+            "error": 0.014599999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              21,
+              22
+            ],
+            "error": 0.014599999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              21,
+              30
+            ],
+            "error": 0.014599999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              2,
+              10
+            ],
+            "error": 0.013399999999999999
+          },
+          {
+            "count": 1,
+            "edge": [
+              11,
+              19
+            ],
+            "error": 0.013399999999999999
+          },
+          {
+            "count": 1,
+            "edge": [
+              14,
+              22
+            ],
+            "error": 0.013399999999999999
+          },
+          {
+            "count": 1,
+            "edge": [
+              1,
+              10
+            ],
+            "error": 0.012199999999999999
+          },
+          {
+            "count": 1,
+            "edge": [
+              10,
+              11
+            ],
+            "error": 0.012199999999999999
+          },
+          {
+            "count": 1,
+            "edge": [
+              22,
+              23
+            ],
+            "error": 0.012199999999999999
+          },
+          {
+            "count": 1,
+            "edge": [
+              3,
+              11
+            ],
+            "error": 0.011
+          },
+          {
+            "count": 1,
+            "edge": [
+              6,
+              14
+            ],
+            "error": 0.011
+          },
+          {
+            "count": 1,
+            "edge": [
+              12,
+              20
+            ],
+            "error": 0.011
+          },
+          {
+            "count": 1,
+            "edge": [
+              21,
+              29
+            ],
+            "error": 0.011
+          }
+        ],
+        "hottest_edges": [
+          {
+            "count": 1,
+            "edge": [
+              5,
+              14
+            ],
+            "error": 0.016999999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              11,
+              12
+            ],
+            "error": 0.016999999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              14,
+              15
+            ],
+            "error": 0.016999999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              4,
+              12
+            ],
+            "error": 0.015799999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              13,
+              21
+            ],
+            "error": 0.015799999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              19,
+              27
+            ],
+            "error": 0.015799999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              9,
+              10
+            ],
+            "error": 0.014599999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              12,
+              21
+            ],
+            "error": 0.014599999999999998
+          }
+        ],
+        "mean_twoq_error_per_gate": 0.013914285714285716,
+        "twoq_error_sum": 0.2922,
+        "twoq_log_cost": 0.29429572512909563,
+        "unique_edge_count": 21,
+        "worst_edge": {
+          "count": 1,
+          "edge": [
+            11,
+            12
+          ],
+          "error": 0.016999999999999998
+        }
+      },
+      "valid": true,
+      "weighted_final_headroom": 0.023907527113055743,
+      "width": 16
+    },
+    {
+      "benchmark": "track_b_002",
+      "candidate_count": 3,
+      "candidate_families": [
+        "legacy_track_b",
+        "measurement_channel"
+      ],
+      "compile_time_sec": 14.642597199999727,
+      "correct_shots": 628,
+      "current_cx_count": 19,
+      "current_depth": 6,
+      "current_success": 0.61328125,
+      "estimated_log_reliability": -0.5523563925922755,
+      "family": "parity",
+      "fresh_compile_time_sec": 11.785648600023706,
+      "log_cost_share": {
+        "readout": 0.5250563455474923,
+        "singleq": 0.02898129821981246,
+        "twoq": 0.44596235623269515
+      },
+      "measurement_readout": {
+        "max_readout_error": 0.02,
+        "mean_readout_error": 0.012004166666666668,
+        "qubits": [
+          1,
+          10,
+          0,
+          2,
+          4,
+          3,
+          12,
+          5,
+          14,
+          6,
+          15,
+          13,
+          28,
+          20,
+          27,
+          29,
+          17,
+          9,
+          24,
+          25,
+          30,
+          21,
+          22,
+          31
+        ],
+        "readout_error_sum": 0.2881,
+        "readout_errors": [
+          0.009900000000000003,
+          0.01,
+          0.0044,
+          0.014,
+          0.011000000000000001,
+          0.01,
+          0.016,
+          0.0088,
+          0.008,
+          0.012,
+          0.018000000000000002,
+          0.012,
+          0.008,
+          0.012,
+          0.012,
+          0.018000000000000002,
+          0.01,
+          0.014,
+          0.01,
+          0.02,
+          0.014,
+          0.008,
+          0.018000000000000002,
+          0.01
+        ],
+        "readout_log_cost": 0.29001822893429613
+      },
+      "op_counts": {
+        "cx": 19,
+        "h": 6,
+        "measure": 1,
+        "x": 10
+      },
+      "positive_log_cost_total": 0.5523563925922755,
+      "raw_headroom_to_readout_cap": 0.1487650874055627,
+      "readout_only_upper_bound": 0.7620463374055627,
+      "recommended_next_action": "Track B: only low-risk physical placement/readout assignment; do not rewrite semantics",
+      "sample_weight": 0.125,
+      "selected_candidate": "not_matched_after_tail_or_copyout",
+      "semantic_rewrite_triggered": [
+        "affine parity measurement-channel physical placement/copyout"
+      ],
+      "shots": 1024,
+      "singleq_log_cost": 0.016008005337336546,
+      "source_cx_count": 46,
+      "source_op_counts": {
+        "cx": 46,
+        "h": 6,
+        "measure": 1,
+        "x": 10
+      },
+      "summary_depth": 6,
+      "summary_estimated_log_reliability": -0.5523563925922755,
+      "terminal_readout_cost": 0.29001822893429613,
+      "track": "track_b",
+      "twoq_log_cost": 0.24633015832064278,
+      "used_edges": {
+        "directed_edge_counts": [
+          {
+            "count": 1,
+            "edge": [
+              1,
+              0
+            ],
+            "error": 0.0065699999999999995
+          },
+          {
+            "count": 1,
+            "edge": [
+              1,
+              2
+            ],
+            "error": 0.012199999999999999
+          },
+          {
+            "count": 1,
+            "edge": [
+              1,
+              10
+            ],
+            "error": 0.012199999999999999
+          },
+          {
+            "count": 1,
+            "edge": [
+              4,
+              3
+            ],
+            "error": 0.014599999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              4,
+              5
+            ],
+            "error": 0.00549
+          },
+          {
+            "count": 1,
+            "edge": [
+              4,
+              12
+            ],
+            "error": 0.015799999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              14,
+              6
+            ],
+            "error": 0.011
+          },
+          {
+            "count": 1,
+            "edge": [
+              14,
+              13
+            ],
+            "error": 0.012199999999999999
+          },
+          {
+            "count": 1,
+            "edge": [
+              14,
+              15
+            ],
+            "error": 0.016999999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              16,
+              24
+            ],
+            "error": 0.015799999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              17,
+              9
+            ],
+            "error": 0.011
+          },
+          {
+            "count": 1,
+            "edge": [
+              17,
+              16
+            ],
+            "error": 0.012199999999999999
+          },
+          {
+            "count": 1,
+            "edge": [
+              17,
+              25
+            ],
+            "error": 0.013399999999999999
+          },
+          {
+            "count": 1,
+            "edge": [
+              28,
+              20
+            ],
+            "error": 0.013399999999999999
+          },
+          {
+            "count": 1,
+            "edge": [
+              28,
+              27
+            ],
+            "error": 0.014599999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              28,
+              29
+            ],
+            "error": 0.012199999999999999
+          },
+          {
+            "count": 1,
+            "edge": [
+              30,
+              21
+            ],
+            "error": 0.014599999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              30,
+              22
+            ],
+            "error": 0.015799999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              30,
+              31
+            ],
+            "error": 0.014599999999999998
+          }
+        ],
+        "edge_counts": [
+          {
+            "count": 1,
+            "edge": [
+              14,
+              15
+            ],
+            "error": 0.016999999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              4,
+              12
+            ],
+            "error": 0.015799999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              16,
+              24
+            ],
+            "error": 0.015799999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              22,
+              30
+            ],
+            "error": 0.015799999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              3,
+              4
+            ],
+            "error": 0.014599999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              21,
+              30
+            ],
+            "error": 0.014599999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              27,
+              28
+            ],
+            "error": 0.014599999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              30,
+              31
+            ],
+            "error": 0.014599999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              17,
+              25
+            ],
+            "error": 0.013399999999999999
+          },
+          {
+            "count": 1,
+            "edge": [
+              20,
+              28
+            ],
+            "error": 0.013399999999999999
+          },
+          {
+            "count": 1,
+            "edge": [
+              1,
+              2
+            ],
+            "error": 0.012199999999999999
+          },
+          {
+            "count": 1,
+            "edge": [
+              1,
+              10
+            ],
+            "error": 0.012199999999999999
+          },
+          {
+            "count": 1,
+            "edge": [
+              13,
+              14
+            ],
+            "error": 0.012199999999999999
+          },
+          {
+            "count": 1,
+            "edge": [
+              16,
+              17
+            ],
+            "error": 0.012199999999999999
+          },
+          {
+            "count": 1,
+            "edge": [
+              28,
+              29
+            ],
+            "error": 0.012199999999999999
+          },
+          {
+            "count": 1,
+            "edge": [
+              6,
+              14
+            ],
+            "error": 0.011
+          },
+          {
+            "count": 1,
+            "edge": [
+              9,
+              17
+            ],
+            "error": 0.011
+          },
+          {
+            "count": 1,
+            "edge": [
+              0,
+              1
+            ],
+            "error": 0.0065699999999999995
+          },
+          {
+            "count": 1,
+            "edge": [
+              4,
+              5
+            ],
+            "error": 0.00549
+          }
+        ],
+        "hottest_edges": [
+          {
+            "count": 1,
+            "edge": [
+              14,
+              15
+            ],
+            "error": 0.016999999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              4,
+              12
+            ],
+            "error": 0.015799999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              16,
+              24
+            ],
+            "error": 0.015799999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              22,
+              30
+            ],
+            "error": 0.015799999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              3,
+              4
+            ],
+            "error": 0.014599999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              21,
+              30
+            ],
+            "error": 0.014599999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              27,
+              28
+            ],
+            "error": 0.014599999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              30,
+              31
+            ],
+            "error": 0.014599999999999998
+          }
+        ],
+        "mean_twoq_error_per_gate": 0.012876842105263155,
+        "twoq_error_sum": 0.24465999999999996,
+        "twoq_log_cost": 0.24633015832064278,
+        "unique_edge_count": 19,
+        "worst_edge": {
+          "count": 1,
+          "edge": [
+            14,
+            15
+          ],
+          "error": 0.016999999999999998
+        }
+      },
+      "valid": true,
+      "weighted_final_headroom": 0.01859563592569534,
+      "width": 24
+    },
+    {
+      "benchmark": "track_a_007",
+      "candidate_count": 32,
+      "candidate_families": [
+        "cirq_cqc",
+        "noise_adaptive_router",
+        "row_phase_relative_toffoli"
+      ],
+      "compile_time_sec": 3.5214710000436753,
+      "correct_shots": 206,
+      "current_cx_count": 14,
+      "current_depth": 22,
+      "current_success": 0.8046875,
+      "estimated_log_reliability": -0.2231225844058102,
+      "family": "adder",
+      "fresh_compile_time_sec": 0.8910421000327915,
+      "log_cost_share": {
+        "readout": 0.27083964244900877,
+        "singleq": 0.06277717115670309,
+        "twoq": 0.6663831863942882
+      },
+      "measurement_readout": {
+        "max_readout_error": 0.014,
+        "mean_readout_error": 0.010016666666666669,
+        "qubits": [
+          9,
+          4,
+          5,
+          0,
+          6,
+          1
+        ],
+        "readout_error_sum": 0.06010000000000001,
+        "readout_errors": [
+          0.014,
+          0.011000000000000001,
+          0.0088,
+          0.0044,
+          0.012,
+          0.009900000000000003
+        ],
+        "readout_log_cost": 0.06043044098276841
+      },
+      "op_counts": {
+        "cx": 14,
+        "h": 4,
+        "measure": 1,
+        "t": 4,
+        "tdg": 4,
+        "x": 2
+      },
+      "positive_log_cost_total": 0.2231225844058102,
+      "raw_headroom_to_readout_cap": 0.14719596037409177,
+      "readout_only_upper_bound": 0.9518834603740918,
+      "recommended_next_action": "Track A: semantic row-phase/Peres/carry/H-boundary mining, not generic router",
+      "sample_weight": 0.09375,
+      "selected_candidate": "relative_phase_toffoli_0_1_3_2_3_5_noise_adaptive_l0_balanced",
+      "semantic_rewrite_triggered": [
+        "final-Z row-phase relative-Toffoli rewrite"
+      ],
+      "shots": 256,
+      "singleq_log_cost": 0.014007004670169477,
+      "source_cx_count": 15,
+      "source_op_counts": {
+        "cx": 15,
+        "h": 4,
+        "measure": 1,
+        "t": 8,
+        "tdg": 6,
+        "x": 2
+      },
+      "summary_depth": 22,
+      "summary_estimated_log_reliability": -0.2231225844058102,
+      "terminal_readout_cost": 0.06043044098276841,
+      "track": "track_a",
+      "twoq_log_cost": 0.14868513875287231,
+      "used_edges": {
+        "directed_edge_counts": [
+          {
+            "count": 3,
+            "edge": [
+              9,
+              5
+            ],
+            "error": 0.0174
+          },
+          {
+            "count": 2,
+            "edge": [
+              0,
+              1
+            ],
+            "error": 0.008369999999999999
+          },
+          {
+            "count": 2,
+            "edge": [
+              0,
+              4
+            ],
+            "error": 0.00675
+          },
+          {
+            "count": 2,
+            "edge": [
+              4,
+              0
+            ],
+            "error": 0.00675
+          },
+          {
+            "count": 2,
+            "edge": [
+              5,
+              4
+            ],
+            "error": 0.00729
+          },
+          {
+            "count": 1,
+            "edge": [
+              4,
+              5
+            ],
+            "error": 0.00729
+          },
+          {
+            "count": 1,
+            "edge": [
+              5,
+              1
+            ],
+            "error": 0.00891
+          },
+          {
+            "count": 1,
+            "edge": [
+              5,
+              6
+            ],
+            "error": 0.020999999999999998
+          }
+        ],
+        "edge_counts": [
+          {
+            "count": 4,
+            "edge": [
+              0,
+              4
+            ],
+            "error": 0.00675
+          },
+          {
+            "count": 3,
+            "edge": [
+              5,
+              9
+            ],
+            "error": 0.0174
+          },
+          {
+            "count": 3,
+            "edge": [
+              4,
+              5
+            ],
+            "error": 0.00729
+          },
+          {
+            "count": 2,
+            "edge": [
+              0,
+              1
+            ],
+            "error": 0.008369999999999999
+          },
+          {
+            "count": 1,
+            "edge": [
+              5,
+              6
+            ],
+            "error": 0.020999999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              1,
+              5
+            ],
+            "error": 0.00891
+          }
+        ],
+        "hottest_edges": [
+          {
+            "count": 4,
+            "edge": [
+              0,
+              4
+            ],
+            "error": 0.00675
+          },
+          {
+            "count": 3,
+            "edge": [
+              5,
+              9
+            ],
+            "error": 0.0174
+          },
+          {
+            "count": 3,
+            "edge": [
+              4,
+              5
+            ],
+            "error": 0.00729
+          },
+          {
+            "count": 2,
+            "edge": [
+              0,
+              1
+            ],
+            "error": 0.008369999999999999
+          },
+          {
+            "count": 1,
+            "edge": [
+              5,
+              6
+            ],
+            "error": 0.020999999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              1,
+              5
+            ],
+            "error": 0.00891
+          }
+        ],
+        "mean_twoq_error_per_gate": 0.010551428571428571,
+        "twoq_error_sum": 0.14772,
+        "twoq_log_cost": 0.14868513875287231,
+        "unique_edge_count": 6,
+        "worst_edge": {
+          "count": 1,
+          "edge": [
+            5,
+            6
+          ],
+          "error": 0.020999999999999998
+        }
+      },
+      "valid": true,
+      "weighted_final_headroom": 0.013799621285071104,
+      "width": 6
+    },
+    {
+      "benchmark": "track_a_008",
+      "candidate_count": 32,
+      "candidate_families": [
+        "cirq_cqc",
+        "noise_adaptive_router",
+        "row_phase_relative_toffoli"
+      ],
+      "compile_time_sec": 9.794342400040478,
+      "correct_shots": 206,
+      "current_cx_count": 14,
+      "current_depth": 28,
+      "current_success": 0.8046875,
+      "estimated_log_reliability": -0.2430476835579095,
+      "family": "structured_random",
+      "fresh_compile_time_sec": 7.475963899982162,
+      "log_cost_share": {
+        "readout": 0.30664503471604737,
+        "singleq": 0.07821307349986681,
+        "twoq": 0.6151418917840855
+      },
+      "measurement_readout": {
+        "max_readout_error": 0.014,
+        "mean_readout_error": 0.010585714285714285,
+        "qubits": [
+          0,
+          2,
+          9,
+          1,
+          5,
+          4,
+          6
+        ],
+        "readout_error_sum": 0.0741,
+        "readout_errors": [
+          0.0044,
+          0.014,
+          0.014,
+          0.009900000000000003,
+          0.0088,
+          0.011000000000000001,
+          0.012
+        ],
+        "readout_log_cost": 0.07452936536227006
+      },
+      "op_counts": {
+        "cx": 14,
+        "h": 4,
+        "measure": 1,
+        "t": 4,
+        "tdg": 4,
+        "x": 7
+      },
+      "positive_log_cost_total": 0.2430476835579095,
+      "raw_headroom_to_readout_cap": 0.13767712577035085,
+      "readout_only_upper_bound": 0.9423646257703508,
+      "recommended_next_action": "Track A: semantic row-phase/Peres/carry/H-boundary mining, not generic router",
+      "sample_weight": 0.09375,
+      "selected_candidate": "relative_phase_toffoli_3_4_5_0_4_5_noise_adaptive_l1_balanced",
+      "semantic_rewrite_triggered": [
+        "final-Z row-phase relative-Toffoli rewrite",
+        "route-scar compute/uncompute cancellation"
+      ],
+      "shots": 256,
+      "singleq_log_cost": 0.019009506338087147,
+      "source_cx_count": 16,
+      "source_op_counts": {
+        "cx": 16,
+        "h": 4,
+        "measure": 1,
+        "t": 8,
+        "tdg": 6,
+        "x": 7
+      },
+      "summary_depth": 28,
+      "summary_estimated_log_reliability": -0.2430476835579095,
+      "terminal_readout_cost": 0.07452936536227006,
+      "track": "track_a",
+      "twoq_log_cost": 0.14950881185755224,
+      "used_edges": {
+        "directed_edge_counts": [
+          {
+            "count": 3,
+            "edge": [
+              4,
+              5
+            ],
+            "error": 0.00729
+          },
+          {
+            "count": 2,
+            "edge": [
+              1,
+              0
+            ],
+            "error": 0.008369999999999999
+          },
+          {
+            "count": 2,
+            "edge": [
+              2,
+              1
+            ],
+            "error": 0.0162
+          },
+          {
+            "count": 2,
+            "edge": [
+              5,
+              4
+            ],
+            "error": 0.00729
+          },
+          {
+            "count": 1,
+            "edge": [
+              0,
+              4
+            ],
+            "error": 0.00675
+          },
+          {
+            "count": 1,
+            "edge": [
+              1,
+              5
+            ],
+            "error": 0.00891
+          },
+          {
+            "count": 1,
+            "edge": [
+              5,
+              1
+            ],
+            "error": 0.00891
+          },
+          {
+            "count": 1,
+            "edge": [
+              5,
+              6
+            ],
+            "error": 0.020999999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              9,
+              5
+            ],
+            "error": 0.0174
+          }
+        ],
+        "edge_counts": [
+          {
+            "count": 5,
+            "edge": [
+              4,
+              5
+            ],
+            "error": 0.00729
+          },
+          {
+            "count": 2,
+            "edge": [
+              1,
+              2
+            ],
+            "error": 0.0162
+          },
+          {
+            "count": 2,
+            "edge": [
+              1,
+              5
+            ],
+            "error": 0.00891
+          },
+          {
+            "count": 2,
+            "edge": [
+              0,
+              1
+            ],
+            "error": 0.008369999999999999
+          },
+          {
+            "count": 1,
+            "edge": [
+              5,
+              6
+            ],
+            "error": 0.020999999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              5,
+              9
+            ],
+            "error": 0.0174
+          },
+          {
+            "count": 1,
+            "edge": [
+              0,
+              4
+            ],
+            "error": 0.00675
+          }
+        ],
+        "hottest_edges": [
+          {
+            "count": 5,
+            "edge": [
+              4,
+              5
+            ],
+            "error": 0.00729
+          },
+          {
+            "count": 2,
+            "edge": [
+              1,
+              2
+            ],
+            "error": 0.0162
+          },
+          {
+            "count": 2,
+            "edge": [
+              1,
+              5
+            ],
+            "error": 0.00891
+          },
+          {
+            "count": 2,
+            "edge": [
+              0,
+              1
+            ],
+            "error": 0.008369999999999999
+          },
+          {
+            "count": 1,
+            "edge": [
+              5,
+              6
+            ],
+            "error": 0.020999999999999998
+          },
+          {
+            "count": 1,
+            "edge": [
+              5,
+              9
+            ],
+            "error": 0.0174
+          },
+          {
+            "count": 1,
+            "edge": [
+              0,
+              4
+            ],
+            "error": 0.00675
+          }
+        ],
+        "mean_twoq_error_per_gate": 0.010611428571428572,
+        "twoq_error_sum": 0.14856,
+        "twoq_log_cost": 0.14950881185755224,
+        "unique_edge_count": 7,
+        "worst_edge": {
+          "count": 1,
+          "edge": [
+            5,
+            6
+          ],
+          "error": 0.020999999999999998
+        }
+      },
+      "valid": true,
+      "weighted_final_headroom": 0.012907230540970392,
+      "width": 7
+    },
+    {
+      "benchmark": "track_a_002",
+      "candidate_count": 19,
+      "candidate_families": [
+        "cirq_cqc",
+        "noise_adaptive_router",
+        "physical_relabel"
+      ],
+      "compile_time_sec": 2.8411476999754086,
+      "correct_shots": 223,
+      "current_cx_count": 8,
+      "current_depth": 8,
+      "current_success": 0.87109375,
+      "estimated_log_reliability": -0.15042961556101045,
+      "family": "hs",
+      "fresh_compile_time_sec": 0.17107410001335666,
+      "log_cost_share": {
+        "readout": 0.4017190415424505,
+        "singleq": 0.026603812815775143,
+        "twoq": 0.5716771456417744
+      },
+      "measurement_readout": {
+        "max_readout_error": 0.014,
+        "mean_readout_error": 0.010016666666666669,
+        "qubits": [
+          1,
+          0,
+          4,
+          5,
+          9,
+          13
+        ],
+        "readout_error_sum": 0.06010000000000001,
+        "readout_errors": [
+          0.009900000000000003,
+          0.0044,
+          0.011000000000000001,
+          0.0088,
+          0.014,
+          0.012
+        ],
+        "readout_log_cost": 0.06043044098276841
+      },
+      "op_counts": {
+        "cx": 8,
+        "measure": 1,
+        "x": 4
+      },
+      "positive_log_cost_total": 0.15042961556101045,
+      "raw_headroom_to_readout_cap": 0.08078971037409177,
+      "readout_only_upper_bound": 0.9518834603740918,
+      "recommended_next_action": "Track A: inspect semantic rewrite or lower-noise exact route",
+      "sample_weight": 0.09375,
+      "selected_candidate": "noise_adaptive_l0_balanced_relabel",
+      "semantic_rewrite_triggered": [],
+      "shots": 256,
+      "singleq_log_cost": 0.0040020013343341375,
+      "source_cx_count": 8,
+      "source_op_counts": {
+        "cx": 8,
+        "measure": 1,
+        "x": 4
+      },
+      "summary_depth": 8,
+      "summary_estimated_log_reliability": -0.15042961556101045,
+      "terminal_readout_cost": 0.06043044098276841,
+      "track": "track_a",
+      "twoq_log_cost": 0.0859971732439079,
+      "used_edges": {
+        "directed_edge_counts": [
+          {
+            "count": 1,
+            "edge": [
+              0,
+              1
+            ],
+            "error": 0.008369999999999999
+          },
+          {
+            "count": 1,
+            "edge": [
+              0,
+              4
+            ],
+            "error": 0.00675
+          },
+          {
+            "count": 1,
+            "edge": [
+              1,
+              0
+            ],
+            "error": 0.008369999999999999
+          },
+          {
+            "count": 1,
+            "edge": [
+              4,
+              5
+            ],
+            "error": 0.00729
+          },
+          {
+            "count": 1,
+            "edge": [
+              5,
+              4
+            ],
+            "error": 0.00729
+          },
+          {
+            "count": 1,
+            "edge": [
+              5,
+              9
+            ],
+            "error": 0.0174
+          },
+          {
+            "count": 1,
+            "edge": [
+              9,
+              13
+            ],
+            "error": 0.015
+          },
+          {
+            "count": 1,
+            "edge": [
+              13,
+              9
+            ],
+            "error": 0.015
+          }
+        ],
+        "edge_counts": [
+          {
+            "count": 2,
+            "edge": [
+              9,
+              13
+            ],
+            "error": 0.015
+          },
+          {
+            "count": 2,
+            "edge": [
+              0,
+              1
+            ],
+            "error": 0.008369999999999999
+          },
+          {
+            "count": 2,
+            "edge": [
+              4,
+              5
+            ],
+            "error": 0.00729
+          },
+          {
+            "count": 1,
+            "edge": [
+              5,
+              9
+            ],
+            "error": 0.0174
+          },
+          {
+            "count": 1,
+            "edge": [
+              0,
+              4
+            ],
+            "error": 0.00675
+          }
+        ],
+        "hottest_edges": [
+          {
+            "count": 2,
+            "edge": [
+              9,
+              13
+            ],
+            "error": 0.015
+          },
+          {
+            "count": 2,
+            "edge": [
+              0,
+              1
+            ],
+            "error": 0.008369999999999999
+          },
+          {
+            "count": 2,
+            "edge": [
+              4,
+              5
+            ],
+            "error": 0.00729
+          },
+          {
+            "count": 1,
+            "edge": [
+              5,
+              9
+            ],
+            "error": 0.0174
+          },
+          {
+            "count": 1,
+            "edge": [
+              0,
+              4
+            ],
+            "error": 0.00675
+          }
+        ],
+        "mean_twoq_error_per_gate": 0.01068375,
+        "twoq_error_sum": 0.08547,
+        "twoq_log_cost": 0.0859971732439079,
+        "unique_edge_count": 5,
+        "worst_edge": {
+          "count": 1,
+          "edge": [
+            5,
+            9
+          ],
+          "error": 0.0174
+        }
+      },
+      "valid": true,
+      "weighted_final_headroom": 0.007574035347571104,
+      "width": 6
+    },
+    {
+      "benchmark": "track_a_004",
+      "candidate_count": 32,
+      "candidate_families": [
+        "cirq_cqc",
+        "noise_adaptive_router",
+        "row_phase_relative_toffoli"
+      ],
+      "compile_time_sec": 2.837718899943866,
+      "correct_shots": 234,
+      "current_cx_count": 5,
+      "current_depth": 13,
+      "current_success": 0.9140625,
+      "estimated_log_reliability": -0.09582504439309339,
+      "family": "fredkin",
+      "fresh_compile_time_sec": 0.2562105000251904,
+      "log_cost_share": {
+        "readout": 0.5251578966881555,
+        "singleq": 0.10440906549224051,
+        "twoq": 0.37043303781960407
+      },
+      "measurement_readout": {
+        "max_readout_error": 0.011000000000000001,
+        "mean_readout_error": 0.008350000000000002,
+        "qubits": [
+          1,
+          0,
+          4,
+          7,
+          14,
+          5
+        ],
+        "readout_error_sum": 0.050100000000000006,
+        "readout_errors": [
+          0.009900000000000003,
+          0.0044,
+          0.011000000000000001,
+          0.008,
+          0.008,
+          0.0088
+        ],
+        "readout_log_cost": 0.05032327876352605
+      },
+      "op_counts": {
+        "cx": 5,
+        "h": 2,
+        "measure": 1,
+        "t": 2,
+        "tdg": 2,
+        "x": 4
+      },
+      "positive_log_cost_total": 0.09582504439309339,
+      "raw_headroom_to_readout_cap": 0.03782096037409177,
+      "readout_only_upper_bound": 0.9518834603740918,
+      "recommended_next_action": "Readout placement/tail cleanup only",
+      "sample_weight": 0.09375,
+      "selected_candidate": "relative_phase_toffoli_0_2_1_noise_adaptive_l0_balanced",
+      "semantic_rewrite_triggered": [
+        "final-Z row-phase relative-Toffoli rewrite"
+      ],
+      "shots": 256,
+      "singleq_log_cost": 0.010005003335835342,
+      "source_cx_count": 8,
+      "source_op_counts": {
+        "cx": 8,
+        "h": 2,
+        "measure": 1,
+        "t": 4,
+        "tdg": 3,
+        "x": 4
+      },
+      "summary_depth": 13,
+      "summary_estimated_log_reliability": -0.09582504439309339,
+      "terminal_readout_cost": 0.05032327876352605,
+      "track": "track_a",
+      "twoq_log_cost": 0.035496762293732005,
+      "used_edges": {
+        "directed_edge_counts": [
+          {
+            "count": 2,
+            "edge": [
+              0,
+              4
+            ],
+            "error": 0.00675
+          },
+          {
+            "count": 2,
+            "edge": [
+              4,
+              0
+            ],
+            "error": 0.00675
+          },
+          {
+            "count": 1,
+            "edge": [
+              1,
+              0
+            ],
+            "error": 0.008369999999999999
+          }
+        ],
+        "edge_counts": [
+          {
+            "count": 4,
+            "edge": [
+              0,
+              4
+            ],
+            "error": 0.00675
+          },
+          {
+            "count": 1,
+            "edge": [
+              0,
+              1
+            ],
+            "error": 0.008369999999999999
+          }
+        ],
+        "hottest_edges": [
+          {
+            "count": 4,
+            "edge": [
+              0,
+              4
+            ],
+            "error": 0.00675
+          },
+          {
+            "count": 1,
+            "edge": [
+              0,
+              1
+            ],
+            "error": 0.008369999999999999
+          }
+        ],
+        "mean_twoq_error_per_gate": 0.0070739999999999996,
+        "twoq_error_sum": 0.03537,
+        "twoq_log_cost": 0.035496762293732005,
+        "unique_edge_count": 2,
+        "worst_edge": {
+          "count": 1,
+          "edge": [
+            0,
+            1
+          ],
+          "error": 0.008369999999999999
+        }
+      },
+      "valid": true,
+      "weighted_final_headroom": 0.0035457150350711036,
+      "width": 6
+    },
+    {
+      "benchmark": "track_a_005",
+      "candidate_count": 32,
+      "candidate_families": [
+        "cirq_cqc",
+        "noise_adaptive_router",
+        "row_phase_relative_toffoli"
+      ],
+      "compile_time_sec": 2.915519799978938,
+      "correct_shots": 237,
+      "current_cx_count": 5,
+      "current_depth": 12,
+      "current_success": 0.92578125,
+      "estimated_log_reliability": -0.09997374990119204,
+      "family": "peres",
+      "fresh_compile_time_sec": 0.32817519997479394,
+      "log_cost_share": {
+        "readout": 0.5448717522669426,
+        "singleq": 0.1000763034869021,
+        "twoq": 0.3550519442461551
+      },
+      "measurement_readout": {
+        "max_readout_error": 0.014,
+        "mean_readout_error": 0.009033333333333334,
+        "qubits": [
+          0,
+          5,
+          4,
+          2,
+          7,
+          14
+        ],
+        "readout_error_sum": 0.054200000000000005,
+        "readout_errors": [
+          0.0044,
+          0.0088,
+          0.011000000000000001,
+          0.014,
+          0.008,
+          0.008
+        ],
+        "readout_log_cost": 0.05447287228935959
+      },
+      "op_counts": {
+        "cx": 5,
+        "h": 2,
+        "measure": 1,
+        "t": 2,
+        "tdg": 2,
+        "x": 4
+      },
+      "positive_log_cost_total": 0.09997374990119204,
+      "raw_headroom_to_readout_cap": 0.026102210374091772,
+      "readout_only_upper_bound": 0.9518834603740918,
+      "recommended_next_action": "Readout placement/tail cleanup only",
+      "sample_weight": 0.09375,
+      "selected_candidate": "relative_phase_toffoli_0_1_2_noise_adaptive_l5_balanced",
+      "semantic_rewrite_triggered": [
+        "final-Z row-phase relative-Toffoli rewrite"
+      ],
+      "shots": 256,
+      "singleq_log_cost": 0.010005003335835342,
+      "source_cx_count": 7,
+      "source_op_counts": {
+        "cx": 7,
+        "h": 2,
+        "measure": 1,
+        "t": 4,
+        "tdg": 3,
+        "x": 4
+      },
+      "summary_depth": 12,
+      "summary_estimated_log_reliability": -0.09997374990119204,
+      "terminal_readout_cost": 0.05447287228935959,
+      "track": "track_a",
+      "twoq_log_cost": 0.03549587427599709,
+      "used_edges": {
+        "directed_edge_counts": [
+          {
+            "count": 2,
+            "edge": [
+              0,
+              4
+            ],
+            "error": 0.00675
+          },
+          {
+            "count": 2,
+            "edge": [
+              5,
+              4
+            ],
+            "error": 0.00729
+          },
+          {
+            "count": 1,
+            "edge": [
+              4,
+              5
+            ],
+            "error": 0.00729
+          }
+        ],
+        "edge_counts": [
+          {
+            "count": 3,
+            "edge": [
+              4,
+              5
+            ],
+            "error": 0.00729
+          },
+          {
+            "count": 2,
+            "edge": [
+              0,
+              4
+            ],
+            "error": 0.00675
+          }
+        ],
+        "hottest_edges": [
+          {
+            "count": 3,
+            "edge": [
+              4,
+              5
+            ],
+            "error": 0.00729
+          },
+          {
+            "count": 2,
+            "edge": [
+              0,
+              4
+            ],
+            "error": 0.00675
+          }
+        ],
+        "mean_twoq_error_per_gate": 0.0070739999999999996,
+        "twoq_error_sum": 0.03537,
+        "twoq_log_cost": 0.03549587427599709,
+        "unique_edge_count": 2,
+        "worst_edge": {
+          "count": 3,
+          "edge": [
+            4,
+            5
+          ],
+          "error": 0.00729
+        }
+      },
+      "valid": true,
+      "weighted_final_headroom": 0.0024470822225711036,
+      "width": 6
+    },
+    {
+      "benchmark": "track_a_003",
+      "candidate_count": 32,
+      "candidate_families": [
+        "cirq_cqc",
+        "noise_adaptive_router",
+        "row_phase_relative_toffoli"
+      ],
+      "compile_time_sec": 2.930727900005877,
+      "correct_shots": 238,
+      "current_cx_count": 3,
+      "current_depth": 11,
+      "current_success": 0.9296875,
+      "estimated_log_reliability": -0.08319175324176585,
+      "family": "toffoli",
+      "fresh_compile_time_sec": 0.26598309999099,
+      "log_cost_share": {
+        "readout": 0.6049070587234792,
+        "singleq": 0.14431723740827326,
+        "twoq": 0.2507757038682473
+      },
+      "measurement_readout": {
+        "max_readout_error": 0.011000000000000001,
+        "mean_readout_error": 0.008350000000000002,
+        "qubits": [
+          5,
+          0,
+          4,
+          7,
+          14,
+          1
+        ],
+        "readout_error_sum": 0.050100000000000006,
+        "readout_errors": [
+          0.0088,
+          0.0044,
+          0.011000000000000001,
+          0.008,
+          0.008,
+          0.009900000000000003
+        ],
+        "readout_log_cost": 0.05032327876352605
+      },
+      "op_counts": {
+        "cx": 3,
+        "h": 2,
+        "measure": 1,
+        "t": 2,
+        "tdg": 2,
+        "x": 6
+      },
+      "positive_log_cost_total": 0.08319175324176585,
+      "raw_headroom_to_readout_cap": 0.022195960374091772,
+      "readout_only_upper_bound": 0.9518834603740918,
+      "recommended_next_action": "Readout placement/tail cleanup only",
+      "sample_weight": 0.09375,
+      "selected_candidate": "relative_phase_toffoli_0_1_2_noise_adaptive_l0_balanced",
+      "semantic_rewrite_triggered": [
+        "final-Z row-phase relative-Toffoli rewrite"
+      ],
+      "shots": 256,
+      "singleq_log_cost": 0.01200600400300241,
+      "source_cx_count": 6,
+      "source_op_counts": {
+        "cx": 6,
+        "h": 2,
+        "measure": 1,
+        "t": 4,
+        "tdg": 3,
+        "x": 6
+      },
+      "summary_depth": 11,
+      "summary_estimated_log_reliability": -0.08319175324176585,
+      "terminal_readout_cost": 0.05032327876352605,
+      "track": "track_a",
+      "twoq_log_cost": 0.020862470475237378,
+      "used_edges": {
+        "directed_edge_counts": [
+          {
+            "count": 2,
+            "edge": [
+              0,
+              4
+            ],
+            "error": 0.00675
+          },
+          {
+            "count": 1,
+            "edge": [
+              5,
+              4
+            ],
+            "error": 0.00729
+          }
+        ],
+        "edge_counts": [
+          {
+            "count": 2,
+            "edge": [
+              0,
+              4
+            ],
+            "error": 0.00675
+          },
+          {
+            "count": 1,
+            "edge": [
+              4,
+              5
+            ],
+            "error": 0.00729
+          }
+        ],
+        "hottest_edges": [
+          {
+            "count": 2,
+            "edge": [
+              0,
+              4
+            ],
+            "error": 0.00675
+          },
+          {
+            "count": 1,
+            "edge": [
+              4,
+              5
+            ],
+            "error": 0.00729
+          }
+        ],
+        "mean_twoq_error_per_gate": 0.0069299999999999995,
+        "twoq_error_sum": 0.02079,
+        "twoq_log_cost": 0.020862470475237378,
+        "unique_edge_count": 2,
+        "worst_edge": {
+          "count": 1,
+          "edge": [
+            4,
+            5
+          ],
+          "error": 0.00729
+        }
+      },
+      "valid": true,
+      "weighted_final_headroom": 0.0020808712850711036,
+      "width": 6
+    },
+    {
+      "benchmark": "track_a_006",
+      "candidate_count": 32,
+      "candidate_families": [
+        "cirq_cqc",
+        "noise_adaptive_router",
+        "row_phase_relative_toffoli"
+      ],
+      "compile_time_sec": 2.8619606000138447,
+      "correct_shots": 238,
+      "current_cx_count": 3,
+      "current_depth": 11,
+      "current_success": 0.9296875,
+      "estimated_log_reliability": -0.08519275390893292,
+      "family": "or",
+      "fresh_compile_time_sec": 0.22327259997837245,
+      "log_cost_share": {
+        "readout": 0.5906990495614132,
+        "singleq": 0.16441544647262268,
+        "twoq": 0.24488550396596387
+      },
+      "measurement_readout": {
+        "max_readout_error": 0.011000000000000001,
+        "mean_readout_error": 0.008350000000000002,
+        "qubits": [
+          5,
+          0,
+          4,
+          7,
+          14,
+          1
+        ],
+        "readout_error_sum": 0.050100000000000006,
+        "readout_errors": [
+          0.0088,
+          0.0044,
+          0.011000000000000001,
+          0.008,
+          0.008,
+          0.009900000000000003
+        ],
+        "readout_log_cost": 0.05032327876352605
+      },
+      "op_counts": {
+        "cx": 3,
+        "h": 2,
+        "measure": 1,
+        "t": 2,
+        "tdg": 2,
+        "x": 8
+      },
+      "positive_log_cost_total": 0.08519275390893292,
+      "raw_headroom_to_readout_cap": 0.022195960374091772,
+      "readout_only_upper_bound": 0.9518834603740918,
+      "recommended_next_action": "Readout placement/tail cleanup only",
+      "sample_weight": 0.09375,
+      "selected_candidate": "relative_phase_toffoli_0_1_2_noise_adaptive_l0_balanced",
+      "semantic_rewrite_triggered": [
+        "final-Z row-phase relative-Toffoli rewrite"
+      ],
+      "shots": 256,
+      "singleq_log_cost": 0.014007004670169477,
+      "source_cx_count": 6,
+      "source_op_counts": {
+        "cx": 6,
+        "h": 2,
+        "measure": 1,
+        "t": 4,
+        "tdg": 3,
+        "x": 8
+      },
+      "summary_depth": 11,
+      "summary_estimated_log_reliability": -0.08519275390893292,
+      "terminal_readout_cost": 0.05032327876352605,
+      "track": "track_a",
+      "twoq_log_cost": 0.020862470475237378,
+      "used_edges": {
+        "directed_edge_counts": [
+          {
+            "count": 2,
+            "edge": [
+              0,
+              4
+            ],
+            "error": 0.00675
+          },
+          {
+            "count": 1,
+            "edge": [
+              5,
+              4
+            ],
+            "error": 0.00729
+          }
+        ],
+        "edge_counts": [
+          {
+            "count": 2,
+            "edge": [
+              0,
+              4
+            ],
+            "error": 0.00675
+          },
+          {
+            "count": 1,
+            "edge": [
+              4,
+              5
+            ],
+            "error": 0.00729
+          }
+        ],
+        "hottest_edges": [
+          {
+            "count": 2,
+            "edge": [
+              0,
+              4
+            ],
+            "error": 0.00675
+          },
+          {
+            "count": 1,
+            "edge": [
+              4,
+              5
+            ],
+            "error": 0.00729
+          }
+        ],
+        "mean_twoq_error_per_gate": 0.0069299999999999995,
+        "twoq_error_sum": 0.02079,
+        "twoq_log_cost": 0.020862470475237378,
+        "unique_edge_count": 2,
+        "worst_edge": {
+          "count": 1,
+          "edge": [
+            4,
+            5
+          ],
+          "error": 0.00729
+        }
+      },
+      "valid": true,
+      "weighted_final_headroom": 0.0020808712850711036,
+      "width": 6
+    },
+    {
+      "benchmark": "track_a_001",
+      "candidate_count": 16,
+      "candidate_families": [
+        "cirq_cqc",
+        "noise_adaptive_router"
+      ],
+      "compile_time_sec": 3.896322299959138,
+      "correct_shots": 241,
+      "current_cx_count": 2,
+      "current_depth": 7,
+      "current_success": 0.94140625,
+      "estimated_log_reliability": -0.07841986962150414,
+      "family": "bv",
+      "fresh_compile_time_sec": 1.2363907999824733,
+      "log_cost_share": {
+        "readout": 0.6417159197842698,
+        "singleq": 0.1786155057101562,
+        "twoq": 0.179668574505574
+      },
+      "measurement_readout": {
+        "max_readout_error": 0.011000000000000001,
+        "mean_readout_error": 0.008350000000000002,
+        "qubits": [
+          0,
+          7,
+          5,
+          14,
+          1,
+          4
+        ],
+        "readout_error_sum": 0.050100000000000006,
+        "readout_errors": [
+          0.0044,
+          0.008,
+          0.0088,
+          0.008,
+          0.009900000000000003,
+          0.011000000000000001
+        ],
+        "readout_log_cost": 0.05032327876352605
+      },
+      "op_counts": {
+        "cx": 2,
+        "h": 12,
+        "measure": 1,
+        "x": 2
+      },
+      "positive_log_cost_total": 0.07841986962150414,
+      "raw_headroom_to_readout_cap": 0.010477210374091772,
+      "readout_only_upper_bound": 0.9518834603740918,
+      "recommended_next_action": "Readout placement/tail cleanup only",
+      "sample_weight": 0.09375,
+      "selected_candidate": "noise_adaptive_l0_balanced",
+      "semantic_rewrite_triggered": [],
+      "shots": 256,
+      "singleq_log_cost": 0.014007004670169477,
+      "source_cx_count": 2,
+      "source_op_counts": {
+        "cx": 2,
+        "h": 12,
+        "measure": 1,
+        "x": 2
+      },
+      "summary_depth": 7,
+      "summary_estimated_log_reliability": -0.07841986962150414,
+      "terminal_readout_cost": 0.05032327876352605,
+      "track": "track_a",
+      "twoq_log_cost": 0.014089586187808617,
+      "used_edges": {
+        "directed_edge_counts": [
+          {
+            "count": 1,
+            "edge": [
+              0,
+              4
+            ],
+            "error": 0.00675
+          },
+          {
+            "count": 1,
+            "edge": [
+              5,
+              4
+            ],
+            "error": 0.00729
+          }
+        ],
+        "edge_counts": [
+          {
+            "count": 1,
+            "edge": [
+              4,
+              5
+            ],
+            "error": 0.00729
+          },
+          {
+            "count": 1,
+            "edge": [
+              0,
+              4
+            ],
+            "error": 0.00675
+          }
+        ],
+        "hottest_edges": [
+          {
+            "count": 1,
+            "edge": [
+              4,
+              5
+            ],
+            "error": 0.00729
+          },
+          {
+            "count": 1,
+            "edge": [
+              0,
+              4
+            ],
+            "error": 0.00675
+          }
+        ],
+        "mean_twoq_error_per_gate": 0.00702,
+        "twoq_error_sum": 0.01404,
+        "twoq_log_cost": 0.014089586187808617,
+        "unique_edge_count": 2,
+        "worst_edge": {
+          "count": 1,
+          "edge": [
+            4,
+            5
+          ],
+          "error": 0.00729
+        }
+      },
+      "valid": true,
+      "weighted_final_headroom": 0.0009822384725711036,
+      "width": 6
+    }
+  ],
+  "seed": 7,
+  "summary_scores": {
+    "final": 0.82763671875,
+    "invalid_count": 0,
+    "track_a": 0.89013671875,
+    "track_b": 0.64013671875
+  },
+  "variant": "current_promoted_root"
+}

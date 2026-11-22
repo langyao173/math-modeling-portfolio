@@ -1,0 +1,90 @@
+{
+ "nominal": 0.9,
+ "environments": [
+  "hospitality_x_restaurant_0004",
+  "logistics_x_courier_station_0011",
+  "logistics_x_courier_station_0022",
+  "logistics_x_courier_station_0041",
+  "retail_x_supermarket_0074",
+  "retail_x_supermarket_0078",
+  "retail_x_supermarket_0147",
+  "retail_x_supermarket_0159"
+ ],
+ "onsets": 2365,
+ "by_rule": {
+  "environments pooled": {
+   "mean_coverage": 0.8936945056266701,
+   "min_coverage": 0.6923478442426141,
+   "envs_below_0.85": 1,
+   "min_coverage_3s": 0.6436781609195402,
+   "mean_radius_mm": 119.45208408455564,
+   "mean_radius_mm_3s": 140.78594800250514
+  },
+  "windows pooled": {
+   "mean_coverage": 0.9104165186298989,
+   "min_coverage": 0.7639628353690364,
+   "envs_below_0.85": 1,
+   "min_coverage_3s": 0.7586206896551724,
+   "mean_radius_mm": 125.09570151963646,
+   "mean_radius_mm_3s": 150.22917643881993
+  },
+  "windows pooled + online adaptation (gamma=0.005)": {
+   "mean_coverage": 0.9187695830820786,
+   "min_coverage": 0.825451508508195,
+   "envs_below_0.85": 1,
+   "min_coverage_3s": 0.8275862068965517,
+   "mean_radius_mm": 127.58797783615557,
+   "mean_radius_mm_3s": 153.98078145901053
+  },
+  "windows pooled + online adaptation (gamma=0.01)": {
+   "mean_coverage": 0.9209295088387243,
+   "min_coverage": 0.8616765841945924,
+   "envs_below_0.85": 0,
+   "min_coverage_3s": 0.8505747126436781,
+   "mean_radius_mm": 129.75981081712968,
+   "mean_radius_mm_3s": 156.29114526526848
+  },
+  "windows pooled + online adaptation (gamma=0.02)": {
+   "mean_coverage": 0.9193611384375497,
+   "min_coverage": 0.8814072450151372,
+   "envs_below_0.85": 0,
+   "min_coverage_3s": 0.8620689655172413,
+   "mean_radius_mm": 132.17790372055867,
+   "mean_radius_mm_3s": 162.08029715212882
+  },
+  "worst environment": {
+   "mean_coverage": 0.9562540054403923,
+   "min_coverage": 0.848314020252636,
+   "envs_below_0.85": 1,
+   "min_coverage_3s": 0.896551724137931,
+   "mean_radius_mm": 160.31958673654765,
+   "mean_radius_mm_3s": 185.22704362868478
+  }
+ },
+ "submitted_on_test_envs": [
+  {
+   "environment_id": "logistics_x_courier_station_0011",
+   "coverage_all_horizons": 0.8737,
+   "coverage_3 s": 0.8811,
+   "mean_radius_mm": 125.2091
+  },
+  {
+   "environment_id": "logistics_x_courier_station_0041",
+   "coverage_all_horizons": 0.8911,
+   "coverage_3 s": 0.8341,
+   "mean_radius_mm": 117.3524
+  },
+  {
+   "environment_id": "retail_x_supermarket_0078",
+   "coverage_all_horizons": 0.9956,
+   "coverage_3 s": 0.9828,
+   "mean_radius_mm": 122.4558
+  },
+  {
+   "environment_id": "retail_x_supermarket_0159",
+   "coverage_all_horizons": 0.9548,
+   "coverage_3 s": 0.9608,
+   "mean_radius_mm": 122.4011
+  }
+ ]
+}

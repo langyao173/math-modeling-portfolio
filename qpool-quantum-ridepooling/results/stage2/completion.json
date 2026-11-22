@@ -1,0 +1,20 @@
+{
+  "new_closed_loop_runs": 144,
+  "comparison_cases_per_method": 24,
+  "unique_request_trace": 1,
+  "unique_requests": 240,
+  "application_matrices_prepared": 6,
+  "application_classical_runs": 36,
+  "application_hardware_runs": 0,
+  "calibration_hardware_tasks_observed_in_user_screenshot": 1,
+  "calibration_shown_solutions_verified": 3,
+  "tests_passed": 139,
+  "kaiwu_official_sa_executed_here": false,
+  "actual_python": "3.13.5",
+  "python310_syntax_checked": true,
+  "python310_runtime_executed_here": false,
+  "new_quantum_calls_executed_by_this_session": 0,
+  "final_controller_in_replay": "classical backend rehearsal, NOT quantum closed-loop",
+  "native_sota_claim": false,
+  "competition_submission_status": "application hardware batch and official Kaiwu SA still pending"
+}

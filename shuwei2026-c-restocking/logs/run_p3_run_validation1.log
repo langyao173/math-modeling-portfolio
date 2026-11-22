@@ -1,0 +1,29 @@
+  FIFO-mean          chunk done (0s)
+  FIFO-mean          chunk done (0s)
+  EDD-median         chunk done (0s)
+  EDD-min            chunk done (0s)
+  EDD-median         chunk done (0s)
+  EDD-min            chunk done (0s)
+  Index-static       chunk done (3s)
+  Index-static       chunk done (3s)
+  RO-family-static   chunk done (10s)
+  RO-family-static   chunk done (11s)
+  RO-family-learn    chunk done (8s)
+  RO-family-learn    chunk done (9s)
+  RO-feat-static     chunk done (8s)
+  RO-feat-static     chunk done (9s)
+  RO-feat-learn      chunk done (9s)
+  RO-feat-learn      chunk done (9s)
+  RO-bma-static      chunk done (10s)
+  RO-bma-static      chunk done (10s)
+  RO-bma-learn       chunk done (10s)
+  RO-bma-learn       chunk done (10s)
+             policy  mean_utility  diff_best_minus  trial_se   best  selected_with_trial_se
+0  RO-family-static        0.7072           0.0320    0.0114  False                   False
+1   RO-family-learn        0.7097           0.0295    0.0095  False                   False
+2    RO-feat-static        0.7390           0.0003    0.0073  False                    True
+3     RO-feat-learn        0.7392           0.0000    0.0000   True                   False
+4     RO-bma-static        0.7362           0.0031    0.0095  False                   False
+5      RO-bma-learn        0.7371           0.0021    0.0068  False                   False 
+with the trial-level standard error the rule would select: RO-feat-static
+done in 63s

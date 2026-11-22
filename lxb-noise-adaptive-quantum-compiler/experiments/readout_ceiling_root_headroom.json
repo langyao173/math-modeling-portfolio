@@ -1,0 +1,303 @@
+{
+  "track_a_cap": 0.9506936060486242,
+  "track_b_cap": 0.8101493709050043,
+  "final_cap": 0.9155575472627193,
+  "current_summary": {
+    "variant": "root",
+    "track_a_score": 0.88896484375,
+    "track_b_score": 0.609375,
+    "final_score": 0.8190673828125,
+    "invalid_count": 0,
+    "seed_count": 5,
+    "sample_success": {
+      "track_a_001": 0.94296875,
+      "track_a_002": 0.86015625,
+      "track_a_003": 0.93515625,
+      "track_a_004": 0.92109375,
+      "track_a_005": 0.91640625,
+      "track_a_006": 0.91953125,
+      "track_a_007": 0.82109375,
+      "track_a_008": 0.7953125,
+      "track_b_001": 0.634765625,
+      "track_b_002": 0.583984375
+    }
+  },
+  "headroom": {
+    "track_a": 0.06172876229862423,
+    "track_b": 0.20077437090500427,
+    "final": 0.0964901644502193
+  },
+  "sample_headroom": [
+    {
+      "benchmark": "track_b_001",
+      "track": "track_b",
+      "cap": 0.858252404404446,
+      "current": 0.634765625,
+      "headroom": 0.22348677940444595
+    },
+    {
+      "benchmark": "track_b_002",
+      "track": "track_b",
+      "cap": 0.7620463374055627,
+      "current": 0.583984375,
+      "headroom": 0.1780619624055627
+    },
+    {
+      "benchmark": "track_a_008",
+      "track": "track_a",
+      "cap": 0.9423646257703508,
+      "current": 0.7953125,
+      "headroom": 0.14705212577035087
+    },
+    {
+      "benchmark": "track_a_007",
+      "track": "track_a",
+      "cap": 0.9518834603740918,
+      "current": 0.82109375,
+      "headroom": 0.13078971037409182
+    },
+    {
+      "benchmark": "track_a_002",
+      "track": "track_a",
+      "cap": 0.9518834603740918,
+      "current": 0.86015625,
+      "headroom": 0.09172721037409182
+    },
+    {
+      "benchmark": "track_a_005",
+      "track": "track_a",
+      "cap": 0.9518834603740918,
+      "current": 0.91640625,
+      "headroom": 0.035477210374091794
+    },
+    {
+      "benchmark": "track_a_006",
+      "track": "track_a",
+      "cap": 0.9518834603740918,
+      "current": 0.91953125,
+      "headroom": 0.03235221037409175
+    },
+    {
+      "benchmark": "track_a_004",
+      "track": "track_a",
+      "cap": 0.9518834603740918,
+      "current": 0.92109375,
+      "headroom": 0.030789710374091728
+    },
+    {
+      "benchmark": "track_a_003",
+      "track": "track_a",
+      "cap": 0.9518834603740918,
+      "current": 0.93515625,
+      "headroom": 0.01672721037409175
+    },
+    {
+      "benchmark": "track_a_001",
+      "track": "track_a",
+      "cap": 0.9518834603740918,
+      "current": 0.94296875,
+      "headroom": 0.00891471037409175
+    }
+  ],
+  "samples": [
+    {
+      "benchmark": "track_a_001",
+      "track": "track_a",
+      "rule_type": "bitstring",
+      "width": 6,
+      "backend": "medium_snapshot_a",
+      "cap": 0.9518834603740918,
+      "method": "deterministic_bitstring_best_readout",
+      "selected_physical": [
+        0,
+        7,
+        14,
+        5,
+        1,
+        3
+      ]
+    },
+    {
+      "benchmark": "track_a_002",
+      "track": "track_a",
+      "rule_type": "bitstring",
+      "width": 6,
+      "backend": "medium_snapshot_a",
+      "cap": 0.9518834603740918,
+      "method": "deterministic_bitstring_best_readout",
+      "selected_physical": [
+        0,
+        7,
+        14,
+        5,
+        1,
+        3
+      ]
+    },
+    {
+      "benchmark": "track_a_003",
+      "track": "track_a",
+      "rule_type": "bitstring",
+      "width": 6,
+      "backend": "medium_snapshot_a",
+      "cap": 0.9518834603740918,
+      "method": "deterministic_bitstring_best_readout",
+      "selected_physical": [
+        0,
+        7,
+        14,
+        5,
+        1,
+        3
+      ]
+    },
+    {
+      "benchmark": "track_a_004",
+      "track": "track_a",
+      "rule_type": "bitstring",
+      "width": 6,
+      "backend": "medium_snapshot_a",
+      "cap": 0.9518834603740918,
+      "method": "deterministic_bitstring_best_readout",
+      "selected_physical": [
+        0,
+        7,
+        14,
+        5,
+        1,
+        3
+      ]
+    },
+    {
+      "benchmark": "track_a_005",
+      "track": "track_a",
+      "rule_type": "bitstring",
+      "width": 6,
+      "backend": "medium_snapshot_a",
+      "cap": 0.9518834603740918,
+      "method": "deterministic_bitstring_best_readout",
+      "selected_physical": [
+        0,
+        7,
+        14,
+        5,
+        1,
+        3
+      ]
+    },
+    {
+      "benchmark": "track_a_006",
+      "track": "track_a",
+      "rule_type": "bitstring",
+      "width": 6,
+      "backend": "medium_snapshot_a",
+      "cap": 0.9518834603740918,
+      "method": "deterministic_bitstring_best_readout",
+      "selected_physical": [
+        0,
+        7,
+        14,
+        5,
+        1,
+        3
+      ]
+    },
+    {
+      "benchmark": "track_a_007",
+      "track": "track_a",
+      "rule_type": "bitstring",
+      "width": 6,
+      "backend": "medium_snapshot_a",
+      "cap": 0.9518834603740918,
+      "method": "deterministic_bitstring_best_readout",
+      "selected_physical": [
+        0,
+        7,
+        14,
+        5,
+        1,
+        3
+      ]
+    },
+    {
+      "benchmark": "track_a_008",
+      "track": "track_a",
+      "rule_type": "bitstring",
+      "width": 7,
+      "backend": "medium_snapshot_a",
+      "cap": 0.9423646257703508,
+      "method": "deterministic_bitstring_best_readout",
+      "selected_physical": [
+        0,
+        7,
+        14,
+        5,
+        1,
+        3,
+        10
+      ]
+    },
+    {
+      "benchmark": "track_b_001",
+      "track": "track_b",
+      "rule_type": "allowed_bitstrings",
+      "width": 16,
+      "backend": "large_snapshot_a",
+      "cap": 0.858252404404446,
+      "method": "allowed_bitstrings_best_readout",
+      "selected_physical": [
+        0,
+        7,
+        14,
+        21,
+        28,
+        5,
+        1,
+        3,
+        10,
+        17,
+        24,
+        31,
+        4,
+        6,
+        13,
+        20
+      ]
+    },
+    {
+      "benchmark": "track_b_002",
+      "track": "track_b",
+      "rule_type": "parity_checks",
+      "width": 24,
+      "backend": "large_snapshot_a",
+      "cap": 0.7620463374055627,
+      "method": "parity_checks_readout_dominant_grouped_cap",
+      "selected_physical": [
+        8,
+        26,
+        12,
+        30,
+        23,
+        9,
+        2,
+        27,
+        20,
+        13,
+        6,
+        4,
+        31,
+        24,
+        17,
+        10,
+        3,
+        1,
+        5,
+        28,
+        21,
+        14,
+        7,
+        0
+      ]
+    }
+  ]
+}

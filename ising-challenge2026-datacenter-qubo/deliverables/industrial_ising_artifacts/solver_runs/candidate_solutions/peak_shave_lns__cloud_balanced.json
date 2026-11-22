@@ -1,0 +1,21 @@
+{
+  "family": "peak_shave_lns",
+  "oracle": "cloud_balanced",
+  "status": "success",
+  "jobs": 588,
+  "selected_actions": 588,
+  "accepted_under_submission_guard": 1,
+  "true_action_cost_usd": 5414.85513,
+  "expected_recourse_cost_usd": 35.394382487327285,
+  "cvar95_recourse_cost_usd": 47.729979191393795,
+  "true_objective": 83.12436167872107,
+  "source_result": {
+    "result": {
+      "energy": -17306.25546210517,
+      "ok": true,
+      "spin_config_length": 700,
+      "time": 0.118
+    },
+    "task_id": "260726214834685"
+  }
+}

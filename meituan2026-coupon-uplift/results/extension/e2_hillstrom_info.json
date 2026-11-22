@@ -1,0 +1,9 @@
+{
+ "dataset": "hillstrom",
+ "n": 64000,
+ "features": 11,
+ "propensity": 0.6666666666666666,
+ "ate": 0.06088195726098464,
+ "base_rate_control": 0.10616727682343002,
+ "reps": 20
+}

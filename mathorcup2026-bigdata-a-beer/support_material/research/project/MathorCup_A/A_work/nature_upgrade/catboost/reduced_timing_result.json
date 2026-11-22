@@ -1,0 +1,13 @@
+{
+  "depth": 5,
+  "trees": 300,
+  "n": 133,
+  "seconds": 18.1876118183136,
+  "selected_depths": [
+    3,
+    5
+  ],
+  "border_count": 32,
+  "thread_count": 2,
+  "accuracy_results_inspected": false
+}

@@ -1,0 +1,4 @@
+﻿layer,source,status,expected_recourse_cost_usd,cvar95_recourse_cost_usd,dummy_actions
+model_structural_proxy,qubo_solver_results_full_d120_do25_cloudpolish.json,skipped_stale_instance,,,
+model_true_recourse,qubo_solver_results_full_rec_cvar0p10_cut3_truepolish3_cloud.json,skipped_stale_instance,,,
+final_local_polish,pass5_true_recourse_polish,current,35.89001195107441,48.43857780476869,0

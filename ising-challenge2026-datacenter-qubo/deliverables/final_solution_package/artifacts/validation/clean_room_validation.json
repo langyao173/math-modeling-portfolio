@@ -1,0 +1,18 @@
+{
+  "zip_bad_member": null,
+  "validation_status": "pass",
+  "recomputed_status": "pass",
+  "jobs": 588,
+  "one_hot_violations": 0,
+  "dummy_actions": 0,
+  "expected_recourse_cost_usd": 35.39452387390732,
+  "cvar95_recourse_cost_usd": 47.718284903473034,
+  "scan_counts": {
+    "absolute_path": 0,
+    "token_or_secret": 0,
+    "cache_dependency": 0
+  },
+  "scan_hits": [],
+  "scope": "pre-archive consistency snapshot",
+  "superseded_by": "deliverables/SUBMISSION_VERIFICATION.json"
+}

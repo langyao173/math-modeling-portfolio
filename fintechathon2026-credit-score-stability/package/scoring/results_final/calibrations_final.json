@@ -1,0 +1,122 @@
+{
+  "actual100__static": {
+    "intercept": 0.09392052192006956,
+    "coefficient": 1.163134212038842,
+    "n": 1112,
+    "events": 30
+  },
+  "actual100__g50": {
+    "intercept": 0.17311568379518094,
+    "coefficient": 1.1796362444657182,
+    "n": 1112,
+    "events": 30
+  },
+  "actual100__adapt005": {
+    "intercept": 0.1715006542082351,
+    "coefficient": 1.1793094143210616,
+    "n": 1112,
+    "events": 30
+  },
+  "actual100__adapt010": {
+    "intercept": 0.17132857128517487,
+    "coefficient": 1.179705858906691,
+    "n": 1112,
+    "events": 30
+  },
+  "actual100__adapt020": {
+    "intercept": 0.17226667974760101,
+    "coefficient": 1.1811705822932217,
+    "n": 1112,
+    "events": 30
+  },
+  "E__static": {
+    "intercept": 0.3196970358633118,
+    "coefficient": 1.2036118517846848,
+    "n": 1112,
+    "events": 30
+  },
+  "E__g50": {
+    "intercept": 0.34818086429626366,
+    "coefficient": 1.209094825172545,
+    "n": 1112,
+    "events": 30
+  },
+  "E__adapt005": {
+    "intercept": 0.3442205446906023,
+    "coefficient": 1.2078552580661532,
+    "n": 1112,
+    "events": 30
+  },
+  "E__adapt010": {
+    "intercept": 0.3415491449983651,
+    "coefficient": 1.2072841020455527,
+    "n": 1112,
+    "events": 30
+  },
+  "E__adapt020": {
+    "intercept": 0.33908702874661456,
+    "coefficient": 1.2071691400926987,
+    "n": 1112,
+    "events": 30
+  },
+  "H__static": {
+    "intercept": 0.4768679992241231,
+    "coefficient": 1.2474802432260232,
+    "n": 1112,
+    "events": 30
+  },
+  "H__g50": {
+    "intercept": 0.48411775623558057,
+    "coefficient": 1.2472503696603539,
+    "n": 1112,
+    "events": 30
+  },
+  "H__adapt005": {
+    "intercept": 0.4793986283497966,
+    "coefficient": 1.2456951996452477,
+    "n": 1112,
+    "events": 30
+  },
+  "H__adapt010": {
+    "intercept": 0.47816261478444416,
+    "coefficient": 1.2456230430541342,
+    "n": 1112,
+    "events": 30
+  },
+  "H__adapt020": {
+    "intercept": 0.4769110425508395,
+    "coefficient": 1.2457986128535166,
+    "n": 1112,
+    "events": 30
+  },
+  "FX50__g50": {
+    "intercept": 0.14604861530601715,
+    "coefficient": 1.136991832901284,
+    "n": 1112,
+    "events": 30
+  },
+  "F__g50": {
+    "intercept": -0.0897478228280023,
+    "coefficient": 1.0520695008472487,
+    "n": 1112,
+    "events": 30
+  },
+  "C__g50": {
+    "intercept": 0.26987395655112273,
+    "coefficient": 1.1815320161618383,
+    "n": 1112,
+    "events": 30
+  },
+  "FX50__static": {
+    "intercept": 0.0970292657312171,
+    "coefficient": 1.1241181370388755,
+    "n": 1112,
+    "events": 30
+  },
+  "X__g50": {
+    "intercept": 0.2549374307851821,
+    "coefficient": 1.1750102431032423,
+    "n": 1112,
+    "events": 30
+  }
+}

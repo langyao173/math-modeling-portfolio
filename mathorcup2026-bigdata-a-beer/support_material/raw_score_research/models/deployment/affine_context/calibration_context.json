@@ -1,0 +1,16 @@
+{
+  "method": "nonnegative-affine raw-panel-mean calibration",
+  "training_beers": 250,
+  "new_affine_target_fits": 50,
+  "new_neural_inferences": 0,
+  "additional_base_model_fits": 0,
+  "expected_input_method": "fixed_half_y16_native50",
+  "expected_input_role": "genuine chemically predicted standardized scores",
+  "formula": "clip(intercept_j + slope_j * predicted_z_j, 0, 6)",
+  "training_feature_role": "frozen 250-row outer-OOF standardized predictions",
+  "performance_role": "deployment training component, not additional heldout evaluation",
+  "assessment_contexts": "results_v2/calibration_fold0.npz through calibration_fold4.npz",
+  "inputs_sha256": "0ba2cfd94ff1753c465741bed1946c4378f40418083528af1955f271638cfd45",
+  "source_sha256": "ed6d7dd478067540fdb883accad3adc9e54294073f131c64007f967d590d7e91",
+  "calibration_sha256": "e11eea272a363a381b2868f8eef73dc603e1dd0a9d37d1810b7c5818621fa58b"
+}

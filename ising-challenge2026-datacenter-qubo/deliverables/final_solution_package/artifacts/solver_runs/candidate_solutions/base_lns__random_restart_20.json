@@ -1,0 +1,15 @@
+{
+  "family": "base_lns",
+  "oracle": "random_restart_20",
+  "status": "success",
+  "jobs": 588,
+  "selected_actions": 588,
+  "accepted_under_submission_guard": 0,
+  "true_action_cost_usd": 62005789.787151,
+  "expected_recourse_cost_usd": 29.779875885810004,
+  "cvar95_recourse_cost_usd": 40.6484732334735,
+  "true_objective": 70.42834911928351,
+  "source_result": {
+    "restarts": 20
+  }
+}

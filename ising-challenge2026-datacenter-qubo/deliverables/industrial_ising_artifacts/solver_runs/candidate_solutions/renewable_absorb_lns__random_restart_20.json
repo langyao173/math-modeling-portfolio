@@ -1,0 +1,15 @@
+{
+  "family": "renewable_absorb_lns",
+  "oracle": "random_restart_20",
+  "status": "success",
+  "jobs": 588,
+  "selected_actions": 588,
+  "accepted_under_submission_guard": 0,
+  "true_action_cost_usd": 34005953.640206,
+  "expected_recourse_cost_usd": 36.60793556748729,
+  "cvar95_recourse_cost_usd": 50.04351926035953,
+  "true_objective": 86.65145482784682,
+  "source_result": {
+    "restarts": 20
+  }
+}

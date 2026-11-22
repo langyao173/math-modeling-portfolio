@@ -1,0 +1,2 @@
+{"accepted": false, "reason": "no_accepted_commutation_redundancy", "sample": "track_a_007"}
+{"accepted": true, "candidate": "exact_small_router_r0_l0_commute_redundancy_12_commuting_CX_cancellation", "cx": 22, "depth": 32, "elr": -0.2953054430091119, "equivalent": true, "errors": [], "noiseless": true, "sample": "track_a_008", "valid": true}

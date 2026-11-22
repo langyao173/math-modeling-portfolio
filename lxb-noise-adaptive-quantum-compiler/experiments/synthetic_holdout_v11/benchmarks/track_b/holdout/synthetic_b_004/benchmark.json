@@ -1,0 +1,29 @@
+{
+  "track": "track_b",
+  "name": "synthetic_b_004",
+  "family": "ghz_chain",
+  "logical_qubits": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "expected_output_rule": {
+    "rule_type": "allowed_bitstrings",
+    "bitstring": null,
+    "allowed_bitstrings": [
+      "00000000",
+      "11111111"
+    ],
+    "parity_checks": []
+  },
+  "metadata": {
+    "backend_size_class": "medium",
+    "backend_snapshot_id": "synthetic_medium_worst_edge_relocated",
+    "synthetic_family": "ghz_chain"
+  }
+}

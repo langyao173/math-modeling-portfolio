@@ -1,0 +1,13 @@
+\begin{ctab}{llc|ccc|ccc|c}
+\toprule
+ & & & \multicolumn{3}{c|}{validation pool} & \multicolumn{3}{c|}{60 emulated pools: $\Delta U$ to first row} & test\\
+belief & learning & par. & $U$ & gap to best & pool-level sd & mean & sd & gain in & $U$\\
+\midrule
+\textbf{family (final)} & no & 3 & 0.707 & 0.032 & 0.056 & -- & -- & -- & 0.684\\
+family & yes & 3 & 0.710 & 0.030 & 0.040 & $+$0.081 & 0.045 & 98\,\% & 0.661\\
+family + prefix & no & 15 & 0.739 & 0.000 & 0.048 & $+$0.058 & 0.076 & 77\,\% & 0.628\\
+family + prefix & yes & 15 & 0.739 & -- & -- & $+$0.105 & 0.056 & 100\,\% & 0.614\\
+average of both & no & 15 & 0.736 & 0.003 & 0.047 & $+$0.027 & 0.056 & 67\,\% & 0.679\\
+average of both & yes & 15 & 0.737 & 0.002 & 0.038 & $+$0.089 & 0.055 & 97\,\% & 0.658\\
+\bottomrule
+\end{ctab}

@@ -1,0 +1,2 @@
+﻿family,cloud_objective,best_non_cloud_objective,cloud_contribution_positive_if_gt0,cloud_cvar95,best_non_cloud_cvar95,best_non_cloud_oracle
+peak_shave_lns,83.11280877738037,84.03355355159587,0.9207447742155068,47.71828490347305,48.27154163440115,greedy_one_hot

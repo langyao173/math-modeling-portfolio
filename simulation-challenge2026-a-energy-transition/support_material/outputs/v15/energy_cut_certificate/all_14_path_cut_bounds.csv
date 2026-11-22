@@ -1,0 +1,15 @@
+study,case_id,strategy,power_multiplier,battery_duration_hours,terminal_condition,cut_bound_gwh,actual_primary_ens_gwh,actual_minus_cut_bound_gwh,tight_within_tolerance
+V15_phase0,phase00_p100_free,coordinated,1,4,free,5169.9102881817207,5169.9102881817198,-9.0949470177292824e-13,True
+V15_phase0,phase00_p100_full,coordinated,1,4,full,5169.9102881817207,5169.9102881817198,-9.0949470177292824e-13,True
+V15_phase0,phase00_p150_free,coordinated,1.5,4,free,5169.9102881817207,5169.9102881817198,-9.0949470177292824e-13,True
+V15_phase0,phase00_p150_full,coordinated,1.5,4,full,5169.9102881817207,5169.9102881817198,-9.0949470177292824e-13,True
+V13_storage_duration,battery_4p0_base,coordinated,1,4,free,5169.9102881817207,5169.9102881817198,-9.0949470177292824e-13,True
+V13_storage_duration,battery_4p0_power,coordinated,1.5,4,free,5169.9102881817207,5169.9102881817198,-9.0949470177292824e-13,True
+V13_storage_duration,battery_4p0_decentralized,decentralized,1,4,free,5169.9102881817207,8133.4279590570641,2963.5176708753434,False
+V13_storage_duration,battery_4p0_reachable_local,decentralized,1,4,free,5169.9102881817207,5279.3656771902297,109.45538900850897,False
+V13_storage_duration,battery_4p0_reachable_local_power,decentralized,1.5,4,free,5169.9102881817207,5222.0772691607399,52.166980979019172,False
+V13_storage_duration,battery_2p3_base,coordinated,1,2.2999999999999998,free,5566.5639349346202,5566.5639349346202,0,True
+V13_storage_duration,battery_2p3_power,coordinated,1.5,2.2999999999999998,free,5566.5639349346202,5566.5639349346193,-9.0949470177292824e-13,True
+V13_storage_duration,battery_2p3_decentralized,decentralized,1,2.2999999999999998,free,5566.5639349346202,8133.4279590570641,2566.8640241224439,False
+V13_storage_duration,battery_2p3_reachable_local,decentralized,1,2.2999999999999998,free,5566.5639349346202,5676.0193239431319,109.4553890085117,False
+V13_storage_duration,battery_2p3_reachable_local_power,decentralized,1.5,2.2999999999999998,free,5566.5639349346202,5618.7309159136403,52.166980979020082,False

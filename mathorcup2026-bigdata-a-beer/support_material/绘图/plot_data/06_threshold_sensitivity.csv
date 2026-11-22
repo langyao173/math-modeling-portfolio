@@ -1,0 +1,5 @@
+threshold,targets,at_least_one_module_frequency_0_8,at_least_one_individual_frequency_0_8,module_0_8_without_individual_0_8,mean_leading_module_size
+0.5,50,27,15,12,23.0
+0.6,50,21,15,6,8.74
+0.7,50,15,15,0,2.16
+0.8,50,15,15,0,1.04

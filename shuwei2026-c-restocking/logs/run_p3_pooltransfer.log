@@ -1,0 +1,25 @@
+duration error by held-out environment written (24 environments, 18s)
+  10 / 60 emulated pools (89s)
+  20 / 60 emulated pools (148s)
+  30 / 60 emulated pools (208s)
+  40 / 60 emulated pools (264s)
+  50 / 60 emulated pools (320s)
+  60 / 60 emulated pools (382s)
+                  a                 b  pools  mean_diff  pool_sd     q10     q90  share_positive  trial_se_within_pool  validation_diff  validation_trial_se  validation_z_pool
+0    RO-feat-static  RO-family-static     60     0.0580   0.0756 -0.0220  0.1842          0.7667                0.0341           0.0318               0.0101             0.4203
+1     RO-feat-learn  RO-family-static     60     0.1049   0.0559  0.0440  0.1751          1.0000                0.0359           0.0320               0.0114             0.5736
+2     RO-bma-static  RO-family-static     60     0.0265   0.0556 -0.0237  0.0998          0.6667                0.0320           0.0290               0.0102             0.5212
+3      RO-bma-learn  RO-family-static     60     0.0889   0.0549  0.0172  0.1472          0.9667                0.0355           0.0299               0.0111             0.5455
+4   RO-family-learn  RO-family-static     60     0.0805   0.0447  0.0317  0.1310          0.9833                0.0324           0.0025               0.0117             0.0567
+5  RO-family-static      Index-static     60     0.0144   0.0834 -0.1027  0.1180          0.6167                0.0352           0.0447               0.0110             0.5361
+6  RO-family-static        EDD-median     60     0.1147   0.0455  0.0541  0.1710          1.0000                0.0348           0.1771               0.0204             3.8933
+7      Index-static        EDD-median     60     0.1003   0.1034 -0.0376  0.2298          0.7667                0.0381           0.1323               0.0217             1.2802
+8    RO-feat-static        EDD-median     60     0.1726   0.0999  0.0558  0.3078          1.0000                0.0414           0.2088               0.0213             2.0904
+             policy  validation_mean  gap_to_best  pool_sd_of_gap  within_one_pool_se
+0  RO-family-static           0.7072       0.0320          0.0559                True
+1   RO-family-learn           0.7097       0.0295          0.0404                True
+2    RO-feat-static           0.7390       0.0003          0.0483                True
+3     RO-feat-learn           0.7392       0.0000          0.0000                True
+4     RO-bma-static           0.7362       0.0031          0.0474                True
+5      RO-bma-learn           0.7371       0.0021          0.0382                True
+best on validation: RO-feat-learn ; pool-level one-SE rule selects: RO-family-static ; done in 382s

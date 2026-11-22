@@ -1,0 +1,122 @@
+[
+  {
+    "name": "affine_struct_001",
+    "track": "track_b",
+    "family": "exact_affine_parity_star",
+    "backend_size_class": "large",
+    "backend_snapshot_id": "large_snapshot_a",
+    "logical_qubits": 15,
+    "negative_case": false,
+    "two_qubit_gates": 12
+  },
+  {
+    "name": "affine_struct_002",
+    "track": "track_b",
+    "family": "exact_affine_parity_star",
+    "backend_size_class": "large",
+    "backend_snapshot_id": "large_snapshot_a",
+    "logical_qubits": 20,
+    "negative_case": false,
+    "two_qubit_gates": 16
+  },
+  {
+    "name": "affine_struct_003",
+    "track": "track_b",
+    "family": "exact_affine_parity_star",
+    "backend_size_class": "large",
+    "backend_snapshot_id": "large_snapshot_a",
+    "logical_qubits": 24,
+    "negative_case": false,
+    "two_qubit_gates": 18
+  },
+  {
+    "name": "affine_struct_004",
+    "track": "track_b",
+    "family": "exact_affine_parity_star",
+    "backend_size_class": "large",
+    "backend_snapshot_id": "large_snapshot_a",
+    "logical_qubits": 24,
+    "negative_case": false,
+    "two_qubit_gates": 16
+  },
+  {
+    "name": "affine_struct_005",
+    "track": "track_b",
+    "family": "parity_tree",
+    "backend_size_class": "large",
+    "backend_snapshot_id": "large_snapshot_a",
+    "logical_qubits": 16,
+    "negative_case": false,
+    "two_qubit_gates": 14
+  },
+  {
+    "name": "affine_struct_006",
+    "track": "track_b",
+    "family": "parity_tree",
+    "backend_size_class": "large",
+    "backend_snapshot_id": "large_snapshot_a",
+    "logical_qubits": 24,
+    "negative_case": false,
+    "two_qubit_gates": 21
+  },
+  {
+    "name": "affine_struct_007",
+    "track": "track_b",
+    "family": "multi_row_affine",
+    "backend_size_class": "large",
+    "backend_snapshot_id": "large_snapshot_a",
+    "logical_qubits": 12,
+    "negative_case": false,
+    "two_qubit_gates": 18
+  },
+  {
+    "name": "affine_struct_008",
+    "track": "track_b",
+    "family": "multi_row_affine",
+    "backend_size_class": "large",
+    "backend_snapshot_id": "large_snapshot_a",
+    "logical_qubits": 18,
+    "negative_case": false,
+    "two_qubit_gates": 28
+  },
+  {
+    "name": "affine_struct_009",
+    "track": "track_b",
+    "family": "multi_row_affine",
+    "backend_size_class": "large",
+    "backend_snapshot_id": "large_snapshot_a",
+    "logical_qubits": 24,
+    "negative_case": false,
+    "two_qubit_gates": 40
+  },
+  {
+    "name": "affine_struct_010",
+    "track": "track_b",
+    "family": "near_miss_non_affine_clifford",
+    "backend_size_class": "large",
+    "backend_snapshot_id": "large_snapshot_a",
+    "logical_qubits": 12,
+    "negative_case": true,
+    "two_qubit_gates": 17
+  },
+  {
+    "name": "affine_struct_011",
+    "track": "track_b",
+    "family": "near_miss_non_affine_clifford",
+    "backend_size_class": "large",
+    "backend_snapshot_id": "large_snapshot_a",
+    "logical_qubits": 18,
+    "negative_case": true,
+    "two_qubit_gates": 23
+  },
+  {
+    "name": "affine_struct_012",
+    "track": "track_b",
+    "family": "near_miss_non_affine_clifford",
+    "backend_size_class": "large",
+    "backend_snapshot_id": "large_snapshot_a",
+    "logical_qubits": 24,
+    "negative_case": true,
+    "two_qubit_gates": 29
+  }
+]

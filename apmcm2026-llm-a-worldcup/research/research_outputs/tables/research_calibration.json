@@ -1,0 +1,8 @@
+{
+  "outer_fold_count": 7,
+  "maximum_outer_prediction_year": 2010,
+  "maximum_inner_prediction_year": 2006,
+  "calibration_fit_scope": "selected_inner_oof_only_within_each_outer_training_window",
+  "coherent_reconciliation": "minimum_kl_outcome_partition_projection",
+  "audit_year_used": false
+}

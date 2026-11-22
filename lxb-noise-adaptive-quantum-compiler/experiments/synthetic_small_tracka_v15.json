@@ -1,0 +1,327 @@
+{
+  "label": "synthetic_small_tracka_v15",
+  "max_invalid_count": 0,
+  "mean_final_score": 0.6328125,
+  "mean_track_a_score": 0.84375,
+  "mean_track_b_score": 0.0,
+  "p95_compile_time_sec": 2.5689358999952674,
+  "root": "D:\\BaiduNetdiskDownload\\\u91cf\u65cb\u676f\\experiments\\synthetic_holdout_v11",
+  "seed_summaries": [
+    {
+      "final_score": 0.626953125,
+      "invalid_count": 0,
+      "sample_results": [
+        {
+          "benchmark_name": "synthetic_a_001",
+          "compile_time_sec": 2.4166880000266246,
+          "correct_shots": 57,
+          "depth": 9,
+          "estimated_log_reliability": -0.13967279118903173,
+          "shots": 64,
+          "success_rate": 0.890625,
+          "track": "track_a",
+          "two_qubit_gate_count": 6,
+          "valid": true,
+          "validation_errors": []
+        },
+        {
+          "benchmark_name": "synthetic_a_002",
+          "compile_time_sec": 2.407702500000596,
+          "correct_shots": 49,
+          "depth": 9,
+          "estimated_log_reliability": -0.19599422809425981,
+          "shots": 64,
+          "success_rate": 0.765625,
+          "track": "track_a",
+          "two_qubit_gate_count": 6,
+          "valid": true,
+          "validation_errors": []
+        },
+        {
+          "benchmark_name": "synthetic_a_003",
+          "compile_time_sec": 2.3638707000063732,
+          "correct_shots": 55,
+          "depth": 6,
+          "estimated_log_reliability": -0.15406473441000887,
+          "shots": 64,
+          "success_rate": 0.859375,
+          "track": "track_a",
+          "two_qubit_gate_count": 8,
+          "valid": true,
+          "validation_errors": []
+        },
+        {
+          "benchmark_name": "synthetic_a_004",
+          "compile_time_sec": 2.5072568000177853,
+          "correct_shots": 53,
+          "depth": 10,
+          "estimated_log_reliability": -0.31077661040226867,
+          "shots": 64,
+          "success_rate": 0.828125,
+          "track": "track_a",
+          "two_qubit_gate_count": 15,
+          "valid": true,
+          "validation_errors": []
+        }
+      ],
+      "seed": 7,
+      "track_a_score": 0.8359375,
+      "track_b_score": 0.0
+    },
+    {
+      "final_score": 0.609375,
+      "invalid_count": 0,
+      "sample_results": [
+        {
+          "benchmark_name": "synthetic_a_001",
+          "compile_time_sec": 2.3593333000317216,
+          "correct_shots": 56,
+          "depth": 9,
+          "estimated_log_reliability": -0.13967279118903173,
+          "shots": 64,
+          "success_rate": 0.875,
+          "track": "track_a",
+          "two_qubit_gate_count": 6,
+          "valid": true,
+          "validation_errors": []
+        },
+        {
+          "benchmark_name": "synthetic_a_002",
+          "compile_time_sec": 2.598183899943251,
+          "correct_shots": 49,
+          "depth": 9,
+          "estimated_log_reliability": -0.19599422809425981,
+          "shots": 64,
+          "success_rate": 0.765625,
+          "track": "track_a",
+          "two_qubit_gate_count": 6,
+          "valid": true,
+          "validation_errors": []
+        },
+        {
+          "benchmark_name": "synthetic_a_003",
+          "compile_time_sec": 2.391575199959334,
+          "correct_shots": 53,
+          "depth": 6,
+          "estimated_log_reliability": -0.15406473441000887,
+          "shots": 64,
+          "success_rate": 0.828125,
+          "track": "track_a",
+          "two_qubit_gate_count": 8,
+          "valid": true,
+          "validation_errors": []
+        },
+        {
+          "benchmark_name": "synthetic_a_004",
+          "compile_time_sec": 2.44711249996908,
+          "correct_shots": 50,
+          "depth": 10,
+          "estimated_log_reliability": -0.31077661040226867,
+          "shots": 64,
+          "success_rate": 0.78125,
+          "track": "track_a",
+          "two_qubit_gate_count": 15,
+          "valid": true,
+          "validation_errors": []
+        }
+      ],
+      "seed": 11,
+      "track_a_score": 0.8125,
+      "track_b_score": 0.0
+    },
+    {
+      "final_score": 0.6533203125,
+      "invalid_count": 0,
+      "sample_results": [
+        {
+          "benchmark_name": "synthetic_a_001",
+          "compile_time_sec": 2.3398029999807477,
+          "correct_shots": 60,
+          "depth": 9,
+          "estimated_log_reliability": -0.13967279118903173,
+          "shots": 64,
+          "success_rate": 0.9375,
+          "track": "track_a",
+          "two_qubit_gate_count": 6,
+          "valid": true,
+          "validation_errors": []
+        },
+        {
+          "benchmark_name": "synthetic_a_002",
+          "compile_time_sec": 2.3963863999815658,
+          "correct_shots": 51,
+          "depth": 9,
+          "estimated_log_reliability": -0.19599422809425981,
+          "shots": 64,
+          "success_rate": 0.796875,
+          "track": "track_a",
+          "two_qubit_gate_count": 6,
+          "valid": true,
+          "validation_errors": []
+        },
+        {
+          "benchmark_name": "synthetic_a_003",
+          "compile_time_sec": 2.3053479999653064,
+          "correct_shots": 54,
+          "depth": 6,
+          "estimated_log_reliability": -0.15406473441000887,
+          "shots": 64,
+          "success_rate": 0.84375,
+          "track": "track_a",
+          "two_qubit_gate_count": 8,
+          "valid": true,
+          "validation_errors": []
+        },
+        {
+          "benchmark_name": "synthetic_a_004",
+          "compile_time_sec": 2.4149700999842025,
+          "correct_shots": 58,
+          "depth": 10,
+          "estimated_log_reliability": -0.31077661040226867,
+          "shots": 64,
+          "success_rate": 0.90625,
+          "track": "track_a",
+          "two_qubit_gate_count": 15,
+          "valid": true,
+          "validation_errors": []
+        }
+      ],
+      "seed": 17,
+      "track_a_score": 0.87109375,
+      "track_b_score": 0.0
+    },
+    {
+      "final_score": 0.6474609375,
+      "invalid_count": 0,
+      "sample_results": [
+        {
+          "benchmark_name": "synthetic_a_001",
+          "compile_time_sec": 2.325623400043696,
+          "correct_shots": 56,
+          "depth": 9,
+          "estimated_log_reliability": -0.13967279118903173,
+          "shots": 64,
+          "success_rate": 0.875,
+          "track": "track_a",
+          "two_qubit_gate_count": 6,
+          "valid": true,
+          "validation_errors": []
+        },
+        {
+          "benchmark_name": "synthetic_a_002",
+          "compile_time_sec": 2.4321773999836296,
+          "correct_shots": 54,
+          "depth": 9,
+          "estimated_log_reliability": -0.19599422809425981,
+          "shots": 64,
+          "success_rate": 0.84375,
+          "track": "track_a",
+          "two_qubit_gate_count": 6,
+          "valid": true,
+          "validation_errors": []
+        },
+        {
+          "benchmark_name": "synthetic_a_003",
+          "compile_time_sec": 2.3619502000510693,
+          "correct_shots": 61,
+          "depth": 6,
+          "estimated_log_reliability": -0.15406473441000887,
+          "shots": 64,
+          "success_rate": 0.953125,
+          "track": "track_a",
+          "two_qubit_gate_count": 8,
+          "valid": true,
+          "validation_errors": []
+        },
+        {
+          "benchmark_name": "synthetic_a_004",
+          "compile_time_sec": 2.3422731999889947,
+          "correct_shots": 50,
+          "depth": 10,
+          "estimated_log_reliability": -0.31077661040226867,
+          "shots": 64,
+          "success_rate": 0.78125,
+          "track": "track_a",
+          "two_qubit_gate_count": 15,
+          "valid": true,
+          "validation_errors": []
+        }
+      ],
+      "seed": 23,
+      "track_a_score": 0.86328125,
+      "track_b_score": 0.0
+    },
+    {
+      "final_score": 0.626953125,
+      "invalid_count": 0,
+      "sample_results": [
+        {
+          "benchmark_name": "synthetic_a_001",
+          "compile_time_sec": 2.3232501999591477,
+          "correct_shots": 58,
+          "depth": 9,
+          "estimated_log_reliability": -0.13967279118903173,
+          "shots": 64,
+          "success_rate": 0.90625,
+          "track": "track_a",
+          "two_qubit_gate_count": 6,
+          "valid": true,
+          "validation_errors": []
+        },
+        {
+          "benchmark_name": "synthetic_a_002",
+          "compile_time_sec": 2.5689358999952674,
+          "correct_shots": 53,
+          "depth": 9,
+          "estimated_log_reliability": -0.19599422809425981,
+          "shots": 64,
+          "success_rate": 0.828125,
+          "track": "track_a",
+          "two_qubit_gate_count": 6,
+          "valid": true,
+          "validation_errors": []
+        },
+        {
+          "benchmark_name": "synthetic_a_003",
+          "compile_time_sec": 2.372115899983328,
+          "correct_shots": 55,
+          "depth": 6,
+          "estimated_log_reliability": -0.15406473441000887,
+          "shots": 64,
+          "success_rate": 0.859375,
+          "track": "track_a",
+          "two_qubit_gate_count": 8,
+          "valid": true,
+          "validation_errors": []
+        },
+        {
+          "benchmark_name": "synthetic_a_004",
+          "compile_time_sec": 2.407050999987405,
+          "correct_shots": 48,
+          "depth": 10,
+          "estimated_log_reliability": -0.31077661040226867,
+          "shots": 64,
+          "success_rate": 0.75,
+          "track": "track_a",
+          "two_qubit_gate_count": 15,
+          "valid": true,
+          "validation_errors": []
+        }
+      ],
+      "seed": 31,
+      "track_a_score": 0.8359375,
+      "track_b_score": 0.0
+    }
+  ],
+  "seeds": [
+    7,
+    11,
+    17,
+    23,
+    31
+  ],
+  "shots_a": 64,
+  "shots_b": 0,
+  "timeout_sec": 30,
+  "variant": "track_a_v15"
+}

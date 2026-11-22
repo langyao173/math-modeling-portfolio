@@ -1,0 +1,32 @@
+[
+  {
+    "accepted": false,
+    "expect_accept": false,
+    "name": "relative_phase_followed_by_h",
+    "passed": true
+  },
+  {
+    "accepted": false,
+    "expect_accept": false,
+    "name": "non_final_measurement",
+    "passed": true
+  },
+  {
+    "accepted": false,
+    "expect_accept": false,
+    "name": "non_z_measurement",
+    "passed": true
+  },
+  {
+    "accepted": false,
+    "expect_accept": false,
+    "name": "row_phase_false_case",
+    "passed": true
+  },
+  {
+    "accepted": false,
+    "expect_accept": false,
+    "name": "random_single_qubit_false_case",
+    "passed": true
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "same_case": "P19",
+  "panels": [
+    "raw ledger",
+    "account charts",
+    "evidence agent"
+  ],
+  "source": "product/trial/print_views",
+  "type": "actual_DOM_component_export",
+  "renderer": "WeasyPrint",
+  "heights": {
+    "A": 309.3795471191406,
+    "B": 441.8423767089844,
+    "C": 415.1670837402344
+  },
+  "input_sha256": {
+    "product/trial/app.js": "6ab1db83754d6ea39745a685c0997d4a3f5c4acc5e8806726096c82529e04165",
+    "product/trial/style.css": "3cd6c29ece94a2c4f9571a26bf0450d0e7f403fd60268b44b8c0343bec995a89",
+    "product/trial/cases.json": "ad9dafc7646308f016cd0f75356eb55472aec09e9ad24f51e10011e349c49154",
+    "product/trial/export_views.cjs": "ec35bcecb21b35d6372e0d2ce57f5df2fb16e6144b6d349e405048999c65b2da"
+  }
+}

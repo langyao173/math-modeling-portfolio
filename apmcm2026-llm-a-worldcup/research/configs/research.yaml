@@ -1,0 +1,25 @@
+defaults:
+  - official
+  - _self_
+
+project:
+  track: closed_research
+
+research:
+  enable_dynamic_features: true
+  enable_player_history: true
+  enable_dixon_coles: true
+  promotion_gate:
+    primary_metric: log_loss
+    minimum_fold_win_fraction: 0.5
+    accuracy_non_degradation_tolerance: 0.02
+    calibration_non_degradation_tolerance: 0.02
+    max_runtime_seconds_per_fold: 10.0
+    max_probability_invariant_error: 1.0e-10
+    max_determinism_error: 1.0e-12
+  advanced_evidence_dir: temp/advanced_evidence
+  advanced_orchestration_script: scripts/run_advanced_experiments.py
+  advanced_timeout_seconds: 14400
+  execution_contract: >-
+    The bundled advanced all-stage state machine must finish or verify its cached
+    checkpoints before the production process may read combined raw data.

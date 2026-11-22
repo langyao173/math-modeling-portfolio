@@ -1,0 +1,110 @@
+/* Product pages share restrained operational typography and chart semantics. */
+[hidden]{display:none!important}
+.sidebar{width:194px;padding:25px 12px 16px}
+.shell{margin-left:194px}
+.brand{gap:9px}.brand>span{font-size:15px}.brand small{font-size:8px}
+.nav-label{margin-top:32px}.nav-glyph{width:18px;text-align:center;color:#83967c}
+nav{gap:5px}nav button{gap:12px;padding:12px}.sidebar-utility{margin-top:24px;padding:0 12px}.sidebar-utility button{border:0;background:none;padding:0;font-size:12px;color:var(--muted)}
+.topbar{height:56px}.topbar>div{gap:14px}main{padding:22px 24px}
+.overview-context{display:flex;gap:25px;align-items:center;border-top:1px solid #d5ded2;border-bottom:1px solid #d5ded2;padding:11px 1px;margin-bottom:18px;color:#788575;font-size:13px}
+.overview-context b{font-weight:500;color:#3c5c48;margin-left:6px}
+.overview-context label{display:flex;gap:8px;align-items:center;margin-left:auto}.overview-context select{font-size:12px;padding:4px 8px}
+.overview-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:17px}
+.overview-grid .panel{padding:17px 20px}.overview-grid .panel-head{margin-bottom:10px}
+.overview-chart{height:235px}.overview-grid .scatter-chart{height:238px}
+.route-row{width:100%;padding:6px 1px;border:0;border-bottom:1px solid #edf0e9;border-radius:0;background:white;text-align:left}
+.route-row:last-child{border-bottom:0}.route-row:hover,.signal-row:hover{background:#f6f9f2}
+.route-row-head{display:flex;align-items:center;justify-content:space-between;font-size:13px;gap:8px}
+.route-row-head span>i{width:7px;height:7px;border-radius:50%;display:inline-block;margin-right:9px}
+.route-row-head strong{font-size:13px;font-weight:500;color:#365e48}.route-row-head strong small{font-size:11px;font-weight:400;color:#7a8776}
+.route-track{height:3px;background:#edf1e9;margin:7px 0 5px}.route-track span{height:100%;display:block;min-width:1px}
+.route-row p,.signal-row p{display:flex;justify-content:space-between;color:#7d8877;font-size:10px;line-height:1.4}
+.route-row p>span,.signal-row p>span{color:#597653}
+.risk-panel .legend{margin-top:0}.risk-panel [data-risk-bin]{cursor:pointer}.risk-panel [data-risk-bin]:hover rect{opacity:.8}
+.signal-row{display:block;width:100%;text-align:left;border:0;border-bottom:1px solid #e8eee3;border-radius:0;padding:12px 0}
+.signal-row:last-child{border-bottom:0}.signal-row>div{display:flex;justify-content:space-between;font-size:13px;gap:12px}.signal-row b{font-weight:500;color:#486c50}
+.signal-track{display:block;height:4px;margin:9px 0 7px;background:#eef2e9}.signal-track i{display:block;height:100%;background:#94a488}
+.review-layout{display:block}.evidence-grid{grid-template-columns:1.18fr 1fr}.evidence-column{gap:17px}
+.history-chart,.util-chart{height:252px}.quality-chart,.attribution-chart{height:180px}
+.case-tabs{display:none}.customer-ribbon{font-size:13px;gap:24px}.case-control{margin:0 0 18px}.case-control>div:last-child{display:flex;gap:8px}
+[data-active-page=review] .case-progress{display:none}
+[data-active-page=handling] .evidence-column{display:grid;grid-template-columns:1fr 1.1fr;align-items:start}
+[data-active-page=handling] [data-case-content=timeline]{grid-column:1/-1}
+[data-active-page=handling] #case-events{display:grid;grid-template-columns:1fr 1fr;gap:16px;max-height:175px;overflow:auto}
+[data-active-page=handling] .form-grid{grid-template-columns:repeat(3,1fr)}
+[data-active-page=handling] .form-grid.two{grid-template-columns:1fr 1fr}
+[data-active-page=handling] .check-row{grid-template-columns:minmax(0,1fr) 97px;gap:6px}
+[data-active-page=handling] .check-row input{grid-column:1/-1;font-size:12px;padding:7px 9px}
+[data-active-page=handling] .check-row small{font-size:10px;margin-top:3px}
+[data-active-page=handling] .readiness{margin-top:14px}
+[data-active-page=handling] .actions{flex-wrap:wrap}.actions>span{min-width:150px}
+.agent-workspace{display:grid;grid-template-columns:minmax(0,.83fr) minmax(0,1fr);gap:18px;align-items:start}
+.agent-evidence-column{display:grid;gap:16px}.agent-panel{position:static;border-top-width:3px;padding:20px 23px}
+.agent-workspace .agent-intro{font-size:13px;margin-bottom:10px}.agent-workspace .agent-steps{display:none}
+.agent-workspace .prompt-buttons{padding:10px 0 14px;gap:7px}.agent-workspace .prompt-buttons button{font-size:12px;padding:7px 10px}
+.agent-workspace .agent-finding{padding:11px 0}.agent-workspace .agent-finding h3{font-size:14px}.agent-workspace .agent-finding p{font-size:13px;line-height:1.85}
+.agent-workspace .agent-output-head strong{font-size:15px}.agent-workspace .agent-output-head span{font-size:11px}
+.agent-workspace .agent-plan{font-size:13px;line-height:1.7}.agent-workspace .draft-actions button{font-size:12px}
+.agent-workspace .ask-row input{font-size:12px}.agent-workspace .trace-details summary{font-size:12px}
+.chain-step{position:relative;display:flex;align-items:center;width:100%;gap:13px;border:0;border-radius:0;border-bottom:1px solid #e8eee2;padding:12px 0;text-align:left;background:white}
+.chain-step:last-child{border-bottom:0}.chain-no{display:flex;align-items:center;justify-content:center;width:31px;height:31px;flex:0 0 31px;border:1px solid #ccd8c3;border-radius:50%;font-family:UILatin,sans-serif;font-size:12px;color:#7d9171}
+.chain-step.complete .chain-no{background:#eaf0e5;color:#4c6a42;border-color:#becfb4}
+.chain-step b{display:block;font-size:14px;font-weight:500}.chain-step small{display:block;color:#7b8775;font-size:11px;margin-top:3px}.chain-state{font-size:11px;color:#809071;margin-left:auto;white-space:nowrap}
+.source-row{display:flex;align-items:center;width:100%;gap:12px;border:0;border-bottom:1px solid #edf0e9;padding:9px 0;background:white;text-align:left;border-radius:0}.source-row:last-child{border-bottom:0}
+.source-ref{font-family:UILatin,sans-serif;font-size:11px;align-self:flex-start;color:#82916f;min-width:25px;padding-top:3px}
+.source-row b{font-size:12px;font-weight:500}.source-row small{display:block;font-size:11px;color:#83907a;margin-top:3px}.source-row>span:last-child{margin-left:auto;color:#94a186}
+.agent-run-panel .run-row{font-size:11px;padding:10px 0}.agent-run-panel .run-row small{font-size:10px;overflow-wrap:anywhere}
+.agent-run-panel .run-row span{max-width:80%;overflow-wrap:anywhere}.agent-run-panel .empty{font-size:12px;padding:16px 5px}
+.task-board{grid-template-columns:repeat(5,1fr)}.task-lane{min-height:240px;padding:11px}.task-card{padding:11px}.task-card p{font-size:11px}.task-card strong{font-size:12px}
+.ops-overview .panel{padding:16px 18px}.event-row p{font-size:12px;line-height:1.7;margin-top:6px}
+
+/* A real presentation density, available from the top bar, also used in exports. */
+body.showcase .sidebar{width:164px;padding:20px 9px}
+body.showcase .shell{margin-left:164px}
+body.showcase .brand{gap:8px}.showcase .brand>span{font-size:13px}.showcase .brand small{font-size:7px}.showcase .brand b{font-size:13px;padding:5px}
+.showcase nav button{padding:12px 9px;gap:8px}.showcase nav button span{font-size:13px}
+.showcase .topbar{padding:0 20px}.showcase .operator,.showcase #refresh-workspace{display:none}
+.showcase main{padding:20px}.showcase .page-heading{margin-bottom:14px}.showcase h1{font-size:24px}
+.showcase .overview-grid{gap:15px;grid-template-columns:1fr 1fr}.showcase .overview-context{gap:19px;margin-bottom:15px}
+.showcase .overview-context label{font-size:12px}.showcase .overview-context select{max-width:115px}
+.showcase .overview-grid .panel{padding:14px 16px}.showcase .overview-grid h2{font-size:16px}.showcase .overview-grid .panel-head p{font-size:11px}
+.showcase .route-row-head,.showcase .route-row-head strong{font-size:14px}.showcase .route-row-head strong small{font-size:11px}
+.showcase .route-row p{font-size:11px}.showcase .route-row{padding:8px 0}.showcase .route-row p>span{display:none}
+.showcase .overview-chart{height:253px}.showcase .overview-grid .scatter-chart{height:217px}
+.showcase .signal-row{padding:11px 0}.showcase .signal-row>div{font-size:13px}.showcase .signal-row p{font-size:11px}.showcase .signal-row p>span{display:none}
+.showcase .overview-context>span:nth-child(3){display:none}
+.showcase .customer-ribbon{gap:13px;font-size:12px;padding:10px 12px;margin-bottom:13px}
+.showcase .customer-ribbon>span:nth-child(4),.showcase .customer-ribbon>span:nth-child(6){display:none}
+.showcase .case-control{margin-bottom:14px}.showcase .case-control button{font-size:12px}
+.showcase .evidence-grid{grid-template-columns:1.15fr 1fr;gap:14px}.showcase .evidence-grid .panel{padding:14px}
+.showcase .history-chart,.showcase .util-chart{height:231px}.showcase .quality-chart,.showcase .attribution-chart{height:179px}
+.showcase .month-focus{display:none}.showcase .evidence-column{gap:15px}.showcase .evidence-grid h2{font-size:16px}
+.showcase .evidence-grid .legend{gap:12px;font-size:11px}.showcase .mini-facts{font-size:12px}
+.showcase .agent-workspace{grid-template-columns:.87fr 1fr;gap:15px}.showcase .agent-panel{padding:17px}
+.showcase .agent-workspace .agent-finding p{font-size:13px;line-height:1.7}.showcase .agent-workspace .agent-finding h3{font-size:14px}
+.showcase .agent-chain-panel,.showcase .source-register{padding:15px 17px}.showcase .agent-run-panel{display:none}
+.showcase .agent-panel .agent-intro{display:none}.showcase .prompt-buttons button{font-size:12px;padding:6px 8px}
+.showcase .agent-plan{font-size:12px;line-height:1.5}.showcase .agent-plan p{line-height:1.55}
+.showcase .source-row{padding:7px 0}.showcase .source-row b{font-size:13px}.showcase .source-row small{font-size:11px}
+.showcase .chain-step{padding:10px 0}.showcase .chain-step b{font-size:15px}.showcase .chain-step small{font-size:11px}
+.showcase .table-panel td:nth-child(7),.showcase .table-panel th:nth-child(7){display:none}
+.showcase .table-panel td small.next-action{display:none}
+.showcase .table-panel td,.showcase .table-panel th{font-size:12px;padding:9px 10px}.showcase .table-panel td strong{font-size:12px}
+.showcase .table-panel .bulk-strip{padding:6px 12px}.showcase .work-views button{padding:9px 10px;font-size:12px}
+.showcase .work-views span{margin-left:5px}.showcase .toolbar{gap:10px;padding:9px 11px}.showcase .toolbar label{font-size:12px}
+.showcase .toolbar label:nth-child(4),.showcase .toolbar input{display:none}
+.showcase .portfolio-grid .panel h2{font-size:15px}.showcase .portfolio-grid .scatter-chart{height:196px}.showcase .pagination{padding:8px 12px}
+.showcase[data-active-page=handling] .evidence-column{grid-template-columns:1fr 1fr;gap:15px}
+.showcase[data-active-page=handling] .panel{padding:15px}.showcase[data-active-page=handling] .panel h2{font-size:16px}
+.showcase[data-active-page=handling] .check-row strong{font-size:13px}.showcase[data-active-page=handling] .check-row small{font-size:11px}
+.showcase[data-active-page=handling] .check-row{padding:8px 0}.showcase[data-active-page=handling] .check-row input{padding:5px 7px;font-size:11px}
+.showcase[data-active-page=handling] .form-grid{grid-template-columns:1fr 1fr}.showcase[data-active-page=handling] .form-grid label{font-size:11px}
+.showcase[data-active-page=handling] .form-grid input,.showcase[data-active-page=handling] .form-grid select{font-size:11px;padding:5px 6px}
+.showcase[data-active-page=handling] .wide-label{font-size:11px;margin:10px 0}.showcase[data-active-page=handling] .wide-label textarea{font-size:12px;min-height:72px}
+.showcase[data-active-page=handling] .actions{gap:6px}.showcase[data-active-page=handling] .actions>span{display:none}.showcase[data-active-page=handling] .actions button{font-size:11px;padding:6px 8px}
+.showcase[data-active-page=handling] [data-case-content=timeline]{display:none!important}
+.showcase .task-board{grid-template-columns:repeat(auto-fit,minmax(285px,1fr))}.showcase .task-lane:has(.empty){display:none}
+.showcase .task-lane{max-height:285px;overflow-y:auto}.showcase[data-active-page=tasks] #event-list{display:grid;grid-template-columns:1fr 1fr;gap:16px;max-height:150px;overflow:auto}
+.showcase footer{display:none}
+@media(max-width:1100px){body:not(.showcase) .overview-grid{grid-template-columns:1fr 1fr}body:not(.showcase) .review-layout{display:block}body:not(.showcase) .evidence-grid{grid-template-columns:1fr 1fr}body:not(.showcase) .agent-workspace{grid-template-columns:.85fr 1fr}.task-board{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:780px){body:not(.showcase) .sidebar{width:100%;position:static}.sidebar-utility{display:none}body:not(.showcase) .shell{margin-left:0}body:not(.showcase) .overview-grid,body:not(.showcase) .agent-workspace,body:not(.showcase) .evidence-grid,body:not(.showcase)[data-active-page=handling] .evidence-column{grid-template-columns:1fr}.overview-context{gap:12px;flex-wrap:wrap}.overview-context label{margin-left:0}.task-board{grid-template-columns:1fr 1fr}}

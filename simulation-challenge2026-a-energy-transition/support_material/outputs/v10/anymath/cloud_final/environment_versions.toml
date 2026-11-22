@@ -1,0 +1,8 @@
+CSV = "0.10.16"
+HiGHS_solver = "v1.14.0"
+HiGHS = "1.23.0"
+DataFrames = "1.8.1"
+Julia = "1.12.4"
+MathOptInterface = "1.48.0"
+Engee = "not exposed by loaded package"
+JuMP = "1.30.1"

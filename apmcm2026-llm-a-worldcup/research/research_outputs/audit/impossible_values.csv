@@ -1,0 +1,4 @@
+check,value,passed
+unmapped_stage_rows,0,True
+negative_goal_rows,0,True
+half_time_exceeds_full_time_rows,0,True

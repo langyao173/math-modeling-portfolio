@@ -1,0 +1,11 @@
+feature_name,available_time,source_table,aggregation_cutoff,prediction_information_set
+QualifiedTeams,pre_tournament_known_format,tournaments,declared target-edition format,pre_match
+MatchesPlayed,pre_tournament_known_format,tournaments,declared target-edition format,pre_match
+Attendance,pre_tournament_forecast,tournaments,forecast from strictly earlier editions for Q1,pre_match
+attendance,kickoff_or_earlier_supplied_match_value,matches,supplied match observation available no later than the Q2 prediction cutoff,half_time
+canonical_stage,pre_match,matches,known competition stage,half_time
+half_time_total_goals,half_time,matches,score observed at half-time only,half_time
+historical_appearances_diff,history_cutoff_year,matches_and_tournaments,completed editions with Year < prediction Year,pre_match
+historical_best_finish_diff,history_cutoff_year,matches_and_tournaments,completed editions with Year < prediction Year,pre_match
+historical_mean_goals_for_diff,history_cutoff_year,matches_and_tournaments,completed editions with Year < prediction Year,pre_match
+historical_mean_goals_conceded_diff,history_cutoff_year,matches_and_tournaments,completed editions with Year < prediction Year,pre_match

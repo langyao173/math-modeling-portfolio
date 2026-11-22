@@ -1,0 +1,4 @@
+﻿Model,TestYear,MAE,MSE,RMSE,R2,MeanTimeCV_MAE,Empirical80Radius,Empirical80Coverage,MeanIntervalWidth,IntervalResidualSource,StateProtocol
+题面全场进球线性回归,2014,0.9842457420865907,1.3875843488052513,1.177957702468663,0.547163931741988,1.0188315070712703,1.5850879142937218,0.859375,3.0689799375452953,rolling out-of-fold tournament residuals,whole tournament frozen; no within-query updates
+下半场增量泊松回归,2014,0.9742900587507771,1.3242527185544715,1.1507617992245274,0.5678321141583049,0.9958874427293996,1.5884061836941044,0.859375,3.120449758487588,rolling out-of-fold tournament residuals,whole tournament frozen; no within-query updates
+训练期总进球均值基线,2014,1.3499838082901556,3.099639000375849,1.7605791661768149,-0.011562532510515311,1.3059909749384144,2.0258620689655173,0.765625,4.051724137931035,rolling out-of-fold tournament residuals,whole tournament frozen; no within-query updates

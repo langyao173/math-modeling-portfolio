@@ -1,0 +1,27 @@
+{
+  "combination_count": 495,
+  "csv_sha256": "883fee7afe8d6e1a00f96370d2172b68ccf9b34fbac851284432466837130d3b",
+  "row_count": 495,
+  "schema_version": 1,
+  "source_pdf_pages": [
+    41,
+    49
+  ],
+  "source_sha256": "8e4e9f868cb49f2dd8852622c290450da8adaf8cf262a81f08d16c7e5a598f96",
+  "source_url": "https://digitalhub.fifa.com/m/636f5c9c6f29771f/original/FWC2026_regulations_EN.pdf",
+  "validation": {
+    "all_choose_12_8_combinations_once": true,
+    "assignments_match_qualifying_groups": true,
+    "same_group_round_of_32_matches": 0
+  },
+  "winner_columns": [
+    "1A",
+    "1B",
+    "1D",
+    "1E",
+    "1G",
+    "1I",
+    "1K",
+    "1L"
+  ]
+}

@@ -1,0 +1,17 @@
+condition_id,phase_hours,duration_hours,strategy,storage_power_multiplier,terminal_condition,case_id,method,status,complete,validated_physical_replay_hours,physical_replay_hours,wall_seconds,actual_solver_calls,successful_solver_calls,attempted_physical_hours
+phase00_p100_free,0,48,coordinated,1.0,free,phase00_p100_free_rolling,rolling,COMPLETED_AND_VALIDATED,True,360,360,3.069062699971255,360,360,360
+phase00_p100_full,0,48,coordinated,1.0,full,phase00_p100_full_rolling,rolling,COMPLETED_AND_VALIDATED,True,360,360,3.3757446000236087,360,360,360
+phase00_p150_free,0,48,coordinated,1.5,free,phase00_p150_free_rolling,rolling,COMPLETED_AND_VALIDATED,True,360,360,3.2420911000226624,360,360,360
+phase00_p150_full,0,48,coordinated,1.5,full,phase00_p150_full_rolling,rolling,COMPLETED_AND_VALIDATED,True,360,360,3.5620705999899656,360,360,360
+phase21_p100_free,21,48,coordinated,1.0,free,phase21_p100_free_rolling,rolling,COMPLETED_AND_VALIDATED,True,360,360,3.502438399998937,360,360,360
+phase21_p100_full,21,48,coordinated,1.0,full,phase21_p100_full_rolling,rolling,COMPLETED_AND_VALIDATED,True,360,360,3.398111100017559,360,360,360
+phase21_p150_free,21,48,coordinated,1.5,free,phase21_p150_free_rolling,rolling,COMPLETED_AND_VALIDATED,True,360,360,3.4284787999931723,360,360,360
+phase21_p150_full,21,48,coordinated,1.5,full,phase21_p150_full_rolling,rolling,COMPLETED_AND_VALIDATED,True,360,360,3.7326986999833025,360,360,360
+phase00_p100_free,0,48,coordinated,1.0,free,phase00_p100_free_offline,offline,COMPLETED_AND_VALIDATED,True,360,360,0.300723799970001,2,2,360
+phase00_p100_full,0,48,coordinated,1.0,full,phase00_p100_full_offline,offline,COMPLETED_AND_VALIDATED,True,360,360,0.3064722000272013,2,2,360
+phase00_p150_free,0,48,coordinated,1.5,free,phase00_p150_free_offline,offline,COMPLETED_AND_VALIDATED,True,360,360,0.3305390999885276,2,2,360
+phase00_p150_full,0,48,coordinated,1.5,full,phase00_p150_full_offline,offline,COMPLETED_AND_VALIDATED,True,360,360,0.3387009000289254,2,2,360
+phase21_p100_free,21,48,coordinated,1.0,free,phase21_p100_free_offline,offline,COMPLETED_AND_VALIDATED,True,360,360,0.285821900004521,2,2,360
+phase21_p100_full,21,48,coordinated,1.0,full,phase21_p100_full_offline,offline,COMPLETED_AND_VALIDATED,True,360,360,0.3163187999743968,2,2,360
+phase21_p150_free,21,48,coordinated,1.5,free,phase21_p150_free_offline,offline,COMPLETED_AND_VALIDATED,True,360,360,0.3084064000286162,2,2,360
+phase21_p150_full,21,48,coordinated,1.5,full,phase21_p150_full_offline,offline,COMPLETED_AND_VALIDATED,True,360,360,0.29874920001020655,2,2,360

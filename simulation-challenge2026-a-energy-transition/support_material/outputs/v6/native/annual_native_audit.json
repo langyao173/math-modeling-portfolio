@@ -1,0 +1,683 @@
+{
+  "status": "PASS_ALL_DECLARED_ACTUAL_NATIVE_V6_ANNUAL_RUNS",
+  "source_input_hashes_before": [
+    {
+      "path": "simulation/v6/v6_annual_step.m",
+      "sha256": "bd3701f0d58edaf93e37ebce45479d753177a3455f6713870ec042b5909df092"
+    },
+    {
+      "path": "simulation/v6/v6_annual_run.m",
+      "sha256": "401032a1db0213cff4f43e6d4937785525155828af6d862eaf547190a26bb13a"
+    },
+    {
+      "path": "simulation/v6/v6_build_annual_model.m",
+      "sha256": "406295be2e3fb9b700f575d978fa6a422127bce24d493b1032e4ed44b07e0d70"
+    },
+    {
+      "path": "simulation/v6/v6_annual_audit.m",
+      "sha256": "2521714e076dc048ed58e186637ebd49444284eda90e6a09edb989308b6b8240"
+    },
+    {
+      "path": "simulation/v3/v3_annual_expectations.m",
+      "sha256": "1df69f8de3c0374953c437eed260da896373a9444160dda0ed9591f6db17d5a8"
+    },
+    {
+      "path": "simulation/v3/v3_annual_forecast_level.m",
+      "sha256": "d6bae3e0d553a21c128acc6c94aeb5258b603ff9f82979e379fa763cbe0c145e"
+    },
+    {
+      "path": "simulation/v3/v3_execute.m",
+      "sha256": "ff164e0b8d3d38df56be8ece8974f1e1ea5f7431f84ae1bcb112c19744899451"
+    },
+    {
+      "path": "simulation/v3/v3_live_monitor.m",
+      "sha256": "ec24f39aaf4fe6c99bbc1f2ab801f798afc9c83c728146fecb5e898d10a47247"
+    },
+    {
+      "path": "src/v6_native_inputs.py",
+      "sha256": "eedc655f83fb8eaf92329730541b47cc13ea0962c93ee314e8b826ab23db1d20"
+    },
+    {
+      "path": "src/v6_annual.py",
+      "sha256": "c48c5b15a65470fcb6ff1ded73f43cf2e4e3155b76a1709a5525ed75a71f81d8"
+    },
+    {
+      "path": "src/v3_annual.py",
+      "sha256": "61aaa876bafe81186aac72d7aeb8289b4924b7155a1de1fdc6ca7ba5ba1e737b"
+    },
+    {
+      "path": "src/v3_annual_calibrated.py",
+      "sha256": "aa01ebc38ee260e68632809ba33023ed6e249fb0684c9fcd56254dd0ca18495f"
+    },
+    {
+      "path": "src/v3_calibration_candidate.py",
+      "sha256": "468f6ea5d7efad0b15852b6ebcd7c96c584b22d4cc7adc804e9f22191ec01efb"
+    },
+    {
+      "path": "config/v3_transition.json",
+      "sha256": "a2019b12bdd9c5ca34a4af3ad36f742ac472b35ab152adea83ba1a3d3baf4b2f"
+    },
+    {
+      "path": "data/v6_fuel_import_channels.csv",
+      "sha256": "36c170edaaa3e4f6f915973760fe2fb2fedbeb54bda18e118c1283e177eb084c"
+    },
+    {
+      "path": "data/annual_china.csv",
+      "sha256": "2d87c3089eb99de84f38354ff9086d30134dcf1481715fec575a228ba2c09c6f"
+    },
+    {
+      "path": "data/ember_power_china.csv",
+      "sha256": "72ee74b02a7b5d670ead72c37b0b790a5982aaca059111c78877e21939cb5012"
+    },
+    {
+      "path": "data/energy_production_china.csv",
+      "sha256": "b56ad05e90a5b94a243d2a4faff97081a8917d1ab854f201f7ab10b02a811527"
+    },
+    {
+      "path": "data/fuel_supply_trade.csv",
+      "sha256": "1ffe9642679b61603f4caf310b6ca15e5f912e1530d48f27a4b4a759a8ea7ffd"
+    },
+    {
+      "path": "data/supplement_carriers_2024.csv",
+      "sha256": "3364e05f29a52437b6fd89d4dddcf7a268942a82a5974cc627b4593f6c3deea0"
+    },
+    {
+      "path": "outputs/v6/native/annual_native_inputs.mat",
+      "sha256": "94cc6b82ead014d9df0ad549056006a19647f9d682de151d17cb6f771ffe800e"
+    },
+    {
+      "path": "outputs/v6/native/annual_python_reference.mat",
+      "sha256": "3c9db86e04c0e75568407f4ba959de17807a977094ac4d127a879549158f78fd"
+    },
+    {
+      "path": "outputs/v6/native/annual_inputs_manifest.json",
+      "sha256": "e2949fd395a1a089e98c8625e13d0d94f6f6f138e76e5c973389df2f967ef8f7"
+    },
+    {
+      "path": "outputs/v6/native/annual_cases.json",
+      "sha256": "2f5481d2f4a1a4c5021f297fa92b03b90aa913d3e4a0fd63bfa5b9d8a0260d4e"
+    },
+    {
+      "path": "outputs/v6/planning/selected_cases.csv",
+      "sha256": "a3a5e658928ad6ca27137e086f3e8cca5f3f095f92931d24406d59d860e86759"
+    },
+    {
+      "path": "outputs/v6/planning/planning_audit.json",
+      "sha256": "7f594d66cbcb27e5d7c09449d2e957a9bc9606b105dd02fe4def2a6ab2822f4e"
+    }
+  ],
+  "cases": {
+    "baseline": {
+      "status": "PASS",
+      "annual_steps": 36,
+      "investor_actions": 432,
+      "trace_values_compared": 3672,
+      "action_values_compared": 6192,
+      "state_values_compared": 7812,
+      "raw_metric_values_compared": 4752,
+      "max_relative_error": 3.637978807091713E-12,
+      "max_absolute_error": 8.4546627476811409E-9,
+      "max_balance_error": 3.637978807091713E-12,
+      "action_spend_error_million_cny": 9.3132257461547852E-10,
+      "metrics": {
+        "peak_year": 2060,
+        "peak_mt": 12463.992315455534,
+        "peak_at_observed_initial_year": false,
+        "peak_at_horizon_endpoint": true,
+        "net_2060_mt": 12639.338075204592,
+        "required_removal_2060_mt": 12639.338075204592,
+        "max_balance_error": 3.637978807091713E-12,
+        "source_mode": "V6_NATIVE_SIMULINK_CLOSED_LOOP",
+        "capture_capacity_imposed_mt": 0
+      }
+    },
+    "policy": {
+      "status": "PASS",
+      "annual_steps": 36,
+      "investor_actions": 432,
+      "trace_values_compared": 3672,
+      "action_values_compared": 6192,
+      "state_values_compared": 7812,
+      "raw_metric_values_compared": 4752,
+      "max_relative_error": 3.637978807091713E-12,
+      "max_absolute_error": 3.7252902984619141E-9,
+      "max_balance_error": 3.637978807091713E-12,
+      "action_spend_error_million_cny": 6.9849193096160889E-10,
+      "metrics": {
+        "peak_year": 2024,
+        "peak_mt": 11484.826000000001,
+        "peak_at_observed_initial_year": true,
+        "peak_at_horizon_endpoint": false,
+        "net_2060_mt": 9325.3189992313364,
+        "required_removal_2060_mt": 9325.3189992313364,
+        "max_balance_error": 3.637978807091713E-12,
+        "source_mode": "V6_NATIVE_SIMULINK_CLOSED_LOOP",
+        "capture_capacity_imposed_mt": 0
+      }
+    },
+    "risk": {
+      "status": "PASS",
+      "annual_steps": 36,
+      "investor_actions": 432,
+      "trace_values_compared": 3672,
+      "action_values_compared": 6192,
+      "state_values_compared": 7812,
+      "raw_metric_values_compared": 4752,
+      "max_relative_error": 3.637978807091713E-12,
+      "max_absolute_error": 5.5879354476928711E-9,
+      "max_balance_error": 3.637978807091713E-12,
+      "action_spend_error_million_cny": 9.3132257461547852E-10,
+      "metrics": {
+        "peak_year": 2060,
+        "peak_mt": 12806.754084790164,
+        "peak_at_observed_initial_year": false,
+        "peak_at_horizon_endpoint": true,
+        "net_2060_mt": 12982.099844539222,
+        "required_removal_2060_mt": 12982.099844539222,
+        "max_balance_error": 3.637978807091713E-12,
+        "source_mode": "V6_NATIVE_SIMULINK_CLOSED_LOOP",
+        "capture_capacity_imposed_mt": 0
+      }
+    },
+    "technology": {
+      "status": "PASS",
+      "annual_steps": 36,
+      "investor_actions": 432,
+      "trace_values_compared": 3672,
+      "action_values_compared": 6192,
+      "state_values_compared": 7812,
+      "raw_metric_values_compared": 4752,
+      "max_relative_error": 3.637978807091713E-12,
+      "max_absolute_error": 4.5984052121639252E-9,
+      "max_balance_error": 3.637978807091713E-12,
+      "action_spend_error_million_cny": 4.6566128730773926E-10,
+      "metrics": {
+        "peak_year": 2036,
+        "peak_mt": 11500.7208042666,
+        "peak_at_observed_initial_year": false,
+        "peak_at_horizon_endpoint": false,
+        "net_2060_mt": 11154.016346704533,
+        "required_removal_2060_mt": 11154.016346704533,
+        "max_balance_error": 3.637978807091713E-12,
+        "source_mode": "V6_NATIVE_SIMULINK_CLOSED_LOOP",
+        "capture_capacity_imposed_mt": 0
+      }
+    },
+    "consumer_frozen": {
+      "status": "PASS",
+      "annual_steps": 36,
+      "investor_actions": 432,
+      "trace_values_compared": 3672,
+      "action_values_compared": 6192,
+      "state_values_compared": 7812,
+      "raw_metric_values_compared": 4752,
+      "max_relative_error": 3.637978807091713E-12,
+      "max_absolute_error": 2.7939677238464355E-9,
+      "max_balance_error": 3.637978807091713E-12,
+      "action_spend_error_million_cny": 4.6566128730773926E-10,
+      "metrics": {
+        "peak_year": 2059,
+        "peak_mt": 14954.398946237416,
+        "peak_at_observed_initial_year": false,
+        "peak_at_horizon_endpoint": false,
+        "net_2060_mt": 14504.122263363366,
+        "required_removal_2060_mt": 14504.122263363366,
+        "max_balance_error": 3.637978807091713E-12,
+        "source_mode": "V6_NATIVE_SIMULINK_CLOSED_LOOP",
+        "capture_capacity_imposed_mt": 0
+      }
+    },
+    "consumer_response_off": {
+      "status": "PASS",
+      "annual_steps": 36,
+      "investor_actions": 432,
+      "trace_values_compared": 3672,
+      "action_values_compared": 6192,
+      "state_values_compared": 7812,
+      "raw_metric_values_compared": 4752,
+      "max_relative_error": 3.637978807091713E-12,
+      "max_absolute_error": 4.71482053399086E-9,
+      "max_balance_error": 3.637978807091713E-12,
+      "action_spend_error_million_cny": 4.6566128730773926E-10,
+      "metrics": {
+        "peak_year": 2060,
+        "peak_mt": 12255.865762833146,
+        "peak_at_observed_initial_year": false,
+        "peak_at_horizon_endpoint": true,
+        "net_2060_mt": 12431.211522582202,
+        "required_removal_2060_mt": 12431.211522582202,
+        "max_balance_error": 3.637978807091713E-12,
+        "source_mode": "V6_NATIVE_SIMULINK_CLOSED_LOOP",
+        "capture_capacity_imposed_mt": 0
+      }
+    },
+    "zero_coal_channel": {
+      "status": "PASS",
+      "annual_steps": 36,
+      "investor_actions": 432,
+      "trace_values_compared": 3672,
+      "action_values_compared": 6192,
+      "state_values_compared": 7812,
+      "raw_metric_values_compared": 4752,
+      "max_relative_error": 3.637978807091713E-12,
+      "max_absolute_error": 5.5879354476928711E-9,
+      "max_balance_error": 3.637978807091713E-12,
+      "action_spend_error_million_cny": 4.6566128730773926E-10,
+      "metrics": {
+        "peak_year": 2060,
+        "peak_mt": 12434.430827470118,
+        "peak_at_observed_initial_year": false,
+        "peak_at_horizon_endpoint": true,
+        "net_2060_mt": 12609.776587219174,
+        "required_removal_2060_mt": 12609.776587219174,
+        "max_balance_error": 3.637978807091713E-12,
+        "source_mode": "V6_NATIVE_SIMULINK_CLOSED_LOOP",
+        "capture_capacity_imposed_mt": 0
+      }
+    },
+    "zero_matched_supply": {
+      "status": "PASS",
+      "annual_steps": 36,
+      "investor_actions": 432,
+      "trace_values_compared": 3672,
+      "action_values_compared": 6192,
+      "state_values_compared": 7812,
+      "raw_metric_values_compared": 4752,
+      "max_relative_error": 3.637978807091713E-12,
+      "max_absolute_error": 8.4546627476811409E-9,
+      "max_balance_error": 3.637978807091713E-12,
+      "action_spend_error_million_cny": 9.3132257461547852E-10,
+      "metrics": {
+        "peak_year": 2060,
+        "peak_mt": 12463.992315455534,
+        "peak_at_observed_initial_year": false,
+        "peak_at_horizon_endpoint": true,
+        "net_2060_mt": 12639.338075204592,
+        "required_removal_2060_mt": 12639.338075204592,
+        "max_balance_error": 3.637978807091713E-12,
+        "source_mode": "V6_NATIVE_SIMULINK_CLOSED_LOOP",
+        "capture_capacity_imposed_mt": 0
+      }
+    },
+    "smooth_price": {
+      "status": "PASS",
+      "annual_steps": 36,
+      "investor_actions": 432,
+      "trace_values_compared": 3672,
+      "action_values_compared": 6192,
+      "state_values_compared": 7812,
+      "raw_metric_values_compared": 4752,
+      "max_relative_error": 3.637978807091713E-12,
+      "max_absolute_error": 4.6566128730773926E-8,
+      "max_balance_error": 3.637978807091713E-12,
+      "action_spend_error_million_cny": 9.3132257461547852E-10,
+      "metrics": {
+        "peak_year": 2060,
+        "peak_mt": 12647.742996199833,
+        "peak_at_observed_initial_year": false,
+        "peak_at_horizon_endpoint": true,
+        "net_2060_mt": 12823.088755948891,
+        "required_removal_2060_mt": 12823.088755948891,
+        "max_balance_error": 3.637978807091713E-12,
+        "source_mode": "V6_NATIVE_SIMULINK_CLOSED_LOOP",
+        "capture_capacity_imposed_mt": 0
+      }
+    },
+    "government_feedback_off": {
+      "status": "PASS",
+      "annual_steps": 36,
+      "investor_actions": 432,
+      "trace_values_compared": 3672,
+      "action_values_compared": 6192,
+      "state_values_compared": 7812,
+      "raw_metric_values_compared": 4752,
+      "max_relative_error": 3.637978807091713E-12,
+      "max_absolute_error": 3.2596290111541748E-9,
+      "max_balance_error": 4.5474735088646412E-13,
+      "action_spend_error_million_cny": 6.9849193096160889E-10,
+      "metrics": {
+        "peak_year": 2060,
+        "peak_mt": 12402.944337080138,
+        "peak_at_observed_initial_year": false,
+        "peak_at_horizon_endpoint": true,
+        "net_2060_mt": 12578.290096829194,
+        "required_removal_2060_mt": 12578.290096829194,
+        "max_balance_error": 4.5474735088646412E-13,
+        "source_mode": "V6_NATIVE_SIMULINK_CLOSED_LOOP",
+        "capture_capacity_imposed_mt": 0
+      }
+    },
+    "minimum_one_year": {
+      "status": "PASS",
+      "annual_steps": 36,
+      "investor_actions": 432,
+      "trace_values_compared": 3672,
+      "action_values_compared": 6192,
+      "state_values_compared": 7812,
+      "raw_metric_values_compared": 4752,
+      "max_relative_error": 3.637978807091713E-12,
+      "max_absolute_error": 4.3073669075965881E-9,
+      "max_balance_error": 3.637978807091713E-12,
+      "action_spend_error_million_cny": 6.9849193096160889E-10,
+      "metrics": {
+        "peak_year": 2060,
+        "peak_mt": 12289.383856293312,
+        "peak_at_observed_initial_year": false,
+        "peak_at_horizon_endpoint": true,
+        "net_2060_mt": 12464.729616042368,
+        "required_removal_2060_mt": 12464.729616042368,
+        "max_balance_error": 3.637978807091713E-12,
+        "source_mode": "V6_NATIVE_SIMULINK_CLOSED_LOOP",
+        "capture_capacity_imposed_mt": 0
+      }
+    },
+    "investor_profit_off": {
+      "status": "PASS",
+      "annual_steps": 36,
+      "investor_actions": 432,
+      "trace_values_compared": 3672,
+      "action_values_compared": 6192,
+      "state_values_compared": 7812,
+      "raw_metric_values_compared": 4752,
+      "max_relative_error": 3.637978807091713E-12,
+      "max_absolute_error": 6.51925802230835E-9,
+      "max_balance_error": 6.8212102632969618E-13,
+      "action_spend_error_million_cny": 4.6566128730773926E-10,
+      "metrics": {
+        "peak_year": 2060,
+        "peak_mt": 12997.138250742099,
+        "peak_at_observed_initial_year": false,
+        "peak_at_horizon_endpoint": true,
+        "net_2060_mt": 13172.484010491156,
+        "required_removal_2060_mt": 13172.484010491156,
+        "max_balance_error": 6.8212102632969618E-13,
+        "source_mode": "V6_NATIVE_SIMULINK_CLOSED_LOOP",
+        "capture_capacity_imposed_mt": 0
+      }
+    },
+    "legacy_v4": {
+      "status": "PASS",
+      "annual_steps": 36,
+      "investor_actions": 432,
+      "trace_values_compared": 3672,
+      "action_values_compared": 6192,
+      "state_values_compared": 7812,
+      "raw_metric_values_compared": 4752,
+      "max_relative_error": 3.637978807091713E-12,
+      "max_absolute_error": 3.7252902984619141E-9,
+      "max_balance_error": 3.637978807091713E-12,
+      "action_spend_error_million_cny": 4.6566128730773926E-10,
+      "metrics": {
+        "peak_year": 2049,
+        "peak_mt": 12221.389381792365,
+        "peak_at_observed_initial_year": false,
+        "peak_at_horizon_endpoint": false,
+        "net_2060_mt": 11725.923390879343,
+        "required_removal_2060_mt": 11725.923390879343,
+        "max_balance_error": 3.637978807091713E-12,
+        "source_mode": "V6_NATIVE_SIMULINK_CLOSED_LOOP",
+        "capture_capacity_imposed_mt": 0
+      }
+    },
+    "plan_02349": {
+      "status": "PASS",
+      "annual_steps": 36,
+      "investor_actions": 432,
+      "trace_values_compared": 3672,
+      "action_values_compared": 6192,
+      "state_values_compared": 7812,
+      "raw_metric_values_compared": 4752,
+      "max_relative_error": 7.2759576141834259E-12,
+      "max_absolute_error": 6.05359673500061E-9,
+      "max_balance_error": 3.637978807091713E-12,
+      "action_spend_error_million_cny": 9.3132257461547852E-10,
+      "metrics": {
+        "peak_year": 2030,
+        "peak_mt": 11531.482624384833,
+        "peak_at_observed_initial_year": false,
+        "peak_at_horizon_endpoint": false,
+        "net_2060_mt": 8027.7869777912238,
+        "required_removal_2060_mt": 8027.7869777912238,
+        "max_balance_error": 3.637978807091713E-12,
+        "source_mode": "V6_NATIVE_SIMULINK_CLOSED_LOOP",
+        "capture_capacity_imposed_mt": 0
+      }
+    },
+    "plan_01400": {
+      "status": "PASS",
+      "annual_steps": 36,
+      "investor_actions": 432,
+      "trace_values_compared": 3672,
+      "action_values_compared": 6192,
+      "state_values_compared": 7812,
+      "raw_metric_values_compared": 4752,
+      "max_relative_error": 5.5710944379814332E-9,
+      "max_absolute_error": 1.30385160446167E-8,
+      "max_balance_error": 3.637978807091713E-12,
+      "action_spend_error_million_cny": 1.3969838619232178E-9,
+      "metrics": {
+        "peak_year": 2024,
+        "peak_mt": 11484.826000000001,
+        "peak_at_observed_initial_year": true,
+        "peak_at_horizon_endpoint": false,
+        "net_2060_mt": 4792.2421499319335,
+        "required_removal_2060_mt": 4792.2421499319335,
+        "max_balance_error": 3.637978807091713E-12,
+        "source_mode": "V6_NATIVE_SIMULINK_CLOSED_LOOP",
+        "capture_capacity_imposed_mt": 0
+      }
+    }
+  },
+  "started_utc": "2026-10-18T10:33:21Z",
+  "output_hashes": {
+    "baseline": {
+      "trace_sha256": "c4ddc6bc33c6386f31bd43b5e89c5be9f9f7ae51ecf41972ab6f9812fd7c4b8f",
+      "actions_sha256": "6f5f63a14d0078690ea3da62822c7ecbee43ca4f65637ee91173ac4baa80b2e7",
+      "state_sha256": "55d987beb8c65642c33e6518b6e0592cb0a6b48bf090f9fa662e28fa2c62cdc3",
+      "metrics_sha256": "70548fefb003c36abaa9db00b561af02b4ff6f41483ec6683a95adf96b0943f4"
+    },
+    "policy": {
+      "trace_sha256": "63d61b0707c0346b55c30ea4275d9a8f6abf158bbc2c6e2aab973151db7a47fb",
+      "actions_sha256": "21577cbf6ccda2d58a98e14ee73caa17e17dcc6d524fca36feeae702325982f5",
+      "state_sha256": "115897517c84fdb4960190c924c96b4807c34a328331078daac8804e8abd09b8",
+      "metrics_sha256": "80e62accc61179b4937d6a4745eca98c7d0a073c4879ed167bf300a7258e464f"
+    },
+    "risk": {
+      "trace_sha256": "0102e27f73f27531f625aa92322b9a79b28fc13fdd4b0519cd821d4c3cddd95a",
+      "actions_sha256": "ff6d3aea6b7e9c3ef3e46d069bc8195833d43ce5b3051b1f02e38c1c3a6a336f",
+      "state_sha256": "096b20238dcd70f4ff64b3d828b91f9d80651f0712abecaf6ca0c6c53453213d",
+      "metrics_sha256": "96c0658738ba178263d3266be1d2266b2c13ba3cdbae47bc0cb12d9e416cc06f"
+    },
+    "technology": {
+      "trace_sha256": "051d0ebba64c3f12b7a61bf1233df55e576fe4edfefe1f0b99d0a8d7d4d45146",
+      "actions_sha256": "b12e5861b56b26944f5e6d68ed0c7d8581ea173a4068d7806e087e13c7aec9ae",
+      "state_sha256": "67864afdf40ceb66f57971b3f650ce10d36cbc7f0b7acdc0c265becad62af617",
+      "metrics_sha256": "313dca597fcea5e6a984cc79a96d6369193c409a6305f91b8ac008da2ff58fa8"
+    },
+    "consumer_frozen": {
+      "trace_sha256": "40c65400a9aa3e78280fa85ca9108b2e1ccff61a2d9ed50ee6ecf7421a7ae8c8",
+      "actions_sha256": "1200db7ee7d9adc5bc70c5c0f87a0014b99644517c090e6c29df3534c8d34184",
+      "state_sha256": "2be53dce4e52e821eb29f68b8670061f6b8447c037d2418e937a141c4dc4e2eb",
+      "metrics_sha256": "5f73f5ab24ee9cbb4ea0d366f3cc96591311753ab518c2d3a31dbe728c61c524"
+    },
+    "consumer_response_off": {
+      "trace_sha256": "6ac367f738478fdbef6595dc2e46f77ddcb7aec1b7ce275f0eebcf2ddb419946",
+      "actions_sha256": "43fcd7e39f8d5fd20bd3ecfc8bc4cbef030bc1d8e3b47c659cc4257954253339",
+      "state_sha256": "fc5c5b33cfbd2dd4bec4cd399ffe392eee24488527b28588b5bbb757fc33a797",
+      "metrics_sha256": "e47973fa3554d7a0e86ab3a3ba9042e33968edccadc8be5e3e772e835adbf298"
+    },
+    "zero_coal_channel": {
+      "trace_sha256": "dbe3fa42c51dd3f2246c5c39bd6676b6dfca5700155f733a591190550e9fe98d",
+      "actions_sha256": "fe50084d16dd8cdec2fe1ff781fcbfa78a8575554034bd52703f77a93cd269f5",
+      "state_sha256": "898c01a77db146d3fb1040c20ba415995422e5619cfb1bb03f707e30132b0697",
+      "metrics_sha256": "704da9cfb2333b61152d2dfd87870f648bc03fa0fee1b6be7f9ccf2c145f4b96"
+    },
+    "zero_matched_supply": {
+      "trace_sha256": "d7030e92c8a267bd37da58d64b91dd44a00fee97bf6377e2b39932edeab1496e",
+      "actions_sha256": "4555d458b4042ec90f402d363d7c1db44885f1149225a6b4347d6a98cd92a8a6",
+      "state_sha256": "9b8aa308359134bd87acca0de31267a8afaa97ec5810bbca09f8403cb4e38573",
+      "metrics_sha256": "0b568b05611319e38507755d967caee1ae102855eb16b57c1a18a6e27384fc17"
+    },
+    "smooth_price": {
+      "trace_sha256": "ce5c6411a4136fc065f2e76121529a64522c64cc20092046eeef53fb1c2f9c8a",
+      "actions_sha256": "2ee7e098fd775be46be4d8b6eaa3c9ffb0f6f12ce394935aef0cea6ca6f1e659",
+      "state_sha256": "2ed80dcf6c727ac10c7f301686d6cd58dbc6ad52ea095cc03b85c8df4392aadd",
+      "metrics_sha256": "f5b961b6ce9f7708f060c2092b81edbafe8316f0356c9b2724a43790e845c617"
+    },
+    "government_feedback_off": {
+      "trace_sha256": "7d06fafee750656e26c5f2e137cda4d0e94eaf8f88e8739ba9bca3965884b68c",
+      "actions_sha256": "7dcfc7a59ade8faf2ed117d06be78f65ecad1626ac6d1e0de5e3e640ccfb66e5",
+      "state_sha256": "4894e36d9d4e1dcdc0e787e1fb813d743bbed61de2036622b918b633fa20e7c4",
+      "metrics_sha256": "ec6cb5631d23977a616120db3dcef8c23431acf62d7e5590f4534f37cf7e6c74"
+    },
+    "minimum_one_year": {
+      "trace_sha256": "4562cb037c4425320c6aba089a4b33c36d66b830553fa0749b78c3e773161293",
+      "actions_sha256": "a36d858fcd96e11eb867239e0e3ae19153c80ab1a6be29fac0396bee51661e41",
+      "state_sha256": "de1680f79165e08ef709f42e7960633619fa3c077fe804a17528a936c9a59071",
+      "metrics_sha256": "2577483f780f42b877cb00203ceafe38685343bb09d2ea6ca8b919281ed2548d"
+    },
+    "investor_profit_off": {
+      "trace_sha256": "4b8174200d9f13ce17b19dbf7b065233641696d93666296d17ea30394cf50dfc",
+      "actions_sha256": "8ac6d9597fe49456879ec8aa61dc1a685081198235269b648a228de44acbec63",
+      "state_sha256": "44468fd4db18088d0decd6567049b4c06eb51d543361863b3c6723ff132f1ae6",
+      "metrics_sha256": "839930882f55e1874cdc86e8a2eb53ff7cf8b97eb637ba8f81e38824684df2b3"
+    },
+    "legacy_v4": {
+      "trace_sha256": "1a4d1244b4d98e06082898033ae7d566bb06f48cb8c69e4ab9d38b5b3ad38133",
+      "actions_sha256": "edc8df84c8ee8e8f30273a843fa6ad72b5d37d818fca46f404f404d8a254af9a",
+      "state_sha256": "ed0795836ea4f03f40f49fdd13a5a052d622a273f25d51b30c8052cbbfa4c5e3",
+      "metrics_sha256": "c79b83fa5a210f7702ad3829fdda54ae48cfa7c52087c4cbc0a84c9cea2c305d"
+    },
+    "plan_02349": {
+      "trace_sha256": "3baae4b527b5e544b358da1f3cf6053c6325b351bb74bcb71947dbc76f2e2506",
+      "actions_sha256": "06c923891af23109b3a080867461d1161506ec5abf906d0208e04a36d1bfb959",
+      "state_sha256": "88a5e86528d0e64d3fefb43c2504083cf9811fc442a58d68ecac0b1ab3647734",
+      "metrics_sha256": "74b557ca846501191110abdf33f66c8bf1e19970975cdcca314fe84cfd93c139"
+    },
+    "plan_01400": {
+      "trace_sha256": "de465a184426210dd22be2acc5b0a4f6a020a9c3d3e8bceda3336a38dfdb3049",
+      "actions_sha256": "f14925cf5ca6da2d8de3bfa6548f716aa5ce0a5f506b22febb49f9c9775b751d",
+      "state_sha256": "fcdef3d3579a365683e4314a125a410794af2e391bd30b9fd8b949d450676af7",
+      "metrics_sha256": "73a3cd4d1fa86fbaacbebc2b23f0f12d753deb69860cbe998f71efc3b8355cb7"
+    }
+  },
+  "native_runs": 15,
+  "source_input_hashes_after": [
+    {
+      "path": "simulation/v6/v6_annual_step.m",
+      "sha256": "bd3701f0d58edaf93e37ebce45479d753177a3455f6713870ec042b5909df092"
+    },
+    {
+      "path": "simulation/v6/v6_annual_run.m",
+      "sha256": "401032a1db0213cff4f43e6d4937785525155828af6d862eaf547190a26bb13a"
+    },
+    {
+      "path": "simulation/v6/v6_build_annual_model.m",
+      "sha256": "406295be2e3fb9b700f575d978fa6a422127bce24d493b1032e4ed44b07e0d70"
+    },
+    {
+      "path": "simulation/v6/v6_annual_audit.m",
+      "sha256": "2521714e076dc048ed58e186637ebd49444284eda90e6a09edb989308b6b8240"
+    },
+    {
+      "path": "simulation/v3/v3_annual_expectations.m",
+      "sha256": "1df69f8de3c0374953c437eed260da896373a9444160dda0ed9591f6db17d5a8"
+    },
+    {
+      "path": "simulation/v3/v3_annual_forecast_level.m",
+      "sha256": "d6bae3e0d553a21c128acc6c94aeb5258b603ff9f82979e379fa763cbe0c145e"
+    },
+    {
+      "path": "simulation/v3/v3_execute.m",
+      "sha256": "ff164e0b8d3d38df56be8ece8974f1e1ea5f7431f84ae1bcb112c19744899451"
+    },
+    {
+      "path": "simulation/v3/v3_live_monitor.m",
+      "sha256": "ec24f39aaf4fe6c99bbc1f2ab801f798afc9c83c728146fecb5e898d10a47247"
+    },
+    {
+      "path": "src/v6_native_inputs.py",
+      "sha256": "eedc655f83fb8eaf92329730541b47cc13ea0962c93ee314e8b826ab23db1d20"
+    },
+    {
+      "path": "src/v6_annual.py",
+      "sha256": "c48c5b15a65470fcb6ff1ded73f43cf2e4e3155b76a1709a5525ed75a71f81d8"
+    },
+    {
+      "path": "src/v3_annual.py",
+      "sha256": "61aaa876bafe81186aac72d7aeb8289b4924b7155a1de1fdc6ca7ba5ba1e737b"
+    },
+    {
+      "path": "src/v3_annual_calibrated.py",
+      "sha256": "aa01ebc38ee260e68632809ba33023ed6e249fb0684c9fcd56254dd0ca18495f"
+    },
+    {
+      "path": "src/v3_calibration_candidate.py",
+      "sha256": "468f6ea5d7efad0b15852b6ebcd7c96c584b22d4cc7adc804e9f22191ec01efb"
+    },
+    {
+      "path": "config/v3_transition.json",
+      "sha256": "a2019b12bdd9c5ca34a4af3ad36f742ac472b35ab152adea83ba1a3d3baf4b2f"
+    },
+    {
+      "path": "data/v6_fuel_import_channels.csv",
+      "sha256": "36c170edaaa3e4f6f915973760fe2fb2fedbeb54bda18e118c1283e177eb084c"
+    },
+    {
+      "path": "data/annual_china.csv",
+      "sha256": "2d87c3089eb99de84f38354ff9086d30134dcf1481715fec575a228ba2c09c6f"
+    },
+    {
+      "path": "data/ember_power_china.csv",
+      "sha256": "72ee74b02a7b5d670ead72c37b0b790a5982aaca059111c78877e21939cb5012"
+    },
+    {
+      "path": "data/energy_production_china.csv",
+      "sha256": "b56ad05e90a5b94a243d2a4faff97081a8917d1ab854f201f7ab10b02a811527"
+    },
+    {
+      "path": "data/fuel_supply_trade.csv",
+      "sha256": "1ffe9642679b61603f4caf310b6ca15e5f912e1530d48f27a4b4a759a8ea7ffd"
+    },
+    {
+      "path": "data/supplement_carriers_2024.csv",
+      "sha256": "3364e05f29a52437b6fd89d4dddcf7a268942a82a5974cc627b4593f6c3deea0"
+    },
+    {
+      "path": "outputs/v6/native/annual_native_inputs.mat",
+      "sha256": "94cc6b82ead014d9df0ad549056006a19647f9d682de151d17cb6f771ffe800e"
+    },
+    {
+      "path": "outputs/v6/native/annual_python_reference.mat",
+      "sha256": "3c9db86e04c0e75568407f4ba959de17807a977094ac4d127a879549158f78fd"
+    },
+    {
+      "path": "outputs/v6/native/annual_inputs_manifest.json",
+      "sha256": "e2949fd395a1a089e98c8625e13d0d94f6f6f138e76e5c973389df2f967ef8f7"
+    },
+    {
+      "path": "outputs/v6/native/annual_cases.json",
+      "sha256": "2f5481d2f4a1a4c5021f297fa92b03b90aa913d3e4a0fd63bfa5b9d8a0260d4e"
+    },
+    {
+      "path": "outputs/v6/planning/selected_cases.csv",
+      "sha256": "a3a5e658928ad6ca27137e086f3e8cca5f3f095f92931d24406d59d860e86759"
+    },
+    {
+      "path": "outputs/v6/planning/planning_audit.json",
+      "sha256": "7f594d66cbcb27e5d7c09449d2e957a9bc9606b105dd02fe4def2a6ab2822f4e"
+    }
+  ],
+  "native_state_count": 217,
+  "output_width": 349,
+  "new_order_minimum_lag_years": 1,
+  "role_ids": {
+    "frontier_knee": "plan_02349",
+    "minimum_net_emissions": "plan_01400"
+  },
+  "model_path": "simulation/v6/V6_Energy_Transition_ABM.slx",
+  "model_sha256": "7d7df8fb8bc4d8364a138a03e8447196ff051cbc8469d7062e3045be08315459",
+  "scope": "All declared audit cases execute native annual state transitions, including four scenarios, origin-anchored and legacy profit rules, mechanism interventions and role-selected plans. Agreement checks implementation, not real-world forecast accuracy.",
+  "input_boundary": "Only observed initial state, fixed calibration and time-constant mechanism/decision policies enter native simulation. Separate future reference file is loaded by audit only.",
+  "completed_utc": "2026-10-18T10:33:34Z"
+}

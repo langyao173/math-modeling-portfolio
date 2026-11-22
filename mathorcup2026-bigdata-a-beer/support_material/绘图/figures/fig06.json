@@ -1,0 +1,36 @@
+{
+  "figure": 6,
+  "caption": "化学共变结构与模块稳定性。a详细显示99字段主连通分量：同心分组弧标示冻结模块，外轨为节点加权度，节点面积随加权度增加；圆周排序与边的曲线只用于展示，不表示化学距离或系统发育。白芯圈与细引线标注6个真实关键化合物；2-AF为2-乙酰呋喃，2,6-DMP为2,6-二甲基吡嗪，EtOH为乙醇。另12个连通分量共31字段、101个零度字段以清点条汇总，完整130有边字段、266边和3条负边保留于底表。b为6组已存同模块最稳定单成员、模块并集及同大小随机集合的Top3频率，虚线为80%，右列是模块并集百分数；模块色与a一致。附录B的150项候选频率完整保留于补图S6，不扩造模块配对数据。",
+  "figure_inches": [
+    6.7,
+    4.0
+  ],
+  "sources": [
+    {
+      "path": "plot_data/06_network_positions.csv",
+      "sha256": "715cf5d4408a5d1de0dca999b6e0d09a237373497bd0f62f5c1989788692de80"
+    },
+    {
+      "path": "plot_data/06_network_edges.csv",
+      "sha256": "c096c69122f502da28558fb4aa46442cdf0efa8740019882293020f8c19da7cc"
+    },
+    {
+      "path": "plot_data/06_module_substitution.csv",
+      "sha256": "79cb731a699ced46321f2e7af060849eb55fc0187194963371772c727a28280f"
+    }
+  ],
+  "new_model_fits": 0,
+  "new_bootstrap_resamples": 0,
+  "style": "shared_index_compositions_v4",
+  "main_component_nodes": 99,
+  "total_nodes": 231,
+  "connected_nodes": 130,
+  "other_components": 12,
+  "other_connected_nodes": 31,
+  "isolated_nodes": 101,
+  "total_edges": 266,
+  "main_component_edges": 242,
+  "negative_edges": 3,
+  "shared_module_index": true,
+  "new_inference": false
+}

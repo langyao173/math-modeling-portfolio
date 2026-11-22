@@ -1,0 +1,21 @@
+{
+  "body_pages": 8,
+  "total_pdf_pages": 28,
+  "cover_group": "043",
+  "main_figures": 6,
+  "main_tables": 4,
+  "workbench_panels": 6,
+  "trial_source_navigation": true,
+  "all_referenced_files_present": true,
+  "latex_overflow_or_missing_glyphs": false,
+  "top10_membership_matches_base": true,
+  "tail_comparison_family": 42,
+  "main_capacity": [
+    46,
+    33
+  ],
+  "two_period_unique_event_customers": 61,
+  "product_data_matches_current_score": true,
+  "product_image_type": "actual DOM print export",
+  "historical_score_replay_max_error": 1.6653345369377348e-16
+}

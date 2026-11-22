@@ -1,0 +1,8 @@
+method,slots,customers,event_windows,event_customers,known,missing_vs_base,added_vs_base
+base_reference,559,331,79,61,558,0,0
+old_bound,559,328,76,59,558,11,11
+guard10,559,331,79,61,558,0,0
+guard_six,559,331,79,61,558,0,0
+strong_S,559,347,78,60,558,74,74
+previous_tail,559,345,75,55,557,65,65
+incumbent_R,559,356,80,61,558,106,106

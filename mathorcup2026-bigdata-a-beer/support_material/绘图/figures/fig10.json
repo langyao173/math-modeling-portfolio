@@ -1,0 +1,63 @@
+{
+  "figure": 10,
+  "caption": "联合约束机制与冻结候选的真实调整。a为二维几何机制示意，非真实可行域投影。b以同一来源顺序展开B=100、η=2的11份冻结候选，在15个高频改动字段上显示固定经验正态控制坐标Δz；按酯类、理化指标与其他字段分区仅作阅读组织。正值暖色、负值冷色，零值近白；仅对|Δz|≥2.5处标注数值。字段仍为原来按改动频次、平均绝对Δz选出的15项，完整225维与精确数值保留于底表。Δz不是原生单位增量或物理干预效应。",
+  "figure_inches": [
+    6.7,
+    3.7
+  ],
+  "sources": [
+    {
+      "path": "plot_data/fig10_actual_selected_adjustments.csv",
+      "sha256": "2024d19c7c1665c1d68e65a42b626f9dd1da7d54806a597118571e6ab2835a24"
+    },
+    {
+      "path": "plot_data/fig10_field_selection.csv",
+      "sha256": "f42864bd2c96368ba61182eb42c74fd6736f5c63a39b1221572264acb49b722f"
+    },
+    {
+      "path": "plot_data/fig10_all225_delta_control_z.npz",
+      "sha256": "e88418d283a54bf0323df34926bf8ef1b47bea400c9016f1ed4fa83a1178254e"
+    }
+  ],
+  "new_model_fits": 0,
+  "new_bootstrap_resamples": 0,
+  "style": "shared_index_compositions_v4",
+  "source_count": 11,
+  "direct_fields": 225,
+  "display_fields": 15,
+  "display_order_fields": [
+    "ethyl_acetate",
+    "isopentyl_acetate",
+    "isobutyl_acetate",
+    "ethyl.butyrate",
+    "vinyl.caprylate",
+    "ethyl..E..cinnamate",
+    "protein.g.L.",
+    "lactic_acid.mg.L.",
+    "ethanol..v.v.",
+    "glycerol",
+    "color.EBC.",
+    "SO2.mg.L.",
+    "n.hexanol",
+    "styrene",
+    "germacrene.D"
+  ],
+  "source_order": [
+    28,
+    81,
+    90,
+    96,
+    119,
+    124,
+    139,
+    185,
+    209,
+    218,
+    230
+  ],
+  "color_limits": [
+    -3.5,
+    3.5
+  ],
+  "geometry_is_schematic": true
+}

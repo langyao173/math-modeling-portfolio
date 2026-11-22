@@ -1,0 +1,60 @@
+{
+  "inputs": {
+    "matches": {
+      "expected_sha256": "cb4e68bb7e080a84a82175151a2c1ce5ef4ef43fcb5111a3cf6c53f69bc92363",
+      "file": "WorldCupMatches.csv",
+      "rows": 852,
+      "sha256": "cb4e68bb7e080a84a82175151a2c1ce5ef4ef43fcb5111a3cf6c53f69bc92363"
+    },
+    "players": {
+      "expected_sha256": "753a68af0cd4fa38b67c7883c138700dfb37544f1ed898b1d176a03f92748d67",
+      "file": "WorldCupPlayers.csv",
+      "rows": 37784,
+      "sha256": "753a68af0cd4fa38b67c7883c138700dfb37544f1ed898b1d176a03f92748d67"
+    },
+    "tournaments": {
+      "expected_sha256": "a66240afe2ce2d7df5b701eebf012052193b90f33e003c9874cd3df85941003e",
+      "file": "WorldCups_preview.csv",
+      "rows": 20,
+      "sha256": "a66240afe2ce2d7df5b701eebf012052193b90f33e003c9874cd3df85941003e"
+    }
+  },
+  "lineage_version": 1,
+  "outputs": {
+    "matches": {
+      "columns": 28,
+      "content_sha256": "1af79dc83cf493ad9f6b3561dd85f6212186e7bf2049205ad9cb1613e43a658c",
+      "rows": 836
+    },
+    "players": {
+      "columns": 10,
+      "content_sha256": "282a2dfc785b6bc4a173d7ecfa263cdbb965ace78555860946d68c2410a80f17",
+      "rows": 37048
+    },
+    "reconciliation": {
+      "columns": 14,
+      "content_sha256": "ea667c3a19f75e5cbe46ab0c0a3d488e2dc445d5bcafefe6b26c9637e4fef6ed",
+      "rows": 20
+    },
+    "tournaments": {
+      "columns": 12,
+      "content_sha256": "4b3d57f99bc8ae208e10c204c2c7c750c0aa2c2faa4b62fae8e7f071470420c2",
+      "rows": 20
+    }
+  },
+  "transformations": [
+    "verify frozen SHA-256 and required columns",
+    "trim leading and trailing whitespace in string cells",
+    "parse tournament attendance as grouped integer",
+    "deduplicate matches by (RoundID, MatchID), rejecting conflicts",
+    "deduplicate player events by exact full raw row",
+    "derive canonical stages, names, goal totals, and scoreline outcomes",
+    "join tournament Year to player events by (RoundID, MatchID)",
+    "reconcile match count, total goals, and attendance for all 20 editions"
+  ],
+  "trimmed_cells": {
+    "matches": 1704,
+    "players": 211,
+    "tournaments": 0
+  }
+}

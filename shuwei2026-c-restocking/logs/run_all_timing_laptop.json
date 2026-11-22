@@ -1,0 +1,106 @@
+{
+ "procs": 8,
+ "steps": [
+  {
+   "step": "s02_build_dataset",
+   "seconds": 14.6,
+   "returncode": 0
+  },
+  {
+   "step": "p1a_audit",
+   "seconds": 5.9,
+   "returncode": 0
+  },
+  {
+   "step": "p1b_state_model",
+   "seconds": 156.3,
+   "returncode": 0
+  },
+  {
+   "step": "p1c_quality_model",
+   "seconds": 21.7,
+   "returncode": 0
+  },
+  {
+   "step": "p1d_factors",
+   "seconds": 6.7,
+   "returncode": 0
+  },
+  {
+   "step": "p2a_masking",
+   "seconds": 9.9,
+   "returncode": 0
+  },
+  {
+   "step": "p2b_policy",
+   "seconds": 12.6,
+   "returncode": 0
+  },
+  {
+   "step": "p2c_natural",
+   "seconds": 8.9,
+   "returncode": 0
+  },
+  {
+   "step": "p3_duration",
+   "seconds": 15.3,
+   "returncode": 0
+  },
+  {
+   "step": "p3_tune",
+   "seconds": 119.9,
+   "returncode": 0
+  },
+  {
+   "step": "p3_run_validation1",
+   "seconds": 36.5,
+   "returncode": 0
+  },
+  {
+   "step": "p3_pooltransfer",
+   "seconds": 132.6,
+   "returncode": 0
+  },
+  {
+   "step": "p3_run_validation2",
+   "seconds": 43.2,
+   "returncode": 0
+  },
+  {
+   "step": "p3_run_test",
+   "seconds": 45.1,
+   "returncode": 0
+  },
+  {
+   "step": "p3_analysis",
+   "seconds": 16.8,
+   "returncode": 0
+  },
+  {
+   "step": "fig_mechanism",
+   "seconds": 11.4,
+   "returncode": 0
+  },
+  {
+   "step": "fig_p1",
+   "seconds": 6.1,
+   "returncode": 0
+  },
+  {
+   "step": "fig_results",
+   "seconds": 10.2,
+   "returncode": 0
+  },
+  {
+   "step": "fig_p3",
+   "seconds": 4.0,
+   "returncode": 0
+  },
+  {
+   "step": "make_tables",
+   "seconds": 1.7,
+   "returncode": 0
+  }
+ ],
+ "total_seconds": 679.4
+}

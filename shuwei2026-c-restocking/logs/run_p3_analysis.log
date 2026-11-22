@@ -1,0 +1,206 @@
+         pool case  trials  jobs  mean_executed                                          consensus_order   rarely_executed  distinct_sequences  modal_sequence_share first_job  first_job_share  mean_wait_s  mean_stop_time_s  mean_occupied_s  mean_travel_s  occupancy_share_of_H  median_reserved_P_s  median_reserved_A_s  median_reserved_L_s        reserve_quantile_shares
+0  validation   S1      30     8           8.00                          J01 J02 J03 J05 J04 J06 J07 J08                                     6                  0.67       J01              1.0         0.06             77.85            62.84          14.95                  0.63                 5.75                 3.57                 5.93            0.50:1.00;0.60:0.00
+1  validation   S2      30    12          10.43              J02 J05 J01 J09 J03 J04 J07 J08 J10 J11 J12           J06(3%)                  13                  0.23       J02              1.0         0.09             96.15            80.34          15.72                  0.80                 4.90                 4.18                 5.81  0.50:0.84;0.60:0.15;0.75:0.00
+2  validation   S3      30    16          12.60  J02 J01 J05 J09 J07 J03 J06 J08 J04 J13 J11 J12 J15 J16   J10(3%) J14(7%)                  27                  0.07       J02              1.0         0.00            118.78            99.23          19.55                  0.79                 4.78                 3.93                 5.50  0.50:0.95;0.60:0.03;0.75:0.02
+3        test   S1      30     8           7.73                          J01 J02 J03 J05 J04 J06 J07 J08                                     5                  0.83       J01              1.0         0.00             72.16            57.51          14.65                  0.58                 5.75                 3.57                 6.06                      0.50:1.00
+4        test   S2      30    12          10.53              J02 J05 J01 J09 J03 J04 J08 J07 J10 J11 J12          J06(20%)                  16                  0.40       J02              1.0         0.32             91.41            75.33          15.76                  0.75                 4.92                 4.18                 5.34  0.50:0.84;0.60:0.14;0.75:0.02
+5        test   S3      30    16          12.97  J02 J01 J05 J07 J09 J06 J03 J08 J04 J13 J11 J12 J16 J15  J10(7%) J14(30%)                  30                  0.03       J02              1.0         0.00            117.13            96.53          20.60                  0.77                 4.88                 3.93                 5.56  0.50:0.96;0.60:0.03;0.75:0.01
+{
+ "shadow_price": {
+  "S1": {
+   "one_second": {
+    "mean": -0.0019623077181848045,
+    "se": 0.0021527142247444275
+   },
+   "one_cost_unit": {
+    "mean": 0.0,
+    "se": 0.0
+   },
+   "one_review_price": {
+    "mean": -0.0019623077181848045,
+    "se": 0.0021527142247444275
+   }
+  },
+  "S2": {
+   "one_second": {
+    "mean": 0.004276990297766002,
+    "se": 0.003275344078732385
+   },
+   "one_cost_unit": {
+    "mean": 0.0,
+    "se": 0.0
+   },
+   "one_review_price": {
+    "mean": 0.004276990297766002,
+    "se": 0.003275344078732385
+   }
+  },
+  "S3": {
+   "one_second": {
+    "mean": -0.008266012426402196,
+    "se": 0.008788632538531068
+   },
+   "one_cost_unit": {
+    "mean": -0.015628608334093925,
+    "se": 0.009497928171103
+   },
+   "one_review_price": {
+    "mean": -0.013889890670126049,
+    "se": 0.009701968840480841
+   }
+  },
+  "ALL": {
+   "one_second": {
+    "mean": -0.0019837766156069994,
+    "se": 0.003217534828053405
+   },
+   "one_cost_unit": {
+    "mean": -0.005209536111364641,
+    "se": 0.003226147936528028
+   },
+   "one_review_price": {
+    "mean": -0.003858402696848284,
+    "se": 0.0035398364252759843
+   }
+  }
+ },
+ "evpi": {
+  "total": {
+   "mean": 0.18161869362341515,
+   "se": 0.012638097779684283
+  },
+  "per_executed_job": 0.01755712398078127,
+  "by_case": {
+   "S1": {
+    "mean": 0.09114019565833154,
+    "se": 0.006203930394469396
+   },
+   "S2": {
+    "mean": 0.1820244825530464,
+    "se": 0.012596496711492032
+   },
+   "S3": {
+    "mean": 0.2716914026588675,
+    "se": 0.026670644131541188
+   }
+  },
+  "executed_jobs_mean": 10.344444444444445
+ },
+ "prefix_levels": {
+  "family": {
+   "cv_sd_log": 0.8239603536193265,
+   "val_pinball_s": 1.438163269956472,
+   "test_pinball_s": 1.3421336612779236,
+   "val_mae_log": 0.5613175630852845,
+   "test_mae_log": 0.3702375806782692
+  },
+  "feat0": {
+   "cv_sd_log": 0.7833710490779755,
+   "val_pinball_s": 1.102633682529938,
+   "test_pinball_s": 1.5490190143675042,
+   "val_mae_log": 0.4284747118441649,
+   "test_mae_log": 0.5152487492510252
+  },
+  "feat1": {
+   "cv_sd_log": 0.7691323422431268,
+   "val_pinball_s": 1.1749904450377706,
+   "test_pinball_s": 1.634211894385266,
+   "val_mae_log": 0.4528286901072332,
+   "test_mae_log": 0.5230594159659818
+  },
+  "feat2": {
+   "cv_sd_log": 0.7875844141545981,
+   "val_pinball_s": 1.220202859683783,
+   "test_pinball_s": 1.6691368124687678,
+   "val_mae_log": 0.4697452652684508,
+   "test_mae_log": 0.5475151794586116
+  }
+ },
+ "variance_reduction_cv": {
+  "first_review": 0.036022020671544586,
+  "second_review": -0.048557083170189586
+ },
+ "model_based_benefit_per_review": 0.00017833639258657018,
+ "planning_error_per_job_s": 3.5430542163972722,
+ "review_reference_policy": "RO-feat-static",
+ "forced_ABL-review-once_validation": {
+  "delta_utility": {
+   "mean": -0.07236995754559952,
+   "se": 0.010952163403684639
+  },
+  "reviews": 6.0,
+  "per_review": -0.012061659590933254,
+  "delta_on_time": -0.043055555555555555,
+  "delta_overrun_idle_s": -1.004731580788537
+ },
+ "forced_ABL-review-twice_validation": {
+  "delta_utility": {
+   "mean": -0.07045406645457566,
+   "se": 0.010515827511756474
+  },
+  "reviews": 6.0,
+  "per_review": -0.011742344409095945,
+  "delta_on_time": -0.04456018518518518,
+  "delta_overrun_idle_s": -0.9848915769890874
+ },
+ "forced_ABL-review-idle_validation": {
+  "delta_utility": {
+   "mean": -0.0015112919311298717,
+   "se": 0.0010621826448819907
+  },
+  "reviews": 0.05555555555555555,
+  "per_review": -0.027203254760337692,
+  "delta_on_time": -0.0010416666666666667,
+  "delta_overrun_idle_s": 0.07561702313565521
+ },
+ "forced_ABL-review-once_test": {
+  "delta_utility": {
+   "mean": -0.08863274771779392,
+   "se": 0.01771889424057956
+  },
+  "reviews": 6.0,
+  "per_review": -0.01477212461963232,
+  "delta_on_time": -0.04849537037037037,
+  "delta_overrun_idle_s": -2.1870665878855715
+ },
+ "forced_ABL-review-idle_test": {
+  "delta_utility": {
+   "mean": 0.00018141900438812562,
+   "se": 0.00010406446462326286
+  },
+  "reviews": 0.03333333333333333,
+  "per_review": 0.005442570131643769,
+  "delta_on_time": -0.0006944444444444445,
+  "delta_overrun_idle_s": -0.07552324881892038
+ }
+}
+{'validation_trials': 9450, 'validation_invalid': 0, 'test_trials': 7200, 'test_invalid': 0, 'validation_policies': 21}
+case_id              S1     S2     S3  meets_0.50_all_cases
+policy                                                     
+ABL-review-idle   0.971  0.869  0.814                  True
+ABL-review-once   0.973  0.799  0.756                  True
+ABL-review-twice  0.977  0.793  0.753                  True
+CLAIRVOYANT       0.994  0.928  0.888                  True
+EDD-median        0.990  0.551  0.518                  True
+EDD-min           0.992  0.678  0.627                  True
+FIFO-mean         0.946  0.439  0.305                 False
+FROZEN            0.988  0.868  0.753                  True
+Index-static      0.927  0.856  0.798                  True
+RES-min           0.988  0.885  0.781                  True
+RES-q25           0.988  0.894  0.793                  True
+RES-q75           0.962  0.746  0.714                  True
+RES-q90           0.783  0.450  0.524                 False
+RHO-0.1           0.988  0.867  0.749                  True
+RHO-1.0           0.983  0.854  0.761                  True
+RO-bma-learn      0.971  0.871  0.815                  True
+RO-bma-static     0.983  0.860  0.820                  True
+RO-family-learn   0.983  0.850  0.782                  True
+RO-family-static  0.988  0.868  0.753                  True
+RO-feat-learn     0.975  0.868  0.817                  True
+RO-feat-static    0.971  0.869  0.817                  True
+    policy  reserve_floor  utility  weighted_on_time_rate  weighted_completion_rate    cost  observed_overrun_s  reserved_idle_s
+1  RES-min           0.00    0.620                  0.884                     0.945  25.190              77.003            0.000
+2  RES-q25           0.25    0.722                  0.892                     0.937  27.841              37.839            3.011
+0   FROZEN           0.50    0.707                  0.870                     0.920  28.076              30.063            6.255
+3  RES-q75           0.75    0.613                  0.807                     0.861  28.065              10.061           20.957
+4  RES-q90           0.90    0.176                  0.586                     0.675  23.560               0.734           45.870

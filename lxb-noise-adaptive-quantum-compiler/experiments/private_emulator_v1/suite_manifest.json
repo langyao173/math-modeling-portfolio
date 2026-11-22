@@ -1,0 +1,648 @@
+{
+  "schema_version": "private_emulator.v1",
+  "seed": 2026,
+  "suites": [
+    {
+      "name": "public_replay",
+      "root": "D:\\BaiduNetdiskDownload\\\u91cf\u65cb\u676f",
+      "split": "public",
+      "tracks": [
+        "track_a",
+        "track_b"
+      ],
+      "weight": 0.25,
+      "matrix_output": "public_5seed_matrix.json"
+    },
+    {
+      "name": "tracka_structural",
+      "root": "D:\\BaiduNetdiskDownload\\\u91cf\u65cb\u676f\\experiments\\private_emulator_v1\\tracka_structural",
+      "split": "holdout",
+      "tracks": [
+        "track_a"
+      ],
+      "weight": 0.35,
+      "matrix_output": "synthetic_tracka_structural_matrix.json"
+    },
+    {
+      "name": "trackb_affine",
+      "root": "D:\\BaiduNetdiskDownload\\\u91cf\u65cb\u676f\\experiments\\private_emulator_v1\\trackb_affine",
+      "split": "holdout",
+      "tracks": [
+        "track_b"
+      ],
+      "weight": 0.25,
+      "matrix_output": "synthetic_trackb_affine_matrix.json"
+    },
+    {
+      "name": "backend_jitter",
+      "root": "D:\\BaiduNetdiskDownload\\\u91cf\u65cb\u676f\\experiments\\private_emulator_v1\\backend_jitter",
+      "split": "holdout",
+      "tracks": [
+        "track_a",
+        "track_b"
+      ],
+      "weight": 0.15,
+      "matrix_output": "backend_jitter_matrix.json"
+    }
+  ],
+  "promotion_rule": {
+    "invalid_count": 0,
+    "p95_compile_lt": 12.0,
+    "paired_mean_delta_gte": 0.003,
+    "negative_delta_fraction_lte": 0.2,
+    "worst_seed_delta_gte": -0.004,
+    "near_miss_false_accept": 0
+  },
+  "manifests": {
+    "tracka_structural": [
+      {
+        "name": "tracka_struct_001",
+        "track": "track_a",
+        "family": "cnot_ladder_phase",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a",
+        "logical_qubits": 6
+      },
+      {
+        "name": "tracka_struct_002",
+        "track": "track_a",
+        "family": "cnot_ladder_phase",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a",
+        "logical_qubits": 7
+      },
+      {
+        "name": "tracka_struct_003",
+        "track": "track_a",
+        "family": "toffoli_carry_chain",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a",
+        "logical_qubits": 6
+      },
+      {
+        "name": "tracka_struct_004",
+        "track": "track_a",
+        "family": "toffoli_carry_chain",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a",
+        "logical_qubits": 7
+      },
+      {
+        "name": "tracka_struct_005",
+        "track": "track_a",
+        "family": "structured_random_phase",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a",
+        "logical_qubits": 6
+      },
+      {
+        "name": "tracka_struct_006",
+        "track": "track_a",
+        "family": "structured_random_phase",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a",
+        "logical_qubits": 7
+      },
+      {
+        "name": "tracka_struct_007",
+        "track": "track_a",
+        "family": "routing_pressure_random",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a",
+        "logical_qubits": 6
+      },
+      {
+        "name": "tracka_struct_008",
+        "track": "track_a",
+        "family": "routing_pressure_random",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a",
+        "logical_qubits": 7
+      }
+    ],
+    "trackb_affine": [
+      {
+        "name": "affine_struct_001",
+        "track": "track_b",
+        "family": "exact_affine_parity_star",
+        "backend_size_class": "large",
+        "backend_snapshot_id": "large_snapshot_a",
+        "logical_qubits": 15,
+        "negative_case": false,
+        "two_qubit_gates": 12
+      },
+      {
+        "name": "affine_struct_002",
+        "track": "track_b",
+        "family": "exact_affine_parity_star",
+        "backend_size_class": "large",
+        "backend_snapshot_id": "large_snapshot_a",
+        "logical_qubits": 20,
+        "negative_case": false,
+        "two_qubit_gates": 16
+      },
+      {
+        "name": "affine_struct_003",
+        "track": "track_b",
+        "family": "exact_affine_parity_star",
+        "backend_size_class": "large",
+        "backend_snapshot_id": "large_snapshot_a",
+        "logical_qubits": 24,
+        "negative_case": false,
+        "two_qubit_gates": 18
+      },
+      {
+        "name": "affine_struct_004",
+        "track": "track_b",
+        "family": "exact_affine_parity_star",
+        "backend_size_class": "large",
+        "backend_snapshot_id": "large_snapshot_a",
+        "logical_qubits": 24,
+        "negative_case": false,
+        "two_qubit_gates": 16
+      },
+      {
+        "name": "affine_struct_005",
+        "track": "track_b",
+        "family": "parity_tree",
+        "backend_size_class": "large",
+        "backend_snapshot_id": "large_snapshot_a",
+        "logical_qubits": 16,
+        "negative_case": false,
+        "two_qubit_gates": 14
+      },
+      {
+        "name": "affine_struct_006",
+        "track": "track_b",
+        "family": "parity_tree",
+        "backend_size_class": "large",
+        "backend_snapshot_id": "large_snapshot_a",
+        "logical_qubits": 24,
+        "negative_case": false,
+        "two_qubit_gates": 21
+      },
+      {
+        "name": "affine_struct_007",
+        "track": "track_b",
+        "family": "multi_row_affine",
+        "backend_size_class": "large",
+        "backend_snapshot_id": "large_snapshot_a",
+        "logical_qubits": 12,
+        "negative_case": false,
+        "two_qubit_gates": 18
+      },
+      {
+        "name": "affine_struct_008",
+        "track": "track_b",
+        "family": "multi_row_affine",
+        "backend_size_class": "large",
+        "backend_snapshot_id": "large_snapshot_a",
+        "logical_qubits": 18,
+        "negative_case": false,
+        "two_qubit_gates": 28
+      },
+      {
+        "name": "affine_struct_009",
+        "track": "track_b",
+        "family": "multi_row_affine",
+        "backend_size_class": "large",
+        "backend_snapshot_id": "large_snapshot_a",
+        "logical_qubits": 24,
+        "negative_case": false,
+        "two_qubit_gates": 40
+      },
+      {
+        "name": "affine_struct_010",
+        "track": "track_b",
+        "family": "near_miss_non_affine_clifford",
+        "backend_size_class": "large",
+        "backend_snapshot_id": "large_snapshot_a",
+        "logical_qubits": 12,
+        "negative_case": true,
+        "two_qubit_gates": 17
+      },
+      {
+        "name": "affine_struct_011",
+        "track": "track_b",
+        "family": "near_miss_non_affine_clifford",
+        "backend_size_class": "large",
+        "backend_snapshot_id": "large_snapshot_a",
+        "logical_qubits": 18,
+        "negative_case": true,
+        "two_qubit_gates": 23
+      },
+      {
+        "name": "affine_struct_012",
+        "track": "track_b",
+        "family": "near_miss_non_affine_clifford",
+        "backend_size_class": "large",
+        "backend_snapshot_id": "large_snapshot_a",
+        "logical_qubits": 24,
+        "negative_case": true,
+        "two_qubit_gates": 29
+      }
+    ],
+    "backend_jitter": [
+      {
+        "name": "track_a_001_original",
+        "track": "track_a",
+        "family": "bv_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_original",
+        "logical_qubits": 6
+      },
+      {
+        "name": "track_a_001_twoq_lognormal",
+        "track": "track_a",
+        "family": "bv_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_twoq_lognormal",
+        "logical_qubits": 6
+      },
+      {
+        "name": "track_a_001_readout_lognormal",
+        "track": "track_a",
+        "family": "bv_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_readout_lognormal",
+        "logical_qubits": 6
+      },
+      {
+        "name": "track_a_001_mixed_lognormal",
+        "track": "track_a",
+        "family": "bv_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_mixed_lognormal",
+        "logical_qubits": 6
+      },
+      {
+        "name": "track_a_001_worst_edge_relocated",
+        "track": "track_a",
+        "family": "bv_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_worst_edge_relocated",
+        "logical_qubits": 6
+      },
+      {
+        "name": "track_a_002_original",
+        "track": "track_a",
+        "family": "hs_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_original",
+        "logical_qubits": 6
+      },
+      {
+        "name": "track_a_002_twoq_lognormal",
+        "track": "track_a",
+        "family": "hs_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_twoq_lognormal",
+        "logical_qubits": 6
+      },
+      {
+        "name": "track_a_002_readout_lognormal",
+        "track": "track_a",
+        "family": "hs_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_readout_lognormal",
+        "logical_qubits": 6
+      },
+      {
+        "name": "track_a_002_mixed_lognormal",
+        "track": "track_a",
+        "family": "hs_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_mixed_lognormal",
+        "logical_qubits": 6
+      },
+      {
+        "name": "track_a_002_worst_edge_relocated",
+        "track": "track_a",
+        "family": "hs_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_worst_edge_relocated",
+        "logical_qubits": 6
+      },
+      {
+        "name": "track_a_003_original",
+        "track": "track_a",
+        "family": "toffoli_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_original",
+        "logical_qubits": 6
+      },
+      {
+        "name": "track_a_003_twoq_lognormal",
+        "track": "track_a",
+        "family": "toffoli_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_twoq_lognormal",
+        "logical_qubits": 6
+      },
+      {
+        "name": "track_a_003_readout_lognormal",
+        "track": "track_a",
+        "family": "toffoli_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_readout_lognormal",
+        "logical_qubits": 6
+      },
+      {
+        "name": "track_a_003_mixed_lognormal",
+        "track": "track_a",
+        "family": "toffoli_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_mixed_lognormal",
+        "logical_qubits": 6
+      },
+      {
+        "name": "track_a_003_worst_edge_relocated",
+        "track": "track_a",
+        "family": "toffoli_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_worst_edge_relocated",
+        "logical_qubits": 6
+      },
+      {
+        "name": "track_a_004_original",
+        "track": "track_a",
+        "family": "fredkin_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_original",
+        "logical_qubits": 6
+      },
+      {
+        "name": "track_a_004_twoq_lognormal",
+        "track": "track_a",
+        "family": "fredkin_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_twoq_lognormal",
+        "logical_qubits": 6
+      },
+      {
+        "name": "track_a_004_readout_lognormal",
+        "track": "track_a",
+        "family": "fredkin_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_readout_lognormal",
+        "logical_qubits": 6
+      },
+      {
+        "name": "track_a_004_mixed_lognormal",
+        "track": "track_a",
+        "family": "fredkin_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_mixed_lognormal",
+        "logical_qubits": 6
+      },
+      {
+        "name": "track_a_004_worst_edge_relocated",
+        "track": "track_a",
+        "family": "fredkin_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_worst_edge_relocated",
+        "logical_qubits": 6
+      },
+      {
+        "name": "track_a_005_original",
+        "track": "track_a",
+        "family": "peres_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_original",
+        "logical_qubits": 6
+      },
+      {
+        "name": "track_a_005_twoq_lognormal",
+        "track": "track_a",
+        "family": "peres_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_twoq_lognormal",
+        "logical_qubits": 6
+      },
+      {
+        "name": "track_a_005_readout_lognormal",
+        "track": "track_a",
+        "family": "peres_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_readout_lognormal",
+        "logical_qubits": 6
+      },
+      {
+        "name": "track_a_005_mixed_lognormal",
+        "track": "track_a",
+        "family": "peres_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_mixed_lognormal",
+        "logical_qubits": 6
+      },
+      {
+        "name": "track_a_005_worst_edge_relocated",
+        "track": "track_a",
+        "family": "peres_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_worst_edge_relocated",
+        "logical_qubits": 6
+      },
+      {
+        "name": "track_a_006_original",
+        "track": "track_a",
+        "family": "or_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_original",
+        "logical_qubits": 6
+      },
+      {
+        "name": "track_a_006_twoq_lognormal",
+        "track": "track_a",
+        "family": "or_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_twoq_lognormal",
+        "logical_qubits": 6
+      },
+      {
+        "name": "track_a_006_readout_lognormal",
+        "track": "track_a",
+        "family": "or_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_readout_lognormal",
+        "logical_qubits": 6
+      },
+      {
+        "name": "track_a_006_mixed_lognormal",
+        "track": "track_a",
+        "family": "or_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_mixed_lognormal",
+        "logical_qubits": 6
+      },
+      {
+        "name": "track_a_006_worst_edge_relocated",
+        "track": "track_a",
+        "family": "or_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_worst_edge_relocated",
+        "logical_qubits": 6
+      },
+      {
+        "name": "track_a_007_original",
+        "track": "track_a",
+        "family": "adder_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_original",
+        "logical_qubits": 6
+      },
+      {
+        "name": "track_a_007_twoq_lognormal",
+        "track": "track_a",
+        "family": "adder_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_twoq_lognormal",
+        "logical_qubits": 6
+      },
+      {
+        "name": "track_a_007_readout_lognormal",
+        "track": "track_a",
+        "family": "adder_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_readout_lognormal",
+        "logical_qubits": 6
+      },
+      {
+        "name": "track_a_007_mixed_lognormal",
+        "track": "track_a",
+        "family": "adder_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_mixed_lognormal",
+        "logical_qubits": 6
+      },
+      {
+        "name": "track_a_007_worst_edge_relocated",
+        "track": "track_a",
+        "family": "adder_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_worst_edge_relocated",
+        "logical_qubits": 6
+      },
+      {
+        "name": "track_a_008_original",
+        "track": "track_a",
+        "family": "structured_random_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_original",
+        "logical_qubits": 7
+      },
+      {
+        "name": "track_a_008_twoq_lognormal",
+        "track": "track_a",
+        "family": "structured_random_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_twoq_lognormal",
+        "logical_qubits": 7
+      },
+      {
+        "name": "track_a_008_readout_lognormal",
+        "track": "track_a",
+        "family": "structured_random_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_readout_lognormal",
+        "logical_qubits": 7
+      },
+      {
+        "name": "track_a_008_mixed_lognormal",
+        "track": "track_a",
+        "family": "structured_random_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_mixed_lognormal",
+        "logical_qubits": 7
+      },
+      {
+        "name": "track_a_008_worst_edge_relocated",
+        "track": "track_a",
+        "family": "structured_random_jitter",
+        "backend_size_class": "medium",
+        "backend_snapshot_id": "medium_snapshot_a_worst_edge_relocated",
+        "logical_qubits": 7
+      },
+      {
+        "name": "track_b_001_original",
+        "track": "track_b",
+        "family": "ghz_jitter",
+        "backend_size_class": "large",
+        "backend_snapshot_id": "large_snapshot_a_original",
+        "logical_qubits": 16
+      },
+      {
+        "name": "track_b_001_twoq_lognormal",
+        "track": "track_b",
+        "family": "ghz_jitter",
+        "backend_size_class": "large",
+        "backend_snapshot_id": "large_snapshot_a_twoq_lognormal",
+        "logical_qubits": 16
+      },
+      {
+        "name": "track_b_001_readout_lognormal",
+        "track": "track_b",
+        "family": "ghz_jitter",
+        "backend_size_class": "large",
+        "backend_snapshot_id": "large_snapshot_a_readout_lognormal",
+        "logical_qubits": 16
+      },
+      {
+        "name": "track_b_001_mixed_lognormal",
+        "track": "track_b",
+        "family": "ghz_jitter",
+        "backend_size_class": "large",
+        "backend_snapshot_id": "large_snapshot_a_mixed_lognormal",
+        "logical_qubits": 16
+      },
+      {
+        "name": "track_b_001_worst_edge_relocated",
+        "track": "track_b",
+        "family": "ghz_jitter",
+        "backend_size_class": "large",
+        "backend_snapshot_id": "large_snapshot_a_worst_edge_relocated",
+        "logical_qubits": 16
+      },
+      {
+        "name": "track_b_002_original",
+        "track": "track_b",
+        "family": "parity_jitter",
+        "backend_size_class": "large",
+        "backend_snapshot_id": "large_snapshot_a_original",
+        "logical_qubits": 24
+      },
+      {
+        "name": "track_b_002_twoq_lognormal",
+        "track": "track_b",
+        "family": "parity_jitter",
+        "backend_size_class": "large",
+        "backend_snapshot_id": "large_snapshot_a_twoq_lognormal",
+        "logical_qubits": 24
+      },
+      {
+        "name": "track_b_002_readout_lognormal",
+        "track": "track_b",
+        "family": "parity_jitter",
+        "backend_size_class": "large",
+        "backend_snapshot_id": "large_snapshot_a_readout_lognormal",
+        "logical_qubits": 24
+      },
+      {
+        "name": "track_b_002_mixed_lognormal",
+        "track": "track_b",
+        "family": "parity_jitter",
+        "backend_size_class": "large",
+        "backend_snapshot_id": "large_snapshot_a_mixed_lognormal",
+        "logical_qubits": 24
+      },
+      {
+        "name": "track_b_002_worst_edge_relocated",
+        "track": "track_b",
+        "family": "parity_jitter",
+        "backend_size_class": "large",
+        "backend_snapshot_id": "large_snapshot_a_worst_edge_relocated",
+        "logical_qubits": 24
+      }
+    ]
+  }
+}

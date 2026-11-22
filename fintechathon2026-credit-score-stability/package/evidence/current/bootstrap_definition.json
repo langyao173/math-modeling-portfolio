@@ -1,0 +1,9 @@
+{
+  "repetitions": 2000,
+  "seed": 43100417,
+  "family": 42,
+  "critical": 3.8838779974126645,
+  "unit": "customer",
+  "score_policy": "frozen historical predictions",
+  "scope": "descriptive intervals on reused historical cohort"
+}

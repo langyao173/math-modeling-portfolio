@@ -1,0 +1,7 @@
+name,fleet,epoch_seconds,decision_time,full_candidates,upload_variables,ising_spins,conflict_edges,scope,precision,minimum_ising,maximum_ising,known_minimum_H,known_quantized_reward,full_original_optimum,conditional_original_optimum,quantized_original_total,seed_original_total
+QP_A01,16,60,240,35,25,26,207,exact_reduced_full_period,2,-83,0,-1250.0,6.0,2.88,2.88,2.7439999999999998,2.88
+QP_A02,32,60,600,76,52,53,881,exact_reduced_full_period,1,-118,0,-3750.0,3.0,4.704,4.704,4.424,4.704
+QP_A03,48,60,3300,116,10,11,10,exact_reduced_full_period,32,-60,58,-490.0,176.0,7.4159999999999995,7.4159999999999995,7.4079999999999995,7.4079999999999995
+QP_A04,16,300,600,83,81,82,871,exact_reduced_full_period,1,-107,0,-3564.0,12.0,12.0,12.0,11.512,12.0
+QP_A05,32,300,600,171,46,47,788,conditional_neighborhood,1,-112,0,-3534.0,3.0,12.079999999999998,11.992,11.776,11.991999999999999
+QP_A06,48,300,600,264,43,44,848,conditional_neighborhood,1,-121,0,-4512.0,3.0,12.0,11.975999999999999,11.872,11.975999999999999

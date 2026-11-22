@@ -1,0 +1,20 @@
+{
+  "registered_before_new_outer_results": true,
+  "purpose": "Diagnose target-objective mismatch and instability of five-configuration hard selection; evaluate a small prespecified set of honest train-only convex fusion procedures.",
+  "primary_method": "inner_groupwise_y16_native50",
+  "primary_metrics": ["all50_macro_r2", "core30_macro_r2"],
+  "prespecified_comparators": ["raw231_y50_native", "raw231_y16_no_residual", "old_nested_ensemble", "tabicl_nested_selection"],
+  "secondary_methods": ["fixed_half_y16_native50", "inner_core_scalar_y16_native50"],
+  "candidate_models": ["raw231_y16_no_residual", "raw231_y50_native"],
+  "fit_rule": "For each outer fold, estimate a clipped convex weight analytically from that outer fold's 200-row, three-fold inner OOF archive. Normalize squared losses using the target variances of those 200 training labels. No outer-test label enters weights or model selection.",
+  "weight_formula": "w=clip(-mean((B-Y)*(A-B)/var(Y))/mean((A-B)^2/var(Y)),0,1); prediction=w*A+(1-w)*B, A=Y16, B=Native50",
+  "groupwise_rule": "Estimate w_core on target columns 0:30 and w_other on columns 30:50; apply them to the corresponding output groups of the same fold's original 50-row outer predictions.",
+  "core_scalar_rule": "Estimate w on target columns 0:30 and use that one weight for all 50 outputs.",
+  "fixed_rule": "Use w=0.5 on all outputs without fitting.",
+  "outer_evaluation": "Pool the 250 original random-CV outer predictions; use exactly the same per-target SST as existing reports. Report every prespecified method, never select a winning new procedure from these outer scores.",
+  "diagnostics": ["reproduce original candidate and hard-selection metrics", "show inner and outer Y16-versus-Native50 contrasts and selected candidates", "conditional bootstrap of inner candidate ranking stability", "exact quadratic loss/disagreement decomposition of the fixed half blend"],
+  "uncertainty": "Paired beer bootstrap of saved predictions; conditional on predictions and fitted choices, no refit and no family-selection uncertainty. Descriptive fold results also reported.",
+  "independence_limit": "The 250-beer dataset and original OOF scores have already informed development. This is a new internal nested-CV procedure comparison, not fresh external validation or an untouched hidden test. Reusing global OOF rows to learn blending weights is forbidden because their base models may have trained on the proposed held-out labels.",
+  "cpu_budget": "No TabICL inference or paid service. Existing scalar and view predictions only. At most 2000 paired bootstrap replications and 1000 inner ranking replications per outer fold.",
+  "seed": 20261025
+}

@@ -1,0 +1,548 @@
+{
+  "status": "PREPARED_NOT_RUN",
+  "frozen_utc": "2026-10-19T14:55:34.601405+00:00",
+  "analysis_class": "FIXED_PREFIX_OFFLINE_LEXICOGRAPHIC_PHYSICAL_LOWER_BOUND",
+  "predecessor": {
+    "analysis_sha256": "47acaa292c6ec15e9d90c035407ba107ca26d48fb7ea0f37029cd124af0102ff",
+    "status": "FAILED_OR_INCOMPLETE_FIXED_COHORT",
+    "actual_solver_calls": 2880,
+    "completed_physical_trajectory_rows": 2880,
+    "validated_physical_rows": 2160,
+    "offline_solver_calls": 0
+  },
+  "correction": "Add the historical recovery metadata post_shock_observation_hours = observation_end_hour - shock_end_hour before complete field comparison; count physical replay rows when the physical simulation returns and validated rows only after every gate passes. No scientific cohort, objective, input, constraint, threshold or stopping-rule change.",
+  "scientific_design_changed": false,
+  "conditions": [
+    {
+      "condition_id": "phase00_p100_free",
+      "phase_hours": 0,
+      "duration_hours": 48,
+      "strategy": "coordinated",
+      "storage_power_multiplier": 1.0,
+      "terminal_condition": "free"
+    },
+    {
+      "condition_id": "phase00_p100_full",
+      "phase_hours": 0,
+      "duration_hours": 48,
+      "strategy": "coordinated",
+      "storage_power_multiplier": 1.0,
+      "terminal_condition": "full"
+    },
+    {
+      "condition_id": "phase00_p150_free",
+      "phase_hours": 0,
+      "duration_hours": 48,
+      "strategy": "coordinated",
+      "storage_power_multiplier": 1.5,
+      "terminal_condition": "free"
+    },
+    {
+      "condition_id": "phase00_p150_full",
+      "phase_hours": 0,
+      "duration_hours": 48,
+      "strategy": "coordinated",
+      "storage_power_multiplier": 1.5,
+      "terminal_condition": "full"
+    },
+    {
+      "condition_id": "phase21_p100_free",
+      "phase_hours": 21,
+      "duration_hours": 48,
+      "strategy": "coordinated",
+      "storage_power_multiplier": 1.0,
+      "terminal_condition": "free"
+    },
+    {
+      "condition_id": "phase21_p100_full",
+      "phase_hours": 21,
+      "duration_hours": 48,
+      "strategy": "coordinated",
+      "storage_power_multiplier": 1.0,
+      "terminal_condition": "full"
+    },
+    {
+      "condition_id": "phase21_p150_free",
+      "phase_hours": 21,
+      "duration_hours": 48,
+      "strategy": "coordinated",
+      "storage_power_multiplier": 1.5,
+      "terminal_condition": "free"
+    },
+    {
+      "condition_id": "phase21_p150_full",
+      "phase_hours": 21,
+      "duration_hours": 48,
+      "strategy": "coordinated",
+      "storage_power_multiplier": 1.5,
+      "terminal_condition": "full"
+    }
+  ],
+  "case_grid": [
+    {
+      "condition_id": "phase00_p100_free",
+      "phase_hours": 0,
+      "duration_hours": 48,
+      "strategy": "coordinated",
+      "storage_power_multiplier": 1.0,
+      "terminal_condition": "free",
+      "case_id": "phase00_p100_free_rolling",
+      "method": "rolling"
+    },
+    {
+      "condition_id": "phase00_p100_full",
+      "phase_hours": 0,
+      "duration_hours": 48,
+      "strategy": "coordinated",
+      "storage_power_multiplier": 1.0,
+      "terminal_condition": "full",
+      "case_id": "phase00_p100_full_rolling",
+      "method": "rolling"
+    },
+    {
+      "condition_id": "phase00_p150_free",
+      "phase_hours": 0,
+      "duration_hours": 48,
+      "strategy": "coordinated",
+      "storage_power_multiplier": 1.5,
+      "terminal_condition": "free",
+      "case_id": "phase00_p150_free_rolling",
+      "method": "rolling"
+    },
+    {
+      "condition_id": "phase00_p150_full",
+      "phase_hours": 0,
+      "duration_hours": 48,
+      "strategy": "coordinated",
+      "storage_power_multiplier": 1.5,
+      "terminal_condition": "full",
+      "case_id": "phase00_p150_full_rolling",
+      "method": "rolling"
+    },
+    {
+      "condition_id": "phase21_p100_free",
+      "phase_hours": 21,
+      "duration_hours": 48,
+      "strategy": "coordinated",
+      "storage_power_multiplier": 1.0,
+      "terminal_condition": "free",
+      "case_id": "phase21_p100_free_rolling",
+      "method": "rolling"
+    },
+    {
+      "condition_id": "phase21_p100_full",
+      "phase_hours": 21,
+      "duration_hours": 48,
+      "strategy": "coordinated",
+      "storage_power_multiplier": 1.0,
+      "terminal_condition": "full",
+      "case_id": "phase21_p100_full_rolling",
+      "method": "rolling"
+    },
+    {
+      "condition_id": "phase21_p150_free",
+      "phase_hours": 21,
+      "duration_hours": 48,
+      "strategy": "coordinated",
+      "storage_power_multiplier": 1.5,
+      "terminal_condition": "free",
+      "case_id": "phase21_p150_free_rolling",
+      "method": "rolling"
+    },
+    {
+      "condition_id": "phase21_p150_full",
+      "phase_hours": 21,
+      "duration_hours": 48,
+      "strategy": "coordinated",
+      "storage_power_multiplier": 1.5,
+      "terminal_condition": "full",
+      "case_id": "phase21_p150_full_rolling",
+      "method": "rolling"
+    },
+    {
+      "condition_id": "phase00_p100_free",
+      "phase_hours": 0,
+      "duration_hours": 48,
+      "strategy": "coordinated",
+      "storage_power_multiplier": 1.0,
+      "terminal_condition": "free",
+      "case_id": "phase00_p100_free_offline",
+      "method": "offline"
+    },
+    {
+      "condition_id": "phase00_p100_full",
+      "phase_hours": 0,
+      "duration_hours": 48,
+      "strategy": "coordinated",
+      "storage_power_multiplier": 1.0,
+      "terminal_condition": "full",
+      "case_id": "phase00_p100_full_offline",
+      "method": "offline"
+    },
+    {
+      "condition_id": "phase00_p150_free",
+      "phase_hours": 0,
+      "duration_hours": 48,
+      "strategy": "coordinated",
+      "storage_power_multiplier": 1.5,
+      "terminal_condition": "free",
+      "case_id": "phase00_p150_free_offline",
+      "method": "offline"
+    },
+    {
+      "condition_id": "phase00_p150_full",
+      "phase_hours": 0,
+      "duration_hours": 48,
+      "strategy": "coordinated",
+      "storage_power_multiplier": 1.5,
+      "terminal_condition": "full",
+      "case_id": "phase00_p150_full_offline",
+      "method": "offline"
+    },
+    {
+      "condition_id": "phase21_p100_free",
+      "phase_hours": 21,
+      "duration_hours": 48,
+      "strategy": "coordinated",
+      "storage_power_multiplier": 1.0,
+      "terminal_condition": "free",
+      "case_id": "phase21_p100_free_offline",
+      "method": "offline"
+    },
+    {
+      "condition_id": "phase21_p100_full",
+      "phase_hours": 21,
+      "duration_hours": 48,
+      "strategy": "coordinated",
+      "storage_power_multiplier": 1.0,
+      "terminal_condition": "full",
+      "case_id": "phase21_p100_full_offline",
+      "method": "offline"
+    },
+    {
+      "condition_id": "phase21_p150_free",
+      "phase_hours": 21,
+      "duration_hours": 48,
+      "strategy": "coordinated",
+      "storage_power_multiplier": 1.5,
+      "terminal_condition": "free",
+      "case_id": "phase21_p150_free_offline",
+      "method": "offline"
+    },
+    {
+      "condition_id": "phase21_p150_full",
+      "phase_hours": 21,
+      "duration_hours": 48,
+      "strategy": "coordinated",
+      "storage_power_multiplier": 1.5,
+      "terminal_condition": "full",
+      "case_id": "phase21_p150_full_offline",
+      "method": "offline"
+    }
+  ],
+  "paths": 16,
+  "hours_per_path": 360,
+  "branch_hour": 48,
+  "actual_scientific_solver_calls_at_freeze": 0,
+  "expected_new_solver_calls": 2896,
+  "expected_physical_replay_hours": 5760,
+  "execution_order": "All eight rolling baselines first: six complete frozen-field bridges and two new phase21/full baselines. Release eight offline cases only if every baseline passes. After release attempt all eight even on failure; retain all outcomes.",
+  "prefix_contract": "Each offline path replays exactly the paired actual rolling h0..47 actions through original h.simulate. All h48 pre-state fields, including previous_available, thermal, fuel, SOC and debt, continue unchanged. No reset or new initial state.",
+  "physical_domain": "Original h._plan constraints on absolute h48..359; original ramp, fuel balances, availability, storage energy/power/efficiencies and every absolute 24h debt deadline. Direct fuel shortages fixed at zero, with full baseline vector inclusion checked before either solve. Only the two global-end SOC bounds become full in full cases; free cases retain original bounds.",
+  "first_objective": "Unweighted sum of electricity unserved GWh over h48..359; all other objective entries exactly zero. Save optimal primal/dual certificates and submitted matrices/bounds.",
+  "second_objective": "Keep ENS <= first optimum + 1e-6 GWh. Minimize actual remaining-window physical resource cost: fuel burn, nonfossil operation, storage cycling, shifting and net SOC draw, with original direct fuel service and prorated initial-fuel holding as constants. No shortage penalty or carbon-charge term. Check objective plus constants against exported physical account.",
+  "information": "Offline LP receives the actual complete remaining 312h input arrays once at h48. It is a model-scoped lower bound conditional on the fixed prefix, rather than an implementable forecast controller. Any gap may reflect information, receding decisions and differing objectives together.",
+  "reporting": "All eight conditions, baseline ENS, first-stage lower bound, actual second-stage ENS, signed gap/ratio, primal/dual residuals, cost/CO2/peak/full terminal fuel/SOC/thermal/debt and original recovery windows. No phase selection or new population-success estimate.",
+  "tolerances": {
+    "primal_and_dual": 1e-06,
+    "ens_cap_slack_gwh": 1e-06,
+    "baseline_lower_bound_gwh": 5e-06,
+    "cost_identity_million_cny": 1e-05
+  },
+  "source_sha256": {
+    "src/v13_event_information.py": "ada352c5cd32a01326550c5ab9cc272a8b4d271ceb3f0fb1527822f5b409e074",
+    "tests/test_v13_event_information.py": "c7852914a01369947dd24064b3c8c13e865bb80fb390809173ad226ee69befbc",
+    "src/v3_hourly.py": "d4ce2fd11f5388b1508251f21b1e478f0dacf5cc6935eafa1291f9493824df59",
+    "src/v10_prepare_inputs.py": "c6f78ebe2f5b7e9f20074864b7054405e935ce53f4d314ae34e726847f0b7bc6",
+    "src/v10_validate_dispatch.py": "623036de7ceb1dedc5f69b722c85bfaf7ed539a292a52f50395e915b88a64d45",
+    "src/v11_solver_paths.py": "3047737c17376b038db1198a5f771151003255761821133ef13b6b77ebe5be8d",
+    "src/v11_recovery_sensitivity.py": "014b7891ef1d2142ed806a90396beeffc84001e9f393d52f7a34d554a2f6529e",
+    "outputs/v6/resilience/native_inputs.json": "74515e840cd5b33220226fc340161ac4f69718ce181c99bf0a6079ddede3f054",
+    "outputs/v10/anymath/execution_receipt.json": "e5d9e9da59c63c76fa4615338ae1ab3924b567027655af6b521a772f535e6bb3",
+    "outputs/v11/solver_paths/analysis.json": "aed1aed40de1b0dd43f254ed4a67fc208e9441d3c1b59cab22a20943a633bbdf",
+    "outputs/v10/anymath/cloud_final/base_config.csv": "738cc7e6ebc4eaaac6b25b2d1658ef1add5dfef5b53a251362f433eccc6e1969",
+    "outputs/v10/anymath/cloud_final/base_actions_states.csv": "94f6dbda8e997b9642917648005e1383761e549861f573c8f131b9962a11b006",
+    "outputs/v11/solver_paths/python_base.csv": "a5818da67ba28f73309ad8066b885fb64f825ca7089aabf941160df6fb0a2df4",
+    "outputs/v10/anymath/cloud_final/power_config.csv": "da8c022ff0d122ebd2c5965a6c76e6acaac95f7168afa14bf9dbc86c19b6d2c1",
+    "outputs/v10/anymath/cloud_final/power_actions_states.csv": "6e5944306f0318e9280639ebcdcda1eee9e14ed31fd16812ef05f51a6844f1a8",
+    "outputs/v11/solver_paths/python_power.csv": "50c802670edfcde996a5a7f25aa831a0468fc60af6a4c285c38c1dc1924f7078",
+    "outputs/v10/anymath/cloud_final/decentralized_config.csv": "8215b5f645d3a811ed9eae177ce09c2a3efe4119f3ad997d6baf026dbb4a87de",
+    "outputs/v10/anymath/cloud_final/decentralized_actions_states.csv": "1a444167c211d859e7c46ffd82ebd80f6886d46f1bd95b0238d9a6429b5a6093",
+    "outputs/v11/solver_paths/python_decentralized.csv": "01da4ff350c559c46588187868caa1221749c6e4f3726119589f81aedc6e40b0",
+    "src/v13_storage_baseline.py": "b5a4c5306fe1ad12f0c1c0887d193559b70c713c85e9f476045d460230d0ba37",
+    "tests/test_v13_storage_baseline.py": "3e67c8b5727945d270ca0800e4c345f35380d8b2ed6fb02fe02e3bf7603f4a54",
+    "outputs/v13/event_information/analysis.json": "7a4fd966f665c1ea5c1871af7a7affcbeba46722503fb53a297b3b25ba140615",
+    "outputs/v13/event_information/protocol.json": "d5b679d41bc2d44118b0b9417c2f7a0986fc796907531628a156d9dfa960fd2e",
+    "outputs/v13/event_information/base_L24/actions_states.csv": "a5818da67ba28f73309ad8066b885fb64f825ca7089aabf941160df6fb0a2df4",
+    "outputs/v13/event_information/base_L24/result.json": "f8958fe73a23771f7b23fd5bd34228efa1c02d88f8187ac84f00aa2f214d8eb2",
+    "outputs/v13/event_information/power_L24/actions_states.csv": "50c802670edfcde996a5a7f25aa831a0468fc60af6a4c285c38c1dc1924f7078",
+    "outputs/v13/event_information/power_L24/result.json": "1baa05fd7138b612dd12e588ba39f04a3344be89c18183d964f052575b54cae8",
+    "outputs/v13/event_information/decentralized_L24/actions_states.csv": "01da4ff350c559c46588187868caa1221749c6e4f3726119589f81aedc6e40b0",
+    "outputs/v13/event_information/decentralized_L24/result.json": "1784034514b7322866513a42b8a7b15a8d66418cccef0e85c0507e8ddeb07811",
+    "src/v14_terminal_reserve.py": "15ea83dcdbcaf86423d5262d29705e141c1fccdaaa43c3f80e56f53e44d90de7",
+    "tests/test_v14_terminal_reserve.py": "3f07fc1fe0260fc25e095eed28e9de452e91bb462ef277facd207589bb00fe13",
+    "src/v13_event_design.py": "3fa7e4823ca26f94eacd7acb016b65ac1b1a2216d12c4a5ff12ec3afc802713c",
+    "src/v13_storage_duration.py": "9ad59fd0da55f352a8a170f28d9993dca1e66f4a04b000005a259e3ff0d349d1",
+    "outputs/v13/storage_baseline/analysis.json": "226681246a962cfed47914ee01cae30d2cb8f8c72c544790be6b3b2939e02750",
+    "outputs/v13/storage_baseline/protocol.json": "5c3e01a6f3fed81c45a4a4606ec7d7c1090a46dd05195d8f8810127c80153d19",
+    "outputs/v13/storage_baseline/base/actions_states.csv": "a5818da67ba28f73309ad8066b885fb64f825ca7089aabf941160df6fb0a2df4",
+    "outputs/v13/storage_baseline/base/result.json": "d87e77b4a7e3444868184d6b255e2433ee888457cb3d00c582bf35e2f00ec889",
+    "outputs/v13/storage_baseline/base/summary.json": "5e6650fad8a4ec17135d1b8e5958d14b4fdfea0dd56633c5bf61f33e4134d6b5",
+    "outputs/v13/storage_baseline/base/recovery.csv": "d8c28aad6454f2f2279d662b3baada566a2d3205acac3ed967142d3fde1b5335",
+    "outputs/v13/storage_baseline/power/actions_states.csv": "50c802670edfcde996a5a7f25aa831a0468fc60af6a4c285c38c1dc1924f7078",
+    "outputs/v13/storage_baseline/power/result.json": "b3fa82287006df2f876a9aac18224eea679e7a6423b3df91b7dd6c9baa57096e",
+    "outputs/v13/storage_baseline/power/summary.json": "d669fb881e654678e37c3a22a371625ad3e7e7c75f6d77e75dbc08e4cbc55997",
+    "outputs/v13/storage_baseline/power/recovery.csv": "054b6ec22e1012a03e81c587a007be361dddef73e906d0a7ac3bc254bda5aa02",
+    "outputs/v13/storage_baseline/reachable_local/actions_states.csv": "d0ddfcd5054f9a372af1c9d418d393b0c04970893623a4bdd2ee8d086d38a33c",
+    "outputs/v13/storage_baseline/reachable_local/result.json": "365a68e7e0d9bde941418faa0671f4618702d431b2bf0b076b728f54ab2eaffc",
+    "outputs/v13/storage_baseline/reachable_local/summary.json": "58c0713bff7d4f728ef774b31bb197861b0275a8898ac0e6bb939065fb326d12",
+    "outputs/v13/storage_baseline/reachable_local/recovery.csv": "d309824a12b7ab748d089b33aea0ffce87f309ed267419c9619e29f15b5f0b44",
+    "outputs/v13/storage_baseline/reachable_local_power/actions_states.csv": "26a236b2b7904ce769f70afe8e6bb51101b7245310a98f1d3b7616cdf0bfb09a",
+    "outputs/v13/storage_baseline/reachable_local_power/result.json": "ffa683c7772eb53f9c9c0fa0a265dc857b46be63fd44f9d1aa72e5e034da6fae",
+    "outputs/v13/storage_baseline/reachable_local_power/summary.json": "3611cd8a0098c9700dea11fd7b44d1460a127b57ad6026b32208e4878734b3f0",
+    "outputs/v13/storage_baseline/reachable_local_power/recovery.csv": "c6e931dcd5b9345f2d8affb143fd3739ddbfb4dea5dc62bd98bd83378df9f728",
+    "src/v15_dispatch_bound.py": "87ff50e98c2a0cbe309e2c9254f21354aac469c64dbeec096b5d9f4882e4f05b",
+    "tests/test_v15_dispatch_bound.py": "e366fb60530eac104fdee30e4b9933f2400e698625737e7b27322d634cebebb7",
+    "outputs/v15/dispatch_bound/protocol.json": "efbe4b13c86f6f21c2cd4f0c1c2ea227299eb3e3811ade44026dc82c45b3e96b",
+    "outputs/v15/dispatch_bound/analysis.json": "47acaa292c6ec15e9d90c035407ba107ca26d48fb7ea0f37029cd124af0102ff",
+    "outputs/v15/dispatch_bound/code_review.json": "dc17f696ef14eeec0396851bbc5d648f7bdbbe6900dc8bf023fdf9007577c528",
+    "outputs/v15/dispatch_bound_v2/predecessor_failure_review.json": "df380f60a9beba0ceb6cb6d54f282f58268ebe19ee1648724ab087e117b7777c",
+    "src/v15_dispatch_bound_v2.py": "7cc26cefbc5b7c94b7b58d87811a968b297aa8cecab389941dedff53f84b6e82",
+    "tests/test_v15_dispatch_bound_v2.py": "e254bfb4e4c4758af719f2b3e28e40ffd68e7b367c3932d8b2481884c2f7b6ee",
+    "outputs/v14/terminal_reserve/analysis.json": "f9b8a57bd01454793b5032572e5403e19a71201525609b80b778fc98c9b4359e",
+    "outputs/v14/terminal_reserve/protocol.json": "ab278ceece6ac81f9108fd4a7d90b94a07b836114686b0f32bb95c5dde9ae7d5",
+    "outputs/v14/terminal_reserve/execution_review.json": "cb3d376547ef1aea9f5008ea1a47e57bdc2fcf0d7f470333a5bbad95fbc2b1e2",
+    "outputs/v13/event_design/analysis.json": "0f6d88cb05d86e1c8a17a077e851ce2ffd82c47148ce95c4f810f16ebef66f43",
+    "outputs/v13/event_design/protocol.json": "eaae0b717c0112be5012d4eaf074d34aa4db8226c026c32e750d0ae69da9fbe5",
+    "outputs/v13/event_design/execution_review.json": "e9a99e333fbe0f5a69d0fc5662f3691bb0e741555ffb46ed8745557fced8449a",
+    "outputs/v14/terminal_reserve/unconstrained_base/actions_states.csv": "a5818da67ba28f73309ad8066b885fb64f825ca7089aabf941160df6fb0a2df4",
+    "outputs/v14/terminal_reserve/unconstrained_base/summary.json": "f1415d3dafc923a6f78164fa6088c7cebcc6cf695ed1ef7c01e7400ac9cce65c",
+    "outputs/v14/terminal_reserve/unconstrained_base/recovery.csv": "10a82ec103ff12992517de15a942b9e4983fe8c50de2904a16efde991a8055c1",
+    "outputs/v14/terminal_reserve/full_soc_base/actions_states.csv": "f51adf6854d63be4c016da554acf8658e225249429b9bcddb9b39e64348a6601",
+    "outputs/v14/terminal_reserve/full_soc_base/summary.json": "a4bd2da1fafe685b1e81526457dfa878a2d1643faf8b1c35f61069bd709c95da",
+    "outputs/v14/terminal_reserve/full_soc_base/recovery.csv": "df3c8079e822901dd099db41c6588546eeb5b2f9e267e91a0c38d68223f99b21",
+    "outputs/v14/terminal_reserve/unconstrained_power/actions_states.csv": "50c802670edfcde996a5a7f25aa831a0468fc60af6a4c285c38c1dc1924f7078",
+    "outputs/v14/terminal_reserve/unconstrained_power/summary.json": "55dd75121ee26b27b1309a2d0ee18811374714184019abaa57f8f2ffc7a76f2a",
+    "outputs/v14/terminal_reserve/unconstrained_power/recovery.csv": "35ed3c9844a5429f3d4c8d2e483e4dd74afe77130ec9cc985d783cb66bc39956",
+    "outputs/v14/terminal_reserve/full_soc_power/actions_states.csv": "15f86d049e77b316e99ac3536c900617d0083f931617f825cacd93a7c7a357bf",
+    "outputs/v14/terminal_reserve/full_soc_power/summary.json": "c51a0bb5b96842b11b2744b6eaa76eba285a62e5973b41301d7c5c7c02a678f5",
+    "outputs/v14/terminal_reserve/full_soc_power/recovery.csv": "f77504fd53b091efc39556ff25c4594f02e72a2436c15c09cf934aeb103e4738",
+    "outputs/v13/event_design/phase21_duration48_base/actions_states.csv": "44281bda1ef7f6221faf39b51ef2e8d1738e467011a30024dbd1851c1683cdaf",
+    "outputs/v13/event_design/phase21_duration48_base/summary.json": "2220d3afe5bc30635a16dd46423da56040ef6086b342d6af9449c54671e37f79",
+    "outputs/v13/event_design/phase21_duration48_base/recovery.csv": "f0f65ab1a8a0314e39dd678aaaf285d4d9fac51cbad2c44376480ee4f12d44e7",
+    "outputs/v13/event_design/phase21_duration48_power/actions_states.csv": "5f9747b48a08b7007e08c07615d2e8dac224fe6668207f6cbddb73903734ff6c",
+    "outputs/v13/event_design/phase21_duration48_power/summary.json": "9e63c6c671d62d5965bdf60f0f32dab10e8bb109c2951f1207bfe1e1b3c2e959",
+    "outputs/v13/event_design/phase21_duration48_power/recovery.csv": "472557b9e3bee2fe0d6006450410b8e5caccbf09089aacace2d60a5ac1cafef8"
+  },
+  "input_checks": {
+    "base": {
+      "native_physical_audit_passed": true,
+      "v11_local_physical_audit_passed": true,
+      "packet_current_truth_checks": 1080,
+      "L24_whole_window_checks": 360,
+      "initial_fuel_stocks_mtce": [
+        390.91068493150624,
+        151.70346796408808,
+        274.47012654064974
+      ],
+      "initial_thermal_gw": {
+        "coal": 0.0,
+        "gas": 0.0
+      },
+      "storage": {
+        "battery": {
+          "power_gw": 61.48671401720662,
+          "energy_gwh": 245.9468560688265,
+          "initial_soc_gwh": 122.97342803441325,
+          "eta_charge": 0.9486832980505138,
+          "eta_discharge": 0.9486832980505138
+        },
+        "pumped": {
+          "power_gw": 95.78190782871253,
+          "energy_gwh": 574.6914469722752,
+          "initial_soc_gwh": 287.3457234861376,
+          "eta_charge": 0.8831760866327847,
+          "eta_discharge": 0.8831760866327847
+        }
+      },
+      "controller_config": {
+        "forecast_hours": 24,
+        "deadline_hours": 24,
+        "ramp_fraction": {
+          "coal": 0.15,
+          "gas": 0.7
+        },
+        "flex_fraction": 0.08,
+        "repay_fraction": 0.2,
+        "generation_cost_cny_kwh": {
+          "coal": 0.32,
+          "gas": 0.65,
+          "nuclear": 0.09,
+          "hydro": 0.025,
+          "wind": 0.0,
+          "solar": 0.0,
+          "biomass": 0.35
+        },
+        "carbon_price_cny_t": 668.1022774978924,
+        "unserved_cost_cny_kwh": 30.0,
+        "direct_shortage_cost_cny_kwh_th": 30.0,
+        "storage_cycle_cost_cny_kwh": 0.005,
+        "shift_cost_cny_kwh": 0.003,
+        "fuel_value_million_cny_mtce": {
+          "coal": 1042.048,
+          "oil": 3500.0,
+          "gas": 2910.4075000000007
+        },
+        "stored_electricity_value_million_cny_gwh": 0.32,
+        "stock_holding_rate_per_year": 0.05
+      }
+    },
+    "power": {
+      "native_physical_audit_passed": true,
+      "v11_local_physical_audit_passed": true,
+      "packet_current_truth_checks": 1080,
+      "L24_whole_window_checks": 360,
+      "initial_fuel_stocks_mtce": [
+        390.91068493150624,
+        151.70346796408808,
+        274.47012654064974
+      ],
+      "initial_thermal_gw": {
+        "coal": 0.0,
+        "gas": 0.0
+      },
+      "storage": {
+        "battery": {
+          "power_gw": 92.23007102580993,
+          "energy_gwh": 245.9468560688265,
+          "initial_soc_gwh": 122.97342803441325,
+          "eta_charge": 0.9486832980505138,
+          "eta_discharge": 0.9486832980505138
+        },
+        "pumped": {
+          "power_gw": 143.6728617430688,
+          "energy_gwh": 574.6914469722752,
+          "initial_soc_gwh": 287.3457234861376,
+          "eta_charge": 0.8831760866327847,
+          "eta_discharge": 0.8831760866327847
+        }
+      },
+      "controller_config": {
+        "forecast_hours": 24,
+        "deadline_hours": 24,
+        "ramp_fraction": {
+          "coal": 0.15,
+          "gas": 0.7
+        },
+        "flex_fraction": 0.08,
+        "repay_fraction": 0.2,
+        "generation_cost_cny_kwh": {
+          "coal": 0.32,
+          "gas": 0.65,
+          "nuclear": 0.09,
+          "hydro": 0.025,
+          "wind": 0.0,
+          "solar": 0.0,
+          "biomass": 0.35
+        },
+        "carbon_price_cny_t": 668.1022774978924,
+        "unserved_cost_cny_kwh": 30.0,
+        "direct_shortage_cost_cny_kwh_th": 30.0,
+        "storage_cycle_cost_cny_kwh": 0.005,
+        "shift_cost_cny_kwh": 0.003,
+        "fuel_value_million_cny_mtce": {
+          "coal": 1042.048,
+          "oil": 3500.0,
+          "gas": 2910.4075000000007
+        },
+        "stored_electricity_value_million_cny_gwh": 0.32,
+        "stock_holding_rate_per_year": 0.05
+      }
+    },
+    "decentralized": {
+      "native_physical_audit_passed": true,
+      "v11_local_physical_audit_passed": true,
+      "packet_current_truth_checks": 1080,
+      "L24_whole_window_checks": 360,
+      "initial_fuel_stocks_mtce": [
+        390.91068493150624,
+        151.70346796408808,
+        274.47012654064974
+      ],
+      "initial_thermal_gw": {
+        "coal": 0.0,
+        "gas": 0.0
+      },
+      "storage": {
+        "battery": {
+          "power_gw": 61.48671401720662,
+          "energy_gwh": 245.9468560688265,
+          "initial_soc_gwh": 122.97342803441325,
+          "eta_charge": 0.9486832980505138,
+          "eta_discharge": 0.9486832980505138
+        },
+        "pumped": {
+          "power_gw": 95.78190782871253,
+          "energy_gwh": 574.6914469722752,
+          "initial_soc_gwh": 287.3457234861376,
+          "eta_charge": 0.8831760866327847,
+          "eta_discharge": 0.8831760866327847
+        }
+      },
+      "controller_config": {
+        "forecast_hours": 24,
+        "deadline_hours": 24,
+        "ramp_fraction": {
+          "coal": 0.15,
+          "gas": 0.7
+        },
+        "flex_fraction": 0.08,
+        "repay_fraction": 0.2,
+        "generation_cost_cny_kwh": {
+          "coal": 0.32,
+          "gas": 0.65,
+          "nuclear": 0.09,
+          "hydro": 0.025,
+          "wind": 0.0,
+          "solar": 0.0,
+          "biomass": 0.35
+        },
+        "carbon_price_cny_t": 668.1022774978924,
+        "unserved_cost_cny_kwh": 30.0,
+        "direct_shortage_cost_cny_kwh_th": 30.0,
+        "storage_cycle_cost_cny_kwh": 0.005,
+        "shift_cost_cny_kwh": 0.003,
+        "fuel_value_million_cny_mtce": {
+          "coal": 1042.048,
+          "oil": 3500.0,
+          "gas": 2910.4075000000007
+        },
+        "stored_electricity_value_million_cny_gwh": 0.32,
+        "stock_holding_rate_per_year": 0.05
+      }
+    }
+  },
+  "environment": {
+    "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "numpy": "2.3.2",
+    "pandas": "2.3.1",
+    "scipy": "1.15.3"
+  },
+  "new_native_runs": 0,
+  "paid_services_used": false,
+  "commands": [
+    "python -m src.v15_dispatch_bound_v2 --prepare",
+    "python -m src.v15_dispatch_bound_v2 --run"
+  ]
+}

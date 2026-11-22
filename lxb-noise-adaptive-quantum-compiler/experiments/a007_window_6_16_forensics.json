@@ -1,0 +1,891 @@
+{
+  "current_routed_candidate": {
+    "layout": {
+      "0": 1,
+      "1": 4,
+      "2": 5,
+      "3": 0,
+      "4": 9,
+      "5": 2
+    },
+    "metrics": {
+      "cx": 18,
+      "depth": 25,
+      "elr": -0.27710686331225304,
+      "route_overhead": 3
+    },
+    "name": "noise_adaptive_l1_balanced",
+    "used_physical_edges": [
+      [
+        1,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "window_physical_placement": {
+      "0": 1,
+      "1": 4,
+      "3": 0
+    }
+  },
+  "interpretation": "The 6:16 interval is not dependency-cone closed; lower bounds on the fixed slice can be optimistic.",
+  "sample": "track_a_007",
+  "window": {
+    "basis_preserving_h_free": true,
+    "best_candidate_cx": null,
+    "candidate_replacements": [],
+    "clifford_only": false,
+    "clifford_t": true,
+    "cnot_only": false,
+    "dag_closed": false,
+    "dependency_cone": {
+      "operations": [
+        {
+          "gate": "x",
+          "qubits": [
+            1
+          ],
+          "text": "X(q(1))"
+        },
+        {
+          "gate": "x",
+          "qubits": [
+            3
+          ],
+          "text": "X(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            2
+          ],
+          "text": "CNOT(q(0), q(2))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "text": "CNOT(q(1), q(2))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            4
+          ],
+          "text": "CNOT(q(2), q(4))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            3
+          ],
+          "text": "CNOT(q(1), q(3))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            3
+          ],
+          "text": "T**-1(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            3
+          ],
+          "text": "CNOT(q(0), q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            3
+          ],
+          "text": "CNOT(q(1), q(3))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            3
+          ],
+          "text": "T**-1(q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            1
+          ],
+          "text": "T(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            3
+          ],
+          "text": "CNOT(q(0), q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            3
+          ],
+          "text": "H(q(3))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            0
+          ],
+          "text": "T(q(0))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            1
+          ],
+          "text": "T**-1(q(1))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "text": "CNOT(q(0), q(1))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            5
+          ],
+          "text": "H(q(5))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            5
+          ],
+          "text": "CNOT(q(3), q(5))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            5
+          ],
+          "text": "T**-1(q(5))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            5
+          ],
+          "text": "CNOT(q(2), q(5))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            5
+          ],
+          "text": "T(q(5))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            3,
+            5
+          ],
+          "text": "CNOT(q(3), q(5))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            5
+          ],
+          "text": "T**-1(q(5))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            3
+          ],
+          "text": "T(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            5
+          ],
+          "text": "CNOT(q(2), q(5))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            5
+          ],
+          "text": "T(q(5))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            3
+          ],
+          "text": "CNOT(q(2), q(3))"
+        },
+        {
+          "gate": "h",
+          "qubits": [
+            5
+          ],
+          "text": "H(q(5))"
+        },
+        {
+          "gate": "t",
+          "qubits": [
+            2
+          ],
+          "text": "T(q(2))"
+        },
+        {
+          "gate": "tdg",
+          "qubits": [
+            3
+          ],
+          "text": "T**-1(q(3))"
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            3
+          ],
+          "text": "CNOT(q(2), q(3))"
+        }
+      ],
+      "qubits": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "start": 0,
+      "stop": 35
+    },
+    "gate_names": [
+      "cx",
+      "tdg",
+      "cx",
+      "t",
+      "cx",
+      "tdg",
+      "t",
+      "cx",
+      "t",
+      "cx"
+    ],
+    "gf2_delta_rank": 1,
+    "gf2_matrix_rows": [
+      "001",
+      "011",
+      "100"
+    ],
+    "h_free": true,
+    "old_cx": 5,
+    "operations": [
+      {
+        "gate": "cx",
+        "qubits": [
+          1,
+          3
+        ],
+        "text": "CNOT(q(1), q(3))"
+      },
+      {
+        "gate": "tdg",
+        "qubits": [
+          3
+        ],
+        "text": "T**-1(q(3))"
+      },
+      {
+        "gate": "cx",
+        "qubits": [
+          0,
+          3
+        ],
+        "text": "CNOT(q(0), q(3))"
+      },
+      {
+        "gate": "t",
+        "qubits": [
+          3
+        ],
+        "text": "T(q(3))"
+      },
+      {
+        "gate": "cx",
+        "qubits": [
+          1,
+          3
+        ],
+        "text": "CNOT(q(1), q(3))"
+      },
+      {
+        "gate": "tdg",
+        "qubits": [
+          3
+        ],
+        "text": "T**-1(q(3))"
+      },
+      {
+        "gate": "t",
+        "qubits": [
+          1
+        ],
+        "text": "T(q(1))"
+      },
+      {
+        "gate": "cx",
+        "qubits": [
+          0,
+          3
+        ],
+        "text": "CNOT(q(0), q(3))"
+      },
+      {
+        "gate": "t",
+        "qubits": [
+          3
+        ],
+        "text": "T(q(3))"
+      },
+      {
+        "gate": "cx",
+        "qubits": [
+          0,
+          1
+        ],
+        "text": "CNOT(q(0), q(1))"
+      }
+    ],
+    "permutation_diagonal_phase": {
+      "is_monomial": true,
+      "permutation": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7,
+        4,
+        5
+      ],
+      "phases": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          -0.0
+        ],
+        [
+          0.707107,
+          0.707107
+        ],
+        [
+          0.707107,
+          0.707107
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          -0.0
+        ],
+        [
+          0.707107,
+          -0.707107
+        ],
+        [
+          -0.707107,
+          0.707107
+        ]
+      ],
+      "truth_table": [
+        {
+          "input_bits": "000",
+          "input_int": 0,
+          "output_bits": "000",
+          "output_int": 0,
+          "phase": [
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "input_bits": "001",
+          "input_int": 1,
+          "output_bits": "001",
+          "output_int": 1,
+          "phase": [
+            1.0,
+            -0.0
+          ]
+        },
+        {
+          "input_bits": "010",
+          "input_int": 2,
+          "output_bits": "010",
+          "output_int": 2,
+          "phase": [
+            0.707107,
+            0.707107
+          ]
+        },
+        {
+          "input_bits": "011",
+          "input_int": 3,
+          "output_bits": "011",
+          "output_int": 3,
+          "phase": [
+            0.707107,
+            0.707107
+          ]
+        },
+        {
+          "input_bits": "100",
+          "input_int": 4,
+          "output_bits": "110",
+          "output_int": 6,
+          "phase": [
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "input_bits": "101",
+          "input_int": 5,
+          "output_bits": "111",
+          "output_int": 7,
+          "phase": [
+            1.0,
+            -0.0
+          ]
+        },
+        {
+          "input_bits": "110",
+          "input_int": 6,
+          "output_bits": "100",
+          "output_int": 4,
+          "phase": [
+            0.707107,
+            -0.707107
+          ]
+        },
+        {
+          "input_bits": "111",
+          "input_int": 7,
+          "output_bits": "101",
+          "output_int": 5,
+          "phase": [
+            -0.707107,
+            0.707107
+          ]
+        }
+      ]
+    },
+    "qubits": [
+      0,
+      1,
+      3
+    ],
+    "start": 6,
+    "stop": 16,
+    "unitary_hash": "c140d2151147419f3092a636cbfdb1e1b1310f913339b2c635def49d8e8edd94",
+    "unitary_matrix_rounded": [
+      [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.707107,
+          0.707107
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.707107,
+          0.707107
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.707107,
+          -0.707107
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -0.707107,
+          0.707107
+        ]
+      ],
+      [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    ]
+  }
+}

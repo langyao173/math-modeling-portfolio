@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "freeze_id": "rc0-pre2014",
+  "status": "pre2014_model_selection_frozen",
+  "generated_at": "2026-07-18T17:41:53.211005+08:00",
+  "source_commit": "fdd1741243516e0131601250aff5fafd8b31b9f3",
+  "source_commit_parent": "58cf196218a142509d7b74c78efaaf2838822c92",
+  "training_boundary": {
+    "minimum_year": 1930,
+    "maximum_year": 2010
+  },
+  "outer_validation_years": [
+    1986,
+    1990,
+    1994,
+    1998,
+    2002,
+    2006,
+    2010
+  ],
+  "candidate_count": 36,
+  "final_candidate_id": "f12f0fc20700df70743ef3b4f27089c45f45989a93fa2bd19c1886c98d609a81",
+  "selected_config_hash": "77ba14cb38a364b145be15ec4474811bc6bd0914452e438d34d415ee604c366b",
+  "final_fit_hash": "10238a4c6d368e50acb9ac28e4523dbd1b4f1b64710667ba0e8eb511b8774f53",
+  "feature_schema_hash": "f5db6b9a447b6300bf466673cda9fa4e0265bc13c1ab2c81d44a0e63b3fdb9cc",
+  "hyperparameters": {
+    "odd_numeric_features": [
+      "rest_days_diff",
+      "pre_match_elo_diff",
+      "attack_state_diff",
+      "defense_state_diff"
+    ],
+    "even_numeric_features": [
+      "is_knockout",
+      "rest_history_missing",
+      "Year",
+      "tournament_teams",
+      "tournament_matches",
+      "matches_per_team"
+    ],
+    "even_categorical_features": [
+      "canonical_stage",
+      "competition_era",
+      "format_regime"
+    ],
+    "optional_odd_numeric_features": [],
+    "optional_even_numeric_features": [],
+    "optional_even_categorical_features": [],
+    "paired_numeric_features": [
+      [
+        "home_historical_appearances",
+        "away_historical_appearances"
+      ],
+      [
+        "home_historical_best_finish",
+        "away_historical_best_finish"
+      ],
+      [
+        "home_historical_mean_goals_for",
+        "away_historical_mean_goals_for"
+      ],
+      [
+        "home_historical_mean_goals_conceded",
+        "away_historical_mean_goals_conceded"
+      ],
+      [
+        "home_rest_days",
+        "away_rest_days"
+      ],
+      [
+        "home_pre_match_elo",
+        "away_pre_match_elo"
+      ],
+      [
+        "home_attack_state",
+        "away_attack_state"
+      ],
+      [
+        "home_defense_state",
+        "away_defense_state"
+      ],
+      [
+        "home_player_prior_appearances",
+        "away_player_prior_appearances"
+      ],
+      [
+        "home_player_prior_goals",
+        "away_player_prior_goals"
+      ],
+      [
+        "home_player_prior_cards",
+        "away_player_prior_cards"
+      ],
+      [
+        "home_coach_prior_team_matches",
+        "away_coach_prior_team_matches"
+      ]
+    ],
+    "home_team_column": "home_team_initials",
+    "away_team_column": "away_team_initials",
+    "target_home_column": "target_home_goals",
+    "target_away_column": "target_away_goals",
+    "home_goals_column": "target_home_goals",
+    "away_goals_column": "target_away_goals",
+    "year_column": "Year",
+    "stage_column": "canonical_stage",
+    "host_side_column": "host_side",
+    "common_pace_features": [
+      "prior_stage_goal_rate",
+      "prior_overall_goal_rate",
+      "tournament_progress"
+    ],
+    "alpha": 0.1,
+    "team_shrinkage": 0.1,
+    "max_iter": 2000,
+    "tolerance": 1e-08,
+    "time_decay_half_life_years": null,
+    "shared_score": false,
+    "shared_fraction": null,
+    "max_shared_fraction": 0.75,
+    "max_score": 12,
+    "min_retained_mass": 0.999,
+    "max_support": 60
+  },
+  "random_seeds": [
+    1729,
+    2718,
+    31415,
+    57721,
+    65537
+  ],
+  "preprocessing_state_sha256": "b7a390dc345909051a4b2d60e0a440a355fff6ba9b725e8406655fde890f0b42",
+  "model_file_sha256": "4eed6d87557353f7b73b0d6a54a00cfdc95480f8d1856109086e4672650ea0b1",
+  "calibration_and_decision": {
+    "outer_fold_states_path": "temp/advanced_evidence/evaluation",
+    "final_audit_layers_frozen_only_after_positive_promotion": true,
+    "ensemble_weights": null,
+    "ensemble_status": "not_used_by_selected_model"
+  },
+  "software_versions": {
+    "hydra-core": "1.3.4",
+    "joblib": "1.5.3",
+    "matplotlib": "3.10.9",
+    "numpy": "2.4.6",
+    "omegaconf": "2.3.1",
+    "pandas": "2.3.3",
+    "pyarrow": "21.0.0",
+    "pyyaml": "6.0.3",
+    "scikit-learn": "1.6.1",
+    "scipy": "1.15.3",
+    "seaborn": "0.13.2",
+    "statsmodels": "0.14.6"
+  },
+  "predeclared_2014_metrics": [
+    "accuracy",
+    "macro_f1",
+    "confusion_matrix",
+    "log_loss",
+    "multiclass_brier",
+    "ranked_probability_score",
+    "calibration_error",
+    "scoreline_nll",
+    "total_goal_crps",
+    "dixon_coles_comparison",
+    "official_logit_comparison",
+    "simple_elo_comparison"
+  ],
+  "human_blinding_disclosure": "Existing 2014 artifacts were visible before this amendment; 2014 is software-isolated but not researcher-blind.",
+  "formal_preaudit_reads_combined_raw": false,
+  "advanced_2014_audit_opened": false,
+  "artifact_records": [
+    {
+      "path": "DATA_HASHES.json",
+      "bytes": 1923,
+      "sha256": "5f9b1d05ced7717cda01a3e2961db71f533aeb244defc03f4771e1de399a287c"
+    },
+    {
+      "path": "ENVIRONMENT.txt",
+      "bytes": 1340,
+      "sha256": "44892aed894cec490ad20ccb7b33f3b257b5dba93e6b53aafd6b96378628ba57"
+    },
+    {
+      "path": "FEATURE_SCHEMA.json",
+      "bytes": 39903,
+      "sha256": "333b45ce0d9fecdec26f2b429b74e85f6da3e87ce6f4ca3c3ab46931f3f71ce0"
+    },
+    {
+      "path": "MODEL_REGISTRY.csv",
+      "bytes": 6682,
+      "sha256": "290350703c0aa720e91562805b2470f0f5edd947d46021a4da96ff1123ff71d0"
+    },
+    {
+      "path": "PRE2014_PREDICTIONS.parquet",
+      "bytes": 28163,
+      "sha256": "c2920601e9a818ecdbf726e372077a1650524d58261f8610a0a75d141ce59a04"
+    },
+    {
+      "path": "SELECTION_PROTOCOL.md",
+      "bytes": 1103,
+      "sha256": "aa4a29baddb02072f139e6548babf2051bf7a514243bb3d3fd7e65485d21b41f"
+    }
+  ],
+  "nested_input_manifest_sha256": "4c7e50875e7853c4ee1fa2ab3b243a18bfae278cc863f7d04ce581c9941373eb",
+  "nested_input_artifact_count": 20
+}

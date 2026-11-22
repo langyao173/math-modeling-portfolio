@@ -1,0 +1,4027 @@
+{
+"EgoDemo/E001/annotation.json": {
+"bytes": 877,
+"crc32": 951424019,
+"sha1": "ea8434e2b178da0e20bd282997ce248000395f20"
+},
+"EgoDemo/E001/bad_frame_ratio.json": {
+"bytes": 2118,
+"crc32": 1198879267,
+"sha1": "3d737267e75e251b792e4db9a0f293fefcd41a3d"
+},
+"EgoDemo/E001/data/chunk-000/file-000.parquet": {
+"bytes": 3089018,
+"crc32": 777830720,
+"sha1": "0def970c864e83f3b411e08d8e38da3f6937a346"
+},
+"EgoDemo/E001/meta/episodes/chunk-000/file-000.parquet": {
+"bytes": 64231,
+"crc32": 2826268928,
+"sha1": "3621c3740160b3ac8efebbe5c8cfcf0ef7c9a651"
+},
+"EgoDemo/E001/meta/info.json": {
+"bytes": 10028,
+"crc32": 1832742771,
+"sha1": "3cb37481741f801854ec3fbee611c7705aef2356"
+},
+"EgoDemo/E001/meta/stats.json": {
+"bytes": 58929,
+"crc32": 947818473,
+"sha1": "1f2e67f62f573ad13af93b78c0e87f0790a95d85"
+},
+"EgoDemo/E001/meta/tasks.parquet": {
+"bytes": 2168,
+"crc32": 2433991441,
+"sha1": "f35275e64ca1dc1affbeae73a538a3a9731d8a13"
+},
+"EgoDemo/E002/annotation.json": {
+"bytes": 1893,
+"crc32": 3755170284,
+"sha1": "0c43ad8c5c1a39b1f15fa17412a8b85a862b6737"
+},
+"EgoDemo/E002/bad_frame_ratio.json": {
+"bytes": 3435,
+"crc32": 593113795,
+"sha1": "edb79ac6c3be23046a7eaed10af0a855ddbe1d51"
+},
+"EgoDemo/E002/data/chunk-000/file-000.parquet": {
+"bytes": 3249064,
+"crc32": 3192960082,
+"sha1": "029db73e824f857f1577450ce746c8b1f4ec0116"
+},
+"EgoDemo/E002/meta/episodes/chunk-000/file-000.parquet": {
+"bytes": 64202,
+"crc32": 1014763588,
+"sha1": "97744eb4a6fc3d488152a4f747373a6e5f76d968"
+},
+"EgoDemo/E002/meta/info.json": {
+"bytes": 10028,
+"crc32": 2395967551,
+"sha1": "68e9a9195bb8cccadcdfd0d7d696b46971be16e6"
+},
+"EgoDemo/E002/meta/stats.json": {
+"bytes": 58906,
+"crc32": 1993947139,
+"sha1": "4b1e128761e04b25ac8ff6a085ce0ff5bcf76292"
+},
+"EgoDemo/E002/meta/tasks.parquet": {
+"bytes": 2168,
+"crc32": 2433991441,
+"sha1": "f35275e64ca1dc1affbeae73a538a3a9731d8a13"
+},
+"EgoDemo/E003/annotation.json": {
+"bytes": 674,
+"crc32": 2459016147,
+"sha1": "69e136d40b8979cb0b482615fef14b0d59492611"
+},
+"EgoDemo/E003/bad_frame_ratio.json": {
+"bytes": 57,
+"crc32": 3510442264,
+"sha1": "68f860b4f6fb14c9301cf1fdfc7c61d3341dd29c"
+},
+"EgoDemo/E003/data/chunk-000/file-000.parquet": {
+"bytes": 534639,
+"crc32": 1630306917,
+"sha1": "6d8f76c598e773784c3eaa24fc80ee24417fc9e3"
+},
+"EgoDemo/E003/meta/episodes/chunk-000/file-000.parquet": {
+"bytes": 64200,
+"crc32": 3941425662,
+"sha1": "366fa95963e241ce49eebfe4a1f5e132dc4a8ce8"
+},
+"EgoDemo/E003/meta/info.json": {
+"bytes": 10027,
+"crc32": 4041916323,
+"sha1": "40cf465e3fe470c3c7fce5e4e0b8fbe98c79982a"
+},
+"EgoDemo/E003/meta/stats.json": {
+"bytes": 58823,
+"crc32": 2087672216,
+"sha1": "bc0a96951d77a3fa79321d1ca91380ebcf0a907b"
+},
+"EgoDemo/E003/meta/tasks.parquet": {
+"bytes": 2158,
+"crc32": 1418661966,
+"sha1": "c058187b2bf0e56df187c76ef6506e353414131a"
+},
+"EgoDemo/E004/annotation.json": {
+"bytes": 552,
+"crc32": 308560318,
+"sha1": "7af093379f774d958b992edfa1968dcf15486ceb"
+},
+"EgoDemo/E004/bad_frame_ratio.json": {
+"bytes": 57,
+"crc32": 2098308866,
+"sha1": "734b3b7f063d9ec7acecd1d3207732e45ebe9c55"
+},
+"EgoDemo/E004/data/chunk-000/file-000.parquet": {
+"bytes": 584078,
+"crc32": 3284470120,
+"sha1": "d09c38b174676f28c1982d08a19236724935c60f"
+},
+"EgoDemo/E004/meta/episodes/chunk-000/file-000.parquet": {
+"bytes": 64191,
+"crc32": 3991868413,
+"sha1": "b2c6b44be4d3a547dbdc84e448d3de89118a78af"
+},
+"EgoDemo/E004/meta/info.json": {
+"bytes": 10037,
+"crc32": 1540747409,
+"sha1": "0d6d8112b6643a385f6e9d4e34eed4f2139577d3"
+},
+"EgoDemo/E004/meta/stats.json": {
+"bytes": 58809,
+"crc32": 622310356,
+"sha1": "7ef1e7e58db55a35f57c3fa5dcf998e8ad5daacc"
+},
+"EgoDemo/E004/meta/tasks.parquet": {
+"bytes": 2158,
+"crc32": 1418661966,
+"sha1": "c058187b2bf0e56df187c76ef6506e353414131a"
+},
+"EgoDemo/E005/annotation.json": {
+"bytes": 690,
+"crc32": 1125147471,
+"sha1": "ac58d7ef587880e11fd003c975e37eb12f708409"
+},
+"EgoDemo/E005/bad_frame_ratio.json": {
+"bytes": 263,
+"crc32": 1517729674,
+"sha1": "ec681336ad6853b81e7aa525ea412962cc297567"
+},
+"EgoDemo/E005/data/chunk-000/file-000.parquet": {
+"bytes": 611349,
+"crc32": 655655927,
+"sha1": "5f35653f8e4f33777a916e47aa6870e468c7f765"
+},
+"EgoDemo/E005/meta/episodes/chunk-000/file-000.parquet": {
+"bytes": 64236,
+"crc32": 4152858882,
+"sha1": "7524c9e465a23ca946485189b7c8862dd5831269"
+},
+"EgoDemo/E005/meta/info.json": {
+"bytes": 10037,
+"crc32": 3606766343,
+"sha1": "f74a57fb6136730afe5b25553666f34c64dcaeff"
+},
+"EgoDemo/E005/meta/stats.json": {
+"bytes": 58761,
+"crc32": 1560126948,
+"sha1": "1cb8282a0df189f68c353d6b81dde65744bfdc86"
+},
+"EgoDemo/E005/meta/tasks.parquet": {
+"bytes": 2158,
+"crc32": 1418661966,
+"sha1": "c058187b2bf0e56df187c76ef6506e353414131a"
+},
+"EgoDemo/E006/annotation.json": {
+"bytes": 936,
+"crc32": 2763590571,
+"sha1": "3af7a2e834dc5aaba869b7591eed5c60296c0ae1"
+},
+"EgoDemo/E006/bad_frame_ratio.json": {
+"bytes": 57,
+"crc32": 3601068150,
+"sha1": "d519fe4ed60e3f8adbf9e0d5279584b4fa498f0d"
+},
+"EgoDemo/E006/data/chunk-000/file-000.parquet": {
+"bytes": 643291,
+"crc32": 3485499112,
+"sha1": "1199af8c5cb927a061c0915cc608f8b3a29a6d4c"
+},
+"EgoDemo/E006/meta/episodes/chunk-000/file-000.parquet": {
+"bytes": 59649,
+"crc32": 1208557189,
+"sha1": "562ee6d007cfc23de9c8957c64d50849a24b1b77"
+},
+"EgoDemo/E006/meta/info.json": {
+"bytes": 8818,
+"crc32": 1625272595,
+"sha1": "23c4690c58c50d8f4c4c4990a8c03f94bc86c3f8"
+},
+"EgoDemo/E006/meta/stats.json": {
+"bytes": 59058,
+"crc32": 856880809,
+"sha1": "cf88af0e5580e5e03176722889ba3660c5487d70"
+},
+"EgoDemo/E006/meta/tasks.parquet": {
+"bytes": 2093,
+"crc32": 2108870463,
+"sha1": "262c89201a1131b4055999dd59f62380d5234c71"
+},
+"EgoDemo/E007/annotation.json": {
+"bytes": 853,
+"crc32": 3444345362,
+"sha1": "1d142ae0a9813b3148ef16460a876e1a221195d9"
+},
+"EgoDemo/E007/bad_frame_ratio.json": {
+"bytes": 4921,
+"crc32": 1512226908,
+"sha1": "055487044eb3ab193b91f7e358f9bd6e5ef6480c"
+},
+"EgoDemo/E007/data/chunk-000/file-000.parquet": {
+"bytes": 3407138,
+"crc32": 566909230,
+"sha1": "1903e478489906e214a0083c2cfa317757ab61f1"
+},
+"EgoDemo/E007/meta/episodes/chunk-000/file-000.parquet": {
+"bytes": 59701,
+"crc32": 1283147301,
+"sha1": "9f38c08a0af89b37f4651d87275b02075ae27a0f"
+},
+"EgoDemo/E007/meta/info.json": {
+"bytes": 8819,
+"crc32": 18058058,
+"sha1": "094547a4c3402f5b86f00a75b128dc3a0431d1be"
+},
+"EgoDemo/E007/meta/stats.json": {
+"bytes": 59168,
+"crc32": 435470254,
+"sha1": "09204c41c86f59c24af22aa63102b7aad215bd83"
+},
+"EgoDemo/E007/meta/tasks.parquet": {
+"bytes": 2093,
+"crc32": 2519488253,
+"sha1": "e33f688cd7d1a03dbb1b1590c76b87042af69dac"
+},
+"EgoDemo/E008/annotation.json": {
+"bytes": 900,
+"crc32": 2343379431,
+"sha1": "e1b994332bd4a37e82d89b9b494c3a1178c443da"
+},
+"EgoDemo/E008/bad_frame_ratio.json": {
+"bytes": 57,
+"crc32": 3509506938,
+"sha1": "8c8f8fca0af6bb7658ee4a97bba2ac00f973afbe"
+},
+"EgoDemo/E008/data/chunk-000/file-000.parquet": {
+"bytes": 1058125,
+"crc32": 3822810377,
+"sha1": "d06bd0ba6c1ef109c5019c01fbd5f04741729744"
+},
+"EgoDemo/E008/meta/episodes/chunk-000/file-000.parquet": {
+"bytes": 59821,
+"crc32": 870897813,
+"sha1": "ad942d8ca00134b2185d3575061b1d6adaff4393"
+},
+"EgoDemo/E008/meta/info.json": {
+"bytes": 8818,
+"crc32": 3791291595,
+"sha1": "3cd72a61d2174a68e06596a1561dc24b1a8d2632"
+},
+"EgoDemo/E008/meta/stats.json": {
+"bytes": 59423,
+"crc32": 2643439041,
+"sha1": "e6f014697890b41fdef46228e215f8b96547389a"
+},
+"EgoDemo/E008/meta/tasks.parquet": {
+"bytes": 2078,
+"crc32": 2648388607,
+"sha1": "f07cf09c60c219b2d4a868929fe69705c6768202"
+},
+"EgoDemo/E009/annotation.json": {
+"bytes": 771,
+"crc32": 1623518163,
+"sha1": "cc5f5411c697b9b257f9521d9c03ad764aaf0c0c"
+},
+"EgoDemo/E009/bad_frame_ratio.json": {
+"bytes": 57,
+"crc32": 2451759845,
+"sha1": "e8935637c426adbdd2507cfe8d462491c54fa92e"
+},
+"EgoDemo/E009/data/chunk-000/file-000.parquet": {
+"bytes": 600388,
+"crc32": 3015144374,
+"sha1": "2d959de943c9cc8b49b3036e316448965aa06d83"
+},
+"EgoDemo/E009/meta/episodes/chunk-000/file-000.parquet": {
+"bytes": 59676,
+"crc32": 2114383061,
+"sha1": "713648eec8c4e7052bb5d44bb68e371238700249"
+},
+"EgoDemo/E009/meta/info.json": {
+"bytes": 8818,
+"crc32": 781022103,
+"sha1": "7d973b86dbe43b9aaef33302cc2d9bd941bd4376"
+},
+"EgoDemo/E009/meta/stats.json": {
+"bytes": 59015,
+"crc32": 1351684685,
+"sha1": "46a2bd20774269437fd5ee5ae87291fa5ac21f94"
+},
+"EgoDemo/E009/meta/tasks.parquet": {
+"bytes": 2103,
+"crc32": 1542582200,
+"sha1": "9791223584490c8d64fa049083538dcefb6816a8"
+},
+"EgoDemo/E010/annotation.json": {
+"bytes": 785,
+"crc32": 2683494853,
+"sha1": "4b99ae06cb609822923f9531a2d3446df140b486"
+},
+"EgoDemo/E010/bad_frame_ratio.json": {
+"bytes": 1002,
+"crc32": 3170776903,
+"sha1": "e62dbe00212e561399fa2363b4dae4713b769de0"
+},
+"EgoDemo/E010/data/chunk-000/file-000.parquet": {
+"bytes": 705798,
+"crc32": 2839674050,
+"sha1": "cd5b921d091f8939f1af1ccdf5567e9891382a35"
+},
+"EgoDemo/E010/meta/episodes/chunk-000/file-000.parquet": {
+"bytes": 59737,
+"crc32": 2363218700,
+"sha1": "64b21218b6a3d1015ed38dffd1871b331385fa82"
+},
+"EgoDemo/E010/meta/info.json": {
+"bytes": 8818,
+"crc32": 3552969054,
+"sha1": "84fa46368395f292cd699f76fffa830d04f04eeb"
+},
+"EgoDemo/E010/meta/stats.json": {
+"bytes": 59119,
+"crc32": 2818411359,
+"sha1": "0b61856329f00ea714b4b373bcbd8754140b7ec5"
+},
+"EgoDemo/E010/meta/tasks.parquet": {
+"bytes": 2118,
+"crc32": 2652156211,
+"sha1": "6d9a66ace25a6c36f5640c58957498907699bc55"
+},
+"EgoDemo/E011/annotation.json": {
+"bytes": 834,
+"crc32": 531856684,
+"sha1": "83594548daf886e60bf5f9ad7023b49ddefb6c7b"
+},
+"EgoDemo/E011/bad_frame_ratio.json": {
+"bytes": 57,
+"crc32": 1166918871,
+"sha1": "7594bc2e04726785d6c6bcd672dbca62bd4efcaf"
+},
+"EgoDemo/E011/data/chunk-000/file-000.parquet": {
+"bytes": 626302,
+"crc32": 1086740104,
+"sha1": "612a884d39d6e1c30c0936ecc4f8dd9703a7fe60"
+},
+"EgoDemo/E011/meta/episodes/chunk-000/file-000.parquet": {
+"bytes": 59755,
+"crc32": 2049097980,
+"sha1": "4d5aa5fe534ffc3f32a16313da7328803dec40a2"
+},
+"EgoDemo/E011/meta/info.json": {
+"bytes": 8818,
+"crc32": 1618539057,
+"sha1": "e9cef2807634f6f247dffd8d1fce6661eec88bfa"
+},
+"EgoDemo/E011/meta/stats.json": {
+"bytes": 58743,
+"crc32": 2424914474,
+"sha1": "d528d64b5c1b0d5f5e514e8ed967cdf13963e943"
+},
+"EgoDemo/E011/meta/tasks.parquet": {
+"bytes": 2178,
+"crc32": 547285590,
+"sha1": "456e7b09d7d48fbc01df0032250f9e316427f5ea"
+},
+"EgoDemo/E012/annotation.json": {
+"bytes": 1000,
+"crc32": 1063221779,
+"sha1": "47711795d00a9f82dc88467257a7575a95b263fc"
+},
+"EgoDemo/E012/bad_frame_ratio.json": {
+"bytes": 57,
+"crc32": 1440133520,
+"sha1": "0e9a34743136cc824f8c74c3ee6212fb7c3b01bb"
+},
+"EgoDemo/E012/data/chunk-000/file-000.parquet": {
+"bytes": 405380,
+"crc32": 3684784324,
+"sha1": "f22ddc661be51dd06e084c1129b29489919c7acf"
+},
+"EgoDemo/E012/meta/episodes/chunk-000/file-000.parquet": {
+"bytes": 59934,
+"crc32": 1183843362,
+"sha1": "35b8ef89bf94529a7a463441a08c81bb58705b8d"
+},
+"EgoDemo/E012/meta/info.json": {
+"bytes": 8818,
+"crc32": 1596734692,
+"sha1": "668d1453688839ec94270341cea202bc053e154f"
+},
+"EgoDemo/E012/meta/stats.json": {
+"bytes": 59253,
+"crc32": 1495886920,
+"sha1": "72e3a8b9352d7f46ca6f8fdb991d141ddcd5018a"
+},
+"EgoDemo/E012/meta/tasks.parquet": {
+"bytes": 2218,
+"crc32": 4087647472,
+"sha1": "492245a04eefabd6038478e18067317888d48440"
+},
+"EgoDemo/E013/annotation.json": {
+"bytes": 1303,
+"crc32": 2923555350,
+"sha1": "6fb00f94e880940cbea1ad2ded30826f2670f576"
+},
+"EgoDemo/E013/bad_frame_ratio.json": {
+"bytes": 57,
+"crc32": 4256283904,
+"sha1": "90ce9436c3bc6b4ebd8aaddb15e14d8c3a9964e2"
+},
+"EgoDemo/E013/data/chunk-000/file-000.parquet": {
+"bytes": 1285330,
+"crc32": 3325445665,
+"sha1": "d9c660cd27a30d0fdf9be24be68da95f10f1ef50"
+},
+"EgoDemo/E013/meta/episodes/chunk-000/file-000.parquet": {
+"bytes": 59795,
+"crc32": 2120279807,
+"sha1": "87d00c34adde33dc6432e0a71a3b00f97d9976b7"
+},
+"EgoDemo/E013/meta/info.json": {
+"bytes": 8818,
+"crc32": 2907572704,
+"sha1": "4e25e89ef6fa46eaa7df1223a541856d1b462373"
+},
+"EgoDemo/E013/meta/stats.json": {
+"bytes": 58924,
+"crc32": 3853823340,
+"sha1": "92f6e21d9c4528d8ff41a5f16840c64e427bec32"
+},
+"EgoDemo/E013/meta/tasks.parquet": {
+"bytes": 2218,
+"crc32": 4087647472,
+"sha1": "492245a04eefabd6038478e18067317888d48440"
+},
+"EgoDemo/E014/annotation.json": {
+"bytes": 674,
+"crc32": 1999004071,
+"sha1": "65a595b1db9792f3130b5270bf57be4160a5318d"
+},
+"EgoDemo/E014/bad_frame_ratio.json": {
+"bytes": 57,
+"crc32": 2275549551,
+"sha1": "3b2b90a48e33cfff69764c544060b9ed5474c94d"
+},
+"EgoDemo/E014/data/chunk-000/file-000.parquet": {
+"bytes": 431258,
+"crc32": 2886069306,
+"sha1": "5259547f24560a020560afe497f54544431c03ec"
+},
+"EgoDemo/E014/meta/episodes/chunk-000/file-000.parquet": {
+"bytes": 59956,
+"crc32": 1375299542,
+"sha1": "2531d5fd1848a2228f567001aa8cb78f05710b80"
+},
+"EgoDemo/E014/meta/info.json": {
+"bytes": 8818,
+"crc32": 1529297842,
+"sha1": "e1b7151148a6e88ddb8dbd200bdbe91ee4908d48"
+},
+"EgoDemo/E014/meta/stats.json": {
+"bytes": 59450,
+"crc32": 183319933,
+"sha1": "1074a867927d92e84f471edc348a9f3ae68d77fd"
+},
+"EgoDemo/E014/meta/tasks.parquet": {
+"bytes": 2291,
+"crc32": 2933165734,
+"sha1": "f722bab2ab058d77232929cf19b5665a36dc5eea"
+},
+"EgoDemo/E015/annotation.json": {
+"bytes": 1240,
+"crc32": 3889191732,
+"sha1": "8af5ff08a4188366ed99435949c127dafe22703b"
+},
+"EgoDemo/E015/bad_frame_ratio.json": {
+"bytes": 57,
+"crc32": 113390135,
+"sha1": "997e3a5d71cdb44d7ff49e612bb817f220dde60a"
+},
+"EgoDemo/E015/data/chunk-000/file-000.parquet": {
+"bytes": 1137645,
+"crc32": 3115616437,
+"sha1": "f632e09feddf185d793080a05f419b8205db7a09"
+},
+"EgoDemo/E015/meta/episodes/chunk-000/file-000.parquet": {
+"bytes": 59894,
+"crc32": 4284034086,
+"sha1": "40673a6542634ce636b1294c6b2d2eed4ee2e13a"
+},
+"EgoDemo/E015/meta/info.json": {
+"bytes": 8818,
+"crc32": 1946323165,
+"sha1": "0056bafb9ac80c8b2dfdfa47dcff2f24590bebfa"
+},
+"EgoDemo/E015/meta/stats.json": {
+"bytes": 59015,
+"crc32": 3358811726,
+"sha1": "5bc2ada6e019a9096c9774e9b6e5b1918cd31def"
+},
+"EgoDemo/E015/meta/tasks.parquet": {
+"bytes": 2291,
+"crc32": 2933165734,
+"sha1": "f722bab2ab058d77232929cf19b5665a36dc5eea"
+},
+"EgoDemo/E016/annotation.json": {
+"bytes": 710,
+"crc32": 323909135,
+"sha1": "cb4d06ffc6c9b205e0d5e4c66bb8ceb9e8b5a937"
+},
+"EgoDemo/E016/bad_frame_ratio.json": {
+"bytes": 57,
+"crc32": 3115096524,
+"sha1": "636ff555c91aefcd97eb543cc29c043dc609a36b"
+},
+"EgoDemo/E016/data/chunk-000/file-000.parquet": {
+"bytes": 394533,
+"crc32": 569653987,
+"sha1": "3e01f77ce76f188eae41a61c1f21a6f7f37da990"
+},
+"EgoDemo/E016/meta/episodes/chunk-000/file-000.parquet": {
+"bytes": 59752,
+"crc32": 1767031640,
+"sha1": "c02748214e269c66c6de97010f04abea6b6c21a3"
+},
+"EgoDemo/E016/meta/info.json": {
+"bytes": 8818,
+"crc32": 1927051889,
+"sha1": "98426108277ab4cee81186bb4e210912ad9a87b5"
+},
+"EgoDemo/E016/meta/stats.json": {
+"bytes": 58758,
+"crc32": 220893796,
+"sha1": "c0932f6fe4acb26448c3362861bcaa50f9a76d34"
+},
+"EgoDemo/E016/meta/tasks.parquet": {
+"bytes": 2203,
+"crc32": 2225423687,
+"sha1": "8d3665da042804ea0cab7e1736abb01b9c88354b"
+},
+"EgoDemo/E017/annotation.json": {
+"bytes": 739,
+"crc32": 1307289913,
+"sha1": "7ed23c4ff97f7462c33f59149d180699d9f18a65"
+},
+"EgoDemo/E017/bad_frame_ratio.json": {
+"bytes": 57,
+"crc32": 3313357768,
+"sha1": "1a557fffbfb63a7e321b9bbfab5a0554b3ec9f13"
+},
+"EgoDemo/E017/data/chunk-000/file-000.parquet": {
+"bytes": 439809,
+"crc32": 465954452,
+"sha1": "d6e3a592c690460c6200d774e9fcc385f2318823"
+},
+"EgoDemo/E017/meta/episodes/chunk-000/file-000.parquet": {
+"bytes": 59910,
+"crc32": 2086989748,
+"sha1": "6af387e32dba9579013414fdb2a5389890912b5b"
+},
+"EgoDemo/E017/meta/info.json": {
+"bytes": 8818,
+"crc32": 1294134763,
+"sha1": "6a4303fa1c6e00f3340e36dc44992ddb0eea40ef"
+},
+"EgoDemo/E017/meta/stats.json": {
+"bytes": 59271,
+"crc32": 638831798,
+"sha1": "142ce4c3602784b33f7f6718cbaeeabf6f360ac2"
+},
+"EgoDemo/E017/meta/tasks.parquet": {
+"bytes": 2203,
+"crc32": 2225423687,
+"sha1": "8d3665da042804ea0cab7e1736abb01b9c88354b"
+},
+"EgoDemo/E018/annotation.json": {
+"bytes": 815,
+"crc32": 1618401760,
+"sha1": "6af609c9cce9f92e236dcb1846e47772f5c28407"
+},
+"EgoDemo/E018/bad_frame_ratio.json": {
+"bytes": 57,
+"crc32": 170917698,
+"sha1": "0589cbf4118f21765820890d430e5069295462a4"
+},
+"EgoDemo/E018/data/chunk-000/file-000.parquet": {
+"bytes": 471784,
+"crc32": 2447410407,
+"sha1": "a994ef1787c990b8faaf833c70511500738f8741"
+},
+"EgoDemo/E018/meta/episodes/chunk-000/file-000.parquet": {
+"bytes": 59686,
+"crc32": 1425203868,
+"sha1": "efa236a44648128466fa66cf623d4e8022a2af15"
+},
+"EgoDemo/E018/meta/info.json": {
+"bytes": 8818,
+"crc32": 3107002314,
+"sha1": "e84e0f8e387527716e0d720e9d035a689236ab5a"
+},
+"EgoDemo/E018/meta/stats.json": {
+"bytes": 58977,
+"crc32": 902951478,
+"sha1": "b43266a48090d00da4f9a6fe0bba50f0c1d4a042"
+},
+"EgoDemo/E018/meta/tasks.parquet": {
+"bytes": 2148,
+"crc32": 1329086388,
+"sha1": "0eb70b58408764f2eecec20dc048ee62b89b1f07"
+},
+"EgoDemo/E019/annotation.json": {
+"bytes": 852,
+"crc32": 1311665657,
+"sha1": "e5bfb7cc1cf5d6ea2691125086e56a0ec43a0a01"
+},
+"EgoDemo/E019/bad_frame_ratio.json": {
+"bytes": 57,
+"crc32": 251165591,
+"sha1": "3c5430d972796b013ac7ecabc0a2dcfd4df1791b"
+},
+"EgoDemo/E019/data/chunk-000/file-000.parquet": {
+"bytes": 717512,
+"crc32": 237908757,
+"sha1": "6bc428b82906a7c2e88e591041e3960982781610"
+},
+"EgoDemo/E019/meta/episodes/chunk-000/file-000.parquet": {
+"bytes": 59776,
+"crc32": 186435518,
+"sha1": "bde419fa06bda4d3243557b0689d784cea67af61"
+},
+"EgoDemo/E019/meta/info.json": {
+"bytes": 8818,
+"crc32": 1617988762,
+"sha1": "29c324e43d1ad2278bc345d1dedc9ddc15642c89"
+},
+"EgoDemo/E019/meta/stats.json": {
+"bytes": 59328,
+"crc32": 2218006787,
+"sha1": "aa07759d44ebe4ac818509852463476f345593ff"
+},
+"EgoDemo/E019/meta/tasks.parquet": {
+"bytes": 2148,
+"crc32": 1329086388,
+"sha1": "0eb70b58408764f2eecec20dc048ee62b89b1f07"
+},
+"EgoDemo/E020/annotation.json": {
+"bytes": 463,
+"crc32": 592511452,
+"sha1": "771ab5feac02a84dc56c299477cf89a1e017df8f"
+},
+"EgoDemo/E020/bad_frame_ratio.json": {
+"bytes": 57,
+"crc32": 1559429194,
+"sha1": "7969b0037f2ea8b4da39b76ffc168cc9155ed7bc"
+},
+"EgoDemo/E020/data/chunk-000/file-000.parquet": {
+"bytes": 356041,
+"crc32": 3005869921,
+"sha1": "5ac8724272f1e8e8e1b90c268cd73130b32e15fb"
+},
+"EgoDemo/E020/meta/episodes/chunk-000/file-000.parquet": {
+"bytes": 59868,
+"crc32": 3636970108,
+"sha1": "b4a049a44bb648e60de1e8829c724dbabbd4077c"
+},
+"EgoDemo/E020/meta/info.json": {
+"bytes": 8818,
+"crc32": 926417177,
+"sha1": "ffd05fb930d59be5038c526105f6c85a8cd4679f"
+},
+"EgoDemo/E020/meta/stats.json": {
+"bytes": 59320,
+"crc32": 1972892799,
+"sha1": "d804592ebfb1ca378660b94c4a62d7e50de07697"
+},
+"EgoDemo/E020/meta/tasks.parquet": {
+"bytes": 2163,
+"crc32": 160545650,
+"sha1": "2cf0aa63bb6ce234b795530b7e4f1295545365cb"
+},
+"EgoDemo/E021/annotation.json": {
+"bytes": 474,
+"crc32": 2315751061,
+"sha1": "a95043dd163d7b88d6c96ace05e7b6f97f188a7c"
+},
+"EgoDemo/E021/bad_frame_ratio.json": {
+"bytes": 57,
+"crc32": 2580410529,
+"sha1": "967aade20367f6d5c50e8da6156c8f956f120dec"
+},
+"EgoDemo/E021/data/chunk-000/file-000.parquet": {
+"bytes": 457736,
+"crc32": 766311718,
+"sha1": "dc1711450c18374a09d63d01ba8bf201d5eba304"
+},
+"EgoDemo/E021/meta/episodes/chunk-000/file-000.parquet": {
+"bytes": 59804,
+"crc32": 3736203883,
+"sha1": "366af8dedf413210a1057ee35eb7ce35355e6158"
+},
+"EgoDemo/E021/meta/info.json": {
+"bytes": 8818,
+"crc32": 478301271,
+"sha1": "1065acc20a22a79c54384700d1951d6e5fd0ae7d"
+},
+"EgoDemo/E021/meta/stats.json": {
+"bytes": 59113,
+"crc32": 1633741732,
+"sha1": "161c78db653964473fed09af094fe87327865eb1"
+},
+"EgoDemo/E021/meta/tasks.parquet": {
+"bytes": 2163,
+"crc32": 160545650,
+"sha1": "2cf0aa63bb6ce234b795530b7e4f1295545365cb"
+},
+"EgoDemo/E022/annotation.json": {
+"bytes": 899,
+"crc32": 2303498385,
+"sha1": "92f4dafc1dcc761428e4fc92220798c54317b3bb"
+},
+"EgoDemo/E022/bad_frame_ratio.json": {
+"bytes": 57,
+"crc32": 3313357768,
+"sha1": "1a557fffbfb63a7e321b9bbfab5a0554b3ec9f13"
+},
+"EgoDemo/E022/data/chunk-000/file-000.parquet": {
+"bytes": 438351,
+"crc32": 926080379,
+"sha1": "dda67c5d03e4638c0ad19ffef560dc35f2d8db5e"
+},
+"EgoDemo/E022/meta/episodes/chunk-000/file-000.parquet": {
+"bytes": 59788,
+"crc32": 1158967697,
+"sha1": "6f145f26b50258f02f9a34383d40758acba6d7ac"
+},
+"EgoDemo/E022/meta/info.json": {
+"bytes": 8818,
+"crc32": 1294134763,
+"sha1": "6a4303fa1c6e00f3340e36dc44992ddb0eea40ef"
+},
+"EgoDemo/E022/meta/stats.json": {
+"bytes": 58974,
+"crc32": 4084488633,
+"sha1": "a7990d0bff0777c586d09a8ac5c0b36f23c31630"
+},
+"EgoDemo/E022/meta/tasks.parquet": {
+"bytes": 2198,
+"crc32": 214470845,
+"sha1": "8ee7db2bbc627ddfbac45b60e2c048b8d3490020"
+},
+"EgoDemo/E023/annotation.json": {
+"bytes": 624,
+"crc32": 1926962056,
+"sha1": "e54b362f8c16ebb67cf7b118cc684b6bca6c5b1d"
+},
+"EgoDemo/E023/bad_frame_ratio.json": {
+"bytes": 57,
+"crc32": 2474565088,
+"sha1": "a5f2cce2bc61ae3c49a6af0a7859ca895b7f1b6d"
+},
+"EgoDemo/E023/data/chunk-000/file-000.parquet": {
+"bytes": 1272964,
+"crc32": 2880505128,
+"sha1": "50b48b3a88ec34f6cfbd4ea035f72f20cd8d3fc6"
+},
+"EgoDemo/E023/meta/episodes/chunk-000/file-000.parquet": {
+"bytes": 59797,
+"crc32": 3353301660,
+"sha1": "2389098522b3feccdb611d645f698aede229f4df"
+},
+"EgoDemo/E023/meta/info.json": {
+"bytes": 8818,
+"crc32": 1090177854,
+"sha1": "2bb81a04b1ef4377866ccbe490f95c8b5cc824e7"
+},
+"EgoDemo/E023/meta/stats.json": {
+"bytes": 59029,
+"crc32": 315721201,
+"sha1": "1049e35d140bf1d04f39b3c0299fd0a793c2af8a"
+},
+"EgoDemo/E023/meta/tasks.parquet": {
+"bytes": 2168,
+"crc32": 1990465276,
+"sha1": "433f7d3cf6d330743039c5f02a931172c4811598"
+},
+"EgoDemo/E024/annotation.json": {
+"bytes": 1192,
+"crc32": 140221153,
+"sha1": "d420ed1826e6bc06e1f33d239f55db04ef7fab2d"
+},
+"EgoDemo/E024/bad_frame_ratio.json": {
+"bytes": 57,
+"crc32": 1672629646,
+"sha1": "0d4d3b27f5a4c146a3afc6af6ffb9f15524e919b"
+},
+"EgoDemo/E024/data/chunk-000/file-000.parquet": {
+"bytes": 564323,
+"crc32": 199099993,
+"sha1": "7ace16afe813b6bb98df262d8f8cab6696efacdc"
+},
+"EgoDemo/E024/meta/episodes/chunk-000/file-000.parquet": {
+"bytes": 59869,
+"crc32": 1001698016,
+"sha1": "c2b253e89bd5b214ce72e279e4da5db2e8a067a6"
+},
+"EgoDemo/E024/meta/info.json": {
+"bytes": 8818,
+"crc32": 2674777193,
+"sha1": "281bc71b516cfb5d895140aad18bb1124e56aa04"
+},
+"EgoDemo/E024/meta/stats.json": {
+"bytes": 59189,
+"crc32": 2237857562,
+"sha1": "e0141de9422f4c7c7aa08d0c51b25875e2f23ab2"
+},
+"EgoDemo/E024/meta/tasks.parquet": {
+"bytes": 2138,
+"crc32": 4042021160,
+"sha1": "678911a653bf2a4d1464fc1b42882ae784281e4f"
+},
+"EgoDemo/E025/annotation.json": {
+"bytes": 727,
+"crc32": 275551848,
+"sha1": "a5abbaa9e40caa6579b1bb3604eb690306dd196a"
+},
+"EgoDemo/E025/bad_frame_ratio.json": {
+"bytes": 57,
+"crc32": 2806821951,
+"sha1": "b12e6a8d708a16d29b02300b244a576b4b043202"
+},
+"EgoDemo/E025/data/chunk-000/file-000.parquet": {
+"bytes": 327370,
+"crc32": 2722451820,
+"sha1": "c11eb068703482ce06fa554ff845326faa5d6e33"
+},
+"EgoDemo/E025/meta/episodes/chunk-000/file-000.parquet": {
+"bytes": 59759,
+"crc32": 4028581311,
+"sha1": "c06ab58fcb89b6ceaab52dc34da717825b76609c"
+},
+"EgoDemo/E025/meta/info.json": {
+"bytes": 8818,
+"crc32": 2189202488,
+"sha1": "0caceca16c7b31ed9694b7d5a87c2bc9607d481e"
+},
+"EgoDemo/E025/meta/stats.json": {
+"bytes": 59204,
+"crc32": 3803468693,
+"sha1": "49841312908455008bc180c3310de18c6f16b2c2"
+},
+"EgoDemo/E025/meta/tasks.parquet": {
+"bytes": 2103,
+"crc32": 1391007032,
+"sha1": "f306864c141e062d8b37db4b6dd9538a8f79ee26"
+},
+"EgoDemo/E026/annotation.json": {
+"bytes": 1254,
+"crc32": 2411542339,
+"sha1": "0face86a3bb979a9d65a50952b55ab9be65865ff"
+},
+"EgoDemo/E026/bad_frame_ratio.json": {
+"bytes": 57,
+"crc32": 1621830952,
+"sha1": "f65303399da3791b4f3eff4df7de800d9ea3749e"
+},
+"EgoDemo/E026/data/chunk-000/file-000.parquet": {
+"bytes": 1484169,
+"crc32": 2404876568,
+"sha1": "88fbcb1c5b5118b2e327397960e388ff671006a9"
+},
+"EgoDemo/E026/meta/episodes/chunk-000/file-000.parquet": {
+"bytes": 59902,
+"crc32": 3229007472,
+"sha1": "c94372bc3504abece58bedb1de2af9b2e5272349"
+},
+"EgoDemo/E026/meta/info.json": {
+"bytes": 8818,
+"crc32": 3575182322,
+"sha1": "0e85015ef09a5c97756900c7e94ca87524546447"
+},
+"EgoDemo/E026/meta/stats.json": {
+"bytes": 59388,
+"crc32": 153238683,
+"sha1": "d6fc1642a9d0d7f03a5f1cb8cbe305733efdffde"
+},
+"EgoDemo/E026/meta/tasks.parquet": {
+"bytes": 2198,
+"crc32": 2641501145,
+"sha1": "c85343c4f4b48c2e08754e65b43937440b547faf"
+},
+"EgoDemo/E027/annotation.json": {
+"bytes": 796,
+"crc32": 2068282917,
+"sha1": "b2daacba2e27a3c40f5860c4197497d0dd4e1b8d"
+},
+"EgoDemo/E027/bad_frame_ratio.json": {
+"bytes": 58,
+"crc32": 786629911,
+"sha1": "343515b29f66746a910bd59dee2cea331c178b01"
+},
+"EgoDemo/E027/data/chunk-000/file-000.parquet": {
+"bytes": 3202734,
+"crc32": 403526995,
+"sha1": "0beb1306fa8fc264df36408a27583ded755e5b39"
+},
+"EgoDemo/E027/meta/episodes/chunk-000/file-000.parquet": {
+"bytes": 59938,
+"crc32": 3163897725,
+"sha1": "3ce2baaf934c4480e5a5f7d0eba8cc0f9417678a"
+},
+"EgoDemo/E027/meta/info.json": {
+"bytes": 8819,
+"crc32": 1390940833,
+"sha1": "762a27e3cc4938e4b12958805dee549a13492198"
+},
+"EgoDemo/E027/meta/stats.json": {
+"bytes": 59164,
+"crc32": 3708766376,
+"sha1": "1679d301984178c6326ee1599575994164498796"
+},
+"EgoDemo/E027/meta/tasks.parquet": {
+"bytes": 2178,
+"crc32": 1488177964,
+"sha1": "704ebd8e16299bf678e5a8927c9acf00303ad076"
+},
+"EgoDemo/E028/annotation.json": {
+"bytes": 700,
+"crc32": 1457750922,
+"sha1": "ce2a2a56a72e4202f1a1db831a19fd43bb67a67c"
+},
+"EgoDemo/E028/bad_frame_ratio.json": {
+"bytes": 57,
+"crc32": 2316555039,
+"sha1": "1ddb48f9cde2e971888c49e7c714b30ced1576fc"
+},
+"EgoDemo/E028/data/chunk-000/file-000.parquet": {
+"bytes": 624096,
+"crc32": 659640453,
+"sha1": "9eaf0904a90ae38b9ed92fc82260b25f1c88755a"
+},
+"EgoDemo/E028/meta/episodes/chunk-000/file-000.parquet": {
+"bytes": 64178,
+"crc32": 2547397483,
+"sha1": "9638dce74de3de8662f2b64b0755a09d52991d91"
+},
+"EgoDemo/E028/meta/info.json": {
+"bytes": 10027,
+"crc32": 3396609185,
+"sha1": "fbf8b3441af4cab8a1e0da8a9c894b4316ff273a"
+},
+"EgoDemo/E028/meta/stats.json": {
+"bytes": 58766,
+"crc32": 4018624381,
+"sha1": "85424e6970d83666926fa37e3dc6b529641f4bc2"
+},
+"EgoDemo/E028/meta/tasks.parquet": {
+"bytes": 2158,
+"crc32": 1418661966,
+"sha1": "c058187b2bf0e56df187c76ef6506e353414131a"
+},
+"EgoDemo/E029/annotation.json": {
+"bytes": 665,
+"crc32": 2442290465,
+"sha1": "8681e77c3f3493e0938cd70dc1a7c31164f782d5"
+},
+"EgoDemo/E029/bad_frame_ratio.json": {
+"bytes": 57,
+"crc32": 405919142,
+"sha1": "a56ac1d72626656152d3dddcd583a84ffe9f76db"
+},
+"EgoDemo/E029/data/chunk-000/file-000.parquet": {
+"bytes": 529258,
+"crc32": 1473549192,
+"sha1": "6ba227d0601ee261579ca1af0fbed77504d7b1ed"
+},
+"EgoDemo/E029/meta/episodes/chunk-000/file-000.parquet": {
+"bytes": 64181,
+"crc32": 3328875948,
+"sha1": "fa48de70746b5b7be30968bffe6ff3b0773b8200"
+},
+"EgoDemo/E029/meta/info.json": {
+"bytes": 10037,
+"crc32": 215344364,
+"sha1": "40c689eb48dac4fcb193d53261892bf7986e5655"
+},
+"EgoDemo/E029/meta/stats.json": {
+"bytes": 58756,
+"crc32": 1337861921,
+"sha1": "0a5875d2e4accc94c26e6b5b3bbf43bcacd072c8"
+},
+"EgoDemo/E029/meta/tasks.parquet": {
+"bytes": 2158,
+"crc32": 1418661966,
+"sha1": "c058187b2bf0e56df187c76ef6506e353414131a"
+},
+"EgoDemo/E030/annotation.json": {
+"bytes": 686,
+"crc32": 565279856,
+"sha1": "b32303cf5857965977dbf1f782851a5c961eea75"
+},
+"EgoDemo/E030/bad_frame_ratio.json": {
+"bytes": 57,
+"crc32": 2345916997,
+"sha1": "c2329bac344dd7f77dd5a09caa9d5c8125cb7b5a"
+},
+"EgoDemo/E030/data/chunk-000/file-000.parquet": {
+"bytes": 551169,
+"crc32": 511290626,
+"sha1": "a42267cde5d143e3345f269473ac1f5cf60befa7"
+},
+"EgoDemo/E030/meta/episodes/chunk-000/file-000.parquet": {
+"bytes": 64128,
+"crc32": 1141925295,
+"sha1": "54e3384d608de0cd2e070fff9b27cfa7c60fb811"
+},
+"EgoDemo/E030/meta/info.json": {
+"bytes": 10037,
+"crc32": 1393240979,
+"sha1": "4eb58b0ec48554c330f4da39b879a23b4745375b"
+},
+"EgoDemo/E030/meta/stats.json": {
+"bytes": 58689,
+"crc32": 3354731679,
+"sha1": "7ae2c09381a295720861c9ef146bf115bb866ce2"
+},
+"EgoDemo/E030/meta/tasks.parquet": {
+"bytes": 2158,
+"crc32": 1418661966,
+"sha1": "c058187b2bf0e56df187c76ef6506e353414131a"
+},
+"EgoDemo/E031/annotation.json": {
+"bytes": 812,
+"crc32": 838992731,
+"sha1": "4a2832b28a1974345125d2a91e28d20fae1b2d1a"
+},
+"EgoDemo/E031/bad_frame_ratio.json": {
+"bytes": 57,
+"crc32": 2609426178,
+"sha1": "303faf2875e58ba6a994167452c06978664f71e5"
+},
+"EgoDemo/E031/data/chunk-000/file-000.parquet": {
+"bytes": 702788,
+"crc32": 3872487669,
+"sha1": "376820a36d9f9e1e5bf0e8b8ffd42930de1ecd9c"
+},
+"EgoDemo/E031/meta/episodes/chunk-000/file-000.parquet": {
+"bytes": 64168,
+"crc32": 2031736545,
+"sha1": "198baf99e96cf72e331fa871bcf1823341b3d0d0"
+},
+"EgoDemo/E031/meta/info.json": {
+"bytes": 10037,
+"crc32": 267750394,
+"sha1": "8a2ce573ab6dfe7e9c31cdfe841e54dac94b8611"
+},
+"EgoDemo/E031/meta/stats.json": {
+"bytes": 58806,
+"crc32": 1636229706,
+"sha1": "b33841f698af34d7981409b9f0ec5f2e6fa952f2"
+},
+"EgoDemo/E031/meta/tasks.parquet": {
+"bytes": 2158,
+"crc32": 1418661966,
+"sha1": "c058187b2bf0e56df187c76ef6506e353414131a"
+},
+"EgoPro/291aff24-8b62-4a5e-b470-85114bdf86dc/session_metadata.csv": {
+"bytes": 3043,
+"crc32": 4017169227,
+"sha1": "b58e3353aace045b06c63ab33132378454cb309f"
+},
+"EgoPro/291aff24-8b62-4a5e-b470-85114bdf86dc/tables/annotation_bad_frame_pose_hand.csv": {
+"bytes": 243424,
+"crc32": 3256812553,
+"sha1": "db085355fd7cf15c85336ad6a90f53d7d9702102"
+},
+"EgoPro/291aff24-8b62-4a5e-b470-85114bdf86dc/tables/annotation_semantic_segments.csv": {
+"bytes": 2089,
+"crc32": 3092101949,
+"sha1": "7ccedbf55ddf550fd417d1dafdce68f447322190"
+},
+"EgoPro/291aff24-8b62-4a5e-b470-85114bdf86dc/tables/pose_head.csv": {
+"bytes": 556697,
+"crc32": 2306301063,
+"sha1": "b2d9a2a4ffd32232101ad45912f1e730d0305e84"
+},
+"EgoPro/291aff24-8b62-4a5e-b470-85114bdf86dc/tables/pose_headcam.csv": {
+"bytes": 571451,
+"crc32": 3076417114,
+"sha1": "1fc866c1902e933105096b5828eca4daf11f30ee"
+},
+"EgoPro/291aff24-8b62-4a5e-b470-85114bdf86dc/tables/pose_left_hand.csv": {
+"bytes": 7426927,
+"crc32": 2439130650,
+"sha1": "06325bc2958c004bec262c46834e3b9f90c3443a"
+},
+"EgoPro/291aff24-8b62-4a5e-b470-85114bdf86dc/tables/pose_right_eye_cam.csv": {
+"bytes": 571462,
+"crc32": 1169723805,
+"sha1": "9e029f57f81128a19a2042267a5b9f587cca89ff"
+},
+"EgoPro/291aff24-8b62-4a5e-b470-85114bdf86dc/tables/pose_right_hand.csv": {
+"bytes": 7404863,
+"crc32": 262267916,
+"sha1": "dbc79514118339fa0d9cd93881b330146e33254f"
+},
+"EgoPro/291aff24-8b62-4a5e-b470-85114bdf86dc/tables/sensor_camera_head_left_extrinsic.csv": {
+"bytes": 629305,
+"crc32": 3221489055,
+"sha1": "8800c87aef10af2bcdf1c11b5286deea83f67f2f"
+},
+"EgoPro/291aff24-8b62-4a5e-b470-85114bdf86dc/tables/sensor_camera_head_left_intrinsic.csv": {
+"bytes": 768261,
+"crc32": 4237956877,
+"sha1": "9f36da2c8f5e357a46b301bec6460d16e04db109"
+},
+"EgoPro/291aff24-8b62-4a5e-b470-85114bdf86dc/tables/sensor_camera_head_right_extrinsic.csv": {
+"bytes": 631566,
+"crc32": 1946771319,
+"sha1": "b7f4314585d5890f76ffd7fbdbd11f72f6cd45b0"
+},
+"EgoPro/291aff24-8b62-4a5e-b470-85114bdf86dc/tables/sensor_camera_head_right_intrinsic.csv": {
+"bytes": 711727,
+"crc32": 2160533666,
+"sha1": "ca216c0c3d6ac0329d7e057edffabe82ad62af3a"
+},
+"EgoPro/291aff24-8b62-4a5e-b470-85114bdf86dc/tables/sensor_camera_left_wrist_intrinsic.csv": {
+"bytes": 888703,
+"crc32": 2827352542,
+"sha1": "706a86234c077ba9ac5d63066ca7a7139cef9966"
+},
+"EgoPro/291aff24-8b62-4a5e-b470-85114bdf86dc/tables/sensor_camera_right_wrist_intrinsic.csv": {
+"bytes": 891161,
+"crc32": 1589981255,
+"sha1": "f242142cc47026fc58afb8e8945bebf49d2f5c71"
+},
+"EgoPro/291aff24-8b62-4a5e-b470-85114bdf86dc/videos/head_left_frames.csv": {
+"bytes": 426425,
+"crc32": 2985879671,
+"sha1": "b204a2a2733f213037b273da05a9b21a84f6e2fa"
+},
+"EgoPro/291aff24-8b62-4a5e-b470-85114bdf86dc/videos/head_right_frames.csv": {
+"bytes": 428885,
+"crc32": 4220851930,
+"sha1": "e61c4d004a4f37092142e44ca68780ca8b136f74"
+},
+"EgoPro/291aff24-8b62-4a5e-b470-85114bdf86dc/videos/left_wrist_frames.csv": {
+"bytes": 428884,
+"crc32": 2501602036,
+"sha1": "7e7f6d2eb3fcfaa3473f968cb1a13574de66eb4f"
+},
+"EgoPro/291aff24-8b62-4a5e-b470-85114bdf86dc/videos/right_wrist_frames.csv": {
+"bytes": 431342,
+"crc32": 3948363822,
+"sha1": "0daef1f52c657dfa6b107b606546b11b0e5f33f9"
+},
+"EgoPro/2bb0222e-a5e8-4f0b-b49a-81aa87411149/session_metadata.csv": {
+"bytes": 3003,
+"crc32": 1500615255,
+"sha1": "b425fabcf4003a9a7ef819588ed800a47fff902d"
+},
+"EgoPro/2bb0222e-a5e8-4f0b-b49a-81aa87411149/tables/annotation_bad_frame_pose_hand.csv": {
+"bytes": 16937,
+"crc32": 1961608674,
+"sha1": "d05dfabd5857e1f4cfe32d0dbaeb7a8b086d32e3"
+},
+"EgoPro/2bb0222e-a5e8-4f0b-b49a-81aa87411149/tables/annotation_semantic_segments.csv": {
+"bytes": 1319,
+"crc32": 1664914632,
+"sha1": "6ead8273471a0056e56840fd3d8245474468132b"
+},
+"EgoPro/2bb0222e-a5e8-4f0b-b49a-81aa87411149/tables/pose_head.csv": {
+"bytes": 40859,
+"crc32": 746685423,
+"sha1": "6cb4bc3bc94853b713570f590f66913a3e03e047"
+},
+"EgoPro/2bb0222e-a5e8-4f0b-b49a-81aa87411149/tables/pose_headcam.csv": {
+"bytes": 41621,
+"crc32": 3778512895,
+"sha1": "ede35bf295d41fc17946b88ca44822368369bed2"
+},
+"EgoPro/2bb0222e-a5e8-4f0b-b49a-81aa87411149/tables/pose_left_hand.csv": {
+"bytes": 551648,
+"crc32": 4007882194,
+"sha1": "7e0d99c46425537e0d11a6aa256b285c1cd09d9c"
+},
+"EgoPro/2bb0222e-a5e8-4f0b-b49a-81aa87411149/tables/pose_right_eye_cam.csv": {
+"bytes": 41788,
+"crc32": 1078119630,
+"sha1": "2b9222164f2a7bc96c264299e52023924d558bd2"
+},
+"EgoPro/2bb0222e-a5e8-4f0b-b49a-81aa87411149/tables/pose_right_hand.csv": {
+"bytes": 552651,
+"crc32": 1480557283,
+"sha1": "034ae6b6bdb0749b2da07d8db803bbbb4fcd7ae0"
+},
+"EgoPro/2bb0222e-a5e8-4f0b-b49a-81aa87411149/tables/sensor_camera_head_left_extrinsic.csv": {
+"bytes": 46162,
+"crc32": 1418558726,
+"sha1": "58f60e3a1f41fde56bd244303f1ee18363289339"
+},
+"EgoPro/2bb0222e-a5e8-4f0b-b49a-81aa87411149/tables/sensor_camera_head_left_intrinsic.csv": {
+"bytes": 55954,
+"crc32": 2875980149,
+"sha1": "5d554258151c6a48c316c636f53b12bb319ad98c"
+},
+"EgoPro/2bb0222e-a5e8-4f0b-b49a-81aa87411149/tables/sensor_camera_head_right_extrinsic.csv": {
+"bytes": 46506,
+"crc32": 2804069076,
+"sha1": "c2257308b46aa3148e6d506cfd82c36fa30cffff"
+},
+"EgoPro/2bb0222e-a5e8-4f0b-b49a-81aa87411149/tables/sensor_camera_head_right_intrinsic.csv": {
+"bytes": 51791,
+"crc32": 1008305122,
+"sha1": "b4a3c16f2ec1d6027a30c9062591a1513c233641"
+},
+"EgoPro/2bb0222e-a5e8-4f0b-b49a-81aa87411149/tables/sensor_camera_left_wrist_intrinsic.csv": {
+"bytes": 64823,
+"crc32": 3609946940,
+"sha1": "e7d516102441717bf9e571a061f566991040c6e9"
+},
+"EgoPro/2bb0222e-a5e8-4f0b-b49a-81aa87411149/tables/sensor_camera_right_wrist_intrinsic.csv": {
+"bytes": 65004,
+"crc32": 1988142055,
+"sha1": "aefe17b1de50b9e33bb21c2c4d8f3396910a0d0f"
+},
+"EgoPro/2bb0222e-a5e8-4f0b-b49a-81aa87411149/videos/head_left_frames.csv": {
+"bytes": 30625,
+"crc32": 1349995579,
+"sha1": "d7f00a8531da1f27a34c105d83c9c0083371f06f"
+},
+"EgoPro/2bb0222e-a5e8-4f0b-b49a-81aa87411149/videos/head_right_frames.csv": {
+"bytes": 30807,
+"crc32": 280116643,
+"sha1": "456f5245080d3eec8bf0350c49cd7b4f08fee628"
+},
+"EgoPro/2bb0222e-a5e8-4f0b-b49a-81aa87411149/videos/left_wrist_frames.csv": {
+"bytes": 30803,
+"crc32": 1652907066,
+"sha1": "f06cc0c5631bfa34abab6a7491fd701fe7cf4b2a"
+},
+"EgoPro/2bb0222e-a5e8-4f0b-b49a-81aa87411149/videos/right_wrist_frames.csv": {
+"bytes": 30984,
+"crc32": 1573297426,
+"sha1": "e67097734ef8d722ac8306eec16dede3ef60dbba"
+},
+"EgoPro/347600c2-2623-4180-aff6-538097e87ab7/session_metadata.csv": {
+"bytes": 3050,
+"crc32": 2934994867,
+"sha1": "e34958f7f306656e59b36feb55b5cc6de824a1e7"
+},
+"EgoPro/347600c2-2623-4180-aff6-538097e87ab7/tables/annotation_bad_frame_pose_hand.csv": {
+"bytes": 167001,
+"crc32": 3290214525,
+"sha1": "da48de68f7a3929c7cc4c102b52423d95dc7c048"
+},
+"EgoPro/347600c2-2623-4180-aff6-538097e87ab7/tables/annotation_semantic_segments.csv": {
+"bytes": 2087,
+"crc32": 4152322568,
+"sha1": "dc4162f72cbca9e2eed0efb6b72f75841647be0a"
+},
+"EgoPro/347600c2-2623-4180-aff6-538097e87ab7/tables/pose_head.csv": {
+"bytes": 379646,
+"crc32": 2433329225,
+"sha1": "dd86a8fe8afbc0de0e5c6b155e28bb6b06829eac"
+},
+"EgoPro/347600c2-2623-4180-aff6-538097e87ab7/tables/pose_headcam.csv": {
+"bytes": 393408,
+"crc32": 3980867853,
+"sha1": "ed16943dac819faa0e1ebca0b66085ab3bf10c22"
+},
+"EgoPro/347600c2-2623-4180-aff6-538097e87ab7/tables/pose_left_hand.csv": {
+"bytes": 5106701,
+"crc32": 1742735825,
+"sha1": "02171a9e940e36f74636cd381baf7be6f36c188f"
+},
+"EgoPro/347600c2-2623-4180-aff6-538097e87ab7/tables/pose_right_eye_cam.csv": {
+"bytes": 393517,
+"crc32": 4254825700,
+"sha1": "099b2a9bc3bf5ca361c38eb96627331d7b3fa913"
+},
+"EgoPro/347600c2-2623-4180-aff6-538097e87ab7/tables/pose_right_hand.csv": {
+"bytes": 5100875,
+"crc32": 2959656662,
+"sha1": "7768cb8e0edee7a52abf3f85bbea34a961dcf671"
+},
+"EgoPro/347600c2-2623-4180-aff6-538097e87ab7/tables/sensor_camera_head_left_extrinsic.csv": {
+"bytes": 433884,
+"crc32": 3991870783,
+"sha1": "be3caf35ec05a3f004a04a028db1be791314fba0"
+},
+"EgoPro/347600c2-2623-4180-aff6-538097e87ab7/tables/sensor_camera_head_left_intrinsic.csv": {
+"bytes": 486139,
+"crc32": 2194138939,
+"sha1": "b15f7a51096e38963d1bacdfa1b3789918b00ab2"
+},
+"EgoPro/347600c2-2623-4180-aff6-538097e87ab7/tables/sensor_camera_head_right_extrinsic.csv": {
+"bytes": 435521,
+"crc32": 1337546007,
+"sha1": "8320f570f7dd5ab707e8b73ab781bd9e7add0ed6"
+},
+"EgoPro/347600c2-2623-4180-aff6-538097e87ab7/tables/sensor_camera_head_right_intrinsic.csv": {
+"bytes": 487843,
+"crc32": 1693465864,
+"sha1": "2b56c48c8fdab99606ffa12ff5d9ba79ce440ec2"
+},
+"EgoPro/347600c2-2623-4180-aff6-538097e87ab7/tables/sensor_camera_left_wrist_intrinsic.csv": {
+"bytes": 610531,
+"crc32": 3424289183,
+"sha1": "ae44457e269c237b557cc341c7112dbf2538e428"
+},
+"EgoPro/347600c2-2623-4180-aff6-538097e87ab7/tables/sensor_camera_right_wrist_intrinsic.csv": {
+"bytes": 612235,
+"crc32": 485056829,
+"sha1": "1b4a136ae23bcccad55e590bea8043fe00a1b236"
+},
+"EgoPro/347600c2-2623-4180-aff6-538097e87ab7/videos/head_left_frames.csv": {
+"bytes": 290006,
+"crc32": 4154687906,
+"sha1": "2d8cff5f2050a1caf0baaf6100e00b1af82eaaa6"
+},
+"EgoPro/347600c2-2623-4180-aff6-538097e87ab7/videos/head_right_frames.csv": {
+"bytes": 291710,
+"crc32": 3867234150,
+"sha1": "e782f3fd2be9ec92710fbd862161e8ff289863a5"
+},
+"EgoPro/347600c2-2623-4180-aff6-538097e87ab7/videos/left_wrist_frames.csv": {
+"bytes": 291704,
+"crc32": 1761330995,
+"sha1": "88f7c34c678a7c24d14d3f8fae9676032265b22d"
+},
+"EgoPro/347600c2-2623-4180-aff6-538097e87ab7/videos/right_wrist_frames.csv": {
+"bytes": 293408,
+"crc32": 703833581,
+"sha1": "42d6147b0489c84152ff5d46f41807318fbc255a"
+},
+"EgoPro/3a3e6211-f2ef-44e0-aee9-bc98b8754234/session_metadata.csv": {
+"bytes": 3022,
+"crc32": 734227310,
+"sha1": "7deaaba3b73952c6cad9dce511de9d87eb86deef"
+},
+"EgoPro/3a3e6211-f2ef-44e0-aee9-bc98b8754234/tables/annotation_bad_frame_pose_hand.csv": {
+"bytes": 140950,
+"crc32": 2662937478,
+"sha1": "4d05fea8f0090bafb54310e6e7d1a1dd5e6f5e97"
+},
+"EgoPro/3a3e6211-f2ef-44e0-aee9-bc98b8754234/tables/annotation_semantic_segments.csv": {
+"bytes": 895,
+"crc32": 3755204335,
+"sha1": "0340f1afb46e2bebba192225d3eaaf78fe78a925"
+},
+"EgoPro/3a3e6211-f2ef-44e0-aee9-bc98b8754234/tables/pose_head.csv": {
+"bytes": 335705,
+"crc32": 3456319060,
+"sha1": "dbf6db8726efbdb213140ce8fbfbd24efe7f32ee"
+},
+"EgoPro/3a3e6211-f2ef-44e0-aee9-bc98b8754234/tables/pose_headcam.csv": {
+"bytes": 341570,
+"crc32": 3689005688,
+"sha1": "aa7d1e3c9bd056f60a9bd688ba91965ea0761832"
+},
+"EgoPro/3a3e6211-f2ef-44e0-aee9-bc98b8754234/tables/pose_left_hand.csv": {
+"bytes": 4533238,
+"crc32": 4056683120,
+"sha1": "7e06ae6d333d335f6817af490e589b6eb41a20a7"
+},
+"EgoPro/3a3e6211-f2ef-44e0-aee9-bc98b8754234/tables/pose_right_eye_cam.csv": {
+"bytes": 341525,
+"crc32": 2153394974,
+"sha1": "0162e0f5e0f0f78e84b843b4364f0a9fc8d57a55"
+},
+"EgoPro/3a3e6211-f2ef-44e0-aee9-bc98b8754234/tables/pose_right_hand.csv": {
+"bytes": 4545800,
+"crc32": 590343925,
+"sha1": "00c23b63930b59594cf461ad863c989caa0a260d"
+},
+"EgoPro/3a3e6211-f2ef-44e0-aee9-bc98b8754234/tables/sensor_camera_head_left_extrinsic.csv": {
+"bytes": 371420,
+"crc32": 299606898,
+"sha1": "506503007db2345e37ae9a14092dbe3ed01bc016"
+},
+"EgoPro/3a3e6211-f2ef-44e0-aee9-bc98b8754234/tables/sensor_camera_head_left_intrinsic.csv": {
+"bytes": 456480,
+"crc32": 1029360926,
+"sha1": "ddb84b534da6c741ccfb245a63559a7ee82db7d8"
+},
+"EgoPro/3a3e6211-f2ef-44e0-aee9-bc98b8754234/tables/sensor_camera_head_right_extrinsic.csv": {
+"bytes": 372818,
+"crc32": 4038026949,
+"sha1": "69e91067d371be4bb7415a1bbfd5621a6c579ac6"
+},
+"EgoPro/3a3e6211-f2ef-44e0-aee9-bc98b8754234/tables/sensor_camera_head_right_intrinsic.csv": {
+"bytes": 421911,
+"crc32": 2694402296,
+"sha1": "b916d2f730675aaa20ed3d4e4da22d65c4950dcf"
+},
+"EgoPro/3a3e6211-f2ef-44e0-aee9-bc98b8754234/tables/sensor_camera_left_wrist_intrinsic.csv": {
+"bytes": 527121,
+"crc32": 2873362538,
+"sha1": "fbd08d12eb5345d3dba868f88b45f16063ca852c"
+},
+"EgoPro/3a3e6211-f2ef-44e0-aee9-bc98b8754234/tables/sensor_camera_right_wrist_intrinsic.csv": {
+"bytes": 528624,
+"crc32": 1602652392,
+"sha1": "8d1a707da26274d8a43d69e45ac15090ae63745e"
+},
+"EgoPro/3a3e6211-f2ef-44e0-aee9-bc98b8754234/videos/head_left_frames.csv": {
+"bytes": 253271,
+"crc32": 810516311,
+"sha1": "34cb248f89fb35d1b378bcba3cdc7e9e49206126"
+},
+"EgoPro/3a3e6211-f2ef-44e0-aee9-bc98b8754234/videos/head_right_frames.csv": {
+"bytes": 254772,
+"crc32": 2302064133,
+"sha1": "d234a99e06423e55245d7741eb39aeeb2282bbaa"
+},
+"EgoPro/3a3e6211-f2ef-44e0-aee9-bc98b8754234/videos/left_wrist_frames.csv": {
+"bytes": 254784,
+"crc32": 1891490521,
+"sha1": "e8c976aa871f4256c8553d4b3f825c26da3a0f8a"
+},
+"EgoPro/3a3e6211-f2ef-44e0-aee9-bc98b8754234/videos/right_wrist_frames.csv": {
+"bytes": 256305,
+"crc32": 2609490124,
+"sha1": "d20bd3ef9226ae6c18186a8fe75cf974e0d3945e"
+},
+"EgoPro/478f3e70-4066-408b-93cf-831625320004/session_metadata.csv": {
+"bytes": 3104,
+"crc32": 587890224,
+"sha1": "f7b2ff0e07cfa9acdf409606a823ccf837928eb0"
+},
+"EgoPro/478f3e70-4066-408b-93cf-831625320004/tables/annotation_bad_frame_pose_hand.csv": {
+"bytes": 115671,
+"crc32": 4036850425,
+"sha1": "d890e96b8d096805035cf94030d01bec181f49ca"
+},
+"EgoPro/478f3e70-4066-408b-93cf-831625320004/tables/annotation_semantic_segments.csv": {
+"bytes": 1030,
+"crc32": 85853126,
+"sha1": "a37cfe4a7793416a1ed4644abaf281d2f41924db"
+},
+"EgoPro/478f3e70-4066-408b-93cf-831625320004/tables/pose_head.csv": {
+"bytes": 261219,
+"crc32": 1278103921,
+"sha1": "1847873226788180976771716ba8d8e69ac5e60e"
+},
+"EgoPro/478f3e70-4066-408b-93cf-831625320004/tables/pose_headcam.csv": {
+"bytes": 264609,
+"crc32": 2228383144,
+"sha1": "0e6fe13118fcf336867d5a08adcd2d720584fc7c"
+},
+"EgoPro/478f3e70-4066-408b-93cf-831625320004/tables/pose_left_hand.csv": {
+"bytes": 3452094,
+"crc32": 3093990691,
+"sha1": "f8177eeeaf845b0d89df16d7272bd672e07c3b4a"
+},
+"EgoPro/478f3e70-4066-408b-93cf-831625320004/tables/pose_right_eye_cam.csv": {
+"bytes": 264257,
+"crc32": 1949569511,
+"sha1": "984b32e148bc3f1c3a7d7dc24f2ef5ff5f346786"
+},
+"EgoPro/478f3e70-4066-408b-93cf-831625320004/tables/pose_right_hand.csv": {
+"bytes": 3418718,
+"crc32": 1463727369,
+"sha1": "f6daf0eb97c1af9978cb92accdf7e594b226906b"
+},
+"EgoPro/478f3e70-4066-408b-93cf-831625320004/tables/sensor_camera_head_left_extrinsic.csv": {
+"bytes": 292253,
+"crc32": 4240679483,
+"sha1": "a492d6346adb8f93cc2b5e07374a379c7ba78287"
+},
+"EgoPro/478f3e70-4066-408b-93cf-831625320004/tables/sensor_camera_head_left_intrinsic.csv": {
+"bytes": 331255,
+"crc32": 2814438867,
+"sha1": "a2ef35344f4ae1035d958e67dcfbdf386a9f8e63"
+},
+"EgoPro/478f3e70-4066-408b-93cf-831625320004/tables/sensor_camera_head_right_extrinsic.csv": {
+"bytes": 292973,
+"crc32": 2503446488,
+"sha1": "f2868cf27a35d80075fddab527a8e7426e6075dd"
+},
+"EgoPro/478f3e70-4066-408b-93cf-831625320004/tables/sensor_camera_head_right_intrinsic.csv": {
+"bytes": 332405,
+"crc32": 1424478630,
+"sha1": "736a288e5775aac7ae0c647b3bcd72a767431432"
+},
+"EgoPro/478f3e70-4066-408b-93cf-831625320004/tables/sensor_camera_left_wrist_intrinsic.csv": {
+"bytes": 415205,
+"crc32": 3969450279,
+"sha1": "260fe5f620be02dc50588a4af940e60f73195892"
+},
+"EgoPro/478f3e70-4066-408b-93cf-831625320004/tables/sensor_camera_right_wrist_intrinsic.csv": {
+"bytes": 416355,
+"crc32": 3721729734,
+"sha1": "ddb757971420ff338a1e77b6dbb3b3f2d3f4fdc0"
+},
+"EgoPro/478f3e70-4066-408b-93cf-831625320004/videos/head_left_frames.csv": {
+"bytes": 198832,
+"crc32": 2858479316,
+"sha1": "f61d3481f159700b199eb6866de9e407cf445ef1"
+},
+"EgoPro/478f3e70-4066-408b-93cf-831625320004/videos/head_right_frames.csv": {
+"bytes": 199982,
+"crc32": 270622920,
+"sha1": "5c6bd6e3b573b0d59bde73c8f51b8fa4ebc66107"
+},
+"EgoPro/478f3e70-4066-408b-93cf-831625320004/videos/left_wrist_frames.csv": {
+"bytes": 199982,
+"crc32": 3768549585,
+"sha1": "3b0cfac5f2ae53599a1850ea962c2597738b68ee"
+},
+"EgoPro/478f3e70-4066-408b-93cf-831625320004/videos/right_wrist_frames.csv": {
+"bytes": 201132,
+"crc32": 4150878146,
+"sha1": "237c51c492772af45250c74d19f64f287af571ec"
+},
+"EgoPro/7d112e74-5837-42af-93e9-8321fbd1237e/session_metadata.csv": {
+"bytes": 2979,
+"crc32": 3207534589,
+"sha1": "4896b959d160e65d524b0af811d399efba83fbe8"
+},
+"EgoPro/7d112e74-5837-42af-93e9-8321fbd1237e/tables/annotation_bad_frame_pose_hand.csv": {
+"bytes": 95014,
+"crc32": 2009742471,
+"sha1": "f40c139776fe99cf8b562b3c1cf1904853fccd07"
+},
+"EgoPro/7d112e74-5837-42af-93e9-8321fbd1237e/tables/annotation_semantic_segments.csv": {
+"bytes": 1103,
+"crc32": 2076147419,
+"sha1": "6d50d8f653309a9f382fff24d1d5b32d83db1874"
+},
+"EgoPro/7d112e74-5837-42af-93e9-8321fbd1237e/tables/pose_head.csv": {
+"bytes": 222450,
+"crc32": 1148874276,
+"sha1": "41013f3fa19e1da8c816ef54aebd7d009be73c77"
+},
+"EgoPro/7d112e74-5837-42af-93e9-8321fbd1237e/tables/pose_headcam.csv": {
+"bytes": 228126,
+"crc32": 577868356,
+"sha1": "6aa6f5c77b0f83a1c1f65dd0b1c5a95b7eb55020"
+},
+"EgoPro/7d112e74-5837-42af-93e9-8321fbd1237e/tables/pose_left_hand.csv": {
+"bytes": 3009509,
+"crc32": 35828261,
+"sha1": "b4b6ab98363e69c14339fcaa66e1af4737f334ba"
+},
+"EgoPro/7d112e74-5837-42af-93e9-8321fbd1237e/tables/pose_right_eye_cam.csv": {
+"bytes": 228033,
+"crc32": 1709994227,
+"sha1": "74ce7cc1c53603f5210272bc5b981e6617805ccc"
+},
+"EgoPro/7d112e74-5837-42af-93e9-8321fbd1237e/tables/pose_right_hand.csv": {
+"bytes": 2983531,
+"crc32": 3012579266,
+"sha1": "32d1926778c4e69ffe74449551de9ec4c6752340"
+},
+"EgoPro/7d112e74-5837-42af-93e9-8321fbd1237e/tables/sensor_camera_head_left_extrinsic.csv": {
+"bytes": 252419,
+"crc32": 199476962,
+"sha1": "168bc09751445bdcad3c7b857c9396792f8eec3c"
+},
+"EgoPro/7d112e74-5837-42af-93e9-8321fbd1237e/tables/sensor_camera_head_left_intrinsic.csv": {
+"bytes": 286053,
+"crc32": 1943711396,
+"sha1": "c296444eb3f0667f6918398897bdeba37eec2200"
+},
+"EgoPro/7d112e74-5837-42af-93e9-8321fbd1237e/tables/sensor_camera_head_right_extrinsic.csv": {
+"bytes": 253264,
+"crc32": 1911736692,
+"sha1": "b3db3957fd23b01143529bcbe420de841cbb0db6"
+},
+"EgoPro/7d112e74-5837-42af-93e9-8321fbd1237e/tables/sensor_camera_head_right_intrinsic.csv": {
+"bytes": 287057,
+"crc32": 1839927715,
+"sha1": "3013a6128823495f3ed21eef16c3b25c7277d1a3"
+},
+"EgoPro/7d112e74-5837-42af-93e9-8321fbd1237e/tables/sensor_camera_left_wrist_intrinsic.csv": {
+"bytes": 359345,
+"crc32": 2891287805,
+"sha1": "d07d0cd8fbbea3f2836354ed5ee047d5e5226dda"
+},
+"EgoPro/7d112e74-5837-42af-93e9-8321fbd1237e/tables/sensor_camera_right_wrist_intrinsic.csv": {
+"bytes": 358341,
+"crc32": 2903150917,
+"sha1": "68918b9bd71a85a4a9076bb39167b6c3ade518f8"
+},
+"EgoPro/7d112e74-5837-42af-93e9-8321fbd1237e/videos/head_left_frames.csv": {
+"bytes": 170420,
+"crc32": 32635801,
+"sha1": "d7f23f4007e7caf6f68f0fcb36bfddb776fcd50a"
+},
+"EgoPro/7d112e74-5837-42af-93e9-8321fbd1237e/videos/head_right_frames.csv": {
+"bytes": 171424,
+"crc32": 2206258577,
+"sha1": "15011a7fe2891fee68f49e7e8c089001e16cb314"
+},
+"EgoPro/7d112e74-5837-42af-93e9-8321fbd1237e/videos/left_wrist_frames.csv": {
+"bytes": 171424,
+"crc32": 2799135402,
+"sha1": "1f36dc6a87b85f4535cf3c9339e88e0a474ec795"
+},
+"EgoPro/7d112e74-5837-42af-93e9-8321fbd1237e/videos/right_wrist_frames.csv": {
+"bytes": 172428,
+"crc32": 1670656542,
+"sha1": "cc2a173a34400aa4a8aa75ee5021684e4b1b3601"
+},
+"EgoPro/83cee2e9-2153-4ac1-a042-f5500cecbb3f/session_metadata.csv": {
+"bytes": 3068,
+"crc32": 118750640,
+"sha1": "7ee00901a5d4c636e18778782b2b939beb9f1ad4"
+},
+"EgoPro/83cee2e9-2153-4ac1-a042-f5500cecbb3f/tables/annotation_bad_frame_pose_hand.csv": {
+"bytes": 158288,
+"crc32": 3496644439,
+"sha1": "417142948499999c3dd39a5413cc264db867f604"
+},
+"EgoPro/83cee2e9-2153-4ac1-a042-f5500cecbb3f/tables/annotation_semantic_segments.csv": {
+"bytes": 782,
+"crc32": 595623940,
+"sha1": "b28f594cc8b1561d5cc01123c6bd09f4d9724280"
+},
+"EgoPro/83cee2e9-2153-4ac1-a042-f5500cecbb3f/tables/pose_head.csv": {
+"bytes": 367515,
+"crc32": 916040189,
+"sha1": "45dfb32eebf778260746a10f313154c9d1605b74"
+},
+"EgoPro/83cee2e9-2153-4ac1-a042-f5500cecbb3f/tables/pose_headcam.csv": {
+"bytes": 375690,
+"crc32": 388120377,
+"sha1": "7ff8c3f9ec4ae48dcb9168cc395f2d040c98a36b"
+},
+"EgoPro/83cee2e9-2153-4ac1-a042-f5500cecbb3f/tables/pose_left_hand.csv": {
+"bytes": 4975504,
+"crc32": 1984812089,
+"sha1": "062d3748b84b63c9a9991d04998b361c4f6aab31"
+},
+"EgoPro/83cee2e9-2153-4ac1-a042-f5500cecbb3f/tables/pose_right_eye_cam.csv": {
+"bytes": 376391,
+"crc32": 3924687124,
+"sha1": "0822927cc281381c69e769756c1766bbc8944ac2"
+},
+"EgoPro/83cee2e9-2153-4ac1-a042-f5500cecbb3f/tables/pose_right_hand.csv": {
+"bytes": 4939058,
+"crc32": 3638420186,
+"sha1": "4c51f04589f717f14ed3c6e4a372395120f5c351"
+},
+"EgoPro/83cee2e9-2153-4ac1-a042-f5500cecbb3f/tables/sensor_camera_head_left_extrinsic.csv": {
+"bytes": 414840,
+"crc32": 688104305,
+"sha1": "65b5d40bcca09baec7691873690b29bae1efcf86"
+},
+"EgoPro/83cee2e9-2153-4ac1-a042-f5500cecbb3f/tables/sensor_camera_head_left_intrinsic.csv": {
+"bytes": 468089,
+"crc32": 2989752554,
+"sha1": "0777937c566b5a779f93b82342f3fc30c75a3473"
+},
+"EgoPro/83cee2e9-2153-4ac1-a042-f5500cecbb3f/tables/sensor_camera_head_right_extrinsic.csv": {
+"bytes": 417170,
+"crc32": 3977765396,
+"sha1": "e149518ac822490b0ef31895d8baebfa137d9a68"
+},
+"EgoPro/83cee2e9-2153-4ac1-a042-f5500cecbb3f/tables/sensor_camera_head_right_intrinsic.csv": {
+"bytes": 463139,
+"crc32": 827215917,
+"sha1": "8328293d350c46179ba8167513abbdcec0c4028c"
+},
+"EgoPro/83cee2e9-2153-4ac1-a042-f5500cecbb3f/tables/sensor_camera_left_wrist_intrinsic.csv": {
+"bytes": 585239,
+"crc32": 1596096657,
+"sha1": "09d36ef61740b57a547bfab08ba066f8c5153736"
+},
+"EgoPro/83cee2e9-2153-4ac1-a042-f5500cecbb3f/tables/sensor_camera_right_wrist_intrinsic.csv": {
+"bytes": 590189,
+"crc32": 3010953638,
+"sha1": "cab7c7ffbed1117cecd7178ac49a7b2fc24fb17d"
+},
+"EgoPro/83cee2e9-2153-4ac1-a042-f5500cecbb3f/videos/head_left_frames.csv": {
+"bytes": 278181,
+"crc32": 1634314540,
+"sha1": "537e3709a602f4c699b25b4ab2fdcb0fb72b8012"
+},
+"EgoPro/83cee2e9-2153-4ac1-a042-f5500cecbb3f/videos/head_right_frames.csv": {
+"bytes": 279836,
+"crc32": 3375610806,
+"sha1": "86ebe21f7bd18489e5b70de784d6e8c778468ab6"
+},
+"EgoPro/83cee2e9-2153-4ac1-a042-f5500cecbb3f/videos/left_wrist_frames.csv": {
+"bytes": 279821,
+"crc32": 1353392680,
+"sha1": "64f422302a28031f79faeb6c43059afaefc7a67c"
+},
+"EgoPro/83cee2e9-2153-4ac1-a042-f5500cecbb3f/videos/right_wrist_frames.csv": {
+"bytes": 281460,
+"crc32": 3842570507,
+"sha1": "2c4a0766cc2fb3f1c6408c7d9670cec0b8dbc723"
+},
+"EgoPro/a3a85c3e-79cd-4d76-a91c-a7405f4647c9/session_metadata.csv": {
+"bytes": 3022,
+"crc32": 1417497517,
+"sha1": "e9c747bb78af84e0f497effad824f7460f7b1140"
+},
+"EgoPro/a3a85c3e-79cd-4d76-a91c-a7405f4647c9/tables/annotation_bad_frame_pose_hand.csv": {
+"bytes": 135023,
+"crc32": 1809916573,
+"sha1": "2f6a35acbf01b7c22a745b0aedee0433042e1f52"
+},
+"EgoPro/a3a85c3e-79cd-4d76-a91c-a7405f4647c9/tables/annotation_semantic_segments.csv": {
+"bytes": 887,
+"crc32": 93409123,
+"sha1": "3afcb455338fa7da5cef710f09e178d4f8c9e495"
+},
+"EgoPro/a3a85c3e-79cd-4d76-a91c-a7405f4647c9/tables/pose_head.csv": {
+"bytes": 312801,
+"crc32": 3283305856,
+"sha1": "8052eca8a5d47b734e9517ec6b2c84c37588cf7d"
+},
+"EgoPro/a3a85c3e-79cd-4d76-a91c-a7405f4647c9/tables/pose_headcam.csv": {
+"bytes": 318539,
+"crc32": 3986519443,
+"sha1": "2609542806a3fcbda4df16f0f364a8eb736a67d4"
+},
+"EgoPro/a3a85c3e-79cd-4d76-a91c-a7405f4647c9/tables/pose_left_hand.csv": {
+"bytes": 4150522,
+"crc32": 2542285691,
+"sha1": "79eb0f90cf220b08fda1e614918207a46551b1f0"
+},
+"EgoPro/a3a85c3e-79cd-4d76-a91c-a7405f4647c9/tables/pose_right_eye_cam.csv": {
+"bytes": 318502,
+"crc32": 2226063480,
+"sha1": "4b95efeb5eeb919ad7459e1950c810b423d8cbac"
+},
+"EgoPro/a3a85c3e-79cd-4d76-a91c-a7405f4647c9/tables/pose_right_hand.csv": {
+"bytes": 4161050,
+"crc32": 2667217147,
+"sha1": "7c44604838ce4a6a0e104d6e30002d7680d41c5f"
+},
+"EgoPro/a3a85c3e-79cd-4d76-a91c-a7405f4647c9/tables/sensor_camera_head_left_extrinsic.csv": {
+"bytes": 351283,
+"crc32": 3228738880,
+"sha1": "f3f278cca439bd31752d331a63dcee620c5534c1"
+},
+"EgoPro/a3a85c3e-79cd-4d76-a91c-a7405f4647c9/tables/sensor_camera_head_left_intrinsic.csv": {
+"bytes": 428968,
+"crc32": 378601459,
+"sha1": "fce0b0e8b848f07b74f39e92d482a3f9bfd5cbac"
+},
+"EgoPro/a3a85c3e-79cd-4d76-a91c-a7405f4647c9/tables/sensor_camera_head_right_extrinsic.csv": {
+"bytes": 352629,
+"crc32": 3863697171,
+"sha1": "67061e92e1405628cbb6d1466851f1032de36ca7"
+},
+"EgoPro/a3a85c3e-79cd-4d76-a91c-a7405f4647c9/tables/sensor_camera_head_right_intrinsic.csv": {
+"bytes": 397366,
+"crc32": 4169772821,
+"sha1": "b35a0bdfc83b70fbf2a323b326d479739e6c39e1"
+},
+"EgoPro/a3a85c3e-79cd-4d76-a91c-a7405f4647c9/tables/sensor_camera_left_wrist_intrinsic.csv": {
+"bytes": 493546,
+"crc32": 3052400380,
+"sha1": "1c1a6d717aeae0410388d9dc32d975e58dd20b3a"
+},
+"EgoPro/a3a85c3e-79cd-4d76-a91c-a7405f4647c9/tables/sensor_camera_right_wrist_intrinsic.csv": {
+"bytes": 494920,
+"crc32": 715451954,
+"sha1": "6da64bea971c2ff134299be6252460eda24b1903"
+},
+"EgoPro/a3a85c3e-79cd-4d76-a91c-a7405f4647c9/videos/head_left_frames.csv": {
+"bytes": 237803,
+"crc32": 1677947771,
+"sha1": "8b4fe3be78c51fa75ab127cba0508baab6b69c95"
+},
+"EgoPro/a3a85c3e-79cd-4d76-a91c-a7405f4647c9/videos/head_right_frames.csv": {
+"bytes": 239170,
+"crc32": 216169071,
+"sha1": "310fa8a2be97e281dbcd346099cebe4cecd63d4e"
+},
+"EgoPro/a3a85c3e-79cd-4d76-a91c-a7405f4647c9/videos/left_wrist_frames.csv": {
+"bytes": 239183,
+"crc32": 3518207799,
+"sha1": "a860330510ade0898dc366560f6cb039615a6fcd"
+},
+"EgoPro/a3a85c3e-79cd-4d76-a91c-a7405f4647c9/videos/right_wrist_frames.csv": {
+"bytes": 240565,
+"crc32": 1563709778,
+"sha1": "a5f7b76a7c6d4f3bca7ed5345b66ee7672574d84"
+},
+"EgoPro/c6b52545-fbce-479d-8393-17bb8c5d0311/session_metadata.csv": {
+"bytes": 2979,
+"crc32": 4037990384,
+"sha1": "9b2e1aaa46dee88e1c605084f865235f34df7372"
+},
+"EgoPro/c6b52545-fbce-479d-8393-17bb8c5d0311/tables/annotation_bad_frame_pose_hand.csv": {
+"bytes": 94114,
+"crc32": 2980365334,
+"sha1": "f7d1bc3623801d4f8d11feb0cd09a50c83b8efe0"
+},
+"EgoPro/c6b52545-fbce-479d-8393-17bb8c5d0311/tables/annotation_semantic_segments.csv": {
+"bytes": 1135,
+"crc32": 3910180806,
+"sha1": "c10fd70d26511b33335570fa7576712680c44216"
+},
+"EgoPro/c6b52545-fbce-479d-8393-17bb8c5d0311/tables/pose_head.csv": {
+"bytes": 220438,
+"crc32": 2145974067,
+"sha1": "af0850cb4305107f6fe31bbecb057f600a68d2e8"
+},
+"EgoPro/c6b52545-fbce-479d-8393-17bb8c5d0311/tables/pose_headcam.csv": {
+"bytes": 225439,
+"crc32": 3241999694,
+"sha1": "0ff8225f75f7c772b0c84aadbe74358c66f2728c"
+},
+"EgoPro/c6b52545-fbce-479d-8393-17bb8c5d0311/tables/pose_left_hand.csv": {
+"bytes": 2988770,
+"crc32": 1786577763,
+"sha1": "61beaa90a2ce2d8744809e9f10dda2fe9d7a2ecb"
+},
+"EgoPro/c6b52545-fbce-479d-8393-17bb8c5d0311/tables/pose_right_eye_cam.csv": {
+"bytes": 225308,
+"crc32": 3431390609,
+"sha1": "30ea30fb2f6070c2f5ba10eaac32dc5014eaa8d5"
+},
+"EgoPro/c6b52545-fbce-479d-8393-17bb8c5d0311/tables/pose_right_hand.csv": {
+"bytes": 2956261,
+"crc32": 1164401535,
+"sha1": "0c58d91373f3fcc4b22cda00a20b97b132fb9d12"
+},
+"EgoPro/c6b52545-fbce-479d-8393-17bb8c5d0311/tables/sensor_camera_head_left_extrinsic.csv": {
+"bytes": 246627,
+"crc32": 4057171875,
+"sha1": "f96616b5d7229b42a6e17c6605f4571c416ac182"
+},
+"EgoPro/c6b52545-fbce-479d-8393-17bb8c5d0311/tables/sensor_camera_head_left_intrinsic.csv": {
+"bytes": 280525,
+"crc32": 2842933871,
+"sha1": "d0a9dee0f530f62815a47a9f3157cbc4aed5c76d"
+},
+"EgoPro/c6b52545-fbce-479d-8393-17bb8c5d0311/tables/sensor_camera_head_right_extrinsic.csv": {
+"bytes": 247402,
+"crc32": 439341411,
+"sha1": "d08a1dba632591d8f5d6138b45258b36d2ac0d6f"
+},
+"EgoPro/c6b52545-fbce-479d-8393-17bb8c5d0311/tables/sensor_camera_head_right_intrinsic.csv": {
+"bytes": 281520,
+"crc32": 2561028465,
+"sha1": "1d9c6632deba769d2427d1b79e6e47ff13b7b7b7"
+},
+"EgoPro/c6b52545-fbce-479d-8393-17bb8c5d0311/tables/sensor_camera_left_wrist_intrinsic.csv": {
+"bytes": 353160,
+"crc32": 2188781969,
+"sha1": "27a4afb466b80cbe7475e3ed34908647a5b3d083"
+},
+"EgoPro/c6b52545-fbce-479d-8393-17bb8c5d0311/tables/sensor_camera_right_wrist_intrinsic.csv": {
+"bytes": 352165,
+"crc32": 1226295200,
+"sha1": "920be0de4945cddd88898732ad52d94b472305f9"
+},
+"EgoPro/c6b52545-fbce-479d-8393-17bb8c5d0311/videos/head_left_frames.csv": {
+"bytes": 168849,
+"crc32": 2355333987,
+"sha1": "b836278056b46f681db2cd25036738c7dec416ad"
+},
+"EgoPro/c6b52545-fbce-479d-8393-17bb8c5d0311/videos/head_right_frames.csv": {
+"bytes": 169844,
+"crc32": 857162738,
+"sha1": "7c85115bfd9603851e27e035b514ab20b15e7e7c"
+},
+"EgoPro/c6b52545-fbce-479d-8393-17bb8c5d0311/videos/left_wrist_frames.csv": {
+"bytes": 169844,
+"crc32": 35388229,
+"sha1": "db115175e395b93c91e5c616011ed5163127e5f6"
+},
+"EgoPro/c6b52545-fbce-479d-8393-17bb8c5d0311/videos/right_wrist_frames.csv": {
+"bytes": 170839,
+"crc32": 1340720126,
+"sha1": "abe102fd1a61eb2a826cdf0390cb2578ce63f2f5"
+},
+"EgoPro/cc9d0407-3b74-4f82-92dc-a25c06eaf044/session_metadata.csv": {
+"bytes": 3033,
+"crc32": 2235378528,
+"sha1": "b5cff26b25c9076b274f80863cb92e7806ad1f20"
+},
+"EgoPro/cc9d0407-3b74-4f82-92dc-a25c06eaf044/tables/annotation_bad_frame_pose_hand.csv": {
+"bytes": 97868,
+"crc32": 3847919881,
+"sha1": "95e4ccb004091a0bf8ce8d173011325dc8bd03b4"
+},
+"EgoPro/cc9d0407-3b74-4f82-92dc-a25c06eaf044/tables/annotation_semantic_segments.csv": {
+"bytes": 2521,
+"crc32": 3430540953,
+"sha1": "13ae4048d0d608cbe9b84d6fafd1107d5559e4c8"
+},
+"EgoPro/cc9d0407-3b74-4f82-92dc-a25c06eaf044/tables/pose_head.csv": {
+"bytes": 224480,
+"crc32": 1367602549,
+"sha1": "e1191a346943a1da4d7fd2ea628a633a9f207a1f"
+},
+"EgoPro/cc9d0407-3b74-4f82-92dc-a25c06eaf044/tables/pose_headcam.csv": {
+"bytes": 229015,
+"crc32": 1280962413,
+"sha1": "8b02ddfde789fb9e364c8c4854fa90a26353c0f7"
+},
+"EgoPro/cc9d0407-3b74-4f82-92dc-a25c06eaf044/tables/pose_left_hand.csv": {
+"bytes": 3042432,
+"crc32": 1773193517,
+"sha1": "0216ed7856fde7cd04c771b9059b457b10f5fed0"
+},
+"EgoPro/cc9d0407-3b74-4f82-92dc-a25c06eaf044/tables/pose_right_eye_cam.csv": {
+"bytes": 229103,
+"crc32": 2299702780,
+"sha1": "da53ea507010591c0a109058bb054ec8280859d3"
+},
+"EgoPro/cc9d0407-3b74-4f82-92dc-a25c06eaf044/tables/pose_right_hand.csv": {
+"bytes": 3045601,
+"crc32": 723348020,
+"sha1": "fc8b2041bfdc4d1a4f3c501c3d55f4b611e6f30d"
+},
+"EgoPro/cc9d0407-3b74-4f82-92dc-a25c06eaf044/tables/sensor_camera_head_left_extrinsic.csv": {
+"bytes": 253680,
+"crc32": 1015682947,
+"sha1": "7b3d523ee4531c75bac326726c0acf0b95e3ecd1"
+},
+"EgoPro/cc9d0407-3b74-4f82-92dc-a25c06eaf044/tables/sensor_camera_head_left_intrinsic.csv": {
+"bytes": 289555,
+"crc32": 4290145752,
+"sha1": "4edb886cf213252202cc33c219bd859f8638a993"
+},
+"EgoPro/cc9d0407-3b74-4f82-92dc-a25c06eaf044/tables/sensor_camera_head_right_extrinsic.csv": {
+"bytes": 254801,
+"crc32": 2488954351,
+"sha1": "13408fc880164a3c0ef04b5d3dfb103895e24886"
+},
+"EgoPro/cc9d0407-3b74-4f82-92dc-a25c06eaf044/tables/sensor_camera_head_right_intrinsic.csv": {
+"bytes": 315105,
+"crc32": 1999826605,
+"sha1": "fc5a1bb3f620b912c0d06d0ad93953704a1ee51a"
+},
+"EgoPro/cc9d0407-3b74-4f82-92dc-a25c06eaf044/tables/sensor_camera_left_wrist_intrinsic.csv": {
+"bytes": 362117,
+"crc32": 80519698,
+"sha1": "7cecb82b052607659c16df35106304939d008efd"
+},
+"EgoPro/cc9d0407-3b74-4f82-92dc-a25c06eaf044/tables/sensor_camera_right_wrist_intrinsic.csv": {
+"bytes": 363139,
+"crc32": 1452431110,
+"sha1": "1ed7c4782e12b5a36232300cb256cc1ed00d6717"
+},
+"EgoPro/cc9d0407-3b74-4f82-92dc-a25c06eaf044/videos/head_left_frames.csv": {
+"bytes": 171853,
+"crc32": 460007635,
+"sha1": "0f271728f0a6cd8ca6a0d4b68e7f4ec484708d9f"
+},
+"EgoPro/cc9d0407-3b74-4f82-92dc-a25c06eaf044/videos/head_right_frames.csv": {
+"bytes": 172877,
+"crc32": 142797933,
+"sha1": "dc5a0f232c33122306194e755912fe3d6159523c"
+},
+"EgoPro/cc9d0407-3b74-4f82-92dc-a25c06eaf044/videos/left_wrist_frames.csv": {
+"bytes": 172874,
+"crc32": 1307136502,
+"sha1": "10e0c28cd6bc349a2033a77eb0b931bb4aeb3090"
+},
+"EgoPro/cc9d0407-3b74-4f82-92dc-a25c06eaf044/videos/right_wrist_frames.csv": {
+"bytes": 173896,
+"crc32": 1263563708,
+"sha1": "b9e6c6f9d628fd8025bd07567c8d5122bff71bf6"
+},
+"EgoPro/d58db8d6-2869-4d26-9217-9e0a0bfe4923/session_metadata.csv": {
+"bytes": 3076,
+"crc32": 1061359201,
+"sha1": "3b78664a16b1598f8e63cc0f4e9b7acc757b8c6e"
+},
+"EgoPro/d58db8d6-2869-4d26-9217-9e0a0bfe4923/tables/annotation_bad_frame_pose_hand.csv": {
+"bytes": 143969,
+"crc32": 3594592290,
+"sha1": "264de4c40f494a538a88b22b9ba619f9f06294da"
+},
+"EgoPro/d58db8d6-2869-4d26-9217-9e0a0bfe4923/tables/annotation_semantic_segments.csv": {
+"bytes": 3189,
+"crc32": 1461368106,
+"sha1": "6a60504af2872ab335233dfb77153f833567dfd4"
+},
+"EgoPro/d58db8d6-2869-4d26-9217-9e0a0bfe4923/tables/pose_head.csv": {
+"bytes": 332661,
+"crc32": 3226280499,
+"sha1": "be092fc62867d276d5b7ff05f2ba42f9dd8f9bea"
+},
+"EgoPro/d58db8d6-2869-4d26-9217-9e0a0bfe4923/tables/pose_headcam.csv": {
+"bytes": 340465,
+"crc32": 674561633,
+"sha1": "c94e72ecd697f5c6eb8d1aa4de15715e0bb86af8"
+},
+"EgoPro/d58db8d6-2869-4d26-9217-9e0a0bfe4923/tables/pose_left_hand.csv": {
+"bytes": 4471249,
+"crc32": 435265953,
+"sha1": "14965675a6c8430bb62a8d4e5a6e8bae6c97b460"
+},
+"EgoPro/d58db8d6-2869-4d26-9217-9e0a0bfe4923/tables/pose_right_eye_cam.csv": {
+"bytes": 341142,
+"crc32": 1455984069,
+"sha1": "8c3aa82467899539224a77166f55529c55f0c2bc"
+},
+"EgoPro/d58db8d6-2869-4d26-9217-9e0a0bfe4923/tables/pose_right_hand.csv": {
+"bytes": 4453127,
+"crc32": 1074894874,
+"sha1": "da016d3ad71a437733bccdfe5c52ddeac594f32b"
+},
+"EgoPro/d58db8d6-2869-4d26-9217-9e0a0bfe4923/tables/sensor_camera_head_left_extrinsic.csv": {
+"bytes": 375922,
+"crc32": 2415657323,
+"sha1": "9724699927c2a1fbf962f5539932f1a48353cf52"
+},
+"EgoPro/d58db8d6-2869-4d26-9217-9e0a0bfe4923/tables/sensor_camera_head_left_intrinsic.csv": {
+"bytes": 424106,
+"crc32": 1741475719,
+"sha1": "1317069c9d66f020056debc5ca5ef1bac38dc803"
+},
+"EgoPro/d58db8d6-2869-4d26-9217-9e0a0bfe4923/tables/sensor_camera_head_right_extrinsic.csv": {
+"bytes": 377991,
+"crc32": 4248495423,
+"sha1": "ba764a7155f4089478f3b2159c9e1af677008bde"
+},
+"EgoPro/d58db8d6-2869-4d26-9217-9e0a0bfe4923/tables/sensor_camera_head_right_intrinsic.csv": {
+"bytes": 419645,
+"crc32": 406504488,
+"sha1": "ddc8012ad48352fa10961af5727fbcf011e38487"
+},
+"EgoPro/d58db8d6-2869-4d26-9217-9e0a0bfe4923/tables/sensor_camera_left_wrist_intrinsic.csv": {
+"bytes": 529683,
+"crc32": 3269977011,
+"sha1": "a1efd04c7e5200cac806d816e899b01214489969"
+},
+"EgoPro/d58db8d6-2869-4d26-9217-9e0a0bfe4923/tables/sensor_camera_right_wrist_intrinsic.csv": {
+"bytes": 534144,
+"crc32": 659938987,
+"sha1": "a74e918a865e8f465309f68882776da947cb292e"
+},
+"EgoPro/d58db8d6-2869-4d26-9217-9e0a0bfe4923/videos/head_left_frames.csv": {
+"bytes": 252950,
+"crc32": 3200878300,
+"sha1": "4d5cf991083d9bdd8ea6a21916375862fc4012ae"
+},
+"EgoPro/d58db8d6-2869-4d26-9217-9e0a0bfe4923/videos/head_right_frames.csv": {
+"bytes": 254445,
+"crc32": 3460283165,
+"sha1": "6ad0df0762de30261c7c6fb07b9b88a2532620d9"
+},
+"EgoPro/d58db8d6-2869-4d26-9217-9e0a0bfe4923/videos/left_wrist_frames.csv": {
+"bytes": 254430,
+"crc32": 223820350,
+"sha1": "570d40c6f124e81bd0841eb07854be25af260566"
+},
+"EgoPro/d58db8d6-2869-4d26-9217-9e0a0bfe4923/videos/right_wrist_frames.csv": {
+"bytes": 255905,
+"crc32": 3854128607,
+"sha1": "79966ddd4e7ae273a831afd56d809c2c0723295d"
+},
+"EgoPro/e1b42dfc-841c-400e-9beb-10bd19f17a22/session_metadata.csv": {
+"bytes": 3007,
+"crc32": 4200445686,
+"sha1": "e9a2a35bb689df122a1d527840f922cb8fb89ba2"
+},
+"EgoPro/e1b42dfc-841c-400e-9beb-10bd19f17a22/tables/annotation_bad_frame_pose_hand.csv": {
+"bytes": 143033,
+"crc32": 1991171713,
+"sha1": "27d4d3effe01f527a723c7a46ebe7a475a74182c"
+},
+"EgoPro/e1b42dfc-841c-400e-9beb-10bd19f17a22/tables/annotation_semantic_segments.csv": {
+"bytes": 2044,
+"crc32": 1654186868,
+"sha1": "2412b0fad0ecc6672a539481092929240e17c23e"
+},
+"EgoPro/e1b42dfc-841c-400e-9beb-10bd19f17a22/tables/pose_head.csv": {
+"bytes": 327889,
+"crc32": 1986680437,
+"sha1": "23732e5df3e56933f77ec8e3588ad0c632d56730"
+},
+"EgoPro/e1b42dfc-841c-400e-9beb-10bd19f17a22/tables/pose_headcam.csv": {
+"bytes": 334467,
+"crc32": 2523642296,
+"sha1": "426c2e7d25e712fc0cc1da1dbbbc1f85cb6ffb4b"
+},
+"EgoPro/e1b42dfc-841c-400e-9beb-10bd19f17a22/tables/pose_left_hand.csv": {
+"bytes": 4407003,
+"crc32": 3642554854,
+"sha1": "86b1f277f39fde9ff9b7ef588852adc9a96954fd"
+},
+"EgoPro/e1b42dfc-841c-400e-9beb-10bd19f17a22/tables/pose_right_eye_cam.csv": {
+"bytes": 334444,
+"crc32": 3889345162,
+"sha1": "d62b11a4a78449dd428ac803c090e941074b5511"
+},
+"EgoPro/e1b42dfc-841c-400e-9beb-10bd19f17a22/tables/pose_right_hand.csv": {
+"bytes": 4373772,
+"crc32": 3410927511,
+"sha1": "42c68e8a67d844c4b658b19cbba7789a78393650"
+},
+"EgoPro/e1b42dfc-841c-400e-9beb-10bd19f17a22/tables/sensor_camera_head_left_extrinsic.csv": {
+"bytes": 369890,
+"crc32": 2231096370,
+"sha1": "3a831495e73aa308d8953a3575bf060abef0d64e"
+},
+"EgoPro/e1b42dfc-841c-400e-9beb-10bd19f17a22/tables/sensor_camera_head_left_intrinsic.csv": {
+"bytes": 420331,
+"crc32": 2710297495,
+"sha1": "85ee3185e1c337e7f5d5eb177b46491fdbcfcca8"
+},
+"EgoPro/e1b42dfc-841c-400e-9beb-10bd19f17a22/tables/sensor_camera_head_right_extrinsic.csv": {
+"bytes": 371240,
+"crc32": 3252113459,
+"sha1": "661fc1da279fd420a0803f89bb0e905045e13ecd"
+},
+"EgoPro/e1b42dfc-841c-400e-9beb-10bd19f17a22/tables/sensor_camera_head_right_intrinsic.csv": {
+"bytes": 457381,
+"crc32": 117846319,
+"sha1": "df5a8dd5eb1ce8d224bd0176ac7e7c9cf8243767"
+},
+"EgoPro/e1b42dfc-841c-400e-9beb-10bd19f17a22/tables/sensor_camera_left_wrist_intrinsic.csv": {
+"bytes": 528517,
+"crc32": 3123040184,
+"sha1": "2bfe9ddb4909fa15fad169ae747fd3f7b88d6783"
+},
+"EgoPro/e1b42dfc-841c-400e-9beb-10bd19f17a22/tables/sensor_camera_right_wrist_intrinsic.csv": {
+"bytes": 529999,
+"crc32": 498333384,
+"sha1": "18161480e00f8383f90d10f048ec9069a3de9cb2"
+},
+"EgoPro/e1b42dfc-841c-400e-9beb-10bd19f17a22/videos/head_left_frames.csv": {
+"bytes": 249728,
+"crc32": 3167894275,
+"sha1": "ef1b9c6c9fe9908d30696b5f94333be6a7fbb21e"
+},
+"EgoPro/e1b42dfc-841c-400e-9beb-10bd19f17a22/videos/head_right_frames.csv": {
+"bytes": 251210,
+"crc32": 1786017948,
+"sha1": "0ab6ed4252c4b550723f40f20f9c525f03663576"
+},
+"EgoPro/e1b42dfc-841c-400e-9beb-10bd19f17a22/videos/left_wrist_frames.csv": {
+"bytes": 251187,
+"crc32": 3271095283,
+"sha1": "a32500a649debad6afcd79e1f7bbcaa01958ad4f"
+},
+"EgoPro/e1b42dfc-841c-400e-9beb-10bd19f17a22/videos/right_wrist_frames.csv": {
+"bytes": 252669,
+"crc32": 3820061102,
+"sha1": "5cb947d4dfb6f16ce160d6ed65aec17f3cda4dbe"
+},
+"EgoPro/efac6caf-deab-461b-b839-96423abff9b9/session_metadata.csv": {
+"bytes": 3015,
+"crc32": 2656095262,
+"sha1": "cc79058c7d131b871b8c7731de47d69b3a581f55"
+},
+"EgoPro/efac6caf-deab-461b-b839-96423abff9b9/tables/annotation_bad_frame_pose_hand.csv": {
+"bytes": 143750,
+"crc32": 1860565521,
+"sha1": "c8c94921fa1e40ec3c2eee0d4204eaad2c0ef629"
+},
+"EgoPro/efac6caf-deab-461b-b839-96423abff9b9/tables/annotation_semantic_segments.csv": {
+"bytes": 1552,
+"crc32": 1645742420,
+"sha1": "ccf9cb5d7933b8ce2ca2bb3fc610d36ac619bec8"
+},
+"EgoPro/efac6caf-deab-461b-b839-96423abff9b9/tables/pose_head.csv": {
+"bytes": 325702,
+"crc32": 3423064250,
+"sha1": "d87852ef01cb230e85530493ca915402781cec17"
+},
+"EgoPro/efac6caf-deab-461b-b839-96423abff9b9/tables/pose_headcam.csv": {
+"bytes": 331857,
+"crc32": 2202908747,
+"sha1": "b33322acc1d0bb5d8e8981dafc501d5663de6510"
+},
+"EgoPro/efac6caf-deab-461b-b839-96423abff9b9/tables/pose_left_hand.csv": {
+"bytes": 4291587,
+"crc32": 2253272025,
+"sha1": "15aa85bf2254ef861c7f09a9e26b2c2b728f2c65"
+},
+"EgoPro/efac6caf-deab-461b-b839-96423abff9b9/tables/pose_right_eye_cam.csv": {
+"bytes": 331841,
+"crc32": 3373267630,
+"sha1": "383056978a15fb01975f8e217629245f466dddf8"
+},
+"EgoPro/efac6caf-deab-461b-b839-96423abff9b9/tables/pose_right_hand.csv": {
+"bytes": 4257001,
+"crc32": 238791382,
+"sha1": "546d37aa4bc578f186a99afab6e0ce836d615a27"
+},
+"EgoPro/efac6caf-deab-461b-b839-96423abff9b9/tables/sensor_camera_head_left_extrinsic.csv": {
+"bytes": 366233,
+"crc32": 3678829811,
+"sha1": "96004892f2d0cb6fa40b3af7e02ab00695050f43"
+},
+"EgoPro/efac6caf-deab-461b-b839-96423abff9b9/tables/sensor_camera_head_left_intrinsic.csv": {
+"bytes": 415644,
+"crc32": 4051910534,
+"sha1": "fdbcf30d2e1e28b0d769a6a83c815f8e8543abc9"
+},
+"EgoPro/efac6caf-deab-461b-b839-96423abff9b9/tables/sensor_camera_head_right_extrinsic.csv": {
+"bytes": 367576,
+"crc32": 2724536861,
+"sha1": "639e608d26dae8f44bc497110faaf4fb64882462"
+},
+"EgoPro/efac6caf-deab-461b-b839-96423abff9b9/tables/sensor_camera_head_right_intrinsic.csv": {
+"bytes": 451694,
+"crc32": 4094191338,
+"sha1": "47c659d823e19663d39d821c790a6b30a078a627"
+},
+"EgoPro/efac6caf-deab-461b-b839-96423abff9b9/tables/sensor_camera_left_wrist_intrinsic.csv": {
+"bytes": 520910,
+"crc32": 2163637085,
+"sha1": "cca115531d6570d074d102474fb8f8ad6952c49a"
+},
+"EgoPro/efac6caf-deab-461b-b839-96423abff9b9/tables/sensor_camera_right_wrist_intrinsic.csv": {
+"bytes": 522352,
+"crc32": 856660132,
+"sha1": "f456204808a1a0b2186028bc291d1bb6a6ffc4ef"
+},
+"EgoPro/efac6caf-deab-461b-b839-96423abff9b9/videos/head_left_frames.csv": {
+"bytes": 249641,
+"crc32": 171692372,
+"sha1": "72d38083d004959662dab89861637170afd6964a"
+},
+"EgoPro/efac6caf-deab-461b-b839-96423abff9b9/videos/head_right_frames.csv": {
+"bytes": 251083,
+"crc32": 1370812028,
+"sha1": "0c0d64e24ba3f89364ab54e9795f19436f46baf0"
+},
+"EgoPro/efac6caf-deab-461b-b839-96423abff9b9/videos/left_wrist_frames.csv": {
+"bytes": 251069,
+"crc32": 3485451347,
+"sha1": "85ac4e6b2fbcd0c761ba597a73fb8aeb5afcaeb2"
+},
+"EgoPro/efac6caf-deab-461b-b839-96423abff9b9/videos/right_wrist_frames.csv": {
+"bytes": 252511,
+"crc32": 3437243572,
+"sha1": "2e78e2e200c06711338e9415b14cbe676d3413da"
+},
+"EgoPro/fdbb7805-04f7-46c0-ae1e-1b454accd7a8/session_metadata.csv": {
+"bytes": 2995,
+"crc32": 204488641,
+"sha1": "bb3a760dad8a67a4952e442d44cec42cda3f9096"
+},
+"EgoPro/fdbb7805-04f7-46c0-ae1e-1b454accd7a8/tables/annotation_bad_frame_pose_hand.csv": {
+"bytes": 17471,
+"crc32": 832388761,
+"sha1": "61add4a2ed069e8fd58fe02c948605e0929f41ea"
+},
+"EgoPro/fdbb7805-04f7-46c0-ae1e-1b454accd7a8/tables/annotation_semantic_segments.csv": {
+"bytes": 1304,
+"crc32": 3655048076,
+"sha1": "ed247c19ecf54ed441c74232cfdc0b15820470e7"
+},
+"EgoPro/fdbb7805-04f7-46c0-ae1e-1b454accd7a8/tables/pose_head.csv": {
+"bytes": 42527,
+"crc32": 1068241125,
+"sha1": "6a5983803098a1dcedb03597fd9c4e8e8585cf23"
+},
+"EgoPro/fdbb7805-04f7-46c0-ae1e-1b454accd7a8/tables/pose_headcam.csv": {
+"bytes": 43449,
+"crc32": 2037864451,
+"sha1": "8e7bb622150bef017abf66aabb0cf3bf34ae32a0"
+},
+"EgoPro/fdbb7805-04f7-46c0-ae1e-1b454accd7a8/tables/pose_left_hand.csv": {
+"bytes": 578522,
+"crc32": 3545254034,
+"sha1": "ce66a0ff5efa01f2f7112725a3276e04aa2a76cd"
+},
+"EgoPro/fdbb7805-04f7-46c0-ae1e-1b454accd7a8/tables/pose_right_eye_cam.csv": {
+"bytes": 43559,
+"crc32": 463642738,
+"sha1": "f88aa62a89e690fc7ec0c726e32261cb9d8db02b"
+},
+"EgoPro/fdbb7805-04f7-46c0-ae1e-1b454accd7a8/tables/pose_right_hand.csv": {
+"bytes": 579268,
+"crc32": 857223812,
+"sha1": "1718e14c2c52188f95eb4cf894adfda99bd9c724"
+},
+"EgoPro/fdbb7805-04f7-46c0-ae1e-1b454accd7a8/tables/sensor_camera_head_left_extrinsic.csv": {
+"bytes": 48185,
+"crc32": 802535675,
+"sha1": "37ef3425363f5d26a1512e221ec739359ddb5360"
+},
+"EgoPro/fdbb7805-04f7-46c0-ae1e-1b454accd7a8/tables/sensor_camera_head_left_intrinsic.csv": {
+"bytes": 58414,
+"crc32": 2123134291,
+"sha1": "6c51e3db304997ae640ece381112b40d8ee36fdd"
+},
+"EgoPro/fdbb7805-04f7-46c0-ae1e-1b454accd7a8/tables/sensor_camera_head_right_extrinsic.csv": {
+"bytes": 48500,
+"crc32": 4294456730,
+"sha1": "fba9575b5df687f85d59b941048dc7c63c7f4be7"
+},
+"EgoPro/fdbb7805-04f7-46c0-ae1e-1b454accd7a8/tables/sensor_camera_head_right_intrinsic.csv": {
+"bytes": 54044,
+"crc32": 4051936245,
+"sha1": "ae2cacfc74098f859a05ad11c645e8df92f80f75"
+},
+"EgoPro/fdbb7805-04f7-46c0-ae1e-1b454accd7a8/tables/sensor_camera_left_wrist_intrinsic.csv": {
+"bytes": 67724,
+"crc32": 169207109,
+"sha1": "4718a592d8b7ed56ce04bc634f999b4a147f1fe5"
+},
+"EgoPro/fdbb7805-04f7-46c0-ae1e-1b454accd7a8/tables/sensor_camera_right_wrist_intrinsic.csv": {
+"bytes": 67914,
+"crc32": 1003818249,
+"sha1": "35cc0c510f38cc03fd7e15f921fe040ea9eb864f"
+},
+"EgoPro/fdbb7805-04f7-46c0-ae1e-1b454accd7a8/videos/head_left_frames.csv": {
+"bytes": 31835,
+"crc32": 838452746,
+"sha1": "ec94f3fc8f5f8b2515a3859df27ad1d4933c7956"
+},
+"EgoPro/fdbb7805-04f7-46c0-ae1e-1b454accd7a8/videos/head_right_frames.csv": {
+"bytes": 32025,
+"crc32": 3270054868,
+"sha1": "93f95712198a89809a633cb235a24742e9075a23"
+},
+"EgoPro/fdbb7805-04f7-46c0-ae1e-1b454accd7a8/videos/left_wrist_frames.csv": {
+"bytes": 32021,
+"crc32": 2305446795,
+"sha1": "1f4f06c5cba5096934a31b30dce260d9e4cbbc9b"
+},
+"EgoPro/fdbb7805-04f7-46c0-ae1e-1b454accd7a8/videos/right_wrist_frames.csv": {
+"bytes": 32211,
+"crc32": 160370451,
+"sha1": "4325e04e7b208a2b64b6c75fad89953bdb8c8f01"
+},
+"EgoStandard/01e98c50-1164-448f-a7ff-b722d7a1c19b/session_metadata.csv": {
+"bytes": 2236,
+"crc32": 2316678569,
+"sha1": "603f28af335467a6c62682c07c1a2da23ff2384a"
+},
+"EgoStandard/01e98c50-1164-448f-a7ff-b722d7a1c19b/tables/annotation_bad_frame_pose_hand.csv": {
+"bytes": 49655,
+"crc32": 2806783245,
+"sha1": "a9245efdf675f01df89b050e35c39361b104f39a"
+},
+"EgoStandard/01e98c50-1164-448f-a7ff-b722d7a1c19b/tables/annotation_semantic_segments.csv": {
+"bytes": 1606,
+"crc32": 3075242764,
+"sha1": "71ddd1c5b5b6a9f207776e492dc2434d6d801bcc"
+},
+"EgoStandard/01e98c50-1164-448f-a7ff-b722d7a1c19b/tables/pose_head.csv": {
+"bytes": 117747,
+"crc32": 434347691,
+"sha1": "b5d3162966e4bd13e707910c8e627122ce525d49"
+},
+"EgoStandard/01e98c50-1164-448f-a7ff-b722d7a1c19b/tables/pose_headcam.csv": {
+"bytes": 120825,
+"crc32": 4069006616,
+"sha1": "ba2d53f6e3a8f4682645a63c275a191e306d4daa"
+},
+"EgoStandard/01e98c50-1164-448f-a7ff-b722d7a1c19b/tables/pose_left_hand.csv": {
+"bytes": 1592130,
+"crc32": 988715076,
+"sha1": "72f5eea95b42ab799ae9d56fd878315d9781cdd3"
+},
+"EgoStandard/01e98c50-1164-448f-a7ff-b722d7a1c19b/tables/pose_right_eye_cam.csv": {
+"bytes": 120872,
+"crc32": 1704815206,
+"sha1": "0e376d1b80bd9b33de8f0c1b94c9c15b7b9d7722"
+},
+"EgoStandard/01e98c50-1164-448f-a7ff-b722d7a1c19b/tables/pose_right_hand.csv": {
+"bytes": 1593810,
+"crc32": 3965883873,
+"sha1": "d6d3f5abf7578aabd06c347d3fcc3373ca67583f"
+},
+"EgoStandard/01e98c50-1164-448f-a7ff-b722d7a1c19b/tables/sensor_camera_head_left_extrinsic.csv": {
+"bytes": 131692,
+"crc32": 854536993,
+"sha1": "6e33ca03f3d7b6a872cd9a3bf38beecdc02073ef"
+},
+"EgoStandard/01e98c50-1164-448f-a7ff-b722d7a1c19b/tables/sensor_camera_head_left_intrinsic.csv": {
+"bytes": 147497,
+"crc32": 4262281934,
+"sha1": "d4cd1e956d861257b27405b05826d0efc24fbf40"
+},
+"EgoStandard/01e98c50-1164-448f-a7ff-b722d7a1c19b/tables/sensor_camera_head_right_extrinsic.csv": {
+"bytes": 132288,
+"crc32": 4139734781,
+"sha1": "15513a3b3f2b5a3a26885e30dbad8ec5aba3cb62"
+},
+"EgoStandard/01e98c50-1164-448f-a7ff-b722d7a1c19b/tables/sensor_camera_head_right_intrinsic.csv": {
+"bytes": 148025,
+"crc32": 1438163501,
+"sha1": "9099e49da14d0f74c0c481d2be52456a6f8a8fdf"
+},
+"EgoStandard/01e98c50-1164-448f-a7ff-b722d7a1c19b/videos/head_left_frames.csv": {
+"bytes": 88663,
+"crc32": 3991023695,
+"sha1": "02aa78514cbbaa0b8819dc2f4a9c07bcf5ae30a8"
+},
+"EgoStandard/01e98c50-1164-448f-a7ff-b722d7a1c19b/videos/head_right_frames.csv": {
+"bytes": 89195,
+"crc32": 4115424748,
+"sha1": "0df44af8f6339217b3c893e79f97df42b997598a"
+},
+"EgoStandard/03a51a05-58f0-4937-8f05-e0b697c7c5fd/session_metadata.csv": {
+"bytes": 2241,
+"crc32": 3736558484,
+"sha1": "187958804bab282a1c4a672badea414b08381ad5"
+},
+"EgoStandard/03a51a05-58f0-4937-8f05-e0b697c7c5fd/tables/annotation_bad_frame_pose_hand.csv": {
+"bytes": 22270,
+"crc32": 3647666861,
+"sha1": "fecb177aee4c1b64ad1055f7c968d2ee2a7a3c98"
+},
+"EgoStandard/03a51a05-58f0-4937-8f05-e0b697c7c5fd/tables/annotation_semantic_segments.csv": {
+"bytes": 1011,
+"crc32": 2022098588,
+"sha1": "0cf24106214adce3cf444e1258252df00573208f"
+},
+"EgoStandard/03a51a05-58f0-4937-8f05-e0b697c7c5fd/tables/pose_head.csv": {
+"bytes": 54071,
+"crc32": 3089600983,
+"sha1": "92dc4f91a568ed817132fe68e45eccb15c250a23"
+},
+"EgoStandard/03a51a05-58f0-4937-8f05-e0b697c7c5fd/tables/pose_headcam.csv": {
+"bytes": 54934,
+"crc32": 879954569,
+"sha1": "c4b2052cf2b955a5d5fbaa707a0779f175698335"
+},
+"EgoStandard/03a51a05-58f0-4937-8f05-e0b697c7c5fd/tables/pose_left_hand.csv": {
+"bytes": 730559,
+"crc32": 4219791221,
+"sha1": "6dafa5da4dead15c564d532bdb18fcc3bf2194dc"
+},
+"EgoStandard/03a51a05-58f0-4937-8f05-e0b697c7c5fd/tables/pose_right_eye_cam.csv": {
+"bytes": 54843,
+"crc32": 2620869584,
+"sha1": "99cfee20e2d7b953049b2b773ec566e106795ff3"
+},
+"EgoStandard/03a51a05-58f0-4937-8f05-e0b697c7c5fd/tables/pose_right_hand.csv": {
+"bytes": 721018,
+"crc32": 2154550899,
+"sha1": "cae6a6336e3b9a5f3faa7a7bb5780b1a6757790a"
+},
+"EgoStandard/03a51a05-58f0-4937-8f05-e0b697c7c5fd/tables/sensor_camera_head_left_extrinsic.csv": {
+"bytes": 59955,
+"crc32": 449142968,
+"sha1": "981a15efd60371f4e879f2c2ade48a31c01f7d76"
+},
+"EgoStandard/03a51a05-58f0-4937-8f05-e0b697c7c5fd/tables/sensor_camera_head_left_intrinsic.csv": {
+"bytes": 67579,
+"crc32": 417249351,
+"sha1": "220dddfc46b02fb47591c32cc90a4ce95141cfd3"
+},
+"EgoStandard/03a51a05-58f0-4937-8f05-e0b697c7c5fd/tables/sensor_camera_head_right_extrinsic.csv": {
+"bytes": 60107,
+"crc32": 1907507583,
+"sha1": "367a1a7b3295f7a0226c9b9f804819b5115448fe"
+},
+"EgoStandard/03a51a05-58f0-4937-8f05-e0b697c7c5fd/tables/sensor_camera_head_right_intrinsic.csv": {
+"bytes": 67821,
+"crc32": 3004320283,
+"sha1": "4b1e6c0450f672e80b8f9499ff4b1f47bce27e87"
+},
+"EgoStandard/03a51a05-58f0-4937-8f05-e0b697c7c5fd/videos/head_left_frames.csv": {
+"bytes": 40538,
+"crc32": 85245650,
+"sha1": "da1df5dd76474278081e98020ac84200cd6cbf0d"
+},
+"EgoStandard/03a51a05-58f0-4937-8f05-e0b697c7c5fd/videos/head_right_frames.csv": {
+"bytes": 40780,
+"crc32": 3150551549,
+"sha1": "4961dec119643f9b5671672bb9f69e0a575afeb9"
+},
+"EgoStandard/045c1e70-ab63-404a-94ef-735e68c8fd6a/session_metadata.csv": {
+"bytes": 2234,
+"crc32": 4025916635,
+"sha1": "cf4ec9bcb6a5654567470120cff3da868b234162"
+},
+"EgoStandard/045c1e70-ab63-404a-94ef-735e68c8fd6a/tables/annotation_bad_frame_pose_hand.csv": {
+"bytes": 32803,
+"crc32": 4177250858,
+"sha1": "cec2f749cc3b5a30d0a02484cf68258534f304d4"
+},
+"EgoStandard/045c1e70-ab63-404a-94ef-735e68c8fd6a/tables/annotation_semantic_segments.csv": {
+"bytes": 997,
+"crc32": 1373661687,
+"sha1": "2fcef6867fe5b15587d73a285c88dc5cef2fd3b5"
+},
+"EgoStandard/045c1e70-ab63-404a-94ef-735e68c8fd6a/tables/pose_head.csv": {
+"bytes": 75862,
+"crc32": 2593698149,
+"sha1": "3d81139f3bce82464a6d7b3600a127318662f383"
+},
+"EgoStandard/045c1e70-ab63-404a-94ef-735e68c8fd6a/tables/pose_headcam.csv": {
+"bytes": 77112,
+"crc32": 893227060,
+"sha1": "43e0f4c8042291adc511fb1f0865abdd921215c5"
+},
+"EgoStandard/045c1e70-ab63-404a-94ef-735e68c8fd6a/tables/pose_left_hand.csv": {
+"bytes": 1012563,
+"crc32": 3836402902,
+"sha1": "4f4559423b37fc8dc2b3c3a7c7952475a76fe296"
+},
+"EgoStandard/045c1e70-ab63-404a-94ef-735e68c8fd6a/tables/pose_right_eye_cam.csv": {
+"bytes": 77111,
+"crc32": 949289619,
+"sha1": "a093a6043b87bcf7e2afc10965bc9c8ba90887ef"
+},
+"EgoStandard/045c1e70-ab63-404a-94ef-735e68c8fd6a/tables/pose_right_hand.csv": {
+"bytes": 1001692,
+"crc32": 1354039909,
+"sha1": "8957fb9950b04c6092f80c390738e9bc98513a49"
+},
+"EgoStandard/045c1e70-ab63-404a-94ef-735e68c8fd6a/tables/sensor_camera_head_left_extrinsic.csv": {
+"bytes": 85343,
+"crc32": 1784262482,
+"sha1": "96a5aeb504c6cf96df3bb03fe1ee30787bfa7487"
+},
+"EgoStandard/045c1e70-ab63-404a-94ef-735e68c8fd6a/tables/sensor_camera_head_left_intrinsic.csv": {
+"bytes": 96098,
+"crc32": 1419940060,
+"sha1": "5c76d312b1b4c57058c1816cecb0f03d75248b63"
+},
+"EgoStandard/045c1e70-ab63-404a-94ef-735e68c8fd6a/tables/sensor_camera_head_right_extrinsic.csv": {
+"bytes": 85733,
+"crc32": 3904381158,
+"sha1": "de24c11eae8dbe9bd3b2a1e6979b5ae227529849"
+},
+"EgoStandard/045c1e70-ab63-404a-94ef-735e68c8fd6a/tables/sensor_camera_head_right_intrinsic.csv": {
+"bytes": 96432,
+"crc32": 2612861777,
+"sha1": "b6b4ea32f1fa17cfa0be862115671849e33f4848"
+},
+"EgoStandard/045c1e70-ab63-404a-94ef-735e68c8fd6a/videos/head_left_frames.csv": {
+"bytes": 57522,
+"crc32": 1747052856,
+"sha1": "250ccc7b3fbf3e49cad8d2716d23d2d8b06e4095"
+},
+"EgoStandard/045c1e70-ab63-404a-94ef-735e68c8fd6a/videos/head_right_frames.csv": {
+"bytes": 57856,
+"crc32": 3932140819,
+"sha1": "0ef9cb54012147d506d0e16dec839bdfe394f404"
+},
+"EgoStandard/06a855ba-c079-46f7-b2a4-3a0ad1c72e90/session_metadata.csv": {
+"bytes": 2232,
+"crc32": 4054451168,
+"sha1": "496d552302346638ef9059a038e6b4e900c2461e"
+},
+"EgoStandard/06a855ba-c079-46f7-b2a4-3a0ad1c72e90/tables/annotation_bad_frame_pose_hand.csv": {
+"bytes": 37353,
+"crc32": 444133251,
+"sha1": "aeb007078c49c46f59bf6f606cb002c0dcb52642"
+},
+"EgoStandard/06a855ba-c079-46f7-b2a4-3a0ad1c72e90/tables/annotation_semantic_segments.csv": {
+"bytes": 1414,
+"crc32": 622484858,
+"sha1": "3e979080752a814b46a925ccc537cc2765b68e2c"
+},
+"EgoStandard/06a855ba-c079-46f7-b2a4-3a0ad1c72e90/tables/pose_head.csv": {
+"bytes": 87513,
+"crc32": 3079880946,
+"sha1": "63629d16b2de11ca034751edbc609e77e646a093"
+},
+"EgoStandard/06a855ba-c079-46f7-b2a4-3a0ad1c72e90/tables/pose_headcam.csv": {
+"bytes": 88161,
+"crc32": 2388605372,
+"sha1": "936344bb368cd596531f5e8ad36084d21abea047"
+},
+"EgoStandard/06a855ba-c079-46f7-b2a4-3a0ad1c72e90/tables/pose_left_hand.csv": {
+"bytes": 1150065,
+"crc32": 2534722697,
+"sha1": "b4cdc3a49ec21edddd14a202df983dd034266fbe"
+},
+"EgoStandard/06a855ba-c079-46f7-b2a4-3a0ad1c72e90/tables/pose_right_eye_cam.csv": {
+"bytes": 88074,
+"crc32": 1738838367,
+"sha1": "0c726db45f45b434e9af0e4ab4b743aaa93dd6c1"
+},
+"EgoStandard/06a855ba-c079-46f7-b2a4-3a0ad1c72e90/tables/pose_right_hand.csv": {
+"bytes": 1146597,
+"crc32": 1081406452,
+"sha1": "7e96fb2f5316842a257d9928158f27909391b1fa"
+},
+"EgoStandard/06a855ba-c079-46f7-b2a4-3a0ad1c72e90/tables/sensor_camera_head_left_extrinsic.csv": {
+"bytes": 97573,
+"crc32": 2136474816,
+"sha1": "d88b64209e5f75fbaf7772175e2b2373782a2e74"
+},
+"EgoStandard/06a855ba-c079-46f7-b2a4-3a0ad1c72e90/tables/sensor_camera_head_left_intrinsic.csv": {
+"bytes": 110786,
+"crc32": 2225392505,
+"sha1": "d050c2c8a5e09df487d7a838e0719dc6731515c5"
+},
+"EgoStandard/06a855ba-c079-46f7-b2a4-3a0ad1c72e90/tables/sensor_camera_head_right_extrinsic.csv": {
+"bytes": 97908,
+"crc32": 2005498327,
+"sha1": "cf2bcd4158a1601dc3dbfb73c2d6d7700bea16dd"
+},
+"EgoStandard/06a855ba-c079-46f7-b2a4-3a0ad1c72e90/tables/sensor_camera_head_right_intrinsic.csv": {
+"bytes": 111171,
+"crc32": 2322567934,
+"sha1": "88292c5078dfeb6da7e2c6ba19a9b77b31fef078"
+},
+"EgoStandard/06a855ba-c079-46f7-b2a4-3a0ad1c72e90/videos/head_left_frames.csv": {
+"bytes": 66344,
+"crc32": 1667189485,
+"sha1": "b531a6ef2b00d51d6ec80fb0470b30ff2c99fc63"
+},
+"EgoStandard/06a855ba-c079-46f7-b2a4-3a0ad1c72e90/videos/head_right_frames.csv": {
+"bytes": 66732,
+"crc32": 1014183620,
+"sha1": "637c79f23d739a916060c697fa0437185e5cab4a"
+},
+"EgoStandard/0793b27b-acf5-40f2-8b19-cda2f3d868d1/session_metadata.csv": {
+"bytes": 2253,
+"crc32": 3892190389,
+"sha1": "5da6e9732ca4f8777b3d17934e4b6f27ec005dc9"
+},
+"EgoStandard/0793b27b-acf5-40f2-8b19-cda2f3d868d1/tables/annotation_bad_frame_pose_hand.csv": {
+"bytes": 29707,
+"crc32": 4127034554,
+"sha1": "4e1c1f26a08c2bcec396890994dbb99d8b13b672"
+},
+"EgoStandard/0793b27b-acf5-40f2-8b19-cda2f3d868d1/tables/annotation_semantic_segments.csv": {
+"bytes": 1033,
+"crc32": 1742981262,
+"sha1": "224519b88f8f475122cb4885a60d640d19f4e722"
+},
+"EgoStandard/0793b27b-acf5-40f2-8b19-cda2f3d868d1/tables/pose_head.csv": {
+"bytes": 71284,
+"crc32": 1662111782,
+"sha1": "fdfbe51f51ad6f0f70956df0beee74a067203ba0"
+},
+"EgoStandard/0793b27b-acf5-40f2-8b19-cda2f3d868d1/tables/pose_headcam.csv": {
+"bytes": 72023,
+"crc32": 2779938006,
+"sha1": "d4c1c02529da3fe504d0bfe058fe6f9dd88c80d2"
+},
+"EgoStandard/0793b27b-acf5-40f2-8b19-cda2f3d868d1/tables/pose_left_hand.csv": {
+"bytes": 955673,
+"crc32": 3731854261,
+"sha1": "3a6096f9bd1deceb0e4092c0b979d179552d0427"
+},
+"EgoStandard/0793b27b-acf5-40f2-8b19-cda2f3d868d1/tables/pose_right_eye_cam.csv": {
+"bytes": 72171,
+"crc32": 2178760330,
+"sha1": "cc206e5019a28a1668f4adb3bbe00b9534b7a4d7"
+},
+"EgoStandard/0793b27b-acf5-40f2-8b19-cda2f3d868d1/tables/pose_right_hand.csv": {
+"bytes": 951396,
+"crc32": 1714568096,
+"sha1": "1434692b68136e38877617f2e9c791b1bc1fcc44"
+},
+"EgoStandard/0793b27b-acf5-40f2-8b19-cda2f3d868d1/tables/sensor_camera_head_left_extrinsic.csv": {
+"bytes": 79838,
+"crc32": 2715724462,
+"sha1": "06d8baa9dc3cb1c49586ca17f7a13bdb702c1ffa"
+},
+"EgoStandard/0793b27b-acf5-40f2-8b19-cda2f3d868d1/tables/sensor_camera_head_left_intrinsic.csv": {
+"bytes": 90020,
+"crc32": 2948194051,
+"sha1": "088c70aebce3e0d7d7d2332eed89cfe57684e685"
+},
+"EgoStandard/0793b27b-acf5-40f2-8b19-cda2f3d868d1/tables/sensor_camera_head_right_extrinsic.csv": {
+"bytes": 80357,
+"crc32": 1444727749,
+"sha1": "125803c80f126dac77ec8a8621394eca5ec501a1"
+},
+"EgoStandard/0793b27b-acf5-40f2-8b19-cda2f3d868d1/tables/sensor_camera_head_right_intrinsic.csv": {
+"bytes": 90338,
+"crc32": 198908684,
+"sha1": "325915849c4180586f7ae66bf255350e9e52c78e"
+},
+"EgoStandard/0793b27b-acf5-40f2-8b19-cda2f3d868d1/videos/head_left_frames.csv": {
+"bytes": 53288,
+"crc32": 1358045448,
+"sha1": "f1722ede57c8e436a55de10a1a6ca8b951229f53"
+},
+"EgoStandard/0793b27b-acf5-40f2-8b19-cda2f3d868d1/videos/head_right_frames.csv": {
+"bytes": 53606,
+"crc32": 522287455,
+"sha1": "0a891ec46533cd5458bbb6e45e0ad34598a2e329"
+},
+"EgoStandard/09101133-d656-4ce4-921b-3cc6f5a5bcb1/session_metadata.csv": {
+"bytes": 2244,
+"crc32": 113088161,
+"sha1": "895649eefe60dce434f565b03f9021a197330cfb"
+},
+"EgoStandard/09101133-d656-4ce4-921b-3cc6f5a5bcb1/tables/annotation_bad_frame_pose_hand.csv": {
+"bytes": 20239,
+"crc32": 2992214090,
+"sha1": "8a129e63c662c901d61ead701c2c36fe0f707db3"
+},
+"EgoStandard/09101133-d656-4ce4-921b-3cc6f5a5bcb1/tables/annotation_semantic_segments.csv": {
+"bytes": 628,
+"crc32": 1388208040,
+"sha1": "b0e03ac4527403c970eab84c3820382743877879"
+},
+"EgoStandard/09101133-d656-4ce4-921b-3cc6f5a5bcb1/tables/pose_head.csv": {
+"bytes": 47804,
+"crc32": 618962513,
+"sha1": "2ff27cc7bb505c4b85ddd4c81353b6f2d54e99a2"
+},
+"EgoStandard/09101133-d656-4ce4-921b-3cc6f5a5bcb1/tables/pose_headcam.csv": {
+"bytes": 48735,
+"crc32": 2710707873,
+"sha1": "68e563276bd511af61a75b45d1a8056cb6651a8d"
+},
+"EgoStandard/09101133-d656-4ce4-921b-3cc6f5a5bcb1/tables/pose_left_hand.csv": {
+"bytes": 659374,
+"crc32": 828967972,
+"sha1": "f7968527976dbba68326da38a4967a8fdc42fb15"
+},
+"EgoStandard/09101133-d656-4ce4-921b-3cc6f5a5bcb1/tables/pose_right_eye_cam.csv": {
+"bytes": 48820,
+"crc32": 3263827009,
+"sha1": "f4fa1ed33124930c185def205ed1b10b661f4255"
+},
+"EgoStandard/09101133-d656-4ce4-921b-3cc6f5a5bcb1/tables/pose_right_hand.csv": {
+"bytes": 649574,
+"crc32": 1156328565,
+"sha1": "b8e6d15f50ab4e11bce08bd4e2fd0bfc1798e590"
+},
+"EgoStandard/09101133-d656-4ce4-921b-3cc6f5a5bcb1/tables/sensor_camera_head_left_extrinsic.csv": {
+"bytes": 53441,
+"crc32": 2976659564,
+"sha1": "b9122c7b58d6903ae5429863acac322ac395a34c"
+},
+"EgoStandard/09101133-d656-4ce4-921b-3cc6f5a5bcb1/tables/sensor_camera_head_left_intrinsic.csv": {
+"bytes": 61455,
+"crc32": 3103679009,
+"sha1": "94bfd8f358dabf4f3060158274b08a92417d032d"
+},
+"EgoStandard/09101133-d656-4ce4-921b-3cc6f5a5bcb1/tables/sensor_camera_head_right_extrinsic.csv": {
+"bytes": 53603,
+"crc32": 131098859,
+"sha1": "0cfdb8c542b5a95e413abe0c27d4bac8ddacbb65"
+},
+"EgoStandard/09101133-d656-4ce4-921b-3cc6f5a5bcb1/tables/sensor_camera_head_right_intrinsic.csv": {
+"bytes": 61675,
+"crc32": 1050885181,
+"sha1": "3a508ad9b6c9b44a694513c465aa56f6a0fba698"
+},
+"EgoStandard/09101133-d656-4ce4-921b-3cc6f5a5bcb1/videos/head_left_frames.csv": {
+"bytes": 36857,
+"crc32": 714521756,
+"sha1": "c763452f9cda88bd0a003f6b71a342fc378c0e9f"
+},
+"EgoStandard/09101133-d656-4ce4-921b-3cc6f5a5bcb1/videos/head_right_frames.csv": {
+"bytes": 37082,
+"crc32": 9630067,
+"sha1": "c34cc1bda583142a74bdbbbf539e5cfe7e832659"
+},
+"EgoStandard/0fd872a6-6e35-436d-a317-12fc025d5b38/session_metadata.csv": {
+"bytes": 2241,
+"crc32": 777353588,
+"sha1": "48e5f158eae84242253b1980c7452f7aea8c7d9a"
+},
+"EgoStandard/0fd872a6-6e35-436d-a317-12fc025d5b38/tables/annotation_bad_frame_pose_hand.csv": {
+"bytes": 29205,
+"crc32": 3142100907,
+"sha1": "e37cd3180243e78daf76bf7577c22bc14f814a8f"
+},
+"EgoStandard/0fd872a6-6e35-436d-a317-12fc025d5b38/tables/annotation_semantic_segments.csv": {
+"bytes": 1239,
+"crc32": 3814044342,
+"sha1": "17ae9a05c5627132c50546cdc7adef961c7504cf"
+},
+"EgoStandard/0fd872a6-6e35-436d-a317-12fc025d5b38/tables/pose_head.csv": {
+"bytes": 70089,
+"crc32": 3986327360,
+"sha1": "e21152e5ac5639ca4aea294d4d934f46be9cd012"
+},
+"EgoStandard/0fd872a6-6e35-436d-a317-12fc025d5b38/tables/pose_headcam.csv": {
+"bytes": 72362,
+"crc32": 228785482,
+"sha1": "a990ac7eafb77ee61733155f1291102f3367f2f2"
+},
+"EgoStandard/0fd872a6-6e35-436d-a317-12fc025d5b38/tables/pose_left_hand.csv": {
+"bytes": 968651,
+"crc32": 362604937,
+"sha1": "52a57874ca65895d42a608ffd37b31eb8ddd1cf8"
+},
+"EgoStandard/0fd872a6-6e35-436d-a317-12fc025d5b38/tables/pose_right_eye_cam.csv": {
+"bytes": 72171,
+"crc32": 3638758515,
+"sha1": "af9552cd7ebf0adc8334acb7653d46174538c00d"
+},
+"EgoStandard/0fd872a6-6e35-436d-a317-12fc025d5b38/tables/pose_right_hand.csv": {
+"bytes": 952901,
+"crc32": 3793593352,
+"sha1": "b0702dbae1e45f955dffa73e6f52b3597e7f78cf"
+},
+"EgoStandard/0fd872a6-6e35-436d-a317-12fc025d5b38/tables/sensor_camera_head_left_extrinsic.csv": {
+"bytes": 78451,
+"crc32": 2846130515,
+"sha1": "eaceaf4608f2a544f67a1f3916fa0c28fc429d78"
+},
+"EgoStandard/0fd872a6-6e35-436d-a317-12fc025d5b38/tables/sensor_camera_head_left_intrinsic.csv": {
+"bytes": 89324,
+"crc32": 337412766,
+"sha1": "bd6ceb8f4f3aa31edf5c2c169cec1367972df940"
+},
+"EgoStandard/0fd872a6-6e35-436d-a317-12fc025d5b38/tables/sensor_camera_head_right_extrinsic.csv": {
+"bytes": 78532,
+"crc32": 3699804145,
+"sha1": "b990fe1297cefe7d9b2f61d9e021583e09c34749"
+},
+"EgoStandard/0fd872a6-6e35-436d-a317-12fc025d5b38/tables/sensor_camera_head_right_intrinsic.csv": {
+"bytes": 89649,
+"crc32": 1768040512,
+"sha1": "4a0a7e3041a99cfea88e9dd69cc98c31d3ad334a"
+},
+"EgoStandard/0fd872a6-6e35-436d-a317-12fc025d5b38/videos/head_left_frames.csv": {
+"bytes": 53710,
+"crc32": 1587318534,
+"sha1": "c3d419d569c957ff7ced13ae2fa0aaf90726bd7b"
+},
+"EgoStandard/0fd872a6-6e35-436d-a317-12fc025d5b38/videos/head_right_frames.csv": {
+"bytes": 54037,
+"crc32": 320357725,
+"sha1": "f8f02e5ce61cd2984821aa1f0f6b13cbfd0ae46f"
+},
+"EgoStandard/11b6fab6-0b4a-45b7-9180-61d2dde0ec92/session_metadata.csv": {
+"bytes": 2218,
+"crc32": 1095328673,
+"sha1": "417d74b6e403b39d2297a4e6384188b5f72094a3"
+},
+"EgoStandard/11b6fab6-0b4a-45b7-9180-61d2dde0ec92/tables/annotation_bad_frame_pose_hand.csv": {
+"bytes": 51205,
+"crc32": 2854573701,
+"sha1": "933e486600aa3f09b8035955ebc5fdfe8a0f3c45"
+},
+"EgoStandard/11b6fab6-0b4a-45b7-9180-61d2dde0ec92/tables/annotation_semantic_segments.csv": {
+"bytes": 1785,
+"crc32": 2822660524,
+"sha1": "23094fdd5ded9422c1ec471509af48e23ab2966c"
+},
+"EgoStandard/11b6fab6-0b4a-45b7-9180-61d2dde0ec92/tables/pose_head.csv": {
+"bytes": 117962,
+"crc32": 491708009,
+"sha1": "e50a4e110798384694a263c0001131500b8ccc79"
+},
+"EgoStandard/11b6fab6-0b4a-45b7-9180-61d2dde0ec92/tables/pose_headcam.csv": {
+"bytes": 120510,
+"crc32": 3717504958,
+"sha1": "4c2826ac3a31c7e546b20a1f36de8d993e17243f"
+},
+"EgoStandard/11b6fab6-0b4a-45b7-9180-61d2dde0ec92/tables/pose_left_hand.csv": {
+"bytes": 1603384,
+"crc32": 481163288,
+"sha1": "9d5a93c4078a8c7cf50a4472f8ab574a4dc16e59"
+},
+"EgoStandard/11b6fab6-0b4a-45b7-9180-61d2dde0ec92/tables/pose_right_eye_cam.csv": {
+"bytes": 120197,
+"crc32": 559668399,
+"sha1": "71dbcd3095e7264f6a7820c8f462d91e75139fa1"
+},
+"EgoStandard/11b6fab6-0b4a-45b7-9180-61d2dde0ec92/tables/pose_right_hand.csv": {
+"bytes": 1600012,
+"crc32": 895715319,
+"sha1": "cd433dae525a35b2011d2e9144081a0e45862fb2"
+},
+"EgoStandard/11b6fab6-0b4a-45b7-9180-61d2dde0ec92/tables/sensor_camera_head_left_extrinsic.csv": {
+"bytes": 133496,
+"crc32": 2690284050,
+"sha1": "f9e8a3d9abf78d71d49592f86496b9cc2f9b76da"
+},
+"EgoStandard/11b6fab6-0b4a-45b7-9180-61d2dde0ec92/tables/sensor_camera_head_left_intrinsic.csv": {
+"bytes": 150961,
+"crc32": 3730431624,
+"sha1": "567ad6e05c11c2c7eee88e122a3f03e6d0c68843"
+},
+"EgoStandard/11b6fab6-0b4a-45b7-9180-61d2dde0ec92/tables/sensor_camera_head_right_extrinsic.csv": {
+"bytes": 133678,
+"crc32": 2027213511,
+"sha1": "fe922fd1446103546a0018ca092e660d0f12f6dd"
+},
+"EgoStandard/11b6fab6-0b4a-45b7-9180-61d2dde0ec92/tables/sensor_camera_head_right_intrinsic.csv": {
+"bytes": 151494,
+"crc32": 927220446,
+"sha1": "8d6187af491715c383148ca62aba01b13cefc5f9"
+},
+"EgoStandard/11b6fab6-0b4a-45b7-9180-61d2dde0ec92/videos/head_left_frames.csv": {
+"bytes": 89501,
+"crc32": 961826823,
+"sha1": "7a2fb277992dff16f988c5a8538911a8b5643b3a"
+},
+"EgoStandard/11b6fab6-0b4a-45b7-9180-61d2dde0ec92/videos/head_right_frames.csv": {
+"bytes": 90036,
+"crc32": 3639085925,
+"sha1": "cdd057c8694fb5a31a84955763c4d1e71ee87883"
+},
+"EgoStandard/16827d3f-6d3c-40e5-aeea-451e008e1247/session_metadata.csv": {
+"bytes": 2253,
+"crc32": 3356695853,
+"sha1": "be0910147b28634b4d64a636e235d248d565b461"
+},
+"EgoStandard/16827d3f-6d3c-40e5-aeea-451e008e1247/tables/annotation_bad_frame_pose_hand.csv": {
+"bytes": 29967,
+"crc32": 1398911867,
+"sha1": "10526ea772fd8775769b9f391e7e240fe8d4f9fa"
+},
+"EgoStandard/16827d3f-6d3c-40e5-aeea-451e008e1247/tables/annotation_semantic_segments.csv": {
+"bytes": 1038,
+"crc32": 2957455705,
+"sha1": "282deb48ce845f8343e733200929ed5755a4a3b6"
+},
+"EgoStandard/16827d3f-6d3c-40e5-aeea-451e008e1247/tables/pose_head.csv": {
+"bytes": 71930,
+"crc32": 1982377580,
+"sha1": "7d176626b71eba8f72fd66cca5f158ffd99957d4"
+},
+"EgoStandard/16827d3f-6d3c-40e5-aeea-451e008e1247/tables/pose_headcam.csv": {
+"bytes": 73647,
+"crc32": 2020354614,
+"sha1": "211ac3ffcf94ee745b1f1f37f975677755e55117"
+},
+"EgoStandard/16827d3f-6d3c-40e5-aeea-451e008e1247/tables/pose_left_hand.csv": {
+"bytes": 972742,
+"crc32": 141073039,
+"sha1": "9e764704d2a7998761438eaa1072dc733ca2bb5b"
+},
+"EgoStandard/16827d3f-6d3c-40e5-aeea-451e008e1247/tables/pose_right_eye_cam.csv": {
+"bytes": 73546,
+"crc32": 2012376240,
+"sha1": "75e98c2badedeaa2c8ceb74dfa0c5f6ed7d5272e"
+},
+"EgoStandard/16827d3f-6d3c-40e5-aeea-451e008e1247/tables/pose_right_hand.csv": {
+"bytes": 965004,
+"crc32": 544742216,
+"sha1": "3d6c553b3e1a5f05ca937eb5eb8e15ec9d7d1dd6"
+},
+"EgoStandard/16827d3f-6d3c-40e5-aeea-451e008e1247/tables/sensor_camera_head_left_extrinsic.csv": {
+"bytes": 80391,
+"crc32": 4005634650,
+"sha1": "e463597361045550264530cf9092d3534e144ff7"
+},
+"EgoStandard/16827d3f-6d3c-40e5-aeea-451e008e1247/tables/sensor_camera_head_left_intrinsic.csv": {
+"bytes": 90725,
+"crc32": 3987307490,
+"sha1": "224f9cb85fd5b413d1c2f584c98ea830e027da36"
+},
+"EgoStandard/16827d3f-6d3c-40e5-aeea-451e008e1247/tables/sensor_camera_head_right_extrinsic.csv": {
+"bytes": 80626,
+"crc32": 3025172779,
+"sha1": "9b2dbbebb3707ea31bcdd0b47b70aefa735f6697"
+},
+"EgoStandard/16827d3f-6d3c-40e5-aeea-451e008e1247/tables/sensor_camera_head_right_intrinsic.csv": {
+"bytes": 91050,
+"crc32": 907008068,
+"sha1": "b1be3a5f19a7cfb41e016a79947acd8425470a8a"
+},
+"EgoStandard/16827d3f-6d3c-40e5-aeea-451e008e1247/videos/head_left_frames.csv": {
+"bytes": 54461,
+"crc32": 2676835222,
+"sha1": "2deea8b5249894d1b68cf83be4fa074a667c39a4"
+},
+"EgoStandard/16827d3f-6d3c-40e5-aeea-451e008e1247/videos/head_right_frames.csv": {
+"bytes": 54789,
+"crc32": 3886951330,
+"sha1": "9e40e4a1139b2828ea521237f7565732accea4c6"
+},
+"EgoStandard/1a4aed15-de7a-4444-a87c-87d6195d7388/session_metadata.csv": {
+"bytes": 2234,
+"crc32": 1382555520,
+"sha1": "61acb364f3ab4d212b7d34033b8ee3f702451332"
+},
+"EgoStandard/1a4aed15-de7a-4444-a87c-87d6195d7388/tables/annotation_bad_frame_pose_hand.csv": {
+"bytes": 32580,
+"crc32": 2993752575,
+"sha1": "11812c73b954bd52353e34e4ba0515146f947829"
+},
+"EgoStandard/1a4aed15-de7a-4444-a87c-87d6195d7388/tables/annotation_semantic_segments.csv": {
+"bytes": 1304,
+"crc32": 3512601636,
+"sha1": "dd62ad385744958dfd80b9526aa29f275567edc8"
+},
+"EgoStandard/1a4aed15-de7a-4444-a87c-87d6195d7388/tables/pose_head.csv": {
+"bytes": 78665,
+"crc32": 1269010084,
+"sha1": "c2909abc2dfe262f367400e4ad5aef306c562241"
+},
+"EgoStandard/1a4aed15-de7a-4444-a87c-87d6195d7388/tables/pose_headcam.csv": {
+"bytes": 80510,
+"crc32": 3145396133,
+"sha1": "3dba269f5e8e209d7913840b3906675f2b3af53f"
+},
+"EgoStandard/1a4aed15-de7a-4444-a87c-87d6195d7388/tables/pose_left_hand.csv": {
+"bytes": 1066517,
+"crc32": 2614573904,
+"sha1": "42a5db7f2c9ac49dd9f980672a5ddf41c8c548eb"
+},
+"EgoStandard/1a4aed15-de7a-4444-a87c-87d6195d7388/tables/pose_right_eye_cam.csv": {
+"bytes": 80518,
+"crc32": 2533034906,
+"sha1": "edc22696f5e0d5d0c4fc255d117bd15b9205d18b"
+},
+"EgoStandard/1a4aed15-de7a-4444-a87c-87d6195d7388/tables/pose_right_hand.csv": {
+"bytes": 1065266,
+"crc32": 3889997032,
+"sha1": "ad2f41f2130352335f38de9325a9f5ffc96ed28d"
+},
+"EgoStandard/1a4aed15-de7a-4444-a87c-87d6195d7388/tables/sensor_camera_head_left_extrinsic.csv": {
+"bytes": 87775,
+"crc32": 1787758714,
+"sha1": "3584f43b1db0db1d7db7213bd7c670a657c95a1e"
+},
+"EgoStandard/1a4aed15-de7a-4444-a87c-87d6195d7388/tables/sensor_camera_head_left_intrinsic.csv": {
+"bytes": 98547,
+"crc32": 2562613790,
+"sha1": "3dff36c4992ba541ea712f03486e972ef31371c9"
+},
+"EgoStandard/1a4aed15-de7a-4444-a87c-87d6195d7388/tables/sensor_camera_head_right_extrinsic.csv": {
+"bytes": 88172,
+"crc32": 1764301391,
+"sha1": "7585741776d9b5a305f772e12248736b2a590b98"
+},
+"EgoStandard/1a4aed15-de7a-4444-a87c-87d6195d7388/tables/sensor_camera_head_right_intrinsic.csv": {
+"bytes": 98900,
+"crc32": 94729068,
+"sha1": "8af8a9a32e4639363ee87d7c53a5a2779ad073c1"
+},
+"EgoStandard/1a4aed15-de7a-4444-a87c-87d6195d7388/videos/head_left_frames.csv": {
+"bytes": 59175,
+"crc32": 1439440351,
+"sha1": "852134e0fb3b48a00e99df69c5b73bfb15719953"
+},
+"EgoStandard/1a4aed15-de7a-4444-a87c-87d6195d7388/videos/head_right_frames.csv": {
+"bytes": 59530,
+"crc32": 4187699059,
+"sha1": "d023fd5d2d9c56484b91e4cbfaaaca8723d26502"
+},
+"EgoStandard/1d855c6c-e844-41b8-9339-d344dd71c7f1/session_metadata.csv": {
+"bytes": 2254,
+"crc32": 730770057,
+"sha1": "209fafee1b1bf6b705cf4b2b9aba712ebe1370da"
+},
+"EgoStandard/1d855c6c-e844-41b8-9339-d344dd71c7f1/tables/annotation_bad_frame_pose_hand.csv": {
+"bytes": 19596,
+"crc32": 3906704272,
+"sha1": "d7253b6f0928f9256e4889a6ca27882b7360ec8d"
+},
+"EgoStandard/1d855c6c-e844-41b8-9339-d344dd71c7f1/tables/annotation_semantic_segments.csv": {
+"bytes": 1158,
+"crc32": 2928600350,
+"sha1": "9ca8c226e087d302f519db3e56256dd31b1087f1"
+},
+"EgoStandard/1d855c6c-e844-41b8-9339-d344dd71c7f1/tables/pose_head.csv": {
+"bytes": 47388,
+"crc32": 776876516,
+"sha1": "b67f55791546d9fd217bd30aef4c8ac336fefa96"
+},
+"EgoStandard/1d855c6c-e844-41b8-9339-d344dd71c7f1/tables/pose_headcam.csv": {
+"bytes": 48616,
+"crc32": 4189555733,
+"sha1": "cce8c563308a36b2c962e6981228ad14931b9683"
+},
+"EgoStandard/1d855c6c-e844-41b8-9339-d344dd71c7f1/tables/pose_left_hand.csv": {
+"bytes": 650385,
+"crc32": 660181534,
+"sha1": "4f35e40eed1748723ad7640e70d4cc07bc9fad09"
+},
+"EgoStandard/1d855c6c-e844-41b8-9339-d344dd71c7f1/tables/pose_right_eye_cam.csv": {
+"bytes": 48601,
+"crc32": 437898667,
+"sha1": "6ca3140feb11c514561ef3e1bce72bebfde3a739"
+},
+"EgoStandard/1d855c6c-e844-41b8-9339-d344dd71c7f1/tables/pose_right_hand.csv": {
+"bytes": 648706,
+"crc32": 2008510506,
+"sha1": "a96af1a4cf018a9807b160631d0ccf388095d485"
+},
+"EgoStandard/1d855c6c-e844-41b8-9339-d344dd71c7f1/tables/sensor_camera_head_left_extrinsic.csv": {
+"bytes": 53914,
+"crc32": 1060259406,
+"sha1": "e1e56cdc7b475d3a3f9c8a44476a74f8000709ac"
+},
+"EgoStandard/1d855c6c-e844-41b8-9339-d344dd71c7f1/tables/sensor_camera_head_left_intrinsic.csv": {
+"bytes": 60349,
+"crc32": 3295890317,
+"sha1": "de4729d54d2993ebf1d10ec49167bb126596b1c0"
+},
+"EgoStandard/1d855c6c-e844-41b8-9339-d344dd71c7f1/tables/sensor_camera_head_right_extrinsic.csv": {
+"bytes": 54140,
+"crc32": 3823688366,
+"sha1": "d6820841c752e4ef4924b7e02e2387d40f5f5c03"
+},
+"EgoStandard/1d855c6c-e844-41b8-9339-d344dd71c7f1/tables/sensor_camera_head_right_intrinsic.csv": {
+"bytes": 60562,
+"crc32": 732675825,
+"sha1": "354137c3fdc8439245e0eb1735d81c656e0834ef"
+},
+"EgoStandard/1d855c6c-e844-41b8-9339-d344dd71c7f1/videos/head_left_frames.csv": {
+"bytes": 35689,
+"crc32": 107336280,
+"sha1": "47343186b2dd437ca714bc006ae33c83eef51532"
+},
+"EgoStandard/1d855c6c-e844-41b8-9339-d344dd71c7f1/videos/head_right_frames.csv": {
+"bytes": 35902,
+"crc32": 3362152461,
+"sha1": "8a2b513e74d872e4897b930695d2cd94b1791ad9"
+},
+"EgoStandard/1edd4d05-8bdd-4d3c-ae0f-fbc25447ffe8/session_metadata.csv": {
+"bytes": 2384,
+"crc32": 593454384,
+"sha1": "862242433b8a3d3eaa440d1f37bb3173581152bc"
+},
+"EgoStandard/1edd4d05-8bdd-4d3c-ae0f-fbc25447ffe8/tables/annotation_bad_frame_pose_hand.csv": {
+"bytes": 322961,
+"crc32": 1407731668,
+"sha1": "8b09a2287adce3c83d52ac33d7db37e4c644bc03"
+},
+"EgoStandard/1edd4d05-8bdd-4d3c-ae0f-fbc25447ffe8/tables/annotation_semantic_segments.csv": {
+"bytes": 3500,
+"crc32": 928128326,
+"sha1": "92e5799c3997848b4dcc3a481b040f121b1e0c4d"
+},
+"EgoStandard/1edd4d05-8bdd-4d3c-ae0f-fbc25447ffe8/tables/pose_head.csv": {
+"bytes": 716622,
+"crc32": 4026077731,
+"sha1": "dc0a2c8cd834447eb42b401dd24de70aa4a4b580"
+},
+"EgoStandard/1edd4d05-8bdd-4d3c-ae0f-fbc25447ffe8/tables/pose_headcam.csv": {
+"bytes": 733097,
+"crc32": 523069801,
+"sha1": "4205f8e0268aee47f5a25f967d8b087dc1ea8dea"
+},
+"EgoStandard/1edd4d05-8bdd-4d3c-ae0f-fbc25447ffe8/tables/pose_left_hand.csv": {
+"bytes": 9437313,
+"crc32": 1862200415,
+"sha1": "4c7ff7053f9311ef0c63539a4001923e1d15bf07"
+},
+"EgoStandard/1edd4d05-8bdd-4d3c-ae0f-fbc25447ffe8/tables/pose_right_eye_cam.csv": {
+"bytes": 733036,
+"crc32": 4008659843,
+"sha1": "cde3331ebc761f0dcc543794004da03052b700f6"
+},
+"EgoStandard/1edd4d05-8bdd-4d3c-ae0f-fbc25447ffe8/tables/pose_right_hand.csv": {
+"bytes": 9426460,
+"crc32": 3317859592,
+"sha1": "462912b5185546815135d37e9ed6068d4f49676f"
+},
+"EgoStandard/1edd4d05-8bdd-4d3c-ae0f-fbc25447ffe8/tables/sensor_camera_head_left_extrinsic.csv": {
+"bytes": 807395,
+"crc32": 3756854139,
+"sha1": "b215cd1896b6b55ee51f73af2673d5d90e5e15ea"
+},
+"EgoStandard/1edd4d05-8bdd-4d3c-ae0f-fbc25447ffe8/tables/sensor_camera_head_left_intrinsic.csv": {
+"bytes": 994426,
+"crc32": 3837467324,
+"sha1": "c3af97e2e737add52cac5e32357277200134d8f7"
+},
+"EgoStandard/1edd4d05-8bdd-4d3c-ae0f-fbc25447ffe8/tables/sensor_camera_head_right_extrinsic.csv": {
+"bytes": 810392,
+"crc32": 12945184,
+"sha1": "634a0e5ad15b0f89a9cc43b97ea2922ce3c91160"
+},
+"EgoStandard/1edd4d05-8bdd-4d3c-ae0f-fbc25447ffe8/tables/sensor_camera_head_right_intrinsic.csv": {
+"bytes": 921286,
+"crc32": 1949565150,
+"sha1": "3b362f692cd9d02662ccc603921372d38e1211d4"
+},
+"EgoStandard/1edd4d05-8bdd-4d3c-ae0f-fbc25447ffe8/videos/head_left_frames.csv": {
+"bytes": 552234,
+"crc32": 3551794090,
+"sha1": "9f84e2d709be2d0efec9580ed6f9413ca2981c02"
+},
+"EgoStandard/1edd4d05-8bdd-4d3c-ae0f-fbc25447ffe8/videos/head_right_frames.csv": {
+"bytes": 555427,
+"crc32": 1950660864,
+"sha1": "fb682eee78f24b767b46d5694b15e5b82fafeee9"
+},
+"EgoStandard/1f88d4ce-f51e-440e-a072-e6986fae9da4/session_metadata.csv": {
+"bytes": 2255,
+"crc32": 637107819,
+"sha1": "327989c14000c760138b3149ae9e8ae6e649ac31"
+},
+"EgoStandard/1f88d4ce-f51e-440e-a072-e6986fae9da4/tables/annotation_bad_frame_pose_hand.csv": {
+"bytes": 24594,
+"crc32": 4011920216,
+"sha1": "4a0e03df5f866173201f2ed0e50bcf8c93851eef"
+},
+"EgoStandard/1f88d4ce-f51e-440e-a072-e6986fae9da4/tables/annotation_semantic_segments.csv": {
+"bytes": 1008,
+"crc32": 826826897,
+"sha1": "6b8c0fe34dc14139380e909e45aaf96d0d9d161a"
+},
+"EgoStandard/1f88d4ce-f51e-440e-a072-e6986fae9da4/tables/pose_head.csv": {
+"bytes": 59687,
+"crc32": 2570965388,
+"sha1": "4ce316ef78c98e4a4a90816a0cc69f362e7179eb"
+},
+"EgoStandard/1f88d4ce-f51e-440e-a072-e6986fae9da4/tables/pose_headcam.csv": {
+"bytes": 60927,
+"crc32": 51549793,
+"sha1": "76c9cefafdf096f4d625e5ac28b513056ebc835c"
+},
+"EgoStandard/1f88d4ce-f51e-440e-a072-e6986fae9da4/tables/pose_left_hand.csv": {
+"bytes": 811416,
+"crc32": 947124688,
+"sha1": "f978bf380bad88f761f460b4e364dac2b5336526"
+},
+"EgoStandard/1f88d4ce-f51e-440e-a072-e6986fae9da4/tables/pose_right_eye_cam.csv": {
+"bytes": 61185,
+"crc32": 371736357,
+"sha1": "02b4b974643ff7bc2ac999b4950b29764c38b2df"
+},
+"EgoStandard/1f88d4ce-f51e-440e-a072-e6986fae9da4/tables/pose_right_hand.csv": {
+"bytes": 808278,
+"crc32": 3040448256,
+"sha1": "80cea4d45ffe5e36048029a6c14bdb25f6bad164"
+},
+"EgoStandard/1f88d4ce-f51e-440e-a072-e6986fae9da4/tables/sensor_camera_head_left_extrinsic.csv": {
+"bytes": 66399,
+"crc32": 2328759625,
+"sha1": "d601367f3a8adc602391b7a60c017cb8b9152b9d"
+},
+"EgoStandard/1f88d4ce-f51e-440e-a072-e6986fae9da4/tables/sensor_camera_head_left_intrinsic.csv": {
+"bytes": 80938,
+"crc32": 4152329816,
+"sha1": "6ea19ad16bc8bbdf539de7f6474d01e7143fb040"
+},
+"EgoStandard/1f88d4ce-f51e-440e-a072-e6986fae9da4/tables/sensor_camera_head_right_extrinsic.csv": {
+"bytes": 66989,
+"crc32": 2580888843,
+"sha1": "680d14dc691bc65e237b8728e1dd869aadc0a5a9"
+},
+"EgoStandard/1f88d4ce-f51e-440e-a072-e6986fae9da4/tables/sensor_camera_head_right_intrinsic.csv": {
+"bytes": 81205,
+"crc32": 2793405997,
+"sha1": "849eed0e13410d3b8a17e83531cd0fa1f72cb7b8"
+},
+"EgoStandard/1f88d4ce-f51e-440e-a072-e6986fae9da4/videos/head_left_frames.csv": {
+"bytes": 44737,
+"crc32": 1091871923,
+"sha1": "278ae1cfbbda0899b5c72a47d6536d4ae32f3f5b"
+},
+"EgoStandard/1f88d4ce-f51e-440e-a072-e6986fae9da4/videos/head_right_frames.csv": {
+"bytes": 45004,
+"crc32": 532858009,
+"sha1": "167b2debbbcd999cf639871382556cf8aaa758b0"
+},
+"EgoStandard/25702370-2103-4de3-ab02-59288316ec2b/session_metadata.csv": {
+"bytes": 2246,
+"crc32": 1969117838,
+"sha1": "9e247de428ae36d2b64171f0d32ff7dd2ddf0976"
+},
+"EgoStandard/25702370-2103-4de3-ab02-59288316ec2b/tables/annotation_bad_frame_pose_hand.csv": {
+"bytes": 30102,
+"crc32": 3618144059,
+"sha1": "31ae911f3fb02783f98e658f97aed646cd9d3e7a"
+},
+"EgoStandard/25702370-2103-4de3-ab02-59288316ec2b/tables/annotation_semantic_segments.csv": {
+"bytes": 913,
+"crc32": 3265880086,
+"sha1": "badca5a2bf42be196e1072066d16187b55005653"
+},
+"EgoStandard/25702370-2103-4de3-ab02-59288316ec2b/tables/pose_head.csv": {
+"bytes": 70136,
+"crc32": 275678486,
+"sha1": "29c1dd525ce2b76241d9057b16df6251744e7abf"
+},
+"EgoStandard/25702370-2103-4de3-ab02-59288316ec2b/tables/pose_headcam.csv": {
+"bytes": 71847,
+"crc32": 1999636710,
+"sha1": "9a99c98f95967aa1d4f428279bd298dd481d3a55"
+},
+"EgoStandard/25702370-2103-4de3-ab02-59288316ec2b/tables/pose_left_hand.csv": {
+"bytes": 940313,
+"crc32": 369164533,
+"sha1": "f808da9c7836493072e01033708a98cf59d3d6c0"
+},
+"EgoStandard/25702370-2103-4de3-ab02-59288316ec2b/tables/pose_right_eye_cam.csv": {
+"bytes": 71865,
+"crc32": 1184483600,
+"sha1": "c8ba0392e16809d1f91bfb53f94779a099594cf1"
+},
+"EgoStandard/25702370-2103-4de3-ab02-59288316ec2b/tables/pose_right_hand.csv": {
+"bytes": 936876,
+"crc32": 424544006,
+"sha1": "5e9dc46cd0d3d96223d2085460b0c474e83fd7e5"
+},
+"EgoStandard/25702370-2103-4de3-ab02-59288316ec2b/tables/sensor_camera_head_left_extrinsic.csv": {
+"bytes": 79528,
+"crc32": 758179093,
+"sha1": "6317b4874c45258eef626d0125152aa82d504361"
+},
+"EgoStandard/25702370-2103-4de3-ab02-59288316ec2b/tables/sensor_camera_head_left_intrinsic.csv": {
+"bytes": 96939,
+"crc32": 2506163959,
+"sha1": "ef79d95ece5888fc48b55546cd6ff3a50786a358"
+},
+"EgoStandard/25702370-2103-4de3-ab02-59288316ec2b/tables/sensor_camera_head_right_extrinsic.csv": {
+"bytes": 79820,
+"crc32": 555963652,
+"sha1": "125de91aabe7f10666ddc0a46fa9a7d6ccfecae8"
+},
+"EgoStandard/25702370-2103-4de3-ab02-59288316ec2b/tables/sensor_camera_head_right_intrinsic.csv": {
+"bytes": 89786,
+"crc32": 1534954994,
+"sha1": "c73516c5ca24b8842c86bd2b8621cab5aef54681"
+},
+"EgoStandard/25702370-2103-4de3-ab02-59288316ec2b/videos/head_left_frames.csv": {
+"bytes": 53556,
+"crc32": 1322655708,
+"sha1": "670b6ad6701f766347fb180a6dfb14e089010d55"
+},
+"EgoStandard/25702370-2103-4de3-ab02-59288316ec2b/videos/head_right_frames.csv": {
+"bytes": 53869,
+"crc32": 2162723023,
+"sha1": "744721d8cfd84b1e022c169c6cb9c35c1d9030ee"
+},
+"EgoStandard/2af40d05-034e-4d51-84dc-c4124c06d40d/session_metadata.csv": {
+"bytes": 2255,
+"crc32": 745662363,
+"sha1": "072e79de4884c9cd997ac213c8cf77213f48c48f"
+},
+"EgoStandard/2af40d05-034e-4d51-84dc-c4124c06d40d/tables/annotation_bad_frame_pose_hand.csv": {
+"bytes": 31669,
+"crc32": 4273037329,
+"sha1": "6547f00fd67b39336510e41a0b65e72713e0b239"
+},
+"EgoStandard/2af40d05-034e-4d51-84dc-c4124c06d40d/tables/annotation_semantic_segments.csv": {
+"bytes": 1860,
+"crc32": 2076226835,
+"sha1": "f114273b8019c61c8aa703d6b14d89ff804eb4a5"
+},
+"EgoStandard/2af40d05-034e-4d51-84dc-c4124c06d40d/tables/pose_head.csv": {
+"bytes": 74417,
+"crc32": 3936596374,
+"sha1": "c4d296f9ab1e61e3e7864bfbce2fec239803d8f7"
+},
+"EgoStandard/2af40d05-034e-4d51-84dc-c4124c06d40d/tables/pose_headcam.csv": {
+"bytes": 75158,
+"crc32": 3544164346,
+"sha1": "8b66fffa2d5561e2f9b28f1f9e72b07cb447fdb7"
+},
+"EgoStandard/2af40d05-034e-4d51-84dc-c4124c06d40d/tables/pose_left_hand.csv": {
+"bytes": 984881,
+"crc32": 1377485182,
+"sha1": "2c73bb1ab453f60e460cb6a95a8742f798882c0a"
+},
+"EgoStandard/2af40d05-034e-4d51-84dc-c4124c06d40d/tables/pose_right_eye_cam.csv": {
+"bytes": 75153,
+"crc32": 3729926570,
+"sha1": "e9f16f42bb02b84f3a439ecea85a23c5481310d3"
+},
+"EgoStandard/2af40d05-034e-4d51-84dc-c4124c06d40d/tables/pose_right_hand.csv": {
+"bytes": 983986,
+"crc32": 3883135765,
+"sha1": "1da2e06adfd9ceb240714686b2eb372529e63463"
+},
+"EgoStandard/2af40d05-034e-4d51-84dc-c4124c06d40d/tables/sensor_camera_head_left_extrinsic.csv": {
+"bytes": 83195,
+"crc32": 3665085769,
+"sha1": "583d114c284a92d6f62c98aa481281e36fb98efd"
+},
+"EgoStandard/2af40d05-034e-4d51-84dc-c4124c06d40d/tables/sensor_camera_head_left_intrinsic.csv": {
+"bytes": 94082,
+"crc32": 2652709162,
+"sha1": "493bccc1be00c98a68007ac5c849540139c29807"
+},
+"EgoStandard/2af40d05-034e-4d51-84dc-c4124c06d40d/tables/sensor_camera_head_right_extrinsic.csv": {
+"bytes": 83542,
+"crc32": 2065426073,
+"sha1": "8bffa40e12c3d1564efb7d2b29f7d3f46cfce1e9"
+},
+"EgoStandard/2af40d05-034e-4d51-84dc-c4124c06d40d/tables/sensor_camera_head_right_intrinsic.csv": {
+"bytes": 93101,
+"crc32": 126669502,
+"sha1": "d3f37743f8460389e70e5f430c063c91defb39d5"
+},
+"EgoStandard/2af40d05-034e-4d51-84dc-c4124c06d40d/videos/head_left_frames.csv": {
+"bytes": 56311,
+"crc32": 2322969603,
+"sha1": "476675779ca9b53bb97348543051e0f73058a8b1"
+},
+"EgoStandard/2af40d05-034e-4d51-84dc-c4124c06d40d/videos/head_right_frames.csv": {
+"bytes": 56640,
+"crc32": 1851555977,
+"sha1": "99f5da83b1710d2c5c4b32a034da02ec4b1feffa"
+},
+"EgoStandard/2f290382-a060-4352-99cd-883e46698bc5/session_metadata.csv": {
+"bytes": 2252,
+"crc32": 577053342,
+"sha1": "1e6c4ce1291e21ae06efa72620721ceb295284da"
+},
+"EgoStandard/2f290382-a060-4352-99cd-883e46698bc5/tables/annotation_bad_frame_pose_hand.csv": {
+"bytes": 389848,
+"crc32": 3421254168,
+"sha1": "5f39eb854ec2c3ed1e36e8732b7e003950ca3a52"
+},
+"EgoStandard/2f290382-a060-4352-99cd-883e46698bc5/tables/annotation_semantic_segments.csv": {
+"bytes": 6272,
+"crc32": 2186760522,
+"sha1": "480cdf5fd639f6d1c0da2d3a6a043f34b68ca4b9"
+},
+"EgoStandard/2f290382-a060-4352-99cd-883e46698bc5/tables/pose_head.csv": {
+"bytes": 888766,
+"crc32": 1468211946,
+"sha1": "0c9dc4b5b38896eb64537d6fa37553ab55427d98"
+},
+"EgoStandard/2f290382-a060-4352-99cd-883e46698bc5/tables/pose_headcam.csv": {
+"bytes": 908285,
+"crc32": 3720151609,
+"sha1": "0497a6658f77075cefc8caa6b83807825c61b3c2"
+},
+"EgoStandard/2f290382-a060-4352-99cd-883e46698bc5/tables/pose_left_hand.csv": {
+"bytes": 12017981,
+"crc32": 748715324,
+"sha1": "3afc6a2fdc462d5c4f2e26abb0bb8bbacfc26011"
+},
+"EgoStandard/2f290382-a060-4352-99cd-883e46698bc5/tables/pose_right_eye_cam.csv": {
+"bytes": 908129,
+"crc32": 2354618593,
+"sha1": "b4286abf676fdf0b25be98105a1aecb5723d704b"
+},
+"EgoStandard/2f290382-a060-4352-99cd-883e46698bc5/tables/pose_right_hand.csv": {
+"bytes": 11938957,
+"crc32": 2501058134,
+"sha1": "4c1468ab7083283db240501a55cfbf3a020aa707"
+},
+"EgoStandard/2f290382-a060-4352-99cd-883e46698bc5/tables/sensor_camera_head_left_extrinsic.csv": {
+"bytes": 1001715,
+"crc32": 1535886643,
+"sha1": "ba21583254bca2c7edd4e1614f175e3b916c5a6e"
+},
+"EgoStandard/2f290382-a060-4352-99cd-883e46698bc5/tables/sensor_camera_head_left_intrinsic.csv": {
+"bytes": 1237155,
+"crc32": 2970681742,
+"sha1": "f7ce5e49a12a8a5ab57fe762ae3362123c17c5cc"
+},
+"EgoStandard/2f290382-a060-4352-99cd-883e46698bc5/tables/sensor_camera_head_right_extrinsic.csv": {
+"bytes": 1005510,
+"crc32": 565880298,
+"sha1": "fdbc026a44cefa766708962d1cbabd1767311af3"
+},
+"EgoStandard/2f290382-a060-4352-99cd-883e46698bc5/tables/sensor_camera_head_right_intrinsic.csv": {
+"bytes": 1144879,
+"crc32": 4034227890,
+"sha1": "cc748c41c98ca82bfeadc566bb42922f9c3f4744"
+},
+"EgoStandard/2f290382-a060-4352-99cd-883e46698bc5/videos/head_left_frames.csv": {
+"bytes": 679371,
+"crc32": 1533688638,
+"sha1": "5549125b593025359547e2a63513169a3f159a1c"
+},
+"EgoStandard/2f290382-a060-4352-99cd-883e46698bc5/videos/head_right_frames.csv": {
+"bytes": 683394,
+"crc32": 3362023598,
+"sha1": "a53daa89946a6db16158ea9d17793baaf0e861da"
+},
+"EgoStandard/36de3405-6829-4882-a8ab-0ff472768480/session_metadata.csv": {
+"bytes": 2383,
+"crc32": 3603052562,
+"sha1": "8a6f8bcf148ee39d17fb08b870651a1891130789"
+},
+"EgoStandard/36de3405-6829-4882-a8ab-0ff472768480/tables/annotation_bad_frame_pose_hand.csv": {
+"bytes": 369630,
+"crc32": 664338309,
+"sha1": "13c0f967d9bf684fed4cf2009328c3d88568ce0e"
+},
+"EgoStandard/36de3405-6829-4882-a8ab-0ff472768480/tables/annotation_semantic_segments.csv": {
+"bytes": 5792,
+"crc32": 3142021790,
+"sha1": "65dbbdb67b13f072b85aeb380d6fc81f15a9dd0c"
+},
+"EgoStandard/36de3405-6829-4882-a8ab-0ff472768480/tables/pose_head.csv": {
+"bytes": 832698,
+"crc32": 2704531808,
+"sha1": "6271252992d09f073842e3f6c3bcdbece12725ed"
+},
+"EgoStandard/36de3405-6829-4882-a8ab-0ff472768480/tables/pose_headcam.csv": {
+"bytes": 853503,
+"crc32": 2074625273,
+"sha1": "6e171db396e8b9b205fc4fe96b7e985b8287ef73"
+},
+"EgoStandard/36de3405-6829-4882-a8ab-0ff472768480/tables/pose_left_hand.csv": {
+"bytes": 10971099,
+"crc32": 1051636638,
+"sha1": "a33ef962a6b06624ff1422229fe7ea639073f8af"
+},
+"EgoStandard/36de3405-6829-4882-a8ab-0ff472768480/tables/pose_right_eye_cam.csv": {
+"bytes": 853589,
+"crc32": 1843383811,
+"sha1": "356e845bf17689d551140fe132291ae52afe6620"
+},
+"EgoStandard/36de3405-6829-4882-a8ab-0ff472768480/tables/pose_right_hand.csv": {
+"bytes": 10922203,
+"crc32": 3504527800,
+"sha1": "233774f8696342ef01d47ef4db38eab57634d993"
+},
+"EgoStandard/36de3405-6829-4882-a8ab-0ff472768480/tables/sensor_camera_head_left_extrinsic.csv": {
+"bytes": 938217,
+"crc32": 698263935,
+"sha1": "bd07e7b27949c2483fcd11f40da5761502baf1ec"
+},
+"EgoStandard/36de3405-6829-4882-a8ab-0ff472768480/tables/sensor_camera_head_left_intrinsic.csv": {
+"bytes": 1137924,
+"crc32": 2309260653,
+"sha1": "6531e129dc48a671a8b96edd36f710ce8c788f59"
+},
+"EgoStandard/36de3405-6829-4882-a8ab-0ff472768480/tables/sensor_camera_head_right_extrinsic.csv": {
+"bytes": 942113,
+"crc32": 4186758682,
+"sha1": "624c3007b9d355d9b8f18e381290ad78b9928028"
+},
+"EgoStandard/36de3405-6829-4882-a8ab-0ff472768480/tables/sensor_camera_head_right_intrinsic.csv": {
+"bytes": 1054273,
+"crc32": 3343235276,
+"sha1": "ba93b2a1d3d2d039969e0096f2c1b77b101c5931"
+},
+"EgoStandard/36de3405-6829-4882-a8ab-0ff472768480/videos/head_left_frames.csv": {
+"bytes": 632208,
+"crc32": 1843936512,
+"sha1": "86911230f1e72dec8a7a193360120eb60228f0bb"
+},
+"EgoStandard/36de3405-6829-4882-a8ab-0ff472768480/videos/head_right_frames.csv": {
+"bytes": 635845,
+"crc32": 301647768,
+"sha1": "0b97649ccedc97f3d96a2ac4d203c30d6a7876d9"
+},
+"EgoStandard/39d35af4-d31f-4f8a-a55d-9251b1c6a87e/session_metadata.csv": {
+"bytes": 2253,
+"crc32": 3246188804,
+"sha1": "7620e73d6be7c25177df1ab0920a28f9c0f8bf36"
+},
+"EgoStandard/39d35af4-d31f-4f8a-a55d-9251b1c6a87e/tables/annotation_bad_frame_pose_hand.csv": {
+"bytes": 23398,
+"crc32": 3473749866,
+"sha1": "ec7d8a5f999e358875f108e61e79bc7effa404fa"
+},
+"EgoStandard/39d35af4-d31f-4f8a-a55d-9251b1c6a87e/tables/annotation_semantic_segments.csv": {
+"bytes": 1219,
+"crc32": 1168133474,
+"sha1": "8451477250a94af8fc353e0d7c6c32dab7a7630b"
+},
+"EgoStandard/39d35af4-d31f-4f8a-a55d-9251b1c6a87e/tables/pose_head.csv": {
+"bytes": 54980,
+"crc32": 4107346834,
+"sha1": "874491bb148355350a480eaff6575538d0d7f0a1"
+},
+"EgoStandard/39d35af4-d31f-4f8a-a55d-9251b1c6a87e/tables/pose_headcam.csv": {
+"bytes": 55091,
+"crc32": 1877141113,
+"sha1": "7fff721fbee97d12f644011199ec2a18b15734f7"
+},
+"EgoStandard/39d35af4-d31f-4f8a-a55d-9251b1c6a87e/tables/pose_left_hand.csv": {
+"bytes": 718022,
+"crc32": 763638274,
+"sha1": "0bdaaf59449669f1a7dc98b41fb27447aa40cd70"
+},
+"EgoStandard/39d35af4-d31f-4f8a-a55d-9251b1c6a87e/tables/pose_right_eye_cam.csv": {
+"bytes": 55131,
+"crc32": 3815308734,
+"sha1": "af7e47e45019bad0c0d7c6c2ccf4d53afde19ab6"
+},
+"EgoStandard/39d35af4-d31f-4f8a-a55d-9251b1c6a87e/tables/pose_right_hand.csv": {
+"bytes": 713941,
+"crc32": 2778048255,
+"sha1": "4880609b09d37ca5cec4ea3dc173fb6b9bd1eec1"
+},
+"EgoStandard/39d35af4-d31f-4f8a-a55d-9251b1c6a87e/tables/sensor_camera_head_left_extrinsic.csv": {
+"bytes": 61107,
+"crc32": 2992015044,
+"sha1": "ccccbbfb93b4044c5c74c3bc38ff81c7ac67e143"
+},
+"EgoStandard/39d35af4-d31f-4f8a-a55d-9251b1c6a87e/tables/sensor_camera_head_left_intrinsic.csv": {
+"bytes": 69661,
+"crc32": 662502534,
+"sha1": "abc38ebded78820665b74970b609429738593a39"
+},
+"EgoStandard/39d35af4-d31f-4f8a-a55d-9251b1c6a87e/tables/sensor_camera_head_right_extrinsic.csv": {
+"bytes": 61356,
+"crc32": 2064996678,
+"sha1": "87fb36b6aba349695b370dc45e96f5c4767eeae7"
+},
+"EgoStandard/39d35af4-d31f-4f8a-a55d-9251b1c6a87e/tables/sensor_camera_head_right_intrinsic.csv": {
+"bytes": 75711,
+"crc32": 3828380453,
+"sha1": "c435016ab7bc219de8ab812845017d03bd232b2d"
+},
+"EgoStandard/39d35af4-d31f-4f8a-a55d-9251b1c6a87e/videos/head_left_frames.csv": {
+"bytes": 41667,
+"crc32": 2145191160,
+"sha1": "80c8acaf7feb9545fc46fa6d437f6f4618ee5020"
+},
+"EgoStandard/39d35af4-d31f-4f8a-a55d-9251b1c6a87e/videos/head_right_frames.csv": {
+"bytes": 41908,
+"crc32": 2917328632,
+"sha1": "ffe56fbdddfc2a16d633ea99dec60d67260744ab"
+},
+"EgoStandard/3c5b6818-d151-418a-ac00-c461bbebefc8/session_metadata.csv": {
+"bytes": 2237,
+"crc32": 4224793726,
+"sha1": "f18ff06e45d38beaff6652c6e264949d24ae5d8f"
+},
+"EgoStandard/3c5b6818-d151-418a-ac00-c461bbebefc8/tables/annotation_bad_frame_pose_hand.csv": {
+"bytes": 374802,
+"crc32": 2271390090,
+"sha1": "72f09235f0e50783b37fe6f225de843077f9ec25"
+},
+"EgoStandard/3c5b6818-d151-418a-ac00-c461bbebefc8/tables/annotation_semantic_segments.csv": {
+"bytes": 1688,
+"crc32": 21211814,
+"sha1": "122536db33c97729f558573b6d583c305ee9b37b"
+},
+"EgoStandard/3c5b6818-d151-418a-ac00-c461bbebefc8/tables/pose_head.csv": {
+"bytes": 892077,
+"crc32": 1962634037,
+"sha1": "668c6145b07fe0e31fff7d9d1f509c2af2f6a1a9"
+},
+"EgoStandard/3c5b6818-d151-418a-ac00-c461bbebefc8/tables/pose_headcam.csv": {
+"bytes": 910174,
+"crc32": 2830527876,
+"sha1": "b4a21dd4246d84b9c109c8b7746b0970bab6f7f3"
+},
+"EgoStandard/3c5b6818-d151-418a-ac00-c461bbebefc8/tables/pose_left_hand.csv": {
+"bytes": 11998429,
+"crc32": 384574611,
+"sha1": "37947d74999cc8ceb8fe5599d3f46dc627f813fa"
+},
+"EgoStandard/3c5b6818-d151-418a-ac00-c461bbebefc8/tables/pose_right_eye_cam.csv": {
+"bytes": 906209,
+"crc32": 2913735856,
+"sha1": "cc44c6f4b7ca64c6a8917e6a5d9802fd26f34ea3"
+},
+"EgoStandard/3c5b6818-d151-418a-ac00-c461bbebefc8/tables/pose_right_hand.csv": {
+"bytes": 11980721,
+"crc32": 2519539831,
+"sha1": "9f4f65b240d09ad096e09ef82b6a8c640dc7d4c9"
+},
+"EgoStandard/3c5b6818-d151-418a-ac00-c461bbebefc8/tables/sensor_camera_head_left_extrinsic.csv": {
+"bytes": 1001980,
+"crc32": 689701119,
+"sha1": "ac96835044ec431e8ee20989061481fb65b3cba7"
+},
+"EgoStandard/3c5b6818-d151-418a-ac00-c461bbebefc8/tables/sensor_camera_head_left_intrinsic.csv": {
+"bytes": 1216370,
+"crc32": 511674524,
+"sha1": "138f6e1d6701b200b3599d933c1ee69f244b9d96"
+},
+"EgoStandard/3c5b6818-d151-418a-ac00-c461bbebefc8/tables/sensor_camera_head_right_extrinsic.csv": {
+"bytes": 1001845,
+"crc32": 3415158569,
+"sha1": "db5b7796b1c1973258ee78ed628d8af3a41021dc"
+},
+"EgoStandard/3c5b6818-d151-418a-ac00-c461bbebefc8/tables/sensor_camera_head_right_intrinsic.csv": {
+"bytes": 1220315,
+"crc32": 3195778281,
+"sha1": "24b1e30dc81bf6bd98ea94e2f588013b70070e8f"
+},
+"EgoStandard/3c5b6818-d151-418a-ac00-c461bbebefc8/videos/head_left_frames.csv": {
+"bytes": 667840,
+"crc32": 529247168,
+"sha1": "b9fe1a7321045d71689378f6aacc4cd03231d609"
+},
+"EgoStandard/3c5b6818-d151-418a-ac00-c461bbebefc8/videos/head_right_frames.csv": {
+"bytes": 671783,
+"crc32": 1263193531,
+"sha1": "df90ff1e9b82e7146f37655690f16896af68eb40"
+},
+"EgoStandard/443485f0-29be-4389-a40d-3f50d1ed38d2/session_metadata.csv": {
+"bytes": 2249,
+"crc32": 3333950014,
+"sha1": "b6abb2454203b2cde092f8392d42f973131548cc"
+},
+"EgoStandard/443485f0-29be-4389-a40d-3f50d1ed38d2/tables/annotation_bad_frame_pose_hand.csv": {
+"bytes": 509661,
+"crc32": 3489577839,
+"sha1": "2536b7366c74e88ee01e7bf2c57278b6922d6367"
+},
+"EgoStandard/443485f0-29be-4389-a40d-3f50d1ed38d2/tables/annotation_semantic_segments.csv": {
+"bytes": 1421,
+"crc32": 3324498215,
+"sha1": "6a2bd921ce0856534c2b1ad85b6e9bdf17608b95"
+},
+"EgoStandard/443485f0-29be-4389-a40d-3f50d1ed38d2/tables/pose_head.csv": {
+"bytes": 1173162,
+"crc32": 2944950966,
+"sha1": "06c4ce7b7b1c28ac375da5e0e13d4a724ca2f133"
+},
+"EgoStandard/443485f0-29be-4389-a40d-3f50d1ed38d2/tables/pose_headcam.csv": {
+"bytes": 1188134,
+"crc32": 1975998407,
+"sha1": "522a992c1ca5fc904e79be9282f010cfcabd19fc"
+},
+"EgoStandard/443485f0-29be-4389-a40d-3f50d1ed38d2/tables/pose_left_hand.csv": {
+"bytes": 15714799,
+"crc32": 1064860041,
+"sha1": "14c7f1721afc0d10c98ab5f6f4bfc53cd33d7f81"
+},
+"EgoStandard/443485f0-29be-4389-a40d-3f50d1ed38d2/tables/pose_right_eye_cam.csv": {
+"bytes": 1187855,
+"crc32": 3024963151,
+"sha1": "33340c397d6c2624ffed84f704a8965da05dd91b"
+},
+"EgoStandard/443485f0-29be-4389-a40d-3f50d1ed38d2/tables/pose_right_hand.csv": {
+"bytes": 15640374,
+"crc32": 3996658092,
+"sha1": "1e6e4bf7f9bbfc0482b8ac9d736559350789ec2f"
+},
+"EgoStandard/443485f0-29be-4389-a40d-3f50d1ed38d2/tables/sensor_camera_head_left_extrinsic.csv": {
+"bytes": 1309431,
+"crc32": 402305919,
+"sha1": "2fd32bb9d75def3600c48bc1eda4a5f03e787ba6"
+},
+"EgoStandard/443485f0-29be-4389-a40d-3f50d1ed38d2/tables/sensor_camera_head_left_intrinsic.csv": {
+"bytes": 1485574,
+"crc32": 3092081344,
+"sha1": "b46992258e0200cabc70a57738b371437b0dd014"
+},
+"EgoStandard/443485f0-29be-4389-a40d-3f50d1ed38d2/tables/sensor_camera_head_right_extrinsic.csv": {
+"bytes": 1314112,
+"crc32": 2126664136,
+"sha1": "3f450c2f2c734b518f321c7d8a311cf3a2122dee"
+},
+"EgoStandard/443485f0-29be-4389-a40d-3f50d1ed38d2/tables/sensor_camera_head_right_intrinsic.csv": {
+"bytes": 1490794,
+"crc32": 2585983861,
+"sha1": "c901a392476a50ec6b72336e046d7b0563893cfe"
+},
+"EgoStandard/443485f0-29be-4389-a40d-3f50d1ed38d2/videos/head_left_frames.csv": {
+"bytes": 885125,
+"crc32": 2840265013,
+"sha1": "6dacdcdd192a8c7b6753517f9a0d3f0f0c227a78"
+},
+"EgoStandard/443485f0-29be-4389-a40d-3f50d1ed38d2/videos/head_right_frames.csv": {
+"bytes": 890356,
+"crc32": 328663812,
+"sha1": "ca1d18c715a29fe808625fa1d538fd2f00dd8229"
+},
+"EgoStandard/4a4d93ed-066f-4460-acbb-5c9034e24862/session_metadata.csv": {
+"bytes": 2192,
+"crc32": 3827822972,
+"sha1": "be64e1c5304f9b7542003e157800faf21e93565c"
+},
+"EgoStandard/4a4d93ed-066f-4460-acbb-5c9034e24862/tables/annotation_bad_frame_pose_hand.csv": {
+"bytes": 431475,
+"crc32": 3349744570,
+"sha1": "52e1f0c915d825f16fbda8325e19a1c0860a8358"
+},
+"EgoStandard/4a4d93ed-066f-4460-acbb-5c9034e24862/tables/annotation_semantic_segments.csv": {
+"bytes": 4818,
+"crc32": 3002195826,
+"sha1": "5e232e7a1e018d7f0894ed88ff97bcb1ef9daa6f"
+},
+"EgoStandard/4a4d93ed-066f-4460-acbb-5c9034e24862/tables/pose_head.csv": {
+"bytes": 995519,
+"crc32": 2120875567,
+"sha1": "46d88cdbb1113b21dc40e2565caeb3922194cb87"
+},
+"EgoStandard/4a4d93ed-066f-4460-acbb-5c9034e24862/tables/pose_headcam.csv": {
+"bytes": 1010082,
+"crc32": 3343063076,
+"sha1": "248baebe67c7841b15d92c58a17f4cf069df9897"
+},
+"EgoStandard/4a4d93ed-066f-4460-acbb-5c9034e24862/tables/pose_left_hand.csv": {
+"bytes": 13409184,
+"crc32": 2045413513,
+"sha1": "fa6808f07ba96018fc7703c5c74b341f8828b4c6"
+},
+"EgoStandard/4a4d93ed-066f-4460-acbb-5c9034e24862/tables/pose_right_eye_cam.csv": {
+"bytes": 1010430,
+"crc32": 2475233434,
+"sha1": "882db9ee58ef3037e8f6674f1e96617e6018d1df"
+},
+"EgoStandard/4a4d93ed-066f-4460-acbb-5c9034e24862/tables/pose_right_hand.csv": {
+"bytes": 13345602,
+"crc32": 621540040,
+"sha1": "f58b949fc2aeadf351d1817a4986535dc6b2d4a6"
+},
+"EgoStandard/4a4d93ed-066f-4460-acbb-5c9034e24862/tables/sensor_camera_head_left_extrinsic.csv": {
+"bytes": 1095982,
+"crc32": 3319618766,
+"sha1": "5a329ef77bc58266d5c9748f8c7338b3b1eb3735"
+},
+"EgoStandard/4a4d93ed-066f-4460-acbb-5c9034e24862/tables/sensor_camera_head_left_intrinsic.csv": {
+"bytes": 1242425,
+"crc32": 2873903908,
+"sha1": "2425b34be9fb8058d6a88be123e9d9a437c685b8"
+},
+"EgoStandard/4a4d93ed-066f-4460-acbb-5c9034e24862/tables/sensor_camera_head_right_extrinsic.csv": {
+"bytes": 1100679,
+"crc32": 2268246734,
+"sha1": "893d732ba83ac058fceac4d308e58e2254de8705"
+},
+"EgoStandard/4a4d93ed-066f-4460-acbb-5c9034e24862/tables/sensor_camera_head_right_intrinsic.csv": {
+"bytes": 1246853,
+"crc32": 4233130986,
+"sha1": "76037bb084bcb8ee0db53dc272e0f97e871dc248"
+},
+"EgoStandard/4a4d93ed-066f-4460-acbb-5c9034e24862/videos/head_left_frames.csv": {
+"bytes": 750276,
+"crc32": 2305829723,
+"sha1": "7196c165bd6e55e56e2b28ca5bcc9fe5446ed15e"
+},
+"EgoStandard/4a4d93ed-066f-4460-acbb-5c9034e24862/videos/head_right_frames.csv": {
+"bytes": 754718,
+"crc32": 2265210695,
+"sha1": "48e5acbd2a552af66429fabbb6b55aa3eea1478e"
+},
+"EgoStandard/4b0fb52d-29ea-4014-a1e7-fc440037790f/session_metadata.csv": {
+"bytes": 2276,
+"crc32": 2293076894,
+"sha1": "7eb1cdeb56ca83d3210b9dc70d87900097537355"
+},
+"EgoStandard/4b0fb52d-29ea-4014-a1e7-fc440037790f/tables/annotation_bad_frame_pose_hand.csv": {
+"bytes": 49363,
+"crc32": 1546122617,
+"sha1": "e1b8a886a094c3aebc524ea4eddc8becbb282896"
+},
+"EgoStandard/4b0fb52d-29ea-4014-a1e7-fc440037790f/tables/annotation_semantic_segments.csv": {
+"bytes": 1304,
+"crc32": 1837493388,
+"sha1": "20a870797f17d87a83441a2654aaa44fd15004d9"
+},
+"EgoStandard/4b0fb52d-29ea-4014-a1e7-fc440037790f/tables/pose_head.csv": {
+"bytes": 113244,
+"crc32": 1915205709,
+"sha1": "e4a8120a99df19b8d47629516b26deac4a66ca9a"
+},
+"EgoStandard/4b0fb52d-29ea-4014-a1e7-fc440037790f/tables/pose_headcam.csv": {
+"bytes": 114519,
+"crc32": 784111179,
+"sha1": "3e5d00e800aa68a54c01acd54ecd54c07920497d"
+},
+"EgoStandard/4b0fb52d-29ea-4014-a1e7-fc440037790f/tables/pose_left_hand.csv": {
+"bytes": 1495833,
+"crc32": 2737657048,
+"sha1": "408ba373fb55beb31d8f5e20fa34626f69037af3"
+},
+"EgoStandard/4b0fb52d-29ea-4014-a1e7-fc440037790f/tables/pose_right_eye_cam.csv": {
+"bytes": 114395,
+"crc32": 3150174176,
+"sha1": "b960f3dd5ed4ba61108a7ccd923246ed925098ef"
+},
+"EgoStandard/4b0fb52d-29ea-4014-a1e7-fc440037790f/tables/pose_right_hand.csv": {
+"bytes": 1483617,
+"crc32": 1090673064,
+"sha1": "51ec0b273046c7a0299f35fcdcbfdde53f01576c"
+},
+"EgoStandard/4b0fb52d-29ea-4014-a1e7-fc440037790f/tables/sensor_camera_head_left_extrinsic.csv": {
+"bytes": 126596,
+"crc32": 1913782858,
+"sha1": "cb96e6a767da0e876e982898818cfe32b9e56bb2"
+},
+"EgoStandard/4b0fb52d-29ea-4014-a1e7-fc440037790f/tables/sensor_camera_head_left_intrinsic.csv": {
+"bytes": 142178,
+"crc32": 2217868254,
+"sha1": "99a72ae3d17c4ff4501b05deb374f7a85d4f6740"
+},
+"EgoStandard/4b0fb52d-29ea-4014-a1e7-fc440037790f/tables/sensor_camera_head_right_extrinsic.csv": {
+"bytes": 126999,
+"crc32": 3117544063,
+"sha1": "a51395a102e64d3cb487e7668f0812c75a1375de"
+},
+"EgoStandard/4b0fb52d-29ea-4014-a1e7-fc440037790f/tables/sensor_camera_head_right_intrinsic.csv": {
+"bytes": 142672,
+"crc32": 1533912744,
+"sha1": "0da744defae156685bac75b9a9d2f5d92e12fb51"
+},
+"EgoStandard/4b0fb52d-29ea-4014-a1e7-fc440037790f/videos/head_left_frames.csv": {
+"bytes": 85209,
+"crc32": 946207439,
+"sha1": "645368eb35895b0cfdfb62b0a0c05a1db5f266ca"
+},
+"EgoStandard/4b0fb52d-29ea-4014-a1e7-fc440037790f/videos/head_right_frames.csv": {
+"bytes": 85704,
+"crc32": 614011186,
+"sha1": "e8416750ec28ae50745b2098c6cea467e4f6bd31"
+},
+"EgoStandard/7962fc83-dd18-4ddd-bcc6-9e23c007c7a2/session_metadata.csv": {
+"bytes": 2277,
+"crc32": 2833825823,
+"sha1": "1dac1d6624f3526e98e263b744b9ea5697b700b3"
+},
+"EgoStandard/7962fc83-dd18-4ddd-bcc6-9e23c007c7a2/tables/annotation_bad_frame_pose_hand.csv": {
+"bytes": 49688,
+"crc32": 91031870,
+"sha1": "640fdf0b62f08e57096f9a6ed3d63325d4f922f8"
+},
+"EgoStandard/7962fc83-dd18-4ddd-bcc6-9e23c007c7a2/tables/annotation_semantic_segments.csv": {
+"bytes": 1766,
+"crc32": 1055571787,
+"sha1": "4d961a870de5d32a033c2a740558a3a68cb5959b"
+},
+"EgoStandard/7962fc83-dd18-4ddd-bcc6-9e23c007c7a2/tables/pose_head.csv": {
+"bytes": 120106,
+"crc32": 1666126851,
+"sha1": "f919278dd5c75a683a681a8ce5d985a4d8d5a1ee"
+},
+"EgoStandard/7962fc83-dd18-4ddd-bcc6-9e23c007c7a2/tables/pose_headcam.csv": {
+"bytes": 121626,
+"crc32": 2135771642,
+"sha1": "b5f209e5e27fd9d23d198e6f1e4daa1698da03e6"
+},
+"EgoStandard/7962fc83-dd18-4ddd-bcc6-9e23c007c7a2/tables/pose_left_hand.csv": {
+"bytes": 1632568,
+"crc32": 1672251924,
+"sha1": "cdd2dcebdcf3f2547fbe4b44bc8e200a840f9940"
+},
+"EgoStandard/7962fc83-dd18-4ddd-bcc6-9e23c007c7a2/tables/pose_right_eye_cam.csv": {
+"bytes": 121568,
+"crc32": 2279293393,
+"sha1": "cb25fec6b4391d72a524641f9a6e389c1b43d75d"
+},
+"EgoStandard/7962fc83-dd18-4ddd-bcc6-9e23c007c7a2/tables/pose_right_hand.csv": {
+"bytes": 1625506,
+"crc32": 3203243636,
+"sha1": "e2c624d1339504cc6a5389501b5ff1f8321679bd"
+},
+"EgoStandard/7962fc83-dd18-4ddd-bcc6-9e23c007c7a2/tables/sensor_camera_head_left_extrinsic.csv": {
+"bytes": 132533,
+"crc32": 1165424989,
+"sha1": "123e5750b933b49b32c41d852192016a93081ce5"
+},
+"EgoStandard/7962fc83-dd18-4ddd-bcc6-9e23c007c7a2/tables/sensor_camera_head_left_intrinsic.csv": {
+"bytes": 149729,
+"crc32": 69023184,
+"sha1": "e12f31067975a52ec502c3e3d2bbd8f733955756"
+},
+"EgoStandard/7962fc83-dd18-4ddd-bcc6-9e23c007c7a2/tables/sensor_camera_head_right_extrinsic.csv": {
+"bytes": 133104,
+"crc32": 3295670388,
+"sha1": "ecd7e843d35ae17f105eb4ab2b3dde0a2c2b8aa1"
+},
+"EgoStandard/7962fc83-dd18-4ddd-bcc6-9e23c007c7a2/tables/sensor_camera_head_right_intrinsic.csv": {
+"bytes": 150265,
+"crc32": 2367402558,
+"sha1": "c3cf132788d9503beaf979445d2b4a738f73d791"
+},
+"EgoStandard/7962fc83-dd18-4ddd-bcc6-9e23c007c7a2/videos/head_left_frames.csv": {
+"bytes": 90016,
+"crc32": 1258675447,
+"sha1": "ed4695ea3e0a9fd950a1dbfde3ef0003caf577a4"
+},
+"EgoStandard/7962fc83-dd18-4ddd-bcc6-9e23c007c7a2/videos/head_right_frames.csv": {
+"bytes": 90554,
+"crc32": 444430861,
+"sha1": "56639cafce7a44ee1777bba540436fa4b665cc49"
+},
+"EgoStandard/bca969eb-9f5d-4842-b1c8-d60faaf03243/session_metadata.csv": {
+"bytes": 2250,
+"crc32": 3407752526,
+"sha1": "55e6f6e7dbfbf2343ad86cc677e0c30e62c24f55"
+},
+"EgoStandard/bca969eb-9f5d-4842-b1c8-d60faaf03243/tables/annotation_bad_frame_pose_hand.csv": {
+"bytes": 161523,
+"crc32": 727561301,
+"sha1": "098d900d8f5fe34b3ec289f7ddc8a574116010ab"
+},
+"EgoStandard/bca969eb-9f5d-4842-b1c8-d60faaf03243/tables/annotation_semantic_segments.csv": {
+"bytes": 2548,
+"crc32": 3972211790,
+"sha1": "e10846df9d0a272b3bfc4a51c91c4d8694ad3f90"
+},
+"EgoStandard/bca969eb-9f5d-4842-b1c8-d60faaf03243/tables/pose_head.csv": {
+"bytes": 369972,
+"crc32": 1229530513,
+"sha1": "5e7fb9f4bf12bb1798035ba82273255188f56fb9"
+},
+"EgoStandard/bca969eb-9f5d-4842-b1c8-d60faaf03243/tables/pose_headcam.csv": {
+"bytes": 377248,
+"crc32": 2185284373,
+"sha1": "0fe2b3e4f458cc7c2811c6942f44f710dfaf6e6c"
+},
+"EgoStandard/bca969eb-9f5d-4842-b1c8-d60faaf03243/tables/pose_left_hand.csv": {
+"bytes": 4881202,
+"crc32": 3274527330,
+"sha1": "a4ac3295b2771b351b2593238eda83a2b66c6de1"
+},
+"EgoStandard/bca969eb-9f5d-4842-b1c8-d60faaf03243/tables/pose_right_eye_cam.csv": {
+"bytes": 377410,
+"crc32": 2070211592,
+"sha1": "a1ee02517546bb08bc0b4b3d2cb0f6ba971af4fd"
+},
+"EgoStandard/bca969eb-9f5d-4842-b1c8-d60faaf03243/tables/pose_right_hand.csv": {
+"bytes": 4874439,
+"crc32": 2646171876,
+"sha1": "a5fef9160e11748c1e2ae90b959c5f31efc965ec"
+},
+"EgoStandard/bca969eb-9f5d-4842-b1c8-d60faaf03243/tables/sensor_camera_head_left_extrinsic.csv": {
+"bytes": 416164,
+"crc32": 4131429281,
+"sha1": "f1498c54c16b9eab51135f711115269c8ea64e77"
+},
+"EgoStandard/bca969eb-9f5d-4842-b1c8-d60faaf03243/tables/sensor_camera_head_left_intrinsic.csv": {
+"bytes": 472577,
+"crc32": 2487016546,
+"sha1": "56bec7e8d1c07361c7ac665049796bf1d700efad"
+},
+"EgoStandard/bca969eb-9f5d-4842-b1c8-d60faaf03243/tables/sensor_camera_head_right_extrinsic.csv": {
+"bytes": 417859,
+"crc32": 2079255898,
+"sha1": "cf8c3abb8f0ceb7ce75bce7e8abfceefc790e72c"
+},
+"EgoStandard/bca969eb-9f5d-4842-b1c8-d60faaf03243/tables/sensor_camera_head_right_intrinsic.csv": {
+"bytes": 474216,
+"crc32": 4046031534,
+"sha1": "2b9eb5326ae632125fc8e1b2c43f3d1c63dca975"
+},
+"EgoStandard/bca969eb-9f5d-4842-b1c8-d60faaf03243/videos/head_left_frames.csv": {
+"bytes": 283930,
+"crc32": 3022171345,
+"sha1": "a18cdcbf892b3146a05dbde327d438c633e66cec"
+},
+"EgoStandard/bca969eb-9f5d-4842-b1c8-d60faaf03243/videos/head_right_frames.csv": {
+"bytes": 285576,
+"crc32": 2561490624,
+"sha1": "84830c4b2c7e2be3027b5ae453651b4a4ffa9c8b"
+}
+}

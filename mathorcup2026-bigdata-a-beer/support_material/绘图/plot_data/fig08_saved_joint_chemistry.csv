@@ -1,0 +1,2451 @@
+origin,id,style,DMS_ug_L,diacetyl_mg_L
+observed,0,Low/No alcohol,1.1122725005394052,0.002064095
+observed,1,Low/No alcohol,2.2245449976777634,0.010201642
+observed,2,Low/No alcohol,7.917785005134557,0.019219729
+observed,3,Low/No alcohol,6.055159995579341,0.011558576
+observed,4,Low/No alcohol,3.5756550009332426,0.011999467
+observed,5,Fruitbeer,128.4512651195326,0.191080813
+observed,6,Dubbel,25.099525018320904,0.623254228
+observed,7,Fruitbeer,6.60008500467526,0.143330704
+observed,8,Pils/Lager,14.295990009543798,0.051620797
+observed,9,Fruitbeer,12.170240008294504,0.105382206
+observed,10,Low/No alcohol,8.249090001702738,0.328111286
+observed,11,Low/No alcohol,6.926440007735439,0.815544455
+observed,12,Flanders old brown,4.501940004091575,0.196436351
+observed,13,Fruitbeer,146.1864450191267,0.284672385
+observed,14,Fruitbeer,17.512875005566006,0.089688045
+observed,15,Fruitbeer,147.59040483495826,0.116810191
+observed,16,Kriek,7.678215004214326,0.431778162
+observed,17,Blond,64.12883494767367,0.053657258
+observed,18,Wheat,8.120934992350033,0.058912893
+observed,19,Pils/Lager,8.858684996430867,0.284814332
+observed,20,Stout/Porter,15.243340014056395,3.660573115
+observed,21,Blond,20.623609980071567,0.140692044
+observed,22,Pils/Lager,26.67504501603859,0.056959527
+observed,23,Pils/Lager,15.558450017327774,0.523885941
+observed,24,Pils/Lager,15.112782739474238,0.041743092
+observed,25,Wheat,9.557384999133165,0.284672385
+observed,26,Flanders old brown,5.684249994011359,0.334341612
+observed,27,Wheat,34.299094991997094,0.088736603
+observed,28,Wheat,18.464419989559758,0.049043757
+observed,29,Amber,8.628049996086517,2.336321592
+observed,30,Brett/cofermented,21.918560021160157,1.21905981
+observed,31,Low/No alcohol,9.545992503995821,0.284672385
+observed,32,Lambic,19.736784990257775,0.247359367
+observed,33,Flanders old brown,10.282825005844419,3.93e-06
+observed,34,Wheat,10.045070011192303,0.152338735
+observed,35,Tripel,48.280039973506156,0.714278206
+observed,36,Pils/Lager,6.663104998213416,0.035773067
+observed,37,Saison,18.62554498075357,1.295625272
+observed,38,Scotch,17.755470005086345,0.954531476
+observed,39,West Flanders ale,8.358765008462843,0.076481108
+observed,40,Lambic,20.88661997646512,0.419828301
+observed,41,Pils/Lager,20.159569979151296,0.032551284
+observed,42,Saison,14.278480014602374,0.001616741
+observed,43,Dubbel,26.45267498891033,0.504108225
+observed,44,Blond,29.10711997610291,0.458366832
+observed,45,Hoppy,35.75083000486562,0.135442065
+observed,46,Faro,17.282655017717452,0.153276325
+observed,47,Amber,10.887784992220478,79.36178412
+observed,48,Wheat,37.13566496846933,0.629907583
+observed,49,Kriek,4.30416999856923,0.180897906
+observed,50,Blond,22.716629975856574,0.035088328
+observed,51,Pils/Lager,14.072089998419486,0.026185308
+observed,52,Saison,22.355050022562242,1.764093309
+observed,53,Amber,44.87462496182941,1.09e-07
+observed,54,Saison,18.916400004818033,0.253988314
+observed,55,West Flanders ale,6.576494996001657,0.134725381
+observed,56,Wheat,15.600359984942767,1.192674413
+observed,57,Faro,14.864504985440357,0.126228249
+observed,58,Stout/Porter,36.45396749556464,0.498311801
+observed,59,Saison,51.744994962188805,0.20949405
+observed,60,Brett/cofermented,12.904434987863498,1.691271406
+observed,61,Hoppy,48.720609979145934,0.848473274
+observed,62,Dubbel,16.327430018731334,0.390140198
+observed,63,Wheat,16.379755018172073,0.13924649
+observed,64,Amber,55.323674950722015,0.044510956
+observed,65,Dubbel,11.18335999073931,0.238856791
+observed,66,Saison,74.23011493538355,2.109317391
+observed,67,Blond,31.407615026659126,0.079352911
+observed,68,Hoppy,14.464034998794766,0.434773076
+observed,69,West Flanders ale,12.914694996691294,0.284672385
+observed,70,Kriek,15.069739984545011,0.754107966
+observed,71,Faro,14.973879986568999,0.139752287
+observed,72,Stout/Porter,16.989564986053708,2.455233335
+observed,73,Kriek,20.566424993016675,0.434129935
+observed,74,Kriek,14.98369999600975,0.284672385
+observed,75,Blond,33.25310502554263,0.834196788
+observed,76,Blond,31.095744984599573,1.090211269
+observed,77,West Flanders ale,27.013074976552282,0.284672385
+observed,78,Strong ale,37.656190034462234,0.350489828
+observed,79,Flanders old brown,17.67049001653276,2.83e-06
+observed,80,Blond,87.63417509888602,1.093528111
+observed,81,Tripel,21.894215024328773,0.434130101
+observed,82,Kriek,10.698150002588719,0.392878405
+observed,83,Kriek,9.876804989110045,0.473913847
+observed,84,Amber,8.772419992705185,0.000149215
+observed,85,West Flanders ale,8.340165005573722,0.331701688
+observed,86,West Flanders ale,7.159765000078037,5.294528392
+observed,87,Blond,27.038459978951582,1.765575487
+observed,88,Stout/Porter,30.81869998012582,0.334344403
+observed,89,Brown,23.130205006220063,0.318040792
+observed,90,Hoppy,69.85914499328247,0.616304409
+observed,91,Brown,24.72595998085262,0.284672385
+observed,92,Lambic,24.006874990618236,0.612340522
+observed,93,Hoppy,41.694944971854504,0.294687822
+observed,94,Strong ale,18.96433000394151,0.159232659
+observed,95,Brown,25.909030007392047,0.200443205
+observed,96,Blond,15.187590016377074,0.196795517
+observed,97,Hoppy,42.420227469586536,1.381133077
+observed,98,Stout/Porter,18.41872501186387,0.080828508
+observed,99,Kriek,10.792594996292964,0.434129935
+observed,100,Stout/Porter,12.510575005427443,0.081835469
+observed,101,Brett/cofermented,35.37320003309769,0.283815504
+observed,102,Stout/Porter,47.58417499488443,0.283438536
+observed,103,Strong ale,16.38356000161322,0.627865172
+observed,104,Pils/Lager,16.661494995164656,0.284672385
+observed,105,Fruitbeer,520.4516347465662,54.95171346
+observed,106,Christmas,19.384335014737907,3.28980573
+observed,107,Flanders old brown,11.23082499814955,0.446223895
+observed,108,Pils/Lager,7.933115000908002,0.236137339
+observed,109,Amber,19.828594982808706,2.336871201
+observed,110,Tripel,63.242460037902305,0.001628788
+observed,111,Blond,23.11968501949946,0.070809562
+observed,112,Blond,27.40022997837801,0.362329198
+observed,113,Dubbel,22.44986997485105,0.574764258
+observed,114,Brut,57.27404995859055,0.220166072
+observed,115,Brown,24.46354000609335,0.984405647
+observed,116,Brown,15.617844987798593,0.592091604
+observed,117,Kriek,14.855599995516986,1.53845874
+observed,118,Blond,47.28287504043687,0.675198046
+observed,119,Tripel,16.930030012509533,0.470404773
+observed,120,Christmas,10.561749990640216,1.200570595
+observed,121,Blond,36.08247496756931,0.080473797
+observed,122,Wheat,47.4070650308047,0.011816796
+observed,123,Strong ale,13.970459993626708,0.00051192
+observed,124,Blond,22.65828499326036,0.286587166
+observed,125,Hoppy,48.65847997103441,0.800786371
+observed,126,Tripel,22.05822000559374,0.000153873
+observed,127,Lambic,21.369659979489686,0.061918658
+observed,128,Brett/cofermented,22.624494993526355,0.155715997
+observed,129,Tripel,32.7752208659876,1.146628235
+observed,130,Strong ale,26.766654983667763,0.001415959
+observed,131,Saison,46.76334501596436,0.870458442
+observed,132,Saison,68.10944493985933,3.646945548
+observed,133,Dubbel,17.740209979840053,8.95e-05
+observed,134,Tripel,12.034840004996626,0.589018417
+observed,135,Blond,61.74387997563119,0.093189106
+observed,136,Lambic,8.999089995408912,0.0662418
+observed,137,Blond,26.006790009702378,0.213393296
+observed,138,Hoppy,59.37140999682655,3.764184431
+observed,139,Hoppy,59.915694953309995,0.638502
+observed,140,Brett/cofermented,33.47985997909276,0.291212183
+observed,141,Lambic,15.081945010624004,0.247202011
+observed,142,Brown,16.161124985968083,0.254612184
+observed,143,Dubbel,13.021794998880804,6.3e-06
+observed,144,Amber,33.14988002814877,0.116098767
+observed,145,Hoppy,40.5296299970319,1.376477645
+observed,146,Christmas,26.364349970619507,0.067335605
+observed,147,Dubbel,15.028305017191459,0.55086818
+observed,148,Hoppy,36.074820016429335,0.726632581
+observed,149,West Flanders ale,6.938620006407831,88.52898961
+observed,150,Wheat,28.53058002973729,0.000300068
+observed,151,Fruitbeer,147.41457510261318,0.105816915
+observed,152,Amber,30.148109986628413,92.83783178
+observed,153,Saison,54.20425503484368,0.129552716
+observed,154,Blond,48.3413500530379,1.642764994
+observed,155,Amber,16.95995001681139,2.71e-05
+observed,156,Stout/Porter,35.23446503591039,1.628314484
+observed,157,Brown,29.043390022147342,0.054367266
+observed,158,Blond,54.12999998865022,0.026961202
+observed,159,Tripel,16.672510016272245,0.389232036
+observed,160,Tripel,37.150815035670625,5.252776455
+observed,161,Blond,42.7491399712576,0.258525368
+observed,162,Strong ale,11.736514995705097,0.421448817
+observed,163,Blond,50.224370024305095,0.174364826
+observed,164,Brown,16.053695012177208,0.07030041
+observed,165,Blond,28.394087478159364,0.83720371
+observed,166,Tripel,68.20637257076851,1.108897059
+observed,167,Tripel,29.22712002100319,0.615613061
+observed,168,Christmas,27.17431497729,3.010294838
+observed,169,Strong ale,16.90052998886136,0.348307847
+observed,170,Lambic,23.439910009180206,0.408898423
+observed,171,Pils/Lager,27.357605016154242,0.284672385
+observed,172,Lambic,32.398980018075406,0.485512318
+observed,173,Kriek,12.474924991419691,0.823300683
+observed,174,Scotch,25.671294976111245,2.247147883
+observed,175,Scotch,15.925965001622558,0.869450362
+observed,176,Blond,46.64370500273337,0.291445671
+observed,177,Brown,15.250354986968484,0.047745928
+observed,178,Amber,21.846595017726166,0.957185928
+observed,179,Lambic,24.754090022791637,0.198097678
+observed,180,Stout/Porter,38.15404002864764,0.71967412
+observed,181,Brut,27.41248001093581,0.143084096
+observed,182,Hoppy,74.11650998987233,0.626546781
+observed,183,Hoppy,22.065479985618936,0.560286031
+observed,184,Stout/Porter,52.79696000241414,1.917668333
+observed,185,Hoppy,14.79562999283543,86.42531363
+observed,186,Tripel,88.84219990860164,0.054548416
+observed,187,Blond,71.94580495613766,0.244319519
+observed,188,Scotch,11.463680011749933,1.288231964
+observed,189,Lambic,19.604354990411583,0.055770044
+observed,190,Tripel,20.53971002344595,0.289621935
+observed,191,Brown,72.05434008268088,5e-05
+observed,192,Dubbel,34.80803003284109,0.421827094
+observed,193,Tripel,30.40291252810136,0.964290804
+observed,194,Tripel,74.61056504055541,0.259713105
+observed,195,Blond,27.06901002947599,1.888048604
+observed,196,Saison,33.89292003747348,1.58e-05
+observed,197,Wheat,41.362565033440966,1.07e-05
+observed,198,Christmas,29.46191498611913,0.000115329
+observed,199,Strong ale,92.05899003368077,0.785245797
+observed,200,Christmas,16.60749498619333,0.629394157
+observed,201,Blond,39.402564987531015,0.154058599
+observed,202,Blond,74.19178995180332,2.041450924
+observed,203,Strong ale,14.442329993906716,0.000118014
+observed,204,Brown,34.92634503053461,1.335192408
+observed,205,Hoppy,11.81196498808183,3.420145798
+observed,206,Christmas,15.276254991062764,0.062532405
+observed,207,Strong ale,58.50453003191031,2.602136646
+observed,208,Tripel,66.42948002098179,8.9e-05
+observed,209,Hoppy,33.40975000832777,0.138698886
+observed,210,Strong ale,19.700964979289218,1.660782618
+observed,211,Stout/Porter,36.93395502445948,0.355791064
+observed,212,Tripel,54.981995000340824,1.657980178
+observed,213,Wheat,67.9116449441222,0.25443622
+observed,214,Strong ale,23.08587500994722,0.150697952
+observed,215,Blond,22.525350010756036,1.3588754
+observed,216,Hoppy,54.07500496665484,0.110962094
+observed,217,Blond,31.539115022549467,121.7310182
+observed,218,Dubbel,76.07505499784548,0.150191675
+observed,219,Strong ale,18.972445021572597,0.173170239
+observed,220,Tripel,48.78686998359589,0.422432761
+observed,221,Tripel,113.83439009145418,1.31e-07
+observed,222,Tripel,20.295244981395715,0.144202952
+observed,223,Tripel,46.96359000726062,0.502786533
+observed,224,Brut,59.4611699400151,0.04906384
+observed,225,Blond,40.54537000360927,5.9e-08
+observed,226,Christmas,66.56555004148788,0.000509493
+observed,227,Tripel,154.96587506783612,0.042964961
+observed,228,Stout/Porter,25.671325004182105,0.129019633
+observed,229,Amber,17.605334984576,0.053649153
+observed,230,Tripel,41.217059956495866,0.000990559
+observed,231,Scotch,16.76254500967566,0.317583614
+observed,232,Tripel,40.2316549622694,0.284672385
+observed,233,Amber,58.05498497531269,0.000103534
+observed,234,Christmas,19.798839999950516,1.545247396
+observed,235,Brown,46.03755004903646,0.18144621
+observed,236,Brett/cofermented,48.989740049618824,0.045365705
+observed,237,Tripel,41.634969993830865,7.56e-05
+observed,238,Blond,19.07228000083506,1.991836658
+observed,239,Lambic,22.854859983470586,0.254254043
+observed,240,Brut,60.148485007075685,0.07407538
+observed,241,Tripel,27.89596002352371,0.170528001
+observed,242,Strong ale,38.93686496501485,2.793241014
+observed,243,Tripel,26.98251498982377,0.289621935
+observed,244,Stout/Porter,28.189010020323025,0.003081258
+observed,245,Strong ale,8.670400006621858,0.300051026
+observed,246,Strong ale,93.5584249760027,0.285683873
+observed,247,Strong ale,123.11804508904731,0.034258911
+observed,248,Strong ale,48.76446995306768,0.096159194
+observed,249,Tripel,34.39482499113804,0.000323439
+conditioned,attachment_two_Amber_001,Amber,12.034840004996626,0.011999467
+conditioned,attachment_two_Amber_002,Amber,17.605334984576,0.056959527
+conditioned,attachment_two_Amber_003,Amber,15.187590016377074,0.000153873
+conditioned,attachment_two_Amber_004,Amber,17.512875005566006,6.3e-06
+conditioned,attachment_two_Amber_005,Amber,15.187590016377074,6.3e-06
+conditioned,attachment_two_Amber_006,Amber,15.925965001622558,0.080828508
+conditioned,attachment_two_Amber_007,Amber,15.558450017327774,0.00051192
+conditioned,attachment_two_Amber_008,Amber,16.379755018172073,0.034258911
+conditioned,attachment_two_Amber_009,Amber,10.698150002588719,0.000323439
+conditioned,attachment_two_Amber_010,Amber,16.90052998886136,1.31e-07
+conditioned,attachment_two_Amber_011,Amber,10.887784992220478,0.045365705
+conditioned,attachment_two_Amber_012,Amber,13.021794998880804,0.041743092
+conditioned,attachment_two_Amber_013,Amber,15.069739984545011,0.056959527
+conditioned,attachment_two_Amber_014,Amber,16.95995001681139,6.3e-06
+conditioned,attachment_two_Amber_015,Amber,12.914694996691294,0.000300068
+conditioned,attachment_two_Amber_016,Amber,17.67049001653276,0.044510956
+conditioned,attachment_two_Amber_017,Amber,16.95995001681139,0.054548416
+conditioned,attachment_two_Amber_018,Amber,15.112782739474238,0.000118014
+conditioned,attachment_two_Amber_019,Amber,15.617844987798593,5e-05
+conditioned,attachment_two_Amber_020,Amber,12.904434987863498,0.0662418
+conditioned,attachment_two_Amber_021,Amber,8.772419992705185,0.054367266
+conditioned,attachment_two_Amber_022,Amber,13.021794998880804,0.000149215
+conditioned,attachment_two_Amber_023,Amber,17.67049001653276,0.001628788
+conditioned,attachment_two_Amber_024,Amber,15.069739984545011,0.000323439
+conditioned,attachment_two_Amber_025,Amber,11.81196498808183,0.061918658
+conditioned,attachment_two_Amber_026,Amber,10.045070011192303,0.032551284
+conditioned,attachment_two_Amber_027,Amber,12.170240008294504,0.0662418
+conditioned,attachment_two_Amber_028,Amber,8.340165005573722,0.056959527
+conditioned,attachment_two_Amber_029,Amber,9.876804989110045,0.07407538
+conditioned,attachment_two_Amber_030,Amber,18.972445021572597,8.95e-05
+conditioned,attachment_two_Amber_031,Amber,11.18335999073931,5.9e-08
+conditioned,attachment_two_Amber_032,Amber,18.96433000394151,0.000115329
+conditioned,attachment_two_Amber_033,Amber,12.474924991419691,0.000153873
+conditioned,attachment_two_Amber_034,Amber,14.79562999283543,1.07e-05
+conditioned,attachment_two_Amber_035,Amber,15.558450017327774,1.09e-07
+conditioned,attachment_two_Amber_036,Amber,14.278480014602374,0.035088328
+conditioned,attachment_two_Amber_037,Amber,18.464419989559758,3.93e-06
+conditioned,attachment_two_Amber_038,Amber,15.600359984942767,0.000990559
+conditioned,attachment_two_Amber_039,Amber,15.617844987798593,1.09e-07
+conditioned,attachment_two_Amber_040,Amber,10.792594996292964,5.9e-08
+conditioned,attachment_two_Amber_041,Amber,16.989564986053708,8.9e-05
+conditioned,attachment_two_Amber_042,Amber,10.282825005844419,1.31e-07
+conditioned,attachment_two_Amber_043,Amber,16.379755018172073,0.054548416
+conditioned,attachment_two_Amber_044,Amber,17.740209979840053,0.019219729
+conditioned,attachment_two_Amber_045,Amber,12.510575005427443,0.088736603
+conditioned,attachment_two_Amber_046,Amber,18.41872501186387,0.054548416
+conditioned,attachment_two_Amber_047,Amber,18.464419989559758,1.31e-07
+conditioned,attachment_two_Amber_048,Amber,14.973879986568999,0.080828508
+conditioned,attachment_two_Amber_049,Amber,15.250354986968484,5.9e-08
+conditioned,attachment_two_Amber_050,Amber,15.925965001622558,0.000153873
+conditioned,attachment_two_Amber_051,Amber,8.670400006621858,0.045365705
+conditioned,attachment_two_Amber_052,Amber,13.021794998880804,0.053657258
+conditioned,attachment_two_Amber_053,Amber,6.938620006407831,0.000153873
+conditioned,attachment_two_Amber_054,Amber,14.79562999283543,0.011816796
+conditioned,attachment_two_Amber_055,Amber,7.159765000078037,0.045365705
+conditioned,attachment_two_Amber_056,Amber,8.249090001702738,0.0662418
+conditioned,attachment_two_Amber_057,Amber,6.055159995579341,8.95e-05
+conditioned,attachment_two_Amber_058,Amber,15.112782739474238,0.003081258
+conditioned,attachment_two_Amber_059,Amber,15.558450017327774,1.58e-05
+conditioned,attachment_two_Amber_060,Amber,9.876804989110045,0.000118014
+conditioned,attachment_two_Amber_061,Amber,17.755470005086345,1.07e-05
+conditioned,attachment_two_Amber_062,Amber,17.512875005566006,0.00051192
+conditioned,attachment_two_Amber_063,Amber,18.62554498075357,0.000103534
+conditioned,attachment_two_Amber_064,Amber,6.926440007735439,5e-05
+conditioned,attachment_two_Amber_065,Amber,18.464419989559758,0.011558576
+conditioned,attachment_two_Amber_066,Amber,7.159765000078037,0.054548416
+conditioned,attachment_two_Amber_067,Amber,12.170240008294504,0.041743092
+conditioned,attachment_two_Amber_068,Amber,10.561749990640216,1.31e-07
+conditioned,attachment_two_Amber_069,Amber,14.79562999283543,0.000990559
+conditioned,attachment_two_Amber_070,Amber,9.557384999133165,0.051620797
+conditioned,attachment_two_Amber_071,Amber,4.30416999856923,0.000149215
+conditioned,attachment_two_Amber_072,Amber,18.96433000394151,1.09e-07
+conditioned,attachment_two_Amber_073,Amber,14.98369999600975,3.93e-06
+conditioned,attachment_two_Amber_074,Amber,16.930030012509533,0.026185308
+conditioned,attachment_two_Amber_075,Amber,14.98369999600975,0.003081258
+conditioned,attachment_two_Amber_076,Amber,8.358765008462843,0.035773067
+conditioned,attachment_two_Amber_077,Amber,15.069739984545011,5.9e-08
+conditioned,attachment_two_Amber_078,Amber,17.605334984576,0.034258911
+conditioned,attachment_two_Amber_079,Amber,1.1122725005394052,0.032551284
+conditioned,attachment_two_Amber_080,Amber,17.67049001653276,0.002064095
+conditioned,attachment_two_Amber_081,Amber,16.95995001681139,1.58e-05
+conditioned,attachment_two_Amber_082,Amber,17.740209979840053,0.011816796
+conditioned,attachment_two_Amber_083,Amber,18.972445021572597,1.07e-05
+conditioned,attachment_two_Amber_084,Amber,16.989564986053708,0.019219729
+conditioned,attachment_two_Amber_085,Amber,16.661494995164656,0.019219729
+conditioned,attachment_two_Amber_086,Amber,8.772419992705185,0.00051192
+conditioned,attachment_two_Amber_087,Amber,12.510575005427443,0.000118014
+conditioned,attachment_two_Amber_088,Amber,15.250354986968484,1.31e-07
+conditioned,attachment_two_Amber_089,Amber,10.698150002588719,1.31e-07
+conditioned,attachment_two_Amber_090,Amber,8.249090001702738,0.054367266
+conditioned,attachment_two_Amber_091,Amber,18.464419989559758,0.045365705
+conditioned,attachment_two_Amber_092,Amber,16.379755018172073,0.054548416
+conditioned,attachment_two_Amber_093,Amber,7.933115000908002,0.026961202
+conditioned,attachment_two_Amber_094,Amber,11.463680011749933,0.011999467
+conditioned,attachment_two_Amber_095,Amber,15.112782739474238,0.001616741
+conditioned,attachment_two_Amber_096,Amber,15.081945010624004,0.047745928
+conditioned,attachment_two_Amber_097,Amber,8.772419992705185,0.019219729
+conditioned,attachment_two_Amber_098,Amber,6.938620006407831,0.000509493
+conditioned,attachment_two_Amber_099,Amber,16.661494995164656,0.000300068
+conditioned,attachment_two_Amber_100,Amber,16.989564986053708,0.000509493
+conditioned,attachment_two_Blond_001,Blond,16.95995001681139,0.044510956
+conditioned,attachment_two_Blond_002,Blond,16.661494995164656,0.000153873
+conditioned,attachment_two_Blond_003,Blond,7.678215004214326,0.051620797
+conditioned,attachment_two_Blond_004,Blond,15.276254991062764,0.000509493
+conditioned,attachment_two_Blond_005,Blond,14.973879986568999,1.07e-05
+conditioned,attachment_two_Blond_006,Blond,16.661494995164656,0.000103534
+conditioned,attachment_two_Blond_007,Blond,14.864504985440357,0.056959527
+conditioned,attachment_two_Blond_008,Blond,16.161124985968083,0.062532405
+conditioned,attachment_two_Blond_009,Blond,17.512875005566006,0.0662418
+conditioned,attachment_two_Blond_010,Blond,18.96433000394151,0.003081258
+conditioned,attachment_two_Blond_011,Blond,14.79562999283543,0.000115329
+conditioned,attachment_two_Blond_012,Blond,15.925965001622558,0.001616741
+conditioned,attachment_two_Blond_013,Blond,6.60008500467526,0.000153873
+conditioned,attachment_two_Blond_014,Blond,16.161124985968083,0.041743092
+conditioned,attachment_two_Blond_015,Blond,17.282655017717452,0.042964961
+conditioned,attachment_two_Blond_016,Blond,15.558450017327774,0.042964961
+conditioned,attachment_two_Blond_017,Blond,16.38356000161322,8.95e-05
+conditioned,attachment_two_Blond_018,Blond,15.028305017191459,0.000153873
+conditioned,attachment_two_Blond_019,Blond,18.62554498075357,0.049043757
+conditioned,attachment_two_Blond_020,Blond,18.41872501186387,0.026961202
+conditioned,attachment_two_Blond_021,Blond,17.605334984576,0.054367266
+conditioned,attachment_two_Blond_022,Blond,14.278480014602374,8.95e-05
+conditioned,attachment_two_Blond_023,Blond,16.76254500967566,5e-05
+conditioned,attachment_two_Blond_024,Blond,18.464419989559758,0.011999467
+conditioned,attachment_two_Blond_025,Blond,17.282655017717452,0.041743092
+conditioned,attachment_two_Blond_026,Blond,17.67049001653276,0.051620797
+conditioned,attachment_two_Blond_027,Blond,15.600359984942767,0.080473797
+conditioned,attachment_two_Blond_028,Blond,15.925965001622558,6.3e-06
+conditioned,attachment_two_Blond_029,Blond,18.96433000394151,0.053657258
+conditioned,attachment_two_Blond_030,Blond,17.282655017717452,0.056959527
+conditioned,attachment_two_Blond_031,Blond,16.76254500967566,2.83e-06
+conditioned,attachment_two_Blond_032,Blond,18.916400004818033,0.041743092
+conditioned,attachment_two_Blond_033,Blond,14.855599995516986,0.067335605
+conditioned,attachment_two_Blond_034,Blond,16.989564986053708,0.000149215
+conditioned,attachment_two_Blond_035,Blond,18.972445021572597,0.003081258
+conditioned,attachment_two_Blond_036,Blond,17.512875005566006,0.026961202
+conditioned,attachment_two_Blond_037,Blond,15.276254991062764,0.001616741
+conditioned,attachment_two_Blond_038,Blond,14.98369999600975,0.000103534
+conditioned,attachment_two_Blond_039,Blond,17.512875005566006,0.011999467
+conditioned,attachment_two_Blond_040,Blond,18.41872501186387,0.000509493
+conditioned,attachment_two_Blond_041,Blond,18.62554498075357,0.00051192
+conditioned,attachment_two_Blond_042,Blond,15.187590016377074,0.067335605
+conditioned,attachment_two_Blond_043,Blond,17.605334984576,0.001628788
+conditioned,attachment_two_Blond_044,Blond,17.512875005566006,1.58e-05
+conditioned,attachment_two_Blond_045,Blond,16.930030012509533,0.000990559
+conditioned,attachment_two_Blond_046,Blond,18.916400004818033,0.035773067
+conditioned,attachment_two_Blond_047,Blond,15.250354986968484,0.07030041
+conditioned,attachment_two_Blond_048,Blond,17.512875005566006,0.035773067
+conditioned,attachment_two_Blond_049,Blond,14.464034998794766,0.062532405
+conditioned,attachment_two_Blond_050,Blond,8.670400006621858,0.035088328
+conditioned,attachment_two_Blond_051,Blond,14.442329993906716,6.3e-06
+conditioned,attachment_two_Blond_052,Blond,16.053695012177208,0.07030041
+conditioned,attachment_two_Blond_053,Blond,11.23082499814955,0.011999467
+conditioned,attachment_two_Blond_054,Blond,17.755470005086345,0.053657258
+conditioned,attachment_two_Blond_055,Blond,16.327430018731334,0.032551284
+conditioned,attachment_two_Blond_056,Blond,18.96433000394151,1.09e-07
+conditioned,attachment_two_Blond_057,Blond,15.558450017327774,0.076481108
+conditioned,attachment_two_Blond_058,Blond,16.161124985968083,0.053657258
+conditioned,attachment_two_Blond_059,Blond,8.340165005573722,1.31e-07
+conditioned,attachment_two_Blond_060,Blond,16.989564986053708,0.011999467
+conditioned,attachment_two_Blond_061,Blond,16.053695012177208,0.081835469
+conditioned,attachment_two_Blond_062,Blond,18.96433000394151,0.035773067
+conditioned,attachment_two_Blond_063,Blond,12.904434987863498,7.56e-05
+conditioned,attachment_two_Blond_064,Blond,16.672510016272245,0.035088328
+conditioned,attachment_two_Blond_065,Blond,14.855599995516986,0.003081258
+conditioned,attachment_two_Blond_066,Blond,15.925965001622558,0.00051192
+conditioned,attachment_two_Blond_067,Blond,15.081945010624004,0.070809562
+conditioned,attachment_two_Blond_068,Blond,15.243340014056395,0.089688045
+conditioned,attachment_two_Blond_069,Blond,11.463680011749933,0.051620797
+conditioned,attachment_two_Blond_070,Blond,16.38356000161322,0.089688045
+conditioned,attachment_two_Blond_071,Blond,18.41872501186387,0.062532405
+conditioned,attachment_two_Blond_072,Blond,16.76254500967566,0.026185308
+conditioned,attachment_two_Blond_073,Blond,10.698150002588719,0.067335605
+conditioned,attachment_two_Blond_074,Blond,12.474924991419691,0.045365705
+conditioned,attachment_two_Blond_075,Blond,3.5756550009332426,0.054548416
+conditioned,attachment_two_Blond_076,Blond,18.41872501186387,0.080473797
+conditioned,attachment_two_Blond_077,Blond,18.464419989559758,0.051620797
+conditioned,attachment_two_Blond_078,Blond,18.96433000394151,0.000115329
+conditioned,attachment_two_Blond_079,Blond,15.028305017191459,0.000118014
+conditioned,attachment_two_Blond_080,Blond,18.916400004818033,0.070809562
+conditioned,attachment_two_Blond_081,Blond,15.069739984545011,1.07e-05
+conditioned,attachment_two_Blond_082,Blond,18.464419989559758,0.042964961
+conditioned,attachment_two_Blond_083,Blond,18.972445021572597,0.000153873
+conditioned,attachment_two_Blond_084,Blond,18.41872501186387,2.83e-06
+conditioned,attachment_two_Blond_085,Blond,15.112782739474238,0.042964961
+conditioned,attachment_two_Blond_086,Blond,6.938620006407831,0.026961202
+conditioned,attachment_two_Blond_087,Blond,18.62554498075357,0.011558576
+conditioned,attachment_two_Blond_088,Blond,15.558450017327774,0.000149215
+conditioned,attachment_two_Blond_089,Blond,15.600359984942767,0.051620797
+conditioned,attachment_two_Blond_090,Blond,14.864504985440357,0.011816796
+conditioned,attachment_two_Blond_091,Blond,17.67049001653276,0.054367266
+conditioned,attachment_two_Blond_092,Blond,16.672510016272245,0.011816796
+conditioned,attachment_two_Blond_093,Blond,18.96433000394151,5e-05
+conditioned,attachment_two_Blond_094,Blond,15.250354986968484,0.000115329
+conditioned,attachment_two_Blond_095,Blond,16.60749498619333,0.035773067
+conditioned,attachment_two_Blond_096,Blond,16.38356000161322,0.088736603
+conditioned,attachment_two_Blond_097,Blond,16.38356000161322,0.026961202
+conditioned,attachment_two_Blond_098,Blond,16.95995001681139,0.058912893
+conditioned,attachment_two_Blond_099,Blond,17.755470005086345,0.053657258
+conditioned,attachment_two_Blond_100,Blond,16.930030012509533,0.058912893
+conditioned,attachment_two_Brett_cofermented_001,Brett/cofermented,16.661494995164656,8.9e-05
+conditioned,attachment_two_Brett_cofermented_002,Brett/cofermented,14.072089998419486,0.000103534
+conditioned,attachment_two_Brett_cofermented_003,Brett/cofermented,18.96433000394151,0.055770044
+conditioned,attachment_two_Brett_cofermented_004,Brett/cofermented,11.736514995705097,0.045365705
+conditioned,attachment_two_Brett_cofermented_005,Brett/cofermented,15.081945010624004,0.011999467
+conditioned,attachment_two_Brett_cofermented_006,Brett/cofermented,11.18335999073931,0.034258911
+conditioned,attachment_two_Brett_cofermented_007,Brett/cofermented,17.740209979840053,0.07030041
+conditioned,attachment_two_Brett_cofermented_008,Brett/cofermented,17.512875005566006,0.053657258
+conditioned,attachment_two_Brett_cofermented_009,Brett/cofermented,12.914694996691294,5e-05
+conditioned,attachment_two_Brett_cofermented_010,Brett/cofermented,10.561749990640216,0.081835469
+conditioned,attachment_two_Brett_cofermented_011,Brett/cofermented,18.62554498075357,0.055770044
+conditioned,attachment_two_Brett_cofermented_012,Brett/cofermented,18.62554498075357,0.07407538
+conditioned,attachment_two_Brett_cofermented_013,Brett/cofermented,10.792594996292964,0.011816796
+conditioned,attachment_two_Brett_cofermented_014,Brett/cofermented,15.243340014056395,0.001415959
+conditioned,attachment_two_Brett_cofermented_015,Brett/cofermented,18.41872501186387,3.93e-06
+conditioned,attachment_two_Brett_cofermented_016,Brett/cofermented,14.864504985440357,0.076481108
+conditioned,attachment_two_Brett_cofermented_017,Brett/cofermented,8.670400006621858,0.089688045
+conditioned,attachment_two_Brett_cofermented_018,Brett/cofermented,18.972445021572597,5.9e-08
+conditioned,attachment_two_Brett_cofermented_019,Brett/cofermented,18.916400004818033,0.000118014
+conditioned,attachment_two_Brett_cofermented_020,Brett/cofermented,17.605334984576,0.053657258
+conditioned,attachment_two_Brett_cofermented_021,Brett/cofermented,8.999089995408912,0.034258911
+conditioned,attachment_two_Brett_cofermented_022,Brett/cofermented,17.512875005566006,0.000990559
+conditioned,attachment_two_Brett_cofermented_023,Brett/cofermented,18.972445021572597,0.079352911
+conditioned,attachment_two_Brett_cofermented_024,Brett/cofermented,11.81196498808183,0.051620797
+conditioned,attachment_two_Brett_cofermented_025,Brett/cofermented,15.558450017327774,0.0662418
+conditioned,attachment_two_Brett_cofermented_026,Brett/cofermented,15.069739984545011,0.001616741
+conditioned,attachment_two_Brett_cofermented_027,Brett/cofermented,15.243340014056395,0.049043757
+conditioned,attachment_two_Brett_cofermented_028,Brett/cofermented,13.021794998880804,0.026185308
+conditioned,attachment_two_Brett_cofermented_029,Brett/cofermented,12.914694996691294,0.000990559
+conditioned,attachment_two_Brett_cofermented_030,Brett/cofermented,8.120934992350033,0.032551284
+conditioned,attachment_two_Brett_cofermented_031,Brett/cofermented,15.250354986968484,0.053657258
+conditioned,attachment_two_Brett_cofermented_032,Brett/cofermented,11.18335999073931,0.080473797
+conditioned,attachment_two_Brett_cofermented_033,Brett/cofermented,17.740209979840053,0.000149215
+conditioned,attachment_two_Brett_cofermented_034,Brett/cofermented,16.95995001681139,8.9e-05
+conditioned,attachment_two_Brett_cofermented_035,Brett/cofermented,15.243340014056395,0.089688045
+conditioned,attachment_two_Brett_cofermented_036,Brett/cofermented,15.600359984942767,0.026961202
+conditioned,attachment_two_Brett_cofermented_037,Brett/cofermented,18.464419989559758,0.053649153
+conditioned,attachment_two_Brett_cofermented_038,Brett/cofermented,15.112782739474238,0.04906384
+conditioned,attachment_two_Brett_cofermented_039,Brett/cofermented,16.930030012509533,0.053649153
+conditioned,attachment_two_Brett_cofermented_040,Brett/cofermented,15.600359984942767,0.049043757
+conditioned,attachment_two_Brett_cofermented_041,Brett/cofermented,12.914694996691294,0.089688045
+conditioned,attachment_two_Brett_cofermented_042,Brett/cofermented,18.464419989559758,0.044510956
+conditioned,attachment_two_Brett_cofermented_043,Brett/cofermented,16.930030012509533,0.089688045
+conditioned,attachment_two_Brett_cofermented_044,Brett/cofermented,9.557384999133165,0.062532405
+conditioned,attachment_two_Brett_cofermented_045,Brett/cofermented,8.772419992705185,0.026961202
+conditioned,attachment_two_Brett_cofermented_046,Brett/cofermented,18.96433000394151,0.000149215
+conditioned,attachment_two_Brett_cofermented_047,Brett/cofermented,16.989564986053708,0.080828508
+conditioned,attachment_two_Brett_cofermented_048,Brett/cofermented,16.161124985968083,7.56e-05
+conditioned,attachment_two_Brett_cofermented_049,Brett/cofermented,18.464419989559758,1.09e-07
+conditioned,attachment_two_Brett_cofermented_050,Brett/cofermented,15.243340014056395,0.026185308
+conditioned,attachment_two_Brett_cofermented_051,Brett/cofermented,17.512875005566006,0.054548416
+conditioned,attachment_two_Brett_cofermented_052,Brett/cofermented,18.62554498075357,0.032551284
+conditioned,attachment_two_Brett_cofermented_053,Brett/cofermented,7.933115000908002,0.035773067
+conditioned,attachment_two_Brett_cofermented_054,Brett/cofermented,15.243340014056395,0.00051192
+conditioned,attachment_two_Brett_cofermented_055,Brett/cofermented,18.41872501186387,0.000103534
+conditioned,attachment_two_Brett_cofermented_056,Brett/cofermented,16.60749498619333,0.054548416
+conditioned,attachment_two_Brett_cofermented_057,Brett/cofermented,15.250354986968484,0.076481108
+conditioned,attachment_two_Brett_cofermented_058,Brett/cofermented,15.276254991062764,0.000509493
+conditioned,attachment_two_Brett_cofermented_059,Brett/cofermented,8.358765008462843,0.07407538
+conditioned,attachment_two_Brett_cofermented_060,Brett/cofermented,8.858684996430867,0.089688045
+conditioned,attachment_two_Brett_cofermented_061,Brett/cofermented,16.661494995164656,0.000149215
+conditioned,attachment_two_Brett_cofermented_062,Brett/cofermented,15.925965001622558,0.034258911
+conditioned,attachment_two_Brett_cofermented_063,Brett/cofermented,16.672510016272245,0.011558576
+conditioned,attachment_two_Brett_cofermented_064,Brett/cofermented,16.60749498619333,0.080473797
+conditioned,attachment_two_Brett_cofermented_065,Brett/cofermented,17.740209979840053,0.011558576
+conditioned,attachment_two_Brett_cofermented_066,Brett/cofermented,16.76254500967566,0.026961202
+conditioned,attachment_two_Brett_cofermented_067,Brett/cofermented,12.904434987863498,0.026961202
+conditioned,attachment_two_Brett_cofermented_068,Brett/cofermented,8.358765008462843,0.000103534
+conditioned,attachment_two_Brett_cofermented_069,Brett/cofermented,16.327430018731334,0.001415959
+conditioned,attachment_two_Brett_cofermented_070,Brett/cofermented,12.474924991419691,0.062532405
+conditioned,attachment_two_Brett_cofermented_071,Brett/cofermented,16.989564986053708,0.045365705
+conditioned,attachment_two_Brett_cofermented_072,Brett/cofermented,18.62554498075357,0.07030041
+conditioned,attachment_two_Brett_cofermented_073,Brett/cofermented,16.661494995164656,0.070809562
+conditioned,attachment_two_Brett_cofermented_074,Brett/cofermented,14.072089998419486,0.080473797
+conditioned,attachment_two_Brett_cofermented_075,Brett/cofermented,18.464419989559758,0.026961202
+conditioned,attachment_two_Brett_cofermented_076,Brett/cofermented,16.161124985968083,0.079352911
+conditioned,attachment_two_Brett_cofermented_077,Brett/cofermented,12.034840004996626,0.019219729
+conditioned,attachment_two_Brett_cofermented_078,Brett/cofermented,12.510575005427443,0.061918658
+conditioned,attachment_two_Brett_cofermented_079,Brett/cofermented,11.18335999073931,0.081835469
+conditioned,attachment_two_Brett_cofermented_080,Brett/cofermented,16.930030012509533,0.089688045
+conditioned,attachment_two_Brett_cofermented_081,Brett/cofermented,16.672510016272245,0.001628788
+conditioned,attachment_two_Brett_cofermented_082,Brett/cofermented,16.60749498619333,0.051620797
+conditioned,attachment_two_Brett_cofermented_083,Brett/cofermented,8.628049996086517,0.000509493
+conditioned,attachment_two_Brett_cofermented_084,Brett/cofermented,15.243340014056395,0.001628788
+conditioned,attachment_two_Brett_cofermented_085,Brett/cofermented,16.76254500967566,0.000323439
+conditioned,attachment_two_Brett_cofermented_086,Brett/cofermented,14.855599995516986,0.011999467
+conditioned,attachment_two_Brett_cofermented_087,Brett/cofermented,18.972445021572597,0.049043757
+conditioned,attachment_two_Brett_cofermented_088,Brett/cofermented,12.904434987863498,0.000153873
+conditioned,attachment_two_Brett_cofermented_089,Brett/cofermented,16.161124985968083,5.9e-08
+conditioned,attachment_two_Brett_cofermented_090,Brett/cofermented,16.053695012177208,0.011558576
+conditioned,attachment_two_Brett_cofermented_091,Brett/cofermented,14.855599995516986,1.09e-07
+conditioned,attachment_two_Brett_cofermented_092,Brett/cofermented,10.561749990640216,0.000509493
+conditioned,attachment_two_Brett_cofermented_093,Brett/cofermented,10.045070011192303,0.058912893
+conditioned,attachment_two_Brett_cofermented_094,Brett/cofermented,11.18335999073931,0.045365705
+conditioned,attachment_two_Brett_cofermented_095,Brett/cofermented,15.925965001622558,0.070809562
+conditioned,attachment_two_Brett_cofermented_096,Brett/cofermented,8.858684996430867,0.044510956
+conditioned,attachment_two_Brett_cofermented_097,Brett/cofermented,14.864504985440357,0.067335605
+conditioned,attachment_two_Brett_cofermented_098,Brett/cofermented,18.96433000394151,0.0662418
+conditioned,attachment_two_Brett_cofermented_099,Brett/cofermented,16.327430018731334,0.049043757
+conditioned,attachment_two_Brett_cofermented_100,Brett/cofermented,18.62554498075357,0.026961202
+conditioned,attachment_two_Brown_001,Brown,18.41872501186387,0.001616741
+conditioned,attachment_two_Brown_002,Brown,16.930030012509533,0.000103534
+conditioned,attachment_two_Brown_003,Brown,15.243340014056395,0.003081258
+conditioned,attachment_two_Brown_004,Brown,18.464419989559758,2.83e-06
+conditioned,attachment_two_Brown_005,Brown,18.62554498075357,0.053649153
+conditioned,attachment_two_Brown_006,Brown,16.327430018731334,0.042964961
+conditioned,attachment_two_Brown_007,Brown,9.557384999133165,0.00051192
+conditioned,attachment_two_Brown_008,Brown,14.98369999600975,0.053657258
+conditioned,attachment_two_Brown_009,Brown,18.96433000394151,0.061918658
+conditioned,attachment_two_Brown_010,Brown,16.053695012177208,3.93e-06
+conditioned,attachment_two_Brown_011,Brown,11.736514995705097,0.04906384
+conditioned,attachment_two_Brown_012,Brown,17.605334984576,0.080473797
+conditioned,attachment_two_Brown_013,Brown,17.755470005086345,0.010201642
+conditioned,attachment_two_Brown_014,Brown,14.072089998419486,0.000323439
+conditioned,attachment_two_Brown_015,Brown,18.464419989559758,0.010201642
+conditioned,attachment_two_Brown_016,Brown,15.243340014056395,0.011816796
+conditioned,attachment_two_Brown_017,Brown,15.558450017327774,0.076481108
+conditioned,attachment_two_Brown_018,Brown,9.876804989110045,0.049043757
+conditioned,attachment_two_Brown_019,Brown,16.76254500967566,0.026185308
+conditioned,attachment_two_Brown_020,Brown,15.558450017327774,0.045365705
+conditioned,attachment_two_Brown_021,Brown,14.864504985440357,0.047745928
+conditioned,attachment_two_Brown_022,Brown,6.926440007735439,0.001415959
+conditioned,attachment_two_Brown_023,Brown,8.340165005573722,0.042964961
+conditioned,attachment_two_Brown_024,Brown,18.972445021572597,7.56e-05
+conditioned,attachment_two_Brown_025,Brown,18.41872501186387,8.95e-05
+conditioned,attachment_two_Brown_026,Brown,16.76254500967566,0.042964961
+conditioned,attachment_two_Brown_027,Brown,5.684249994011359,0.026961202
+conditioned,attachment_two_Brown_028,Brown,17.67049001653276,0.000509493
+conditioned,attachment_two_Brown_029,Brown,12.914694996691294,0.019219729
+conditioned,attachment_two_Brown_030,Brown,16.661494995164656,0.0662418
+conditioned,attachment_two_Brown_031,Brown,15.250354986968484,0.019219729
+conditioned,attachment_two_Brown_032,Brown,18.916400004818033,0.019219729
+conditioned,attachment_two_Brown_033,Brown,12.034840004996626,1.58e-05
+conditioned,attachment_two_Brown_034,Brown,14.464034998794766,1.58e-05
+conditioned,attachment_two_Brown_035,Brown,17.605334984576,0.07030041
+conditioned,attachment_two_Brown_036,Brown,9.876804989110045,7.56e-05
+conditioned,attachment_two_Brown_037,Brown,12.904434987863498,0.070809562
+conditioned,attachment_two_Brown_038,Brown,6.60008500467526,0.010201642
+conditioned,attachment_two_Brown_039,Brown,12.904434987863498,0.079352911
+conditioned,attachment_two_Brown_040,Brown,12.474924991419691,0.034258911
+conditioned,attachment_two_Brown_041,Brown,11.81196498808183,0.0662418
+conditioned,attachment_two_Brown_042,Brown,12.170240008294504,8.9e-05
+conditioned,attachment_two_Brown_043,Brown,18.972445021572597,0.076481108
+conditioned,attachment_two_Brown_044,Brown,17.605334984576,0.041743092
+conditioned,attachment_two_Brown_045,Brown,12.904434987863498,0.000118014
+conditioned,attachment_two_Brown_046,Brown,10.887784992220478,0.054367266
+conditioned,attachment_two_Brown_047,Brown,8.772419992705185,0.001415959
+conditioned,attachment_two_Brown_048,Brown,8.358765008462843,0.000990559
+conditioned,attachment_two_Brown_049,Brown,9.557384999133165,0.089688045
+conditioned,attachment_two_Brown_050,Brown,18.916400004818033,0.080473797
+conditioned,attachment_two_Brown_051,Brown,14.278480014602374,0.000103534
+conditioned,attachment_two_Brown_052,Brown,10.792594996292964,0.076481108
+conditioned,attachment_two_Brown_053,Brown,17.755470005086345,0.010201642
+conditioned,attachment_two_Brown_054,Brown,14.855599995516986,0.026961202
+conditioned,attachment_two_Brown_055,Brown,18.41872501186387,5e-05
+conditioned,attachment_two_Brown_056,Brown,11.18335999073931,0.080473797
+conditioned,attachment_two_Brown_057,Brown,13.021794998880804,0.058912893
+conditioned,attachment_two_Brown_058,Brown,18.972445021572597,0.000509493
+conditioned,attachment_two_Brown_059,Brown,18.41872501186387,0.054548416
+conditioned,attachment_two_Brown_060,Brown,16.053695012177208,3.93e-06
+conditioned,attachment_two_Brown_061,Brown,15.028305017191459,0.001616741
+conditioned,attachment_two_Brown_062,Brown,11.736514995705097,0.07407538
+conditioned,attachment_two_Brown_063,Brown,15.276254991062764,0.002064095
+conditioned,attachment_two_Brown_064,Brown,9.876804989110045,0.051620797
+conditioned,attachment_two_Brown_065,Brown,16.053695012177208,0.081835469
+conditioned,attachment_two_Brown_066,Brown,15.250354986968484,0.04906384
+conditioned,attachment_two_Brown_067,Brown,14.864504985440357,0.07407538
+conditioned,attachment_two_Brown_068,Brown,12.474924991419691,0.047745928
+conditioned,attachment_two_Brown_069,Brown,16.379755018172073,0.035773067
+conditioned,attachment_two_Brown_070,Brown,16.76254500967566,0.047745928
+conditioned,attachment_two_Brown_071,Brown,14.973879986568999,0.000118014
+conditioned,attachment_two_Brown_072,Brown,12.914694996691294,0.000300068
+conditioned,attachment_two_Brown_073,Brown,8.772419992705185,0.011999467
+conditioned,attachment_two_Brown_074,Brown,17.755470005086345,0.000509493
+conditioned,attachment_two_Brown_075,Brown,15.187590016377074,1.09e-07
+conditioned,attachment_two_Brown_076,Brown,14.98369999600975,0.054548416
+conditioned,attachment_two_Brown_077,Brown,7.933115000908002,0.019219729
+conditioned,attachment_two_Brown_078,Brown,16.989564986053708,0.000509493
+conditioned,attachment_two_Brown_079,Brown,9.876804989110045,1.09e-07
+conditioned,attachment_two_Brown_080,Brown,9.557384999133165,0.000509493
+conditioned,attachment_two_Brown_081,Brown,12.170240008294504,0.053649153
+conditioned,attachment_two_Brown_082,Brown,8.858684996430867,0.034258911
+conditioned,attachment_two_Brown_083,Brown,14.973879986568999,0.089688045
+conditioned,attachment_two_Brown_084,Brown,11.81196498808183,0.026961202
+conditioned,attachment_two_Brown_085,Brown,11.463680011749933,0.07407538
+conditioned,attachment_two_Brown_086,Brown,13.970459993626708,0.000149215
+conditioned,attachment_two_Brown_087,Brown,17.605334984576,8.95e-05
+conditioned,attachment_two_Brown_088,Brown,12.170240008294504,0.07407538
+conditioned,attachment_two_Brown_089,Brown,14.973879986568999,0.041743092
+conditioned,attachment_two_Brown_090,Brown,10.282825005844419,0.000323439
+conditioned,attachment_two_Brown_091,Brown,18.41872501186387,0.000103534
+conditioned,attachment_two_Brown_092,Brown,12.510575005427443,0.054367266
+conditioned,attachment_two_Brown_093,Brown,18.972445021572597,0.053657258
+conditioned,attachment_two_Brown_094,Brown,15.250354986968484,0.00051192
+conditioned,attachment_two_Brown_095,Brown,16.053695012177208,0.080473797
+conditioned,attachment_two_Brown_096,Brown,17.755470005086345,0.080473797
+conditioned,attachment_two_Brown_097,Brown,12.904434987863498,0.0662418
+conditioned,attachment_two_Brown_098,Brown,12.474924991419691,0.049043757
+conditioned,attachment_two_Brown_099,Brown,16.930030012509533,0.011999467
+conditioned,attachment_two_Brown_100,Brown,12.510575005427443,0.044510956
+conditioned,attachment_two_Brut_001,Brut,17.605334984576,6.3e-06
+conditioned,attachment_two_Brut_002,Brut,17.67049001653276,0.001628788
+conditioned,attachment_two_Brut_003,Brut,18.62554498075357,0.054367266
+conditioned,attachment_two_Brut_004,Brut,17.282655017717452,1.58e-05
+conditioned,attachment_two_Brut_005,Brut,17.282655017717452,0.054548416
+conditioned,attachment_two_Brut_006,Brut,17.67049001653276,0.07407538
+conditioned,attachment_two_Brut_007,Brut,17.740209979840053,0.0662418
+conditioned,attachment_two_Brut_008,Brut,16.76254500967566,0.011999467
+conditioned,attachment_two_Brut_009,Brut,14.855599995516986,0.000115329
+conditioned,attachment_two_Brut_010,Brut,13.970459993626708,0.070809562
+conditioned,attachment_two_Brut_011,Brut,18.62554498075357,0.041743092
+conditioned,attachment_two_Brut_012,Brut,17.282655017717452,0.070809562
+conditioned,attachment_two_Brut_013,Brut,16.989564986053708,5e-05
+conditioned,attachment_two_Brut_014,Brut,16.161124985968083,0.042964961
+conditioned,attachment_two_Brut_015,Brut,14.464034998794766,0.035773067
+conditioned,attachment_two_Brut_016,Brut,17.605334984576,8.95e-05
+conditioned,attachment_two_Brut_017,Brut,18.972445021572597,1.07e-05
+conditioned,attachment_two_Brut_018,Brut,16.60749498619333,0.00051192
+conditioned,attachment_two_Brut_019,Brut,18.62554498075357,0.000115329
+conditioned,attachment_two_Brut_020,Brut,18.96433000394151,0.062532405
+conditioned,attachment_two_Brut_021,Brut,7.933115000908002,0.041743092
+conditioned,attachment_two_Brut_022,Brut,12.904434987863498,0.001616741
+conditioned,attachment_two_Brut_023,Brut,9.557384999133165,0.010201642
+conditioned,attachment_two_Brut_024,Brut,15.069739984545011,0.000103534
+conditioned,attachment_two_Brut_025,Brut,14.98369999600975,0.0662418
+conditioned,attachment_two_Brut_026,Brut,17.605334984576,0.055770044
+conditioned,attachment_two_Brut_027,Brut,16.661494995164656,0.035773067
+conditioned,attachment_two_Brut_028,Brut,15.250354986968484,0.000300068
+conditioned,attachment_two_Brut_029,Brut,16.989564986053708,0.061918658
+conditioned,attachment_two_Brut_030,Brut,16.161124985968083,0.089688045
+conditioned,attachment_two_Brut_031,Brut,15.600359984942767,0.010201642
+conditioned,attachment_two_Brut_032,Brut,16.930030012509533,0.061918658
+conditioned,attachment_two_Brut_033,Brut,15.028305017191459,0.035773067
+conditioned,attachment_two_Brut_034,Brut,16.672510016272245,0.058912893
+conditioned,attachment_two_Brut_035,Brut,14.79562999283543,5.9e-08
+conditioned,attachment_two_Brut_036,Brut,18.62554498075357,0.053657258
+conditioned,attachment_two_Brut_037,Brut,18.464419989559758,0.070809562
+conditioned,attachment_two_Brut_038,Brut,14.278480014602374,5e-05
+conditioned,attachment_two_Brut_039,Brut,16.661494995164656,0.049043757
+conditioned,attachment_two_Brut_040,Brut,10.698150002588719,3.93e-06
+conditioned,attachment_two_Brut_041,Brut,15.617844987798593,0.080473797
+conditioned,attachment_two_Brut_042,Brut,11.81196498808183,8.95e-05
+conditioned,attachment_two_Brut_043,Brut,18.916400004818033,0.067335605
+conditioned,attachment_two_Brut_044,Brut,16.76254500967566,0.001415959
+conditioned,attachment_two_Brut_045,Brut,15.617844987798593,1.09e-07
+conditioned,attachment_two_Brut_046,Brut,18.972445021572597,0.045365705
+conditioned,attachment_two_Brut_047,Brut,13.021794998880804,0.002064095
+conditioned,attachment_two_Brut_048,Brut,6.663104998213416,0.079352911
+conditioned,attachment_two_Brut_049,Brut,16.76254500967566,0.04906384
+conditioned,attachment_two_Brut_050,Brut,16.161124985968083,0.080828508
+conditioned,attachment_two_Brut_051,Brut,14.464034998794766,0.000323439
+conditioned,attachment_two_Brut_052,Brut,14.855599995516986,0.000118014
+conditioned,attachment_two_Brut_053,Brut,17.512875005566006,0.011999467
+conditioned,attachment_two_Brut_054,Brut,16.053695012177208,0.034258911
+conditioned,attachment_two_Brut_055,Brut,15.276254991062764,0.080828508
+conditioned,attachment_two_Brut_056,Brut,18.96433000394151,1.31e-07
+conditioned,attachment_two_Brut_057,Brut,16.672510016272245,0.000990559
+conditioned,attachment_two_Brut_058,Brut,15.069739984545011,0.049043757
+conditioned,attachment_two_Brut_059,Brut,16.930030012509533,0.000149215
+conditioned,attachment_two_Brut_060,Brut,15.250354986968484,0.003081258
+conditioned,attachment_two_Brut_061,Brut,16.661494995164656,0.001415959
+conditioned,attachment_two_Brut_062,Brut,10.887784992220478,0.079352911
+conditioned,attachment_two_Brut_063,Brut,8.358765008462843,0.054548416
+conditioned,attachment_two_Brut_064,Brut,18.96433000394151,0.062532405
+conditioned,attachment_two_Brut_065,Brut,16.95995001681139,1.58e-05
+conditioned,attachment_two_Brut_066,Brut,16.661494995164656,8.95e-05
+conditioned,attachment_two_Brut_067,Brut,18.62554498075357,0.026185308
+conditioned,attachment_two_Brut_068,Brut,18.972445021572597,0.04906384
+conditioned,attachment_two_Brut_069,Brut,12.474924991419691,0.002064095
+conditioned,attachment_two_Brut_070,Brut,18.96433000394151,7.56e-05
+conditioned,attachment_two_Brut_071,Brut,18.916400004818033,0.070809562
+conditioned,attachment_two_Brut_072,Brut,14.855599995516986,0.042964961
+conditioned,attachment_two_Brut_073,Brut,16.672510016272245,8.9e-05
+conditioned,attachment_two_Brut_074,Brut,18.972445021572597,0.056959527
+conditioned,attachment_two_Brut_075,Brut,17.282655017717452,0.000149215
+conditioned,attachment_two_Brut_076,Brut,16.95995001681139,0.000153873
+conditioned,attachment_two_Brut_077,Brut,9.557384999133165,1.09e-07
+conditioned,attachment_two_Brut_078,Brut,15.028305017191459,0.000323439
+conditioned,attachment_two_Brut_079,Brut,18.464419989559758,0.001628788
+conditioned,attachment_two_Brut_080,Brut,15.028305017191459,3.93e-06
+conditioned,attachment_two_Brut_081,Brut,7.933115000908002,0.002064095
+conditioned,attachment_two_Brut_082,Brut,16.95995001681139,0.054548416
+conditioned,attachment_two_Brut_083,Brut,18.464419989559758,0.080828508
+conditioned,attachment_two_Brut_084,Brut,11.81196498808183,0.035088328
+conditioned,attachment_two_Brut_085,Brut,16.95995001681139,0.00051192
+conditioned,attachment_two_Brut_086,Brut,15.925965001622558,0.001415959
+conditioned,attachment_two_Brut_087,Brut,10.561749990640216,0.089688045
+conditioned,attachment_two_Brut_088,Brut,16.661494995164656,0.070809562
+conditioned,attachment_two_Brut_089,Brut,16.672510016272245,0.054367266
+conditioned,attachment_two_Brut_090,Brut,16.989564986053708,0.051620797
+conditioned,attachment_two_Brut_091,Brut,15.028305017191459,0.011816796
+conditioned,attachment_two_Brut_092,Brut,16.90052998886136,8.9e-05
+conditioned,attachment_two_Brut_093,Brut,18.972445021572597,0.011816796
+conditioned,attachment_two_Brut_094,Brut,14.855599995516986,0.04906384
+conditioned,attachment_two_Brut_095,Brut,8.340165005573722,0.000300068
+conditioned,attachment_two_Brut_096,Brut,15.187590016377074,0.080473797
+conditioned,attachment_two_Brut_097,Brut,17.740209979840053,0.035773067
+conditioned,attachment_two_Brut_098,Brut,10.561749990640216,0.051620797
+conditioned,attachment_two_Brut_099,Brut,16.95995001681139,0.081835469
+conditioned,attachment_two_Brut_100,Brut,11.18335999073931,8.9e-05
+conditioned,attachment_two_Christmas_001,Christmas,13.970459993626708,8.95e-05
+conditioned,attachment_two_Christmas_002,Christmas,18.41872501186387,0.011558576
+conditioned,attachment_two_Christmas_003,Christmas,10.045070011192303,0.045365705
+conditioned,attachment_two_Christmas_004,Christmas,15.069739984545011,0.055770044
+conditioned,attachment_two_Christmas_005,Christmas,17.67049001653276,1.31e-07
+conditioned,attachment_two_Christmas_006,Christmas,10.282825005844419,0.00051192
+conditioned,attachment_two_Christmas_007,Christmas,12.904434987863498,0.054367266
+conditioned,attachment_two_Christmas_008,Christmas,15.243340014056395,0.067335605
+conditioned,attachment_two_Christmas_009,Christmas,12.170240008294504,0.056959527
+conditioned,attachment_two_Christmas_010,Christmas,15.243340014056395,0.041743092
+conditioned,attachment_two_Christmas_011,Christmas,14.295990009543798,0.07407538
+conditioned,attachment_two_Christmas_012,Christmas,14.072089998419486,0.041743092
+conditioned,attachment_two_Christmas_013,Christmas,17.605334984576,0.056959527
+conditioned,attachment_two_Christmas_014,Christmas,17.67049001653276,0.061918658
+conditioned,attachment_two_Christmas_015,Christmas,11.463680011749933,0.034258911
+conditioned,attachment_two_Christmas_016,Christmas,8.772419992705185,0.088736603
+conditioned,attachment_two_Christmas_017,Christmas,11.18335999073931,0.000300068
+conditioned,attachment_two_Christmas_018,Christmas,18.972445021572597,0.088736603
+conditioned,attachment_two_Christmas_019,Christmas,14.278480014602374,3.93e-06
+conditioned,attachment_two_Christmas_020,Christmas,16.90052998886136,8.95e-05
+conditioned,attachment_two_Christmas_021,Christmas,14.864504985440357,1.31e-07
+conditioned,attachment_two_Christmas_022,Christmas,16.90052998886136,0.000103534
+conditioned,attachment_two_Christmas_023,Christmas,14.464034998794766,0.056959527
+conditioned,attachment_two_Christmas_024,Christmas,15.069739984545011,0.070809562
+conditioned,attachment_two_Christmas_025,Christmas,12.170240008294504,0.000153873
+conditioned,attachment_two_Christmas_026,Christmas,17.67049001653276,0.051620797
+conditioned,attachment_two_Christmas_027,Christmas,14.79562999283543,0.079352911
+conditioned,attachment_two_Christmas_028,Christmas,17.67049001653276,0.081835469
+conditioned,attachment_two_Christmas_029,Christmas,8.772419992705185,0.080828508
+conditioned,attachment_two_Christmas_030,Christmas,8.999089995408912,0.051620797
+conditioned,attachment_two_Christmas_031,Christmas,12.474924991419691,0.000153873
+conditioned,attachment_two_Christmas_032,Christmas,17.67049001653276,0.035088328
+conditioned,attachment_two_Christmas_033,Christmas,16.379755018172073,0.019219729
+conditioned,attachment_two_Christmas_034,Christmas,11.463680011749933,0.000300068
+conditioned,attachment_two_Christmas_035,Christmas,17.512875005566006,0.001415959
+conditioned,attachment_two_Christmas_036,Christmas,9.557384999133165,0.089688045
+conditioned,attachment_two_Christmas_037,Christmas,14.79562999283543,0.003081258
+conditioned,attachment_two_Christmas_038,Christmas,14.855599995516986,0.080828508
+conditioned,attachment_two_Christmas_039,Christmas,16.989564986053708,0.001415959
+conditioned,attachment_two_Christmas_040,Christmas,14.295990009543798,0.045365705
+conditioned,attachment_two_Christmas_041,Christmas,11.463680011749933,0.049043757
+conditioned,attachment_two_Christmas_042,Christmas,11.23082499814955,0.054548416
+conditioned,attachment_two_Christmas_043,Christmas,15.250354986968484,0.055770044
+conditioned,attachment_two_Christmas_044,Christmas,17.512875005566006,8.9e-05
+conditioned,attachment_two_Christmas_045,Christmas,12.170240008294504,0.055770044
+conditioned,attachment_two_Christmas_046,Christmas,12.170240008294504,0.049043757
+conditioned,attachment_two_Christmas_047,Christmas,17.605334984576,0.054548416
+conditioned,attachment_two_Christmas_048,Christmas,10.282825005844419,0.058912893
+conditioned,attachment_two_Christmas_049,Christmas,16.60749498619333,6.3e-06
+conditioned,attachment_two_Christmas_050,Christmas,15.112782739474238,0.070809562
+conditioned,attachment_two_Christmas_051,Christmas,16.60749498619333,0.019219729
+conditioned,attachment_two_Christmas_052,Christmas,17.512875005566006,0.07030041
+conditioned,attachment_two_Christmas_053,Christmas,16.161124985968083,0.051620797
+conditioned,attachment_two_Christmas_054,Christmas,14.973879986568999,0.047745928
+conditioned,attachment_two_Christmas_055,Christmas,12.914694996691294,1.09e-07
+conditioned,attachment_two_Christmas_056,Christmas,18.41872501186387,6.3e-06
+conditioned,attachment_two_Christmas_057,Christmas,11.18335999073931,0.051620797
+conditioned,attachment_two_Christmas_058,Christmas,8.772419992705185,2.83e-06
+conditioned,attachment_two_Christmas_059,Christmas,14.442329993906716,0.000300068
+conditioned,attachment_two_Christmas_060,Christmas,8.772419992705185,0.061918658
+conditioned,attachment_two_Christmas_061,Christmas,16.76254500967566,0.055770044
+conditioned,attachment_two_Christmas_062,Christmas,15.250354986968484,7.56e-05
+conditioned,attachment_two_Christmas_063,Christmas,11.463680011749933,0.010201642
+conditioned,attachment_two_Christmas_064,Christmas,18.972445021572597,0.011816796
+conditioned,attachment_two_Christmas_065,Christmas,6.576494996001657,0.049043757
+conditioned,attachment_two_Christmas_066,Christmas,16.930030012509533,0.055770044
+conditioned,attachment_two_Christmas_067,Christmas,11.18335999073931,0.070809562
+conditioned,attachment_two_Christmas_068,Christmas,12.170240008294504,0.003081258
+conditioned,attachment_two_Christmas_069,Christmas,8.358765008462843,0.054548416
+conditioned,attachment_two_Christmas_070,Christmas,18.972445021572597,5e-05
+conditioned,attachment_two_Christmas_071,Christmas,9.545992503995821,0.000103534
+conditioned,attachment_two_Christmas_072,Christmas,10.698150002588719,0.000153873
+conditioned,attachment_two_Christmas_073,Christmas,8.670400006621858,0.053657258
+conditioned,attachment_two_Christmas_074,Christmas,10.698150002588719,0.001415959
+conditioned,attachment_two_Christmas_075,Christmas,13.970459993626708,0.051620797
+conditioned,attachment_two_Christmas_076,Christmas,14.79562999283543,0.045365705
+conditioned,attachment_two_Christmas_077,Christmas,16.76254500967566,0.000300068
+conditioned,attachment_two_Christmas_078,Christmas,16.379755018172073,0.070809562
+conditioned,attachment_two_Christmas_079,Christmas,8.120934992350033,0.053649153
+conditioned,attachment_two_Christmas_080,Christmas,14.855599995516986,0.002064095
+conditioned,attachment_two_Christmas_081,Christmas,17.512875005566006,0.080828508
+conditioned,attachment_two_Christmas_082,Christmas,12.914694996691294,0.032551284
+conditioned,attachment_two_Christmas_083,Christmas,4.30416999856923,0.045365705
+conditioned,attachment_two_Christmas_084,Christmas,11.463680011749933,0.076481108
+conditioned,attachment_two_Christmas_085,Christmas,11.23082499814955,0.0662418
+conditioned,attachment_two_Christmas_086,Christmas,14.973879986568999,0.088736603
+conditioned,attachment_two_Christmas_087,Christmas,14.442329993906716,0.070809562
+conditioned,attachment_two_Christmas_088,Christmas,13.970459993626708,0.000149215
+conditioned,attachment_two_Christmas_089,Christmas,14.855599995516986,0.044510956
+conditioned,attachment_two_Christmas_090,Christmas,15.069739984545011,0.000115329
+conditioned,attachment_two_Christmas_091,Christmas,17.740209979840053,0.053657258
+conditioned,attachment_two_Christmas_092,Christmas,15.617844987798593,0.089688045
+conditioned,attachment_two_Christmas_093,Christmas,14.864504985440357,0.032551284
+conditioned,attachment_two_Christmas_094,Christmas,11.81196498808183,0.081835469
+conditioned,attachment_two_Christmas_095,Christmas,7.678215004214326,0.058912893
+conditioned,attachment_two_Christmas_096,Christmas,18.916400004818033,8.95e-05
+conditioned,attachment_two_Christmas_097,Christmas,14.973879986568999,0.035773067
+conditioned,attachment_two_Christmas_098,Christmas,17.755470005086345,5.9e-08
+conditioned,attachment_two_Christmas_099,Christmas,14.295990009543798,0.035773067
+conditioned,attachment_two_Christmas_100,Christmas,14.79562999283543,0.07030041
+conditioned,attachment_two_Dubbel_001,Dubbel,11.18335999073931,0.067335605
+conditioned,attachment_two_Dubbel_002,Dubbel,14.79562999283543,5.9e-08
+conditioned,attachment_two_Dubbel_003,Dubbel,9.545992503995821,0.0662418
+conditioned,attachment_two_Dubbel_004,Dubbel,12.474924991419691,0.054367266
+conditioned,attachment_two_Dubbel_005,Dubbel,18.916400004818033,0.000300068
+conditioned,attachment_two_Dubbel_006,Dubbel,14.855599995516986,0.011816796
+conditioned,attachment_two_Dubbel_007,Dubbel,14.855599995516986,1.31e-07
+conditioned,attachment_two_Dubbel_008,Dubbel,15.600359984942767,0.000509493
+conditioned,attachment_two_Dubbel_009,Dubbel,14.072089998419486,0.000300068
+conditioned,attachment_two_Dubbel_010,Dubbel,14.295990009543798,0.000323439
+conditioned,attachment_two_Dubbel_011,Dubbel,16.90052998886136,0.035088328
+conditioned,attachment_two_Dubbel_012,Dubbel,10.887784992220478,0.035773067
+conditioned,attachment_two_Dubbel_013,Dubbel,16.672510016272245,0.045365705
+conditioned,attachment_two_Dubbel_014,Dubbel,15.276254991062764,0.019219729
+conditioned,attachment_two_Dubbel_015,Dubbel,15.558450017327774,0.044510956
+conditioned,attachment_two_Dubbel_016,Dubbel,10.045070011192303,0.088736603
+conditioned,attachment_two_Dubbel_017,Dubbel,12.034840004996626,0.001415959
+conditioned,attachment_two_Dubbel_018,Dubbel,17.755470005086345,0.067335605
+conditioned,attachment_two_Dubbel_019,Dubbel,15.187590016377074,0.080473797
+conditioned,attachment_two_Dubbel_020,Dubbel,17.740209979840053,6.3e-06
+conditioned,attachment_two_Dubbel_021,Dubbel,15.558450017327774,0.000103534
+conditioned,attachment_two_Dubbel_022,Dubbel,14.973879986568999,0.000300068
+conditioned,attachment_two_Dubbel_023,Dubbel,7.917785005134557,0.080473797
+conditioned,attachment_two_Dubbel_024,Dubbel,8.772419992705185,2.83e-06
+conditioned,attachment_two_Dubbel_025,Dubbel,14.442329993906716,0.011558576
+conditioned,attachment_two_Dubbel_026,Dubbel,17.605334984576,3.93e-06
+conditioned,attachment_two_Dubbel_027,Dubbel,15.243340014056395,0.034258911
+conditioned,attachment_two_Dubbel_028,Dubbel,10.045070011192303,6.3e-06
+conditioned,attachment_two_Dubbel_029,Dubbel,12.510575005427443,0.000103534
+conditioned,attachment_two_Dubbel_030,Dubbel,9.557384999133165,0.000149215
+conditioned,attachment_two_Dubbel_031,Dubbel,14.855599995516986,0.000509493
+conditioned,attachment_two_Dubbel_032,Dubbel,16.76254500967566,0.080828508
+conditioned,attachment_two_Dubbel_033,Dubbel,16.379755018172073,0.010201642
+conditioned,attachment_two_Dubbel_034,Dubbel,14.464034998794766,0.04906384
+conditioned,attachment_two_Dubbel_035,Dubbel,16.76254500967566,0.001628788
+conditioned,attachment_two_Dubbel_036,Dubbel,8.858684996430867,0.042964961
+conditioned,attachment_two_Dubbel_037,Dubbel,15.243340014056395,0.055770044
+conditioned,attachment_two_Dubbel_038,Dubbel,17.282655017717452,8.9e-05
+conditioned,attachment_two_Dubbel_039,Dubbel,6.663104998213416,0.054367266
+conditioned,attachment_two_Dubbel_040,Dubbel,16.379755018172073,0.026185308
+conditioned,attachment_two_Dubbel_041,Dubbel,15.069739984545011,0.000149215
+conditioned,attachment_two_Dubbel_042,Dubbel,16.60749498619333,1.31e-07
+conditioned,attachment_two_Dubbel_043,Dubbel,15.276254991062764,2.83e-06
+conditioned,attachment_two_Dubbel_044,Dubbel,16.989564986053708,0.053657258
+conditioned,attachment_two_Dubbel_045,Dubbel,15.069739984545011,0.000509493
+conditioned,attachment_two_Dubbel_046,Dubbel,11.18335999073931,1.58e-05
+conditioned,attachment_two_Dubbel_047,Dubbel,14.278480014602374,1.31e-07
+conditioned,attachment_two_Dubbel_048,Dubbel,15.028305017191459,1.58e-05
+conditioned,attachment_two_Dubbel_049,Dubbel,14.855599995516986,0.051620797
+conditioned,attachment_two_Dubbel_050,Dubbel,14.864504985440357,0.001616741
+conditioned,attachment_two_Dubbel_051,Dubbel,14.973879986568999,0.07407538
+conditioned,attachment_two_Dubbel_052,Dubbel,16.60749498619333,0.041743092
+conditioned,attachment_two_Dubbel_053,Dubbel,17.740209979840053,8.9e-05
+conditioned,attachment_two_Dubbel_054,Dubbel,16.38356000161322,0.000149215
+conditioned,attachment_two_Dubbel_055,Dubbel,8.120934992350033,0.055770044
+conditioned,attachment_two_Dubbel_056,Dubbel,7.933115000908002,1.58e-05
+conditioned,attachment_two_Dubbel_057,Dubbel,6.055159995579341,0.011816796
+conditioned,attachment_two_Dubbel_058,Dubbel,9.557384999133165,6.3e-06
+conditioned,attachment_two_Dubbel_059,Dubbel,9.876804989110045,5.9e-08
+conditioned,attachment_two_Dubbel_060,Dubbel,16.161124985968083,0.061918658
+conditioned,attachment_two_Dubbel_061,Dubbel,14.864504985440357,0.035088328
+conditioned,attachment_two_Dubbel_062,Dubbel,16.161124985968083,0.079352911
+conditioned,attachment_two_Dubbel_063,Dubbel,10.698150002588719,0.000153873
+conditioned,attachment_two_Dubbel_064,Dubbel,12.914694996691294,3.93e-06
+conditioned,attachment_two_Dubbel_065,Dubbel,15.617844987798593,0.000118014
+conditioned,attachment_two_Dubbel_066,Dubbel,8.120934992350033,1.09e-07
+conditioned,attachment_two_Dubbel_067,Dubbel,15.081945010624004,0.089688045
+conditioned,attachment_two_Dubbel_068,Dubbel,14.072089998419486,0.000115329
+conditioned,attachment_two_Dubbel_069,Dubbel,14.442329993906716,0.080473797
+conditioned,attachment_two_Dubbel_070,Dubbel,7.917785005134557,0.051620797
+conditioned,attachment_two_Dubbel_071,Dubbel,14.973879986568999,0.051620797
+conditioned,attachment_two_Dubbel_072,Dubbel,15.112782739474238,0.002064095
+conditioned,attachment_two_Dubbel_073,Dubbel,15.925965001622558,0.001415959
+conditioned,attachment_two_Dubbel_074,Dubbel,16.672510016272245,0.058912893
+conditioned,attachment_two_Dubbel_075,Dubbel,16.76254500967566,3.93e-06
+conditioned,attachment_two_Dubbel_076,Dubbel,15.243340014056395,0.067335605
+conditioned,attachment_two_Dubbel_077,Dubbel,15.600359984942767,0.001616741
+conditioned,attachment_two_Dubbel_078,Dubbel,16.95995001681139,0.011558576
+conditioned,attachment_two_Dubbel_079,Dubbel,18.464419989559758,0.081835469
+conditioned,attachment_two_Dubbel_080,Dubbel,14.973879986568999,1.58e-05
+conditioned,attachment_two_Dubbel_081,Dubbel,8.249090001702738,0.055770044
+conditioned,attachment_two_Dubbel_082,Dubbel,16.379755018172073,0.047745928
+conditioned,attachment_two_Dubbel_083,Dubbel,11.736514995705097,0.0662418
+conditioned,attachment_two_Dubbel_084,Dubbel,15.600359984942767,0.080473797
+conditioned,attachment_two_Dubbel_085,Dubbel,17.67049001653276,0.000153873
+conditioned,attachment_two_Dubbel_086,Dubbel,14.973879986568999,0.044510956
+conditioned,attachment_two_Dubbel_087,Dubbel,13.021794998880804,6.3e-06
+conditioned,attachment_two_Dubbel_088,Dubbel,14.79562999283543,0.000990559
+conditioned,attachment_two_Dubbel_089,Dubbel,18.972445021572597,1.09e-07
+conditioned,attachment_two_Dubbel_090,Dubbel,11.736514995705097,0.010201642
+conditioned,attachment_two_Dubbel_091,Dubbel,11.463680011749933,0.081835469
+conditioned,attachment_two_Dubbel_092,Dubbel,10.698150002588719,0.026961202
+conditioned,attachment_two_Dubbel_093,Dubbel,7.678215004214326,0.056959527
+conditioned,attachment_two_Dubbel_094,Dubbel,16.60749498619333,0.07407538
+conditioned,attachment_two_Dubbel_095,Dubbel,17.67049001653276,0.053649153
+conditioned,attachment_two_Dubbel_096,Dubbel,18.62554498075357,0.001628788
+conditioned,attachment_two_Dubbel_097,Dubbel,18.41872501186387,0.032551284
+conditioned,attachment_two_Dubbel_098,Dubbel,10.792594996292964,0.034258911
+conditioned,attachment_two_Dubbel_099,Dubbel,13.021794998880804,0.042964961
+conditioned,attachment_two_Dubbel_100,Dubbel,14.973879986568999,8.9e-05
+conditioned,attachment_two_Faro_001,Faro,12.034840004996626,6.3e-06
+conditioned,attachment_two_Faro_002,Faro,8.120934992350033,0.00051192
+conditioned,attachment_two_Faro_003,Faro,18.972445021572597,8.95e-05
+conditioned,attachment_two_Faro_004,Faro,18.916400004818033,0.058912893
+conditioned,attachment_two_Faro_005,Faro,16.661494995164656,0.07407538
+conditioned,attachment_two_Faro_006,Faro,8.772419992705185,0.000118014
+conditioned,attachment_two_Faro_007,Faro,17.282655017717452,0.045365705
+conditioned,attachment_two_Faro_008,Faro,14.98369999600975,0.053649153
+conditioned,attachment_two_Faro_009,Faro,4.30416999856923,0.080473797
+conditioned,attachment_two_Faro_010,Faro,10.698150002588719,0.011816796
+conditioned,attachment_two_Faro_011,Faro,10.561749990640216,0.081835469
+conditioned,attachment_two_Faro_012,Faro,15.112782739474238,0.054367266
+conditioned,attachment_two_Faro_013,Faro,8.628049996086517,0.080473797
+conditioned,attachment_two_Faro_014,Faro,10.792594996292964,0.000118014
+conditioned,attachment_two_Faro_015,Faro,14.973879986568999,0.058912893
+conditioned,attachment_two_Faro_016,Faro,17.282655017717452,0.041743092
+conditioned,attachment_two_Faro_017,Faro,15.276254991062764,0.067335605
+conditioned,attachment_two_Faro_018,Faro,14.855599995516986,0.044510956
+conditioned,attachment_two_Faro_019,Faro,16.672510016272245,2.71e-05
+conditioned,attachment_two_Faro_020,Faro,12.170240008294504,0.058912893
+conditioned,attachment_two_Faro_021,Faro,14.278480014602374,5e-05
+conditioned,attachment_two_Faro_022,Faro,16.60749498619333,0.041743092
+conditioned,attachment_two_Faro_023,Faro,15.069739984545011,0.044510956
+conditioned,attachment_two_Faro_024,Faro,5.684249994011359,8.9e-05
+conditioned,attachment_two_Faro_025,Faro,12.170240008294504,0.07407538
+conditioned,attachment_two_Faro_026,Faro,17.755470005086345,0.001616741
+conditioned,attachment_two_Faro_027,Faro,16.90052998886136,5e-05
+conditioned,attachment_two_Faro_028,Faro,15.558450017327774,5.9e-08
+conditioned,attachment_two_Faro_029,Faro,14.295990009543798,8.9e-05
+conditioned,attachment_two_Faro_030,Faro,16.930030012509533,3.93e-06
+conditioned,attachment_two_Faro_031,Faro,8.999089995408912,0.051620797
+conditioned,attachment_two_Faro_032,Faro,14.464034998794766,1.31e-07
+conditioned,attachment_two_Faro_033,Faro,15.081945010624004,0.003081258
+conditioned,attachment_two_Faro_034,Faro,15.925965001622558,0.011558576
+conditioned,attachment_two_Faro_035,Faro,17.740209979840053,1.58e-05
+conditioned,attachment_two_Faro_036,Faro,14.973879986568999,0.000103534
+conditioned,attachment_two_Faro_037,Faro,16.379755018172073,0.055770044
+conditioned,attachment_two_Faro_038,Faro,8.340165005573722,0.001628788
+conditioned,attachment_two_Faro_039,Faro,17.755470005086345,0.070809562
+conditioned,attachment_two_Faro_040,Faro,14.442329993906716,1.31e-07
+conditioned,attachment_two_Faro_041,Faro,8.340165005573722,2.83e-06
+conditioned,attachment_two_Faro_042,Faro,9.545992503995821,0.001415959
+conditioned,attachment_two_Faro_043,Faro,6.60008500467526,5e-05
+conditioned,attachment_two_Faro_044,Faro,6.938620006407831,0.061918658
+conditioned,attachment_two_Faro_045,Faro,16.379755018172073,0.000300068
+conditioned,attachment_two_Faro_046,Faro,8.358765008462843,0.058912893
+conditioned,attachment_two_Faro_047,Faro,6.663104998213416,0.002064095
+conditioned,attachment_two_Faro_048,Faro,8.249090001702738,0.044510956
+conditioned,attachment_two_Faro_049,Faro,6.663104998213416,0.001616741
+conditioned,attachment_two_Faro_050,Faro,16.76254500967566,0.053657258
+conditioned,attachment_two_Faro_051,Faro,6.576494996001657,0.047745928
+conditioned,attachment_two_Faro_052,Faro,11.23082499814955,1.07e-05
+conditioned,attachment_two_Faro_053,Faro,13.970459993626708,0.044510956
+conditioned,attachment_two_Faro_054,Faro,10.282825005844419,0.001616741
+conditioned,attachment_two_Faro_055,Faro,7.933115000908002,7.56e-05
+conditioned,attachment_two_Faro_056,Faro,14.98369999600975,0.054548416
+conditioned,attachment_two_Faro_057,Faro,16.60749498619333,0.042964961
+conditioned,attachment_two_Faro_058,Faro,8.858684996430867,5e-05
+conditioned,attachment_two_Faro_059,Faro,11.81196498808183,0.061918658
+conditioned,attachment_two_Faro_060,Faro,15.600359984942767,0.035088328
+conditioned,attachment_two_Faro_061,Faro,6.576494996001657,0.000153873
+conditioned,attachment_two_Faro_062,Faro,14.973879986568999,0.000103534
+conditioned,attachment_two_Faro_063,Faro,3.5756550009332426,2.83e-06
+conditioned,attachment_two_Faro_064,Faro,3.5756550009332426,0.032551284
+conditioned,attachment_two_Faro_065,Faro,8.628049996086517,0.002064095
+conditioned,attachment_two_Faro_066,Faro,14.278480014602374,0.053649153
+conditioned,attachment_two_Faro_067,Faro,17.755470005086345,1.58e-05
+conditioned,attachment_two_Faro_068,Faro,13.970459993626708,0.019219729
+conditioned,attachment_two_Faro_069,Faro,8.670400006621858,0.010201642
+conditioned,attachment_two_Faro_070,Faro,4.30416999856923,6.3e-06
+conditioned,attachment_two_Faro_071,Faro,15.925965001622558,3.93e-06
+conditioned,attachment_two_Faro_072,Faro,15.250354986968484,0.026961202
+conditioned,attachment_two_Faro_073,Faro,16.38356000161322,1.31e-07
+conditioned,attachment_two_Faro_074,Faro,8.628049996086517,8.95e-05
+conditioned,attachment_two_Faro_075,Faro,18.916400004818033,6.3e-06
+conditioned,attachment_two_Faro_076,Faro,7.917785005134557,0.088736603
+conditioned,attachment_two_Faro_077,Faro,14.79562999283543,0.058912893
+conditioned,attachment_two_Faro_078,Faro,12.914694996691294,0.081835469
+conditioned,attachment_two_Faro_079,Faro,12.474924991419691,0.026961202
+conditioned,attachment_two_Faro_080,Faro,9.876804989110045,0.088736603
+conditioned,attachment_two_Faro_081,Faro,10.561749990640216,0.044510956
+conditioned,attachment_two_Faro_082,Faro,14.278480014602374,0.000990559
+conditioned,attachment_two_Faro_083,Faro,16.672510016272245,0.081835469
+conditioned,attachment_two_Faro_084,Faro,14.855599995516986,0.080473797
+conditioned,attachment_two_Faro_085,Faro,15.925965001622558,0.056959527
+conditioned,attachment_two_Faro_086,Faro,10.698150002588719,0.002064095
+conditioned,attachment_two_Faro_087,Faro,16.327430018731334,1.31e-07
+conditioned,attachment_two_Faro_088,Faro,14.973879986568999,0.034258911
+conditioned,attachment_two_Faro_089,Faro,14.442329993906716,0.062532405
+conditioned,attachment_two_Faro_090,Faro,17.755470005086345,0.001415959
+conditioned,attachment_two_Faro_091,Faro,10.792594996292964,0.053657258
+conditioned,attachment_two_Faro_092,Faro,15.187590016377074,0.001415959
+conditioned,attachment_two_Faro_093,Faro,15.558450017327774,0.080828508
+conditioned,attachment_two_Faro_094,Faro,16.661494995164656,0.055770044
+conditioned,attachment_two_Faro_095,Faro,15.925965001622558,0.032551284
+conditioned,attachment_two_Faro_096,Faro,18.62554498075357,3.93e-06
+conditioned,attachment_two_Faro_097,Faro,10.561749990640216,0.042964961
+conditioned,attachment_two_Faro_098,Faro,16.661494995164656,0.062532405
+conditioned,attachment_two_Faro_099,Faro,9.876804989110045,0.080473797
+conditioned,attachment_two_Faro_100,Faro,16.161124985968083,0.000509493
+conditioned,attachment_two_Flanders old brown_001,Flanders old brown,6.60008500467526,0.011558576
+conditioned,attachment_two_Flanders old brown_002,Flanders old brown,9.557384999133165,0.041743092
+conditioned,attachment_two_Flanders old brown_003,Flanders old brown,9.876804989110045,0.07030041
+conditioned,attachment_two_Flanders old brown_004,Flanders old brown,8.249090001702738,1.31e-07
+conditioned,attachment_two_Flanders old brown_005,Flanders old brown,6.663104998213416,0.000103534
+conditioned,attachment_two_Flanders old brown_006,Flanders old brown,16.161124985968083,8.95e-05
+conditioned,attachment_two_Flanders old brown_007,Flanders old brown,6.60008500467526,0.011816796
+conditioned,attachment_two_Flanders old brown_008,Flanders old brown,5.684249994011359,0.011999467
+conditioned,attachment_two_Flanders old brown_009,Flanders old brown,12.170240008294504,3.93e-06
+conditioned,attachment_two_Flanders old brown_010,Flanders old brown,12.034840004996626,1.09e-07
+conditioned,attachment_two_Flanders old brown_011,Flanders old brown,9.876804989110045,6.3e-06
+conditioned,attachment_two_Flanders old brown_012,Flanders old brown,7.917785005134557,0.080828508
+conditioned,attachment_two_Flanders old brown_013,Flanders old brown,10.887784992220478,2.83e-06
+conditioned,attachment_two_Flanders old brown_014,Flanders old brown,17.512875005566006,0.001616741
+conditioned,attachment_two_Flanders old brown_015,Flanders old brown,6.926440007735439,0.080473797
+conditioned,attachment_two_Flanders old brown_016,Flanders old brown,7.678215004214326,0.000990559
+conditioned,attachment_two_Flanders old brown_017,Flanders old brown,8.120934992350033,0.001628788
+conditioned,attachment_two_Flanders old brown_018,Flanders old brown,8.858684996430867,0.000509493
+conditioned,attachment_two_Flanders old brown_019,Flanders old brown,4.30416999856923,0.04906384
+conditioned,attachment_two_Flanders old brown_020,Flanders old brown,14.072089998419486,0.000990559
+conditioned,attachment_two_Flanders old brown_021,Flanders old brown,14.79562999283543,0.011558576
+conditioned,attachment_two_Flanders old brown_022,Flanders old brown,8.249090001702738,0.001628788
+conditioned,attachment_two_Flanders old brown_023,Flanders old brown,15.028305017191459,0.011558576
+conditioned,attachment_two_Flanders old brown_024,Flanders old brown,13.021794998880804,7.56e-05
+conditioned,attachment_two_Flanders old brown_025,Flanders old brown,18.62554498075357,0.000149215
+conditioned,attachment_two_Flanders old brown_026,Flanders old brown,10.887784992220478,0.088736603
+conditioned,attachment_two_Flanders old brown_027,Flanders old brown,8.249090001702738,0.061918658
+conditioned,attachment_two_Flanders old brown_028,Flanders old brown,11.736514995705097,5e-05
+conditioned,attachment_two_Flanders old brown_029,Flanders old brown,12.914694996691294,0.000509493
+conditioned,attachment_two_Flanders old brown_030,Flanders old brown,9.557384999133165,0.001616741
+conditioned,attachment_two_Flanders old brown_031,Flanders old brown,17.740209979840053,0.000990559
+conditioned,attachment_two_Flanders old brown_032,Flanders old brown,16.90052998886136,0.003081258
+conditioned,attachment_two_Flanders old brown_033,Flanders old brown,9.876804989110045,0.058912893
+conditioned,attachment_two_Flanders old brown_034,Flanders old brown,14.855599995516986,1.09e-07
+conditioned,attachment_two_Flanders old brown_035,Flanders old brown,14.278480014602374,0.010201642
+conditioned,attachment_two_Flanders old brown_036,Flanders old brown,7.159765000078037,0.053657258
+conditioned,attachment_two_Flanders old brown_037,Flanders old brown,3.5756550009332426,0.054548416
+conditioned,attachment_two_Flanders old brown_038,Flanders old brown,11.736514995705097,0.000103534
+conditioned,attachment_two_Flanders old brown_039,Flanders old brown,6.055159995579341,8.95e-05
+conditioned,attachment_two_Flanders old brown_040,Flanders old brown,15.276254991062764,7.56e-05
+conditioned,attachment_two_Flanders old brown_041,Flanders old brown,14.295990009543798,3.93e-06
+conditioned,attachment_two_Flanders old brown_042,Flanders old brown,15.243340014056395,0.035773067
+conditioned,attachment_two_Flanders old brown_043,Flanders old brown,6.055159995579341,8.95e-05
+conditioned,attachment_two_Flanders old brown_044,Flanders old brown,10.792594996292964,0.042964961
+conditioned,attachment_two_Flanders old brown_045,Flanders old brown,8.249090001702738,0.054548416
+conditioned,attachment_two_Flanders old brown_046,Flanders old brown,18.464419989559758,0.035088328
+conditioned,attachment_two_Flanders old brown_047,Flanders old brown,6.055159995579341,0.035773067
+conditioned,attachment_two_Flanders old brown_048,Flanders old brown,15.600359984942767,0.041743092
+conditioned,attachment_two_Flanders old brown_049,Flanders old brown,5.684249994011359,0.000149215
+conditioned,attachment_two_Flanders old brown_050,Flanders old brown,8.858684996430867,0.011558576
+conditioned,attachment_two_Flanders old brown_051,Flanders old brown,18.41872501186387,8.95e-05
+conditioned,attachment_two_Flanders old brown_052,Flanders old brown,18.916400004818033,0.042964961
+conditioned,attachment_two_Flanders old brown_053,Flanders old brown,9.557384999133165,0.000300068
+conditioned,attachment_two_Flanders old brown_054,Flanders old brown,7.917785005134557,0.011816796
+conditioned,attachment_two_Flanders old brown_055,Flanders old brown,6.60008500467526,0.070809562
+conditioned,attachment_two_Flanders old brown_056,Flanders old brown,8.628049996086517,0.04906384
+conditioned,attachment_two_Flanders old brown_057,Flanders old brown,15.112782739474238,0.035088328
+conditioned,attachment_two_Flanders old brown_058,Flanders old brown,12.474924991419691,0.0662418
+conditioned,attachment_two_Flanders old brown_059,Flanders old brown,8.772419992705185,1.09e-07
+conditioned,attachment_two_Flanders old brown_060,Flanders old brown,14.973879986568999,0.035088328
+conditioned,attachment_two_Flanders old brown_061,Flanders old brown,16.38356000161322,0.000153873
+conditioned,attachment_two_Flanders old brown_062,Flanders old brown,9.876804989110045,0.058912893
+conditioned,attachment_two_Flanders old brown_063,Flanders old brown,18.41872501186387,0.055770044
+conditioned,attachment_two_Flanders old brown_064,Flanders old brown,18.972445021572597,8.95e-05
+conditioned,attachment_two_Flanders old brown_065,Flanders old brown,8.249090001702738,0.000103534
+conditioned,attachment_two_Flanders old brown_066,Flanders old brown,15.617844987798593,1.31e-07
+conditioned,attachment_two_Flanders old brown_067,Flanders old brown,15.187590016377074,0.000990559
+conditioned,attachment_two_Flanders old brown_068,Flanders old brown,15.112782739474238,0.011558576
+conditioned,attachment_two_Flanders old brown_069,Flanders old brown,15.925965001622558,0.001415959
+conditioned,attachment_two_Flanders old brown_070,Flanders old brown,8.120934992350033,0.002064095
+conditioned,attachment_two_Flanders old brown_071,Flanders old brown,17.740209979840053,0.026961202
+conditioned,attachment_two_Flanders old brown_072,Flanders old brown,9.557384999133165,1.58e-05
+conditioned,attachment_two_Flanders old brown_073,Flanders old brown,1.1122725005394052,0.054367266
+conditioned,attachment_two_Flanders old brown_074,Flanders old brown,15.112782739474238,0.000118014
+conditioned,attachment_two_Flanders old brown_075,Flanders old brown,8.358765008462843,0.051620797
+conditioned,attachment_two_Flanders old brown_076,Flanders old brown,1.1122725005394052,0.00051192
+conditioned,attachment_two_Flanders old brown_077,Flanders old brown,17.605334984576,0.000509493
+conditioned,attachment_two_Flanders old brown_078,Flanders old brown,15.069739984545011,3.93e-06
+conditioned,attachment_two_Flanders old brown_079,Flanders old brown,8.858684996430867,6.3e-06
+conditioned,attachment_two_Flanders old brown_080,Flanders old brown,8.628049996086517,5e-05
+conditioned,attachment_two_Flanders old brown_081,Flanders old brown,14.442329993906716,0.054548416
+conditioned,attachment_two_Flanders old brown_082,Flanders old brown,4.30416999856923,0.003081258
+conditioned,attachment_two_Flanders old brown_083,Flanders old brown,1.1122725005394052,0.000103534
+conditioned,attachment_two_Flanders old brown_084,Flanders old brown,16.989564986053708,0.011999467
+conditioned,attachment_two_Flanders old brown_085,Flanders old brown,15.069739984545011,0.000323439
+conditioned,attachment_two_Flanders old brown_086,Flanders old brown,8.120934992350033,0.026185308
+conditioned,attachment_two_Flanders old brown_087,Flanders old brown,15.243340014056395,0.002064095
+conditioned,attachment_two_Flanders old brown_088,Flanders old brown,17.605334984576,0.088736603
+conditioned,attachment_two_Flanders old brown_089,Flanders old brown,15.243340014056395,0.000103534
+conditioned,attachment_two_Flanders old brown_090,Flanders old brown,4.501940004091575,0.053649153
+conditioned,attachment_two_Flanders old brown_091,Flanders old brown,15.243340014056395,0.081835469
+conditioned,attachment_two_Flanders old brown_092,Flanders old brown,4.30416999856923,2.83e-06
+conditioned,attachment_two_Flanders old brown_093,Flanders old brown,4.501940004091575,2.83e-06
+conditioned,attachment_two_Flanders old brown_094,Flanders old brown,18.41872501186387,0.011999467
+conditioned,attachment_two_Flanders old brown_095,Flanders old brown,14.973879986568999,0.089688045
+conditioned,attachment_two_Flanders old brown_096,Flanders old brown,6.576494996001657,0.000118014
+conditioned,attachment_two_Flanders old brown_097,Flanders old brown,9.876804989110045,0.001415959
+conditioned,attachment_two_Flanders old brown_098,Flanders old brown,15.081945010624004,0.035088328
+conditioned,attachment_two_Flanders old brown_099,Flanders old brown,12.510575005427443,0.000509493
+conditioned,attachment_two_Flanders old brown_100,Flanders old brown,13.021794998880804,0.001628788
+conditioned,attachment_two_Fruitbeer_001,Fruitbeer,18.972445021572597,0.001628788
+conditioned,attachment_two_Fruitbeer_002,Fruitbeer,13.021794998880804,0.000990559
+conditioned,attachment_two_Fruitbeer_003,Fruitbeer,11.736514995705097,0.000149215
+conditioned,attachment_two_Fruitbeer_004,Fruitbeer,17.755470005086345,2.83e-06
+conditioned,attachment_two_Fruitbeer_005,Fruitbeer,12.474924991419691,8.95e-05
+conditioned,attachment_two_Fruitbeer_006,Fruitbeer,12.904434987863498,0.000149215
+conditioned,attachment_two_Fruitbeer_007,Fruitbeer,12.904434987863498,0.0662418
+conditioned,attachment_two_Fruitbeer_008,Fruitbeer,14.072089998419486,0.002064095
+conditioned,attachment_two_Fruitbeer_009,Fruitbeer,10.887784992220478,0.001616741
+conditioned,attachment_two_Fruitbeer_010,Fruitbeer,16.76254500967566,0.00051192
+conditioned,attachment_two_Fruitbeer_011,Fruitbeer,17.755470005086345,1.07e-05
+conditioned,attachment_two_Fruitbeer_012,Fruitbeer,8.249090001702738,0.053657258
+conditioned,attachment_two_Fruitbeer_013,Fruitbeer,16.661494995164656,0.07030041
+conditioned,attachment_two_Fruitbeer_014,Fruitbeer,11.81196498808183,0.000118014
+conditioned,attachment_two_Fruitbeer_015,Fruitbeer,13.021794998880804,1.31e-07
+conditioned,attachment_two_Fruitbeer_016,Fruitbeer,10.045070011192303,0.061918658
+conditioned,attachment_two_Fruitbeer_017,Fruitbeer,10.792594996292964,0.000118014
+conditioned,attachment_two_Fruitbeer_018,Fruitbeer,6.938620006407831,1.31e-07
+conditioned,attachment_two_Fruitbeer_019,Fruitbeer,18.96433000394151,0.053649153
+conditioned,attachment_two_Fruitbeer_020,Fruitbeer,14.072089998419486,0.035088328
+conditioned,attachment_two_Fruitbeer_021,Fruitbeer,11.23082499814955,0.0662418
+conditioned,attachment_two_Fruitbeer_022,Fruitbeer,10.698150002588719,0.011999467
+conditioned,attachment_two_Fruitbeer_023,Fruitbeer,14.79562999283543,0.00051192
+conditioned,attachment_two_Fruitbeer_024,Fruitbeer,9.557384999133165,0.003081258
+conditioned,attachment_two_Fruitbeer_025,Fruitbeer,6.938620006407831,0.010201642
+conditioned,attachment_two_Fruitbeer_026,Fruitbeer,17.67049001653276,0.001616741
+conditioned,attachment_two_Fruitbeer_027,Fruitbeer,17.282655017717452,0.070809562
+conditioned,attachment_two_Fruitbeer_028,Fruitbeer,3.5756550009332426,1.07e-05
+conditioned,attachment_two_Fruitbeer_029,Fruitbeer,8.340165005573722,0.000103534
+conditioned,attachment_two_Fruitbeer_030,Fruitbeer,9.545992503995821,8.9e-05
+conditioned,attachment_two_Fruitbeer_031,Fruitbeer,12.034840004996626,0.088736603
+conditioned,attachment_two_Fruitbeer_032,Fruitbeer,16.379755018172073,0.080473797
+conditioned,attachment_two_Fruitbeer_033,Fruitbeer,14.864504985440357,0.089688045
+conditioned,attachment_two_Fruitbeer_034,Fruitbeer,11.81196498808183,0.000115329
+conditioned,attachment_two_Fruitbeer_035,Fruitbeer,15.617844987798593,0.041743092
+conditioned,attachment_two_Fruitbeer_036,Fruitbeer,17.67049001653276,0.000300068
+conditioned,attachment_two_Fruitbeer_037,Fruitbeer,15.617844987798593,0.026961202
+conditioned,attachment_two_Fruitbeer_038,Fruitbeer,14.442329993906716,0.042964961
+conditioned,attachment_two_Fruitbeer_039,Fruitbeer,15.112782739474238,1.58e-05
+conditioned,attachment_two_Fruitbeer_040,Fruitbeer,6.055159995579341,0.032551284
+conditioned,attachment_two_Fruitbeer_041,Fruitbeer,8.670400006621858,0.054548416
+conditioned,attachment_two_Fruitbeer_042,Fruitbeer,16.661494995164656,0.000115329
+conditioned,attachment_two_Fruitbeer_043,Fruitbeer,11.81196498808183,0.001415959
+conditioned,attachment_two_Fruitbeer_044,Fruitbeer,6.60008500467526,0.061918658
+conditioned,attachment_two_Fruitbeer_045,Fruitbeer,14.98369999600975,0.047745928
+conditioned,attachment_two_Fruitbeer_046,Fruitbeer,16.161124985968083,0.042964961
+conditioned,attachment_two_Fruitbeer_047,Fruitbeer,14.855599995516986,6.3e-06
+conditioned,attachment_two_Fruitbeer_048,Fruitbeer,8.120934992350033,0.045365705
+conditioned,attachment_two_Fruitbeer_049,Fruitbeer,8.358765008462843,0.003081258
+conditioned,attachment_two_Fruitbeer_050,Fruitbeer,16.95995001681139,0.045365705
+conditioned,attachment_two_Fruitbeer_051,Fruitbeer,14.855599995516986,1.58e-05
+conditioned,attachment_two_Fruitbeer_052,Fruitbeer,8.670400006621858,0.000118014
+conditioned,attachment_two_Fruitbeer_053,Fruitbeer,17.67049001653276,0.07407538
+conditioned,attachment_two_Fruitbeer_054,Fruitbeer,12.914694996691294,0.019219729
+conditioned,attachment_two_Fruitbeer_055,Fruitbeer,8.670400006621858,0.000149215
+conditioned,attachment_two_Fruitbeer_056,Fruitbeer,12.474924991419691,0.04906384
+conditioned,attachment_two_Fruitbeer_057,Fruitbeer,15.112782739474238,0.000149215
+conditioned,attachment_two_Fruitbeer_058,Fruitbeer,6.926440007735439,0.034258911
+conditioned,attachment_two_Fruitbeer_059,Fruitbeer,16.76254500967566,0.026185308
+conditioned,attachment_two_Fruitbeer_060,Fruitbeer,11.18335999073931,0.044510956
+conditioned,attachment_two_Fruitbeer_061,Fruitbeer,16.930030012509533,0.061918658
+conditioned,attachment_two_Fruitbeer_062,Fruitbeer,10.282825005844419,0.088736603
+conditioned,attachment_two_Fruitbeer_063,Fruitbeer,2.2245449976777634,0.0662418
+conditioned,attachment_two_Fruitbeer_064,Fruitbeer,14.98369999600975,0.058912893
+conditioned,attachment_two_Fruitbeer_065,Fruitbeer,18.464419989559758,0.07030041
+conditioned,attachment_two_Fruitbeer_066,Fruitbeer,16.379755018172073,0.053657258
+conditioned,attachment_two_Fruitbeer_067,Fruitbeer,15.250354986968484,0.000990559
+conditioned,attachment_two_Fruitbeer_068,Fruitbeer,15.028305017191459,0.058912893
+conditioned,attachment_two_Fruitbeer_069,Fruitbeer,6.60008500467526,8.95e-05
+conditioned,attachment_two_Fruitbeer_070,Fruitbeer,16.989564986053708,8.9e-05
+conditioned,attachment_two_Fruitbeer_071,Fruitbeer,11.736514995705097,0.001628788
+conditioned,attachment_two_Fruitbeer_072,Fruitbeer,2.2245449976777634,0.000153873
+conditioned,attachment_two_Fruitbeer_073,Fruitbeer,15.081945010624004,0.001415959
+conditioned,attachment_two_Fruitbeer_074,Fruitbeer,14.278480014602374,5.9e-08
+conditioned,attachment_two_Fruitbeer_075,Fruitbeer,17.755470005086345,0.000115329
+conditioned,attachment_two_Fruitbeer_076,Fruitbeer,12.904434987863498,5.9e-08
+conditioned,attachment_two_Fruitbeer_077,Fruitbeer,9.876804989110045,0.080828508
+conditioned,attachment_two_Fruitbeer_078,Fruitbeer,14.79562999283543,0.001616741
+conditioned,attachment_two_Fruitbeer_079,Fruitbeer,15.081945010624004,6.3e-06
+conditioned,attachment_two_Fruitbeer_080,Fruitbeer,8.628049996086517,8.95e-05
+conditioned,attachment_two_Fruitbeer_081,Fruitbeer,12.170240008294504,0.011558576
+conditioned,attachment_two_Fruitbeer_082,Fruitbeer,8.858684996430867,0.07030041
+conditioned,attachment_two_Fruitbeer_083,Fruitbeer,16.379755018172073,0.000509493
+conditioned,attachment_two_Fruitbeer_084,Fruitbeer,15.243340014056395,0.044510956
+conditioned,attachment_two_Fruitbeer_085,Fruitbeer,10.887784992220478,6.3e-06
+conditioned,attachment_two_Fruitbeer_086,Fruitbeer,8.358765008462843,3.93e-06
+conditioned,attachment_two_Fruitbeer_087,Fruitbeer,12.034840004996626,0.067335605
+conditioned,attachment_two_Fruitbeer_088,Fruitbeer,18.972445021572597,0.07030041
+conditioned,attachment_two_Fruitbeer_089,Fruitbeer,11.18335999073931,0.002064095
+conditioned,attachment_two_Fruitbeer_090,Fruitbeer,6.938620006407831,0.035773067
+conditioned,attachment_two_Fruitbeer_091,Fruitbeer,14.98369999600975,8.9e-05
+conditioned,attachment_two_Fruitbeer_092,Fruitbeer,17.755470005086345,0.055770044
+conditioned,attachment_two_Fruitbeer_093,Fruitbeer,4.30416999856923,0.067335605
+conditioned,attachment_two_Fruitbeer_094,Fruitbeer,16.161124985968083,3.93e-06
+conditioned,attachment_two_Fruitbeer_095,Fruitbeer,7.917785005134557,0.001415959
+conditioned,attachment_two_Fruitbeer_096,Fruitbeer,14.072089998419486,0.054367266
+conditioned,attachment_two_Fruitbeer_097,Fruitbeer,16.327430018731334,0.041743092
+conditioned,attachment_two_Fruitbeer_098,Fruitbeer,8.858684996430867,0.080828508
+conditioned,attachment_two_Fruitbeer_099,Fruitbeer,8.670400006621858,0.019219729
+conditioned,attachment_two_Fruitbeer_100,Fruitbeer,17.512875005566006,0.042964961
+conditioned,attachment_two_Hoppy_001,Hoppy,16.161124985968083,0.041743092
+conditioned,attachment_two_Hoppy_002,Hoppy,17.605334984576,0.049043757
+conditioned,attachment_two_Hoppy_003,Hoppy,10.561749990640216,0.07407538
+conditioned,attachment_two_Hoppy_004,Hoppy,11.736514995705097,0.010201642
+conditioned,attachment_two_Hoppy_005,Hoppy,17.740209979840053,0.00051192
+conditioned,attachment_two_Hoppy_006,Hoppy,17.67049001653276,0.088736603
+conditioned,attachment_two_Hoppy_007,Hoppy,18.96433000394151,0.054548416
+conditioned,attachment_two_Hoppy_008,Hoppy,18.916400004818033,0.001628788
+conditioned,attachment_two_Hoppy_009,Hoppy,15.243340014056395,0.010201642
+conditioned,attachment_two_Hoppy_010,Hoppy,17.512875005566006,0.058912893
+conditioned,attachment_two_Hoppy_011,Hoppy,14.442329993906716,0.035773067
+conditioned,attachment_two_Hoppy_012,Hoppy,14.864504985440357,0.019219729
+conditioned,attachment_two_Hoppy_013,Hoppy,12.034840004996626,0.000509493
+conditioned,attachment_two_Hoppy_014,Hoppy,17.512875005566006,0.001616741
+conditioned,attachment_two_Hoppy_015,Hoppy,14.855599995516986,0.026185308
+conditioned,attachment_two_Hoppy_016,Hoppy,18.41872501186387,0.054367266
+conditioned,attachment_two_Hoppy_017,Hoppy,18.464419989559758,0.035773067
+conditioned,attachment_two_Hoppy_018,Hoppy,14.855599995516986,0.0662418
+conditioned,attachment_two_Hoppy_019,Hoppy,18.41872501186387,0.051620797
+conditioned,attachment_two_Hoppy_020,Hoppy,14.442329993906716,0.003081258
+conditioned,attachment_two_Hoppy_021,Hoppy,15.558450017327774,0.003081258
+conditioned,attachment_two_Hoppy_022,Hoppy,8.999089995408912,0.032551284
+conditioned,attachment_two_Hoppy_023,Hoppy,16.930030012509533,0.034258911
+conditioned,attachment_two_Hoppy_024,Hoppy,9.545992503995821,0.088736603
+conditioned,attachment_two_Hoppy_025,Hoppy,12.034840004996626,0.000300068
+conditioned,attachment_two_Hoppy_026,Hoppy,17.740209979840053,0.035088328
+conditioned,attachment_two_Hoppy_027,Hoppy,17.605334984576,0.080473797
+conditioned,attachment_two_Hoppy_028,Hoppy,18.916400004818033,0.067335605
+conditioned,attachment_two_Hoppy_029,Hoppy,16.327430018731334,0.035088328
+conditioned,attachment_two_Hoppy_030,Hoppy,14.072089998419486,0.047745928
+conditioned,attachment_two_Hoppy_031,Hoppy,17.282655017717452,0.045365705
+conditioned,attachment_two_Hoppy_032,Hoppy,15.187590016377074,0.026961202
+conditioned,attachment_two_Hoppy_033,Hoppy,18.916400004818033,0.061918658
+conditioned,attachment_two_Hoppy_034,Hoppy,15.558450017327774,0.088736603
+conditioned,attachment_two_Hoppy_035,Hoppy,18.972445021572597,0.011816796
+conditioned,attachment_two_Hoppy_036,Hoppy,16.95995001681139,0.000323439
+conditioned,attachment_two_Hoppy_037,Hoppy,18.96433000394151,0.061918658
+conditioned,attachment_two_Hoppy_038,Hoppy,15.250354986968484,0.076481108
+conditioned,attachment_two_Hoppy_039,Hoppy,18.96433000394151,0.062532405
+conditioned,attachment_two_Hoppy_040,Hoppy,15.112782739474238,0.045365705
+conditioned,attachment_two_Hoppy_041,Hoppy,16.661494995164656,0.044510956
+conditioned,attachment_two_Hoppy_042,Hoppy,17.605334984576,0.07030041
+conditioned,attachment_two_Hoppy_043,Hoppy,16.76254500967566,0.032551284
+conditioned,attachment_two_Hoppy_044,Hoppy,11.81196498808183,0.051620797
+conditioned,attachment_two_Hoppy_045,Hoppy,16.95995001681139,0.002064095
+conditioned,attachment_two_Hoppy_046,Hoppy,17.740209979840053,0.044510956
+conditioned,attachment_two_Hoppy_047,Hoppy,15.276254991062764,0.0662418
+conditioned,attachment_two_Hoppy_048,Hoppy,17.605334984576,0.07407538
+conditioned,attachment_two_Hoppy_049,Hoppy,16.672510016272245,0.011558576
+conditioned,attachment_two_Hoppy_050,Hoppy,10.698150002588719,0.070809562
+conditioned,attachment_two_Hoppy_051,Hoppy,15.243340014056395,0.061918658
+conditioned,attachment_two_Hoppy_052,Hoppy,13.021794998880804,0.056959527
+conditioned,attachment_two_Hoppy_053,Hoppy,16.672510016272245,0.034258911
+conditioned,attachment_two_Hoppy_054,Hoppy,11.81196498808183,0.032551284
+conditioned,attachment_two_Hoppy_055,Hoppy,10.282825005844419,0.049043757
+conditioned,attachment_two_Hoppy_056,Hoppy,16.38356000161322,0.067335605
+conditioned,attachment_two_Hoppy_057,Hoppy,16.38356000161322,0.000300068
+conditioned,attachment_two_Hoppy_058,Hoppy,16.161124985968083,0.07407538
+conditioned,attachment_two_Hoppy_059,Hoppy,11.463680011749933,0.054548416
+conditioned,attachment_two_Hoppy_060,Hoppy,12.170240008294504,0.011558576
+conditioned,attachment_two_Hoppy_061,Hoppy,16.95995001681139,0.081835469
+conditioned,attachment_two_Hoppy_062,Hoppy,12.914694996691294,0.047745928
+conditioned,attachment_two_Hoppy_063,Hoppy,15.558450017327774,0.001415959
+conditioned,attachment_two_Hoppy_064,Hoppy,16.76254500967566,0.011558576
+conditioned,attachment_two_Hoppy_065,Hoppy,16.327430018731334,0.000990559
+conditioned,attachment_two_Hoppy_066,Hoppy,17.740209979840053,0.035088328
+conditioned,attachment_two_Hoppy_067,Hoppy,14.973879986568999,0.049043757
+conditioned,attachment_two_Hoppy_068,Hoppy,17.67049001653276,0.010201642
+conditioned,attachment_two_Hoppy_069,Hoppy,15.081945010624004,0.011558576
+conditioned,attachment_two_Hoppy_070,Hoppy,17.282655017717452,0.079352911
+conditioned,attachment_two_Hoppy_071,Hoppy,12.170240008294504,0.061918658
+conditioned,attachment_two_Hoppy_072,Hoppy,15.243340014056395,0.019219729
+conditioned,attachment_two_Hoppy_073,Hoppy,14.278480014602374,0.011999467
+conditioned,attachment_two_Hoppy_074,Hoppy,17.605334984576,0.081835469
+conditioned,attachment_two_Hoppy_075,Hoppy,16.95995001681139,0.000509493
+conditioned,attachment_two_Hoppy_076,Hoppy,16.053695012177208,0.035773067
+conditioned,attachment_two_Hoppy_077,Hoppy,14.464034998794766,0.000300068
+conditioned,attachment_two_Hoppy_078,Hoppy,15.187590016377074,0.011558576
+conditioned,attachment_two_Hoppy_079,Hoppy,8.772419992705185,0.067335605
+conditioned,attachment_two_Hoppy_080,Hoppy,11.463680011749933,0.035088328
+conditioned,attachment_two_Hoppy_081,Hoppy,14.072089998419486,0.055770044
+conditioned,attachment_two_Hoppy_082,Hoppy,17.740209979840053,0.081835469
+conditioned,attachment_two_Hoppy_083,Hoppy,16.76254500967566,0.000990559
+conditioned,attachment_two_Hoppy_084,Hoppy,17.755470005086345,0.088736603
+conditioned,attachment_two_Hoppy_085,Hoppy,15.617844987798593,0.001616741
+conditioned,attachment_two_Hoppy_086,Hoppy,16.38356000161322,0.054367266
+conditioned,attachment_two_Hoppy_087,Hoppy,17.755470005086345,0.011999467
+conditioned,attachment_two_Hoppy_088,Hoppy,14.295990009543798,0.081835469
+conditioned,attachment_two_Hoppy_089,Hoppy,16.38356000161322,3.93e-06
+conditioned,attachment_two_Hoppy_090,Hoppy,16.95995001681139,0.044510956
+conditioned,attachment_two_Hoppy_091,Hoppy,15.600359984942767,0.001616741
+conditioned,attachment_two_Hoppy_092,Hoppy,12.170240008294504,0.001415959
+conditioned,attachment_two_Hoppy_093,Hoppy,6.576494996001657,0.044510956
+conditioned,attachment_two_Hoppy_094,Hoppy,15.600359984942767,0.088736603
+conditioned,attachment_two_Hoppy_095,Hoppy,17.512875005566006,0.051620797
+conditioned,attachment_two_Hoppy_096,Hoppy,6.576494996001657,0.045365705
+conditioned,attachment_two_Hoppy_097,Hoppy,14.855599995516986,0.07030041
+conditioned,attachment_two_Hoppy_098,Hoppy,12.904434987863498,0.054548416
+conditioned,attachment_two_Hoppy_099,Hoppy,15.250354986968484,0.081835469
+conditioned,attachment_two_Hoppy_100,Hoppy,16.989564986053708,0.042964961
+conditioned,attachment_two_Kriek_001,Kriek,8.249090001702738,0.07030041
+conditioned,attachment_two_Kriek_002,Kriek,17.67049001653276,0.089688045
+conditioned,attachment_two_Kriek_003,Kriek,16.60749498619333,0.054548416
+conditioned,attachment_two_Kriek_004,Kriek,18.62554498075357,6.3e-06
+conditioned,attachment_two_Kriek_005,Kriek,11.18335999073931,0.053649153
+conditioned,attachment_two_Kriek_006,Kriek,14.79562999283543,0.035088328
+conditioned,attachment_two_Kriek_007,Kriek,6.055159995579341,0.080473797
+conditioned,attachment_two_Kriek_008,Kriek,2.2245449976777634,0.04906384
+conditioned,attachment_two_Kriek_009,Kriek,17.282655017717452,0.088736603
+conditioned,attachment_two_Kriek_010,Kriek,7.678215004214326,0.011816796
+conditioned,attachment_two_Kriek_011,Kriek,1.1122725005394052,0.07407538
+conditioned,attachment_two_Kriek_012,Kriek,8.999089995408912,0.0662418
+conditioned,attachment_two_Kriek_013,Kriek,7.933115000908002,0.054548416
+conditioned,attachment_two_Kriek_014,Kriek,10.282825005844419,2.71e-05
+conditioned,attachment_two_Kriek_015,Kriek,12.904434987863498,0.003081258
+conditioned,attachment_two_Kriek_016,Kriek,9.545992503995821,0.081835469
+conditioned,attachment_two_Kriek_017,Kriek,16.327430018731334,0.081835469
+conditioned,attachment_two_Kriek_018,Kriek,17.282655017717452,0.089688045
+conditioned,attachment_two_Kriek_019,Kriek,16.989564986053708,0.010201642
+conditioned,attachment_two_Kriek_020,Kriek,13.021794998880804,0.080828508
+conditioned,attachment_two_Kriek_021,Kriek,16.930030012509533,0.053657258
+conditioned,attachment_two_Kriek_022,Kriek,11.81196498808183,0.049043757
+conditioned,attachment_two_Kriek_023,Kriek,16.327430018731334,0.076481108
+conditioned,attachment_two_Kriek_024,Kriek,15.600359984942767,0.058912893
+conditioned,attachment_two_Kriek_025,Kriek,16.60749498619333,0.080828508
+conditioned,attachment_two_Kriek_026,Kriek,6.938620006407831,0.055770044
+conditioned,attachment_two_Kriek_027,Kriek,8.249090001702738,0.07030041
+conditioned,attachment_two_Kriek_028,Kriek,4.501940004091575,0.044510956
+conditioned,attachment_two_Kriek_029,Kriek,14.464034998794766,0.079352911
+conditioned,attachment_two_Kriek_030,Kriek,16.60749498619333,0.07407538
+conditioned,attachment_two_Kriek_031,Kriek,14.295990009543798,0.054367266
+conditioned,attachment_two_Kriek_032,Kriek,14.072089998419486,0.055770044
+conditioned,attachment_two_Kriek_033,Kriek,17.282655017717452,0.070809562
+conditioned,attachment_two_Kriek_034,Kriek,12.510575005427443,0.089688045
+conditioned,attachment_two_Kriek_035,Kriek,15.617844987798593,0.000118014
+conditioned,attachment_two_Kriek_036,Kriek,6.926440007735439,0.07030041
+conditioned,attachment_two_Kriek_037,Kriek,7.159765000078037,0.079352911
+conditioned,attachment_two_Kriek_038,Kriek,4.30416999856923,0.058912893
+conditioned,attachment_two_Kriek_039,Kriek,15.112782739474238,0.019219729
+conditioned,attachment_two_Kriek_040,Kriek,12.510575005427443,0.010201642
+conditioned,attachment_two_Kriek_041,Kriek,4.501940004091575,0.051620797
+conditioned,attachment_two_Kriek_042,Kriek,16.38356000161322,0.058912893
+conditioned,attachment_two_Kriek_043,Kriek,6.938620006407831,0.0662418
+conditioned,attachment_two_Kriek_044,Kriek,12.474924991419691,5e-05
+conditioned,attachment_two_Kriek_045,Kriek,11.463680011749933,0.061918658
+conditioned,attachment_two_Kriek_046,Kriek,4.30416999856923,0.07407538
+conditioned,attachment_two_Kriek_047,Kriek,15.028305017191459,0.011816796
+conditioned,attachment_two_Kriek_048,Kriek,16.38356000161322,0.011558576
+conditioned,attachment_two_Kriek_049,Kriek,10.045070011192303,0.011558576
+conditioned,attachment_two_Kriek_050,Kriek,12.914694996691294,0.067335605
+conditioned,attachment_two_Kriek_051,Kriek,11.18335999073931,0.04906384
+conditioned,attachment_two_Kriek_052,Kriek,8.628049996086517,0.011558576
+conditioned,attachment_two_Kriek_053,Kriek,15.558450017327774,0.035773067
+conditioned,attachment_two_Kriek_054,Kriek,13.021794998880804,0.089688045
+conditioned,attachment_two_Kriek_055,Kriek,14.464034998794766,0.026185308
+conditioned,attachment_two_Kriek_056,Kriek,12.034840004996626,0.055770044
+conditioned,attachment_two_Kriek_057,Kriek,16.930030012509533,1.07e-05
+conditioned,attachment_two_Kriek_058,Kriek,12.474924991419691,0.058912893
+conditioned,attachment_two_Kriek_059,Kriek,15.112782739474238,0.080828508
+conditioned,attachment_two_Kriek_060,Kriek,8.249090001702738,0.000118014
+conditioned,attachment_two_Kriek_061,Kriek,14.295990009543798,0.053657258
+conditioned,attachment_two_Kriek_062,Kriek,7.917785005134557,0.070809562
+conditioned,attachment_two_Kriek_063,Kriek,15.069739984545011,0.058912893
+conditioned,attachment_two_Kriek_064,Kriek,12.904434987863498,0.080473797
+conditioned,attachment_two_Kriek_065,Kriek,15.243340014056395,0.070809562
+conditioned,attachment_two_Kriek_066,Kriek,6.663104998213416,0.070809562
+conditioned,attachment_two_Kriek_067,Kriek,3.5756550009332426,0.080473797
+conditioned,attachment_two_Kriek_068,Kriek,15.558450017327774,0.035773067
+conditioned,attachment_two_Kriek_069,Kriek,6.576494996001657,0.051620797
+conditioned,attachment_two_Kriek_070,Kriek,12.914694996691294,0.051620797
+conditioned,attachment_two_Kriek_071,Kriek,6.938620006407831,0.047745928
+conditioned,attachment_two_Kriek_072,Kriek,6.926440007735439,0.055770044
+conditioned,attachment_two_Kriek_073,Kriek,10.792594996292964,0.054367266
+conditioned,attachment_two_Kriek_074,Kriek,12.034840004996626,0.045365705
+conditioned,attachment_two_Kriek_075,Kriek,15.600359984942767,0.000149215
+conditioned,attachment_two_Kriek_076,Kriek,4.501940004091575,0.053657258
+conditioned,attachment_two_Kriek_077,Kriek,12.170240008294504,0.000990559
+conditioned,attachment_two_Kriek_078,Kriek,6.938620006407831,0.000118014
+conditioned,attachment_two_Kriek_079,Kriek,7.678215004214326,0.035773067
+conditioned,attachment_two_Kriek_080,Kriek,12.474924991419691,0.070809562
+conditioned,attachment_two_Kriek_081,Kriek,10.561749990640216,0.042964961
+conditioned,attachment_two_Kriek_082,Kriek,7.933115000908002,2.71e-05
+conditioned,attachment_two_Kriek_083,Kriek,16.327430018731334,0.04906384
+conditioned,attachment_two_Kriek_084,Kriek,11.81196498808183,0.049043757
+conditioned,attachment_two_Kriek_085,Kriek,14.79562999283543,0.070809562
+conditioned,attachment_two_Kriek_086,Kriek,10.792594996292964,0.053657258
+conditioned,attachment_two_Kriek_087,Kriek,8.999089995408912,0.07407538
+conditioned,attachment_two_Kriek_088,Kriek,12.474924991419691,0.061918658
+conditioned,attachment_two_Kriek_089,Kriek,9.557384999133165,0.041743092
+conditioned,attachment_two_Kriek_090,Kriek,15.600359984942767,0.076481108
+conditioned,attachment_two_Kriek_091,Kriek,7.933115000908002,0.058912893
+conditioned,attachment_two_Kriek_092,Kriek,18.62554498075357,0.055770044
+conditioned,attachment_two_Kriek_093,Kriek,16.930030012509533,0.047745928
+conditioned,attachment_two_Kriek_094,Kriek,9.545992503995821,0.080828508
+conditioned,attachment_two_Kriek_095,Kriek,7.678215004214326,0.000103534
+conditioned,attachment_two_Kriek_096,Kriek,10.698150002588719,0.053649153
+conditioned,attachment_two_Kriek_097,Kriek,13.970459993626708,0.089688045
+conditioned,attachment_two_Kriek_098,Kriek,14.973879986568999,0.019219729
+conditioned,attachment_two_Kriek_099,Kriek,11.81196498808183,0.049043757
+conditioned,attachment_two_Kriek_100,Kriek,5.684249994011359,0.042964961
+conditioned,attachment_two_Lambic_001,Lambic,15.028305017191459,0.054367266
+conditioned,attachment_two_Lambic_002,Lambic,8.858684996430867,0.089688045
+conditioned,attachment_two_Lambic_003,Lambic,15.558450017327774,0.000300068
+conditioned,attachment_two_Lambic_004,Lambic,16.38356000161322,0.011999467
+conditioned,attachment_two_Lambic_005,Lambic,5.684249994011359,0.080473797
+conditioned,attachment_two_Lambic_006,Lambic,18.62554498075357,1.07e-05
+conditioned,attachment_two_Lambic_007,Lambic,15.600359984942767,0.049043757
+conditioned,attachment_two_Lambic_008,Lambic,15.558450017327774,0.049043757
+conditioned,attachment_two_Lambic_009,Lambic,14.98369999600975,0.054367266
+conditioned,attachment_two_Lambic_010,Lambic,16.930030012509533,0.001616741
+conditioned,attachment_two_Lambic_011,Lambic,12.510575005427443,0.010201642
+conditioned,attachment_two_Lambic_012,Lambic,11.23082499814955,0.000153873
+conditioned,attachment_two_Lambic_013,Lambic,8.249090001702738,0.001415959
+conditioned,attachment_two_Lambic_014,Lambic,6.938620006407831,0.026185308
+conditioned,attachment_two_Lambic_015,Lambic,18.62554498075357,0.044510956
+conditioned,attachment_two_Lambic_016,Lambic,10.282825005844419,0.047745928
+conditioned,attachment_two_Lambic_017,Lambic,17.282655017717452,0.019219729
+conditioned,attachment_two_Lambic_018,Lambic,10.282825005844419,2.71e-05
+conditioned,attachment_two_Lambic_019,Lambic,12.474924991419691,0.047745928
+conditioned,attachment_two_Lambic_020,Lambic,17.512875005566006,0.041743092
+conditioned,attachment_two_Lambic_021,Lambic,15.276254991062764,0.042964961
+conditioned,attachment_two_Lambic_022,Lambic,14.464034998794766,0.034258911
+conditioned,attachment_two_Lambic_023,Lambic,15.600359984942767,0.0662418
+conditioned,attachment_two_Lambic_024,Lambic,10.561749990640216,0.051620797
+conditioned,attachment_two_Lambic_025,Lambic,18.62554498075357,0.049043757
+conditioned,attachment_two_Lambic_026,Lambic,8.249090001702738,0.051620797
+conditioned,attachment_two_Lambic_027,Lambic,16.38356000161322,2.83e-06
+conditioned,attachment_two_Lambic_028,Lambic,18.62554498075357,6.3e-06
+conditioned,attachment_two_Lambic_029,Lambic,7.933115000908002,0.019219729
+conditioned,attachment_two_Lambic_030,Lambic,16.672510016272245,0.000149215
+conditioned,attachment_two_Lambic_031,Lambic,17.740209979840053,5e-05
+conditioned,attachment_two_Lambic_032,Lambic,16.672510016272245,0.054548416
+conditioned,attachment_two_Lambic_033,Lambic,11.23082499814955,0.001628788
+conditioned,attachment_two_Lambic_034,Lambic,17.282655017717452,0.04906384
+conditioned,attachment_two_Lambic_035,Lambic,15.187590016377074,1.09e-07
+conditioned,attachment_two_Lambic_036,Lambic,16.90052998886136,0.011558576
+conditioned,attachment_two_Lambic_037,Lambic,16.38356000161322,0.055770044
+conditioned,attachment_two_Lambic_038,Lambic,16.90052998886136,0.000103534
+conditioned,attachment_two_Lambic_039,Lambic,17.512875005566006,5.9e-08
+conditioned,attachment_two_Lambic_040,Lambic,11.736514995705097,0.011999467
+conditioned,attachment_two_Lambic_041,Lambic,10.887784992220478,6.3e-06
+conditioned,attachment_two_Lambic_042,Lambic,15.250354986968484,0.076481108
+conditioned,attachment_two_Lambic_043,Lambic,15.243340014056395,0.076481108
+conditioned,attachment_two_Lambic_044,Lambic,15.925965001622558,0.011999467
+conditioned,attachment_two_Lambic_045,Lambic,12.914694996691294,0.000990559
+conditioned,attachment_two_Lambic_046,Lambic,17.740209979840053,0.079352911
+conditioned,attachment_two_Lambic_047,Lambic,16.379755018172073,0.042964961
+conditioned,attachment_two_Lambic_048,Lambic,15.925965001622558,0.000115329
+conditioned,attachment_two_Lambic_049,Lambic,12.904434987863498,0.079352911
+conditioned,attachment_two_Lambic_050,Lambic,12.904434987863498,0.000509493
+conditioned,attachment_two_Lambic_051,Lambic,6.938620006407831,6.3e-06
+conditioned,attachment_two_Lambic_052,Lambic,16.989564986053708,0.003081258
+conditioned,attachment_two_Lambic_053,Lambic,12.510575005427443,6.3e-06
+conditioned,attachment_two_Lambic_054,Lambic,15.617844987798593,7.56e-05
+conditioned,attachment_two_Lambic_055,Lambic,15.081945010624004,0.000115329
+conditioned,attachment_two_Lambic_056,Lambic,15.558450017327774,0.053657258
+conditioned,attachment_two_Lambic_057,Lambic,8.120934992350033,1.09e-07
+conditioned,attachment_two_Lambic_058,Lambic,16.95995001681139,0.076481108
+conditioned,attachment_two_Lambic_059,Lambic,13.970459993626708,0.044510956
+conditioned,attachment_two_Lambic_060,Lambic,12.914694996691294,0.044510956
+conditioned,attachment_two_Lambic_061,Lambic,11.18335999073931,0.010201642
+conditioned,attachment_two_Lambic_062,Lambic,17.755470005086345,0.088736603
+conditioned,attachment_two_Lambic_063,Lambic,18.96433000394151,0.001628788
+conditioned,attachment_two_Lambic_064,Lambic,16.672510016272245,0.054548416
+conditioned,attachment_two_Lambic_065,Lambic,14.278480014602374,0.010201642
+conditioned,attachment_two_Lambic_066,Lambic,14.072089998419486,0.000149215
+conditioned,attachment_two_Lambic_067,Lambic,16.930030012509533,0.080828508
+conditioned,attachment_two_Lambic_068,Lambic,12.510575005427443,0.041743092
+conditioned,attachment_two_Lambic_069,Lambic,8.340165005573722,0.079352911
+conditioned,attachment_two_Lambic_070,Lambic,16.989564986053708,0.035773067
+conditioned,attachment_two_Lambic_071,Lambic,16.76254500967566,1.07e-05
+conditioned,attachment_two_Lambic_072,Lambic,16.60749498619333,0.000509493
+conditioned,attachment_two_Lambic_073,Lambic,17.282655017717452,1.09e-07
+conditioned,attachment_two_Lambic_074,Lambic,14.973879986568999,8.9e-05
+conditioned,attachment_two_Lambic_075,Lambic,15.925965001622558,0.000990559
+conditioned,attachment_two_Lambic_076,Lambic,15.925965001622558,0.000323439
+conditioned,attachment_two_Lambic_077,Lambic,14.278480014602374,0.045365705
+conditioned,attachment_two_Lambic_078,Lambic,17.605334984576,0.054367266
+conditioned,attachment_two_Lambic_079,Lambic,9.876804989110045,0.026961202
+conditioned,attachment_two_Lambic_080,Lambic,10.698150002588719,0.000509493
+conditioned,attachment_two_Lambic_081,Lambic,12.034840004996626,0.000509493
+conditioned,attachment_two_Lambic_082,Lambic,17.67049001653276,0.026961202
+conditioned,attachment_two_Lambic_083,Lambic,15.925965001622558,0.088736603
+conditioned,attachment_two_Lambic_084,Lambic,15.276254991062764,0.041743092
+conditioned,attachment_two_Lambic_085,Lambic,15.069739984545011,0.088736603
+conditioned,attachment_two_Lambic_086,Lambic,11.463680011749933,0.04906384
+conditioned,attachment_two_Lambic_087,Lambic,8.340165005573722,0.000153873
+conditioned,attachment_two_Lambic_088,Lambic,15.558450017327774,0.04906384
+conditioned,attachment_two_Lambic_089,Lambic,15.069739984545011,0.051620797
+conditioned,attachment_two_Lambic_090,Lambic,10.792594996292964,0.001628788
+conditioned,attachment_two_Lambic_091,Lambic,16.60749498619333,2.71e-05
+conditioned,attachment_two_Lambic_092,Lambic,12.904434987863498,0.070809562
+conditioned,attachment_two_Lambic_093,Lambic,15.243340014056395,0.088736603
+conditioned,attachment_two_Lambic_094,Lambic,14.973879986568999,0.054548416
+conditioned,attachment_two_Lambic_095,Lambic,16.661494995164656,0.026185308
+conditioned,attachment_two_Lambic_096,Lambic,15.028305017191459,0.000990559
+conditioned,attachment_two_Lambic_097,Lambic,8.999089995408912,0.054548416
+conditioned,attachment_two_Lambic_098,Lambic,12.904434987863498,0.041743092
+conditioned,attachment_two_Lambic_099,Lambic,16.90052998886136,0.079352911
+conditioned,attachment_two_Lambic_100,Lambic,6.926440007735439,8.9e-05
+conditioned,attachment_two_Low_No alcohol_001,Low/No alcohol,8.628049996086517,0.053657258
+conditioned,attachment_two_Low_No alcohol_002,Low/No alcohol,4.30416999856923,0.053649153
+conditioned,attachment_two_Low_No alcohol_003,Low/No alcohol,1.1122725005394052,5e-05
+conditioned,attachment_two_Low_No alcohol_004,Low/No alcohol,9.557384999133165,0.051620797
+conditioned,attachment_two_Low_No alcohol_005,Low/No alcohol,3.5756550009332426,0.001628788
+conditioned,attachment_two_Low_No alcohol_006,Low/No alcohol,2.2245449976777634,0.035088328
+conditioned,attachment_two_Low_No alcohol_007,Low/No alcohol,6.663104998213416,0.000115329
+conditioned,attachment_two_Low_No alcohol_008,Low/No alcohol,15.028305017191459,0.076481108
+conditioned,attachment_two_Low_No alcohol_009,Low/No alcohol,6.663104998213416,6.3e-06
+conditioned,attachment_two_Low_No alcohol_010,Low/No alcohol,1.1122725005394052,0.049043757
+conditioned,attachment_two_Low_No alcohol_011,Low/No alcohol,2.2245449976777634,0.051620797
+conditioned,attachment_two_Low_No alcohol_012,Low/No alcohol,1.1122725005394052,3.93e-06
+conditioned,attachment_two_Low_No alcohol_013,Low/No alcohol,8.358765008462843,0.049043757
+conditioned,attachment_two_Low_No alcohol_014,Low/No alcohol,5.684249994011359,0.055770044
+conditioned,attachment_two_Low_No alcohol_015,Low/No alcohol,9.545992503995821,5.9e-08
+conditioned,attachment_two_Low_No alcohol_016,Low/No alcohol,2.2245449976777634,0.049043757
+conditioned,attachment_two_Low_No alcohol_017,Low/No alcohol,16.672510016272245,8.95e-05
+conditioned,attachment_two_Low_No alcohol_018,Low/No alcohol,6.055159995579341,0.011816796
+conditioned,attachment_two_Low_No alcohol_019,Low/No alcohol,10.282825005844419,0.061918658
+conditioned,attachment_two_Low_No alcohol_020,Low/No alcohol,8.120934992350033,0.011558576
+conditioned,attachment_two_Low_No alcohol_021,Low/No alcohol,6.055159995579341,3.93e-06
+conditioned,attachment_two_Low_No alcohol_022,Low/No alcohol,6.926440007735439,8.9e-05
+conditioned,attachment_two_Low_No alcohol_023,Low/No alcohol,4.30416999856923,7.56e-05
+conditioned,attachment_two_Low_No alcohol_024,Low/No alcohol,6.60008500467526,0.000300068
+conditioned,attachment_two_Low_No alcohol_025,Low/No alcohol,11.81196498808183,0.000300068
+conditioned,attachment_two_Low_No alcohol_026,Low/No alcohol,8.120934992350033,0.067335605
+conditioned,attachment_two_Low_No alcohol_027,Low/No alcohol,3.5756550009332426,0.000300068
+conditioned,attachment_two_Low_No alcohol_028,Low/No alcohol,6.576494996001657,0.002064095
+conditioned,attachment_two_Low_No alcohol_029,Low/No alcohol,7.917785005134557,0.010201642
+conditioned,attachment_two_Low_No alcohol_030,Low/No alcohol,3.5756550009332426,0.001628788
+conditioned,attachment_two_Low_No alcohol_031,Low/No alcohol,6.055159995579341,0.045365705
+conditioned,attachment_two_Low_No alcohol_032,Low/No alcohol,17.67049001653276,0.026961202
+conditioned,attachment_two_Low_No alcohol_033,Low/No alcohol,12.170240008294504,0.0662418
+conditioned,attachment_two_Low_No alcohol_034,Low/No alcohol,6.663104998213416,0.001415959
+conditioned,attachment_two_Low_No alcohol_035,Low/No alcohol,8.358765008462843,8.9e-05
+conditioned,attachment_two_Low_No alcohol_036,Low/No alcohol,8.628049996086517,0.044510956
+conditioned,attachment_two_Low_No alcohol_037,Low/No alcohol,6.663104998213416,2.71e-05
+conditioned,attachment_two_Low_No alcohol_038,Low/No alcohol,3.5756550009332426,0.011558576
+conditioned,attachment_two_Low_No alcohol_039,Low/No alcohol,6.60008500467526,0.047745928
+conditioned,attachment_two_Low_No alcohol_040,Low/No alcohol,6.663104998213416,0.000149215
+conditioned,attachment_two_Low_No alcohol_041,Low/No alcohol,3.5756550009332426,0.001415959
+conditioned,attachment_two_Low_No alcohol_042,Low/No alcohol,4.501940004091575,0.070809562
+conditioned,attachment_two_Low_No alcohol_043,Low/No alcohol,15.617844987798593,0.000118014
+conditioned,attachment_two_Low_No alcohol_044,Low/No alcohol,1.1122725005394052,2.71e-05
+conditioned,attachment_two_Low_No alcohol_045,Low/No alcohol,5.684249994011359,0.000323439
+conditioned,attachment_two_Low_No alcohol_046,Low/No alcohol,5.684249994011359,0.000118014
+conditioned,attachment_two_Low_No alcohol_047,Low/No alcohol,3.5756550009332426,0.080473797
+conditioned,attachment_two_Low_No alcohol_048,Low/No alcohol,12.170240008294504,0.035088328
+conditioned,attachment_two_Low_No alcohol_049,Low/No alcohol,14.973879986568999,0.044510956
+conditioned,attachment_two_Low_No alcohol_050,Low/No alcohol,1.1122725005394052,0.089688045
+conditioned,attachment_two_Low_No alcohol_051,Low/No alcohol,4.501940004091575,0.000115329
+conditioned,attachment_two_Low_No alcohol_052,Low/No alcohol,8.999089995408912,0.061918658
+conditioned,attachment_two_Low_No alcohol_053,Low/No alcohol,6.938620006407831,0.047745928
+conditioned,attachment_two_Low_No alcohol_054,Low/No alcohol,11.736514995705097,1.58e-05
+conditioned,attachment_two_Low_No alcohol_055,Low/No alcohol,8.358765008462843,1.31e-07
+conditioned,attachment_two_Low_No alcohol_056,Low/No alcohol,8.999089995408912,0.00051192
+conditioned,attachment_two_Low_No alcohol_057,Low/No alcohol,6.055159995579341,0.053657258
+conditioned,attachment_two_Low_No alcohol_058,Low/No alcohol,3.5756550009332426,0.001616741
+conditioned,attachment_two_Low_No alcohol_059,Low/No alcohol,8.999089995408912,0.07407538
+conditioned,attachment_two_Low_No alcohol_060,Low/No alcohol,8.358765008462843,0.045365705
+conditioned,attachment_two_Low_No alcohol_061,Low/No alcohol,14.973879986568999,1.58e-05
+conditioned,attachment_two_Low_No alcohol_062,Low/No alcohol,7.933115000908002,0.045365705
+conditioned,attachment_two_Low_No alcohol_063,Low/No alcohol,5.684249994011359,1.09e-07
+conditioned,attachment_two_Low_No alcohol_064,Low/No alcohol,4.30416999856923,0.003081258
+conditioned,attachment_two_Low_No alcohol_065,Low/No alcohol,4.501940004091575,1.07e-05
+conditioned,attachment_two_Low_No alcohol_066,Low/No alcohol,1.1122725005394052,7.56e-05
+conditioned,attachment_two_Low_No alcohol_067,Low/No alcohol,16.38356000161322,0.053657258
+conditioned,attachment_two_Low_No alcohol_068,Low/No alcohol,2.2245449976777634,0.000509493
+conditioned,attachment_two_Low_No alcohol_069,Low/No alcohol,7.678215004214326,0.019219729
+conditioned,attachment_two_Low_No alcohol_070,Low/No alcohol,12.474924991419691,0.061918658
+conditioned,attachment_two_Low_No alcohol_071,Low/No alcohol,12.904434987863498,0.032551284
+conditioned,attachment_two_Low_No alcohol_072,Low/No alcohol,12.170240008294504,0.058912893
+conditioned,attachment_two_Low_No alcohol_073,Low/No alcohol,3.5756550009332426,0.001415959
+conditioned,attachment_two_Low_No alcohol_074,Low/No alcohol,6.576494996001657,5e-05
+conditioned,attachment_two_Low_No alcohol_075,Low/No alcohol,8.249090001702738,0.04906384
+conditioned,attachment_two_Low_No alcohol_076,Low/No alcohol,15.617844987798593,0.010201642
+conditioned,attachment_two_Low_No alcohol_077,Low/No alcohol,4.501940004091575,0.000149215
+conditioned,attachment_two_Low_No alcohol_078,Low/No alcohol,2.2245449976777634,0.049043757
+conditioned,attachment_two_Low_No alcohol_079,Low/No alcohol,8.628049996086517,0.001628788
+conditioned,attachment_two_Low_No alcohol_080,Low/No alcohol,7.933115000908002,0.000149215
+conditioned,attachment_two_Low_No alcohol_081,Low/No alcohol,5.684249994011359,0.047745928
+conditioned,attachment_two_Low_No alcohol_082,Low/No alcohol,6.576494996001657,0.035088328
+conditioned,attachment_two_Low_No alcohol_083,Low/No alcohol,7.933115000908002,0.000323439
+conditioned,attachment_two_Low_No alcohol_084,Low/No alcohol,10.698150002588719,0.055770044
+conditioned,attachment_two_Low_No alcohol_085,Low/No alcohol,6.938620006407831,0.076481108
+conditioned,attachment_two_Low_No alcohol_086,Low/No alcohol,12.034840004996626,8.95e-05
+conditioned,attachment_two_Low_No alcohol_087,Low/No alcohol,6.055159995579341,6.3e-06
+conditioned,attachment_two_Low_No alcohol_088,Low/No alcohol,3.5756550009332426,2.71e-05
+conditioned,attachment_two_Low_No alcohol_089,Low/No alcohol,14.79562999283543,0.041743092
+conditioned,attachment_two_Low_No alcohol_090,Low/No alcohol,12.474924991419691,0.000323439
+conditioned,attachment_two_Low_No alcohol_091,Low/No alcohol,3.5756550009332426,0.080473797
+conditioned,attachment_two_Low_No alcohol_092,Low/No alcohol,4.30416999856923,5.9e-08
+conditioned,attachment_two_Low_No alcohol_093,Low/No alcohol,1.1122725005394052,1.31e-07
+conditioned,attachment_two_Low_No alcohol_094,Low/No alcohol,1.1122725005394052,0.088736603
+conditioned,attachment_two_Low_No alcohol_095,Low/No alcohol,7.917785005134557,0.000509493
+conditioned,attachment_two_Low_No alcohol_096,Low/No alcohol,15.187590016377074,0.058912893
+conditioned,attachment_two_Low_No alcohol_097,Low/No alcohol,6.938620006407831,1.09e-07
+conditioned,attachment_two_Low_No alcohol_098,Low/No alcohol,16.38356000161322,0.035088328
+conditioned,attachment_two_Low_No alcohol_099,Low/No alcohol,8.772419992705185,0.041743092
+conditioned,attachment_two_Low_No alcohol_100,Low/No alcohol,14.278480014602374,0.058912893
+conditioned,attachment_two_Pils_Lager_001,Pils/Lager,15.600359984942767,0.04906384
+conditioned,attachment_two_Pils_Lager_002,Pils/Lager,12.510575005427443,0.088736603
+conditioned,attachment_two_Pils_Lager_003,Pils/Lager,15.028305017191459,0.000300068
+conditioned,attachment_two_Pils_Lager_004,Pils/Lager,14.072089998419486,0.053657258
+conditioned,attachment_two_Pils_Lager_005,Pils/Lager,6.663104998213416,8.95e-05
+conditioned,attachment_two_Pils_Lager_006,Pils/Lager,7.917785005134557,0.000323439
+conditioned,attachment_two_Pils_Lager_007,Pils/Lager,8.628049996086517,0.000153873
+conditioned,attachment_two_Pils_Lager_008,Pils/Lager,8.858684996430867,0.000323439
+conditioned,attachment_two_Pils_Lager_009,Pils/Lager,17.67049001653276,5e-05
+conditioned,attachment_two_Pils_Lager_010,Pils/Lager,18.41872501186387,0.035773067
+conditioned,attachment_two_Pils_Lager_011,Pils/Lager,7.678215004214326,0.000300068
+conditioned,attachment_two_Pils_Lager_012,Pils/Lager,10.792594996292964,0.001415959
+conditioned,attachment_two_Pils_Lager_013,Pils/Lager,9.545992503995821,0.003081258
+conditioned,attachment_two_Pils_Lager_014,Pils/Lager,8.120934992350033,2.83e-06
+conditioned,attachment_two_Pils_Lager_015,Pils/Lager,10.282825005844419,0.079352911
+conditioned,attachment_two_Pils_Lager_016,Pils/Lager,14.072089998419486,0.07407538
+conditioned,attachment_two_Pils_Lager_017,Pils/Lager,13.021794998880804,0.001415959
+conditioned,attachment_two_Pils_Lager_018,Pils/Lager,11.736514995705097,0.000990559
+conditioned,attachment_two_Pils_Lager_019,Pils/Lager,11.18335999073931,0.055770044
+conditioned,attachment_two_Pils_Lager_020,Pils/Lager,11.81196498808183,0.053649153
+conditioned,attachment_two_Pils_Lager_021,Pils/Lager,14.864504985440357,1.07e-05
+conditioned,attachment_two_Pils_Lager_022,Pils/Lager,9.545992503995821,0.055770044
+conditioned,attachment_two_Pils_Lager_023,Pils/Lager,15.250354986968484,0.026185308
+conditioned,attachment_two_Pils_Lager_024,Pils/Lager,6.055159995579341,8.95e-05
+conditioned,attachment_two_Pils_Lager_025,Pils/Lager,15.558450017327774,2.83e-06
+conditioned,attachment_two_Pils_Lager_026,Pils/Lager,7.159765000078037,0.000118014
+conditioned,attachment_two_Pils_Lager_027,Pils/Lager,18.96433000394151,6.3e-06
+conditioned,attachment_two_Pils_Lager_028,Pils/Lager,15.250354986968484,0.049043757
+conditioned,attachment_two_Pils_Lager_029,Pils/Lager,6.055159995579341,0.080828508
+conditioned,attachment_two_Pils_Lager_030,Pils/Lager,13.970459993626708,0.026185308
+conditioned,attachment_two_Pils_Lager_031,Pils/Lager,17.282655017717452,0.011999467
+conditioned,attachment_two_Pils_Lager_032,Pils/Lager,15.617844987798593,1.09e-07
+conditioned,attachment_two_Pils_Lager_033,Pils/Lager,15.250354986968484,0.056959527
+conditioned,attachment_two_Pils_Lager_034,Pils/Lager,17.740209979840053,0.080828508
+conditioned,attachment_two_Pils_Lager_035,Pils/Lager,3.5756550009332426,0.0662418
+conditioned,attachment_two_Pils_Lager_036,Pils/Lager,10.698150002588719,1.58e-05
+conditioned,attachment_two_Pils_Lager_037,Pils/Lager,6.055159995579341,0.032551284
+conditioned,attachment_two_Pils_Lager_038,Pils/Lager,18.972445021572597,0.011558576
+conditioned,attachment_two_Pils_Lager_039,Pils/Lager,13.021794998880804,0.081835469
+conditioned,attachment_two_Pils_Lager_040,Pils/Lager,16.053695012177208,5.9e-08
+conditioned,attachment_two_Pils_Lager_041,Pils/Lager,17.605334984576,0.047745928
+conditioned,attachment_two_Pils_Lager_042,Pils/Lager,15.069739984545011,0.010201642
+conditioned,attachment_two_Pils_Lager_043,Pils/Lager,16.661494995164656,0.026185308
+conditioned,attachment_two_Pils_Lager_044,Pils/Lager,11.736514995705097,0.019219729
+conditioned,attachment_two_Pils_Lager_045,Pils/Lager,6.60008500467526,0.042964961
+conditioned,attachment_two_Pils_Lager_046,Pils/Lager,14.072089998419486,0.019219729
+conditioned,attachment_two_Pils_Lager_047,Pils/Lager,10.792594996292964,0.053649153
+conditioned,attachment_two_Pils_Lager_048,Pils/Lager,14.278480014602374,1.31e-07
+conditioned,attachment_two_Pils_Lager_049,Pils/Lager,10.792594996292964,0.062532405
+conditioned,attachment_two_Pils_Lager_050,Pils/Lager,15.187590016377074,0.088736603
+conditioned,attachment_two_Pils_Lager_051,Pils/Lager,17.605334984576,0.067335605
+conditioned,attachment_two_Pils_Lager_052,Pils/Lager,15.069739984545011,1.09e-07
+conditioned,attachment_two_Pils_Lager_053,Pils/Lager,7.917785005134557,0.079352911
+conditioned,attachment_two_Pils_Lager_054,Pils/Lager,14.278480014602374,0.000300068
+conditioned,attachment_two_Pils_Lager_055,Pils/Lager,8.670400006621858,0.001616741
+conditioned,attachment_two_Pils_Lager_056,Pils/Lager,8.628049996086517,0.044510956
+conditioned,attachment_two_Pils_Lager_057,Pils/Lager,10.045070011192303,0.000300068
+conditioned,attachment_two_Pils_Lager_058,Pils/Lager,8.120934992350033,0.001616741
+conditioned,attachment_two_Pils_Lager_059,Pils/Lager,15.112782739474238,0.019219729
+conditioned,attachment_two_Pils_Lager_060,Pils/Lager,7.917785005134557,1.58e-05
+conditioned,attachment_two_Pils_Lager_061,Pils/Lager,6.938620006407831,0.000509493
+conditioned,attachment_two_Pils_Lager_062,Pils/Lager,17.67049001653276,0.079352911
+conditioned,attachment_two_Pils_Lager_063,Pils/Lager,8.772419992705185,8.95e-05
+conditioned,attachment_two_Pils_Lager_064,Pils/Lager,9.545992503995821,0.088736603
+conditioned,attachment_two_Pils_Lager_065,Pils/Lager,16.76254500967566,0.011999467
+conditioned,attachment_two_Pils_Lager_066,Pils/Lager,11.23082499814955,0.056959527
+conditioned,attachment_two_Pils_Lager_067,Pils/Lager,6.926440007735439,0.026961202
+conditioned,attachment_two_Pils_Lager_068,Pils/Lager,12.034840004996626,0.011558576
+conditioned,attachment_two_Pils_Lager_069,Pils/Lager,12.170240008294504,5e-05
+conditioned,attachment_two_Pils_Lager_070,Pils/Lager,10.887784992220478,0.053649153
+conditioned,attachment_two_Pils_Lager_071,Pils/Lager,6.938620006407831,0.041743092
+conditioned,attachment_two_Pils_Lager_072,Pils/Lager,17.282655017717452,0.061918658
+conditioned,attachment_two_Pils_Lager_073,Pils/Lager,10.282825005844419,0.026185308
+conditioned,attachment_two_Pils_Lager_074,Pils/Lager,17.282655017717452,0.000153873
+conditioned,attachment_two_Pils_Lager_075,Pils/Lager,17.740209979840053,0.080473797
+conditioned,attachment_two_Pils_Lager_076,Pils/Lager,18.916400004818033,0.000115329
+conditioned,attachment_two_Pils_Lager_077,Pils/Lager,8.249090001702738,0.010201642
+conditioned,attachment_two_Pils_Lager_078,Pils/Lager,15.617844987798593,0.001616741
+conditioned,attachment_two_Pils_Lager_079,Pils/Lager,4.30416999856923,0.000509493
+conditioned,attachment_two_Pils_Lager_080,Pils/Lager,14.295990009543798,0.001415959
+conditioned,attachment_two_Pils_Lager_081,Pils/Lager,16.327430018731334,0.051620797
+conditioned,attachment_two_Pils_Lager_082,Pils/Lager,16.60749498619333,1.58e-05
+conditioned,attachment_two_Pils_Lager_083,Pils/Lager,6.663104998213416,0.000118014
+conditioned,attachment_two_Pils_Lager_084,Pils/Lager,7.933115000908002,0.000990559
+conditioned,attachment_two_Pils_Lager_085,Pils/Lager,15.028305017191459,0.045365705
+conditioned,attachment_two_Pils_Lager_086,Pils/Lager,12.510575005427443,0.080828508
+conditioned,attachment_two_Pils_Lager_087,Pils/Lager,10.561749990640216,0.035088328
+conditioned,attachment_two_Pils_Lager_088,Pils/Lager,15.617844987798593,0.000509493
+conditioned,attachment_two_Pils_Lager_089,Pils/Lager,10.045070011192303,0.070809562
+conditioned,attachment_two_Pils_Lager_090,Pils/Lager,18.62554498075357,0.000118014
+conditioned,attachment_two_Pils_Lager_091,Pils/Lager,18.41872501186387,0.062532405
+conditioned,attachment_two_Pils_Lager_092,Pils/Lager,8.120934992350033,0.011999467
+conditioned,attachment_two_Pils_Lager_093,Pils/Lager,16.161124985968083,0.0662418
+conditioned,attachment_two_Pils_Lager_094,Pils/Lager,12.904434987863498,0.019219729
+conditioned,attachment_two_Pils_Lager_095,Pils/Lager,16.379755018172073,0.000300068
+conditioned,attachment_two_Pils_Lager_096,Pils/Lager,15.112782739474238,5e-05
+conditioned,attachment_two_Pils_Lager_097,Pils/Lager,17.67049001653276,0.002064095
+conditioned,attachment_two_Pils_Lager_098,Pils/Lager,14.855599995516986,0.041743092
+conditioned,attachment_two_Pils_Lager_099,Pils/Lager,9.557384999133165,1.31e-07
+conditioned,attachment_two_Pils_Lager_100,Pils/Lager,18.96433000394151,0.056959527
+conditioned,attachment_two_Saison_001,Saison,8.670400006621858,0.054548416
+conditioned,attachment_two_Saison_002,Saison,12.914694996691294,0.054367266
+conditioned,attachment_two_Saison_003,Saison,18.96433000394151,0.056959527
+conditioned,attachment_two_Saison_004,Saison,14.464034998794766,0.011999467
+conditioned,attachment_two_Saison_005,Saison,15.243340014056395,0.070809562
+conditioned,attachment_two_Saison_006,Saison,14.442329993906716,1.07e-05
+conditioned,attachment_two_Saison_007,Saison,8.340165005573722,0.001628788
+conditioned,attachment_two_Saison_008,Saison,14.278480014602374,0.04906384
+conditioned,attachment_two_Saison_009,Saison,14.864504985440357,0.054367266
+conditioned,attachment_two_Saison_010,Saison,17.512875005566006,0.000300068
+conditioned,attachment_two_Saison_011,Saison,17.740209979840053,0.042964961
+conditioned,attachment_two_Saison_012,Saison,15.069739984545011,0.026961202
+conditioned,attachment_two_Saison_013,Saison,14.98369999600975,0.053657258
+conditioned,attachment_two_Saison_014,Saison,15.112782739474238,1.58e-05
+conditioned,attachment_two_Saison_015,Saison,14.79562999283543,0.080473797
+conditioned,attachment_two_Saison_016,Saison,12.474924991419691,0.045365705
+conditioned,attachment_two_Saison_017,Saison,16.930030012509533,1.31e-07
+conditioned,attachment_two_Saison_018,Saison,13.021794998880804,1.58e-05
+conditioned,attachment_two_Saison_019,Saison,15.112782739474238,0.034258911
+conditioned,attachment_two_Saison_020,Saison,18.972445021572597,0.000103534
+conditioned,attachment_two_Saison_021,Saison,15.276254991062764,0.011558576
+conditioned,attachment_two_Saison_022,Saison,17.605334984576,0.001628788
+conditioned,attachment_two_Saison_023,Saison,14.278480014602374,0.041743092
+conditioned,attachment_two_Saison_024,Saison,15.250354986968484,0.000990559
+conditioned,attachment_two_Saison_025,Saison,8.628049996086517,0.034258911
+conditioned,attachment_two_Saison_026,Saison,18.41872501186387,0.000300068
+conditioned,attachment_two_Saison_027,Saison,16.661494995164656,2.71e-05
+conditioned,attachment_two_Saison_028,Saison,16.60749498619333,0.049043757
+conditioned,attachment_two_Saison_029,Saison,10.045070011192303,0.045365705
+conditioned,attachment_two_Saison_030,Saison,14.864504985440357,0.011558576
+conditioned,attachment_two_Saison_031,Saison,6.938620006407831,5e-05
+conditioned,attachment_two_Saison_032,Saison,7.917785005134557,0.04906384
+conditioned,attachment_two_Saison_033,Saison,14.855599995516986,0.026185308
+conditioned,attachment_two_Saison_034,Saison,18.464419989559758,0.054367266
+conditioned,attachment_two_Saison_035,Saison,11.18335999073931,1.58e-05
+conditioned,attachment_two_Saison_036,Saison,15.069739984545011,0.019219729
+conditioned,attachment_two_Saison_037,Saison,15.243340014056395,0.089688045
+conditioned,attachment_two_Saison_038,Saison,12.474924991419691,0.051620797
+conditioned,attachment_two_Saison_039,Saison,15.028305017191459,8.9e-05
+conditioned,attachment_two_Saison_040,Saison,13.021794998880804,0.044510956
+conditioned,attachment_two_Saison_041,Saison,15.069739984545011,1.58e-05
+conditioned,attachment_two_Saison_042,Saison,15.250354986968484,0.055770044
+conditioned,attachment_two_Saison_043,Saison,16.327430018731334,0.026961202
+conditioned,attachment_two_Saison_044,Saison,10.282825005844419,0.000115329
+conditioned,attachment_two_Saison_045,Saison,18.62554498075357,0.080828508
+conditioned,attachment_two_Saison_046,Saison,14.072089998419486,0.035088328
+conditioned,attachment_two_Saison_047,Saison,8.249090001702738,0.054367266
+conditioned,attachment_two_Saison_048,Saison,17.605334984576,0.07030041
+conditioned,attachment_two_Saison_049,Saison,18.62554498075357,0.000118014
+conditioned,attachment_two_Saison_050,Saison,10.792594996292964,3.93e-06
+conditioned,attachment_two_Saison_051,Saison,14.442329993906716,0.034258911
+conditioned,attachment_two_Saison_052,Saison,16.327430018731334,0.061918658
+conditioned,attachment_two_Saison_053,Saison,16.053695012177208,0.067335605
+conditioned,attachment_two_Saison_054,Saison,15.243340014056395,0.051620797
+conditioned,attachment_two_Saison_055,Saison,8.999089995408912,0.032551284
+conditioned,attachment_two_Saison_056,Saison,18.41872501186387,0.000509493
+conditioned,attachment_two_Saison_057,Saison,15.028305017191459,0.07407538
+conditioned,attachment_two_Saison_058,Saison,17.605334984576,0.053657258
+conditioned,attachment_two_Saison_059,Saison,14.278480014602374,0.07030041
+conditioned,attachment_two_Saison_060,Saison,10.561749990640216,0.011999467
+conditioned,attachment_two_Saison_061,Saison,16.60749498619333,0.000323439
+conditioned,attachment_two_Saison_062,Saison,16.38356000161322,0.079352911
+conditioned,attachment_two_Saison_063,Saison,10.561749990640216,0.088736603
+conditioned,attachment_two_Saison_064,Saison,14.864504985440357,0.000118014
+conditioned,attachment_two_Saison_065,Saison,8.120934992350033,3.93e-06
+conditioned,attachment_two_Saison_066,Saison,18.96433000394151,0.000115329
+conditioned,attachment_two_Saison_067,Saison,16.989564986053708,0.079352911
+conditioned,attachment_two_Saison_068,Saison,13.021794998880804,0.053657258
+conditioned,attachment_two_Saison_069,Saison,15.112782739474238,0.001415959
+conditioned,attachment_two_Saison_070,Saison,11.23082499814955,0.000323439
+conditioned,attachment_two_Saison_071,Saison,6.60008500467526,0.011558576
+conditioned,attachment_two_Saison_072,Saison,12.474924991419691,0.04906384
+conditioned,attachment_two_Saison_073,Saison,16.672510016272245,1.31e-07
+conditioned,attachment_two_Saison_074,Saison,14.973879986568999,8.95e-05
+conditioned,attachment_two_Saison_075,Saison,17.67049001653276,0.003081258
+conditioned,attachment_two_Saison_076,Saison,6.576494996001657,0.056959527
+conditioned,attachment_two_Saison_077,Saison,16.672510016272245,0.00051192
+conditioned,attachment_two_Saison_078,Saison,16.60749498619333,0.000118014
+conditioned,attachment_two_Saison_079,Saison,15.925965001622558,0.081835469
+conditioned,attachment_two_Saison_080,Saison,15.617844987798593,0.000509493
+conditioned,attachment_two_Saison_081,Saison,11.23082499814955,8.9e-05
+conditioned,attachment_two_Saison_082,Saison,12.034840004996626,0.035773067
+conditioned,attachment_two_Saison_083,Saison,16.76254500967566,2.83e-06
+conditioned,attachment_two_Saison_084,Saison,15.276254991062764,0.044510956
+conditioned,attachment_two_Saison_085,Saison,6.60008500467526,0.04906384
+conditioned,attachment_two_Saison_086,Saison,17.605334984576,0.056959527
+conditioned,attachment_two_Saison_087,Saison,16.76254500967566,0.055770044
+conditioned,attachment_two_Saison_088,Saison,11.81196498808183,0.054367266
+conditioned,attachment_two_Saison_089,Saison,13.021794998880804,0.047745928
+conditioned,attachment_two_Saison_090,Saison,14.278480014602374,0.041743092
+conditioned,attachment_two_Saison_091,Saison,17.755470005086345,1.09e-07
+conditioned,attachment_two_Saison_092,Saison,6.938620006407831,0.051620797
+conditioned,attachment_two_Saison_093,Saison,15.617844987798593,0.042964961
+conditioned,attachment_two_Saison_094,Saison,12.914694996691294,0.034258911
+conditioned,attachment_two_Saison_095,Saison,14.864504985440357,5.9e-08
+conditioned,attachment_two_Saison_096,Saison,17.755470005086345,0.088736603
+conditioned,attachment_two_Saison_097,Saison,15.243340014056395,0.019219729
+conditioned,attachment_two_Saison_098,Saison,14.442329993906716,0.003081258
+conditioned,attachment_two_Saison_099,Saison,18.41872501186387,1.31e-07
+conditioned,attachment_two_Saison_100,Saison,12.914694996691294,0.00051192
+conditioned,attachment_two_Scotch_001,Scotch,18.464419989559758,0.053649153
+conditioned,attachment_two_Scotch_002,Scotch,14.464034998794766,0.032551284
+conditioned,attachment_two_Scotch_003,Scotch,15.925965001622558,0.010201642
+conditioned,attachment_two_Scotch_004,Scotch,15.250354986968484,0.035773067
+conditioned,attachment_two_Scotch_005,Scotch,15.925965001622558,0.035088328
+conditioned,attachment_two_Scotch_006,Scotch,17.282655017717452,0.04906384
+conditioned,attachment_two_Scotch_007,Scotch,14.79562999283543,0.053649153
+conditioned,attachment_two_Scotch_008,Scotch,15.028305017191459,0.000300068
+conditioned,attachment_two_Scotch_009,Scotch,14.442329993906716,0.054548416
+conditioned,attachment_two_Scotch_010,Scotch,8.670400006621858,0.081835469
+conditioned,attachment_two_Scotch_011,Scotch,14.442329993906716,0.047745928
+conditioned,attachment_two_Scotch_012,Scotch,9.557384999133165,0.049043757
+conditioned,attachment_two_Scotch_013,Scotch,17.282655017717452,0.034258911
+conditioned,attachment_two_Scotch_014,Scotch,18.62554498075357,0.026185308
+conditioned,attachment_two_Scotch_015,Scotch,8.858684996430867,0.003081258
+conditioned,attachment_two_Scotch_016,Scotch,14.79562999283543,0.011999467
+conditioned,attachment_two_Scotch_017,Scotch,13.021794998880804,0.076481108
+conditioned,attachment_two_Scotch_018,Scotch,12.510575005427443,0.035773067
+conditioned,attachment_two_Scotch_019,Scotch,15.028305017191459,0.0662418
+conditioned,attachment_two_Scotch_020,Scotch,10.561749990640216,0.067335605
+conditioned,attachment_two_Scotch_021,Scotch,16.161124985968083,0.011999467
+conditioned,attachment_two_Scotch_022,Scotch,8.772419992705185,0.000149215
+conditioned,attachment_two_Scotch_023,Scotch,16.327430018731334,0.088736603
+conditioned,attachment_two_Scotch_024,Scotch,14.98369999600975,0.067335605
+conditioned,attachment_two_Scotch_025,Scotch,15.250354986968484,0.07407538
+conditioned,attachment_two_Scotch_026,Scotch,8.670400006621858,0.019219729
+conditioned,attachment_two_Scotch_027,Scotch,16.95995001681139,0.000990559
+conditioned,attachment_two_Scotch_028,Scotch,15.558450017327774,0.047745928
+conditioned,attachment_two_Scotch_029,Scotch,11.81196498808183,0.07030041
+conditioned,attachment_two_Scotch_030,Scotch,12.034840004996626,0.011816796
+conditioned,attachment_two_Scotch_031,Scotch,18.916400004818033,0.045365705
+conditioned,attachment_two_Scotch_032,Scotch,15.187590016377074,0.0662418
+conditioned,attachment_two_Scotch_033,Scotch,7.678215004214326,0.081835469
+conditioned,attachment_two_Scotch_034,Scotch,7.159765000078037,0.000300068
+conditioned,attachment_two_Scotch_035,Scotch,8.858684996430867,0.001628788
+conditioned,attachment_two_Scotch_036,Scotch,17.605334984576,0.019219729
+conditioned,attachment_two_Scotch_037,Scotch,14.295990009543798,0.001616741
+conditioned,attachment_two_Scotch_038,Scotch,18.464419989559758,0.076481108
+conditioned,attachment_two_Scotch_039,Scotch,4.30416999856923,0.081835469
+conditioned,attachment_two_Scotch_040,Scotch,13.021794998880804,0.051620797
+conditioned,attachment_two_Scotch_041,Scotch,11.463680011749933,0.088736603
+conditioned,attachment_two_Scotch_042,Scotch,14.464034998794766,0.032551284
+conditioned,attachment_two_Scotch_043,Scotch,5.684249994011359,5e-05
+conditioned,attachment_two_Scotch_044,Scotch,15.069739984545011,0.088736603
+conditioned,attachment_two_Scotch_045,Scotch,11.736514995705097,0.067335605
+conditioned,attachment_two_Scotch_046,Scotch,16.76254500967566,0.003081258
+conditioned,attachment_two_Scotch_047,Scotch,18.41872501186387,0.000990559
+conditioned,attachment_two_Scotch_048,Scotch,16.95995001681139,8.95e-05
+conditioned,attachment_two_Scotch_049,Scotch,15.925965001622558,0.088736603
+conditioned,attachment_two_Scotch_050,Scotch,8.358765008462843,0.026961202
+conditioned,attachment_two_Scotch_051,Scotch,16.672510016272245,8.95e-05
+conditioned,attachment_two_Scotch_052,Scotch,11.463680011749933,0.047745928
+conditioned,attachment_two_Scotch_053,Scotch,15.925965001622558,0.002064095
+conditioned,attachment_two_Scotch_054,Scotch,14.855599995516986,0.003081258
+conditioned,attachment_two_Scotch_055,Scotch,15.558450017327774,0.035773067
+conditioned,attachment_two_Scotch_056,Scotch,15.112782739474238,0.053649153
+conditioned,attachment_two_Scotch_057,Scotch,11.81196498808183,0.026961202
+conditioned,attachment_two_Scotch_058,Scotch,6.576494996001657,0.042964961
+conditioned,attachment_two_Scotch_059,Scotch,10.561749990640216,0.058912893
+conditioned,attachment_two_Scotch_060,Scotch,18.96433000394151,0.07407538
+conditioned,attachment_two_Scotch_061,Scotch,15.250354986968484,0.026961202
+conditioned,attachment_two_Scotch_062,Scotch,17.605334984576,0.081835469
+conditioned,attachment_two_Scotch_063,Scotch,18.972445021572597,0.055770044
+conditioned,attachment_two_Scotch_064,Scotch,8.772419992705185,0.054367266
+conditioned,attachment_two_Scotch_065,Scotch,14.464034998794766,0.053649153
+conditioned,attachment_two_Scotch_066,Scotch,14.855599995516986,0.067335605
+conditioned,attachment_two_Scotch_067,Scotch,16.95995001681139,0.045365705
+conditioned,attachment_two_Scotch_068,Scotch,16.90052998886136,0.054367266
+conditioned,attachment_two_Scotch_069,Scotch,6.926440007735439,0.062532405
+conditioned,attachment_two_Scotch_070,Scotch,15.276254991062764,0.000103534
+conditioned,attachment_two_Scotch_071,Scotch,6.938620006407831,0.056959527
+conditioned,attachment_two_Scotch_072,Scotch,17.282655017717452,0.054367266
+conditioned,attachment_two_Scotch_073,Scotch,13.970459993626708,0.000115329
+conditioned,attachment_two_Scotch_074,Scotch,12.474924991419691,0.055770044
+conditioned,attachment_two_Scotch_075,Scotch,16.76254500967566,0.041743092
+conditioned,attachment_two_Scotch_076,Scotch,15.925965001622558,0.002064095
+conditioned,attachment_two_Scotch_077,Scotch,14.855599995516986,2.71e-05
+conditioned,attachment_two_Scotch_078,Scotch,8.340165005573722,0.034258911
+conditioned,attachment_two_Scotch_079,Scotch,14.79562999283543,0.056959527
+conditioned,attachment_two_Scotch_080,Scotch,16.989564986053708,0.062532405
+conditioned,attachment_two_Scotch_081,Scotch,9.876804989110045,0.026185308
+conditioned,attachment_two_Scotch_082,Scotch,15.112782739474238,0.062532405
+conditioned,attachment_two_Scotch_083,Scotch,10.282825005844419,0.062532405
+conditioned,attachment_two_Scotch_084,Scotch,14.072089998419486,0.088736603
+conditioned,attachment_two_Scotch_085,Scotch,15.925965001622558,0.044510956
+conditioned,attachment_two_Scotch_086,Scotch,10.282825005844419,0.079352911
+conditioned,attachment_two_Scotch_087,Scotch,16.053695012177208,0.019219729
+conditioned,attachment_two_Scotch_088,Scotch,15.250354986968484,0.000153873
+conditioned,attachment_two_Scotch_089,Scotch,6.60008500467526,0.051620797
+conditioned,attachment_two_Scotch_090,Scotch,16.379755018172073,0.056959527
+conditioned,attachment_two_Scotch_091,Scotch,16.989564986053708,0.032551284
+conditioned,attachment_two_Scotch_092,Scotch,15.028305017191459,0.04906384
+conditioned,attachment_two_Scotch_093,Scotch,15.187590016377074,0.061918658
+conditioned,attachment_two_Scotch_094,Scotch,16.053695012177208,0.035773067
+conditioned,attachment_two_Scotch_095,Scotch,8.858684996430867,0.054548416
+conditioned,attachment_two_Scotch_096,Scotch,15.028305017191459,0.080828508
+conditioned,attachment_two_Scotch_097,Scotch,11.18335999073931,0.088736603
+conditioned,attachment_two_Scotch_098,Scotch,8.249090001702738,0.001616741
+conditioned,attachment_two_Scotch_099,Scotch,12.904434987863498,0.035088328
+conditioned,attachment_two_Scotch_100,Scotch,11.463680011749933,0.058912893
+conditioned,attachment_two_Stout_Porter_001,Stout/Porter,14.295990009543798,0.00051192
+conditioned,attachment_two_Stout_Porter_002,Stout/Porter,12.510575005427443,0.070809562
+conditioned,attachment_two_Stout_Porter_003,Stout/Porter,15.558450017327774,0.053657258
+conditioned,attachment_two_Stout_Porter_004,Stout/Porter,12.914694996691294,0.034258911
+conditioned,attachment_two_Stout_Porter_005,Stout/Porter,16.90052998886136,0.0662418
+conditioned,attachment_two_Stout_Porter_006,Stout/Porter,15.187590016377074,0.000149215
+conditioned,attachment_two_Stout_Porter_007,Stout/Porter,8.670400006621858,0.000323439
+conditioned,attachment_two_Stout_Porter_008,Stout/Porter,10.698150002588719,0.000990559
+conditioned,attachment_two_Stout_Porter_009,Stout/Porter,16.661494995164656,0.010201642
+conditioned,attachment_two_Stout_Porter_010,Stout/Porter,14.072089998419486,1.09e-07
+conditioned,attachment_two_Stout_Porter_011,Stout/Porter,16.161124985968083,0.056959527
+conditioned,attachment_two_Stout_Porter_012,Stout/Porter,15.617844987798593,0.026185308
+conditioned,attachment_two_Stout_Porter_013,Stout/Porter,9.545992503995821,0.000149215
+conditioned,attachment_two_Stout_Porter_014,Stout/Porter,11.23082499814955,0.051620797
+conditioned,attachment_two_Stout_Porter_015,Stout/Porter,17.740209979840053,0.0662418
+conditioned,attachment_two_Stout_Porter_016,Stout/Porter,16.38356000161322,0.080828508
+conditioned,attachment_two_Stout_Porter_017,Stout/Porter,17.605334984576,0.053657258
+conditioned,attachment_two_Stout_Porter_018,Stout/Porter,18.96433000394151,0.053657258
+conditioned,attachment_two_Stout_Porter_019,Stout/Porter,16.672510016272245,0.07407538
+conditioned,attachment_two_Stout_Porter_020,Stout/Porter,10.698150002588719,0.045365705
+conditioned,attachment_two_Stout_Porter_021,Stout/Porter,15.250354986968484,2.71e-05
+conditioned,attachment_two_Stout_Porter_022,Stout/Porter,18.464419989559758,1.31e-07
+conditioned,attachment_two_Stout_Porter_023,Stout/Porter,12.914694996691294,0.000323439
+conditioned,attachment_two_Stout_Porter_024,Stout/Porter,12.510575005427443,0.055770044
+conditioned,attachment_two_Stout_Porter_025,Stout/Porter,16.161124985968083,2.71e-05
+conditioned,attachment_two_Stout_Porter_026,Stout/Porter,15.028305017191459,0.032551284
+conditioned,attachment_two_Stout_Porter_027,Stout/Porter,10.792594996292964,0.053649153
+conditioned,attachment_two_Stout_Porter_028,Stout/Porter,12.034840004996626,0.07030041
+conditioned,attachment_two_Stout_Porter_029,Stout/Porter,18.916400004818033,0.088736603
+conditioned,attachment_two_Stout_Porter_030,Stout/Porter,18.96433000394151,0.026185308
+conditioned,attachment_two_Stout_Porter_031,Stout/Porter,14.973879986568999,0.049043757
+conditioned,attachment_two_Stout_Porter_032,Stout/Porter,17.67049001653276,0.053649153
+conditioned,attachment_two_Stout_Porter_033,Stout/Porter,16.930030012509533,0.080828508
+conditioned,attachment_two_Stout_Porter_034,Stout/Porter,16.672510016272245,0.002064095
+conditioned,attachment_two_Stout_Porter_035,Stout/Porter,12.474924991419691,0.001616741
+conditioned,attachment_two_Stout_Porter_036,Stout/Porter,10.045070011192303,0.049043757
+conditioned,attachment_two_Stout_Porter_037,Stout/Porter,10.282825005844419,0.000323439
+conditioned,attachment_two_Stout_Porter_038,Stout/Porter,13.021794998880804,0.000115329
+conditioned,attachment_two_Stout_Porter_039,Stout/Porter,15.600359984942767,0.076481108
+conditioned,attachment_two_Stout_Porter_040,Stout/Porter,16.327430018731334,0.042964961
+conditioned,attachment_two_Stout_Porter_041,Stout/Porter,8.670400006621858,0.062532405
+conditioned,attachment_two_Stout_Porter_042,Stout/Porter,16.38356000161322,0.051620797
+conditioned,attachment_two_Stout_Porter_043,Stout/Porter,15.112782739474238,0.044510956
+conditioned,attachment_two_Stout_Porter_044,Stout/Porter,18.464419989559758,0.058912893
+conditioned,attachment_two_Stout_Porter_045,Stout/Porter,16.60749498619333,3.93e-06
+conditioned,attachment_two_Stout_Porter_046,Stout/Porter,16.672510016272245,0.00051192
+conditioned,attachment_two_Stout_Porter_047,Stout/Porter,18.96433000394151,0.056959527
+conditioned,attachment_two_Stout_Porter_048,Stout/Porter,17.605334984576,7.56e-05
+conditioned,attachment_two_Stout_Porter_049,Stout/Porter,16.76254500967566,0.044510956
+conditioned,attachment_two_Stout_Porter_050,Stout/Porter,8.340165005573722,0.089688045
+conditioned,attachment_two_Stout_Porter_051,Stout/Porter,8.249090001702738,0.080828508
+conditioned,attachment_two_Stout_Porter_052,Stout/Porter,16.90052998886136,0.003081258
+conditioned,attachment_two_Stout_Porter_053,Stout/Porter,17.67049001653276,0.081835469
+conditioned,attachment_two_Stout_Porter_054,Stout/Porter,16.327430018731334,0.044510956
+conditioned,attachment_two_Stout_Porter_055,Stout/Porter,16.989564986053708,0.07407538
+conditioned,attachment_two_Stout_Porter_056,Stout/Porter,15.600359984942767,0.081835469
+conditioned,attachment_two_Stout_Porter_057,Stout/Porter,16.327430018731334,0.00051192
+conditioned,attachment_two_Stout_Porter_058,Stout/Porter,13.021794998880804,0.054367266
+conditioned,attachment_two_Stout_Porter_059,Stout/Porter,6.663104998213416,0.049043757
+conditioned,attachment_two_Stout_Porter_060,Stout/Porter,18.972445021572597,0.011558576
+conditioned,attachment_two_Stout_Porter_061,Stout/Porter,14.072089998419486,0.07030041
+conditioned,attachment_two_Stout_Porter_062,Stout/Porter,18.972445021572597,0.04906384
+conditioned,attachment_two_Stout_Porter_063,Stout/Porter,14.98369999600975,0.00051192
+conditioned,attachment_two_Stout_Porter_064,Stout/Porter,8.249090001702738,0.081835469
+conditioned,attachment_two_Stout_Porter_065,Stout/Porter,7.678215004214326,0.061918658
+conditioned,attachment_two_Stout_Porter_066,Stout/Porter,15.243340014056395,0.054548416
+conditioned,attachment_two_Stout_Porter_067,Stout/Porter,12.914694996691294,0.000149215
+conditioned,attachment_two_Stout_Porter_068,Stout/Porter,17.605334984576,1.58e-05
+conditioned,attachment_two_Stout_Porter_069,Stout/Porter,16.930030012509533,0.001616741
+conditioned,attachment_two_Stout_Porter_070,Stout/Porter,15.276254991062764,0.054548416
+conditioned,attachment_two_Stout_Porter_071,Stout/Porter,15.187590016377074,0.041743092
+conditioned,attachment_two_Stout_Porter_072,Stout/Porter,18.972445021572597,0.049043757
+conditioned,attachment_two_Stout_Porter_073,Stout/Porter,12.034840004996626,0.011999467
+conditioned,attachment_two_Stout_Porter_074,Stout/Porter,15.276254991062764,0.042964961
+conditioned,attachment_two_Stout_Porter_075,Stout/Porter,18.916400004818033,0.067335605
+conditioned,attachment_two_Stout_Porter_076,Stout/Porter,10.561749990640216,0.061918658
+conditioned,attachment_two_Stout_Porter_077,Stout/Porter,16.161124985968083,0.089688045
+conditioned,attachment_two_Stout_Porter_078,Stout/Porter,16.90052998886136,0.053649153
+conditioned,attachment_two_Stout_Porter_079,Stout/Porter,14.855599995516986,7.56e-05
+conditioned,attachment_two_Stout_Porter_080,Stout/Porter,18.41872501186387,8.95e-05
+conditioned,attachment_two_Stout_Porter_081,Stout/Porter,8.358765008462843,0.000103534
+conditioned,attachment_two_Stout_Porter_082,Stout/Porter,16.672510016272245,0.053657258
+conditioned,attachment_two_Stout_Porter_083,Stout/Porter,11.18335999073931,0.081835469
+conditioned,attachment_two_Stout_Porter_084,Stout/Porter,16.38356000161322,0.054548416
+conditioned,attachment_two_Stout_Porter_085,Stout/Porter,16.161124985968083,2.83e-06
+conditioned,attachment_two_Stout_Porter_086,Stout/Porter,8.628049996086517,0.058912893
+conditioned,attachment_two_Stout_Porter_087,Stout/Porter,10.698150002588719,0.035088328
+conditioned,attachment_two_Stout_Porter_088,Stout/Porter,17.755470005086345,0.081835469
+conditioned,attachment_two_Stout_Porter_089,Stout/Porter,14.072089998419486,0.055770044
+conditioned,attachment_two_Stout_Porter_090,Stout/Porter,14.79562999283543,0.032551284
+conditioned,attachment_two_Stout_Porter_091,Stout/Porter,14.98369999600975,3.93e-06
+conditioned,attachment_two_Stout_Porter_092,Stout/Porter,17.740209979840053,0.054367266
+conditioned,attachment_two_Stout_Porter_093,Stout/Porter,13.021794998880804,0.055770044
+conditioned,attachment_two_Stout_Porter_094,Stout/Porter,17.755470005086345,0.034258911
+conditioned,attachment_two_Stout_Porter_095,Stout/Porter,15.925965001622558,0.032551284
+conditioned,attachment_two_Stout_Porter_096,Stout/Porter,18.464419989559758,0.001628788
+conditioned,attachment_two_Stout_Porter_097,Stout/Porter,18.972445021572597,0.070809562
+conditioned,attachment_two_Stout_Porter_098,Stout/Porter,16.60749498619333,0.002064095
+conditioned,attachment_two_Stout_Porter_099,Stout/Porter,14.79562999283543,0.011558576
+conditioned,attachment_two_Stout_Porter_100,Stout/Porter,15.081945010624004,0.04906384
+conditioned,attachment_two_Strong ale_001,Strong ale,7.917785005134557,0.07030041
+conditioned,attachment_two_Strong ale_002,Strong ale,15.112782739474238,0.053657258
+conditioned,attachment_two_Strong ale_003,Strong ale,16.76254500967566,0.045365705
+conditioned,attachment_two_Strong ale_004,Strong ale,5.684249994011359,1.09e-07
+conditioned,attachment_two_Strong ale_005,Strong ale,18.972445021572597,0.019219729
+conditioned,attachment_two_Strong ale_006,Strong ale,11.18335999073931,0.07407538
+conditioned,attachment_two_Strong ale_007,Strong ale,5.684249994011359,0.07030041
+conditioned,attachment_two_Strong ale_008,Strong ale,16.60749498619333,0.079352911
+conditioned,attachment_two_Strong ale_009,Strong ale,10.561749990640216,0.067335605
+conditioned,attachment_two_Strong ale_010,Strong ale,8.628049996086517,8.95e-05
+conditioned,attachment_two_Strong ale_011,Strong ale,17.282655017717452,0.070809562
+conditioned,attachment_two_Strong ale_012,Strong ale,15.276254991062764,0.034258911
+conditioned,attachment_two_Strong ale_013,Strong ale,10.887784992220478,0.070809562
+conditioned,attachment_two_Strong ale_014,Strong ale,4.501940004091575,0.076481108
+conditioned,attachment_two_Strong ale_015,Strong ale,11.18335999073931,0.032551284
+conditioned,attachment_two_Strong ale_016,Strong ale,17.740209979840053,3.93e-06
+conditioned,attachment_two_Strong ale_017,Strong ale,3.5756550009332426,0.04906384
+conditioned,attachment_two_Strong ale_018,Strong ale,16.60749498619333,0.047745928
+conditioned,attachment_two_Strong ale_019,Strong ale,16.930030012509533,2.71e-05
+conditioned,attachment_two_Strong ale_020,Strong ale,16.95995001681139,0.026185308
+conditioned,attachment_two_Strong ale_021,Strong ale,12.034840004996626,8.95e-05
+conditioned,attachment_two_Strong ale_022,Strong ale,14.464034998794766,0.034258911
+conditioned,attachment_two_Strong ale_023,Strong ale,14.855599995516986,0.054548416
+conditioned,attachment_two_Strong ale_024,Strong ale,6.938620006407831,0.035773067
+conditioned,attachment_two_Strong ale_025,Strong ale,16.379755018172073,0.054367266
+conditioned,attachment_two_Strong ale_026,Strong ale,14.855599995516986,0.001415959
+conditioned,attachment_two_Strong ale_027,Strong ale,17.605334984576,0.070809562
+conditioned,attachment_two_Strong ale_028,Strong ale,8.858684996430867,0.011558576
+conditioned,attachment_two_Strong ale_029,Strong ale,15.243340014056395,0.003081258
+conditioned,attachment_two_Strong ale_030,Strong ale,6.938620006407831,0.058912893
+conditioned,attachment_two_Strong ale_031,Strong ale,14.464034998794766,0.081835469
+conditioned,attachment_two_Strong ale_032,Strong ale,17.512875005566006,0.034258911
+conditioned,attachment_two_Strong ale_033,Strong ale,5.684249994011359,0.032551284
+conditioned,attachment_two_Strong ale_034,Strong ale,13.970459993626708,0.076481108
+conditioned,attachment_two_Strong ale_035,Strong ale,5.684249994011359,0.035773067
+conditioned,attachment_two_Strong ale_036,Strong ale,15.243340014056395,0.011558576
+conditioned,attachment_two_Strong ale_037,Strong ale,17.740209979840053,7.56e-05
+conditioned,attachment_two_Strong ale_038,Strong ale,7.933115000908002,0.053649153
+conditioned,attachment_two_Strong ale_039,Strong ale,14.855599995516986,0.001616741
+conditioned,attachment_two_Strong ale_040,Strong ale,11.81196498808183,0.054548416
+conditioned,attachment_two_Strong ale_041,Strong ale,16.90052998886136,8.9e-05
+conditioned,attachment_two_Strong ale_042,Strong ale,14.295990009543798,0.079352911
+conditioned,attachment_two_Strong ale_043,Strong ale,15.925965001622558,0.034258911
+conditioned,attachment_two_Strong ale_044,Strong ale,16.053695012177208,0.00051192
+conditioned,attachment_two_Strong ale_045,Strong ale,14.79562999283543,0.001415959
+conditioned,attachment_two_Strong ale_046,Strong ale,10.561749990640216,0.070809562
+conditioned,attachment_two_Strong ale_047,Strong ale,6.576494996001657,0.062532405
+conditioned,attachment_two_Strong ale_048,Strong ale,11.81196498808183,0.026185308
+conditioned,attachment_two_Strong ale_049,Strong ale,6.055159995579341,3.93e-06
+conditioned,attachment_two_Strong ale_050,Strong ale,8.628049996086517,0.053649153
+conditioned,attachment_two_Strong ale_051,Strong ale,15.617844987798593,0.0662418
+conditioned,attachment_two_Strong ale_052,Strong ale,15.925965001622558,0.035773067
+conditioned,attachment_two_Strong ale_053,Strong ale,7.917785005134557,0.061918658
+conditioned,attachment_two_Strong ale_054,Strong ale,12.474924991419691,0.067335605
+conditioned,attachment_two_Strong ale_055,Strong ale,8.772419992705185,0.000118014
+conditioned,attachment_two_Strong ale_056,Strong ale,16.90052998886136,0.07407538
+conditioned,attachment_two_Strong ale_057,Strong ale,18.972445021572597,0.053649153
+conditioned,attachment_two_Strong ale_058,Strong ale,11.18335999073931,0.000990559
+conditioned,attachment_two_Strong ale_059,Strong ale,8.340165005573722,2.83e-06
+conditioned,attachment_two_Strong ale_060,Strong ale,6.576494996001657,0.054367266
+conditioned,attachment_two_Strong ale_061,Strong ale,11.81196498808183,0.026961202
+conditioned,attachment_two_Strong ale_062,Strong ale,9.557384999133165,8.9e-05
+conditioned,attachment_two_Strong ale_063,Strong ale,12.034840004996626,0.04906384
+conditioned,attachment_two_Strong ale_064,Strong ale,12.510575005427443,0.047745928
+conditioned,attachment_two_Strong ale_065,Strong ale,7.917785005134557,3.93e-06
+conditioned,attachment_two_Strong ale_066,Strong ale,13.970459993626708,0.041743092
+conditioned,attachment_two_Strong ale_067,Strong ale,12.474924991419691,0.081835469
+conditioned,attachment_two_Strong ale_068,Strong ale,10.887784992220478,1.07e-05
+conditioned,attachment_two_Strong ale_069,Strong ale,10.282825005844419,0.047745928
+conditioned,attachment_two_Strong ale_070,Strong ale,13.021794998880804,0.070809562
+conditioned,attachment_two_Strong ale_071,Strong ale,15.243340014056395,0.000990559
+conditioned,attachment_two_Strong ale_072,Strong ale,11.23082499814955,0.044510956
+conditioned,attachment_two_Strong ale_073,Strong ale,16.161124985968083,0.000115329
+conditioned,attachment_two_Strong ale_074,Strong ale,11.463680011749933,0.0662418
+conditioned,attachment_two_Strong ale_075,Strong ale,15.250354986968484,0.081835469
+conditioned,attachment_two_Strong ale_076,Strong ale,18.62554498075357,0.062532405
+conditioned,attachment_two_Strong ale_077,Strong ale,17.67049001653276,1.07e-05
+conditioned,attachment_two_Strong ale_078,Strong ale,2.2245449976777634,1.07e-05
+conditioned,attachment_two_Strong ale_079,Strong ale,17.282655017717452,0.058912893
+conditioned,attachment_two_Strong ale_080,Strong ale,17.282655017717452,0.061918658
+conditioned,attachment_two_Strong ale_081,Strong ale,17.512875005566006,0.053657258
+conditioned,attachment_two_Strong ale_082,Strong ale,15.187590016377074,0.054367266
+conditioned,attachment_two_Strong ale_083,Strong ale,14.855599995516986,0.041743092
+conditioned,attachment_two_Strong ale_084,Strong ale,15.925965001622558,1.31e-07
+conditioned,attachment_two_Strong ale_085,Strong ale,17.512875005566006,0.056959527
+conditioned,attachment_two_Strong ale_086,Strong ale,14.442329993906716,0.061918658
+conditioned,attachment_two_Strong ale_087,Strong ale,14.98369999600975,1.09e-07
+conditioned,attachment_two_Strong ale_088,Strong ale,8.628049996086517,6.3e-06
+conditioned,attachment_two_Strong ale_089,Strong ale,16.76254500967566,0.000149215
+conditioned,attachment_two_Strong ale_090,Strong ale,14.98369999600975,1.58e-05
+conditioned,attachment_two_Strong ale_091,Strong ale,15.600359984942767,0.001616741
+conditioned,attachment_two_Strong ale_092,Strong ale,7.933115000908002,0.010201642
+conditioned,attachment_two_Strong ale_093,Strong ale,18.41872501186387,0.026961202
+conditioned,attachment_two_Strong ale_094,Strong ale,10.698150002588719,0.042964961
+conditioned,attachment_two_Strong ale_095,Strong ale,10.792594996292964,0.000118014
+conditioned,attachment_two_Strong ale_096,Strong ale,12.034840004996626,8.95e-05
+conditioned,attachment_two_Strong ale_097,Strong ale,15.069739984545011,1.31e-07
+conditioned,attachment_two_Strong ale_098,Strong ale,11.18335999073931,1.09e-07
+conditioned,attachment_two_Strong ale_099,Strong ale,15.028305017191459,0.010201642
+conditioned,attachment_two_Strong ale_100,Strong ale,9.545992503995821,0.011999467
+conditioned,attachment_two_Tripel_001,Tripel,15.617844987798593,0.001628788
+conditioned,attachment_two_Tripel_002,Tripel,17.282655017717452,0.032551284
+conditioned,attachment_two_Tripel_003,Tripel,16.672510016272245,0.081835469
+conditioned,attachment_two_Tripel_004,Tripel,12.170240008294504,1.58e-05
+conditioned,attachment_two_Tripel_005,Tripel,16.989564986053708,0.079352911
+conditioned,attachment_two_Tripel_006,Tripel,10.792594996292964,0.001628788
+conditioned,attachment_two_Tripel_007,Tripel,16.672510016272245,0.062532405
+conditioned,attachment_two_Tripel_008,Tripel,15.243340014056395,0.080473797
+conditioned,attachment_two_Tripel_009,Tripel,13.021794998880804,6.3e-06
+conditioned,attachment_two_Tripel_010,Tripel,17.67049001653276,3.93e-06
+conditioned,attachment_two_Tripel_011,Tripel,16.95995001681139,0.000149215
+conditioned,attachment_two_Tripel_012,Tripel,18.972445021572597,2.71e-05
+conditioned,attachment_two_Tripel_013,Tripel,15.558450017327774,0.003081258
+conditioned,attachment_two_Tripel_014,Tripel,18.972445021572597,0.080828508
+conditioned,attachment_two_Tripel_015,Tripel,14.278480014602374,0.042964961
+conditioned,attachment_two_Tripel_016,Tripel,16.76254500967566,0.026185308
+conditioned,attachment_two_Tripel_017,Tripel,8.628049996086517,8.9e-05
+conditioned,attachment_two_Tripel_018,Tripel,12.904434987863498,1.07e-05
+conditioned,attachment_two_Tripel_019,Tripel,15.112782739474238,0.053657258
+conditioned,attachment_two_Tripel_020,Tripel,16.053695012177208,7.56e-05
+conditioned,attachment_two_Tripel_021,Tripel,16.95995001681139,2.71e-05
+conditioned,attachment_two_Tripel_022,Tripel,16.661494995164656,0.04906384
+conditioned,attachment_two_Tripel_023,Tripel,15.600359984942767,0.00051192
+conditioned,attachment_two_Tripel_024,Tripel,10.792594996292964,0.053657258
+conditioned,attachment_two_Tripel_025,Tripel,14.98369999600975,0.000118014
+conditioned,attachment_two_Tripel_026,Tripel,18.972445021572597,0.032551284
+conditioned,attachment_two_Tripel_027,Tripel,14.855599995516986,0.058912893
+conditioned,attachment_two_Tripel_028,Tripel,15.069739984545011,0.011816796
+conditioned,attachment_two_Tripel_029,Tripel,11.81196498808183,0.000323439
+conditioned,attachment_two_Tripel_030,Tripel,15.112782739474238,0.034258911
+conditioned,attachment_two_Tripel_031,Tripel,9.545992503995821,0.011558576
+conditioned,attachment_two_Tripel_032,Tripel,11.23082499814955,0.079352911
+conditioned,attachment_two_Tripel_033,Tripel,15.069739984545011,0.07407538
+conditioned,attachment_two_Tripel_034,Tripel,8.670400006621858,0.056959527
+conditioned,attachment_two_Tripel_035,Tripel,10.887784992220478,0.042964961
+conditioned,attachment_two_Tripel_036,Tripel,12.510575005427443,0.054367266
+conditioned,attachment_two_Tripel_037,Tripel,18.62554498075357,0.003081258
+conditioned,attachment_two_Tripel_038,Tripel,18.62554498075357,0.003081258
+conditioned,attachment_two_Tripel_039,Tripel,11.18335999073931,0.011558576
+conditioned,attachment_two_Tripel_040,Tripel,16.327430018731334,0.080828508
+conditioned,attachment_two_Tripel_041,Tripel,15.028305017191459,1.31e-07
+conditioned,attachment_two_Tripel_042,Tripel,17.755470005086345,0.000509493
+conditioned,attachment_two_Tripel_043,Tripel,17.67049001653276,2.71e-05
+conditioned,attachment_two_Tripel_044,Tripel,14.442329993906716,0.035773067
+conditioned,attachment_two_Tripel_045,Tripel,18.62554498075357,3.93e-06
+conditioned,attachment_two_Tripel_046,Tripel,9.545992503995821,0.000149215
+conditioned,attachment_two_Tripel_047,Tripel,14.973879986568999,1.07e-05
+conditioned,attachment_two_Tripel_048,Tripel,8.249090001702738,0.034258911
+conditioned,attachment_two_Tripel_049,Tripel,16.76254500967566,0.000153873
+conditioned,attachment_two_Tripel_050,Tripel,14.442329993906716,0.047745928
+conditioned,attachment_two_Tripel_051,Tripel,15.112782739474238,0.035088328
+conditioned,attachment_two_Tripel_052,Tripel,8.358765008462843,0.045365705
+conditioned,attachment_two_Tripel_053,Tripel,16.95995001681139,0.034258911
+conditioned,attachment_two_Tripel_054,Tripel,15.243340014056395,0.080473797
+conditioned,attachment_two_Tripel_055,Tripel,12.914694996691294,0.034258911
+conditioned,attachment_two_Tripel_056,Tripel,16.60749498619333,6.3e-06
+conditioned,attachment_two_Tripel_057,Tripel,18.62554498075357,0.079352911
+conditioned,attachment_two_Tripel_058,Tripel,15.243340014056395,0.000153873
+conditioned,attachment_two_Tripel_059,Tripel,16.053695012177208,0.000103534
+conditioned,attachment_two_Tripel_060,Tripel,15.187590016377074,0.056959527
+conditioned,attachment_two_Tripel_061,Tripel,11.23082499814955,0.053649153
+conditioned,attachment_two_Tripel_062,Tripel,16.661494995164656,0.080828508
+conditioned,attachment_two_Tripel_063,Tripel,8.249090001702738,0.034258911
+conditioned,attachment_two_Tripel_064,Tripel,14.072089998419486,2.83e-06
+conditioned,attachment_two_Tripel_065,Tripel,14.98369999600975,0.035773067
+conditioned,attachment_two_Tripel_066,Tripel,11.23082499814955,0.010201642
+conditioned,attachment_two_Tripel_067,Tripel,15.069739984545011,0.047745928
+conditioned,attachment_two_Tripel_068,Tripel,17.67049001653276,0.053649153
+conditioned,attachment_two_Tripel_069,Tripel,18.62554498075357,0.0662418
+conditioned,attachment_two_Tripel_070,Tripel,15.925965001622558,8.9e-05
+conditioned,attachment_two_Tripel_071,Tripel,18.972445021572597,0.058912893
+conditioned,attachment_two_Tripel_072,Tripel,18.62554498075357,0.070809562
+conditioned,attachment_two_Tripel_073,Tripel,14.864504985440357,0.067335605
+conditioned,attachment_two_Tripel_074,Tripel,16.672510016272245,0.010201642
+conditioned,attachment_two_Tripel_075,Tripel,8.249090001702738,0.035773067
+conditioned,attachment_two_Tripel_076,Tripel,14.072089998419486,0.032551284
+conditioned,attachment_two_Tripel_077,Tripel,14.79562999283543,0.000323439
+conditioned,attachment_two_Tripel_078,Tripel,16.95995001681139,0.032551284
+conditioned,attachment_two_Tripel_079,Tripel,17.512875005566006,0.049043757
+conditioned,attachment_two_Tripel_080,Tripel,7.678215004214326,0.041743092
+conditioned,attachment_two_Tripel_081,Tripel,17.605334984576,1.58e-05
+conditioned,attachment_two_Tripel_082,Tripel,18.464419989559758,8.95e-05
+conditioned,attachment_two_Tripel_083,Tripel,16.053695012177208,0.051620797
+conditioned,attachment_two_Tripel_084,Tripel,16.053695012177208,0.041743092
+conditioned,attachment_two_Tripel_085,Tripel,2.2245449976777634,0.026185308
+conditioned,attachment_two_Tripel_086,Tripel,16.38356000161322,0.088736603
+conditioned,attachment_two_Tripel_087,Tripel,18.62554498075357,0.032551284
+conditioned,attachment_two_Tripel_088,Tripel,16.327430018731334,0.062532405
+conditioned,attachment_two_Tripel_089,Tripel,18.972445021572597,0.070809562
+conditioned,attachment_two_Tripel_090,Tripel,14.442329993906716,0.026185308
+conditioned,attachment_two_Tripel_091,Tripel,14.072089998419486,0.047745928
+conditioned,attachment_two_Tripel_092,Tripel,16.379755018172073,0.000118014
+conditioned,attachment_two_Tripel_093,Tripel,15.617844987798593,0.054548416
+conditioned,attachment_two_Tripel_094,Tripel,15.081945010624004,7.56e-05
+conditioned,attachment_two_Tripel_095,Tripel,8.628049996086517,0.041743092
+conditioned,attachment_two_Tripel_096,Tripel,17.740209979840053,0.035088328
+conditioned,attachment_two_Tripel_097,Tripel,16.672510016272245,0.034258911
+conditioned,attachment_two_Tripel_098,Tripel,13.970459993626708,0.001616741
+conditioned,attachment_two_Tripel_099,Tripel,18.972445021572597,0.081835469
+conditioned,attachment_two_Tripel_100,Tripel,18.972445021572597,0.058912893
+conditioned,attachment_two_West Flanders ale_001,West Flanders ale,18.62554498075357,0.003081258
+conditioned,attachment_two_West Flanders ale_002,West Flanders ale,14.464034998794766,0.053657258
+conditioned,attachment_two_West Flanders ale_003,West Flanders ale,17.67049001653276,0.042964961
+conditioned,attachment_two_West Flanders ale_004,West Flanders ale,14.278480014602374,0.000149215
+conditioned,attachment_two_West Flanders ale_005,West Flanders ale,17.740209979840053,1.58e-05
+conditioned,attachment_two_West Flanders ale_006,West Flanders ale,12.474924991419691,0.000509493
+conditioned,attachment_two_West Flanders ale_007,West Flanders ale,6.663104998213416,0.026961202
+conditioned,attachment_two_West Flanders ale_008,West Flanders ale,14.864504985440357,0.080473797
+conditioned,attachment_two_West Flanders ale_009,West Flanders ale,4.30416999856923,0.019219729
+conditioned,attachment_two_West Flanders ale_010,West Flanders ale,10.045070011192303,0.026185308
+conditioned,attachment_two_West Flanders ale_011,West Flanders ale,10.792594996292964,0.011999467
+conditioned,attachment_two_West Flanders ale_012,West Flanders ale,1.1122725005394052,0.000323439
+conditioned,attachment_two_West Flanders ale_013,West Flanders ale,14.864504985440357,0.053657258
+conditioned,attachment_two_West Flanders ale_014,West Flanders ale,10.792594996292964,2.71e-05
+conditioned,attachment_two_West Flanders ale_015,West Flanders ale,17.755470005086345,0.026961202
+conditioned,attachment_two_West Flanders ale_016,West Flanders ale,16.379755018172073,0.000509493
+conditioned,attachment_two_West Flanders ale_017,West Flanders ale,10.561749990640216,0.001628788
+conditioned,attachment_two_West Flanders ale_018,West Flanders ale,14.072089998419486,0.001415959
+conditioned,attachment_two_West Flanders ale_019,West Flanders ale,11.18335999073931,0.000300068
+conditioned,attachment_two_West Flanders ale_020,West Flanders ale,4.30416999856923,0.011816796
+conditioned,attachment_two_West Flanders ale_021,West Flanders ale,15.276254991062764,5e-05
+conditioned,attachment_two_West Flanders ale_022,West Flanders ale,8.340165005573722,0.080473797
+conditioned,attachment_two_West Flanders ale_023,West Flanders ale,14.072089998419486,0.026961202
+conditioned,attachment_two_West Flanders ale_024,West Flanders ale,9.876804989110045,0.00051192
+conditioned,attachment_two_West Flanders ale_025,West Flanders ale,4.30416999856923,0.011999467
+conditioned,attachment_two_West Flanders ale_026,West Flanders ale,8.628049996086517,0.000118014
+conditioned,attachment_two_West Flanders ale_027,West Flanders ale,10.887784992220478,0.035088328
+conditioned,attachment_two_West Flanders ale_028,West Flanders ale,8.628049996086517,0.000300068
+conditioned,attachment_two_West Flanders ale_029,West Flanders ale,8.249090001702738,0.011816796
+conditioned,attachment_two_West Flanders ale_030,West Flanders ale,16.053695012177208,0.058912893
+conditioned,attachment_two_West Flanders ale_031,West Flanders ale,11.81196498808183,0.07030041
+conditioned,attachment_two_West Flanders ale_032,West Flanders ale,14.855599995516986,0.080473797
+conditioned,attachment_two_West Flanders ale_033,West Flanders ale,11.463680011749933,0.088736603
+conditioned,attachment_two_West Flanders ale_034,West Flanders ale,15.617844987798593,0.041743092
+conditioned,attachment_two_West Flanders ale_035,West Flanders ale,5.684249994011359,0.042964961
+conditioned,attachment_two_West Flanders ale_036,West Flanders ale,12.904434987863498,0.062532405
+conditioned,attachment_two_West Flanders ale_037,West Flanders ale,9.557384999133165,0.07030041
+conditioned,attachment_two_West Flanders ale_038,West Flanders ale,9.545992503995821,0.051620797
+conditioned,attachment_two_West Flanders ale_039,West Flanders ale,8.120934992350033,0.035773067
+conditioned,attachment_two_West Flanders ale_040,West Flanders ale,8.249090001702738,0.07030041
+conditioned,attachment_two_West Flanders ale_041,West Flanders ale,16.38356000161322,0.026961202
+conditioned,attachment_two_West Flanders ale_042,West Flanders ale,7.678215004214326,0.001415959
+conditioned,attachment_two_West Flanders ale_043,West Flanders ale,9.557384999133165,0.001616741
+conditioned,attachment_two_West Flanders ale_044,West Flanders ale,10.698150002588719,0.04906384
+conditioned,attachment_two_West Flanders ale_045,West Flanders ale,18.96433000394151,0.079352911
+conditioned,attachment_two_West Flanders ale_046,West Flanders ale,17.605334984576,0.058912893
+conditioned,attachment_two_West Flanders ale_047,West Flanders ale,10.561749990640216,0.011816796
+conditioned,attachment_two_West Flanders ale_048,West Flanders ale,16.161124985968083,0.001628788
+conditioned,attachment_two_West Flanders ale_049,West Flanders ale,16.60749498619333,0.044510956
+conditioned,attachment_two_West Flanders ale_050,West Flanders ale,10.282825005844419,0.07407538
+conditioned,attachment_two_West Flanders ale_051,West Flanders ale,11.736514995705097,0.07030041
+conditioned,attachment_two_West Flanders ale_052,West Flanders ale,16.38356000161322,0.026185308
+conditioned,attachment_two_West Flanders ale_053,West Flanders ale,8.340165005573722,1.07e-05
+conditioned,attachment_two_West Flanders ale_054,West Flanders ale,12.170240008294504,0.003081258
+conditioned,attachment_two_West Flanders ale_055,West Flanders ale,14.855599995516986,0.010201642
+conditioned,attachment_two_West Flanders ale_056,West Flanders ale,8.249090001702738,0.011999467
+conditioned,attachment_two_West Flanders ale_057,West Flanders ale,16.989564986053708,0.000149215
+conditioned,attachment_two_West Flanders ale_058,West Flanders ale,15.028305017191459,3.93e-06
+conditioned,attachment_two_West Flanders ale_059,West Flanders ale,8.999089995408912,0.051620797
+conditioned,attachment_two_West Flanders ale_060,West Flanders ale,3.5756550009332426,0.035088328
+conditioned,attachment_two_West Flanders ale_061,West Flanders ale,7.159765000078037,0.058912893
+conditioned,attachment_two_West Flanders ale_062,West Flanders ale,5.684249994011359,0.088736603
+conditioned,attachment_two_West Flanders ale_063,West Flanders ale,14.98369999600975,0.051620797
+conditioned,attachment_two_West Flanders ale_064,West Flanders ale,15.243340014056395,0.04906384
+conditioned,attachment_two_West Flanders ale_065,West Flanders ale,15.617844987798593,0.07030041
+conditioned,attachment_two_West Flanders ale_066,West Flanders ale,4.30416999856923,0.089688045
+conditioned,attachment_two_West Flanders ale_067,West Flanders ale,7.933115000908002,0.042964961
+conditioned,attachment_two_West Flanders ale_068,West Flanders ale,8.772419992705185,0.000509493
+conditioned,attachment_two_West Flanders ale_069,West Flanders ale,18.464419989559758,0.07030041
+conditioned,attachment_two_West Flanders ale_070,West Flanders ale,14.278480014602374,0.053657258
+conditioned,attachment_two_West Flanders ale_071,West Flanders ale,9.557384999133165,0.042964961
+conditioned,attachment_two_West Flanders ale_072,West Flanders ale,6.926440007735439,0.003081258
+conditioned,attachment_two_West Flanders ale_073,West Flanders ale,10.282825005844419,0.079352911
+conditioned,attachment_two_West Flanders ale_074,West Flanders ale,16.38356000161322,2.71e-05
+conditioned,attachment_two_West Flanders ale_075,West Flanders ale,8.999089995408912,0.000990559
+conditioned,attachment_two_West Flanders ale_076,West Flanders ale,11.18335999073931,0.079352911
+conditioned,attachment_two_West Flanders ale_077,West Flanders ale,8.628049996086517,6.3e-06
+conditioned,attachment_two_West Flanders ale_078,West Flanders ale,12.904434987863498,2.83e-06
+conditioned,attachment_two_West Flanders ale_079,West Flanders ale,15.600359984942767,0.081835469
+conditioned,attachment_two_West Flanders ale_080,West Flanders ale,12.510575005427443,0.000153873
+conditioned,attachment_two_West Flanders ale_081,West Flanders ale,6.938620006407831,0.000118014
+conditioned,attachment_two_West Flanders ale_082,West Flanders ale,11.23082499814955,0.061918658
+conditioned,attachment_two_West Flanders ale_083,West Flanders ale,12.170240008294504,0.032551284
+conditioned,attachment_two_West Flanders ale_084,West Flanders ale,6.60008500467526,1.58e-05
+conditioned,attachment_two_West Flanders ale_085,West Flanders ale,12.170240008294504,0.045365705
+conditioned,attachment_two_West Flanders ale_086,West Flanders ale,15.081945010624004,0.07407538
+conditioned,attachment_two_West Flanders ale_087,West Flanders ale,16.930030012509533,0.053649153
+conditioned,attachment_two_West Flanders ale_088,West Flanders ale,6.60008500467526,0.00051192
+conditioned,attachment_two_West Flanders ale_089,West Flanders ale,8.670400006621858,0.070809562
+conditioned,attachment_two_West Flanders ale_090,West Flanders ale,16.38356000161322,3.93e-06
+conditioned,attachment_two_West Flanders ale_091,West Flanders ale,10.887784992220478,0.053649153
+conditioned,attachment_two_West Flanders ale_092,West Flanders ale,15.028305017191459,0.011816796
+conditioned,attachment_two_West Flanders ale_093,West Flanders ale,6.663104998213416,0.000115329
+conditioned,attachment_two_West Flanders ale_094,West Flanders ale,8.358765008462843,0.045365705
+conditioned,attachment_two_West Flanders ale_095,West Flanders ale,12.904434987863498,0.080473797
+conditioned,attachment_two_West Flanders ale_096,West Flanders ale,18.62554498075357,0.045365705
+conditioned,attachment_two_West Flanders ale_097,West Flanders ale,15.617844987798593,6.3e-06
+conditioned,attachment_two_West Flanders ale_098,West Flanders ale,11.736514995705097,0.047745928
+conditioned,attachment_two_West Flanders ale_099,West Flanders ale,8.249090001702738,0.000509493
+conditioned,attachment_two_West Flanders ale_100,West Flanders ale,6.60008500467526,0.044510956
+conditioned,attachment_two_Wheat_001,Wheat,17.282655017717452,0.081835469
+conditioned,attachment_two_Wheat_002,Wheat,17.740209979840053,1.31e-07
+conditioned,attachment_two_Wheat_003,Wheat,11.23082499814955,5.9e-08
+conditioned,attachment_two_Wheat_004,Wheat,18.916400004818033,0.011816796
+conditioned,attachment_two_Wheat_005,Wheat,10.282825005844419,0.07407538
+conditioned,attachment_two_Wheat_006,Wheat,14.442329993906716,0.061918658
+conditioned,attachment_two_Wheat_007,Wheat,17.67049001653276,0.054548416
+conditioned,attachment_two_Wheat_008,Wheat,8.670400006621858,0.070809562
+conditioned,attachment_two_Wheat_009,Wheat,10.282825005844419,0.032551284
+conditioned,attachment_two_Wheat_010,Wheat,6.938620006407831,0.080473797
+conditioned,attachment_two_Wheat_011,Wheat,18.41872501186387,0.053649153
+conditioned,attachment_two_Wheat_012,Wheat,14.278480014602374,0.002064095
+conditioned,attachment_two_Wheat_013,Wheat,11.463680011749933,0.001415959
+conditioned,attachment_two_Wheat_014,Wheat,12.474924991419691,0.07030041
+conditioned,attachment_two_Wheat_015,Wheat,10.698150002588719,0.026185308
+conditioned,attachment_two_Wheat_016,Wheat,16.379755018172073,0.000300068
+conditioned,attachment_two_Wheat_017,Wheat,17.605334984576,0.054548416
+conditioned,attachment_two_Wheat_018,Wheat,12.034840004996626,0.011558576
+conditioned,attachment_two_Wheat_019,Wheat,15.250354986968484,5e-05
+conditioned,attachment_two_Wheat_020,Wheat,4.501940004091575,0.010201642
+conditioned,attachment_two_Wheat_021,Wheat,14.855599995516986,0.045365705
+conditioned,attachment_two_Wheat_022,Wheat,11.23082499814955,0.044510956
+conditioned,attachment_two_Wheat_023,Wheat,15.112782739474238,0.062532405
+conditioned,attachment_two_Wheat_024,Wheat,8.999089995408912,0.080473797
+conditioned,attachment_two_Wheat_025,Wheat,15.558450017327774,0.000118014
+conditioned,attachment_two_Wheat_026,Wheat,12.474924991419691,0.080828508
+conditioned,attachment_two_Wheat_027,Wheat,8.670400006621858,0.045365705
+conditioned,attachment_two_Wheat_028,Wheat,15.558450017327774,2.71e-05
+conditioned,attachment_two_Wheat_029,Wheat,16.95995001681139,0.011999467
+conditioned,attachment_two_Wheat_030,Wheat,12.510575005427443,0.001616741
+conditioned,attachment_two_Wheat_031,Wheat,12.034840004996626,8.9e-05
+conditioned,attachment_two_Wheat_032,Wheat,12.904434987863498,0.001616741
+conditioned,attachment_two_Wheat_033,Wheat,15.069739984545011,1.58e-05
+conditioned,attachment_two_Wheat_034,Wheat,4.501940004091575,0.07407538
+conditioned,attachment_two_Wheat_035,Wheat,11.81196498808183,0.001616741
+conditioned,attachment_two_Wheat_036,Wheat,12.474924991419691,5e-05
+conditioned,attachment_two_Wheat_037,Wheat,16.60749498619333,0.034258911
+conditioned,attachment_two_Wheat_038,Wheat,5.684249994011359,6.3e-06
+conditioned,attachment_two_Wheat_039,Wheat,16.989564986053708,0.000118014
+conditioned,attachment_two_Wheat_040,Wheat,10.561749990640216,1.07e-05
+conditioned,attachment_two_Wheat_041,Wheat,13.970459993626708,5.9e-08
+conditioned,attachment_two_Wheat_042,Wheat,16.161124985968083,0.07407538
+conditioned,attachment_two_Wheat_043,Wheat,15.925965001622558,0.089688045
+conditioned,attachment_two_Wheat_044,Wheat,10.792594996292964,0.047745928
+conditioned,attachment_two_Wheat_045,Wheat,15.276254991062764,0.000103534
+conditioned,attachment_two_Wheat_046,Wheat,12.474924991419691,0.000103534
+conditioned,attachment_two_Wheat_047,Wheat,16.661494995164656,0.000115329
+conditioned,attachment_two_Wheat_048,Wheat,13.021794998880804,5e-05
+conditioned,attachment_two_Wheat_049,Wheat,12.034840004996626,2.71e-05
+conditioned,attachment_two_Wheat_050,Wheat,16.379755018172073,0.080828508
+conditioned,attachment_two_Wheat_051,Wheat,14.464034998794766,0.011999467
+conditioned,attachment_two_Wheat_052,Wheat,12.170240008294504,5e-05
+conditioned,attachment_two_Wheat_053,Wheat,15.028305017191459,3.93e-06
+conditioned,attachment_two_Wheat_054,Wheat,7.678215004214326,3.93e-06
+conditioned,attachment_two_Wheat_055,Wheat,17.755470005086345,0.019219729
+conditioned,attachment_two_Wheat_056,Wheat,8.340165005573722,5e-05
+conditioned,attachment_two_Wheat_057,Wheat,17.755470005086345,0.045365705
+conditioned,attachment_two_Wheat_058,Wheat,15.028305017191459,0.058912893
+conditioned,attachment_two_Wheat_059,Wheat,15.069739984545011,0.000118014
+conditioned,attachment_two_Wheat_060,Wheat,9.545992503995821,0.035088328
+conditioned,attachment_two_Wheat_061,Wheat,17.740209979840053,0.062532405
+conditioned,attachment_two_Wheat_062,Wheat,10.282825005844419,0.026185308
+conditioned,attachment_two_Wheat_063,Wheat,9.545992503995821,0.080828508
+conditioned,attachment_two_Wheat_064,Wheat,10.282825005844419,0.011999467
+conditioned,attachment_two_Wheat_065,Wheat,7.917785005134557,0.001415959
+conditioned,attachment_two_Wheat_066,Wheat,8.340165005573722,0.000300068
+conditioned,attachment_two_Wheat_067,Wheat,16.161124985968083,5e-05
+conditioned,attachment_two_Wheat_068,Wheat,12.914694996691294,0.053657258
+conditioned,attachment_two_Wheat_069,Wheat,17.755470005086345,0.056959527
+conditioned,attachment_two_Wheat_070,Wheat,11.736514995705097,0.035088328
+conditioned,attachment_two_Wheat_071,Wheat,18.464419989559758,0.061918658
+conditioned,attachment_two_Wheat_072,Wheat,16.930030012509533,0.001628788
+conditioned,attachment_two_Wheat_073,Wheat,18.41872501186387,0.000115329
+conditioned,attachment_two_Wheat_074,Wheat,12.510575005427443,0.054367266
+conditioned,attachment_two_Wheat_075,Wheat,12.510575005427443,0.080828508
+conditioned,attachment_two_Wheat_076,Wheat,14.855599995516986,0.000990559
+conditioned,attachment_two_Wheat_077,Wheat,5.684249994011359,0.035773067
+conditioned,attachment_two_Wheat_078,Wheat,14.79562999283543,0.000149215
+conditioned,attachment_two_Wheat_079,Wheat,16.379755018172073,2.83e-06
+conditioned,attachment_two_Wheat_080,Wheat,15.112782739474238,0.003081258
+conditioned,attachment_two_Wheat_081,Wheat,8.999089995408912,0.026961202
+conditioned,attachment_two_Wheat_082,Wheat,9.545992503995821,0.032551284
+conditioned,attachment_two_Wheat_083,Wheat,10.561749990640216,0.0662418
+conditioned,attachment_two_Wheat_084,Wheat,17.740209979840053,5.9e-08
+conditioned,attachment_two_Wheat_085,Wheat,14.464034998794766,0.042964961
+conditioned,attachment_two_Wheat_086,Wheat,18.62554498075357,0.051620797
+conditioned,attachment_two_Wheat_087,Wheat,17.605334984576,0.000323439
+conditioned,attachment_two_Wheat_088,Wheat,16.661494995164656,0.044510956
+conditioned,attachment_two_Wheat_089,Wheat,16.053695012177208,1.09e-07
+conditioned,attachment_two_Wheat_090,Wheat,15.276254991062764,0.079352911
+conditioned,attachment_two_Wheat_091,Wheat,10.887784992220478,0.000103534
+conditioned,attachment_two_Wheat_092,Wheat,15.617844987798593,1.31e-07
+conditioned,attachment_two_Wheat_093,Wheat,11.81196498808183,0.07407538
+conditioned,attachment_two_Wheat_094,Wheat,17.740209979840053,0.000103534
+conditioned,attachment_two_Wheat_095,Wheat,15.250354986968484,0.054548416
+conditioned,attachment_two_Wheat_096,Wheat,16.930030012509533,0.062532405
+conditioned,attachment_two_Wheat_097,Wheat,14.464034998794766,0.000115329
+conditioned,attachment_two_Wheat_098,Wheat,14.072089998419486,0.053657258
+conditioned,attachment_two_Wheat_099,Wheat,10.792594996292964,6.3e-06
+conditioned,attachment_two_Wheat_100,Wheat,10.045070011192303,0.011558576

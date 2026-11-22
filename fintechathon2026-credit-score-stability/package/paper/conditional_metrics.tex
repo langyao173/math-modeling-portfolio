@@ -1,0 +1,10 @@
+\begin{table}[H]\centering\caption{原106次受限更新的条件评价}
+\fontsize{9bp}{12bp}\selectfont
+\begin{tabularx}{\linewidth}{@{}Yrrrrrrr@{}}\toprule
+方法 & 均值 & AUC & AP & Brier & Logloss & 偏移截距 & 斜率\\\midrule
+同底模静态 & 9.90\% & 0.7088 & 0.2354 & 0.09810 & 0.33276 & 0.179 & 0.747\\
+原1pp更新 & 9.12\% & 0.7079 & 0.2531 & 0.09832 & 0.33578 & 0.277 & 0.786\\
+\textbf{本文方法} & 8.74\% & 0.7384 & 0.2843 & 0.09704 & 0.33034 & 0.328 & 0.894\\
+\bottomrule\end{tabularx}
+\tabnote{106次更新、98名客户；105次结果可判、12个事件。偏移截距将预测logit作为offset，斜率来自截距与斜率共同拟合。}
+\end{table}

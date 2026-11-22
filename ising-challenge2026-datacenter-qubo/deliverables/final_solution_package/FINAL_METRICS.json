@@ -1,0 +1,22 @@
+{
+  "source": "cloudseed_peak_shave_contextual_recourse_polish",
+  "selected_jobs": 588,
+  "selected_action_variables": 1929,
+  "true_action_cost_usd": 5414.858289000001,
+  "qubo_energy": -46716.17798486207,
+  "expected_recourse_cost_usd": 35.39452387390732,
+  "var95_recourse_cost_usd": 47.718284903473034,
+  "cvar95_recourse_cost_usd": 47.718284903473034,
+  "worst_scenario": "green_short_peak_price",
+  "worst_recourse_cost_usd": 47.718284903473034,
+  "peak_it_mw": 0.03164630399999999,
+  "mean_it_mw": 0.018517695999999997,
+  "energy_mwh": 0.444424704,
+  "dummy_actions": 0,
+  "one_hot_violations": 0,
+  "mode_counts": {
+    "delay": 294,
+    "horizon_rescue": 7,
+    "normal": 287
+  }
+}

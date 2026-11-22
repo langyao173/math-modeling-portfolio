@@ -1,0 +1,29 @@
+{
+  "seeds": [
+    2026102501,
+    2026102502,
+    2026102503
+  ],
+  "n_per_trial": 100,
+  "styles": [
+    "Tripel",
+    "Kriek",
+    "Lambic"
+  ],
+  "event": {
+    "DMS": {
+      "unit": "ug/L",
+      "threshold": 19.0,
+      "transform": "log10"
+    },
+    "X2.3.butanedione": {
+      "unit": "mg/L",
+      "threshold": 0.09,
+      "transform": "identity"
+    }
+  },
+  "batch_size": 256,
+  "model": "One shared IntervalCopula interval_gaussian kappa2 nu20 fit on all 250 supplied beers",
+  "timing": "Only Gaussian sampling, constraint screening and empirical inverse. Both exclude model fitting, predictor inference, and rank-map forward transform. Additional Schur setup is reported separately and added to cold_request_seconds. Wall time on shared runtime; 3 repeats, no benchmark isolation.",
+  "interpretation": "Marginal conditioning changes computation, not the event probability or target conditional law. Rejection counts vary with random streams, even for the same numeric seed. No rare-event probability improvement is claimed."
+}

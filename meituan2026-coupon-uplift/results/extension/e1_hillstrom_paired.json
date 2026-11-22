@@ -1,0 +1,15 @@
+{
+  "visit": {
+    "uplift_minus_response_share_at_30pct_mean": 0.00020059924799713802,
+    "uplift_better_in_reps": 10
+  },
+  "conversion": {
+    "uplift_minus_response_share_at_30pct_mean": 0.003918892493762276,
+    "uplift_better_in_reps": 10
+  },
+  "structure_visit": {
+    "spearman_baseline_vs_uplift": -0.21292744435271338,
+    "spearman_response_vs_uplift": 0.21161355406889873,
+    "top30_overlap_response_vs_uplift": 0.45729166666666665
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "中国新型储能发展报告（2025）",
+  "publisher": "国家能源局能源节约和科技装备司；电力规划设计总院",
+  "source_url": "https://www.nea.gov.cn/20250731/1d40d09f75714280a9218d5bea178fbd/228ab8631dcc4b2293c84dc1f07e6e42.pdf",
+  "retrieved_utc": "2026-10-19T11:35:14.922796+00:00",
+  "filename": "NEA_China_New_Energy_Storage_Report_2025.pdf",
+  "bytes": 1446303,
+  "sha256": "319066e4840bc923122a16ee6d0169c540e8d798831866382d68df4cb33c6044",
+  "pdf_pages": 54,
+  "evidence_pdf_page_1based": 21,
+  "evidence_printed_page": 11,
+  "reported_2024_new_storage_power_GW": 73.76,
+  "reported_2024_new_storage_energy_GWh": 168.0,
+  "reported_average_duration_hours": 2.3,
+  "scope": "National new-type energy storage; multiple technologies, not pure lithium-only fleet and not an observation or forecast for 2030/2060."
+}

@@ -1,0 +1,62 @@
+{
+  "status": "ROUND_3_STRUCTURAL_REBUILD_DEVELOPMENT",
+  "reason": "Replace target-driven capacity projection and two-state replay with explicit decisions, construction queues, fuel stocks and feedback.",
+  "evidence_boundary": "The earlier holdout has already been inspected. All new model selection and comparisons are development evidence, not a new blind test.",
+  "annual": {
+    "scenarios": ["baseline", "policy", "risk", "technology"],
+    "start_year": 2024,
+    "end_year": 2060,
+    "snapshot_years": [2030, 2060],
+    "training_end": 2020,
+    "rolling_one_year_origins": [2017, 2018, 2019, 2020, 2021, 2022, 2023],
+    "rolling_three_year_origins": [2017, 2018, 2019, 2020, 2021],
+    "additional_observation_year": 2025,
+    "additional_observation_note": "Separate publication vintage; no observed 2025 CO2 in the saved data."
+  },
+  "hourly": {
+    "hours": 720,
+    "scenarios": ["baseline", "policy", "risk", "technology"],
+    "years": [2030, 2060],
+    "shocks": ["normal", "import_cut", "renewable_drought", "compound"],
+    "strategies": ["decentralized", "coordinated"],
+    "information_contract": "Identical finite forecast, initial physical state, arrivals and weather; execute first decisions and update the true physical state.",
+    "profile_boundary": "Synthetic chronological engineering experiments, not observed national hourly events or a probability model."
+  },
+  "mechanism_tests": [
+    "construction_lag_prevents_same_year_commissioning",
+    "feedback_disabled_changes_later_orders",
+    "one_time_cost_step_is_not_reintegrated_each_year",
+    "fuel_inventory_analytic_depletion",
+    "thermal_ramp_and_storage_transient",
+    "flexible_load_debt_repayment",
+    "zero_fuel_cannot_generate",
+    "native_state_execution_without_importing_planned_controls"
+  ],
+  "inventory_policy_experiment": {
+    "status": "ADDITIONAL_DESIGNED_MECHANISM_COHORT",
+    "scenario": "baseline",
+    "years": [2030, 2060],
+    "shock": "compound",
+    "initial_stock_days_of_normal_arrivals": [3, 14, 45],
+    "strategies": ["decentralized", "coordinated"],
+    "hours": 720,
+    "reason": "Expose depletion and protection thresholds explicitly; a 30-day event need not exhaust the baseline 45-day buffer.",
+    "boundary": "Engineering reserve alternatives, not measured national inventories or risk probabilities. Report resource use and holding-cost assumptions separately."
+  },
+  "posthoc_forecast_diagnostic": {
+    "status": "POST_HOC_MECHANISM_DIAGNOSTIC",
+    "cases": [{"year": 2030, "initial_stock_days": 3}, {"year": 2060, "initial_stock_days": 45}],
+    "scenario": "baseline",
+    "shock": "compound",
+    "hours": 720,
+    "forecast_hours": [24, 72],
+    "strategies": ["decentralized", "coordinated"],
+    "boundary": "Added after observing reserve-cohort failures. Longer forecasts provide stronger information to both policies, not a pure algorithm gain. Keep the main 24h cohort unchanged."
+  },
+  "reporting": {
+    "preserve_all_failures": true,
+    "report_service_loss_with_emissions": true,
+    "carbon_neutrality": "Report residual emissions and required removals; no assumed capture fraction is treated as installed capture capacity.",
+    "software_scope": "State which policies actually execute in MATLAB/Simulink; do not call a distinct native demonstration rule the Python MPC."
+  }
+}

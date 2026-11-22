@@ -1,0 +1,1847 @@
+{
+  "train_end": 2020,
+  "train_start": 2010,
+  "expectations": {
+    "service_fit": {
+      "mode": "increment3",
+      "increment": 454.07959546086204
+    },
+    "electricity_fit": {
+      "mode": "gdp_full",
+      "beta": 0.9343509756194546,
+      "drift": 0.0
+    },
+    "utilisation_response": 0.05383883239443305,
+    "utilisation_response_raw": 0.05383883239443305,
+    "utilisation_selected": "learned",
+    "utilisation_cv_mape": {
+      "zero": 8.21004190987422,
+      "learned": 8.081221997473902
+    },
+    "service_cv": {
+      "increment3": 2.1844173106848186,
+      "gdp_full": 2.4004809437543906,
+      "gdp_recent5": 2.876445204901571,
+      "intensity3": 2.7373758973263578
+    },
+    "electricity_cv": {
+      "increment3": 4.379320734286227,
+      "gdp_full": 3.580422035910628,
+      "gdp_recent5": 3.9497318350484485,
+      "intensity3": 4.8436404687068855
+    },
+    "n_utilisation_response_pairs": 31,
+    "train_end": 2020
+  },
+  "service_growth_method": "full",
+  "service_elasticity": 0.4256581027464426,
+  "service_drift": 0.0,
+  "share_logratio_drift": [
+    -0.08003940014696176,
+    -0.016177136511895625,
+    0.04036381151664994,
+    0.0
+  ],
+  "capacity_rule_amount": [
+    31.549999999999955,
+    6.8180000000000005,
+    4.69,
+    8.096666666666673,
+    30.188,
+    41.01,
+    0.2348295498377501
+  ],
+  "capacity_rule_exponent": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "training_reference_capacity": [
+    1048.86,
+    97.95,
+    49.89,
+    338.67,
+    281.99,
+    253.86,
+    14.19
+  ],
+  "utilisation": [
+    0.5448700201664421,
+    0.29427463923677394,
+    0.81669955012432,
+    0.44322469863361996,
+    0.2207611570172308,
+    0.11741091969219004,
+    0.8405859319101329
+  ],
+  "production_growth": [
+    0.026195827229003932,
+    0.006180389786892763,
+    0.0790192742195955
+  ],
+  "production_diagnostics": [
+    {
+      "fuel": "coal",
+      "feedback_slope": 0.2905961332869044,
+      "r_squared": 0.04261001431515676,
+      "interpretation": "weak observational fit; slope not used as causal elasticity"
+    },
+    {
+      "fuel": "oil",
+      "feedback_slope": -0.00667137900948754,
+      "r_squared": 0.009275649130657815,
+      "interpretation": "weak observational fit; slope not used as causal elasticity"
+    },
+    {
+      "fuel": "gas",
+      "feedback_slope": 0.03423804267531531,
+      "r_squared": 0.05337781686600451,
+      "interpretation": "weak observational fit; slope not used as causal elasticity"
+    }
+  ],
+  "emission_factors": [
+    2.6942285183810943,
+    1.6822666815780127,
+    1.6219582932203318
+  ],
+  "training_cv_records": [
+    {
+      "target": "useful_service_twh",
+      "method": "full",
+      "origin_year": 2015,
+      "horizon": 1,
+      "observed": 16859.69025875182,
+      "predicted": 17239.393620636412,
+      "ape_percent": 2.2521372341789636
+    },
+    {
+      "target": "useful_service_twh",
+      "method": "recent5",
+      "origin_year": 2015,
+      "horizon": 1,
+      "observed": 16859.69025875182,
+      "predicted": 17239.393620636412,
+      "ape_percent": 2.2521372341789636
+    },
+    {
+      "target": "useful_service_twh",
+      "method": "intensity3",
+      "origin_year": 2015,
+      "horizon": 1,
+      "observed": 16859.69025875182,
+      "predicted": 16941.342810437658,
+      "ape_percent": 0.48430635695368984
+    },
+    {
+      "target": "useful_service_twh",
+      "method": "full",
+      "origin_year": 2015,
+      "horizon": 3,
+      "observed": 17735.457608854547,
+      "predicted": 18340.78817712569,
+      "ape_percent": 3.4131093858493333
+    },
+    {
+      "target": "useful_service_twh",
+      "method": "recent5",
+      "origin_year": 2015,
+      "horizon": 3,
+      "observed": 17735.457608854547,
+      "predicted": 18340.78817712569,
+      "ape_percent": 3.4131093858493333
+    },
+    {
+      "target": "useful_service_twh",
+      "method": "intensity3",
+      "origin_year": 2015,
+      "horizon": 3,
+      "observed": 17735.457608854547,
+      "predicted": 17414.657936755226,
+      "ape_percent": 1.8088040307409958
+    },
+    {
+      "target": "useful_service_twh",
+      "method": "full",
+      "origin_year": 2016,
+      "horizon": 1,
+      "observed": 17295.71465001114,
+      "predicted": 17344.629284030787,
+      "ape_percent": 0.2828136044648266
+    },
+    {
+      "target": "useful_service_twh",
+      "method": "recent5",
+      "origin_year": 2016,
+      "horizon": 1,
+      "observed": 17295.71465001114,
+      "predicted": 17188.42909426323,
+      "ape_percent": 0.6203013747561048
+    },
+    {
+      "target": "useful_service_twh",
+      "method": "intensity3",
+      "origin_year": 2016,
+      "horizon": 1,
+      "observed": 17295.71465001114,
+      "predicted": 17059.646280939145,
+      "ape_percent": 1.3648951422301825
+    },
+    {
+      "target": "useful_service_twh",
+      "method": "full",
+      "origin_year": 2016,
+      "horizon": 3,
+      "observed": 18189.166546381817,
+      "predicted": 18286.6935524128,
+      "ape_percent": 0.5361818298946774
+    },
+    {
+      "target": "useful_service_twh",
+      "method": "recent5",
+      "origin_year": 2016,
+      "horizon": 3,
+      "observed": 18189.166546381817,
+      "predicted": 17818.800797267486,
+      "ape_percent": 2.036188674010486
+    },
+    {
+      "target": "useful_service_twh",
+      "method": "intensity3",
+      "origin_year": 2016,
+      "horizon": 3,
+      "observed": 18189.166546381817,
+      "predicted": 17310.441101655142,
+      "ape_percent": 4.831037433661145
+    },
+    {
+      "target": "useful_service_twh",
+      "method": "full",
+      "origin_year": 2017,
+      "horizon": 1,
+      "observed": 17735.457608854547,
+      "predicted": 17777.977935407434,
+      "ape_percent": 0.23974755820035387
+    },
+    {
+      "target": "useful_service_twh",
+      "method": "recent5",
+      "origin_year": 2017,
+      "horizon": 1,
+      "observed": 17735.457608854547,
+      "predicted": 17600.314156700388,
+      "ape_percent": 0.7619958567445573
+    },
+    {
+      "target": "useful_service_twh",
+      "method": "intensity3",
+      "origin_year": 2017,
+      "horizon": 1,
+      "observed": 17735.457608854547,
+      "predicted": 17538.93864682627,
+      "ape_percent": 1.1080569013914965
+    },
+    {
+      "target": "useful_service_twh",
+      "method": "full",
+      "origin_year": 2017,
+      "horizon": 3,
+      "observed": 18657.953436393727,
+      "predicted": 18401.998707615625,
+      "ape_percent": 1.3718263884121562
+    },
+    {
+      "target": "useful_service_twh",
+      "method": "recent5",
+      "origin_year": 2017,
+      "horizon": 3,
+      "observed": 18657.953436393727,
+      "predicted": 17990.0070845514,
+      "ape_percent": 3.579955079850561
+    },
+    {
+      "target": "useful_service_twh",
+      "method": "intensity3",
+      "origin_year": 2017,
+      "horizon": 3,
+      "observed": 18657.953436393727,
+      "predicted": 17177.452829422833,
+      "ape_percent": 7.934957132453057
+    },
+    {
+      "target": "useful_service_twh",
+      "method": "full",
+      "origin_year": 2018,
+      "horizon": 1,
+      "observed": 18189.166546381817,
+      "predicted": 18176.337390632863,
+      "ape_percent": 0.07053185046296262
+    },
+    {
+      "target": "useful_service_twh",
+      "method": "recent5",
+      "origin_year": 2018,
+      "horizon": 1,
+      "observed": 18189.166546381817,
+      "predicted": 18020.073490738894,
+      "ape_percent": 0.9296360842688478
+    },
+    {
+      "target": "useful_service_twh",
+      "method": "intensity3",
+      "origin_year": 2018,
+      "horizon": 1,
+      "observed": 18189.166546381817,
+      "predicted": 17963.021917866707,
+      "ape_percent": 1.2432929674839666
+    },
+    {
+      "target": "useful_service_twh",
+      "method": "full",
+      "origin_year": 2019,
+      "horizon": 1,
+      "observed": 18657.953436393727,
+      "predicted": 18365.74522027236,
+      "ape_percent": 1.5661321972826436
+    },
+    {
+      "target": "useful_service_twh",
+      "method": "recent5",
+      "origin_year": 2019,
+      "horizon": 1,
+      "observed": 18657.953436393727,
+      "predicted": 18312.645562542635,
+      "ape_percent": 1.8507274928532325
+    },
+    {
+      "target": "useful_service_twh",
+      "method": "intensity3",
+      "origin_year": 2019,
+      "horizon": 1,
+      "observed": 18657.953436393727,
+      "predicted": 17914.415643829867,
+      "ape_percent": 3.985098339422022
+    },
+    {
+      "target": "coal_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2015,
+      "horizon": 1,
+      "observed": 921.08,
+      "predicted": 926.1066666666667,
+      "ape_percent": 0.5457361647920544
+    },
+    {
+      "target": "coal_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2015,
+      "horizon": 1,
+      "observed": 921.08,
+      "predicted": 928.798,
+      "ape_percent": 0.8379293872410543
+    },
+    {
+      "target": "coal_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2015,
+      "horizon": 1,
+      "observed": 921.08,
+      "predicted": 931.7934029492876,
+      "ape_percent": 1.1631349013427217
+    },
+    {
+      "target": "coal_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2015,
+      "horizon": 3,
+      "observed": 976.69,
+      "predicted": 1019.02,
+      "ape_percent": 4.3340261495459
+    },
+    {
+      "target": "coal_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2015,
+      "horizon": 3,
+      "observed": 976.69,
+      "predicted": 1027.094,
+      "ape_percent": 5.160695819553807
+    },
+    {
+      "target": "coal_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2015,
+      "horizon": 3,
+      "observed": 976.69,
+      "predicted": 1045.5362139603408,
+      "ape_percent": 7.048932000976849
+    },
+    {
+      "target": "coal_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2016,
+      "horizon": 1,
+      "observed": 954.21,
+      "predicted": 965.73,
+      "ape_percent": 1.2072814160404954
+    },
+    {
+      "target": "coal_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2016,
+      "horizon": 1,
+      "observed": 954.21,
+      "predicted": 966.8960000000001,
+      "ape_percent": 1.3294767399209872
+    },
+    {
+      "target": "coal_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2016,
+      "horizon": 1,
+      "observed": 954.21,
+      "predicted": 970.708939608614,
+      "ape_percent": 1.7290679838414924
+    },
+    {
+      "target": "coal_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2016,
+      "horizon": 3,
+      "observed": 1019.28,
+      "predicted": 1055.0300000000002,
+      "ape_percent": 3.507377756847996
+    },
+    {
+      "target": "coal_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2016,
+      "horizon": 3,
+      "observed": 1019.28,
+      "predicted": 1058.528,
+      "ape_percent": 3.850561180441092
+    },
+    {
+      "target": "coal_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2016,
+      "horizon": 3,
+      "observed": 1019.28,
+      "predicted": 1078.13310857072,
+      "ape_percent": 5.773988361462989
+    },
+    {
+      "target": "coal_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2017,
+      "horizon": 1,
+      "observed": 976.69,
+      "predicted": 999.3033333333334,
+      "ape_percent": 2.3153030473674674
+    },
+    {
+      "target": "coal_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2017,
+      "horizon": 1,
+      "observed": 976.69,
+      "predicted": 996.9960000000001,
+      "ape_percent": 2.0790629575402786
+    },
+    {
+      "target": "coal_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2017,
+      "horizon": 1,
+      "observed": 976.69,
+      "predicted": 1004.2145654318539,
+      "ape_percent": 2.8181475628760166
+    },
+    {
+      "target": "coal_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2017,
+      "horizon": 3,
+      "observed": 1048.86,
+      "predicted": 1089.4900000000002,
+      "ape_percent": 3.873729573060314
+    },
+    {
+      "target": "coal_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2017,
+      "horizon": 3,
+      "observed": 1048.86,
+      "predicted": 1082.5680000000002,
+      "ape_percent": 3.213774955666171
+    },
+    {
+      "target": "coal_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2017,
+      "horizon": 3,
+      "observed": 1048.86,
+      "predicted": 1112.222359060322,
+      "ape_percent": 6.041069261895982
+    },
+    {
+      "target": "coal_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2018,
+      "horizon": 1,
+      "observed": 1019.28,
+      "predicted": 1009.0366666666667,
+      "ape_percent": 1.004957747952795
+    },
+    {
+      "target": "coal_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2018,
+      "horizon": 1,
+      "observed": 1019.28,
+      "predicted": 1014.6020000000001,
+      "ape_percent": 0.4589514166862818
+    },
+    {
+      "target": "coal_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2018,
+      "horizon": 1,
+      "observed": 1019.28,
+      "predicted": 1011.4034113561321,
+      "ape_percent": 0.7727600506110099
+    },
+    {
+      "target": "coal_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2019,
+      "horizon": 1,
+      "observed": 1048.86,
+      "predicted": 1052.0133333333333,
+      "ape_percent": 0.30064387366601775
+    },
+    {
+      "target": "coal_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2019,
+      "horizon": 1,
+      "observed": 1048.86,
+      "predicted": 1059.35,
+      "ape_percent": 1.000133478252585
+    },
+    {
+      "target": "coal_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2019,
+      "horizon": 1,
+      "observed": 1048.86,
+      "predicted": 1054.3207628737975,
+      "ape_percent": 0.5206379186733834
+    },
+    {
+      "target": "gas_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2015,
+      "horizon": 1,
+      "observed": 67.49,
+      "predicted": 73.08,
+      "ape_percent": 8.28270854941473
+    },
+    {
+      "target": "gas_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2015,
+      "horizon": 1,
+      "observed": 67.49,
+      "predicted": 70.224,
+      "ape_percent": 4.050970514150265
+    },
+    {
+      "target": "gas_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2015,
+      "horizon": 1,
+      "observed": 67.49,
+      "predicted": 77.29635746256454,
+      "ape_percent": 14.530089587441907
+    },
+    {
+      "target": "gas_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2015,
+      "horizon": 3,
+      "observed": 81.91,
+      "predicted": 91.52,
+      "ape_percent": 11.732389207666948
+    },
+    {
+      "target": "gas_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2015,
+      "horizon": 3,
+      "observed": 81.91,
+      "predicted": 82.952,
+      "ape_percent": 1.2721279453058232
+    },
+    {
+      "target": "gas_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2015,
+      "horizon": 3,
+      "observed": 81.91,
+      "predicted": 113.24505767938602,
+      "ape_percent": 38.25547268878773
+    },
+    {
+      "target": "gas_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2016,
+      "horizon": 1,
+      "observed": 73.09,
+      "predicted": 76.03333333333333,
+      "ape_percent": 4.0269986774296385
+    },
+    {
+      "target": "gas_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2016,
+      "horizon": 1,
+      "observed": 73.09,
+      "predicted": 74.032,
+      "ape_percent": 1.2888220002736261
+    },
+    {
+      "target": "gas_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2016,
+      "horizon": 1,
+      "observed": 73.09,
+      "predicted": 79.45146711803459,
+      "ape_percent": 8.703608042187149
+    },
+    {
+      "target": "gas_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2016,
+      "horizon": 3,
+      "observed": 90.82,
+      "predicted": 93.11999999999999,
+      "ape_percent": 2.5324818321955433
+    },
+    {
+      "target": "gas_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2016,
+      "horizon": 3,
+      "observed": 90.82,
+      "predicted": 87.11599999999999,
+      "ape_percent": 4.078396828892328
+    },
+    {
+      "target": "gas_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2016,
+      "horizon": 3,
+      "observed": 90.82,
+      "predicted": 110.11003662112121,
+      "ape_percent": 21.239855341467972
+    },
+    {
+      "target": "gas_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2017,
+      "horizon": 1,
+      "observed": 81.91,
+      "predicted": 79.13666666666667,
+      "ape_percent": 3.3858299759898958
+    },
+    {
+      "target": "gas_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2017,
+      "horizon": 1,
+      "observed": 81.91,
+      "predicted": 80.468,
+      "ape_percent": 1.7604688072274333
+    },
+    {
+      "target": "gas_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2017,
+      "horizon": 1,
+      "observed": 81.91,
+      "predicted": 80.44689238318905,
+      "ape_percent": 1.7862380866938699
+    },
+    {
+      "target": "gas_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2017,
+      "horizon": 3,
+      "observed": 97.95,
+      "predicted": 91.23,
+      "ape_percent": 6.8606431852986205
+    },
+    {
+      "target": "gas_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2017,
+      "horizon": 3,
+      "observed": 97.95,
+      "predicted": 95.224,
+      "ape_percent": 2.783052577845835
+    },
+    {
+      "target": "gas_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2017,
+      "horizon": 3,
+      "observed": 97.95,
+      "predicted": 97.45674293078405,
+      "ape_percent": 0.5035804688269141
+    },
+    {
+      "target": "gas_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2018,
+      "horizon": 1,
+      "observed": 90.82,
+      "predicted": 87.92666666666666,
+      "ape_percent": 3.185788739631501
+    },
+    {
+      "target": "gas_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2018,
+      "horizon": 1,
+      "observed": 90.82,
+      "predicted": 89.92,
+      "ape_percent": 0.9909711517286812
+    },
+    {
+      "target": "gas_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2018,
+      "horizon": 1,
+      "observed": 90.82,
+      "predicted": 89.02228605194276,
+      "ape_percent": 1.9794251795389073
+    },
+    {
+      "target": "gas_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2019,
+      "horizon": 1,
+      "observed": 97.95,
+      "predicted": 98.59666666666666,
+      "ape_percent": 0.6602007827122724
+    },
+    {
+      "target": "gas_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2019,
+      "horizon": 1,
+      "observed": 97.95,
+      "predicted": 97.99399999999999,
+      "ape_percent": 0.04492087799896627
+    },
+    {
+      "target": "gas_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2019,
+      "horizon": 1,
+      "observed": 97.95,
+      "predicted": 100.27818628752911,
+      "ape_percent": 2.3769130041134234
+    },
+    {
+      "target": "nuclear_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2015,
+      "horizon": 1,
+      "observed": 33.64,
+      "predicted": 32.03666666666667,
+      "ape_percent": 4.766151407055085
+    },
+    {
+      "target": "nuclear_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2015,
+      "horizon": 1,
+      "observed": 33.64,
+      "predicted": 30.44,
+      "ape_percent": 9.512485136741965
+    },
+    {
+      "target": "nuclear_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2015,
+      "horizon": 1,
+      "observed": 33.64,
+      "predicted": 35.2220110837582,
+      "ape_percent": 4.702767787628415
+    },
+    {
+      "target": "nuclear_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2015,
+      "horizon": 3,
+      "observed": 44.66,
+      "predicted": 41.77,
+      "ape_percent": 6.4711150918047355
+    },
+    {
+      "target": "nuclear_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2015,
+      "horizon": 3,
+      "observed": 44.66,
+      "predicted": 36.980000000000004,
+      "ape_percent": 17.19659650694132
+    },
+    {
+      "target": "nuclear_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2015,
+      "horizon": 3,
+      "observed": 44.66,
+      "predicted": 59.192021407810074,
+      "ape_percent": 32.53923288806555
+    },
+    {
+      "target": "nuclear_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2016,
+      "horizon": 1,
+      "observed": 35.82,
+      "predicted": 39.96666666666667,
+      "ape_percent": 11.576400521124143
+    },
+    {
+      "target": "nuclear_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2016,
+      "horizon": 1,
+      "observed": 35.82,
+      "predicted": 37.854,
+      "ape_percent": 5.678391959799001
+    },
+    {
+      "target": "nuclear_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2016,
+      "horizon": 1,
+      "observed": 35.82,
+      "predicted": 44.41524461788229,
+      "ape_percent": 23.99565778303263
+    },
+    {
+      "target": "nuclear_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2016,
+      "horizon": 3,
+      "observed": 48.74,
+      "predicted": 52.620000000000005,
+      "ape_percent": 7.960607304062384
+    },
+    {
+      "target": "nuclear_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2016,
+      "horizon": 3,
+      "observed": 48.74,
+      "predicted": 46.282000000000004,
+      "ape_percent": 5.043085761181776
+    },
+    {
+      "target": "nuclear_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2016,
+      "horizon": 3,
+      "observed": 48.74,
+      "predicted": 77.4255324693541,
+      "ape_percent": 58.85419054032437
+    },
+    {
+      "target": "nuclear_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2017,
+      "horizon": 1,
+      "observed": 44.66,
+      "predicted": 41.06666666666667,
+      "ape_percent": 8.045977011494243
+    },
+    {
+      "target": "nuclear_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2017,
+      "horizon": 1,
+      "observed": 44.66,
+      "predicted": 40.47,
+      "ape_percent": 9.381997313031787
+    },
+    {
+      "target": "nuclear_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2017,
+      "horizon": 1,
+      "observed": 44.66,
+      "predicted": 43.65289963719028,
+      "ape_percent": 2.2550388777647035
+    },
+    {
+      "target": "nuclear_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2017,
+      "horizon": 3,
+      "observed": 49.89,
+      "predicted": 51.56,
+      "ape_percent": 3.3473642012427307
+    },
+    {
+      "target": "nuclear_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2017,
+      "horizon": 3,
+      "observed": 49.89,
+      "predicted": 49.77,
+      "ape_percent": 0.24052916416115178
+    },
+    {
+      "target": "nuclear_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2017,
+      "horizon": 3,
+      "observed": 49.89,
+      "predicted": 64.83180719808156,
+      "ape_percent": 29.949503303430667
+    },
+    {
+      "target": "nuclear_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2018,
+      "horizon": 1,
+      "observed": 48.74,
+      "predicted": 50.489999999999995,
+      "ape_percent": 3.5904800984817298
+    },
+    {
+      "target": "nuclear_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2018,
+      "horizon": 1,
+      "observed": 48.74,
+      "predicted": 50.66,
+      "ape_percent": 3.9392695937628064
+    },
+    {
+      "target": "nuclear_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2018,
+      "horizon": 1,
+      "observed": 48.74,
+      "predicted": 52.843551974535465,
+      "ape_percent": 8.41926954151715
+    },
+    {
+      "target": "nuclear_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2019,
+      "horizon": 1,
+      "observed": 49.89,
+      "predicted": 53.77333333333333,
+      "ape_percent": 7.783791006881802
+    },
+    {
+      "target": "nuclear_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2019,
+      "horizon": 1,
+      "observed": 49.89,
+      "predicted": 54.472,
+      "ape_percent": 9.184205251553411
+    },
+    {
+      "target": "nuclear_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2019,
+      "horizon": 1,
+      "observed": 49.89,
+      "predicted": 55.28659802145812,
+      "ape_percent": 10.816993428458854
+    },
+    {
+      "target": "hydro_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2015,
+      "horizon": 1,
+      "observed": 305.38,
+      "predicted": 318.9533333333333,
+      "ape_percent": 4.444735520771936
+    },
+    {
+      "target": "hydro_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2015,
+      "horizon": 1,
+      "observed": 305.38,
+      "predicted": 315.974,
+      "ape_percent": 3.4691204401074094
+    },
+    {
+      "target": "hydro_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2015,
+      "horizon": 1,
+      "observed": 305.38,
+      "predicted": 323.24711006298867,
+      "ape_percent": 5.850779377493187
+    },
+    {
+      "target": "hydro_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2015,
+      "horizon": 3,
+      "observed": 322.27,
+      "predicted": 363.86,
+      "ape_percent": 12.905327830700974
+    },
+    {
+      "target": "hydro_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2015,
+      "horizon": 3,
+      "observed": 322.27,
+      "predicted": 354.922,
+      "ape_percent": 10.13187699754865
+    },
+    {
+      "target": "hydro_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2015,
+      "horizon": 3,
+      "observed": 322.27,
+      "predicted": 384.19751994508573,
+      "ape_percent": 19.216036225862098
+    },
+    {
+      "target": "hydro_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2016,
+      "horizon": 1,
+      "observed": 314.38,
+      "predicted": 320.87,
+      "ape_percent": 2.064380685794265
+    },
+    {
+      "target": "hydro_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2016,
+      "horizon": 1,
+      "observed": 314.38,
+      "predicted": 323.536,
+      "ape_percent": 2.9123990075704542
+    },
+    {
+      "target": "hydro_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2016,
+      "horizon": 1,
+      "observed": 314.38,
+      "predicted": 322.7517723246101,
+      "ape_percent": 2.6629468555919855
+    },
+    {
+      "target": "hydro_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2016,
+      "horizon": 3,
+      "observed": 327.75,
+      "predicted": 351.84999999999997,
+      "ape_percent": 7.353165522501892
+    },
+    {
+      "target": "hydro_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2016,
+      "horizon": 3,
+      "observed": 327.75,
+      "predicted": 359.848,
+      "ape_percent": 9.793440122044238
+    },
+    {
+      "target": "hydro_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2016,
+      "horizon": 3,
+      "observed": 327.75,
+      "predicted": 360.51615107518137,
+      "ape_percent": 9.99730009921629
+    },
+    {
+      "target": "hydro_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2017,
+      "horizon": 1,
+      "observed": 322.27,
+      "predicted": 324.92333333333335,
+      "ape_percent": 0.8233261964605276
+    },
+    {
+      "target": "hydro_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2017,
+      "horizon": 1,
+      "observed": 322.27,
+      "predicted": 331.428,
+      "ape_percent": 2.8417165730598715
+    },
+    {
+      "target": "hydro_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2017,
+      "horizon": 1,
+      "observed": 322.27,
+      "predicted": 325.70296360937095,
+      "ape_percent": 1.0652445494060858
+    },
+    {
+      "target": "hydro_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2017,
+      "horizon": 3,
+      "observed": 338.67,
+      "predicted": 346.01,
+      "ape_percent": 2.167301502937957
+    },
+    {
+      "target": "hydro_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2017,
+      "horizon": 3,
+      "observed": 338.67,
+      "predicted": 365.524,
+      "ape_percent": 7.929252664835973
+    },
+    {
+      "target": "hydro_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2017,
+      "horizon": 3,
+      "observed": 338.67,
+      "predicted": 349.5870300596779,
+      "ape_percent": 3.2235007705665897
+    },
+    {
+      "target": "hydro_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2018,
+      "horizon": 1,
+      "observed": 327.75,
+      "predicted": 330.85999999999996,
+      "ape_percent": 0.94889397406559
+    },
+    {
+      "target": "hydro_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2018,
+      "horizon": 1,
+      "observed": 327.75,
+      "predicted": 334.94199999999995,
+      "ape_percent": 2.194355453852004
+    },
+    {
+      "target": "hydro_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2018,
+      "horizon": 1,
+      "observed": 327.75,
+      "predicted": 331.34919500504793,
+      "ape_percent": 1.0981525568414696
+    },
+    {
+      "target": "hydro_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2019,
+      "horizon": 1,
+      "observed": 338.67,
+      "predicted": 335.20666666666665,
+      "ape_percent": 1.022627730042036
+    },
+    {
+      "target": "hydro_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2019,
+      "horizon": 1,
+      "observed": 338.67,
+      "predicted": 336.75,
+      "ape_percent": 0.5669235539020323
+    },
+    {
+      "target": "hydro_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2019,
+      "horizon": 1,
+      "observed": 338.67,
+      "predicted": 335.56933601705543,
+      "ape_percent": 0.9155413774307064
+    },
+    {
+      "target": "wind_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2015,
+      "horizon": 1,
+      "observed": 148.52,
+      "predicted": 154.20000000000002,
+      "ape_percent": 3.8244007541071934
+    },
+    {
+      "target": "wind_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2015,
+      "horizon": 1,
+      "observed": 148.52,
+      "predicted": 151.334,
+      "ape_percent": 1.8946943172636566
+    },
+    {
+      "target": "wind_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2015,
+      "horizon": 1,
+      "observed": 148.52,
+      "predicted": 168.66077014001914,
+      "ape_percent": 13.560981780244497
+    },
+    {
+      "target": "wind_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2015,
+      "horizon": 3,
+      "observed": 184.66,
+      "predicted": 200.50000000000003,
+      "ape_percent": 8.577927000974771
+    },
+    {
+      "target": "wind_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2015,
+      "horizon": 3,
+      "observed": 184.66,
+      "predicted": 191.90200000000002,
+      "ape_percent": 3.9218022311274803
+    },
+    {
+      "target": "wind_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2015,
+      "horizon": 3,
+      "observed": 184.66,
+      "predicted": 279.3625502617663,
+      "ape_percent": 51.28482089340749
+    },
+    {
+      "target": "wind_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2016,
+      "horizon": 1,
+      "observed": 164.37,
+      "predicted": 172.45000000000002,
+      "ape_percent": 4.915738881791087
+    },
+    {
+      "target": "wind_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2016,
+      "horizon": 1,
+      "observed": 164.37,
+      "predicted": 168.954,
+      "ape_percent": 2.7888300784814746
+    },
+    {
+      "target": "wind_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2016,
+      "horizon": 1,
+      "observed": 164.37,
+      "predicted": 185.58453933782235,
+      "ape_percent": 12.906576223046983
+    },
+    {
+      "target": "wind_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2016,
+      "horizon": 3,
+      "observed": 209.58,
+      "predicted": 220.31,
+      "ape_percent": 5.1197633361961925
+    },
+    {
+      "target": "wind_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2016,
+      "horizon": 3,
+      "observed": 209.58,
+      "predicted": 209.82200000000003,
+      "ape_percent": 0.11546903330470482
+    },
+    {
+      "target": "wind_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2016,
+      "horizon": 3,
+      "observed": 209.58,
+      "predicted": 289.77138632830673,
+      "ape_percent": 38.26290024253589
+    },
+    {
+      "target": "wind_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2017,
+      "horizon": 1,
+      "observed": 184.66,
+      "predicted": 186.88666666666668,
+      "ape_percent": 1.205819704682498
+    },
+    {
+      "target": "wind_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2017,
+      "horizon": 1,
+      "observed": 184.66,
+      "predicted": 184.924,
+      "ape_percent": 0.1429654500162414
+    },
+    {
+      "target": "wind_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2017,
+      "horizon": 1,
+      "observed": 184.66,
+      "predicted": 196.89171059746545,
+      "ape_percent": 6.623909128920968
+    },
+    {
+      "target": "wind_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2017,
+      "horizon": 3,
+      "observed": 281.99,
+      "predicted": 231.92000000000002,
+      "ape_percent": 17.755948792510367
+    },
+    {
+      "target": "wind_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2017,
+      "horizon": 3,
+      "observed": 281.99,
+      "predicted": 226.032,
+      "ape_percent": 19.843966098088583
+    },
+    {
+      "target": "wind_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2017,
+      "horizon": 3,
+      "observed": 281.99,
+      "predicted": 282.51218634834794,
+      "ape_percent": 0.18517903058545837
+    },
+    {
+      "target": "wind_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2018,
+      "horizon": 1,
+      "observed": 209.58,
+      "predicted": 202.53,
+      "ape_percent": 3.3638705983395467
+    },
+    {
+      "target": "wind_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2018,
+      "horizon": 1,
+      "observed": 209.58,
+      "predicted": 206.24599999999998,
+      "ape_percent": 1.5908006489169013
+    },
+    {
+      "target": "wind_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2018,
+      "horizon": 1,
+      "observed": 209.58,
+      "predicted": 207.0327007334257,
+      "ape_percent": 1.2154305117732078
+    },
+    {
+      "target": "wind_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2019,
+      "horizon": 1,
+      "observed": 281.99,
+      "predicted": 229.93333333333334,
+      "ape_percent": 18.4604655011407
+    },
+    {
+      "target": "wind_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2019,
+      "horizon": 1,
+      "observed": 281.99,
+      "predicted": 232.132,
+      "ape_percent": 17.68076882158942
+    },
+    {
+      "target": "wind_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2019,
+      "horizon": 1,
+      "observed": 281.99,
+      "predicted": 235.08668039058074,
+      "ape_percent": 16.6329726619452
+    },
+    {
+      "target": "solar_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2015,
+      "horizon": 1,
+      "observed": 77.82,
+      "predicted": 55.82666666666666,
+      "ape_percent": 28.261800736742913
+    },
+    {
+      "target": "solar_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2015,
+      "horizon": 1,
+      "observed": 77.82,
+      "predicted": 52.056,
+      "ape_percent": 33.107170393215114
+    },
+    {
+      "target": "solar_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2015,
+      "horizon": 1,
+      "observed": 77.82,
+      "predicted": 83.83965750206947,
+      "ape_percent": 7.73536044984513
+    },
+    {
+      "target": "solar_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2015,
+      "horizon": 3,
+      "observed": 175.26,
+      "predicted": 80.38,
+      "ape_percent": 54.136711171973076
+    },
+    {
+      "target": "solar_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2015,
+      "horizon": 3,
+      "observed": 175.26,
+      "predicted": 69.068,
+      "ape_percent": 60.59112176195367
+    },
+    {
+      "target": "solar_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2015,
+      "horizon": 3,
+      "observed": 175.26,
+      "predicted": 310.72211743369553,
+      "ape_percent": 77.2920902851167
+    },
+    {
+      "target": "solar_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2016,
+      "horizon": 1,
+      "observed": 130.83,
+      "predicted": 97.83999999999999,
+      "ape_percent": 25.215929068256525
+    },
+    {
+      "target": "solar_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2016,
+      "horizon": 1,
+      "observed": 130.83,
+      "predicted": 92.76199999999999,
+      "ape_percent": 29.097301842085166
+    },
+    {
+      "target": "solar_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2016,
+      "horizon": 1,
+      "observed": 130.83,
+      "predicted": 127.61082869502154,
+      "ape_percent": 2.460575789175623
+    },
+    {
+      "target": "solar_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2016,
+      "horizon": 3,
+      "observed": 204.97,
+      "predicted": 137.88,
+      "ape_percent": 32.73161926135533
+    },
+    {
+      "target": "solar_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2016,
+      "horizon": 3,
+      "observed": 204.97,
+      "predicted": 122.64599999999999,
+      "ape_percent": 40.1639264282578
+    },
+    {
+      "target": "solar_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2016,
+      "horizon": 3,
+      "observed": 204.97,
+      "predicted": 343.14694275486767,
+      "ape_percent": 67.41325206365207
+    },
+    {
+      "target": "solar_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2017,
+      "horizon": 1,
+      "observed": 175.26,
+      "predicted": 164.97333333333336,
+      "ape_percent": 5.8693750237741815
+    },
+    {
+      "target": "solar_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2017,
+      "horizon": 1,
+      "observed": 175.26,
+      "predicted": 155.65200000000002,
+      "ape_percent": 11.187949332420388
+    },
+    {
+      "target": "solar_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2017,
+      "horizon": 1,
+      "observed": 175.26,
+      "predicted": 218.11758047756703,
+      "ape_percent": 24.45371475383262
+    },
+    {
+      "target": "solar_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2017,
+      "horizon": 3,
+      "observed": 253.86,
+      "predicted": 233.26000000000002,
+      "ape_percent": 8.114708894666345
+    },
+    {
+      "target": "solar_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2017,
+      "horizon": 3,
+      "observed": 253.86,
+      "predicted": 205.29600000000002,
+      "ape_percent": 19.130229260222166
+    },
+    {
+      "target": "solar_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2017,
+      "horizon": 3,
+      "observed": 253.86,
+      "predicted": 606.2577896529696,
+      "ape_percent": 138.81579991056861
+    },
+    {
+      "target": "solar_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2018,
+      "horizon": 1,
+      "observed": 204.97,
+      "predicted": 219.16333333333333,
+      "ape_percent": 6.924590590492907
+    },
+    {
+      "target": "solar_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2018,
+      "horizon": 1,
+      "observed": 204.97,
+      "predicted": 206.76,
+      "ape_percent": 0.8732985314924058
+    },
+    {
+      "target": "solar_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2018,
+      "horizon": 1,
+      "observed": 204.97,
+      "predicted": 280.8658316775329,
+      "ape_percent": 37.02777561474018
+    },
+    {
+      "target": "solar_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2019,
+      "horizon": 1,
+      "observed": 253.86,
+      "predicted": 247.35333333333332,
+      "ape_percent": 2.5630925181858832
+    },
+    {
+      "target": "solar_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2019,
+      "horizon": 1,
+      "observed": 253.86,
+      "predicted": 240.284,
+      "ape_percent": 5.347829512329638
+    },
+    {
+      "target": "solar_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2019,
+      "horizon": 1,
+      "observed": 253.86,
+      "predicted": 286.2958058329314,
+      "ape_percent": 12.777044762046575
+    },
+    {
+      "target": "biomass_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2015,
+      "horizon": 1,
+      "observed": 6.4,
+      "predicted": 6.363333333333333,
+      "ape_percent": 0.5729166666666674
+    },
+    {
+      "target": "biomass_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2015,
+      "horizon": 1,
+      "observed": 6.4,
+      "predicted": 6.302,
+      "ape_percent": 1.5312500000000062
+    },
+    {
+      "target": "biomass_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2015,
+      "horizon": 1,
+      "observed": 6.4,
+      "predicted": 6.644457854301613,
+      "ape_percent": 3.819653973462689
+    },
+    {
+      "target": "biomass_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2015,
+      "horizon": 3,
+      "observed": 8.66,
+      "predicted": 7.809999999999999,
+      "ape_percent": 9.81524249422634
+    },
+    {
+      "target": "biomass_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2015,
+      "horizon": 3,
+      "observed": 8.66,
+      "predicted": 7.6259999999999994,
+      "ape_percent": 11.93995381062356
+    },
+    {
+      "target": "biomass_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2015,
+      "horizon": 3,
+      "observed": 8.66,
+      "predicted": 9.221900777977089,
+      "ape_percent": 6.488461639458287
+    },
+    {
+      "target": "biomass_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2016,
+      "horizon": 1,
+      "observed": 7.59,
+      "predicted": 7.07,
+      "ape_percent": 6.8511198945981455
+    },
+    {
+      "target": "biomass_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2016,
+      "horizon": 1,
+      "observed": 7.59,
+      "predicted": 7.144,
+      "ape_percent": 5.876152832674563
+    },
+    {
+      "target": "biomass_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2016,
+      "horizon": 1,
+      "observed": 7.59,
+      "predicted": 7.261670789901124,
+      "ape_percent": 4.325813044780979
+    },
+    {
+      "target": "biomass_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2016,
+      "horizon": 3,
+      "observed": 10.53,
+      "predicted": 8.41,
+      "ape_percent": 20.132953466286796
+    },
+    {
+      "target": "biomass_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2016,
+      "horizon": 3,
+      "observed": 10.53,
+      "predicted": 8.632000000000001,
+      "ape_percent": 18.02469135802467
+    },
+    {
+      "target": "biomass_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2016,
+      "horizon": 3,
+      "observed": 10.53,
+      "predicted": 9.348667646039026,
+      "ape_percent": 11.218730806846855
+    },
+    {
+      "target": "biomass_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2017,
+      "horizon": 1,
+      "observed": 8.66,
+      "predicted": 8.533333333333333,
+      "ape_percent": 1.4626635873749017
+    },
+    {
+      "target": "biomass_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2017,
+      "horizon": 1,
+      "observed": 8.66,
+      "predicted": 8.414,
+      "ape_percent": 2.8406466512702178
+    },
+    {
+      "target": "biomass_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2017,
+      "horizon": 1,
+      "observed": 8.66,
+      "predicted": 8.869074953252577,
+      "ape_percent": 2.4142604301683246
+    },
+    {
+      "target": "biomass_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2017,
+      "horizon": 3,
+      "observed": 14.19,
+      "predicted": 10.42,
+      "ape_percent": 26.568005637773073
+    },
+    {
+      "target": "biomass_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2017,
+      "horizon": 3,
+      "observed": 14.19,
+      "predicted": 10.062,
+      "ape_percent": 29.09090909090909
+    },
+    {
+      "target": "biomass_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2017,
+      "horizon": 3,
+      "observed": 14.19,
+      "predicted": 12.110203015519765,
+      "ape_percent": 14.656779312757118
+    },
+    {
+      "target": "biomass_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2018,
+      "horizon": 1,
+      "observed": 10.53,
+      "predicted": 9.666666666666668,
+      "ape_percent": 8.19879708768596
+    },
+    {
+      "target": "biomass_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2018,
+      "horizon": 1,
+      "observed": 10.53,
+      "predicted": 9.514,
+      "ape_percent": 9.648622981956311
+    },
+    {
+      "target": "biomass_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2018,
+      "horizon": 1,
+      "observed": 10.53,
+      "predicted": 9.992670773122061,
+      "ape_percent": 5.10284166075915
+    },
+    {
+      "target": "biomass_capacity_gw",
+      "method": "increment3",
+      "origin_year": 2019,
+      "horizon": 1,
+      "observed": 14.19,
+      "predicted": 11.906666666666666,
+      "ape_percent": 16.09114399812074
+    },
+    {
+      "target": "biomass_capacity_gw",
+      "method": "increment5",
+      "origin_year": 2019,
+      "horizon": 1,
+      "observed": 14.19,
+      "predicted": 11.684,
+      "ape_percent": 17.66032417195208
+    },
+    {
+      "target": "biomass_capacity_gw",
+      "method": "growth3",
+      "origin_year": 2019,
+      "horizon": 1,
+      "observed": 14.19,
+      "predicted": 12.435395784791508,
+      "ape_percent": 12.365075512392476
+    }
+  ],
+  "demand_cv_mape": {
+    "full": 1.2165600060932396,
+    "recent5": 1.930506397814011,
+    "intensity3": 2.8450560380420695
+  },
+  "scope": "Training-only low-dimensional rules; engineering cost/retirement/construction assumptions are not identified from these data"
+}

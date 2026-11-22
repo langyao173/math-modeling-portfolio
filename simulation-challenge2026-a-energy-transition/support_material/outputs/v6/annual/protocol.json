@@ -1,0 +1,235 @@
+{
+  "protocol": "V6 independent gross-import channels and response-only mechanism audit v1",
+  "frozen_before_execution": "2026-10-18",
+  "interpretation": "Model-conditional intervention effects, not empirically identified causal effects or probability confidence intervals.",
+  "calibration_end": 2020,
+  "initial_year": 2024,
+  "final_year": 2060,
+  "endpoint_years": [
+    2030,
+    2060
+  ],
+  "scenarios": [
+    "baseline",
+    "policy",
+    "risk",
+    "technology"
+  ],
+  "mechanism_cases": [
+    {
+      "case": "full",
+      "mechanisms": {},
+      "question": "Reference complete state-feedback system."
+    },
+    {
+      "case": "government_feedback_off",
+      "mechanisms": {
+        "carbon_feedback": false
+      },
+      "question": "Remove emissions-error feedback only; preserve exogenous carbon-price drift and all other decisions."
+    },
+    {
+      "case": "consumer_choices_frozen",
+      "mechanisms": {
+        "consumer_choice": "frozen_initial"
+      },
+      "question": "Keep initial useful-service carrier shares before fuel/power requests; remove both autonomous carrier trend and relative consumer responses."
+    },
+    {
+      "case": "consumer_response_off",
+      "mechanisms": {
+        "consumer_choice": "exogenous_trend"
+      },
+      "question": "Preserve the calibrated external carrier/electrification trend; disable only relative cost and prior-shortage response."
+    },
+    {
+      "case": "investor_profit_response_off",
+      "mechanisms": {
+        "investor_profit_response": false
+      },
+      "question": "Remove relative profit/capital-cost correction to orders; retain utilisation, shortage, curtailment and supply feedback."
+    },
+    {
+      "case": "investor_operating_feedback_off",
+      "mechanisms": {
+        "investor_utilisation_response": false
+      },
+      "question": "Remove utilisation innovation, shortage and curtailment corrections for all investors; retain relative profit correction."
+    },
+    {
+      "case": "investor_all_response_off",
+      "mechanisms": {
+        "investor_profit_response": false,
+        "investor_utilisation_response": false
+      },
+      "question": "Only common recent-net-addition plus assumed retirement gross orders remain, subject to unchanged caps and budget."
+    },
+    {
+      "case": "minimum_one_year_new_construction",
+      "mechanisms": {
+        "construction_years": "minimum_one_year"
+      },
+      "question": "Only actual new-project commissioning slots and their physical feedstock limit use a one-year lead. The native reference gross-order forecast anchor and initial pipeline remain unchanged; no same-year energy or capacity. Later realised feedback evolves naturally."
+    },
+    {
+      "case": "all_behaviour_simplified",
+      "mechanisms": {
+        "consumer_choice": "frozen_initial",
+        "carbon_feedback": false,
+        "investor_profit_response": false,
+        "investor_utilisation_response": false
+      },
+      "question": "Joint removal of government, consumer and investor adaptation; keep native construction, initial stocks, resources and capital constraints."
+    },
+    {
+      "case": "resource_constrained_recent_trend_2020",
+      "mechanisms": {
+        "consumer_choice": "exogenous_trend",
+        "carbon_feedback": false,
+        "investor_profit_response": false,
+        "investor_utilisation_response": false
+      },
+      "expectations": "training_recent_increment3",
+      "question": "Same-2020-calibration-period external recent-increment useful-service and electricity expectations. Assets are never overwritten by trend targets; common physical and capital clearing remains."
+    },
+    {
+      "case": "resource_constrained_recent_trend_2024",
+      "mechanisms": {
+        "consumer_choice": "exogenous_trend",
+        "carbon_feedback": false,
+        "investor_profit_response": false,
+        "investor_utilisation_response": false
+      },
+      "expectations": "initial_year_recent_increment3",
+      "question": "Stronger information-current forward baseline: useful-service and electricity increments use observations through the initial year 2024, including 2021-24; 2025 is excluded. Shared initial states, investment orders, capital, construction and supply constraints remain physical."
+    },
+    {
+      "case": "zero_coal_import_channel",
+      "mechanisms": {
+        "coal_import_channel": "zero_channel"
+      },
+      "question": "Remove the positive gross coal channel only; same domestic retention map, domestic assets, initial stocks, queues and rules."
+    },
+    {
+      "case": "zero_coal_channel_matched_initial_supply",
+      "mechanisms": {
+        "coal_import_channel": "zero_matched_supply"
+      },
+      "question": "Remove coal gross channel and remap domestic retention to C/P, preserving total base-year supply; composition diagnostic."
+    }
+  ],
+  "joint_design": {
+    "method": "scrambled Latin hypercube",
+    "seed": 20261017,
+    "n_parameter_vectors": 48,
+    "scenario": "baseline",
+    "parameters": {
+      "gdp_growth_multiplier": [
+        0.8,
+        1.2
+      ],
+      "technology_cost_multiplier": [
+        0.75,
+        1.25
+      ],
+      "cost_decline_per_year": [
+        0.005,
+        0.04
+      ],
+      "carbon_price_drift_multiplier": [
+        0.5,
+        1.5
+      ],
+      "annual_budget_multiplier": [
+        0.75,
+        1.25
+      ],
+      "construction_delay_multiplier": [
+        1.0,
+        2.0
+      ],
+      "supply_multiplier": [
+        0.85,
+        1.05
+      ],
+      "import_multiplier": [
+        0.5,
+        1.1
+      ],
+      "consumer_response_multiplier": [
+        0.5,
+        1.5
+      ],
+      "investor_response_multiplier": [
+        0.5,
+        1.5
+      ]
+    },
+    "boundary": "Equal design weights are not probabilities. Report min/median/max over these 48 declared baseline cases only; no coverage or percentile confidence claim. All parameters vary jointly; rank associations are descriptive and do not allocate causal variance. 2025 is not used for selection."
+  },
+  "comparisons": {
+    "delta_convention": "alternative minus same-scenario full model",
+    "metrics": [
+      "energy_co2_mt",
+      "gross_national_co2_mt",
+      "nonfossil_share",
+      "required_removal_mt",
+      "electricity_unserved_twh",
+      "useful_service_unserved_fraction",
+      "cumulative_investment_million_cny",
+      "cumulative_useful_service_unserved_twh",
+      "cumulative_electricity_unserved_twh"
+    ],
+    "not_additive": "Single switch effects overlap and must not be added; the joint alternative measures the combined model effect.",
+    "null_and_reverse_results": "Preserve all cases, including no-effect and directionally adverse effects. A lower emissions total is never counted as improvement without reporting delivered service."
+  },
+  "execution_gate": {
+    "expected_mechanism_runs": 52,
+    "expected_joint_runs": 48,
+    "expected_rows_per_run": 36,
+    "fuel_balance_atol_mtce": 1e-07,
+    "power_balance_atol_twh": 1e-07,
+    "negative_stock_atol_mtce": 1e-08,
+    "budget_atol_million_cny": 1e-05
+  },
+  "limitations": [
+    "Four aggregate service carrier groups are not observed industrial/transport sectors.",
+    "No hourly-to-annual endogenous feedback is newly claimed.",
+    "Minimum one-year construction is an engineering counterfactual, not zero lag and not a feasible national construction policy.",
+    "Joint design ranges are declared engineering ranges, not estimated parameter distributions.",
+    "Gross import calorific references and the domestic retention map are disclosed engineering mappings; retained production plus gross imports equals observed 2024 use.",
+    "No complete origin-year gross-trade panel is available for earlier rolling origins; inherited V5 expectations validation is kept distinct from V6 import-account validation."
+  ],
+  "profit_rule": {
+    "origin_market_price_cny_mwh": 450,
+    "market_price_status": "Engineering initial-state assumption, not observed market-price estimate",
+    "reference": "Initial observed capacity factors, initial engineering costs, 100 CNY/t initial carbon price and 450 CNY/MWh initial market state; fixed throughout each trajectory.",
+    "signal": "(realised annual profit minus current capacity times initial reference profit/GW)/(current capacity times 8% initial capital cost), denominator floor 1 million CNY",
+    "order_multiplier": "clip(1+0.25 signal,0,2), all original capital, rate, feedstock and construction constraints retained",
+    "legacy": "Named legacy_v4 rule tested for exact four-scenario parity."
+  },
+  "scarcity_price_sensitivity": {
+    "step_tiers_cny_mwh": [
+      800,
+      1200,
+      1600
+    ],
+    "smooth_tier_cny_mwh": 1200,
+    "smooth_half_premium_shortage_fraction": 0.01,
+    "scope": "Smooth price equals marginal cost plus the nonnegative difference to tier times shortfall_fraction/(shortfall_fraction+0.01). Step reproduces the legacy 1e-6 TWh switch."
+  },
+  "import_conversion_sensitivity": {
+    "multipliers": [
+      0.98,
+      1.1
+    ],
+    "initial_attempt_multipliers": [
+      0.9,
+      1.1
+    ],
+    "amendment_reason": "Joint -10% reference violates domestic retained-supply <= observed domestic production for oil/gas. Four original low-reference attempts preserved and excluded. Revised -2% and +10% are explicit engineering diagnostics, not probability intervals or a confirmatory distribution.",
+    "scope": "Both feasible reference multipliers remap retention so base-year supply remains observed C. Observed domestic P and C are fixed. Require 0<=retention<=1."
+  },
+  "factorial_consumer_disabled": "exogenous_trend: historical autonomous carrier trend retained; price/shortage responses disabled",
+  "legacy_frozen_share_factorial": "Separate 32-cell diagnostic; consumer-disabled freezes initial shares and therefore removes external trend as well as responses"
+}

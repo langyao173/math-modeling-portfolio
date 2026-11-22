@@ -1,0 +1,5 @@
+species,year,forecast_1e4,observed_1e4,error_pct,forecast_growth_pct,observed_growth_pct
+cat,2024,7297.0,7153,2.01,4.54,2.48
+cat,2025,7822.6,7289,7.32,7.2,1.9
+dog,2024,5110.0,5258,-2.81,-1.26,1.6
+dog,2025,5085.4,5343,-4.82,-0.48,1.62

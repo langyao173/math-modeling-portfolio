@@ -1,0 +1,15 @@
+{
+  "family": "tail_cvar_lns",
+  "oracle": "incumbent",
+  "status": "success",
+  "jobs": 588,
+  "selected_actions": 588,
+  "accepted_under_submission_guard": 1,
+  "true_action_cost_usd": 5414.835985,
+  "expected_recourse_cost_usd": 35.88841264671176,
+  "cvar95_recourse_cost_usd": 48.439413911567655,
+  "true_objective": 84.32782655827941,
+  "source_result": {
+    "source": "restricted_final_incumbent"
+  }
+}

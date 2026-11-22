@@ -1,0 +1,17 @@
+condition_id,phase_hours,duration_hours,strategy,storage_power_multiplier,terminal_condition,case_id,method
+phase00_p100_free,0,48,coordinated,1.0,free,phase00_p100_free_rolling,rolling
+phase00_p100_full,0,48,coordinated,1.0,full,phase00_p100_full_rolling,rolling
+phase00_p150_free,0,48,coordinated,1.5,free,phase00_p150_free_rolling,rolling
+phase00_p150_full,0,48,coordinated,1.5,full,phase00_p150_full_rolling,rolling
+phase21_p100_free,21,48,coordinated,1.0,free,phase21_p100_free_rolling,rolling
+phase21_p100_full,21,48,coordinated,1.0,full,phase21_p100_full_rolling,rolling
+phase21_p150_free,21,48,coordinated,1.5,free,phase21_p150_free_rolling,rolling
+phase21_p150_full,21,48,coordinated,1.5,full,phase21_p150_full_rolling,rolling
+phase00_p100_free,0,48,coordinated,1.0,free,phase00_p100_free_offline,offline
+phase00_p100_full,0,48,coordinated,1.0,full,phase00_p100_full_offline,offline
+phase00_p150_free,0,48,coordinated,1.5,free,phase00_p150_free_offline,offline
+phase00_p150_full,0,48,coordinated,1.5,full,phase00_p150_full_offline,offline
+phase21_p100_free,21,48,coordinated,1.0,free,phase21_p100_free_offline,offline
+phase21_p100_full,21,48,coordinated,1.0,full,phase21_p100_full_offline,offline
+phase21_p150_free,21,48,coordinated,1.5,free,phase21_p150_free_offline,offline
+phase21_p150_full,21,48,coordinated,1.5,full,phase21_p150_full_offline,offline

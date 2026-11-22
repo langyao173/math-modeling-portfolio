@@ -1,0 +1,443 @@
+case_count = 5
+execution_mode = "ORIGINAL_KERNEL_INTERRUPTED_THEN_RESTORED_FROM_VALIDATED_NATIVE_PREFIX"
+kernel_segments = 2
+prior_successful_unique_hours = 1254
+current_restart_new_native_transition_calls = 546
+time_scope = "Original recorded times retained; restart wall measured separately; idle gap excluded"
+new_total_scope = "Sum of each case final segment; not all are calls made after this restart"
+interrupted_archive_sha256 = "9ed78da1360c56335c7bd1901d232026cc4e19f76ea96f197d837a4b818767e7"
+native_transition_calls_total = 1800
+total_unique_successful_hours = 1800
+status = "COMPLETED_EXPLICITLY_SEGMENTED_NATIVE_FEEDBACK_COHORT"
+new_native_transition_calls_total = 1619
+resume_wall_seconds = 1764.82226896286
+single_native_model_sequential = true
+prior_batch_failure_file = "batch_failure.toml"
+resume_finished_utc = "2026-10-19T08:00:43.072Z"
+resumed_native_prefix_hours_total = 181
+resume_started_utc = "2026-10-19T07:31:18.249Z"
+
+[package_versions]
+CSV = "0.10.16"
+HiGHS = "1.23.0"
+DataFrames = "1.8.1"
+Julia = "1.12.4"
+MathOptInterface = "1.48.0"
+Engee = "not exposed by loaded package"
+JuMP = "1.30.1"
+
+[prior_evidence_sha256]
+"base_actions_states.csv" = "94f6dbda8e997b9642917648005e1383761e549861f573c8f131b9962a11b006"
+"mild_physical_audit.csv" = "c566443cf36ee9006fc053553a75e992ac3b411a66534ccb535555cbbd9b1b21"
+"batch_failure.toml" = "3434692d91330d587ad6cb667f31a61911ab45e9fc307c36f0b358da4875ca75"
+"contract_recovery.csv" = "e7653431f61c836b05255eb03b89c25b7eadb2cea5d5e6462ae733b0669aae8d"
+"contract_summary.csv" = "0ae0dfd09d451f15878822169e73a03426dc5cdeebcd1c61c1212ec9bb7a02b8"
+"mild_recovery.csv" = "347269d5a137fa50c0566440c2c30a1e5e1cc1dfdf47d4edb341d26cb351feb3"
+"mild_config.csv" = "eb3a4a77a84bc362160f6785e388f5771980da20c720c895fbf9c779486de19f"
+"power_failed_prefix_actions_states.csv" = "4cda592762a7fb0fd09a1c7f7e89d796527810966a5ba5aa8010d85188c915d4"
+"mild_execution.toml" = "08aa5f5ad4d30f65bcbbea6884eebf6fe0ab72d0d1c1b4f5621ae6be0febaaad"
+"batch_summary.csv" = "c66fb03aab75ab21e91123067f4ef86cfc5c1ae1e0dc18d6392260e2885a4cb8"
+"power_failed_prefix_recovery.csv" = "0ef8b15799251e0bb18d6a5dad18d540c34f12ab85bdb9002882ea303f1c5445"
+"power_failed_prefix_physical_audit.csv" = "64e28b158b33d6a550fb4280b312d1ea10070fafa685e0fe3e91c720339719f5"
+"contract_config.csv" = "11e999d24bd3a719d789a3bcfcbadee650f5436c6bc6c02c2c08345944ff962c"
+"base_physical_audit.csv" = "38e7c295f088bdb82aa163b581fcadcfd82deafc60a2bc4fa22cafecaa8e47fd"
+"base_recovery.csv" = "2dbb0bdb11337f715034094c74bc25288eec14bd057296c13c22bcb3a6704f0e"
+"contract_physical_audit.csv" = "38e7c295f088bdb82aa163b581fcadcfd82deafc60a2bc4fa22cafecaa8e47fd"
+"mild_config.txt" = "0909fd283022742e204af01384642688a1388ea2bee418d676618b00b7643ac0"
+"contract_config.txt" = "ec1ba089492cf6602c0091b4199400ce8f79c96c156a07e76e75b5a732ea5d76"
+"power_failed_prefix_summary.csv" = "c57c13a8d170144451b380d8dee20e8d22507b80df2261e33f29073fc8d25c22"
+"batch_recovery.csv" = "70841e3ca638edc066a2a3c25404ab3f386ed059a96a525d43138de247427735"
+"base_summary.csv" = "09441507a454785e70d0f3c0500e4e51f0e36f6b801192e60feb983861fd405f"
+"mild_summary.csv" = "c118b958912992614bd6db746a3b947947a8dc4f73fdb65f9959790976fe7e1d"
+"contract_actions_states.csv" = "b1e4ac16382d4a5d2ef00682950af49652aad2d77c923c2f5b17ec5167c8dfb4"
+"base_config.csv" = "738cc7e6ebc4eaaac6b25b2d1658ef1add5dfef5b53a251362f433eccc6e1969"
+"base_config.txt" = "1273d970330ddaa2ecb8695206785fcfe3f6a19354e78c0ad9c22288bfe1eb8f"
+"mild_actions_states.csv" = "c96a348788851c2e680298d5ccef99db5cc49a9b8cacb5e899959fa041e19163"
+"power_failed_prefix_config.txt" = "7a7491c91cf2710ddcd59bccdadb7f7dce81fbbc2c8d310b0caf16469f2b545d"
+"power_failed_prefix_config.csv" = "da8c022ff0d122ebd2c5965a6c76e6acaac95f7168afa14bf9dbc86c19b6d2c1"
+"base_execution.toml" = "379a1aefe4dbe496ca5150f1816f4abc242fa42e27e9bb33a5c07f83e9265b91"
+"contract_execution.toml" = "9c9bc4145cf422828d694d8a18f858045bc6c36886d047e8e4c579fcf39f16e3"
+
+[source_sha256]
+"start_v10.jl" = "440a989c7eb6b88d6eb32457f1b084a529a34828791fe773d99b9150f0fa3d09"
+"v10_native_plant.jl" = "91c16e1803e5ce9dd1ae7e5128c086f0e478cfe9c390cf9c9cee6b2c0d95b3b3"
+"v10_gui.jl" = "d65bccef00bb62ff3564c8bc9397199579e2bf54c405418729e31d551077a4aa"
+"v10_app.jl" = "9f05de7d2707063a9f865ba05984278222706d6b57c06f0d31bf2ffc360b86ea"
+"v10_dashboard.html" = "ec64a885fd6ddc2108a39f8977f8e2e1613b594a1f52911d940388564e30881c"
+"v10_dispatch.jl" = "de5dd5a1ec1e42001bd740dc9d9af04418c4f825a088332969040db92dbbb221"
+"v10_run_cases.jl" = "11cf23f8f9a1d5b50d30f4152b5e9de01e8d55d077f26827937aae253e02aae3"
+"v10_base_inputs.csv" = "0ae22f5d67bca766921450e50e49aca5ed94f880bba0ff141b958ce7b4012b53"
+"v10_config.jl" = "ac260bb0317677c42a829907a712906b810b6f34aaa1f3aaee5e0c4289a2d459"
+
+[resume_source_sha256]
+"resume_v10_remaining.jl" = "fe34cb710b4d21e172151a5e64c787d5f038d8a63c084855d9ab86c14aa35edb"
+
+[environment_versions]
+CSV = "0.10.16"
+HiGHS_solver = "v1.14.0"
+HiGHS = "1.23.0"
+DataFrames = "1.8.1"
+Julia = "1.12.4"
+MathOptInterface = "1.48.0"
+Engee = "not exposed by loaded package"
+JuMP = "1.30.1"
+
+[[cases]]
+finished_utc = "2026-10-18T21:01:24.137Z"
+case_wall_seconds_this_batch = 1103.1126899719238
+executed_hours = 360
+native_transition_calls = 360
+status = "COMPLETED"
+resumed_native_prefix_hours = 7
+started_utc = "2026-10-18T20:43:01.025Z"
+new_native_transition_calls = 353
+plant_backend = "ANYMATH_NATIVE_BLOCK_FEEDBACK"
+native_maximum_power_residual_gw = 9.094947017729282e-13
+optimal_lp_hours = 360
+information_contract = "COMMON_24H_PERFECT_FORECAST_ROLLING_FIRST_ACTION"
+maximum_physical_residual = 9.094947017729282e-13
+case_name = "base"
+
+    [cases.package_versions]
+    CSV = "0.10.16"
+    HiGHS = "1.23.0"
+    DataFrames = "1.8.1"
+    Julia = "1.12.4"
+    MathOptInterface = "1.48.0"
+    Engee = "not exposed by loaded package"
+    JuMP = "1.30.1"
+
+    [cases.source_sha256]
+    "start_v10.jl" = "440a989c7eb6b88d6eb32457f1b084a529a34828791fe773d99b9150f0fa3d09"
+    "v10_native_plant.jl" = "91c16e1803e5ce9dd1ae7e5128c086f0e478cfe9c390cf9c9cee6b2c0d95b3b3"
+    "v10_gui.jl" = "d65bccef00bb62ff3564c8bc9397199579e2bf54c405418729e31d551077a4aa"
+    "v10_app.jl" = "9f05de7d2707063a9f865ba05984278222706d6b57c06f0d31bf2ffc360b86ea"
+    "v10_dashboard.html" = "ec64a885fd6ddc2108a39f8977f8e2e1613b594a1f52911d940388564e30881c"
+    "v10_dispatch.jl" = "de5dd5a1ec1e42001bd740dc9d9af04418c4f825a088332969040db92dbbb221"
+    "v10_run_cases.jl" = "11cf23f8f9a1d5b50d30f4152b5e9de01e8d55d077f26827937aae253e02aae3"
+    "v10_base_inputs.csv" = "0ae22f5d67bca766921450e50e49aca5ed94f880bba0ff141b958ce7b4012b53"
+    "v10_config.jl" = "ac260bb0317677c42a829907a712906b810b6f34aaa1f3aaee5e0c4289a2d459"
+
+    [cases.parameters]
+    hours = 360
+    design = "demo"
+    event_duration_hours = 48
+    contract_lead_hours = 12
+    storage_power_multiplier = 1.0
+    strategy = "coordinated"
+    contract_multiplier = 1.0
+    event_starts = [48, 192]
+    shock_severity = 1.0
+    supply_policy = "inherited"
+[[cases]]
+finished_utc = "2026-10-18T21:21:28.277Z"
+case_wall_seconds_this_batch = 1203.0802991390228
+executed_hours = 360
+native_transition_calls = 360
+status = "COMPLETED"
+resumed_native_prefix_hours = 0
+started_utc = "2026-10-18T21:01:25.196Z"
+new_native_transition_calls = 360
+plant_backend = "ANYMATH_NATIVE_BLOCK_FEEDBACK"
+native_maximum_power_residual_gw = 9.094947017729282e-13
+optimal_lp_hours = 360
+information_contract = "COMMON_24H_PERFECT_FORECAST_ROLLING_FIRST_ACTION"
+maximum_physical_residual = 9.094947017729282e-13
+case_name = "mild"
+
+    [cases.package_versions]
+    CSV = "0.10.16"
+    HiGHS = "1.23.0"
+    DataFrames = "1.8.1"
+    Julia = "1.12.4"
+    MathOptInterface = "1.48.0"
+    Engee = "not exposed by loaded package"
+    JuMP = "1.30.1"
+
+    [cases.source_sha256]
+    "start_v10.jl" = "440a989c7eb6b88d6eb32457f1b084a529a34828791fe773d99b9150f0fa3d09"
+    "v10_native_plant.jl" = "91c16e1803e5ce9dd1ae7e5128c086f0e478cfe9c390cf9c9cee6b2c0d95b3b3"
+    "v10_gui.jl" = "d65bccef00bb62ff3564c8bc9397199579e2bf54c405418729e31d551077a4aa"
+    "v10_app.jl" = "9f05de7d2707063a9f865ba05984278222706d6b57c06f0d31bf2ffc360b86ea"
+    "v10_dashboard.html" = "ec64a885fd6ddc2108a39f8977f8e2e1613b594a1f52911d940388564e30881c"
+    "v10_dispatch.jl" = "de5dd5a1ec1e42001bd740dc9d9af04418c4f825a088332969040db92dbbb221"
+    "v10_run_cases.jl" = "11cf23f8f9a1d5b50d30f4152b5e9de01e8d55d077f26827937aae253e02aae3"
+    "v10_base_inputs.csv" = "0ae22f5d67bca766921450e50e49aca5ed94f880bba0ff141b958ce7b4012b53"
+    "v10_config.jl" = "ac260bb0317677c42a829907a712906b810b6f34aaa1f3aaee5e0c4289a2d459"
+
+    [cases.parameters]
+    hours = 360
+    design = "demo"
+    event_duration_hours = 48
+    contract_lead_hours = 12
+    storage_power_multiplier = 1.0
+    strategy = "coordinated"
+    contract_multiplier = 1.0
+    event_starts = [48, 192]
+    shock_severity = 0.5
+    supply_policy = "inherited"
+[[cases]]
+finished_utc = "2026-10-18T21:42:41.196Z"
+case_wall_seconds_this_batch = 1272.395094871521
+executed_hours = 360
+native_transition_calls = 360
+status = "COMPLETED"
+resumed_native_prefix_hours = 0
+started_utc = "2026-10-18T21:21:28.801Z"
+new_native_transition_calls = 360
+plant_backend = "ANYMATH_NATIVE_BLOCK_FEEDBACK"
+native_maximum_power_residual_gw = 9.094947017729282e-13
+optimal_lp_hours = 360
+information_contract = "COMMON_24H_PERFECT_FORECAST_ROLLING_FIRST_ACTION"
+maximum_physical_residual = 9.094947017729282e-13
+case_name = "contract"
+
+    [cases.package_versions]
+    CSV = "0.10.16"
+    HiGHS = "1.23.0"
+    DataFrames = "1.8.1"
+    Julia = "1.12.4"
+    MathOptInterface = "1.48.0"
+    Engee = "not exposed by loaded package"
+    JuMP = "1.30.1"
+
+    [cases.source_sha256]
+    "start_v10.jl" = "440a989c7eb6b88d6eb32457f1b084a529a34828791fe773d99b9150f0fa3d09"
+    "v10_native_plant.jl" = "91c16e1803e5ce9dd1ae7e5128c086f0e478cfe9c390cf9c9cee6b2c0d95b3b3"
+    "v10_gui.jl" = "d65bccef00bb62ff3564c8bc9397199579e2bf54c405418729e31d551077a4aa"
+    "v10_app.jl" = "9f05de7d2707063a9f865ba05984278222706d6b57c06f0d31bf2ffc360b86ea"
+    "v10_dashboard.html" = "ec64a885fd6ddc2108a39f8977f8e2e1613b594a1f52911d940388564e30881c"
+    "v10_dispatch.jl" = "de5dd5a1ec1e42001bd740dc9d9af04418c4f825a088332969040db92dbbb221"
+    "v10_run_cases.jl" = "11cf23f8f9a1d5b50d30f4152b5e9de01e8d55d077f26827937aae253e02aae3"
+    "v10_base_inputs.csv" = "0ae22f5d67bca766921450e50e49aca5ed94f880bba0ff141b958ce7b4012b53"
+    "v10_config.jl" = "ac260bb0317677c42a829907a712906b810b6f34aaa1f3aaee5e0c4289a2d459"
+
+    [cases.parameters]
+    hours = 360
+    design = "demo"
+    event_duration_hours = 48
+    contract_lead_hours = 12
+    storage_power_multiplier = 1.0
+    strategy = "coordinated"
+    contract_multiplier = 1.0
+    event_starts = [48, 192]
+    shock_severity = 1.0
+    supply_policy = "contract"
+[[cases]]
+execution_mode = "RESUMED_AFTER_KERNEL_RESTART"
+finished_utc = "2026-10-19T07:41:11.414Z"
+executed_hours = 360
+interrupted_archive_sha256 = "9ed78da1360c56335c7bd1901d232026cc4e19f76ea96f197d837a4b818767e7"
+current_segment_last_hour = 359
+native_transition_calls = 360
+status = "COMPLETED"
+resumed_native_prefix_hours = 174
+started_utc = "2026-10-19T07:31:18.396Z"
+new_native_transition_calls = 186
+native_power_residual_scope = "current successful resume segment; prefix native exact maximum was not persisted"
+recorded_time_scope = "Returned step groups only; no cross-kernel idle gap added"
+current_segment_recorded_step_seconds = 587.7840530872345
+failed_native_attempt_count = "not recorded; not invented or counted as successful hours"
+prefix_fieldwise_identity = true
+current_segment_first_hour = 174
+prefix_recorded_step_seconds = 696.4232225418091
+plant_backend = "ANYMATH_NATIVE_BLOCK_FEEDBACK"
+prefix_reconstructed_power_residual_gw = 9.094947017729282e-13
+native_maximum_power_residual_gw = 9.094947017729282e-13
+optimal_lp_hours = 360
+information_contract = "COMMON_24H_PERFECT_FORECAST_ROLLING_FIRST_ACTION"
+current_segment_wall_seconds = 593.0180921554565
+case_name = "power"
+maximum_physical_residual = 9.094947017729282e-13
+
+    [cases.package_versions]
+    CSV = "0.10.16"
+    HiGHS = "1.23.0"
+    DataFrames = "1.8.1"
+    Julia = "1.12.4"
+    MathOptInterface = "1.48.0"
+    Engee = "not exposed by loaded package"
+    JuMP = "1.30.1"
+
+    [cases.prior_evidence_sha256]
+    "base_actions_states.csv" = "94f6dbda8e997b9642917648005e1383761e549861f573c8f131b9962a11b006"
+    "mild_physical_audit.csv" = "c566443cf36ee9006fc053553a75e992ac3b411a66534ccb535555cbbd9b1b21"
+    "batch_failure.toml" = "3434692d91330d587ad6cb667f31a61911ab45e9fc307c36f0b358da4875ca75"
+    "contract_recovery.csv" = "e7653431f61c836b05255eb03b89c25b7eadb2cea5d5e6462ae733b0669aae8d"
+    "contract_summary.csv" = "0ae0dfd09d451f15878822169e73a03426dc5cdeebcd1c61c1212ec9bb7a02b8"
+    "mild_recovery.csv" = "347269d5a137fa50c0566440c2c30a1e5e1cc1dfdf47d4edb341d26cb351feb3"
+    "mild_config.csv" = "eb3a4a77a84bc362160f6785e388f5771980da20c720c895fbf9c779486de19f"
+    "power_failed_prefix_actions_states.csv" = "4cda592762a7fb0fd09a1c7f7e89d796527810966a5ba5aa8010d85188c915d4"
+    "mild_execution.toml" = "08aa5f5ad4d30f65bcbbea6884eebf6fe0ab72d0d1c1b4f5621ae6be0febaaad"
+    "batch_summary.csv" = "c66fb03aab75ab21e91123067f4ef86cfc5c1ae1e0dc18d6392260e2885a4cb8"
+    "power_failed_prefix_recovery.csv" = "0ef8b15799251e0bb18d6a5dad18d540c34f12ab85bdb9002882ea303f1c5445"
+    "power_failed_prefix_physical_audit.csv" = "64e28b158b33d6a550fb4280b312d1ea10070fafa685e0fe3e91c720339719f5"
+    "contract_config.csv" = "11e999d24bd3a719d789a3bcfcbadee650f5436c6bc6c02c2c08345944ff962c"
+    "base_physical_audit.csv" = "38e7c295f088bdb82aa163b581fcadcfd82deafc60a2bc4fa22cafecaa8e47fd"
+    "base_recovery.csv" = "2dbb0bdb11337f715034094c74bc25288eec14bd057296c13c22bcb3a6704f0e"
+    "contract_physical_audit.csv" = "38e7c295f088bdb82aa163b581fcadcfd82deafc60a2bc4fa22cafecaa8e47fd"
+    "mild_config.txt" = "0909fd283022742e204af01384642688a1388ea2bee418d676618b00b7643ac0"
+    "contract_config.txt" = "ec1ba089492cf6602c0091b4199400ce8f79c96c156a07e76e75b5a732ea5d76"
+    "power_failed_prefix_summary.csv" = "c57c13a8d170144451b380d8dee20e8d22507b80df2261e33f29073fc8d25c22"
+    "batch_recovery.csv" = "70841e3ca638edc066a2a3c25404ab3f386ed059a96a525d43138de247427735"
+    "base_summary.csv" = "09441507a454785e70d0f3c0500e4e51f0e36f6b801192e60feb983861fd405f"
+    "mild_summary.csv" = "c118b958912992614bd6db746a3b947947a8dc4f73fdb65f9959790976fe7e1d"
+    "contract_actions_states.csv" = "b1e4ac16382d4a5d2ef00682950af49652aad2d77c923c2f5b17ec5167c8dfb4"
+    "base_config.csv" = "738cc7e6ebc4eaaac6b25b2d1658ef1add5dfef5b53a251362f433eccc6e1969"
+    "base_config.txt" = "1273d970330ddaa2ecb8695206785fcfe3f6a19354e78c0ad9c22288bfe1eb8f"
+    "mild_actions_states.csv" = "c96a348788851c2e680298d5ccef99db5cc49a9b8cacb5e899959fa041e19163"
+    "power_failed_prefix_config.txt" = "7a7491c91cf2710ddcd59bccdadb7f7dce81fbbc2c8d310b0caf16469f2b545d"
+    "power_failed_prefix_config.csv" = "da8c022ff0d122ebd2c5965a6c76e6acaac95f7168afa14bf9dbc86c19b6d2c1"
+    "base_execution.toml" = "379a1aefe4dbe496ca5150f1816f4abc242fa42e27e9bb33a5c07f83e9265b91"
+    "contract_execution.toml" = "9c9bc4145cf422828d694d8a18f858045bc6c36886d047e8e4c579fcf39f16e3"
+
+    [cases.source_sha256]
+    "start_v10.jl" = "440a989c7eb6b88d6eb32457f1b084a529a34828791fe773d99b9150f0fa3d09"
+    "v10_native_plant.jl" = "91c16e1803e5ce9dd1ae7e5128c086f0e478cfe9c390cf9c9cee6b2c0d95b3b3"
+    "v10_gui.jl" = "d65bccef00bb62ff3564c8bc9397199579e2bf54c405418729e31d551077a4aa"
+    "v10_app.jl" = "9f05de7d2707063a9f865ba05984278222706d6b57c06f0d31bf2ffc360b86ea"
+    "v10_dashboard.html" = "ec64a885fd6ddc2108a39f8977f8e2e1613b594a1f52911d940388564e30881c"
+    "v10_dispatch.jl" = "de5dd5a1ec1e42001bd740dc9d9af04418c4f825a088332969040db92dbbb221"
+    "v10_run_cases.jl" = "11cf23f8f9a1d5b50d30f4152b5e9de01e8d55d077f26827937aae253e02aae3"
+    "v10_base_inputs.csv" = "0ae22f5d67bca766921450e50e49aca5ed94f880bba0ff141b958ce7b4012b53"
+    "v10_config.jl" = "ac260bb0317677c42a829907a712906b810b6f34aaa1f3aaee5e0c4289a2d459"
+
+    [cases.resume_initial_state]
+    fuel = [371.14157798971246, 148.4238291743311, 273.6452510929617]
+    debt = 1206.9398824516152
+    soc = [0.0, 154.42255821465818]
+    thermal = [530.6917428148349, 28.785202829038326]
+
+    [cases.parameters]
+    hours = 360
+    design = "demo"
+    event_duration_hours = 48
+    contract_lead_hours = 12
+    storage_power_multiplier = 1.5
+    strategy = "coordinated"
+    contract_multiplier = 1.0
+    event_starts = [48, 192]
+    shock_severity = 1.0
+    supply_policy = "inherited"
+
+    [cases.resume_source_sha256]
+    "resume_v10_remaining.jl" = "fe34cb710b4d21e172151a5e64c787d5f038d8a63c084855d9ab86c14aa35edb"
+
+    [cases.environment_versions]
+    CSV = "0.10.16"
+    HiGHS_solver = "v1.14.0"
+    HiGHS = "1.23.0"
+    DataFrames = "1.8.1"
+    Julia = "1.12.4"
+    MathOptInterface = "1.48.0"
+    Engee = "not exposed by loaded package"
+    JuMP = "1.30.1"
+[[cases]]
+execution_mode = "NEW_CASE_AFTER_KERNEL_RESTART"
+finished_utc = "2026-10-19T08:00:41.440Z"
+executed_hours = 360
+interrupted_archive_sha256 = "9ed78da1360c56335c7bd1901d232026cc4e19f76ea96f197d837a4b818767e7"
+current_segment_last_hour = 359
+native_transition_calls = 360
+status = "COMPLETED"
+resumed_native_prefix_hours = 0
+started_utc = "2026-10-19T07:41:11.662Z"
+new_native_transition_calls = 360
+native_power_residual_scope = "current successful resume segment; prefix native exact maximum was not persisted"
+recorded_time_scope = "Returned step groups only; no cross-kernel idle gap added"
+current_segment_recorded_step_seconds = 1168.266060590744
+failed_native_attempt_count = "not recorded; not invented or counted as successful hours"
+prefix_fieldwise_identity = true
+current_segment_first_hour = 0
+prefix_recorded_step_seconds = 0.0
+plant_backend = "ANYMATH_NATIVE_BLOCK_FEEDBACK"
+prefix_reconstructed_power_residual_gw = 0.0
+native_maximum_power_residual_gw = 4.547473508864641e-13
+optimal_lp_hours = 360
+information_contract = "COMMON_24H_PERFECT_FORECAST_ROLLING_FIRST_ACTION"
+current_segment_wall_seconds = 1169.7782759666443
+case_name = "decentralized"
+maximum_physical_residual = 1.3642420526593924e-12
+
+    [cases.package_versions]
+    CSV = "0.10.16"
+    HiGHS = "1.23.0"
+    DataFrames = "1.8.1"
+    Julia = "1.12.4"
+    MathOptInterface = "1.48.0"
+    Engee = "not exposed by loaded package"
+    JuMP = "1.30.1"
+
+    [cases.prior_evidence_sha256]
+    "base_actions_states.csv" = "94f6dbda8e997b9642917648005e1383761e549861f573c8f131b9962a11b006"
+    "mild_physical_audit.csv" = "c566443cf36ee9006fc053553a75e992ac3b411a66534ccb535555cbbd9b1b21"
+    "batch_failure.toml" = "3434692d91330d587ad6cb667f31a61911ab45e9fc307c36f0b358da4875ca75"
+    "contract_recovery.csv" = "e7653431f61c836b05255eb03b89c25b7eadb2cea5d5e6462ae733b0669aae8d"
+    "contract_summary.csv" = "0ae0dfd09d451f15878822169e73a03426dc5cdeebcd1c61c1212ec9bb7a02b8"
+    "mild_recovery.csv" = "347269d5a137fa50c0566440c2c30a1e5e1cc1dfdf47d4edb341d26cb351feb3"
+    "mild_config.csv" = "eb3a4a77a84bc362160f6785e388f5771980da20c720c895fbf9c779486de19f"
+    "power_failed_prefix_actions_states.csv" = "4cda592762a7fb0fd09a1c7f7e89d796527810966a5ba5aa8010d85188c915d4"
+    "mild_execution.toml" = "08aa5f5ad4d30f65bcbbea6884eebf6fe0ab72d0d1c1b4f5621ae6be0febaaad"
+    "batch_summary.csv" = "c66fb03aab75ab21e91123067f4ef86cfc5c1ae1e0dc18d6392260e2885a4cb8"
+    "power_failed_prefix_recovery.csv" = "0ef8b15799251e0bb18d6a5dad18d540c34f12ab85bdb9002882ea303f1c5445"
+    "power_failed_prefix_physical_audit.csv" = "64e28b158b33d6a550fb4280b312d1ea10070fafa685e0fe3e91c720339719f5"
+    "contract_config.csv" = "11e999d24bd3a719d789a3bcfcbadee650f5436c6bc6c02c2c08345944ff962c"
+    "base_physical_audit.csv" = "38e7c295f088bdb82aa163b581fcadcfd82deafc60a2bc4fa22cafecaa8e47fd"
+    "base_recovery.csv" = "2dbb0bdb11337f715034094c74bc25288eec14bd057296c13c22bcb3a6704f0e"
+    "contract_physical_audit.csv" = "38e7c295f088bdb82aa163b581fcadcfd82deafc60a2bc4fa22cafecaa8e47fd"
+    "mild_config.txt" = "0909fd283022742e204af01384642688a1388ea2bee418d676618b00b7643ac0"
+    "contract_config.txt" = "ec1ba089492cf6602c0091b4199400ce8f79c96c156a07e76e75b5a732ea5d76"
+    "power_failed_prefix_summary.csv" = "c57c13a8d170144451b380d8dee20e8d22507b80df2261e33f29073fc8d25c22"
+    "batch_recovery.csv" = "70841e3ca638edc066a2a3c25404ab3f386ed059a96a525d43138de247427735"
+    "base_summary.csv" = "09441507a454785e70d0f3c0500e4e51f0e36f6b801192e60feb983861fd405f"
+    "mild_summary.csv" = "c118b958912992614bd6db746a3b947947a8dc4f73fdb65f9959790976fe7e1d"
+    "contract_actions_states.csv" = "b1e4ac16382d4a5d2ef00682950af49652aad2d77c923c2f5b17ec5167c8dfb4"
+    "base_config.csv" = "738cc7e6ebc4eaaac6b25b2d1658ef1add5dfef5b53a251362f433eccc6e1969"
+    "base_config.txt" = "1273d970330ddaa2ecb8695206785fcfe3f6a19354e78c0ad9c22288bfe1eb8f"
+    "mild_actions_states.csv" = "c96a348788851c2e680298d5ccef99db5cc49a9b8cacb5e899959fa041e19163"
+    "power_failed_prefix_config.txt" = "7a7491c91cf2710ddcd59bccdadb7f7dce81fbbc2c8d310b0caf16469f2b545d"
+    "power_failed_prefix_config.csv" = "da8c022ff0d122ebd2c5965a6c76e6acaac95f7168afa14bf9dbc86c19b6d2c1"
+    "base_execution.toml" = "379a1aefe4dbe496ca5150f1816f4abc242fa42e27e9bb33a5c07f83e9265b91"
+    "contract_execution.toml" = "9c9bc4145cf422828d694d8a18f858045bc6c36886d047e8e4c579fcf39f16e3"
+
+    [cases.source_sha256]
+    "start_v10.jl" = "440a989c7eb6b88d6eb32457f1b084a529a34828791fe773d99b9150f0fa3d09"
+    "v10_native_plant.jl" = "91c16e1803e5ce9dd1ae7e5128c086f0e478cfe9c390cf9c9cee6b2c0d95b3b3"
+    "v10_gui.jl" = "d65bccef00bb62ff3564c8bc9397199579e2bf54c405418729e31d551077a4aa"
+    "v10_app.jl" = "9f05de7d2707063a9f865ba05984278222706d6b57c06f0d31bf2ffc360b86ea"
+    "v10_dashboard.html" = "ec64a885fd6ddc2108a39f8977f8e2e1613b594a1f52911d940388564e30881c"
+    "v10_dispatch.jl" = "de5dd5a1ec1e42001bd740dc9d9af04418c4f825a088332969040db92dbbb221"
+    "v10_run_cases.jl" = "11cf23f8f9a1d5b50d30f4152b5e9de01e8d55d077f26827937aae253e02aae3"
+    "v10_base_inputs.csv" = "0ae22f5d67bca766921450e50e49aca5ed94f880bba0ff141b958ce7b4012b53"
+    "v10_config.jl" = "ac260bb0317677c42a829907a712906b810b6f34aaa1f3aaee5e0c4289a2d459"
+
+    [cases.resume_initial_state]
+    fuel = [390.91068493150624, 151.70346796408808, 274.47012654064974]
+    debt = 0.0
+    soc = [122.97342803441325, 287.3457234861376]
+    thermal = [0.0, 0.0]
+
+    [cases.parameters]
+    hours = 360
+    design = "demo"
+    event_duration_hours = 48
+    contract_lead_hours = 12
+    storage_power_multiplier = 1.0
+    strategy = "decentralized"
+    contract_multiplier = 1.0
+    event_starts = [48, 192]
+    shock_severity = 1.0
+    supply_policy = "inherited"
+
+    [cases.resume_source_sha256]
+    "resume_v10_remaining.jl" = "fe34cb710b4d21e172151a5e64c787d5f038d8a63c084855d9ab86c14aa35edb"
+
+    [cases.environment_versions]
+    CSV = "0.10.16"
+    HiGHS_solver = "v1.14.0"
+    HiGHS = "1.23.0"
+    DataFrames = "1.8.1"
+    Julia = "1.12.4"
+    MathOptInterface = "1.48.0"
+    Engee = "not exposed by loaded package"
+    JuMP = "1.30.1"

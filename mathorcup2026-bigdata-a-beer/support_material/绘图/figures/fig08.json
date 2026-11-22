@@ -1,0 +1,44 @@
+{
+  "figure": 8,
+  "caption": "经验原子与二阈值条件谱。a为250款实测4VG的经验累计分布及逐款底部短线，最小浓度0.009702 mg/L处168款重合（67.2%）。b以DMS—双乙酰联合分布为主体，显示250款实测与已有2200份条件化学谱（22风格、每风格100份）；两轴均为原浓度单位的对数刻度。虚线分别为19 μg/L与0.09 mg/L上界，左下浅色区域为合格域E；边际为等宽对数分箱的样本比例，每组各自归一化；等高线仅描述已存条件谱在对数坐标中的密度。225维实测正态秩相关矩阵移至补图S8，按平均链接的1−|r|显示排序，非区间Copula的拟合潜协方差。所有极值与重复点均保留，不作独立外部检验。",
+  "figure_inches": [
+    6.7,
+    3.6
+  ],
+  "sources": [
+    {
+      "path": "plot_data/fig08_empirical_4VG_atoms.csv",
+      "sha256": "2ebc670c170ee815f11d5c82751e145be352493e8dc9e511c2fec7f7792faa04"
+    },
+    {
+      "path": "plot_data/fig08_observed_4VG_rug.csv",
+      "sha256": "090e2b3875052d3243ae1275c4446cea146590f40cf455f9532cb3b4a70382da"
+    },
+    {
+      "path": "plot_data/fig08_saved_joint_chemistry.csv",
+      "sha256": "ff30d3b57c2f5beddfb2762591cac5bd76a83aac0ae264b90349f680dbdec5fd"
+    },
+    {
+      "path": "plot_data/fig08_descriptive_log_kde.npz",
+      "sha256": "f9774fed08165ce521f5a3a442595f0fb015595f75b540d03a0f1087fb985c3f"
+    },
+    {
+      "path": "plot_data/fig08_observed_normal_score_correlation.csv",
+      "sha256": "3c521395573692f46a1eb27cc71246ffc84233c64d347e0ddb7113d1713c5853"
+    }
+  ],
+  "new_model_fits": 0,
+  "new_bootstrap_resamples": 0,
+  "style": "shared_index_compositions_v4",
+  "observed_n": 250,
+  "generated_n": 2200,
+  "styles": 22,
+  "atom_count": 168,
+  "atom_fraction": 0.672,
+  "main_visual": "physical_joint_distribution",
+  "supplement": "supplement_S8_descriptive_correlation.pdf",
+  "correlation_dimensions": 225,
+  "display_only_clustering": true,
+  "joint_axes": "original physical concentration units; logarithmic",
+  "new_point_simulations": 0
+}

@@ -1,0 +1,15 @@
+{
+  "family": "renewable_absorb_lns",
+  "oracle": "incumbent",
+  "status": "success",
+  "jobs": 588,
+  "selected_actions": 588,
+  "accepted_under_submission_guard": 1,
+  "true_action_cost_usd": 5414.835833,
+  "expected_recourse_cost_usd": 35.886672166721056,
+  "cvar95_recourse_cost_usd": 48.43921029904963,
+  "true_objective": 84.32588246577069,
+  "source_result": {
+    "source": "restricted_final_incumbent"
+  }
+}

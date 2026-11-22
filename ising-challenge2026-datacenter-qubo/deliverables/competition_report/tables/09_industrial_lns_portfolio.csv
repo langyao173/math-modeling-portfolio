@@ -1,0 +1,8 @@
+﻿family,purpose,jobs,spins,q_abs_max
+base_lns,general bounded action-selection improvement,229,700,80.64106264467593
+aligned_recourse_lns,one-swap exact recourse/CVaR diagonal alignment,229,700,264.4998328614055
+tail_cvar_lns,CVaR95 tail-risk directed coefficients,229,700,80.32053132233796
+cloud_sparse_tail_lns,sparse capped-range CloudSolver-friendly tail family,169,520,45.0
+dummy_rescue_lns,dummy and near-dummy action-space audit,240,701,100.0
+peak_shave_lns,grid/import peak reduction pressure,220,700,86.41062644675925
+renewable_absorb_lns,shift load toward renewable/low-price slots,185,702,81.47621773672323

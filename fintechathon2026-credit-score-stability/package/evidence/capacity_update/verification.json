@@ -1,0 +1,28 @@
+{
+  "vector_scenarios": 16,
+  "reproduced_rows": 8491,
+  "updates": 5584,
+  "base_max_abs_error": 1.6653345369377348e-16,
+  "final_max_abs_error": 1.6653345369377348e-16,
+  "gate_matches": true,
+  "batch_completeness_rejection": true,
+  "atomic_journal_replay": true,
+  "conflicting_replay_rejection": true,
+  "timing": [
+    {
+      "phase": -1,
+      "rows": 2907,
+      "cached_inference_validation_and_update_seconds": 2.8627649250001923
+    },
+    {
+      "phase": 0,
+      "rows": 2907,
+      "cached_inference_validation_and_update_seconds": 2.8941897949998747
+    },
+    {
+      "phase": 1,
+      "rows": 2677,
+      "cached_inference_validation_and_update_seconds": 2.1925337610000497
+    }
+  ]
+}

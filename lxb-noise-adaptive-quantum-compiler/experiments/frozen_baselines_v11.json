@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "created_for": "v11_legacy_recombination",
+  "baselines": {
+    "B0_old_round4_algorithm_release_zh_style": {
+      "role": "legacy Track B parity/GHZ anchor",
+      "source": "D:/BaiduNetdiskDownload/2026量旋杯/algorithm-release-zh/release_zh/compiler.py plus user-provided Round4 summary",
+      "user_provided_track_b_score": 0.5546875,
+      "direct_b002_smoke": {
+        "benchmark": "track_b_002",
+        "backend": "large_snapshot_a",
+        "valid": true,
+        "equivalent": true,
+        "noiseless_semantic": true,
+        "depth": 52,
+        "two_qubit_gates": 97,
+        "estimated_log_reliability": -1.742055127227386,
+        "success_seed7_1024": 0.45703125,
+        "success_seed11_1024": 0.4560546875,
+        "success_seed17_1024": 0.4658203125
+      }
+    },
+    "B1_v10_structural_replay": {
+      "role": "current Track A/GHZ anchor before legacy parity restoration",
+      "summary_path": "experiments/full_public_summary_v10_structural_replay.json",
+      "seed7": {
+        "final_score": 0.7828369140625,
+        "track_a_score": 0.87109375,
+        "track_b_score": 0.51806640625,
+        "invalid_count": 0
+      },
+      "seed11_summary_path": "experiments/full_public_summary_v10_structural_replay_seed11.json",
+      "seed17_summary_path": "experiments/full_public_summary_v10_structural_replay_seed17.json"
+    }
+  },
+  "current": {
+    "V11_legacy_recombination": {
+      "summary_path": "experiments/full_public_summary_v11_legacy_recombination.json",
+      "candidate_dump_path": "experiments/candidate_dump_v11.jsonl",
+      "synthetic_holdout_path": "experiments/synthetic_holdout_v11",
+      "seed7": {
+        "final_score": 0.793701171875,
+        "track_a_score": 0.8720703125,
+        "track_b_score": 0.55859375,
+        "invalid_count": 0,
+        "track_b_001_success": 0.650390625,
+        "track_b_002_success": 0.466796875
+      },
+      "seed11": {
+        "summary_path": "experiments/full_public_summary_v11_legacy_recombination_seed11.json",
+        "final_score": 0.7879638671875,
+        "track_a_score": 0.8662109375,
+        "track_b_score": 0.55322265625,
+        "invalid_count": 0,
+        "track_b_002_success": 0.4833984375
+      },
+      "seed17": {
+        "summary_path": "experiments/full_public_summary_v11_legacy_recombination_seed17.json",
+        "final_score": 0.7783203125,
+        "track_a_score": 0.85400390625,
+        "track_b_score": 0.55126953125,
+        "invalid_count": 0,
+        "track_b_002_success": 0.46484375
+      },
+      "seed_mean_final": 0.7866617838541666
+    }
+  }
+}

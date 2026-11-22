@@ -1,0 +1,15 @@
+split,alt,environment,mean_share,slope,slope_lo,slope_hi,gap,gap_at_zero_share
+validation,RO-feat-static,hospitality_x_restaurant_0004,0.0722,0.1114,0.0347,0.1881,0.0299,0.0219
+validation,RO-feat-static,logistics_x_courier_station_0022,0.4790,0.0643,0.0075,0.1212,0.0299,-0.0009
+validation,RO-feat-static,retail_x_supermarket_0074,0.2889,-0.1114,-0.1881,-0.0347,0.0299,0.0621
+validation,RO-feat-static,retail_x_supermarket_0147,0.1599,-0.0643,-0.1212,-0.0075,0.0299,0.0402
+validation,RO-feat-learn,hospitality_x_restaurant_0004,0.0722,-0.1235,-0.2034,-0.0436,0.0231,0.0320
+validation,RO-feat-learn,logistics_x_courier_station_0022,0.4790,0.0565,-0.0126,0.1256,0.0231,-0.0040
+validation,RO-feat-learn,retail_x_supermarket_0074,0.2889,0.1235,0.0436,0.2034,0.0231,-0.0126
+validation,RO-feat-learn,retail_x_supermarket_0147,0.1599,-0.0565,-0.1256,0.0126,0.0231,0.0321
+test,RO-feat-static,logistics_x_courier_station_0011,0.3343,0.0673,0.0064,0.1282,-0.0508,-0.0733
+test,RO-feat-static,logistics_x_courier_station_0041,0.2269,-0.1382,-0.2494,-0.0270,-0.0508,-0.0194
+test,RO-feat-static,retail_x_supermarket_0078,0.1401,-0.0044,-0.0938,0.0849,-0.0508,-0.0502
+test,RO-feat-learn,logistics_x_courier_station_0011,0.3343,0.0202,-0.0505,0.0909,-0.0611,-0.0678
+test,RO-feat-learn,logistics_x_courier_station_0041,0.2269,-0.0849,-0.1959,0.0260,-0.0611,-0.0418
+test,RO-feat-learn,retail_x_supermarket_0078,0.1401,0.0400,-0.0559,0.1360,-0.0611,-0.0667

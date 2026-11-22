@@ -1,0 +1,829 @@
+{
+  "after_operations": [
+    {
+      "gate": "cx",
+      "qubits": [
+        5,
+        4
+      ],
+      "text": "CNOT(q(5), q(4))"
+    },
+    {
+      "gate": "cx",
+      "qubits": [
+        4,
+        5
+      ],
+      "text": "CNOT(q(4), q(5))"
+    },
+    {
+      "gate": "tdg",
+      "qubits": [
+        4
+      ],
+      "text": "T**-1(q(4))"
+    },
+    {
+      "gate": "cx",
+      "qubits": [
+        0,
+        4
+      ],
+      "text": "CNOT(q(0), q(4))"
+    },
+    {
+      "gate": "t",
+      "qubits": [
+        4
+      ],
+      "text": "T(q(4))"
+    },
+    {
+      "gate": "cx",
+      "qubits": [
+        5,
+        4
+      ],
+      "text": "CNOT(q(5), q(4))"
+    },
+    {
+      "gate": "tdg",
+      "qubits": [
+        4
+      ],
+      "text": "T**-1(q(4))"
+    },
+    {
+      "gate": "t",
+      "qubits": [
+        5
+      ],
+      "text": "T(q(5))"
+    },
+    {
+      "gate": "cx",
+      "qubits": [
+        0,
+        4
+      ],
+      "text": "CNOT(q(0), q(4))"
+    },
+    {
+      "gate": "t",
+      "qubits": [
+        4
+      ],
+      "text": "T(q(4))"
+    },
+    {
+      "gate": "cx",
+      "qubits": [
+        4,
+        5
+      ],
+      "text": "CNOT(q(4), q(5))"
+    },
+    {
+      "gate": "cx",
+      "qubits": [
+        5,
+        4
+      ],
+      "text": "CNOT(q(5), q(4))"
+    },
+    {
+      "gate": "cx",
+      "qubits": [
+        0,
+        4
+      ],
+      "text": "CNOT(q(0), q(4))"
+    },
+    {
+      "gate": "h",
+      "qubits": [
+        5
+      ],
+      "text": "H(q(5))"
+    },
+    {
+      "gate": "t",
+      "qubits": [
+        0
+      ],
+      "text": "T(q(0))"
+    },
+    {
+      "gate": "tdg",
+      "qubits": [
+        4
+      ],
+      "text": "T**-1(q(4))"
+    },
+    {
+      "gate": "cx",
+      "qubits": [
+        5,
+        6
+      ],
+      "text": "CNOT(q(5), q(6))"
+    },
+    {
+      "gate": "cx",
+      "qubits": [
+        0,
+        4
+      ],
+      "text": "CNOT(q(0), q(4))"
+    },
+    {
+      "gate": "h",
+      "qubits": [
+        5
+      ],
+      "text": "H(q(5))"
+    },
+    {
+      "gate": "tdg",
+      "qubits": [
+        5
+      ],
+      "text": "T**-1(q(5))"
+    }
+  ],
+  "base_candidate": "exact_small_router_r0_l0",
+  "before_operations": [
+    {
+      "gate": "cx",
+      "qubits": [
+        5,
+        4
+      ],
+      "text": "CNOT(q(5), q(4))"
+    },
+    {
+      "gate": "cx",
+      "qubits": [
+        4,
+        5
+      ],
+      "text": "CNOT(q(4), q(5))"
+    },
+    {
+      "gate": "tdg",
+      "qubits": [
+        4
+      ],
+      "text": "T**-1(q(4))"
+    },
+    {
+      "gate": "cx",
+      "qubits": [
+        0,
+        4
+      ],
+      "text": "CNOT(q(0), q(4))"
+    },
+    {
+      "gate": "t",
+      "qubits": [
+        4
+      ],
+      "text": "T(q(4))"
+    },
+    {
+      "gate": "cx",
+      "qubits": [
+        5,
+        4
+      ],
+      "text": "CNOT(q(5), q(4))"
+    },
+    {
+      "gate": "tdg",
+      "qubits": [
+        4
+      ],
+      "text": "T**-1(q(4))"
+    },
+    {
+      "gate": "t",
+      "qubits": [
+        5
+      ],
+      "text": "T(q(5))"
+    },
+    {
+      "gate": "cx",
+      "qubits": [
+        0,
+        4
+      ],
+      "text": "CNOT(q(0), q(4))"
+    },
+    {
+      "gate": "t",
+      "qubits": [
+        4
+      ],
+      "text": "T(q(4))"
+    },
+    {
+      "gate": "cx",
+      "qubits": [
+        4,
+        5
+      ],
+      "text": "CNOT(q(4), q(5))"
+    },
+    {
+      "gate": "cx",
+      "qubits": [
+        5,
+        4
+      ],
+      "text": "CNOT(q(5), q(4))"
+    },
+    {
+      "gate": "cx",
+      "qubits": [
+        4,
+        5
+      ],
+      "text": "CNOT(q(4), q(5))"
+    },
+    {
+      "gate": "cx",
+      "qubits": [
+        0,
+        4
+      ],
+      "text": "CNOT(q(0), q(4))"
+    },
+    {
+      "gate": "h",
+      "qubits": [
+        5
+      ],
+      "text": "H(q(5))"
+    },
+    {
+      "gate": "t",
+      "qubits": [
+        0
+      ],
+      "text": "T(q(0))"
+    },
+    {
+      "gate": "tdg",
+      "qubits": [
+        4
+      ],
+      "text": "T**-1(q(4))"
+    },
+    {
+      "gate": "cx",
+      "qubits": [
+        5,
+        6
+      ],
+      "text": "CNOT(q(5), q(6))"
+    },
+    {
+      "gate": "cx",
+      "qubits": [
+        0,
+        4
+      ],
+      "text": "CNOT(q(0), q(4))"
+    },
+    {
+      "gate": "h",
+      "qubits": [
+        5
+      ],
+      "text": "H(q(5))"
+    },
+    {
+      "gate": "cx",
+      "qubits": [
+        4,
+        5
+      ],
+      "text": "CNOT(q(4), q(5))"
+    },
+    {
+      "gate": "tdg",
+      "qubits": [
+        5
+      ],
+      "text": "T**-1(q(5))"
+    }
+  ],
+  "classification": "commuting CX cancellation",
+  "deleted_indices": [
+    12,
+    20
+  ],
+  "deleted_operations": [
+    {
+      "gate": "cx",
+      "qubits": [
+        4,
+        5
+      ],
+      "text": "CNOT(q(4), q(5))"
+    },
+    {
+      "gate": "cx",
+      "qubits": [
+        4,
+        5
+      ],
+      "text": "CNOT(q(4), q(5))"
+    }
+  ],
+  "distilled_candidate": {
+    "accepted": true,
+    "after_operations": [
+      {
+        "gate": "h",
+        "qubits": [
+          5
+        ],
+        "text": "H(q(5))"
+      },
+      {
+        "gate": "cx",
+        "qubits": [
+          5,
+          4
+        ],
+        "text": "CNOT(q(5), q(4))"
+      },
+      {
+        "gate": "cx",
+        "qubits": [
+          4,
+          5
+        ],
+        "text": "CNOT(q(4), q(5))"
+      },
+      {
+        "gate": "tdg",
+        "qubits": [
+          4
+        ],
+        "text": "T**-1(q(4))"
+      },
+      {
+        "gate": "cx",
+        "qubits": [
+          0,
+          4
+        ],
+        "text": "CNOT(q(0), q(4))"
+      },
+      {
+        "gate": "t",
+        "qubits": [
+          4
+        ],
+        "text": "T(q(4))"
+      },
+      {
+        "gate": "cx",
+        "qubits": [
+          5,
+          4
+        ],
+        "text": "CNOT(q(5), q(4))"
+      },
+      {
+        "gate": "tdg",
+        "qubits": [
+          4
+        ],
+        "text": "T**-1(q(4))"
+      },
+      {
+        "gate": "t",
+        "qubits": [
+          5
+        ],
+        "text": "T(q(5))"
+      },
+      {
+        "gate": "cx",
+        "qubits": [
+          0,
+          4
+        ],
+        "text": "CNOT(q(0), q(4))"
+      },
+      {
+        "gate": "t",
+        "qubits": [
+          4
+        ],
+        "text": "T(q(4))"
+      },
+      {
+        "gate": "cx",
+        "qubits": [
+          4,
+          5
+        ],
+        "text": "CNOT(q(4), q(5))"
+      },
+      {
+        "gate": "cx",
+        "qubits": [
+          5,
+          4
+        ],
+        "text": "CNOT(q(5), q(4))"
+      },
+      {
+        "gate": "cx",
+        "qubits": [
+          0,
+          4
+        ],
+        "text": "CNOT(q(0), q(4))"
+      },
+      {
+        "gate": "h",
+        "qubits": [
+          5
+        ],
+        "text": "H(q(5))"
+      },
+      {
+        "gate": "t",
+        "qubits": [
+          0
+        ],
+        "text": "T(q(0))"
+      },
+      {
+        "gate": "tdg",
+        "qubits": [
+          4
+        ],
+        "text": "T**-1(q(4))"
+      },
+      {
+        "gate": "cx",
+        "qubits": [
+          5,
+          6
+        ],
+        "text": "CNOT(q(5), q(6))"
+      },
+      {
+        "gate": "cx",
+        "qubits": [
+          0,
+          4
+        ],
+        "text": "CNOT(q(0), q(4))"
+      },
+      {
+        "gate": "h",
+        "qubits": [
+          5
+        ],
+        "text": "H(q(5))"
+      }
+    ],
+    "base_candidate": "exact_small_router_r0_l0",
+    "before_operations": [
+      {
+        "gate": "h",
+        "qubits": [
+          5
+        ],
+        "text": "H(q(5))"
+      },
+      {
+        "gate": "cx",
+        "qubits": [
+          5,
+          4
+        ],
+        "text": "CNOT(q(5), q(4))"
+      },
+      {
+        "gate": "cx",
+        "qubits": [
+          4,
+          5
+        ],
+        "text": "CNOT(q(4), q(5))"
+      },
+      {
+        "gate": "tdg",
+        "qubits": [
+          4
+        ],
+        "text": "T**-1(q(4))"
+      },
+      {
+        "gate": "cx",
+        "qubits": [
+          0,
+          4
+        ],
+        "text": "CNOT(q(0), q(4))"
+      },
+      {
+        "gate": "t",
+        "qubits": [
+          4
+        ],
+        "text": "T(q(4))"
+      },
+      {
+        "gate": "cx",
+        "qubits": [
+          5,
+          4
+        ],
+        "text": "CNOT(q(5), q(4))"
+      },
+      {
+        "gate": "tdg",
+        "qubits": [
+          4
+        ],
+        "text": "T**-1(q(4))"
+      },
+      {
+        "gate": "t",
+        "qubits": [
+          5
+        ],
+        "text": "T(q(5))"
+      },
+      {
+        "gate": "cx",
+        "qubits": [
+          0,
+          4
+        ],
+        "text": "CNOT(q(0), q(4))"
+      },
+      {
+        "gate": "t",
+        "qubits": [
+          4
+        ],
+        "text": "T(q(4))"
+      },
+      {
+        "gate": "cx",
+        "qubits": [
+          4,
+          5
+        ],
+        "text": "CNOT(q(4), q(5))"
+      },
+      {
+        "gate": "cx",
+        "qubits": [
+          5,
+          4
+        ],
+        "text": "CNOT(q(5), q(4))"
+      },
+      {
+        "gate": "cx",
+        "qubits": [
+          4,
+          5
+        ],
+        "text": "CNOT(q(4), q(5))"
+      },
+      {
+        "gate": "cx",
+        "qubits": [
+          0,
+          4
+        ],
+        "text": "CNOT(q(0), q(4))"
+      },
+      {
+        "gate": "h",
+        "qubits": [
+          5
+        ],
+        "text": "H(q(5))"
+      },
+      {
+        "gate": "t",
+        "qubits": [
+          0
+        ],
+        "text": "T(q(0))"
+      },
+      {
+        "gate": "tdg",
+        "qubits": [
+          4
+        ],
+        "text": "T**-1(q(4))"
+      },
+      {
+        "gate": "cx",
+        "qubits": [
+          5,
+          6
+        ],
+        "text": "CNOT(q(5), q(6))"
+      },
+      {
+        "gate": "cx",
+        "qubits": [
+          0,
+          4
+        ],
+        "text": "CNOT(q(0), q(4))"
+      },
+      {
+        "gate": "h",
+        "qubits": [
+          5
+        ],
+        "text": "H(q(5))"
+      },
+      {
+        "gate": "cx",
+        "qubits": [
+          4,
+          5
+        ],
+        "text": "CNOT(q(4), q(5))"
+      }
+    ],
+    "classification": "commuting CX cancellation",
+    "deleted_indices": [
+      13,
+      21
+    ],
+    "deleted_operations": [
+      {
+        "gate": "cx",
+        "qubits": [
+          4,
+          5
+        ],
+        "text": "CNOT(q(4), q(5))"
+      },
+      {
+        "gate": "cx",
+        "qubits": [
+          4,
+          5
+        ],
+        "text": "CNOT(q(4), q(5))"
+      }
+    ],
+    "detector": "commutation_aware_redundancy",
+    "edges": [
+      [
+        5,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "exact_equivalent": true,
+    "local_unitary_hash_after": "a1969eb3b185a2047247e1f1add93a007e81e39c19efb2acd1dd4ab7c986314f",
+    "local_unitary_hash_before": "a1969eb3b185a2047247e1f1add93a007e81e39c19efb2acd1dd4ab7c986314f",
+    "metric_guard": true,
+    "new_cx": 22,
+    "new_depth": 32,
+    "new_elr": -0.2953054430091119,
+    "old_cx": 24,
+    "old_depth": 34,
+    "old_elr": -0.30993884680987166,
+    "physical_qubits": [
+      0,
+      4,
+      5,
+      6
+    ],
+    "rejection_reason": "accepted",
+    "start": 12,
+    "stop": 34,
+    "valid": true,
+    "width": 4
+  },
+  "edges": [
+    [
+      5,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "exact_equivalent": true,
+  "legacy_window_label": "window_synth_13",
+  "local_unitary_hash_after": "f470109e3cbdda84ee79980a7b71b3866043b8fcdf8197d0803faf416a296c76",
+  "local_unitary_hash_before": "f470109e3cbdda84ee79980a7b71b3866043b8fcdf8197d0803faf416a296c76",
+  "physical_qubits": [
+    0,
+    4,
+    5,
+    6
+  ],
+  "rewrite": "bounded_window_reference",
+  "sample": "track_a_008",
+  "start": 13,
+  "stop": 35
+}

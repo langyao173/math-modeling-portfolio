@@ -1,0 +1,56 @@
+{
+  "track": "track_b",
+  "name": "affine_b_002",
+  "family": "exact_affine_parity_star",
+  "logical_qubits": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "expected_output_rule": {
+    "rule_type": "allowed_bitstrings",
+    "bitstring": null,
+    "allowed_bitstrings": [
+      "00000010000101011011",
+      "00010010000101010100",
+      "00100010000110101011",
+      "00110010000110100100",
+      "01000010111001011011",
+      "01010010111001010100",
+      "01100010111010101011",
+      "01110010111010100100",
+      "10001101000101011011",
+      "10011101000101010100",
+      "10101101000110101011",
+      "10111101000110100100",
+      "11001101111001011011",
+      "11011101111001010100",
+      "11101101111010101011",
+      "11111101111010100100"
+    ],
+    "parity_checks": []
+  },
+  "metadata": {
+    "backend_size_class": "large",
+    "backend_snapshot_id": "large_snapshot_a",
+    "synthetic_family": "exact_affine_parity_star",
+    "negative_case": false
+  }
+}

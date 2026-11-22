@@ -1,0 +1,48 @@
+{
+  "amendment_id": "raw-score-v1.1-A01",
+  "recorded_at_utc": "2026-10-25T18:01:22.469104+00:00",
+  "base_protocol_sha256": "254034c32c479516571c771363aaaf88bcac96c951baf9adfb5545400c7c01ef",
+  "scope": "Official-Z reduced-rank raw-mean auxiliary comparison only",
+  "stage_order": "The standard-input stage was completed and inspected before this change was proposed. The normal-rank stage is a subsequent development analysis, not an independently preregistered untouched validation.",
+  "known_first_stage_results": {
+    "standard_input_core30_macroR2_tau0": -0.16034,
+    "standard_input_core30_macroR2_tau1": -0.10311,
+    "reported_leverage_diagnostic": "Beer156 accounts for about 98% of the paired point increment; initial interval spans zero.",
+    "known_to_protocol_reviewer_via": "raw_auxiliary message; exact arrays and unrounded values will be independently audited later"
+  },
+  "change": "Replace chemical input standard scaling by training-subset empirical normal-rank transformation; no target, outer/inner split, tau values, ranks, lambdas or main contrast change.",
+  "fixed_remaining_design": {
+    "tau": [
+      0,
+      0.5,
+      1
+    ],
+    "rank": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "lambda": [
+      1,
+      10,
+      100,
+      1000
+    ],
+    "selection": "same inner official-Z core30 training-variance-normalized MSE",
+    "primary_contrast": "tau1 vs tau0",
+    "all_stages_retained": true
+  },
+  "bootstrap_reconciliation": {
+    "first_stage_original_seed": 2026102507,
+    "common_read_only_summary_seed": 2026102527,
+    "resamples": 2000,
+    "original_intervals_retained": true,
+    "no_model_refit_for_seed_change": true,
+    "no_strategy_selection_by_interval": true
+  },
+  "stopping_rule": "Retain both standard and rank stages and all tau outcomes; no further input transformation or candidate branch is authorized by this amendment based on these outer results.",
+  "source_snapshot_required": true,
+  "first_stage_execution_lock": "work/raw_score_research/auxiliary/EXPERIMENT_LOCK.json",
+  "second_stage_execution_amendment": "work/raw_score_research/auxiliary/PROTOCOL_AMENDMENT_RANK.json"
+}

@@ -1,0 +1,106 @@
+EgoDemo     E001                                 n= 1619  T=  53.93s
+EgoDemo     E002                                 n= 1686  T=  56.17s
+EgoDemo     E003                                 n=  289  T=   9.60s
+EgoDemo     E004                                 n=  316  T=  10.50s
+EgoDemo     E005                                 n=  331  T=  11.00s
+EgoDemo     E006                                 n=  348  T=  13.88s
+EgoDemo     E007                                 n= 1766  T=  58.83s
+EgoDemo     E008                                 n=  564  T=  18.77s
+EgoDemo     E009                                 n=  325  T=  10.80s
+EgoDemo     E010                                 n=  383  T=  12.73s
+EgoDemo     E011                                 n=  339  T=  11.27s
+EgoDemo     E012                                 n=  220  T=   8.76s
+EgoDemo     E013                                 n=  685  T=  22.80s
+EgoDemo     E014                                 n=  235  T=   7.80s
+EgoDemo     E015                                 n=  606  T=  20.17s
+EgoDemo     E016                                 n=  214  T=   7.10s
+EgoDemo     E017                                 n=  239  T=   7.93s
+EgoDemo     E018                                 n=  257  T=   8.53s
+EgoDemo     E019                                 n=  391  T=  13.00s
+EgoDemo     E020                                 n=  195  T=   6.47s
+EgoDemo     E021                                 n=  249  T=   8.27s
+EgoDemo     E022                                 n=  239  T=   7.93s
+EgoDemo     E023                                 n=  679  T=  22.60s
+EgoDemo     E024                                 n=  305  T=  10.13s
+EgoDemo     E025                                 n=  179  T=   5.93s
+EgoDemo     E026                                 n=  791  T=  26.33s
+EgoDemo     E027                                 n= 1661  T=  55.33s
+EgoDemo     E028                                 n=  338  T=  11.23s
+EgoDemo     E029                                 n=  286  T=   9.50s
+EgoDemo     E030                                 n=  298  T=   9.90s
+EgoDemo     E031                                 n=  381  T=  12.67s
+EgoPro      291aff24-8b62-4a5e-b470-85114bdf86dc n= 2458  T=  81.90s
+EgoPro      2bb0222e-a5e8-4f0b-b49a-81aa87411149 n=  181  T=   6.00s
+EgoPro      347600c2-2623-4180-aff6-538097e87ab7 n= 1704  T=  56.76s
+EgoPro      3a3e6211-f2ef-44e0-aee9-bc98b8754234 n= 1503  T=  50.07s
+EgoPro      478f3e70-4066-408b-93cf-831625320004 n= 1150  T=  38.29s
+EgoPro      7d112e74-5837-42af-93e9-8321fbd1237e n= 1004  T=  33.42s
+EgoPro      83cee2e9-2153-4ac1-a042-f5500cecbb3f n= 1650  T=  54.97s
+EgoPro      a3a85c3e-79cd-4d76-a91c-a7405f4647c9 n= 1374  T=  45.77s
+EgoPro      c6b52545-fbce-479d-8393-17bb8c5d0311 n=  995  T=  33.52s
+EgoPro      cc9d0407-3b74-4f82-92dc-a25c06eaf044 n= 1022  T=  34.03s
+EgoPro      d58db8d6-2869-4d26-9217-9e0a0bfe4923 n= 1487  T=  49.53s
+EgoPro      e1b42dfc-841c-400e-9beb-10bd19f17a22 n= 1482  T=  49.37s
+EgoPro      efac6caf-deab-461b-b839-96423abff9b9 n= 1442  T=  48.03s
+EgoPro      fdbb7805-04f7-46c0-ae1e-1b454accd7a8 n=  190  T=   6.30s
+EgoStandard 01e98c50-1164-448f-a7ff-b722d7a1c19b n=  528  T=  17.57s
+EgoStandard 03a51a05-58f0-4937-8f05-e0b697c7c5fd n=  242  T=   8.03s
+EgoStandard 045c1e70-ab63-404a-94ef-735e68c8fd6a n=  334  T=  11.10s
+EgoStandard 06a855ba-c079-46f7-b2a4-3a0ad1c72e90 n=  385  T=  12.80s
+EgoStandard 0793b27b-acf5-40f2-8b19-cda2f3d868d1 n=  318  T=  10.57s
+EgoStandard 09101133-d656-4ce4-921b-3cc6f5a5bcb1 n=  220  T=   7.30s
+EgoStandard 0fd872a6-6e35-436d-a317-12fc025d5b38 n=  325  T=  12.96s
+EgoStandard 11b6fab6-0b4a-45b7-9180-61d2dde0ec92 n=  533  T=  17.73s
+EgoStandard 16827d3f-6d3c-40e5-aeea-451e008e1247 n=  325  T=  10.80s
+EgoStandard 1a4aed15-de7a-4444-a87c-87d6195d7388 n=  353  T=  11.73s
+EgoStandard 1d855c6c-e844-41b8-9339-d344dd71c7f1 n=  213  T=   7.07s
+EgoStandard 1edd4d05-8bdd-4d3c-ae0f-fbc25447ffe8 n= 3180  T= 105.97s
+EgoStandard 1f88d4ce-f51e-440e-a072-e6986fae9da4 n=  267  T=   8.87s
+EgoStandard 25702370-2103-4de3-ab02-59288316ec2b n=  311  T=  10.33s
+EgoStandard 2af40d05-034e-4d51-84dc-c4124c06d40d n=  327  T=  10.87s
+EgoStandard 2f290382-a060-4352-99cd-883e46698bc5 n= 4012  T= 133.70s
+EgoStandard 36de3405-6829-4882-a8ab-0ff472768480 n= 3637  T= 121.20s
+EgoStandard 39d35af4-d31f-4f8a-a55d-9251b1c6a87e n=  242  T=   8.03s
+EgoStandard 3c5b6818-d151-418a-ac00-c461bbebefc8 n= 3945  T= 131.47s
+EgoStandard 443485f0-29be-4389-a40d-3f50d1ed38d2 n= 5220  T= 173.97s
+EgoStandard 4a4d93ed-066f-4460-acbb-5c9034e24862 n= 4428  T= 147.57s
+EgoStandard 4b0fb52d-29ea-4014-a1e7-fc440037790f n=  494  T=  16.43s
+EgoStandard 7962fc83-dd18-4ddd-bcc6-9e23c007c7a2 n=  536  T=  17.83s
+EgoStandard bca969eb-9f5d-4842-b1c8-d60faaf03243 n= 1639  T=  54.60s
+{
+ "n_records": 69,
+ "n_frames": 66070,
+ "n_segments_raw": 349,
+ "n_segments_index": 349,
+ "merge_both": 349,
+ "max_abs_start_diff": 0.0,
+ "max_abs_end_diff": 0.0,
+ "frames_by_dataset": {
+  "EgoDemo": 16414,
+  "EgoPro": 17642,
+  "EgoStandard": 32014
+ },
+ "records_by_dataset": {
+  "EgoDemo": 31,
+  "EgoPro": 14,
+  "EgoStandard": 24
+ },
+ "environments": 24,
+ "env_by_split": {
+  "test": 4,
+  "train": 16,
+  "validation": 4
+ },
+ "records_by_split": {
+  "test": 7,
+  "train": 55,
+  "validation": 7
+ },
+ "frames_by_split": {
+  "test": 12241,
+  "train": 47046,
+  "validation": 6783
+ },
+ "duplicate_content": 0,
+ "duplicate_uuid": 0
+}

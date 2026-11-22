@@ -1,0 +1,33 @@
+{
+  "figure": 7,
+  "caption": "风格混杂与风格内关联。a两组严格同尺度散点均展示250款啤酒，Lambic和Kriek着色，其余20风格用灰色。虚线为总体描述性斜率，实线为去风格均值后的合并描述性斜率；图内数字依次为总体与风格内正态分数相关，两种斜率均在图示标准化坐标中通过原点，不是因果效应。b八组固定化学—感官配对共用行索引：左轨比较总体/风格内相关，右轨比较相同400组风格分层重采样、固定α=3的Top3入选频率，虚线为80%。空心表示总体、实心表示风格内。完整协方差分解和全化学模型折外增量及原2000次配对抽样95%条件区间保留于补图S7。",
+  "figure_inches": [
+    6.7,
+    3.8
+  ],
+  "sources": [
+    {
+      "path": "plot_data/fig07_all250_style_scatter.csv",
+      "sha256": "26fa33c5768c9175b59cf654f4d5e57a52c9970c7193d1adfe756772c5573413"
+    },
+    {
+      "path": "plot_data/11_within_style_chemical_evidence.csv",
+      "sha256": "320fd5d4cc676d862ba1048fed727743f71eefe60e82901967cbdb0e3b523244"
+    },
+    {
+      "path": "plot_data/fig07_descriptive_association_audit.csv",
+      "sha256": "b41d89234a6e1a753730945d18b958b8ff171f7f7e3be96b4e4026a8af770b31"
+    }
+  ],
+  "new_model_fits": 0,
+  "new_bootstrap_resamples": 0,
+  "style": "shared_index_compositions_v4",
+  "n_beers": 250,
+  "n_styles": 22,
+  "scatter_points": 500,
+  "chemical_pairs": 8,
+  "ellipse_count": 0,
+  "shared_pair_index": true,
+  "covariance_identity_max_error": 6.661338147750939e-16,
+  "new_inference": false
+}

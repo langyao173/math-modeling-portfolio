@@ -1,0 +1,25 @@
+status = "FAILED"
+error = """IOError: stream is closed or unusable\nStacktrace:\n  [1] check_open\n    @ ./stream.jl:388 [inlined]\n  [2] uv_write_async(s::Base.TTY, p::Ptr{UInt8}, n::UInt64)\n    @ Base ./stream.jl:1108\n  [3] uv_write(s::Base.TTY, p::Ptr{UInt8}, n::UInt64)\n    @ Base ./stream.jl:1069\n  [4] unsafe_write(s::Base.TTY, p::Ptr{UInt8}, n::UInt64)\n    @ Base ./stream.jl:1154\n  [5] unsafe_write(io::RemoteTerminal.IOSplit, p::Ptr{UInt8}, nb::UInt64)\n    @ Base ./io.jl:452\n  [6] write\n    @ ./strings/io.jl:246 [inlined]\n  [7] print(io::RemoteTerminal.IOSplit, s::String)\n    @ Base ./strings/io.jl:248\n  [8] print(::RemoteTerminal.IOSplit, ::String, ::String, ::String, ::Int64, ::String, ::Int64, ::String, ::Int64, ::String, ::Vararg{Any})\n    @ Base ./strings/io.jl:46\n  [9] println(::String, ::String, ::String, ::Int64, ::String, ::Int64, ::String, ::Int64, ::String, ::Float64, ::Vararg{Any})\n    @ Base ./coreio.jl:9\n [10] v10_run_cases!(; output_dir::String, resume_base::Bool)\n    @ Main ~/v10_run_cases.jl:73\n [11] v10_run_cases!\n    @ ~/v10_run_cases.jl:40 [inlined]\n [12] (::var\"#300#301\")()\n    @ Main ./REPL[29]:1"""
+case_name = "power"
+case_index = 4
+completed_case_count = 3
+
+[package_versions]
+CSV = "0.10.16"
+HiGHS = "1.23.0"
+DataFrames = "1.8.1"
+Julia = "1.12.4"
+MathOptInterface = "1.48.0"
+Engee = "not exposed by loaded package"
+JuMP = "1.30.1"
+
+[source_sha256]
+"start_v10.jl" = "440a989c7eb6b88d6eb32457f1b084a529a34828791fe773d99b9150f0fa3d09"
+"v10_native_plant.jl" = "91c16e1803e5ce9dd1ae7e5128c086f0e478cfe9c390cf9c9cee6b2c0d95b3b3"
+"v10_gui.jl" = "d65bccef00bb62ff3564c8bc9397199579e2bf54c405418729e31d551077a4aa"
+"v10_app.jl" = "9f05de7d2707063a9f865ba05984278222706d6b57c06f0d31bf2ffc360b86ea"
+"v10_dashboard.html" = "ec64a885fd6ddc2108a39f8977f8e2e1613b594a1f52911d940388564e30881c"
+"v10_dispatch.jl" = "de5dd5a1ec1e42001bd740dc9d9af04418c4f825a088332969040db92dbbb221"
+"v10_run_cases.jl" = "11cf23f8f9a1d5b50d30f4152b5e9de01e8d55d077f26827937aae253e02aae3"
+"v10_base_inputs.csv" = "0ae22f5d67bca766921450e50e49aca5ed94f880bba0ff141b958ce7b4012b53"
+"v10_config.jl" = "ac260bb0317677c42a829907a712906b810b6f34aaa1f3aaee5e0c4289a2d459"

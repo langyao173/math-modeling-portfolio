@@ -1,0 +1,75 @@
+{
+  "n_matches": 232,
+  "share_matches_with_unseen_team_for_logit": 0.14655172413793102,
+  "ordered_logit_params": [
+    0.5827,
+    -0.6134,
+    0.093
+  ],
+  "results_csv_sha256": "d223b0dcc1d716ad8b70e6de52a614fedae331a27ac6777599af40c25eadb861",
+  "paired_bootstrap_vs_contest_logit": {
+    "elo_ordered_logit_minus_logit_log_loss": {
+      "mean": -0.05793612369659052,
+      "ci95": [
+        -0.12353515628669891,
+        0.009221500265192379
+      ]
+    },
+    "elo_ordered_logit_minus_logit_rps": {
+      "mean": -0.018771650521309937,
+      "ci95": [
+        -0.03655593676938068,
+        -0.00047463652178510244
+      ]
+    },
+    "elo_ordered_logit_minus_logit_brier": {
+      "mean": -0.04910008176731839,
+      "ci95": [
+        -0.09361522527814958,
+        -0.0023625223828752755
+      ]
+    },
+    "pool_logit_elo_minus_logit_log_loss": {
+      "mean": -0.062070031377293944,
+      "ci95": [
+        -0.09229052680734397,
+        -0.031394772681521466
+      ]
+    },
+    "pool_logit_elo_minus_logit_rps": {
+      "mean": -0.018091330011425533,
+      "ci95": [
+        -0.02706552969997151,
+        -0.00884537759972902
+      ]
+    },
+    "pool_logit_elo_minus_logit_brier": {
+      "mean": -0.0465739592465426,
+      "ci95": [
+        -0.06929851934901898,
+        -0.02375893861510213
+      ]
+    },
+    "base_rate_minus_logit_log_loss": {
+      "mean": 0.05573172918502509,
+      "ci95": [
+        0.01619169759815903,
+        0.09370025193043115
+      ]
+    },
+    "base_rate_minus_logit_rps": {
+      "mean": 0.025198553680847245,
+      "ci95": [
+        0.014495560623930375,
+        0.03549622272794927
+      ]
+    },
+    "base_rate_minus_logit_brier": {
+      "mean": 0.03915294156242885,
+      "ci95": [
+        0.013981807788212428,
+        0.06464850728473345
+      ]
+    }
+  }
+}

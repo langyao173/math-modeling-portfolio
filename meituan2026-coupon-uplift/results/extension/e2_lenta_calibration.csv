@@ -1,0 +1,26 @@
+dataset,rep,learner,calibration_error
+lenta,0,T-learner,0.015593654806539075
+lenta,0,T-learner + isotonic (proposal),0.003080463877565208
+lenta,0,X-learner,0.005518657209733281
+lenta,0,DR-learner,0.003711125604320813
+lenta,0,causal forest,0.007719621325290177
+lenta,1,T-learner,0.01730239160459602
+lenta,1,T-learner + isotonic (proposal),0.003603614648435327
+lenta,1,X-learner,0.004570413256275587
+lenta,1,DR-learner,0.007728501290342669
+lenta,1,causal forest,0.007490460234048455
+lenta,2,T-learner,0.016421153254212634
+lenta,2,T-learner + isotonic (proposal),0.0042808601725218285
+lenta,2,X-learner,0.005129402553400611
+lenta,2,DR-learner,0.0034796624515107248
+lenta,2,causal forest,0.005484201625511585
+lenta,3,T-learner,0.015502723425347819
+lenta,3,T-learner + isotonic (proposal),0.0027473653952445084
+lenta,3,X-learner,0.004810198959445806
+lenta,3,DR-learner,0.003345904290902704
+lenta,3,causal forest,0.004803017346137029
+lenta,4,T-learner,0.01588561175174167
+lenta,4,T-learner + isotonic (proposal),0.004088734774283627
+lenta,4,X-learner,0.003803554529930391
+lenta,4,DR-learner,0.004677659565783236
+lenta,4,causal forest,0.005556380937445646

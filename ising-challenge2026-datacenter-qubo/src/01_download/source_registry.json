@@ -1,0 +1,65 @@
+[
+  {
+    "source_name": "alibaba_clusterdata",
+    "category": "workload",
+    "source_url": "https://github.com/alibaba/clusterdata",
+    "local_path": "data/raw/workload/alibaba_gpu",
+    "license": "See upstream repository and per-release LICENSE files",
+    "time_zone": "source-defined",
+    "unit": "GPU workload trace tables, pod/job/resource metrics",
+    "notes": "Repository clone contains v2023 CSVs and download instructions for v2020/v2026 hosted archives. v2020 archives are small enough for local download; v2026 bulk data is hundreds of GB and is recorded separately."
+  },
+  {
+    "source_name": "google_cluster_data",
+    "category": "workload_power_trace",
+    "source_url": "https://github.com/google/cluster-data",
+    "local_path": "data/raw/workload/google_cluster",
+    "license": "See upstream repository",
+    "time_zone": "source-defined",
+    "unit": "cluster workload and power trace documentation/files",
+    "notes": "Use only as auxiliary power-trace evidence; do not replace real GPU workload traces with CPU-only traces."
+  },
+  {
+    "source_name": "pglib_opf",
+    "category": "grid_case",
+    "source_url": "https://github.com/power-grid-lib/pglib-opf",
+    "local_path": "data/raw/grid/pglib",
+    "license": "NOASSERTION in GitHub metadata; see upstream LICENSE",
+    "time_zone": "not applicable",
+    "unit": "MATPOWER OPF case files",
+    "notes": "Includes IEEE 14/24/30/57/118/300 and larger benchmark cases."
+  },
+  {
+    "source_name": "nlr_nsrdb_goes_aggregated",
+    "category": "renewable_solar",
+    "source_url": "https://developer.nlr.gov/docs/solar/nsrdb/nsrdb-GOES-aggregated-v4-0-0-download/",
+    "api_endpoint": "https://developer.nlr.gov/api/nsrdb/v2/solar/nsrdb-GOES-aggregated-v4-0-0-download.csv",
+    "local_path": "data/raw/energy/nsrdb",
+    "license": "NLR/NREL API terms",
+    "time_zone": "UTC when utc=true",
+    "unit": "GHI/DHI/DNI W/m2, temperature C, wind speed m/s",
+    "notes": "Downloaded by src/01_download/download_api_samples.py; replace the sample site/year with the final site catalog before production experiments."
+  },
+  {
+    "source_name": "nlr_wind_toolkit",
+    "category": "renewable_wind",
+    "source_url": "https://developer.nlr.gov/docs/wind/wind-toolkit/wtk-download/",
+    "api_endpoint": "https://developer.nlr.gov/api/wind-toolkit/v2/wind/wtk-download.csv",
+    "local_path": "data/raw/energy/wind_toolkit",
+    "license": "NLR/NREL API terms",
+    "time_zone": "UTC when utc=true",
+    "unit": "wind speed m/s, wind direction degrees, optional power field",
+    "notes": "Downloaded by src/01_download/download_api_samples.py; Wind Toolkit historical years are not aligned with latest NSRDB years."
+  },
+  {
+    "source_name": "caiso_oasis",
+    "category": "price_demand",
+    "source_url": "https://oasis.caiso.com/oasisapi/",
+    "api_endpoint": "https://oasis.caiso.com/oasisapi/SingleZip",
+    "local_path": "data/raw/price/caiso_oasis",
+    "license": "CAISO OASIS terms",
+    "time_zone": "UTC query timestamps; market data source-defined",
+    "unit": "LMP $/MWh, demand forecast MW",
+    "notes": "Downloaded by src/01_download/download_api_samples.py. If local DNS cannot resolve oasis.caiso.com, retry on a network/DNS path that can reach CAISO."
+  }
+]

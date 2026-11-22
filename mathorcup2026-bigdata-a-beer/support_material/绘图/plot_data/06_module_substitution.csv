@@ -1,0 +1,7 @@
+threshold,target,module,eligible_module_size,module_union_frequency,largest_member_frequency,substitution_gain,uniform_three_draw_reference,chance_adjusted_frequency,leading_field,leading_name,dominant_origin,any_individual_at_least_0_8
+0.6,F_malt_all,1,21,0.96,0.795,0.1649999999999999,0.2631366939594226,0.9457158476041724,X2.6.dimethyl.pyrazine,"2,6-dimethylpyrazine",Yeast,False
+0.6,A_esters_all,4,13,0.935,0.745,0.19,0.169173983098221,0.9217646069361304,acetaldehyde,Acetaldehyde,Yeast,False
+0.6,lactic,5,15,0.915,0.5575,0.3575,0.1933716418401236,0.8946230948365037,ethyl_isovalerate,Ethyl 3-methylbutyrate,Yeast,False
+0.6,F_esters_ethac,4,13,0.8875,0.665,0.2224999999999999,0.169173983098221,0.8645925889279176,ethyl_acetate,Ethyl acetate,Yeast,False
+0.6,aftertaste,4,13,0.815,0.5675,0.2474999999999999,0.169173983098221,0.777330035125909,ethanol..v.v.,Ethanol,Yeast,False
+0.6,A_esters_isoaa,4,13,0.8025,0.7125,0.0899999999999999,0.169173983098221,0.7622847672290111,n.hexanol,N-hexanol,Yeast,False

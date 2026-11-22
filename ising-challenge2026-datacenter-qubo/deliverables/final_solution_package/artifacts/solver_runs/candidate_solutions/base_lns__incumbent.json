@@ -1,0 +1,15 @@
+{
+  "family": "base_lns",
+  "oracle": "incumbent",
+  "status": "success",
+  "jobs": 588,
+  "selected_actions": 588,
+  "accepted_under_submission_guard": 1,
+  "true_action_cost_usd": 5414.838476,
+  "expected_recourse_cost_usd": 35.86939625776049,
+  "cvar95_recourse_cost_usd": 48.38479407407413,
+  "true_objective": 84.25419033183462,
+  "source_result": {
+    "source": "restricted_final_incumbent"
+  }
+}

@@ -1,0 +1,768 @@
+{
+  "baseline": {
+    "scenario": {
+      "name": "baseline",
+      "gdp_growth": [
+        0.045,
+        0.03,
+        0.018
+      ],
+      "carbon_price_start_cny_t": 100,
+      "carbon_price_drift_cny_t": 3,
+      "cost_decline_per_year": 0.015,
+      "efficiency_improvement_per_year": 0.0,
+      "carbon_feedback": true,
+      "investment_feedback": true,
+      "cost_response": true,
+      "annual_budget_multiplier": 1.0,
+      "reserve_multiplier": 1.0,
+      "import_multiplier": 1.0,
+      "supply_multiplier": 1.0,
+      "annual_shock_years": [],
+      "biomass_feedstock_growth_per_year": 0.02,
+      "carbon_reference_decline_per_year": 0.02
+    },
+    "mechanisms": {
+      "consumer_choice": "responsive",
+      "carbon_feedback": true,
+      "investor_profit_response": true,
+      "investor_utilisation_response": true,
+      "construction_years": "native",
+      "investor_profit_rule": "origin_anchored",
+      "coal_import_channel": "gross_trade",
+      "market_price_rule": "step"
+    }
+  },
+  "policy": {
+    "scenario": {
+      "name": "policy",
+      "gdp_growth": [
+        0.045,
+        0.03,
+        0.018
+      ],
+      "carbon_price_start_cny_t": 100,
+      "carbon_price_drift_cny_t": 9,
+      "cost_decline_per_year": 0.02,
+      "efficiency_improvement_per_year": 0.004,
+      "carbon_feedback": true,
+      "investment_feedback": true,
+      "cost_response": true,
+      "annual_budget_multiplier": 1.15,
+      "reserve_multiplier": 1.5,
+      "import_multiplier": 1.0,
+      "supply_multiplier": 1.0,
+      "annual_shock_years": [],
+      "biomass_feedstock_growth_per_year": 0.02,
+      "carbon_reference_decline_per_year": 0.04
+    },
+    "mechanisms": {
+      "consumer_choice": "responsive",
+      "carbon_feedback": true,
+      "investor_profit_response": true,
+      "investor_utilisation_response": true,
+      "construction_years": "native",
+      "investor_profit_rule": "origin_anchored",
+      "coal_import_channel": "gross_trade",
+      "market_price_rule": "step"
+    }
+  },
+  "risk": {
+    "scenario": {
+      "name": "risk",
+      "gdp_growth": [
+        0.045,
+        0.03,
+        0.018
+      ],
+      "carbon_price_start_cny_t": 100,
+      "carbon_price_drift_cny_t": 3,
+      "cost_decline_per_year": 0.015,
+      "efficiency_improvement_per_year": 0.0,
+      "carbon_feedback": true,
+      "investment_feedback": true,
+      "cost_response": true,
+      "annual_budget_multiplier": 1.0,
+      "reserve_multiplier": 1.0,
+      "import_multiplier": 1.0,
+      "supply_multiplier": 1.0,
+      "annual_shock_years": [
+        2030,
+        2045,
+        2060
+      ],
+      "import_shock_fraction": 0.5,
+      "renewable_shock_fraction": 0.15,
+      "biomass_feedstock_growth_per_year": 0.02,
+      "carbon_reference_decline_per_year": 0.02
+    },
+    "mechanisms": {
+      "consumer_choice": "responsive",
+      "carbon_feedback": true,
+      "investor_profit_response": true,
+      "investor_utilisation_response": true,
+      "construction_years": "native",
+      "investor_profit_rule": "origin_anchored",
+      "coal_import_channel": "gross_trade",
+      "market_price_rule": "step"
+    }
+  },
+  "technology": {
+    "scenario": {
+      "name": "technology",
+      "gdp_growth": [
+        0.045,
+        0.03,
+        0.018
+      ],
+      "carbon_price_start_cny_t": 100,
+      "carbon_price_drift_cny_t": 3,
+      "cost_decline_per_year": 0.04,
+      "efficiency_improvement_per_year": 0.002,
+      "carbon_feedback": true,
+      "investment_feedback": true,
+      "cost_response": true,
+      "annual_budget_multiplier": 1.0,
+      "reserve_multiplier": 1.0,
+      "import_multiplier": 1.0,
+      "supply_multiplier": 1.0,
+      "annual_shock_years": [],
+      "biomass_feedstock_growth_per_year": 0.02,
+      "carbon_reference_decline_per_year": 0.02
+    },
+    "mechanisms": {
+      "consumer_choice": "responsive",
+      "carbon_feedback": true,
+      "investor_profit_response": true,
+      "investor_utilisation_response": true,
+      "construction_years": "native",
+      "investor_profit_rule": "origin_anchored",
+      "coal_import_channel": "gross_trade",
+      "market_price_rule": "step"
+    }
+  },
+  "consumer_frozen": {
+    "scenario": {
+      "name": "baseline",
+      "gdp_growth": [
+        0.045,
+        0.03,
+        0.018
+      ],
+      "carbon_price_start_cny_t": 100,
+      "carbon_price_drift_cny_t": 3,
+      "cost_decline_per_year": 0.015,
+      "efficiency_improvement_per_year": 0.0,
+      "carbon_feedback": true,
+      "investment_feedback": true,
+      "cost_response": true,
+      "annual_budget_multiplier": 1.0,
+      "reserve_multiplier": 1.0,
+      "import_multiplier": 1.0,
+      "supply_multiplier": 1.0,
+      "annual_shock_years": [],
+      "biomass_feedstock_growth_per_year": 0.02,
+      "carbon_reference_decline_per_year": 0.02
+    },
+    "mechanisms": {
+      "consumer_choice": "frozen_initial",
+      "carbon_feedback": true,
+      "investor_profit_response": true,
+      "investor_utilisation_response": true,
+      "construction_years": "native",
+      "investor_profit_rule": "origin_anchored",
+      "coal_import_channel": "gross_trade",
+      "market_price_rule": "step"
+    }
+  },
+  "consumer_response_off": {
+    "scenario": {
+      "name": "baseline",
+      "gdp_growth": [
+        0.045,
+        0.03,
+        0.018
+      ],
+      "carbon_price_start_cny_t": 100,
+      "carbon_price_drift_cny_t": 3,
+      "cost_decline_per_year": 0.015,
+      "efficiency_improvement_per_year": 0.0,
+      "carbon_feedback": true,
+      "investment_feedback": true,
+      "cost_response": true,
+      "annual_budget_multiplier": 1.0,
+      "reserve_multiplier": 1.0,
+      "import_multiplier": 1.0,
+      "supply_multiplier": 1.0,
+      "annual_shock_years": [],
+      "biomass_feedstock_growth_per_year": 0.02,
+      "carbon_reference_decline_per_year": 0.02
+    },
+    "mechanisms": {
+      "consumer_choice": "exogenous_trend",
+      "carbon_feedback": true,
+      "investor_profit_response": true,
+      "investor_utilisation_response": true,
+      "construction_years": "native",
+      "investor_profit_rule": "origin_anchored",
+      "coal_import_channel": "gross_trade",
+      "market_price_rule": "step"
+    }
+  },
+  "zero_coal_channel": {
+    "scenario": {
+      "name": "baseline",
+      "gdp_growth": [
+        0.045,
+        0.03,
+        0.018
+      ],
+      "carbon_price_start_cny_t": 100,
+      "carbon_price_drift_cny_t": 3,
+      "cost_decline_per_year": 0.015,
+      "efficiency_improvement_per_year": 0.0,
+      "carbon_feedback": true,
+      "investment_feedback": true,
+      "cost_response": true,
+      "annual_budget_multiplier": 1.0,
+      "reserve_multiplier": 1.0,
+      "import_multiplier": 1.0,
+      "supply_multiplier": 1.0,
+      "annual_shock_years": [],
+      "biomass_feedstock_growth_per_year": 0.02,
+      "carbon_reference_decline_per_year": 0.02
+    },
+    "mechanisms": {
+      "consumer_choice": "responsive",
+      "carbon_feedback": true,
+      "investor_profit_response": true,
+      "investor_utilisation_response": true,
+      "construction_years": "native",
+      "investor_profit_rule": "origin_anchored",
+      "coal_import_channel": "zero_channel",
+      "market_price_rule": "step"
+    }
+  },
+  "zero_matched_supply": {
+    "scenario": {
+      "name": "baseline",
+      "gdp_growth": [
+        0.045,
+        0.03,
+        0.018
+      ],
+      "carbon_price_start_cny_t": 100,
+      "carbon_price_drift_cny_t": 3,
+      "cost_decline_per_year": 0.015,
+      "efficiency_improvement_per_year": 0.0,
+      "carbon_feedback": true,
+      "investment_feedback": true,
+      "cost_response": true,
+      "annual_budget_multiplier": 1.0,
+      "reserve_multiplier": 1.0,
+      "import_multiplier": 1.0,
+      "supply_multiplier": 1.0,
+      "annual_shock_years": [],
+      "biomass_feedstock_growth_per_year": 0.02,
+      "carbon_reference_decline_per_year": 0.02
+    },
+    "mechanisms": {
+      "consumer_choice": "responsive",
+      "carbon_feedback": true,
+      "investor_profit_response": true,
+      "investor_utilisation_response": true,
+      "construction_years": "native",
+      "investor_profit_rule": "origin_anchored",
+      "coal_import_channel": "zero_matched_supply",
+      "market_price_rule": "step"
+    }
+  },
+  "smooth_price": {
+    "scenario": {
+      "name": "baseline",
+      "gdp_growth": [
+        0.045,
+        0.03,
+        0.018
+      ],
+      "carbon_price_start_cny_t": 100,
+      "carbon_price_drift_cny_t": 3,
+      "cost_decline_per_year": 0.015,
+      "efficiency_improvement_per_year": 0.0,
+      "carbon_feedback": true,
+      "investment_feedback": true,
+      "cost_response": true,
+      "annual_budget_multiplier": 1.0,
+      "reserve_multiplier": 1.0,
+      "import_multiplier": 1.0,
+      "supply_multiplier": 1.0,
+      "annual_shock_years": [],
+      "biomass_feedstock_growth_per_year": 0.02,
+      "carbon_reference_decline_per_year": 0.02
+    },
+    "mechanisms": {
+      "consumer_choice": "responsive",
+      "carbon_feedback": true,
+      "investor_profit_response": true,
+      "investor_utilisation_response": true,
+      "construction_years": "native",
+      "investor_profit_rule": "origin_anchored",
+      "coal_import_channel": "gross_trade",
+      "market_price_rule": "smooth"
+    }
+  },
+  "government_feedback_off": {
+    "scenario": {
+      "name": "baseline",
+      "gdp_growth": [
+        0.045,
+        0.03,
+        0.018
+      ],
+      "carbon_price_start_cny_t": 100,
+      "carbon_price_drift_cny_t": 3,
+      "cost_decline_per_year": 0.015,
+      "efficiency_improvement_per_year": 0.0,
+      "carbon_feedback": true,
+      "investment_feedback": true,
+      "cost_response": true,
+      "annual_budget_multiplier": 1.0,
+      "reserve_multiplier": 1.0,
+      "import_multiplier": 1.0,
+      "supply_multiplier": 1.0,
+      "annual_shock_years": [],
+      "biomass_feedstock_growth_per_year": 0.02,
+      "carbon_reference_decline_per_year": 0.02
+    },
+    "mechanisms": {
+      "consumer_choice": "responsive",
+      "carbon_feedback": false,
+      "investor_profit_response": true,
+      "investor_utilisation_response": true,
+      "construction_years": "native",
+      "investor_profit_rule": "origin_anchored",
+      "coal_import_channel": "gross_trade",
+      "market_price_rule": "step"
+    }
+  },
+  "minimum_one_year": {
+    "scenario": {
+      "name": "baseline",
+      "gdp_growth": [
+        0.045,
+        0.03,
+        0.018
+      ],
+      "carbon_price_start_cny_t": 100,
+      "carbon_price_drift_cny_t": 3,
+      "cost_decline_per_year": 0.015,
+      "efficiency_improvement_per_year": 0.0,
+      "carbon_feedback": true,
+      "investment_feedback": true,
+      "cost_response": true,
+      "annual_budget_multiplier": 1.0,
+      "reserve_multiplier": 1.0,
+      "import_multiplier": 1.0,
+      "supply_multiplier": 1.0,
+      "annual_shock_years": [],
+      "biomass_feedstock_growth_per_year": 0.02,
+      "carbon_reference_decline_per_year": 0.02
+    },
+    "mechanisms": {
+      "consumer_choice": "responsive",
+      "carbon_feedback": true,
+      "investor_profit_response": true,
+      "investor_utilisation_response": true,
+      "construction_years": "minimum_one_year",
+      "investor_profit_rule": "origin_anchored",
+      "coal_import_channel": "gross_trade",
+      "market_price_rule": "step"
+    }
+  },
+  "investor_profit_off": {
+    "scenario": {
+      "name": "baseline",
+      "gdp_growth": [
+        0.045,
+        0.03,
+        0.018
+      ],
+      "carbon_price_start_cny_t": 100,
+      "carbon_price_drift_cny_t": 3,
+      "cost_decline_per_year": 0.015,
+      "efficiency_improvement_per_year": 0.0,
+      "carbon_feedback": true,
+      "investment_feedback": true,
+      "cost_response": true,
+      "annual_budget_multiplier": 1.0,
+      "reserve_multiplier": 1.0,
+      "import_multiplier": 1.0,
+      "supply_multiplier": 1.0,
+      "annual_shock_years": [],
+      "biomass_feedstock_growth_per_year": 0.02,
+      "carbon_reference_decline_per_year": 0.02
+    },
+    "mechanisms": {
+      "consumer_choice": "responsive",
+      "carbon_feedback": true,
+      "investor_profit_response": false,
+      "investor_utilisation_response": true,
+      "construction_years": "native",
+      "investor_profit_rule": "origin_anchored",
+      "coal_import_channel": "gross_trade",
+      "market_price_rule": "step"
+    }
+  },
+  "legacy_v4": {
+    "scenario": {
+      "name": "baseline",
+      "gdp_growth": [
+        0.045,
+        0.03,
+        0.018
+      ],
+      "carbon_price_start_cny_t": 100,
+      "carbon_price_drift_cny_t": 3,
+      "cost_decline_per_year": 0.015,
+      "efficiency_improvement_per_year": 0.0,
+      "carbon_feedback": true,
+      "investment_feedback": true,
+      "cost_response": true,
+      "annual_budget_multiplier": 1.0,
+      "reserve_multiplier": 1.0,
+      "import_multiplier": 1.0,
+      "supply_multiplier": 1.0,
+      "annual_shock_years": [],
+      "biomass_feedstock_growth_per_year": 0.02,
+      "carbon_reference_decline_per_year": 0.02
+    },
+    "mechanisms": {
+      "consumer_choice": "responsive",
+      "carbon_feedback": true,
+      "investor_profit_response": true,
+      "investor_utilisation_response": true,
+      "construction_years": "native",
+      "investor_profit_rule": "legacy_v4",
+      "coal_import_channel": "gross_trade",
+      "market_price_rule": "step"
+    }
+  },
+  "plan_00000": {
+    "scenario": {
+      "name": "plan_00000",
+      "gdp_growth": [
+        0.045,
+        0.03,
+        0.018
+      ],
+      "carbon_price_start_cny_t": 100,
+      "carbon_price_drift_cny_t": 3.0,
+      "cost_decline_per_year": 0.015,
+      "efficiency_improvement_per_year": 0.0,
+      "carbon_feedback": true,
+      "investment_feedback": true,
+      "cost_response": true,
+      "annual_budget_multiplier": 1.0,
+      "reserve_multiplier": 1.0,
+      "import_multiplier": 1.0,
+      "supply_multiplier": 1.0,
+      "annual_shock_years": [],
+      "biomass_feedstock_growth_per_year": 0.02,
+      "carbon_reference_decline_per_year": 0.02,
+      "budget_multipliers_by_period": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "investment_priority": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "mechanisms": {
+      "consumer_choice": "responsive",
+      "carbon_feedback": true,
+      "investor_profit_response": true,
+      "investor_utilisation_response": true,
+      "construction_years": "native",
+      "investor_profit_rule": "origin_anchored",
+      "coal_import_channel": "gross_trade",
+      "market_price_rule": "step"
+    }
+  },
+  "plan_01989": {
+    "scenario": {
+      "name": "plan_01989",
+      "gdp_growth": [
+        0.045,
+        0.03,
+        0.018
+      ],
+      "carbon_price_start_cny_t": 100,
+      "carbon_price_drift_cny_t": 4.376795719464964,
+      "cost_decline_per_year": 0.015,
+      "efficiency_improvement_per_year": 0.0,
+      "carbon_feedback": true,
+      "investment_feedback": true,
+      "cost_response": true,
+      "annual_budget_multiplier": 1.0,
+      "reserve_multiplier": 1.0,
+      "import_multiplier": 1.0,
+      "supply_multiplier": 1.0,
+      "annual_shock_years": [],
+      "biomass_feedstock_growth_per_year": 0.02,
+      "carbon_reference_decline_per_year": 0.02,
+      "budget_multipliers_by_period": [
+        2.546632854348536,
+        1.807703592971332,
+        2.228468402867287
+      ],
+      "investment_priority": [
+        0.606093621069353,
+        1.7144671744667743,
+        3.4991041748511478,
+        3.4991041748511478,
+        0.7055700652891232,
+        0.7055700652891232,
+        3.4991041748511478,
+        2.4440562389698384,
+        2.4440562389698384,
+        0.9090914324242644,
+        0.9090914324242644,
+        0.9090914324242644
+      ]
+    },
+    "mechanisms": {
+      "consumer_choice": "responsive",
+      "carbon_feedback": true,
+      "investor_profit_response": true,
+      "investor_utilisation_response": true,
+      "construction_years": "native",
+      "investor_profit_rule": "origin_anchored",
+      "coal_import_channel": "gross_trade",
+      "market_price_rule": "step"
+    }
+  },
+  "plan_01097": {
+    "scenario": {
+      "name": "plan_01097",
+      "gdp_growth": [
+        0.045,
+        0.03,
+        0.018
+      ],
+      "carbon_price_start_cny_t": 100,
+      "carbon_price_drift_cny_t": 11.813028682162916,
+      "cost_decline_per_year": 0.015,
+      "efficiency_improvement_per_year": 0.0,
+      "carbon_feedback": true,
+      "investment_feedback": true,
+      "cost_response": true,
+      "annual_budget_multiplier": 1.0,
+      "reserve_multiplier": 1.0,
+      "import_multiplier": 1.0,
+      "supply_multiplier": 1.0,
+      "annual_shock_years": [],
+      "biomass_feedstock_growth_per_year": 0.02,
+      "carbon_reference_decline_per_year": 0.02,
+      "budget_multipliers_by_period": [
+        2.2629187904203323,
+        2.427573925911753,
+        2.497863159705239
+      ],
+      "investment_priority": [
+        1.2489498075652778,
+        1.82543341476594,
+        1.0284366904007534,
+        1.0284366904007534,
+        0.5293058460462117,
+        0.5293058460462117,
+        1.0284366904007534,
+        3.4518076341777384,
+        3.4518076341777384,
+        0.8887096768432716,
+        0.8887096768432716,
+        0.8887096768432716
+      ]
+    },
+    "mechanisms": {
+      "consumer_choice": "responsive",
+      "carbon_feedback": true,
+      "investor_profit_response": true,
+      "investor_utilisation_response": true,
+      "construction_years": "native",
+      "investor_profit_rule": "origin_anchored",
+      "coal_import_channel": "gross_trade",
+      "market_price_rule": "step"
+    }
+  },
+  "plan_01400": {
+    "scenario": {
+      "name": "plan_01400",
+      "gdp_growth": [
+        0.045,
+        0.03,
+        0.018
+      ],
+      "carbon_price_start_cny_t": 100,
+      "carbon_price_drift_cny_t": 14.934035981956184,
+      "cost_decline_per_year": 0.015,
+      "efficiency_improvement_per_year": 0.0,
+      "carbon_feedback": true,
+      "investment_feedback": true,
+      "cost_response": true,
+      "annual_budget_multiplier": 1.0,
+      "reserve_multiplier": 1.0,
+      "import_multiplier": 1.0,
+      "supply_multiplier": 1.0,
+      "annual_shock_years": [],
+      "biomass_feedstock_growth_per_year": 0.02,
+      "carbon_reference_decline_per_year": 0.02,
+      "budget_multipliers_by_period": [
+        2.085398506224621,
+        1.7526862672331869,
+        2.485892628590996
+      ],
+      "investment_priority": [
+        1.7010810643048475,
+        1.1724671576844703,
+        3.7597869444491376,
+        3.7597869444491376,
+        1.6385793861079951,
+        1.6385793861079951,
+        3.7597869444491376,
+        3.857061413450579,
+        3.857061413450579,
+        1.2562751679768511,
+        1.2562751679768511,
+        1.2562751679768511
+      ]
+    },
+    "mechanisms": {
+      "consumer_choice": "responsive",
+      "carbon_feedback": true,
+      "investor_profit_response": true,
+      "investor_utilisation_response": true,
+      "construction_years": "native",
+      "investor_profit_rule": "origin_anchored",
+      "coal_import_channel": "gross_trade",
+      "market_price_rule": "step"
+    }
+  },
+  "plan_00938": {
+    "scenario": {
+      "name": "plan_00938",
+      "gdp_growth": [
+        0.045,
+        0.03,
+        0.018
+      ],
+      "carbon_price_start_cny_t": 100,
+      "carbon_price_drift_cny_t": 12.09263838318145,
+      "cost_decline_per_year": 0.015,
+      "efficiency_improvement_per_year": 0.0,
+      "carbon_feedback": true,
+      "investment_feedback": true,
+      "cost_response": true,
+      "annual_budget_multiplier": 1.0,
+      "reserve_multiplier": 1.0,
+      "import_multiplier": 1.0,
+      "supply_multiplier": 1.0,
+      "annual_shock_years": [],
+      "biomass_feedstock_growth_per_year": 0.02,
+      "carbon_reference_decline_per_year": 0.02,
+      "budget_multipliers_by_period": [
+        1.8458899185396505,
+        1.8981429864645063,
+        0.8837554730865841
+      ],
+      "investment_priority": [
+        1.7563731512681828,
+        1.1700679628438335,
+        0.8999655287498294,
+        0.8999655287498294,
+        0.5141212370182986,
+        0.5141212370182986,
+        0.8999655287498294,
+        3.558967069495885,
+        3.558967069495885,
+        0.8946480285344612,
+        0.8946480285344612,
+        0.8946480285344612
+      ]
+    },
+    "mechanisms": {
+      "consumer_choice": "responsive",
+      "carbon_feedback": true,
+      "investor_profit_response": true,
+      "investor_utilisation_response": true,
+      "construction_years": "native",
+      "investor_profit_rule": "origin_anchored",
+      "coal_import_channel": "gross_trade",
+      "market_price_rule": "step"
+    }
+  },
+  "plan_02349": {
+    "scenario": {
+      "name": "plan_02349",
+      "gdp_growth": [
+        0.045,
+        0.03,
+        0.018
+      ],
+      "carbon_price_start_cny_t": 100,
+      "carbon_price_drift_cny_t": 10.293106179403145,
+      "cost_decline_per_year": 0.015,
+      "efficiency_improvement_per_year": 0.0,
+      "carbon_feedback": true,
+      "investment_feedback": true,
+      "cost_response": true,
+      "annual_budget_multiplier": 1.0,
+      "reserve_multiplier": 1.0,
+      "import_multiplier": 1.0,
+      "supply_multiplier": 1.0,
+      "annual_shock_years": [],
+      "biomass_feedstock_growth_per_year": 0.02,
+      "carbon_reference_decline_per_year": 0.02,
+      "budget_multipliers_by_period": [
+        1.7298512567507682,
+        1.1988275759449023,
+        2.4259998333064035
+      ],
+      "investment_priority": [
+        0.807853541147624,
+        0.4084936696104824,
+        2.673349222147448,
+        2.673349222147448,
+        0.6949543075151781,
+        0.6949543075151781,
+        2.673349222147448,
+        2.3444183895391304,
+        2.3444183895391304,
+        0.9586860508150612,
+        0.9586860508150612,
+        0.9586860508150612
+      ]
+    },
+    "mechanisms": {
+      "consumer_choice": "responsive",
+      "carbon_feedback": true,
+      "investor_profit_response": true,
+      "investor_utilisation_response": true,
+      "construction_years": "native",
+      "investor_profit_rule": "origin_anchored",
+      "coal_import_channel": "gross_trade",
+      "market_price_rule": "step"
+    }
+  }
+}

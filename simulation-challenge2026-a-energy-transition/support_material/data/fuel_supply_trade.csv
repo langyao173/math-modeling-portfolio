@@ -1,0 +1,47 @@
+﻿year,fuel_class,unit,production,imports,exports,stock_change,consumption,source_id,scope
+2005,coal_balance,million_tonnes,2365.15,26.22,71.73,35.45,2433.75,nbs_yearbook_2025_9_5,Energy balance; petroleum production is crude oil but petroleum trade includes products; keep statistical discrepancy
+2010,coal_balance,million_tonnes,3428.45,183.07,19.11,-36.63,3490.08,nbs_yearbook_2025_9_5,Energy balance; petroleum production is crude oil but petroleum trade includes products; keep statistical discrepancy
+2015,coal_balance,million_tonnes,3746.54,204.06,5.34,25.47,3998.34,nbs_yearbook_2025_9_5,Energy balance; petroleum production is crude oil but petroleum trade includes products; keep statistical discrepancy
+2020,coal_balance,million_tonnes,3788.26,303.61,3.19,-28.6,4002.99,nbs_yearbook_2025_9_5,Energy balance; petroleum production is crude oil but petroleum trade includes products; keep statistical discrepancy
+2022,coal_balance,million_tonnes,4404.19,293.7,4.01,-79.47,4449.56,nbs_yearbook_2025_9_5,Energy balance; petroleum production is crude oil but petroleum trade includes products; keep statistical discrepancy
+2023,coal_balance,million_tonnes,4541.24,474.81,4.47,-105.12,4707.55,nbs_yearbook_2025_9_5,Energy balance; petroleum production is crude oil but petroleum trade includes products; keep statistical discrepancy
+2005,petroleum_balance,million_tonnes,181.35,171.63,28.88,1.29,325.47,nbs_yearbook_2025_9_4,Energy balance; petroleum production is crude oil but petroleum trade includes products; keep statistical discrepancy
+2010,petroleum_balance,million_tonnes,203.01,294.37,40.79,-14.81,441.01,nbs_yearbook_2025_9_4,Energy balance; petroleum production is crude oil but petroleum trade includes products; keep statistical discrepancy
+2015,petroleum_balance,million_tonnes,214.56,397.49,51.28,-3.88,559.6,nbs_yearbook_2025_9_4,Energy balance; petroleum production is crude oil but petroleum trade includes products; keep statistical discrepancy
+2020,petroleum_balance,million_tonnes,194.77,612.72,75.51,-56.44,653.69,nbs_yearbook_2025_9_4,Energy balance; petroleum production is crude oil but petroleum trade includes products; keep statistical discrepancy
+2022,petroleum_balance,million_tonnes,204.72,587.01,67.04,-16.59,693.21,nbs_yearbook_2025_9_4,Energy balance; petroleum production is crude oil but petroleum trade includes products; keep statistical discrepancy
+2023,petroleum_balance,million_tonnes,209.03,668.12,75.63,-31.24,751.37,nbs_yearbook_2025_9_4,Energy balance; petroleum production is crude oil but petroleum trade includes products; keep statistical discrepancy
+2010,raw_coal_output,million_tonnes,3428.0,,,,,nbs_yearbook_2025_9_19,"Raw output, not standard coal; natural gas 2024 consumption is NDRC apparent consumption; no mass/volume mixing"
+2010,natural_gas_volume,billion_m3,95.791,,,,,nbs_yearbook_2025_9_19,"Raw output, not standard coal; natural gas 2024 consumption is NDRC apparent consumption; no mass/volume mixing"
+2011,raw_coal_output,million_tonnes,3764.0,,,,,nbs_yearbook_2025_9_19,"Raw output, not standard coal; natural gas 2024 consumption is NDRC apparent consumption; no mass/volume mixing"
+2011,natural_gas_volume,billion_m3,105.33699999999999,,,,,nbs_yearbook_2025_9_19,"Raw output, not standard coal; natural gas 2024 consumption is NDRC apparent consumption; no mass/volume mixing"
+2012,raw_coal_output,million_tonnes,3945.0000000000005,,,,,nbs_yearbook_2025_9_19,"Raw output, not standard coal; natural gas 2024 consumption is NDRC apparent consumption; no mass/volume mixing"
+2012,natural_gas_volume,billion_m3,110.608,,,,,nbs_yearbook_2025_9_19,"Raw output, not standard coal; natural gas 2024 consumption is NDRC apparent consumption; no mass/volume mixing"
+2013,raw_coal_output,million_tonnes,3974.0,,,,,nbs_yearbook_2025_9_19,"Raw output, not standard coal; natural gas 2024 consumption is NDRC apparent consumption; no mass/volume mixing"
+2013,natural_gas_volume,billion_m3,120.858,,,,,nbs_yearbook_2025_9_19,"Raw output, not standard coal; natural gas 2024 consumption is NDRC apparent consumption; no mass/volume mixing"
+2014,raw_coal_output,million_tonnes,3874.0,,,,,nbs_yearbook_2025_9_19,"Raw output, not standard coal; natural gas 2024 consumption is NDRC apparent consumption; no mass/volume mixing"
+2014,natural_gas_volume,billion_m3,130.157,,,,,nbs_yearbook_2025_9_19,"Raw output, not standard coal; natural gas 2024 consumption is NDRC apparent consumption; no mass/volume mixing"
+2015,raw_coal_output,million_tonnes,3747.0,,,,,nbs_yearbook_2025_9_19,"Raw output, not standard coal; natural gas 2024 consumption is NDRC apparent consumption; no mass/volume mixing"
+2015,natural_gas_volume,billion_m3,134.60999999999999,,,,,nbs_yearbook_2025_9_19,"Raw output, not standard coal; natural gas 2024 consumption is NDRC apparent consumption; no mass/volume mixing"
+2016,raw_coal_output,million_tonnes,3411.0,,,,,nbs_yearbook_2025_9_19,"Raw output, not standard coal; natural gas 2024 consumption is NDRC apparent consumption; no mass/volume mixing"
+2016,natural_gas_volume,billion_m3,136.865,,,,,nbs_yearbook_2025_9_19,"Raw output, not standard coal; natural gas 2024 consumption is NDRC apparent consumption; no mass/volume mixing"
+2017,raw_coal_output,million_tonnes,3524.0,,,,,nbs_yearbook_2025_9_19,"Raw output, not standard coal; natural gas 2024 consumption is NDRC apparent consumption; no mass/volume mixing"
+2017,natural_gas_volume,billion_m3,148.035,,,,,nbs_yearbook_2025_9_19,"Raw output, not standard coal; natural gas 2024 consumption is NDRC apparent consumption; no mass/volume mixing"
+2018,raw_coal_output,million_tonnes,3697.9999999999995,,,,,nbs_yearbook_2025_9_19,"Raw output, not standard coal; natural gas 2024 consumption is NDRC apparent consumption; no mass/volume mixing"
+2018,natural_gas_volume,billion_m3,160.159,,,,,nbs_yearbook_2025_9_19,"Raw output, not standard coal; natural gas 2024 consumption is NDRC apparent consumption; no mass/volume mixing"
+2019,raw_coal_output,million_tonnes,3846.0,,,,,nbs_yearbook_2025_9_19,"Raw output, not standard coal; natural gas 2024 consumption is NDRC apparent consumption; no mass/volume mixing"
+2019,natural_gas_volume,billion_m3,175.362,,,,,nbs_yearbook_2025_9_19,"Raw output, not standard coal; natural gas 2024 consumption is NDRC apparent consumption; no mass/volume mixing"
+2020,raw_coal_output,million_tonnes,3902.0000000000005,,,,,nbs_yearbook_2025_9_19,"Raw output, not standard coal; natural gas 2024 consumption is NDRC apparent consumption; no mass/volume mixing"
+2020,natural_gas_volume,billion_m3,192.495,,,,,nbs_yearbook_2025_9_19,"Raw output, not standard coal; natural gas 2024 consumption is NDRC apparent consumption; no mass/volume mixing"
+2021,raw_coal_output,million_tonnes,4126.0,,,,,nbs_yearbook_2025_9_19,"Raw output, not standard coal; natural gas 2024 consumption is NDRC apparent consumption; no mass/volume mixing"
+2021,natural_gas_volume,billion_m3,207.58400000000003,,,,,nbs_yearbook_2025_9_19,"Raw output, not standard coal; natural gas 2024 consumption is NDRC apparent consumption; no mass/volume mixing"
+2022,raw_coal_output,million_tonnes,4559.0,,,,,nbs_yearbook_2025_9_19,"Raw output, not standard coal; natural gas 2024 consumption is NDRC apparent consumption; no mass/volume mixing"
+2022,natural_gas_volume,billion_m3,220.11,,,,,nbs_yearbook_2025_9_19,"Raw output, not standard coal; natural gas 2024 consumption is NDRC apparent consumption; no mass/volume mixing"
+2023,raw_coal_output,million_tonnes,4723.0,,,,,nbs_yearbook_2025_9_19,"Raw output, not standard coal; natural gas 2024 consumption is NDRC apparent consumption; no mass/volume mixing"
+2023,natural_gas_volume,billion_m3,232.43000000000004,,,,,nbs_yearbook_2025_9_19,"Raw output, not standard coal; natural gas 2024 consumption is NDRC apparent consumption; no mass/volume mixing"
+2024,raw_coal_output,million_tonnes,4781.0,,,,,nbs_yearbook_2025_9_19,"Raw output, not standard coal; natural gas 2024 consumption is NDRC apparent consumption; no mass/volume mixing"
+2024,natural_gas_volume,billion_m3,246.45100000000002,,,,426.05,nbs_yearbook_2025_9_19;ndrc_gas_consumption_2024,"Raw output, not standard coal; natural gas 2024 consumption is NDRC apparent consumption; no mass/volume mixing"
+2024,crude_oil,million_tonnes,212.8909,553.42,,,,nbs_communique_2024;nbs_yearbook_2025_9_17,Production yearbook 9-17; crude imports NBS 2024 communique; exports/stocks/consumption unobserved here
+2024,coal_and_lignite_trade,million_tonnes,,542.7,,,,nbs_communique_2024,NBS communique customs coal and lignite imports; not a complete raw-coal balance
+2024,petroleum_products_trade,million_tonnes,,48.23,,,,nbs_communique_2024,NBS communique customs petroleum-product imports; separate from crude oil
+2024,natural_gas_import_mass,million_tonnes,,131.69,,,,nbs_communique_2024,NBS communique customs LNG+pipeline gas import mass; do not divide by domestic bcm output

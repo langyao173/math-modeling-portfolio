@@ -1,0 +1,26 @@
+outer_fold,candidate,inner_bootstrap_win_frequency,hard_selected,interpretation
+0,rank_pca64_y16_no_residual,0.001,False,Fixed-inner-OOF conditional row bootstrap; no base-model refit
+0,rank_pca64_y16_ridge_residual,0.0,False,Fixed-inner-OOF conditional row bootstrap; no base-model refit
+0,raw231_y16_no_residual,0.759,True,Fixed-inner-OOF conditional row bootstrap; no base-model refit
+0,raw231_y16_ridge_residual,0.0,False,Fixed-inner-OOF conditional row bootstrap; no base-model refit
+0,raw231_y50_native,0.24,False,Fixed-inner-OOF conditional row bootstrap; no base-model refit
+1,rank_pca64_y16_no_residual,0.0,False,Fixed-inner-OOF conditional row bootstrap; no base-model refit
+1,rank_pca64_y16_ridge_residual,0.0,False,Fixed-inner-OOF conditional row bootstrap; no base-model refit
+1,raw231_y16_no_residual,0.567,True,Fixed-inner-OOF conditional row bootstrap; no base-model refit
+1,raw231_y16_ridge_residual,0.0,False,Fixed-inner-OOF conditional row bootstrap; no base-model refit
+1,raw231_y50_native,0.433,False,Fixed-inner-OOF conditional row bootstrap; no base-model refit
+2,rank_pca64_y16_no_residual,0.0,False,Fixed-inner-OOF conditional row bootstrap; no base-model refit
+2,rank_pca64_y16_ridge_residual,0.0,False,Fixed-inner-OOF conditional row bootstrap; no base-model refit
+2,raw231_y16_no_residual,0.296,False,Fixed-inner-OOF conditional row bootstrap; no base-model refit
+2,raw231_y16_ridge_residual,0.0,False,Fixed-inner-OOF conditional row bootstrap; no base-model refit
+2,raw231_y50_native,0.704,True,Fixed-inner-OOF conditional row bootstrap; no base-model refit
+3,rank_pca64_y16_no_residual,0.0,False,Fixed-inner-OOF conditional row bootstrap; no base-model refit
+3,rank_pca64_y16_ridge_residual,0.0,False,Fixed-inner-OOF conditional row bootstrap; no base-model refit
+3,raw231_y16_no_residual,0.985,True,Fixed-inner-OOF conditional row bootstrap; no base-model refit
+3,raw231_y16_ridge_residual,0.0,False,Fixed-inner-OOF conditional row bootstrap; no base-model refit
+3,raw231_y50_native,0.015,False,Fixed-inner-OOF conditional row bootstrap; no base-model refit
+4,rank_pca64_y16_no_residual,0.0,False,Fixed-inner-OOF conditional row bootstrap; no base-model refit
+4,rank_pca64_y16_ridge_residual,0.0,False,Fixed-inner-OOF conditional row bootstrap; no base-model refit
+4,raw231_y16_no_residual,0.099,False,Fixed-inner-OOF conditional row bootstrap; no base-model refit
+4,raw231_y16_ridge_residual,0.0,False,Fixed-inner-OOF conditional row bootstrap; no base-model refit
+4,raw231_y50_native,0.901,True,Fixed-inner-OOF conditional row bootstrap; no base-model refit

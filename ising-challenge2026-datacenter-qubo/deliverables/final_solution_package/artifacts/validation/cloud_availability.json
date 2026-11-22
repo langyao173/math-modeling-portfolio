@@ -1,0 +1,8 @@
+{
+  "use_cloud_requested": true,
+  "plectrum_api_key_present": true,
+  "cloud_families_requested": [
+    "peak_shave_lns"
+  ],
+  "cloud_rows": 1
+}

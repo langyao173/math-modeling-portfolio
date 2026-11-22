@@ -1,0 +1,401 @@
+{
+  "status": "PASS_ACTUAL_NATIVE_REPAIR_005_217_STATE_AND_PHYSICAL_AUDIT",
+  "candidate_id": "repair_005",
+  "started_utc": "2026-10-19T10:14:48Z",
+  "matlab_version": "26.1.0.3276743 (R2026a) Update 3",
+  "simulink": {
+    "Name": "Simulink",
+    "Version": "26.1",
+    "Release": "(R2026a)",
+    "Date": "20-Nov-2025"
+  },
+  "source_input_hashes_before": [
+    {
+      "path": "src/v12_native_repair.py",
+      "sha256": "6efd12892350c3069c72839e2c86c75ea4ed3be560a4fb91e4b37778305ce5e0"
+    },
+    {
+      "path": "tests/test_v12_native_repair.py",
+      "sha256": "d3dd2b25932ba7edc04cbdfbf1272693e67a0361b6786be95e3499f090bb4e9f"
+    },
+    {
+      "path": "simulation/v12/v12_annual_repair_audit.m",
+      "sha256": "03435650536f7a75ac0fd915039ee6860c6b9cf9e249cdce95e8528ef5b04f78"
+    },
+    {
+      "path": "src/v6_annual.py",
+      "sha256": "c48c5b15a65470fcb6ff1ded73f43cf2e4e3155b76a1709a5525ed75a71f81d8"
+    },
+    {
+      "path": "src/v5_planning.py",
+      "sha256": "85053aa435d611b67afcc221109e078e2d1b008ab0aedf87bb67cfb95ea3152e"
+    },
+    {
+      "path": "src/v5_annual.py",
+      "sha256": "cb76c80e61cd3e88ca0dca4bda14a5403013eda6ad493ba0b2da18649742ca97"
+    },
+    {
+      "path": "src/v3_annual.py",
+      "sha256": "61aaa876bafe81186aac72d7aeb8289b4924b7155a1de1fdc6ca7ba5ba1e737b"
+    },
+    {
+      "path": "src/v3_annual_calibrated.py",
+      "sha256": "aa01ebc38ee260e68632809ba33023ed6e249fb0684c9fcd56254dd0ca18495f"
+    },
+    {
+      "path": "src/v3_calibration_candidate.py",
+      "sha256": "468f6ea5d7efad0b15852b6ebcd7c96c584b22d4cc7adc804e9f22191ec01efb"
+    },
+    {
+      "path": "config/v3_transition.json",
+      "sha256": "a2019b12bdd9c5ca34a4af3ad36f742ac472b35ab152adea83ba1a3d3baf4b2f"
+    },
+    {
+      "path": "config/v6_annual_planning.json",
+      "sha256": "b7e50d1eab9257dc13dce446594c7f3ae10d27a39303ebb485034db9f3a6a007"
+    },
+    {
+      "path": "data/annual_china.csv",
+      "sha256": "2d87c3089eb99de84f38354ff9086d30134dcf1481715fec575a228ba2c09c6f"
+    },
+    {
+      "path": "data/ember_power_china.csv",
+      "sha256": "72ee74b02a7b5d670ead72c37b0b790a5982aaca059111c78877e21939cb5012"
+    },
+    {
+      "path": "data/supplement_carriers_2024.csv",
+      "sha256": "3364e05f29a52437b6fd89d4dddcf7a268942a82a5974cc627b4593f6c3deea0"
+    },
+    {
+      "path": "data/energy_production_china.csv",
+      "sha256": "b56ad05e90a5b94a243d2a4faff97081a8917d1ab854f201f7ab10b02a811527"
+    },
+    {
+      "path": "data/fuel_supply_trade.csv",
+      "sha256": "1ffe9642679b61603f4caf310b6ca15e5f912e1530d48f27a4b4a759a8ea7ffd"
+    },
+    {
+      "path": "data/v6_fuel_import_channels.csv",
+      "sha256": "36c170edaaa3e4f6f915973760fe2fb2fedbeb54bda18e118c1283e177eb084c"
+    },
+    {
+      "path": "simulation/v6/v6_annual_run.m",
+      "sha256": "401032a1db0213cff4f43e6d4937785525155828af6d862eaf547190a26bb13a"
+    },
+    {
+      "path": "simulation/v6/v6_annual_step.m",
+      "sha256": "bd3701f0d58edaf93e37ebce45479d753177a3455f6713870ec042b5909df092"
+    },
+    {
+      "path": "simulation/v6/v6_build_annual_model.m",
+      "sha256": "406295be2e3fb9b700f575d978fa6a422127bce24d493b1032e4ed44b07e0d70"
+    },
+    {
+      "path": "simulation/v6/V6_Energy_Transition_ABM.slx",
+      "sha256": "7d7df8fb8bc4d8364a138a03e8447196ff051cbc8469d7062e3045be08315459"
+    },
+    {
+      "path": "simulation/v3/v3_annual_expectations.m",
+      "sha256": "1df69f8de3c0374953c437eed260da896373a9444160dda0ed9591f6db17d5a8"
+    },
+    {
+      "path": "simulation/v3/v3_annual_forecast_level.m",
+      "sha256": "d6bae3e0d553a21c128acc6c94aeb5258b603ff9f82979e379fa763cbe0c145e"
+    },
+    {
+      "path": "simulation/v3/v3_execute.m",
+      "sha256": "ff164e0b8d3d38df56be8ece8974f1e1ea5f7431f84ae1bcb112c19744899451"
+    },
+    {
+      "path": "simulation/v3/v3_live_monitor.m",
+      "sha256": "ec24f39aaf4fe6c99bbc1f2ab801f798afc9c83c728146fecb5e898d10a47247"
+    },
+    {
+      "path": "outputs/v6/native/annual_native_inputs.mat",
+      "sha256": "94cc6b82ead014d9df0ad549056006a19647f9d682de151d17cb6f771ffe800e"
+    },
+    {
+      "path": "outputs/v11/robust_repair/selected_before_independent_test.json",
+      "sha256": "df756b264ceb0751311eac34ecd6882174abcef5217bb4b36f07ee519a388575"
+    },
+    {
+      "path": "outputs/v11/robust_repair/analysis.json",
+      "sha256": "5f558ed4272bf465803e4776820b0232637a289a2840313d346f921b4dda3ae7"
+    },
+    {
+      "path": "outputs/v12/native/native_controls.mat",
+      "sha256": "bccaa8cd289a88a7ca04c3b857ba2179dd9e6e32e7431920fad30e8021a9b367"
+    },
+    {
+      "path": "outputs/v12/native/python_reference.mat",
+      "sha256": "20863bf725784a627e7b6074a4dc21607707659b050aebde777e0d72cd26f5e5"
+    },
+    {
+      "path": "outputs/v12/native/python_states.csv",
+      "sha256": "c87d5e35fa6c7a9fd0cb300ec7aab393aa9d3409bba0158b835f53236600c114"
+    },
+    {
+      "path": "outputs/v12/native/python_raw_metrics.csv",
+      "sha256": "98a0236b04ab7acc158167dff114b4d26cbaa16239266002736910f9c7477ac3"
+    },
+    {
+      "path": "outputs/v12/native/python_trace.csv",
+      "sha256": "c575cd4028363fdaed2f622115c9eaaf480b5eb6d66757c76d79dc2d44e07c44"
+    },
+    {
+      "path": "outputs/v12/native/python_actions.csv",
+      "sha256": "1955e381af496f344a01b1012f6f8cc3c84a0de709f217538528ccc090ce7c18"
+    },
+    {
+      "path": "outputs/v12/native/python_summary.json",
+      "sha256": "2e4c347518130367fdcd26e76c4cd3d5d1fd3fb89d25a9842d14da7c7ae92a04"
+    }
+  ],
+  "preparation_manifest_sha256": "b0769924c89ef680875373aa8fe04148d52ebd5baf3aa90c3f12436bf24d69d4",
+  "native_input_boundary": "Original V6 observed initial state/fixed calibration plus constant factors only; reference values are read after native simulation",
+  "native_execution_returned_utc": "2026-10-19T10:15:11Z",
+  "native_runs": 1,
+  "annual_steps": 36,
+  "investor_actions": 432,
+  "state_values_compared": 7812,
+  "raw_metric_values_compared": 4752,
+  "trace_values_compared": 3672,
+  "action_values_compared": 6192,
+  "max_relative_error": 3.637978807091713E-12,
+  "max_absolute_error": 5.5879354476928711E-9,
+  "construction": {
+    "asset_max_error": 0,
+    "retirement_max_error": 0,
+    "queue_max_error": 0,
+    "commission_max_error": 0,
+    "build_cap_excess": 0
+  },
+  "physical": {
+    "fuel_balance_max_mtce": 4.5474735088646412E-13,
+    "stock_change_max_mtce": 0,
+    "power_balance_max_twh": 3.637978807091713E-12,
+    "domestic_supply_cap_excess_mtce": 5.6843418860808015E-14,
+    "import_supply_cap_excess_mtce": 0,
+    "power_fuel_error_mtce": 0,
+    "biomass_budget_excess_twh": 0,
+    "minimum_fuel_stock_mtce": 56.839414876789078
+  },
+  "capital": {
+    "budget_excess_million_cny": 9.3132257461547852E-10,
+    "action_spend_error_million_cny": 9.3132257461547852E-10,
+    "raw_spend_error_million_cny": 9.3132257461547852E-10,
+    "discounted_capital_trillion_cny": 74.579354390001086,
+    "paid_capital_trillion_cny": 164.71084784760251
+  },
+  "nominal_net_emissions_2060_mt": 10065.198603031837,
+  "executed_inputs": {
+    "case_name": "baseline",
+    "scenario": {
+      "name": "repair_005",
+      "gdp_growth": [
+        0.045,
+        0.03,
+        0.018
+      ],
+      "carbon_price_start_cny_t": 100,
+      "carbon_price_drift_cny_t": 10.293106179403145,
+      "cost_decline_per_year": 0.015,
+      "efficiency_improvement_per_year": 0,
+      "carbon_feedback": true,
+      "investment_feedback": true,
+      "cost_response": true,
+      "annual_budget_multiplier": 1,
+      "reserve_multiplier": 1,
+      "import_multiplier": 1,
+      "supply_multiplier": 1,
+      "annual_shock_years": [],
+      "biomass_feedstock_growth_per_year": 0.02,
+      "carbon_reference_decline_per_year": 0.02,
+      "budget_multipliers_by_period": [
+        3,
+        3,
+        3
+      ],
+      "investment_priority": [
+        2,
+        0.1,
+        2.673349222147448,
+        2.673349222147448,
+        0.69495430751517806,
+        0.69495430751517806,
+        2.673349222147448,
+        2.3444183895391304,
+        2.3444183895391304,
+        2,
+        2,
+        2
+      ]
+    },
+    "mechanisms": {
+      "consumer_choice": "responsive",
+      "carbon_feedback": true,
+      "investor_profit_response": true,
+      "investor_utilisation_response": true,
+      "construction_years": "native",
+      "investor_profit_rule": "origin_anchored",
+      "coal_import_channel": "gross_trade",
+      "market_price_rule": "step"
+    },
+    "native_input_file": "outputs/v6/native/annual_native_inputs.mat",
+    "native_input_sha256": "94cc6b82ead014d9df0ad549056006a19647f9d682de151d17cb6f771ffe800e",
+    "scope": "Fixed initial observations and calibrated parameters plus resolved policies/mechanisms; no future Python state or control path"
+  },
+  "source_input_hashes_after": [
+    {
+      "path": "src/v12_native_repair.py",
+      "sha256": "6efd12892350c3069c72839e2c86c75ea4ed3be560a4fb91e4b37778305ce5e0"
+    },
+    {
+      "path": "tests/test_v12_native_repair.py",
+      "sha256": "d3dd2b25932ba7edc04cbdfbf1272693e67a0361b6786be95e3499f090bb4e9f"
+    },
+    {
+      "path": "simulation/v12/v12_annual_repair_audit.m",
+      "sha256": "03435650536f7a75ac0fd915039ee6860c6b9cf9e249cdce95e8528ef5b04f78"
+    },
+    {
+      "path": "src/v6_annual.py",
+      "sha256": "c48c5b15a65470fcb6ff1ded73f43cf2e4e3155b76a1709a5525ed75a71f81d8"
+    },
+    {
+      "path": "src/v5_planning.py",
+      "sha256": "85053aa435d611b67afcc221109e078e2d1b008ab0aedf87bb67cfb95ea3152e"
+    },
+    {
+      "path": "src/v5_annual.py",
+      "sha256": "cb76c80e61cd3e88ca0dca4bda14a5403013eda6ad493ba0b2da18649742ca97"
+    },
+    {
+      "path": "src/v3_annual.py",
+      "sha256": "61aaa876bafe81186aac72d7aeb8289b4924b7155a1de1fdc6ca7ba5ba1e737b"
+    },
+    {
+      "path": "src/v3_annual_calibrated.py",
+      "sha256": "aa01ebc38ee260e68632809ba33023ed6e249fb0684c9fcd56254dd0ca18495f"
+    },
+    {
+      "path": "src/v3_calibration_candidate.py",
+      "sha256": "468f6ea5d7efad0b15852b6ebcd7c96c584b22d4cc7adc804e9f22191ec01efb"
+    },
+    {
+      "path": "config/v3_transition.json",
+      "sha256": "a2019b12bdd9c5ca34a4af3ad36f742ac472b35ab152adea83ba1a3d3baf4b2f"
+    },
+    {
+      "path": "config/v6_annual_planning.json",
+      "sha256": "b7e50d1eab9257dc13dce446594c7f3ae10d27a39303ebb485034db9f3a6a007"
+    },
+    {
+      "path": "data/annual_china.csv",
+      "sha256": "2d87c3089eb99de84f38354ff9086d30134dcf1481715fec575a228ba2c09c6f"
+    },
+    {
+      "path": "data/ember_power_china.csv",
+      "sha256": "72ee74b02a7b5d670ead72c37b0b790a5982aaca059111c78877e21939cb5012"
+    },
+    {
+      "path": "data/supplement_carriers_2024.csv",
+      "sha256": "3364e05f29a52437b6fd89d4dddcf7a268942a82a5974cc627b4593f6c3deea0"
+    },
+    {
+      "path": "data/energy_production_china.csv",
+      "sha256": "b56ad05e90a5b94a243d2a4faff97081a8917d1ab854f201f7ab10b02a811527"
+    },
+    {
+      "path": "data/fuel_supply_trade.csv",
+      "sha256": "1ffe9642679b61603f4caf310b6ca15e5f912e1530d48f27a4b4a759a8ea7ffd"
+    },
+    {
+      "path": "data/v6_fuel_import_channels.csv",
+      "sha256": "36c170edaaa3e4f6f915973760fe2fb2fedbeb54bda18e118c1283e177eb084c"
+    },
+    {
+      "path": "simulation/v6/v6_annual_run.m",
+      "sha256": "401032a1db0213cff4f43e6d4937785525155828af6d862eaf547190a26bb13a"
+    },
+    {
+      "path": "simulation/v6/v6_annual_step.m",
+      "sha256": "bd3701f0d58edaf93e37ebce45479d753177a3455f6713870ec042b5909df092"
+    },
+    {
+      "path": "simulation/v6/v6_build_annual_model.m",
+      "sha256": "406295be2e3fb9b700f575d978fa6a422127bce24d493b1032e4ed44b07e0d70"
+    },
+    {
+      "path": "simulation/v6/V6_Energy_Transition_ABM.slx",
+      "sha256": "7d7df8fb8bc4d8364a138a03e8447196ff051cbc8469d7062e3045be08315459"
+    },
+    {
+      "path": "simulation/v3/v3_annual_expectations.m",
+      "sha256": "1df69f8de3c0374953c437eed260da896373a9444160dda0ed9591f6db17d5a8"
+    },
+    {
+      "path": "simulation/v3/v3_annual_forecast_level.m",
+      "sha256": "d6bae3e0d553a21c128acc6c94aeb5258b603ff9f82979e379fa763cbe0c145e"
+    },
+    {
+      "path": "simulation/v3/v3_execute.m",
+      "sha256": "ff164e0b8d3d38df56be8ece8974f1e1ea5f7431f84ae1bcb112c19744899451"
+    },
+    {
+      "path": "simulation/v3/v3_live_monitor.m",
+      "sha256": "ec24f39aaf4fe6c99bbc1f2ab801f798afc9c83c728146fecb5e898d10a47247"
+    },
+    {
+      "path": "outputs/v6/native/annual_native_inputs.mat",
+      "sha256": "94cc6b82ead014d9df0ad549056006a19647f9d682de151d17cb6f771ffe800e"
+    },
+    {
+      "path": "outputs/v11/robust_repair/selected_before_independent_test.json",
+      "sha256": "df756b264ceb0751311eac34ecd6882174abcef5217bb4b36f07ee519a388575"
+    },
+    {
+      "path": "outputs/v11/robust_repair/analysis.json",
+      "sha256": "5f558ed4272bf465803e4776820b0232637a289a2840313d346f921b4dda3ae7"
+    },
+    {
+      "path": "outputs/v12/native/native_controls.mat",
+      "sha256": "bccaa8cd289a88a7ca04c3b857ba2179dd9e6e32e7431920fad30e8021a9b367"
+    },
+    {
+      "path": "outputs/v12/native/python_reference.mat",
+      "sha256": "20863bf725784a627e7b6074a4dc21607707659b050aebde777e0d72cd26f5e5"
+    },
+    {
+      "path": "outputs/v12/native/python_states.csv",
+      "sha256": "c87d5e35fa6c7a9fd0cb300ec7aab393aa9d3409bba0158b835f53236600c114"
+    },
+    {
+      "path": "outputs/v12/native/python_raw_metrics.csv",
+      "sha256": "98a0236b04ab7acc158167dff114b4d26cbaa16239266002736910f9c7477ac3"
+    },
+    {
+      "path": "outputs/v12/native/python_trace.csv",
+      "sha256": "c575cd4028363fdaed2f622115c9eaaf480b5eb6d66757c76d79dc2d44e07c44"
+    },
+    {
+      "path": "outputs/v12/native/python_actions.csv",
+      "sha256": "1955e381af496f344a01b1012f6f8cc3c84a0de709f217538528ccc090ce7c18"
+    },
+    {
+      "path": "outputs/v12/native/python_summary.json",
+      "sha256": "2e4c347518130367fdcd26e76c4cd3d5d1fd3fb89d25a9842d14da7c7ae92a04"
+    }
+  ],
+  "output_hashes": {
+    "native_trace_csv": "28cd581104185dda3e318bcad89a12d9e12d265937b6576eb622b05d0faae253",
+    "native_actions_csv": "4f6b7ee5b9535d6175394ed8d80251f5465cbc3c0312e446915b29f1fbff7942",
+    "native_states_csv": "c3c939bcb99d7ddd83646698268742a97b11069a612547b84ebf22c1cba0dc3e",
+    "native_raw_metrics_csv": "bb8db23e40199ede461d6d5c9aec60864c56fed3ea92c749160fe35ecc367192",
+    "native_executed_inputs_json": "5cb28e801d84c9630921ab320a79b7c2336373adcdb82e354d9329dac424ef56"
+  },
+  "model_path": "simulation/v6/V6_Energy_Transition_ABM.slx",
+  "model_sha256": "7d7df8fb8bc4d8364a138a03e8447196ff051cbc8469d7062e3045be08315459",
+  "scope": "One frozen nominal repair_005 native annual execution. Implementation parity and physical accounting only; no new robustness search or independent-design retest.",
+  "completed_utc": "2026-10-19T10:15:15Z"
+}

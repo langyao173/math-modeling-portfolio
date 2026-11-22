@@ -1,0 +1,169 @@
+{
+ "reference_split_R2": {
+  "ET, 50 outputs": 0.2197,
+  "ET, 16-d low rank": 0.217,
+  "KRR, 16-d low rank": 0.171,
+  "style prior": 0.0995,
+  "fusion of chemistry branches": 0.2193,
+  "fusion incl. style prior": 0.2243
+ },
+ "repeated_mean_R2": {
+  "ET, 16-d low rank": 0.2264,
+  "ET, 50 outputs": 0.2317,
+  "KRR, 16-d low rank": 0.1915,
+  "fusion incl. style prior": 0.2381,
+  "fusion of chemistry branches": 0.2321,
+  "style prior": 0.1159
+ },
+ "repeated_sd_R2": {
+  "ET, 16-d low rank": 0.0196,
+  "ET, 50 outputs": 0.0194,
+  "KRR, 16-d low rank": 0.0202,
+  "fusion incl. style prior": 0.0173,
+  "fusion of chemistry branches": 0.0194,
+  "style prior": 0.0459
+ },
+ "best_minus_ET_mean": 0.006473376507239753,
+ "best_minus_ET_se": 0.002000178572669385,
+ "best_beats_ET_in_splits": 9,
+ "best_minus_GBR_rerun_mean": 0.06895898344723092,
+ "best_beats_GBR_rerun_in_splits": 10,
+ "mean_weight_style_prior": 0.22167905072922356,
+ "attributes_where_chemistry_adds_over_style_gt_0.05": {
+  "clove": 0.473,
+  "acetic": 0.198,
+  "orange": 0.197,
+  "sweetness": 0.191,
+  "diacetyl": 0.186,
+  "A_esters_flower": 0.185,
+  "F_esters_flower": 0.179,
+  "F_esters_ethac": 0.178,
+  "coriander": 0.174,
+  "overall": 0.163,
+  "A_malt_burn": 0.157,
+  "F_hops_tropical": 0.156,
+  "A_esters_ethac": 0.153,
+  "A_hops_citrus": 0.145,
+  "F_esters_all": 0.143,
+  "bitternes": 0.141,
+  "F_esters_isoaa": 0.14,
+  "A_esters_all": 0.137,
+  "A_esters_isoaa": 0.132,
+  "acidity": 0.132,
+  "lactic": 0.132,
+  "aftertaste": 0.131,
+  "dms": 0.117,
+  "F_malt_cara": 0.113,
+  "F_malt_bread": 0.112,
+  "X4vg": 0.11,
+  "F_malt_burn": 0.109,
+  "co2": 0.108,
+  "A_hops_noble": 0.103,
+  "F_esters_fruity": 0.102,
+  "t2n": 0.1,
+  "F_malt_grain": 0.099,
+  "A_hops_all": 0.096,
+  "F_hops_all": 0.095,
+  "A_hops_tropical": 0.094,
+  "A_hops_woody": 0.091,
+  "F_hops_woody": 0.087,
+  "A_malt_grain": 0.086,
+  "F_hops_noble": 0.086,
+  "A_malt_cara": 0.084,
+  "F_hops_citrus": 0.082,
+  "A_malt_bread": 0.065,
+  "A_malt_all": 0.062,
+  "F_malt_all": 0.059,
+  "metallic": 0.052,
+  "body": 0.051
+ },
+ "attributes_best_r2_top5": {
+  "alcohol": 0.701,
+  "acidity": 0.7,
+  "lactic": 0.694,
+  "acetic": 0.63,
+  "bitternes": 0.587
+ },
+ "key_compound_within_style": {
+  "panel: 4VG note ~ 4-vinylguaiacol": [
+   0.434,
+   0.308,
+   0.54
+  ],
+  "panel: 4VG note ~ eugenol": [
+   0.091,
+   -0.052,
+   0.245
+  ],
+  "panel: 4VG note ~ 4-ethylguaiacol": [
+   -0.094,
+   -0.233,
+   0.055
+  ],
+  "panel: 4VG note ~ 4-ethylphenol": [
+   -0.033,
+   -0.174,
+   0.109
+  ],
+  "panel: clove ~ 4-vinylguaiacol": [
+   0.19,
+   0.054,
+   0.321
+  ],
+  "panel: clove ~ eugenol": [
+   -0.124,
+   -0.262,
+   0.007
+  ],
+  "panel: clove ~ 4-ethylguaiacol": [
+   -0.023,
+   -0.16,
+   0.106
+  ],
+  "panel: clove ~ 4-ethylphenol": [
+   0.017,
+   -0.12,
+   0.151
+  ],
+  "consumers: clove aroma ~ 4-vinylguaiacol": [
+   0.247,
+   0.093,
+   0.385
+  ],
+  "consumers: clove aroma ~ eugenol": [
+   -0.004,
+   -0.144,
+   0.137
+  ],
+  "consumers: clove aroma ~ 4-ethylguaiacol": [
+   -0.056,
+   -0.183,
+   0.057
+  ],
+  "consumers: clove aroma ~ 4-ethylphenol": [
+   0.024,
+   -0.113,
+   0.142
+  ],
+  "consumers: clove taste ~ 4-vinylguaiacol": [
+   0.26,
+   0.12,
+   0.402
+  ],
+  "consumers: clove taste ~ eugenol": [
+   0.054,
+   -0.08,
+   0.184
+  ],
+  "consumers: clove taste ~ 4-ethylguaiacol": [
+   -0.007,
+   -0.157,
+   0.129
+  ],
+  "consumers: clove taste ~ 4-ethylphenol": [
+   0.064,
+   -0.076,
+   0.197
+  ]
+ }
+}

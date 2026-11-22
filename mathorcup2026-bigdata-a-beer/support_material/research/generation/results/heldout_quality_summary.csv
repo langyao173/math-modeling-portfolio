@@ -1,0 +1,13 @@
+policy,method,evaluation_population,validation_beers,unique_beers,energy,variogram
+attachment_two,conditional,all_validation,250,250,0.658563822107016,0.1557106108236996
+attachment_two,conditional,ceiling_passing_validation,29,29,0.6157195811994087,0.1530617362207461
+attachment_two,coordinate_clipping,all_validation,250,250,0.6292195582865641,0.153286637400905
+attachment_two,coordinate_clipping,ceiling_passing_validation,29,29,0.6228306969631404,0.1549532895585975
+attachment_two,unconditional,all_validation,250,250,0.6274072417610194,0.1529819807023567
+attachment_two,unconditional,ceiling_passing_validation,29,29,0.6252877719882701,0.1550412112407352
+strict_four,conditional,all_validation,106,106,0.756402066413777,0.1745199592691731
+strict_four,conditional,ceiling_passing_validation,0,0,,
+strict_four,coordinate_clipping,all_validation,250,250,0.6425608086858555,0.156853698437931
+strict_four,coordinate_clipping,ceiling_passing_validation,1,1,0.6186796541855872,0.1662854210105554
+strict_four,unconditional,all_validation,250,250,0.6286580208348062,0.153032532745053
+strict_four,unconditional,ceiling_passing_validation,1,1,0.6231954781222879,0.1683953376285031

@@ -1,0 +1,9 @@
+{"timestamp_utc": "2026-07-18T14:36:50.810824+00:00", "level": "INFO", "message": "Pipeline start config=research project_root=D:\\BaiduNetdiskDownload\\2026年APMCM亚太地区大学生大模型竞赛赛题\\worldcup_forecasting"}
+{"timestamp_utc": "2026-07-18T14:36:50.812824+00:00", "level": "INFO", "message": "Research preflight: verifying sealed cached audit without orchestration rerun"}
+{"timestamp_utc": "2026-07-18T14:36:53.074835+00:00", "level": "INFO", "message": "Building SHA-256-verified canonical data"}
+{"timestamp_utc": "2026-07-18T14:36:56.595006+00:00", "level": "INFO", "message": "Published immutable advanced evidence (130 files, tree_sha256=e6b4653b805514973ec501d623ad2788ce879e56b595fee18781e1c06ccae7fb)"}
+{"timestamp_utc": "2026-07-18T14:36:56.597134+00:00", "level": "INFO", "message": "Q1: tournament statistics, trends, OLS, and 2018 audit"}
+{"timestamp_utc": "2026-07-18T14:36:57.005511+00:00", "level": "INFO", "message": "Q2: stage statistics, half/full-time relation, temporal match regression"}
+{"timestamp_utc": "2026-07-18T14:36:58.952301+00:00", "level": "INFO", "message": "Q3: pre-tournament historical features and frozen 2014 classification"}
+{"timestamp_utc": "2026-07-18T14:36:59.459912+00:00", "level": "INFO", "message": "Official Q1--Q3 analysis complete"}
+{"timestamp_utc": "2026-07-18T14:36:59.469717+00:00", "level": "INFO", "message": "All analyses complete in 8.732 seconds; closing logs before manifest"}

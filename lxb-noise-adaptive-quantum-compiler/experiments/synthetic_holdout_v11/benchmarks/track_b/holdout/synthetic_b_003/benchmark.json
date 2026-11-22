@@ -1,0 +1,45 @@
+{
+  "track": "track_b",
+  "name": "synthetic_b_003",
+  "family": "ghz_star",
+  "logical_qubits": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "expected_output_rule": {
+    "rule_type": "allowed_bitstrings",
+    "bitstring": null,
+    "allowed_bitstrings": [
+      "000000000000000000000000",
+      "111111111111111111111111"
+    ],
+    "parity_checks": []
+  },
+  "metadata": {
+    "backend_size_class": "large",
+    "backend_snapshot_id": "synthetic_large_twoq_lognormal",
+    "synthetic_family": "ghz_star"
+  }
+}

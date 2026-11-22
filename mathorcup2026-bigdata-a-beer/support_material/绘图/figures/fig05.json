@@ -1,0 +1,118 @@
+{
+  "figure": 5,
+  "caption": "原分校准与缺测误差结构。a以固定比例拼合250款×30属性的观测—预测联合密度、真实边际频数和残差条；虚线为理想校准，珊瑚线与浅带为观测分箱后的预测均值及10%—90%分位，非置信区间。b为每模型250款啤酒相对训练分布参照的MSE差，使用对称log轴保留极端值，粗条为IQR；原汇总RMSE与RPS差的既有95%条件配对区间完整列出。c、d共用30属性顺序与五输入场景，分别展示CDF-ET相对Ridge的逐属性RMSE差、相对CDF-Ridge的逐属性RPS差，负值表示更小误差；色标各自独立，完整数值与原始误差保存底表。所有7500单元不作为独立实验重复，区间仍以啤酒配对。",
+  "figure_inches": [
+    6.7,
+    4.2
+  ],
+  "sources": [
+    {
+      "path": "../raw_score_research/models/results_v2/predictions.npz",
+      "sha256": "2165ce24fee4057ccabbd5df128ab0126ff2112b5cb04511d92e3fc95185b2d4"
+    },
+    {
+      "path": "../raw_score_research/models/inputs/raw_panel_means.csv",
+      "sha256": "3fbe3e5ab54e0dca333fea0f347a94044033291f753ae3fb3da653970a85e349"
+    },
+    {
+      "path": "../raw_score_research/models/results_v2/raw_metrics.csv",
+      "sha256": "6f95612b5220bbc2838512ddc1e6ec04f6cfcbfe471d90a33fbf7c737b428a81"
+    },
+    {
+      "path": "../raw_score_research/protocol/independent_audit_v2/paired_contrasts_for_report.csv",
+      "sha256": "3f6a39695da056278ce3377b73e4629f8df19c19d5cad3eb6c4493ff9b4bd6ab"
+    },
+    {
+      "path": "plot_data/fig05_per_attribute_missingness.csv",
+      "sha256": "f66b49813a0ccba36370340a660d9025d3b99682ff1cf6ceeeedf069547e5054"
+    },
+    {
+      "path": "plot_data/fig05_paired_beer_mse_differences.csv",
+      "sha256": "c25865c048b7a2f9004cd0b44d7bca3695ff5a73609ea59fc1baa05c6c2f19af"
+    }
+  ],
+  "new_model_fits": 0,
+  "new_bootstrap_resamples": 0,
+  "style": "shared_index_compositions_v4",
+  "calibration_cells": 7500,
+  "beer_difference_points": 750,
+  "missingness_delta_cells": 300,
+  "raw_metric_rechecks": [
+    {
+      "method": "direct_ridge",
+      "scenario": "complete",
+      "rmse": 0.7411947005969433
+    },
+    {
+      "method": "direct_ridge",
+      "scenario": "derived_only_missing",
+      "rmse": 0.7447893408806613
+    },
+    {
+      "method": "direct_ridge",
+      "scenario": "MCAR_10_strict",
+      "rmse": 0.751662295068909
+    },
+    {
+      "method": "direct_ridge",
+      "scenario": "MCAR_30_strict",
+      "rmse": 0.7618498876007366
+    },
+    {
+      "method": "direct_ridge",
+      "scenario": "MCAR_50_strict",
+      "rmse": 0.778604478369635
+    },
+    {
+      "method": "cdf_et",
+      "scenario": "complete",
+      "rmse": 0.6849526232491722
+    },
+    {
+      "method": "cdf_et",
+      "scenario": "derived_only_missing",
+      "rmse": 0.6932856853111683
+    },
+    {
+      "method": "cdf_et",
+      "scenario": "MCAR_10_strict",
+      "rmse": 0.7043951809936225
+    },
+    {
+      "method": "cdf_et",
+      "scenario": "MCAR_30_strict",
+      "rmse": 0.7252496155636976
+    },
+    {
+      "method": "cdf_et",
+      "scenario": "MCAR_50_strict",
+      "rmse": 0.7587572465507767
+    },
+    {
+      "method": "cdf_ridge",
+      "scenario": "complete",
+      "rmse": 0.7273468061182478
+    },
+    {
+      "method": "cdf_ridge",
+      "scenario": "derived_only_missing",
+      "rmse": 0.731155450042366
+    },
+    {
+      "method": "cdf_ridge",
+      "scenario": "MCAR_10_strict",
+      "rmse": 0.7369339125804245
+    },
+    {
+      "method": "cdf_ridge",
+      "scenario": "MCAR_30_strict",
+      "rmse": 0.7467357898430951
+    },
+    {
+      "method": "cdf_ridge",
+      "scenario": "MCAR_50_strict",
+      "rmse": 0.7674707923871176
+    }
+  ],
+  "new_intervals": false
+}

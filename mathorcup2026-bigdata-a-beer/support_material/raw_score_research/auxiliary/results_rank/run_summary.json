@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "input_sha256": "0ba2cfd94ff1753c465741bed1946c4378f40418083528af1955f271638cfd45",
+  "input_unchanged": true,
+  "implementation_sha256": "ba4536c47af51141eb8f11207f4c94e5b31e96f87b98c9da09f85317df84feda",
+  "unrestricted_ridge_separation_max_error": 0.0,
+  "outer_folds": 5,
+  "inner_folds_per_outer": 3,
+  "parameter_grid_per_tau": 16,
+  "tau_strategies": 3,
+  "theoretical_candidate_fits": 735,
+  "elapsed_seconds": 3.4503077369954553,
+  "new_neural_fits": 0,
+  "new_paid_calls": 0,
+  "input_transform": "normal_rank",
+  "bootstrap_seed": 2026102527,
+  "all_prespecified_strategies_reported": true,
+  "no_method_selected_on_outer_scores": true,
+  "source_manifest": {
+    "target_metrics.csv": "d59fa21be2568e35854901a4756d0004201a86f5242c9c47b2a292587f84560d",
+    "training_identity_trace.json": "4450412dfbdd270e122df9002dac4e104224393dc6e529aae7721999d1a009e5",
+    "inner_selection_grid.csv": "4dcae42a0c133e47bcd6d55c6e84849f5cad79468ad9f47f182cfd8f83fe41db",
+    "outer_predictions.npz": "8d7d48a02ed404c617f5952a664eb90941badf575ff2edbf33d7963cc07525f2",
+    "PROTOCOL_LOCK.json": "fc60ddbac0373c7170585e1046eedc341c0d9ed6259af49c0466de63b3015861",
+    "pooled_metrics.csv": "c58236d744e67e170a7d5caccd733f0c2b0a3d4f539aa8cdab51aba2b75cd1b8",
+    "paired_differences.csv": "63035cc6124752fc24bff94a119e5cf6995da4149a37b134035c9c419b8b566f",
+    "selected_parameters.csv": "6ac8d12012267cdcc8c6626ca1a169daed4a0e603ac08c6933ca3fa273965a22"
+  }
+}

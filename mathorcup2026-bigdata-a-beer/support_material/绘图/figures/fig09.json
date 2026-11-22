@@ -1,0 +1,59 @@
+{
+  "figure": 9,
+  "caption": "二阈值条件生成的画像与验收。d为50属性共享分类索引的三同心轨，由内到外对应Tripel、Kriek、Lambic；每格仅以共同冷暖色标表示条件代表预测相对同风格实测样本模型预测质心的偏差，除以响应标准差，半径不编码偏差。a中各风格上、下点分别为DMS和双乙酰，空心/实心为原代表/条件代表，虚线为指定上界；b为29款条件留出样本的能量评分差及既有95%条件配对区间，负值有利于条件生成；c为生成100谱所计算的完整225维向量数（3次基准的中位数）。该感官画像为冻结模型预测，不是新实品测量；完整150格数值保留于底表，10%—90%生成跨度另见补图S9。",
+  "figure_inches": [
+    6.7,
+    4.35
+  ],
+  "sources": [
+    {
+      "path": "plot_data/fig09_all50_sensory_profiles.csv",
+      "sha256": "dc6fbb1fd6a02d04156c90437ca3066bc12dd0d9c1c586e08f095f9114257d06"
+    },
+    {
+      "path": "plot_data/fig09_thresholds.csv",
+      "sha256": "1d410ee73b490071e05560afad587e987b13859b7f1e594bf8ee0f2ebe6aff38"
+    },
+    {
+      "path": "plot_data/fig09_energy_intervals.csv",
+      "sha256": "315945b4476d8eba2a24bac69f3f1657ede205cbc5f1fbc6d10adf4e9437be01"
+    },
+    {
+      "path": "plot_data/fig09_sampling_efficiency.csv",
+      "sha256": "f9bf05efe3be6fb172a4208316f398318fa161ebfda86ffae0a1db9bb474aa2f"
+    }
+  ],
+  "new_model_fits": 0,
+  "new_bootstrap_resamples": 0,
+  "style": "shared_index_compositions_v4",
+  "categorical_index": "50 original attributes, three contiguous domains",
+  "inner_to_outer_styles": [
+    "Tripel",
+    "Kriek",
+    "Lambic"
+  ],
+  "all_sensory_dimensions": 50,
+  "all_style_target_cells": 150,
+  "count_comparison": [
+    {
+      "style": "Tripel",
+      "full_vectors": 4096.0,
+      "conditional_vectors": 100.0,
+      "ratio": 40.96
+    },
+    {
+      "style": "Kriek",
+      "full_vectors": 1024.0,
+      "conditional_vectors": 100.0,
+      "ratio": 10.24
+    },
+    {
+      "style": "Lambic",
+      "full_vectors": 1024.0,
+      "conditional_vectors": 100.0,
+      "ratio": 10.24
+    }
+  ],
+  "full_value_table": "fig09_all50_sensory_profiles.csv",
+  "spread_supplement": "supplement_S9_generation_spread.pdf"
+}

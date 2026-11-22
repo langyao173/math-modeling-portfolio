@@ -1,0 +1,49 @@
+{
+ "circuits": 65,
+ "scored_exactly": 57,
+ "mean_by_suite": {
+  "S1_unseen_sizes": {
+   "proxy": 0.8696,
+   "submitted": 0.8692,
+   "exact_top8": 0.8698,
+   "exact_all": 0.8698
+  },
+  "S2_qasmbench": {
+   "proxy": 0.8846,
+   "submitted": 0.8858,
+   "exact_top8": 0.8858,
+   "exact_all": 0.8858
+  },
+  "public": {
+   "proxy": 0.8911,
+   "submitted": 0.8924,
+   "exact_top8": 0.8924,
+   "exact_all": 0.8924
+  }
+ },
+ "mean_all": {
+  "proxy": 0.8752,
+  "submitted": 0.8754,
+  "exact_top8": 0.8758,
+  "exact_all": 0.8758
+ },
+ "exact_top8_minus_submitted": {
+  "mean": 0.00040128956906817815,
+  "better": 4,
+  "worse": 0
+ },
+ "submitted_minus_proxy": {
+  "mean": 0.0001522875810362537,
+  "better": 3,
+  "worse": 1
+ },
+ "headroom_all_minus_submitted": 0.00040132456047754664,
+ "proxy_rank_spearman_median": 0.9805647231389807,
+ "proxy_rank_spearman_min": 0.8440547590785237,
+ "proxy_top1_is_exact_best_share": 0.9298245614035088,
+ "mean_exact_proxy_top1": 0.8756449802816079,
+ "pool_spread_best_minus_worst_mean": 0.17683869946711114,
+ "pool_best_minus_median_mean": 0.046564872524572316,
+ "mean_exact_eval_seconds": 5.034555561264365,
+ "mean_submitted_select_seconds": 4.410669653232281
+}

@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+*.egg-info/
+# public datasets downloaded by extension/e2_uplift_benchmark.py and e1_hillstrom_rct.py (not redistributed)
+data/

@@ -1,0 +1,138 @@
+[
+  {
+    "name": "synthetic_b_001",
+    "track": "track_b",
+    "family": "ghz_star",
+    "backend_size_class": "medium",
+    "backend_snapshot_id": "synthetic_medium_twoq_lognormal",
+    "logical_qubits": 8
+  },
+  {
+    "name": "synthetic_b_002",
+    "track": "track_b",
+    "family": "ghz_star",
+    "backend_size_class": "large",
+    "backend_snapshot_id": "synthetic_large_original",
+    "logical_qubits": 16
+  },
+  {
+    "name": "synthetic_b_003",
+    "track": "track_b",
+    "family": "ghz_star",
+    "backend_size_class": "large",
+    "backend_snapshot_id": "synthetic_large_twoq_lognormal",
+    "logical_qubits": 24
+  },
+  {
+    "name": "synthetic_b_004",
+    "track": "track_b",
+    "family": "ghz_chain",
+    "backend_size_class": "medium",
+    "backend_snapshot_id": "synthetic_medium_worst_edge_relocated",
+    "logical_qubits": 8
+  },
+  {
+    "name": "synthetic_b_005",
+    "track": "track_b",
+    "family": "ghz_chain",
+    "backend_size_class": "large",
+    "backend_snapshot_id": "synthetic_large_twoq_lognormal",
+    "logical_qubits": 16
+  },
+  {
+    "name": "synthetic_b_006",
+    "track": "track_b",
+    "family": "ghz_chain",
+    "backend_size_class": "large",
+    "backend_snapshot_id": "synthetic_large_readout_jitter",
+    "logical_qubits": 24
+  },
+  {
+    "name": "synthetic_b_007",
+    "track": "track_b",
+    "family": "parity_hub_leaf",
+    "backend_size_class": "large",
+    "backend_snapshot_id": "synthetic_large_original",
+    "logical_qubits": 18
+  },
+  {
+    "name": "synthetic_b_008",
+    "track": "track_b",
+    "family": "parity_hub_leaf",
+    "backend_size_class": "large",
+    "backend_snapshot_id": "synthetic_large_worst_edge_relocated",
+    "logical_qubits": 20
+  },
+  {
+    "name": "synthetic_b_009",
+    "track": "track_b",
+    "family": "parity_hub_leaf",
+    "backend_size_class": "large",
+    "backend_snapshot_id": "synthetic_large_original",
+    "logical_qubits": 24
+  },
+  {
+    "name": "synthetic_b_010",
+    "track": "track_b",
+    "family": "parity_hub_leaf",
+    "backend_size_class": "large",
+    "backend_snapshot_id": "synthetic_large_twoq_lognormal",
+    "logical_qubits": 24
+  },
+  {
+    "name": "synthetic_b_011",
+    "track": "track_b",
+    "family": "random_clifford_cnot",
+    "backend_size_class": "large",
+    "backend_snapshot_id": "synthetic_large_twoq_lognormal",
+    "logical_qubits": 8
+  },
+  {
+    "name": "synthetic_b_012",
+    "track": "track_b",
+    "family": "random_clifford_cnot",
+    "backend_size_class": "medium",
+    "backend_snapshot_id": "synthetic_medium_twoq_lognormal",
+    "logical_qubits": 16
+  },
+  {
+    "name": "synthetic_b_013",
+    "track": "track_b",
+    "family": "random_clifford_cnot",
+    "backend_size_class": "large",
+    "backend_snapshot_id": "synthetic_large_twoq_lognormal",
+    "logical_qubits": 24
+  },
+  {
+    "name": "synthetic_a_001",
+    "track": "track_a",
+    "family": "small_clifford_t",
+    "backend_size_class": "medium",
+    "backend_snapshot_id": "synthetic_medium_twoq_lognormal",
+    "logical_qubits": 6
+  },
+  {
+    "name": "synthetic_a_002",
+    "track": "track_a",
+    "family": "small_clifford_t",
+    "backend_size_class": "large",
+    "backend_snapshot_id": "synthetic_large_worst_edge_relocated",
+    "logical_qubits": 7
+  },
+  {
+    "name": "synthetic_a_003",
+    "track": "track_a",
+    "family": "structured_routing_pressure",
+    "backend_size_class": "medium",
+    "backend_snapshot_id": "synthetic_medium_original",
+    "logical_qubits": 6
+  },
+  {
+    "name": "synthetic_a_004",
+    "track": "track_a",
+    "family": "structured_routing_pressure",
+    "backend_size_class": "medium",
+    "backend_snapshot_id": "synthetic_medium_readout_jitter",
+    "logical_qubits": 7
+  }
+]

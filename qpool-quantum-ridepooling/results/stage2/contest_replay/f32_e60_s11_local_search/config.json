@@ -1,0 +1,17 @@
+{
+  "fleet": 32,
+  "capacity": 4,
+  "epoch": 60,
+  "max_wait": 600,
+  "max_detour": 600,
+  "dwell": 60,
+  "shortlist": 10,
+  "beam": 10,
+  "max_new_requests": 3,
+  "seed": 11,
+  "solver_budget": 1.0,
+  "cost_weight": 0.08,
+  "future_weight": 1.0,
+  "tv_radius": 0.1,
+  "future_horizon": 1800
+}

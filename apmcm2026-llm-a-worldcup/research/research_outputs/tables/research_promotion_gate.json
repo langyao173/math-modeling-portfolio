@@ -1,0 +1,368 @@
+{
+  "candidate": "advanced_nested_calibrated",
+  "baseline": "legacy_mirrored_dixon_coles",
+  "expected_outer_years": [
+    1986,
+    1990,
+    1994,
+    1998,
+    2002,
+    2006,
+    2010
+  ],
+  "non_degradation_tolerance": 0.01,
+  "eligible_primary_metrics": [
+    "log_loss",
+    "multiclass_brier"
+  ],
+  "metric_evidence": {
+    "log_loss": {
+      "mean_candidate_minus_baseline": -0.02042267486717499,
+      "median_candidate_minus_baseline": -0.0245165963608609,
+      "fold_wins": 5,
+      "fold_ties": 0,
+      "fold_losses": 2
+    },
+    "multiclass_brier": {
+      "mean_candidate_minus_baseline": -0.01302217857085175,
+      "median_candidate_minus_baseline": -0.015469396208893094,
+      "fold_wins": 5,
+      "fold_ties": 0,
+      "fold_losses": 2
+    }
+  },
+  "decision_evidence": {
+    "positive_draw_folds": 7,
+    "mean_macro_f1_delta": 0.09441671418992996,
+    "mean_draw_recall_delta": 0.5042012498779416,
+    "universal_draw_collapse": false
+  },
+  "structural_checks": {
+    "simplex": true,
+    "symmetry": true,
+    "leakage": true,
+    "score_mass": true,
+    "score_outcome_coherence": true,
+    "within_partition_projection": true,
+    "halftime_monotonicity": true,
+    "seven_fold_chronology": true,
+    "ablation_complete_126": true,
+    "tournament_cardinality": true,
+    "deterministic_provenance": true,
+    "deterministic_runtime_references": true
+  },
+  "checks": {
+    "empirical_probability_gate": true,
+    "decision_draw_support": true,
+    "decision_quality_improved": true,
+    "no_universal_draw_collapse": true,
+    "structural_invariants": true,
+    "exact_model_identity": true,
+    "frozen_2014_excluded": true,
+    "calibration_retained_under_frozen_h2": true,
+    "uncertainty_and_decomposition_complete": true,
+    "statistical_closure_complete": true
+  },
+  "probability_candidate_passed": true,
+  "decision_layer_passed": true,
+  "system_promoted": true,
+  "interpretation": "development_only_promotion_decision_not_a_2014_or_2026_performance_claim",
+  "calibration_retention": {
+    "retained_under_frozen_h2": true,
+    "eligible_primary_metrics": [
+      "multiclass_brier"
+    ],
+    "mean_calibrated_minus_raw": {
+      "log_loss": 0.00026232921450749673,
+      "multiclass_brier": -0.00022142898453250285,
+      "calibration_error": 0.01977387155811927
+    },
+    "paired_primary_tolerance": 0.01,
+    "ece_regressed": true,
+    "ece_is_secondary_nonblocking": true,
+    "claim": "mixed_primary_score_calibration_retained_under_frozen_non_degradation_rule"
+  },
+  "seven_fold_checks": [
+    {
+      "test_year": 1986,
+      "unique_match_keys": true,
+      "oof_and_chronological": true,
+      "prediction_time_valid": true,
+      "simplex": true,
+      "target_score_consistency": true,
+      "joint_key_coverage": true,
+      "decision_trained_before_fold": true,
+      "passed": true
+    },
+    {
+      "test_year": 1990,
+      "unique_match_keys": true,
+      "oof_and_chronological": true,
+      "prediction_time_valid": true,
+      "simplex": true,
+      "target_score_consistency": true,
+      "joint_key_coverage": true,
+      "decision_trained_before_fold": true,
+      "passed": true
+    },
+    {
+      "test_year": 1994,
+      "unique_match_keys": true,
+      "oof_and_chronological": true,
+      "prediction_time_valid": true,
+      "simplex": true,
+      "target_score_consistency": true,
+      "joint_key_coverage": true,
+      "decision_trained_before_fold": true,
+      "passed": true
+    },
+    {
+      "test_year": 1998,
+      "unique_match_keys": true,
+      "oof_and_chronological": true,
+      "prediction_time_valid": true,
+      "simplex": true,
+      "target_score_consistency": true,
+      "joint_key_coverage": true,
+      "decision_trained_before_fold": true,
+      "passed": true
+    },
+    {
+      "test_year": 2002,
+      "unique_match_keys": true,
+      "oof_and_chronological": true,
+      "prediction_time_valid": true,
+      "simplex": true,
+      "target_score_consistency": true,
+      "joint_key_coverage": true,
+      "decision_trained_before_fold": true,
+      "passed": true
+    },
+    {
+      "test_year": 2006,
+      "unique_match_keys": true,
+      "oof_and_chronological": true,
+      "prediction_time_valid": true,
+      "simplex": true,
+      "target_score_consistency": true,
+      "joint_key_coverage": true,
+      "decision_trained_before_fold": true,
+      "passed": true
+    },
+    {
+      "test_year": 2010,
+      "unique_match_keys": true,
+      "oof_and_chronological": true,
+      "prediction_time_valid": true,
+      "simplex": true,
+      "target_score_consistency": true,
+      "joint_key_coverage": true,
+      "decision_trained_before_fold": true,
+      "passed": true
+    }
+  ],
+  "projection_checks": {
+    "all_joint_masses_normalized": true,
+    "maximum_joint_mass_error": 3.4416913763379853e-15,
+    "outcome_margins_recovered": true,
+    "maximum_outcome_margin_error": 1.9984014443252818e-15,
+    "within_partition_ratios_constant": true,
+    "maximum_within_partition_relative_ratio_spread": 1.4455858743129951e-12
+  },
+  "stress_checks": {
+    "row_count": 24,
+    "model_count": 1,
+    "scenario_count": 12,
+    "seed_count": 2,
+    "complete_seed_matrix": true,
+    "all_finite_outputs": true,
+    "all_structural_invariants_passed": true,
+    "maximum_probability_simplex_error": 2.220446049250313e-16,
+    "maximum_symmetry_error": 1.6653345369377348e-16,
+    "maximum_halftime_violation": 0.0
+  },
+  "ablation_checks": {
+    "row_count": 126,
+    "evaluation_unit_count": 14,
+    "variants": [
+      "A0",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8"
+    ],
+    "complete_cartesian_matrix": true,
+    "paired_evaluation_indices": true,
+    "all_structural_tests_passed": true
+  },
+  "simulation_checks": {
+    "team_count_48": true,
+    "format_12_groups_of_4": true,
+    "annex_c_495_certified": true,
+    "frozen_adaptive_contract_exact": true,
+    "simulations_within_predeclared_bounds": true,
+    "audit_matches_104_each": true,
+    "audit_stage_cardinality": true,
+    "aggregate_stage_cardinality": true,
+    "no_self_matches_and_known_teams": true,
+    "advancement_counts_integer_and_conserved": true,
+    "champion_simplex": true,
+    "advancement_probability_monotonicity": true,
+    "probability_mcse_intervals_and_continuous_valid": true,
+    "adaptive_stopping_and_scenario_boundary": true,
+    "scenario_not_factual": true,
+    "adaptive_stopping_contract_satisfied": true,
+    "check_count": 14,
+    "champion_probability_sum": 0.9999999999999978,
+    "maximum_recomputed_mcse_error": 9.996344030316351e-17,
+    "maximum_recomputed_interval_error": 9.71445146547012e-17,
+    "passed": true
+  },
+  "uncertainty_checks": {
+    "parameter_draws_complete": true,
+    "probability_draws_complete": true,
+    "preaudit_only": true,
+    "decomposition_shape": true,
+    "decomposition_recomputed_from_manifest_bound_cube": true,
+    "variance_cell_summary_recomputed_from_cube": true,
+    "variance_cell_provenance_matches_parameter_ledger": true,
+    "variance_nonnegative": true,
+    "variance_reconstructs": true,
+    "shares_sum_to_one": true,
+    "replacement_simulation_lineage": true,
+    "passed": true
+  },
+  "provenance_checks": {
+    "candidate_budget_36": true,
+    "outer_years_exact": true,
+    "selected_runtime_eligible": true,
+    "same_selection_procedure": true,
+    "same_final_fit": true,
+    "same_protocol": true,
+    "development_boundary_2010": true,
+    "audit_not_used": true,
+    "snapshot_isolated": true,
+    "sarmanov_exploratory_boundary": true,
+    "stress_reproducible": true,
+    "stress_baseline_provenance": true,
+    "final_fit_hash": "10238a4c6d368e50acb9ac28e4523dbd1b4f1b64710667ba0e8eb511b8774f53",
+    "selection_procedure_hash": "401514341128850ac91b282a66510871f2fc23f8c59d59c38870e1450724cefd",
+    "passed": true
+  },
+  "statistical_closure": {
+    "recomputed": {
+      "schema_version": 1,
+      "scope": "seven_outer_development_editions_1986_2010_no_2014",
+      "candidate": "advanced_nested_calibrated",
+      "baseline": "legacy_mirrored_dixon_coles",
+      "outer_fold_count": 7,
+      "expected_years": [
+        1986,
+        1990,
+        1994,
+        1998,
+        2002,
+        2006,
+        2010
+      ],
+      "match_count": 412,
+      "metric_summary": {
+        "log_loss": {
+          "candidate_unweighted_mean": 0.9548241578657394,
+          "baseline_unweighted_mean": 0.9752468327329142,
+          "unweighted_mean_improvement": 0.02042267486717499,
+          "candidate_match_weighted_mean": 0.9545121198281199,
+          "baseline_match_weighted_mean": 0.9760626637567865,
+          "match_weighted_mean_improvement": 0.021550543928666687,
+          "median_improvement": 0.0245165963608609,
+          "fold_wins": 5,
+          "fold_losses": 2,
+          "worst_fold_year": 1986,
+          "worst_fold_regression": 0.009644759236300038,
+          "best_fold_improvement": 0.05233107177515928,
+          "paired_cluster_bootstrap_replicates": 2000,
+          "paired_cluster_bootstrap_ci_candidate_minus_baseline": [
+            -0.0365238640326812,
+            -0.0034510608851039
+          ],
+          "bootstrap_interval_excludes_zero_in_favour_of_candidate": true
+        },
+        "multiclass_brier": {
+          "candidate_unweighted_mean": 0.5646114337141404,
+          "baseline_unweighted_mean": 0.577633612284992,
+          "unweighted_mean_improvement": 0.01302217857085175,
+          "candidate_match_weighted_mean": 0.564404090286957,
+          "baseline_match_weighted_mean": 0.578204028466953,
+          "match_weighted_mean_improvement": 0.013799938179996004,
+          "median_improvement": 0.015469396208893094,
+          "fold_wins": 5,
+          "fold_losses": 2,
+          "worst_fold_year": 1986,
+          "worst_fold_regression": 0.005538193201857555,
+          "best_fold_improvement": 0.03490056172681111,
+          "paired_cluster_bootstrap_replicates": 2000,
+          "paired_cluster_bootstrap_ci_candidate_minus_baseline": [
+            -0.0237492178767106,
+            -0.0026679366925216
+          ],
+          "bootstrap_interval_excludes_zero_in_favour_of_candidate": true
+        }
+      },
+      "calibration_change": {
+        "mean_candidate_minus_baseline": 0.01755719113687656,
+        "median_candidate_minus_baseline": 0.027562360413898812,
+        "worsened_folds": 5,
+        "improved_folds": 2,
+        "worst_fold_regression": 0.048823688591162206,
+        "mean_tolerance": 0.02,
+        "single_fold_tolerance": 0.05,
+        "bounded_under_internal_tolerance": true,
+        "disclosure": "ECE is a mixed secondary result and is not described as uniformly improved."
+      },
+      "selection_stability": {
+        "unique_selected_candidate_count": 3,
+        "modal_candidate_id": "f12f0fc20700df70743ef3b4f27089c45f45989a93fa2bd19c1886c98d609a81",
+        "modal_selected_fold_count": 5,
+        "selection_frequencies": {
+          "f12f0fc20700df70743ef3b4f27089c45f45989a93fa2bd19c1886c98d609a81": 5,
+          "60fdc853cfcd3f68cb712eb5229b9a8b07a0b5d46381a412934ec34f4df4e63b": 1,
+          "f3e16210340179977f7f82486dc8cfc3dc0e3be410e9095cddbbe96d99b9249f": 1
+        }
+      },
+      "internal_promotion_checks": {
+        "median_log_loss_improvement_positive": true,
+        "median_brier_improvement_positive": true,
+        "at_least_five_of_seven_log_loss_wins": true,
+        "at_least_five_of_seven_brier_wins": true,
+        "no_catastrophic_log_loss_fold": true,
+        "no_catastrophic_brier_fold": true,
+        "calibration_degradation_bounded_and_disclosed": true,
+        "selected_candidate_modal_in_at_least_five_folds": true
+      },
+      "passed": true,
+      "claim_boundary": "development_nested_validation_not_external_audit_or_2026_performance"
+    },
+    "declared_summary_matches": true,
+    "declared_tables_match": true,
+    "passed": true
+  },
+  "runtime_reproducibility": {
+    "runtime_declaration_exact": true,
+    "live_runtime_columns_absent": true,
+    "candidate_reference_exact": true,
+    "final_fit_reference_exact": true,
+    "baseline_reference_exact": true,
+    "ablation_reference_exact": true,
+    "joblib_frames_match_sealed_csv": true,
+    "joblib_runtime_state_exact": true,
+    "metadata_hashes_bound": true,
+    "passed": true
+  },
+  "warnings": [
+    "Secondary ECE regressed; calibration is a mixed result and must not be described as uniformly beneficial."
+  ]
+}

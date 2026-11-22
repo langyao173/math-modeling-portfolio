@@ -1,0 +1,2 @@
+design,hours,event1_start_hour,event2_start_hour,event_duration_hours,shock_severity,supply_policy,contract_multiplier,contract_lead_hours,storage_power_multiplier,strategy
+demo,360,48,192,48,1.0,inherited,1.0,12,1.0,decentralized

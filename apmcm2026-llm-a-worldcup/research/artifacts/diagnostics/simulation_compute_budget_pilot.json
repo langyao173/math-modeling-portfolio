@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "scope": "development_only_compute_budget_pilot_not_formal_2026_evidence",
+  "audit_year_outcomes_used": false,
+  "frozen_candidate_hash": "f12f0fc20700df70743ef3b4f27089c45f45989a93fa2bd19c1886c98d609a81",
+  "seed": 20260717,
+  "simulations": 1000,
+  "matches_per_simulation": 104,
+  "runtime_seconds": 3.040136400028132,
+  "simulations_per_second": 328.93260973117737,
+  "maximum_advancement_mcse": 0.015811388300841896,
+  "maximum_champion_mcse": 0.014925649064613574,
+  "maximum_champion_probability": 0.335,
+  "estimated_seconds_for_60000": 182.4081840016879,
+  "budget_decision": {
+    "minimum_simulations": 10000,
+    "batch_size": 5000,
+    "maximum_simulations": 250000,
+    "advancement_mcse_threshold": 0.002,
+    "champion_mcse_threshold": 0.001
+  },
+  "interpretation": "The pilot sets a sufficient compute ceiling before the first formal replacement run; it does not select or tune the forecasting model."
+}

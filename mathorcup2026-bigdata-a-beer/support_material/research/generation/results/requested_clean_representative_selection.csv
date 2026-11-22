@@ -1,0 +1,4 @@
+style,selected_id,candidate_pool,eligible_pool,predicted_style,requested_style_probability,same_style_nearest_distance,same_style_loo_nn_q95,core_sensory_distance_to_real_style_prediction_centroid,old_DMS_ug_L,new_DMS_ug_L,old_diacetyl_native_mg_L,new_diacetyl_native_mg_L,style_real_n,style_real_two_ceiling_n
+Tripel,attachment_two_Tripel_073,100,92,Tripel,0.7821267397161991,0.8056805940194625,1.114446476977707,0.0737819680972147,92.05899003368076,14.864504985440355,0.258525368,0.067335605,28,0
+Kriek,attachment_two_Kriek_030,100,98,Kriek,0.7818707583478485,0.9790331352850302,1.0889926793831857,0.1918194317846707,7.159765000078037,16.60749498619333,0.284672385,0.07407538,10,0
+Lambic,attachment_two_Lambic_080,100,99,Lambic,0.8172740185793301,0.8330717331549035,1.0865453743130635,0.0624367229013748,23.43991000918021,10.69815000258872,0.389232036,0.000509493,11,1

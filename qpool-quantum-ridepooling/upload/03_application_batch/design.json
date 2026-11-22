@@ -1,0 +1,13 @@
+{
+  "n_matrices": 6,
+  "same_request_trace": true,
+  "first_physical_round": "six matrices, one submission each",
+  "optional_stability_rounds": 2,
+  "shown_multiple_solutions_are_not_independent_runs": true,
+  "max_binary_variables": 96,
+  "min_resolution": 1,
+  "quantum_results_pending": false,
+  "completed_physical_rounds": 1,
+  "result_location": "results/stage3/verified",
+  "repetition_results_pending": true
+}

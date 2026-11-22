@@ -1,0 +1,49 @@
+{
+  "submitted_guard_reproduces_published_guard10_max_abs_diff": 0.0,
+  "fixed_threshold (submitted)": {
+    "rule": "fixed midpoint threshold",
+    "rows_scored": 5584,
+    "rows_changed_by_guard": 14,
+    "gated_rows_changed_by_guard": 14,
+    "l2_change_from_stability_candidate": 0.19087116781863125,
+    "l1_change_pp": 25.689108177830803,
+    "gated_rows_with_excess_over_radius": 14,
+    "total_excess_over_radius_pp": 25.68910817783083,
+    "max_excess_over_radius_pp": 18.957659940956002,
+    "auc_phase0_1": 0.7952906316281229,
+    "auc_phase0": 0.8170914100892219,
+    "auc_phase1": 0.7701452393760085
+  },
+  "L2_optimal_threshold": {
+    "rule": "exact L2 minimum-change threshold",
+    "rows_scored": 5584,
+    "rows_changed_by_guard": 68,
+    "gated_rows_changed_by_guard": 22,
+    "l2_change_from_stability_candidate": 0.18709518366265449,
+    "l1_change_pp": 40.877528093623305,
+    "gated_rows_with_excess_over_radius": 19,
+    "total_excess_over_radius_pp": 29.97476580986995,
+    "max_excess_over_radius_pp": 18.284468884080326,
+    "auc_phase0_1": 0.7952723908313648,
+    "auc_phase0": 0.8171208805782109,
+    "auc_phase1": 0.7701317912856374
+  },
+  "promise_optimal_threshold (extension)": {
+    "rule": "threshold minimising broken stability promises",
+    "rows_scored": 5584,
+    "rows_changed_by_guard": 54,
+    "gated_rows_changed_by_guard": 13,
+    "l2_change_from_stability_candidate": 0.20043388449182722,
+    "l1_change_pp": 42.33948444806888,
+    "gated_rows_with_excess_over_radius": 11,
+    "total_excess_over_radius_pp": 28.38435811412848,
+    "max_excess_over_radius_pp": 19.64028121380369,
+    "auc_phase0_1": 0.7953321801096271,
+    "auc_phase0": 0.8170729910336036,
+    "auc_phase1": 0.7702124798278643
+  },
+  "phase0_same_final_order_share_L2_vs_submitted": 0.9845201238390093,
+  "phase0_same_final_order_share_promise_vs_submitted": 0.9814241486068112,
+  "phase1_same_final_order_share_L2_vs_submitted": 0.9775868509525588,
+  "phase1_same_final_order_share_promise_vs_submitted": 0.9645125140082181
+}

@@ -1,0 +1,2 @@
+﻿jobs,spins,dummy_actions,one_hot_violations,expected_recourse_cost_usd,cvar95_recourse_cost_usd,source
+588,1929,0,0,35.39452387390732,47.718284903473034,cloudseed_peak_shave_contextual_recourse_polish

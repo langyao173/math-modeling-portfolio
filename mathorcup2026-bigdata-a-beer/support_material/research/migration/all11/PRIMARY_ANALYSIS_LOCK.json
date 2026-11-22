@@ -1,0 +1,49 @@
+{
+  "locked_at_utc": "2026-10-25T09:34:14.839805+00:00",
+  "amendment_scope": "Primary display budget specified while validation replay is running but before any validation outcomes were examined; original full six-budget frontier remains reported.",
+  "validation_outcomes_examined": false,
+  "validation_draws_currently_completed": 104,
+  "primary_budget": 60,
+  "primary_selection_metric": "Development joint frequency averaged over all11 sources with unavailable candidates assigned zero; ties lower conditional mean edits.",
+  "selected_strategy": "scenario32_margin025",
+  "development_summary": [
+    {
+      "strategy": "fixed_margin_1",
+      "coverage": 11,
+      "joint_all11": 0.6278409090909091,
+      "mean_edits": 38.18181818181818
+    },
+    {
+      "strategy": "fixed_margin_2",
+      "coverage": 10,
+      "joint_all11": 0.78125,
+      "mean_edits": 40.8
+    },
+    {
+      "strategy": "original_min_edit",
+      "coverage": 11,
+      "joint_all11": 0.13920454545454544,
+      "mean_edits": 22.272727272727273
+    },
+    {
+      "strategy": "scenario32_margin025",
+      "coverage": 10,
+      "joint_all11": 0.8125,
+      "mean_edits": 43.0
+    }
+  ],
+  "required_comparators": [
+    "original_min_edit",
+    "fixed_margin_1",
+    "fixed_margin_2",
+    "scenario32_margin025"
+  ],
+  "secondary_budgets": [
+    20,
+    30,
+    40,
+    100,
+    225
+  ],
+  "inference_unit": "One bootstrap model draw with all11 sources jointly evaluated; never2200 independent beers or events."
+}

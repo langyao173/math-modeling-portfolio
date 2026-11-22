@@ -1,0 +1,10 @@
+{
+  "repetitions": 2000,
+  "seed": 430410,
+  "cluster": "customer",
+  "paired_phases": true,
+  "confidence": "approximate centered max-standardized paired customer bootstrap",
+  "family": 12,
+  "critical_value": 2.7703800135326544,
+  "scope": "Conditional historical cohort reanalysis; no independent-validation claim."
+}

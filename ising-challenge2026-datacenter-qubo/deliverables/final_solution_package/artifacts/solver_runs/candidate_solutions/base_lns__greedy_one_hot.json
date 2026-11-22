@@ -1,0 +1,42 @@
+{
+  "family": "base_lns",
+  "oracle": "greedy_one_hot",
+  "status": "success",
+  "jobs": 588,
+  "selected_actions": 588,
+  "accepted_under_submission_guard": 0,
+  "true_action_cost_usd": 5554.463882999999,
+  "expected_recourse_cost_usd": 37.03626719926153,
+  "cvar95_recourse_cost_usd": 50.60065832256817,
+  "true_objective": 87.63692552182971,
+  "source_result": {
+    "passes": [
+      {
+        "energy_gain": 3.3038017494381506,
+        "improvements": 41,
+        "pass": 1
+      },
+      {
+        "energy_gain": 0.060507542637765255,
+        "improvements": 6,
+        "pass": 2
+      },
+      {
+        "energy_gain": 0.01722936774314121,
+        "improvements": 2,
+        "pass": 3
+      },
+      {
+        "energy_gain": 0.0024210320553947895,
+        "improvements": 2,
+        "pass": 4
+      },
+      {
+        "energy_gain": 0.0,
+        "improvements": 0,
+        "pass": 5
+      }
+    ],
+    "total_improvements": 51
+  }
+}

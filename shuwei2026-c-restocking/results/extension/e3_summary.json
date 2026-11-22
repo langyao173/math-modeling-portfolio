@@ -1,0 +1,36 @@
+{
+ "environment": "logistics_x_courier_station_0041",
+ "nominal_mapping": true,
+ "seeds": 300,
+ "RO-feat-static": {
+  "gap_full_test_pool": -0.05080189917717304,
+  "slope_per_unit_share": [
+   -0.13819007159492508,
+   -0.2493716459572325,
+   -0.027008497232617668
+  ],
+  "mean_share_of_env": 0.2269212962962963,
+  "gap_at_zero_share_by_regression": -0.019443628995574648,
+  "gap_test_pool_without_env": [
+   0.0008892337860362518,
+   -0.009227191750923713,
+   0.011005659322996216
+  ]
+ },
+ "RO-feat-learn": {
+  "gap_full_test_pool": -0.06106630855476362,
+  "slope_per_unit_share": [
+   -0.08494581653675834,
+   -0.19589275438575157,
+   0.026001121312234893
+  ],
+  "mean_share_of_env": 0.2269212962962963,
+  "gap_at_zero_share_by_regression": -0.04179029375129505,
+  "gap_test_pool_without_env": [
+   -0.012931163411259595,
+   -0.022982080885513834,
+   -0.0028802459370053553
+  ]
+ },
+ "FROZEN_level_without_env": 0.6990340002513754
+}

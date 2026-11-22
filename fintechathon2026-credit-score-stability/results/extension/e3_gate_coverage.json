@@ -1,0 +1,38 @@
+[
+  {
+    "phase": 0,
+    "cohort": "stable_05",
+    "transitions": 582,
+    "gated_share": 0.9896907216494846
+  },
+  {
+    "phase": 0,
+    "cohort": "repayment_state",
+    "transitions": 1063,
+    "gated_share": 0.38005644402634053
+  },
+  {
+    "phase": 0,
+    "cohort": "flow_structure",
+    "transitions": 403,
+    "gated_share": 0.6724565756823822
+  },
+  {
+    "phase": 1,
+    "cohort": "stable_05",
+    "transitions": 439,
+    "gated_share": 0.9977220956719818
+  },
+  {
+    "phase": 1,
+    "cohort": "repayment_state",
+    "transitions": 943,
+    "gated_share": 0.344644750795334
+  },
+  {
+    "phase": 1,
+    "cohort": "flow_structure",
+    "transitions": 284,
+    "gated_share": 0.6795774647887324
+  }
+]

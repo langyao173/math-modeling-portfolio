@@ -1,0 +1,2 @@
+﻿Comparison,MeanMAEImprovement,PairedBootstrap95Lower,PairedBootstrap95Upper,BootstrapRepeats,Conclusion
+题面模型MAE减去增量模型MAE,0.009955683335813561,-0.02155452745254119,0.043553960327791505,20000,区间包含0；增量模型的主要价值是机制更合理，不是已证明的稳定预测优势。

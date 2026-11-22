@@ -1,0 +1,304 @@
+{
+  "status": "PASS_TWO_ACTUAL_NATIVE_CONTINUOUS_2160H_RUNS",
+  "native_runs": 2,
+  "hours_per_case": 2160,
+  "source_sha256_before": [
+    {
+      "path": "config/v6_resilience.json",
+      "sha256": "db22d499a6bae17088739db306b381dc9d8921dd93864e9363faf967b3a349e5"
+    },
+    {
+      "path": "src/v6_resilience.py",
+      "sha256": "bc01b49769038eedb233a8f8373c35f05c27e3f3334095f4089daff162404e0a"
+    },
+    {
+      "path": "simulation/v6/v6_resilience_case.m",
+      "sha256": "12070bc1e22954928666320f0d83e16669b034c39efff88778acfb4c90717c30"
+    },
+    {
+      "path": "simulation/v6/v6_resilience_audit.m",
+      "sha256": "599a2b1e60a76d42e2383fa8dd2a0ad9ae92db89d4207c25ac96fff69a37887a"
+    },
+    {
+      "path": "simulation/v6/v6_session.m",
+      "sha256": "78ce286921b9ba7da712ef4e507d37fa2d2eda862862244a5db9226654f9ac77"
+    },
+    {
+      "path": "simulation/v6/v6_session_model.m",
+      "sha256": "2d43713f58d4a05d9121511e8f4c3d409334584a5b000dc05e30dba1c638df52"
+    },
+    {
+      "path": "simulation/v6/v6_session_observer.m",
+      "sha256": "eff59f935e44d4d199c3ed572e77de5656d5ce3bead5afc14c0bee3dd3bf2c85"
+    },
+    {
+      "path": "simulation/v6/v6_session_trace.m",
+      "sha256": "f0fba31b130f2c5dc4084d7c7e37f111cb91b239af0cec7f41c7243ed1feae8e"
+    },
+    {
+      "path": "simulation/v3/v3_hourly_mpc_step.m",
+      "sha256": "99edf6c8632e337c5bd32b7a4b809338f93d03366091134d9e121ce115dfceec"
+    },
+    {
+      "path": "simulation/v3/v3_hourly_audit.m",
+      "sha256": "3754dc4d38fd7cc296ed761248ba21637320504a5d9a8d808f8ece872a0534a1"
+    },
+    {
+      "path": "outputs/v6/resilience/native_inputs.json",
+      "sha256": "74515e840cd5b33220226fc340161ac4f69718ce181c99bf0a6079ddede3f054"
+    }
+  ],
+  "source_sha256_after": [
+    {
+      "path": "config/v6_resilience.json",
+      "sha256": "db22d499a6bae17088739db306b381dc9d8921dd93864e9363faf967b3a349e5"
+    },
+    {
+      "path": "src/v6_resilience.py",
+      "sha256": "bc01b49769038eedb233a8f8373c35f05c27e3f3334095f4089daff162404e0a"
+    },
+    {
+      "path": "simulation/v6/v6_resilience_case.m",
+      "sha256": "12070bc1e22954928666320f0d83e16669b034c39efff88778acfb4c90717c30"
+    },
+    {
+      "path": "simulation/v6/v6_resilience_audit.m",
+      "sha256": "599a2b1e60a76d42e2383fa8dd2a0ad9ae92db89d4207c25ac96fff69a37887a"
+    },
+    {
+      "path": "simulation/v6/v6_session.m",
+      "sha256": "78ce286921b9ba7da712ef4e507d37fa2d2eda862862244a5db9226654f9ac77"
+    },
+    {
+      "path": "simulation/v6/v6_session_model.m",
+      "sha256": "2d43713f58d4a05d9121511e8f4c3d409334584a5b000dc05e30dba1c638df52"
+    },
+    {
+      "path": "simulation/v6/v6_session_observer.m",
+      "sha256": "eff59f935e44d4d199c3ed572e77de5656d5ce3bead5afc14c0bee3dd3bf2c85"
+    },
+    {
+      "path": "simulation/v6/v6_session_trace.m",
+      "sha256": "f0fba31b130f2c5dc4084d7c7e37f111cb91b239af0cec7f41c7243ed1feae8e"
+    },
+    {
+      "path": "simulation/v3/v3_hourly_mpc_step.m",
+      "sha256": "99edf6c8632e337c5bd32b7a4b809338f93d03366091134d9e121ce115dfceec"
+    },
+    {
+      "path": "simulation/v3/v3_hourly_audit.m",
+      "sha256": "3754dc4d38fd7cc296ed761248ba21637320504a5d9a8d808f8ece872a0534a1"
+    },
+    {
+      "path": "outputs/v6/resilience/native_inputs.json",
+      "sha256": "74515e840cd5b33220226fc340161ac4f69718ce181c99bf0a6079ddede3f054"
+    }
+  ],
+  "records": {
+    "inherited": {
+      "status": "complete",
+      "hours": 2160,
+      "strategy": "native_coordinated_mpc",
+      "snapshot_key": "plan_02349_2060",
+      "supply_policy": "inherited",
+      "physical_audit": {
+        "all_finite": true,
+        "generation_bound_gw": 2.2737367544323206E-13,
+        "biomass_feedstock_budget_gwh": 0,
+        "coal_balance_mtce": 2.8033131371785203E-14,
+        "coal_bounds_mtce": 0,
+        "coal_export_error_mtce": 0,
+        "oil_balance_mtce": 7.0915495697931874E-15,
+        "oil_bounds_mtce": 0,
+        "oil_export_error_mtce": 0,
+        "gas_balance_mtce": 2.8407831642596193E-14,
+        "gas_bounds_mtce": 0,
+        "gas_export_error_mtce": 0,
+        "battery_state_gwh": 1.4210854715202004E-14,
+        "battery_bounds": 1.0302869668521453E-12,
+        "pumped_state_gwh": 5.6843418860808015E-14,
+        "pumped_bounds": 7.1054273576010019E-13,
+        "power_balance_gw": 9.8054897534893826E-13,
+        "debt_state_gwh": 1.1368683772161603E-13,
+        "debt_deadline_gwh": 2.2737367544323206E-13,
+        "flex_bounds": 4.5474735088646412E-13,
+        "slack_bounds": 2.4158453015843406E-13,
+        "coal_ramp_gw": 1.0231815394945443E-12,
+        "coal_ramp_memory_gw": 0,
+        "gas_ramp_gw": 7.3896444519050419E-13,
+        "gas_ramp_memory_gw": 0,
+        "served_power_export_gw": 0,
+        "tolerance": 1E-5,
+        "passed": true,
+        "interpretation": "Independent state/action reconstruction, not an empirical hourly validation claim."
+      },
+      "summary": {
+        "scenario": "plan_02349",
+        "year": 2060,
+        "shock": "two_event",
+        "strategy": "native_coordinated_mpc",
+        "hours": 2160,
+        "forecast_hours": 24,
+        "unserved_gwh": 56928.024021499594,
+        "peak_unserved_gw": 500.45603776892767,
+        "loss_of_load_hours": 224,
+        "shift_out_gwh": 160799.72353235574,
+        "shift_in_gwh": 160799.7235323558,
+        "terminal_shift_debt_gwh": 0,
+        "runtime_seconds": 28.3167493,
+        "coal_direct_unserved_mtce": 0,
+        "coal_initial_stock_mtce": 390.91068493150624,
+        "coal_terminal_stock_mtce": 16.389395880926546,
+        "coal_first_empty_hour": null,
+        "oil_direct_unserved_mtce": 0,
+        "oil_initial_stock_mtce": 151.70346796408808,
+        "oil_terminal_stock_mtce": 86.110692168948617,
+        "oil_first_empty_hour": null,
+        "gas_direct_unserved_mtce": 0,
+        "gas_initial_stock_mtce": 274.47012654064974,
+        "gas_terminal_stock_mtce": 239.75245274159684,
+        "gas_first_empty_hour": null,
+        "battery_initial_soc_gwh": 122.97342803441325,
+        "battery_terminal_soc_gwh": 0,
+        "pumped_initial_soc_gwh": 287.34572348613762,
+        "pumped_terminal_soc_gwh": -7.1054273576010019E-13,
+        "direct_fuel_unserved_mtce": 0,
+        "electricity_co2_mt": 1703.9281455633422,
+        "direct_fuel_co2_mt": 1204.7212350767979,
+        "total_co2_mt": 2908.6493806401404,
+        "fuel_consumption_and_nonfossil_cost_million_cny": 2.8288566739357514E+6,
+        "storage_cost_million_cny": 743.77577621905687,
+        "shift_cost_million_cny": 964.79834119413533,
+        "shortage_penalty_million_cny": 1.7078407206449879E+6,
+        "carbon_cost_million_cny": 1.9432752756485119E+6,
+        "total_objective_components_million_cny": 6.4816812443466643E+6,
+        "fuel_arrival_purchase_value_million_cny": 2.012739821843493E+6,
+        "net_fuel_inventory_draw_value_million_cny": 720886.45370288356,
+        "net_soc_draw_value_million_cny": 131.30212848657652,
+        "resource_accounted_cost_million_cny": 6.4818125464751506E+6,
+        "initial_fuel_inventory_value_million_cny": 1.7371297500956706E+6,
+        "terminal_fuel_inventory_value_million_cny": 1.016243296392787E+6,
+        "stock_holding_cost_million_cny": 21416.668151864433,
+        "resource_plus_holding_cost_million_cny": 6.5032292146270154E+6,
+        "stock_holding_assumption": "5 percent/year on committed initial fuel inventory value, prorated; declared capital charge, not observed tariff or optimized hourly cost.",
+        "valuation_scope": "Declared constant engineering values, not market price observations. Arrival purchases plus initial-minus-terminal fuel assets equal actual consumption; gas/coal values reproduce their per-GWh costs. SOC draw charged at common 0.32 million CNY/GWh.",
+        "information_contract": "COMMON_24H_PERFECT_FORECAST_ROLLING_FIRST_ACTION",
+        "evidence_class": "DESIGNED_HOURLY_DYNAMIC_EXPERIMENT",
+        "boundary": "Continuous state down-drill from an annual end-state, not an actual 90-day historical chronology or an annual stock replacement. All policies share the same perfect next-24-hour physical inputs, retain fuel/SOC/thermal/debt and do not reset at event boundaries. First 120 hours are warmup and reported separately. Contracts add bounded paid fuel; their benefits are resource additions, not algorithm gains. Finite designed cohort, not probabilistic reliability or target feasibility proof.",
+        "contract_purchase_value_million_cny": 0,
+        "contract_premium_million_cny": 0,
+        "resource_plus_holding_and_contract_premium_million_cny": 6.5032292146270154E+6
+      },
+      "trace_file": "outputs/v6/native/resilience_inherited.csv",
+      "trace_sha256": "96fc9493e698db967e32b13334532e44931a2772cfa0dc63eba015c73aa45163",
+      "raw_input_file": "outputs/v6/native/resilience_inputs_inherited.csv",
+      "raw_input_sha256": "76ae5dd14ba6ca27ffe49abdbfcc3da1770f32afa1551126a1b0cda4ef78d23c",
+      "contract_purchase_value_million_cny": 0,
+      "contract_premium_million_cny": 0
+    },
+    "contract": {
+      "status": "complete",
+      "hours": 2160,
+      "strategy": "native_coordinated_mpc",
+      "snapshot_key": "plan_02349_2060",
+      "supply_policy": "contract",
+      "physical_audit": {
+        "all_finite": true,
+        "generation_bound_gw": 2.2737367544323206E-13,
+        "biomass_feedstock_budget_gwh": 0,
+        "coal_balance_mtce": 2.8033131371785203E-14,
+        "coal_bounds_mtce": 0,
+        "coal_export_error_mtce": 0,
+        "oil_balance_mtce": 7.0915495697931874E-15,
+        "oil_bounds_mtce": 0,
+        "oil_export_error_mtce": 0,
+        "gas_balance_mtce": 2.8407831642596193E-14,
+        "gas_bounds_mtce": 0,
+        "gas_export_error_mtce": 0,
+        "battery_state_gwh": 1.4210854715202004E-14,
+        "battery_bounds": 1.0302869668521453E-12,
+        "pumped_state_gwh": 5.6843418860808015E-14,
+        "pumped_bounds": 7.1054273576010019E-13,
+        "power_balance_gw": 9.8054897534893826E-13,
+        "debt_state_gwh": 1.1368683772161603E-13,
+        "debt_deadline_gwh": 2.2737367544323206E-13,
+        "flex_bounds": 4.5474735088646412E-13,
+        "slack_bounds": 2.4158453015843406E-13,
+        "coal_ramp_gw": 1.0231815394945443E-12,
+        "coal_ramp_memory_gw": 0,
+        "gas_ramp_gw": 7.3896444519050419E-13,
+        "gas_ramp_memory_gw": 0,
+        "served_power_export_gw": 0,
+        "tolerance": 1E-5,
+        "passed": true,
+        "interpretation": "Independent state/action reconstruction, not an empirical hourly validation claim."
+      },
+      "summary": {
+        "scenario": "plan_02349",
+        "year": 2060,
+        "shock": "two_event",
+        "strategy": "native_coordinated_mpc",
+        "hours": 2160,
+        "forecast_hours": 24,
+        "unserved_gwh": 56928.024021499594,
+        "peak_unserved_gw": 500.45603776892767,
+        "loss_of_load_hours": 224,
+        "shift_out_gwh": 160799.72353235574,
+        "shift_in_gwh": 160799.7235323558,
+        "terminal_shift_debt_gwh": 0,
+        "runtime_seconds": 21.36779,
+        "coal_direct_unserved_mtce": 0,
+        "coal_initial_stock_mtce": 390.91068493150624,
+        "coal_terminal_stock_mtce": 70.830511722338215,
+        "coal_first_empty_hour": null,
+        "oil_direct_unserved_mtce": 0,
+        "oil_initial_stock_mtce": 151.70346796408808,
+        "oil_terminal_stock_mtce": 206.82009827171714,
+        "oil_first_empty_hour": null,
+        "gas_direct_unserved_mtce": 0,
+        "gas_initial_stock_mtce": 274.47012654064974,
+        "gas_terminal_stock_mtce": 270.73859202241636,
+        "gas_first_empty_hour": null,
+        "battery_initial_soc_gwh": 122.97342803441325,
+        "battery_terminal_soc_gwh": 0,
+        "pumped_initial_soc_gwh": 287.34572348613762,
+        "pumped_terminal_soc_gwh": -7.1054273576010019E-13,
+        "direct_fuel_unserved_mtce": 0,
+        "electricity_co2_mt": 1703.9281455633422,
+        "direct_fuel_co2_mt": 1204.7212350767979,
+        "total_co2_mt": 2908.6493806401404,
+        "fuel_consumption_and_nonfossil_cost_million_cny": 2.82885667393579E+6,
+        "storage_cost_million_cny": 743.77577621905687,
+        "shift_cost_million_cny": 964.79834119413533,
+        "shortage_penalty_million_cny": 1.7078407206449879E+6,
+        "carbon_cost_million_cny": 1.9432752756485119E+6,
+        "total_objective_components_million_cny": 6.4816812443467034E+6,
+        "fuel_arrival_purchase_value_million_cny": 2.5821352912424747E+6,
+        "net_fuel_inventory_draw_value_million_cny": 151490.98430394073,
+        "net_soc_draw_value_million_cny": 131.30212848657652,
+        "resource_accounted_cost_million_cny": 6.48181254647519E+6,
+        "initial_fuel_inventory_value_million_cny": 1.7371297500956706E+6,
+        "terminal_fuel_inventory_value_million_cny": 1.5856387657917298E+6,
+        "stock_holding_cost_million_cny": 21416.668151864433,
+        "resource_plus_holding_cost_million_cny": 6.5032292146270545E+6,
+        "stock_holding_assumption": "5 percent/year on committed initial fuel inventory value, prorated; declared capital charge, not observed tariff or optimized hourly cost.",
+        "valuation_scope": "Declared constant engineering values, not market price observations. Arrival purchases plus initial-minus-terminal fuel assets equal actual consumption; gas/coal values reproduce their per-GWh costs. SOC draw charged at common 0.32 million CNY/GWh.",
+        "information_contract": "COMMON_24H_PERFECT_FORECAST_ROLLING_FIRST_ACTION",
+        "evidence_class": "DESIGNED_HOURLY_DYNAMIC_EXPERIMENT",
+        "boundary": "Continuous state down-drill from an annual end-state, not an actual 90-day historical chronology or an annual stock replacement. All policies share the same perfect next-24-hour physical inputs, retain fuel/SOC/thermal/debt and do not reset at event boundaries. First 120 hours are warmup and reported separately. Contracts add bounded paid fuel; their benefits are resource additions, not algorithm gains. Finite designed cohort, not probabilistic reliability or target feasibility proof.",
+        "contract_purchase_value_million_cny": 854093.2040984754,
+        "contract_premium_million_cny": 284697.73469949182,
+        "resource_plus_holding_and_contract_premium_million_cny": 6.7879269493265459E+6
+      },
+      "trace_file": "outputs/v6/native/resilience_contract.csv",
+      "trace_sha256": "ec2aa432b305f8ba2b9c4787d20713bc8bf6a35a91ce5aedd97ea743eea20151",
+      "raw_input_file": "outputs/v6/native/resilience_inputs_contract.csv",
+      "raw_input_sha256": "ffdb85bad6de9446c718e05acc2c182dac0780463f75e63c935a1307079e1e9b",
+      "contract_purchase_value_million_cny": 854093.2040984754,
+      "contract_premium_million_cny": 284697.73469949182
+    }
+  },
+  "model_file": "outputs/v6/native/hourly_v6_session.slx",
+  "model_sha256": "83748bd83386d52a88c0eb11cd3bf136298ad1dceee768704ff4ccd32500e839",
+  "scope": "Actual MATLAB linprog and Simulink physical states. Common 24h perfect forecasts; one-way end-state stress experiment, not measured chronology or annual feedback."
+}

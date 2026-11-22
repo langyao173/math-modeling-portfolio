@@ -1,0 +1,27 @@
+{
+  "figure": 3,
+  "caption": "50属性共享索引的双表示及融合性能图谱。a三个同心轨道从内至外为Y16、Y50和分组融合的逐属性折外R²，色标固定为−0.05–0.8，三类属性按原顺序分区；完整数值见底表及补图S3。b展示原2000次啤酒整行配对抽样分布、冻结点估计和95%条件区间；抽样严格按原种子复演并与冻结区间一致，未增加模型拟合或新抽样方案。",
+  "figure_inches": [
+    6.7,
+    3.8
+  ],
+  "sources": [
+    {
+      "path": "plot_data/fig03_per_attribute_branches_fusion.csv",
+      "sha256": "e8243eaf56adf6cec32d173e93353fa543be5ddc1d19f2aeaa88d813456a7bfc"
+    },
+    {
+      "path": "plot_data/fig03_exact_historical_bootstrap_replay.csv",
+      "sha256": "cf6f443c23f2f8dcd99327b87350c772ec500b8a0a955bb3e544417dfb0f4235"
+    },
+    {
+      "path": "../research/prediction/fusion_replay_v1/all_prespecified_comparisons.csv",
+      "sha256": "4f08bf0473e28710bb1abf610af31435f1aa0b267e6048593ff149a1400fc16c"
+    }
+  ],
+  "new_model_fits": 0,
+  "new_bootstrap_resamples": 0,
+  "style": "shared_index_compositions_v4",
+  "attributes": 50,
+  "historical_bootstrap_replays": 2000
+}

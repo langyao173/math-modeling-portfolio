@@ -1,0 +1,13 @@
+\begin{ctab}{l|c|cccc|c}
+\toprule
+ & validation & \multicolumn{4}{c|}{60 emulated pools (training environments)} & test\\
+difference of $U$ & pool & mean & sd & 10--90\,\% range & gain in & pool\\
+\midrule
+priority index $-$ EDD & $+$0.132 & $+$0.100 & 0.103 & $-$0.038 to $+$0.230 & 77\,\% & $+$0.007\\
+look-ahead (final) $-$ EDD & $+$0.177 & $+$0.115 & 0.045 & $+$0.054 to $+$0.171 & 100\,\% & $+$0.052\\
+look-ahead (final) $-$ priority index & $+$0.045 & $+$0.014 & 0.083 & $-$0.103 to $+$0.118 & 62\,\% & $+$0.045\\
+prefix belief $-$ family belief & $+$0.032 & $+$0.058 & 0.076 & $-$0.022 to $+$0.184 & 77\,\% & $-$0.056\\
+learning $-$ no learning (family belief) & $+$0.003 & $+$0.081 & 0.045 & $+$0.032 to $+$0.131 & 98\,\% & $-$0.023\\
+averaged belief with learning $-$ family belief & $+$0.030 & $+$0.089 & 0.055 & $+$0.017 to $+$0.147 & 97\,\% & $-$0.026\\
+\bottomrule
+\end{ctab}

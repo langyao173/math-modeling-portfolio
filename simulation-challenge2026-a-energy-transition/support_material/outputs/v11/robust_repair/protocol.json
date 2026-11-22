@@ -1,0 +1,264 @@
+{
+  "status": "EXPLORATORY_REPAIR_ON_ALREADY_SEEN_48_DESIGNS",
+  "frozen_before_evaluation_utc": "2026-10-19T09:37:20.322770+00:00",
+  "development_design": "Original 48 V6 engineering designs, already seen; no fresh-validation claim",
+  "independent_design": {
+    "method": "scrambled Latin hypercube",
+    "seed": 20261019,
+    "count": 48,
+    "ranges": {
+      "gdp_growth_multiplier": [
+        0.8,
+        1.2
+      ],
+      "technology_cost_multiplier": [
+        0.75,
+        1.25
+      ],
+      "cost_decline_per_year": [
+        0.005,
+        0.04
+      ],
+      "carbon_price_drift_multiplier": [
+        0.5,
+        1.5
+      ],
+      "annual_budget_multiplier": [
+        0.75,
+        1.25
+      ],
+      "construction_delay_multiplier": [
+        1.0,
+        2.0
+      ],
+      "supply_multiplier": [
+        0.85,
+        1.05
+      ],
+      "import_multiplier": [
+        0.5,
+        1.1
+      ],
+      "consumer_response_multiplier": [
+        0.5,
+        1.5
+      ],
+      "investor_response_multiplier": [
+        0.5,
+        1.5
+      ]
+    },
+    "access_rule": "Generated before development, consumed only after the final vector is written and frozen; exactly one final-vector assessment, no subsequent tuning",
+    "sha256": "a6324324032847a96f72861d27c6a397216084ecc8d423bf7af89d6e0b569986"
+  },
+  "explicit_candidates": [
+    {
+      "label": "original_knee",
+      "controls": {
+        "budget_2025_2030": 1.7298512567507682,
+        "budget_2031_2040": 1.1988275759449023,
+        "budget_2041_2060": 2.4259998333064035,
+        "coal_priority": 0.807853541147624,
+        "gas_priority": 0.4084936696104824,
+        "firm_nonfossil_priority": 2.673349222147448,
+        "wind_solar_priority": 0.6949543075151781,
+        "storage_priority": 2.3444183895391304,
+        "fuel_supply_priority": 0.9586860508150612,
+        "carbon_price_annual_drift": 10.293106179403145
+      }
+    },
+    {
+      "label": "budget_ceiling",
+      "controls": {
+        "budget_2025_2030": 3.0,
+        "budget_2031_2040": 3.0,
+        "budget_2041_2060": 3.0,
+        "coal_priority": 0.807853541147624,
+        "gas_priority": 0.4084936696104824,
+        "firm_nonfossil_priority": 2.673349222147448,
+        "wind_solar_priority": 0.6949543075151781,
+        "storage_priority": 2.3444183895391304,
+        "fuel_supply_priority": 0.9586860508150612,
+        "carbon_price_annual_drift": 10.293106179403145
+      }
+    },
+    {
+      "label": "fuel_priority_ceiling",
+      "controls": {
+        "budget_2025_2030": 1.7298512567507682,
+        "budget_2031_2040": 1.1988275759449023,
+        "budget_2041_2060": 2.4259998333064035,
+        "coal_priority": 0.807853541147624,
+        "gas_priority": 0.4084936696104824,
+        "firm_nonfossil_priority": 2.673349222147448,
+        "wind_solar_priority": 0.6949543075151781,
+        "storage_priority": 2.3444183895391304,
+        "fuel_supply_priority": 2.0,
+        "carbon_price_annual_drift": 10.293106179403145
+      }
+    },
+    {
+      "label": "gas_generation_priority_floor",
+      "controls": {
+        "budget_2025_2030": 1.7298512567507682,
+        "budget_2031_2040": 1.1988275759449023,
+        "budget_2041_2060": 2.4259998333064035,
+        "coal_priority": 0.807853541147624,
+        "gas_priority": 0.1,
+        "firm_nonfossil_priority": 2.673349222147448,
+        "wind_solar_priority": 0.6949543075151781,
+        "storage_priority": 2.3444183895391304,
+        "fuel_supply_priority": 0.9586860508150612,
+        "carbon_price_annual_drift": 10.293106179403145
+      }
+    },
+    {
+      "label": "budget_fuel_and_gas",
+      "controls": {
+        "budget_2025_2030": 3.0,
+        "budget_2031_2040": 3.0,
+        "budget_2041_2060": 3.0,
+        "coal_priority": 0.807853541147624,
+        "gas_priority": 0.1,
+        "firm_nonfossil_priority": 2.673349222147448,
+        "wind_solar_priority": 0.6949543075151781,
+        "storage_priority": 2.3444183895391304,
+        "fuel_supply_priority": 2.0,
+        "carbon_price_annual_drift": 10.293106179403145
+      }
+    },
+    {
+      "label": "coal_substitution",
+      "controls": {
+        "budget_2025_2030": 3.0,
+        "budget_2031_2040": 3.0,
+        "budget_2041_2060": 3.0,
+        "coal_priority": 2.0,
+        "gas_priority": 0.1,
+        "firm_nonfossil_priority": 2.673349222147448,
+        "wind_solar_priority": 0.6949543075151781,
+        "storage_priority": 2.3444183895391304,
+        "fuel_supply_priority": 2.0,
+        "carbon_price_annual_drift": 10.293106179403145
+      }
+    },
+    {
+      "label": "firm_nonfossil_substitution",
+      "controls": {
+        "budget_2025_2030": 3.0,
+        "budget_2031_2040": 3.0,
+        "budget_2041_2060": 3.0,
+        "coal_priority": 0.807853541147624,
+        "gas_priority": 0.1,
+        "firm_nonfossil_priority": 4.0,
+        "wind_solar_priority": 0.6949543075151781,
+        "storage_priority": 2.3444183895391304,
+        "fuel_supply_priority": 2.0,
+        "carbon_price_annual_drift": 10.293106179403145
+      }
+    },
+    {
+      "label": "mixed_supply_generation",
+      "controls": {
+        "budget_2025_2030": 3.0,
+        "budget_2031_2040": 3.0,
+        "budget_2041_2060": 3.0,
+        "coal_priority": 1.5,
+        "gas_priority": 0.1,
+        "firm_nonfossil_priority": 4.0,
+        "wind_solar_priority": 2.0,
+        "storage_priority": 2.0,
+        "fuel_supply_priority": 2.0,
+        "carbon_price_annual_drift": 3.0
+      }
+    }
+  ],
+  "search": {
+    "condition": "Run only if none of the eight explicit candidates satisfies all 48 designs at 1%",
+    "method": "one differential_evolution minimax search",
+    "seed": 202610190,
+    "indices": [
+      0,
+      1,
+      2,
+      8,
+      4
+    ],
+    "names": [
+      "budget_2025_2030",
+      "budget_2031_2040",
+      "budget_2041_2060",
+      "fuel_supply_priority",
+      "gas_priority"
+    ],
+    "bounds": [
+      [
+        0.75,
+        3.0
+      ],
+      [
+        0.75,
+        3.0
+      ],
+      [
+        0.75,
+        3.0
+      ],
+      [
+        0.5,
+        2.0
+      ],
+      [
+        0.1,
+        2.0
+      ]
+    ],
+    "fixed_other_controls": [
+      1.7298512567507682,
+      1.1988275759449023,
+      2.4259998333064035,
+      0.807853541147624,
+      0.4084936696104824,
+      2.673349222147448,
+      0.6949543075151781,
+      2.3444183895391304,
+      0.9586860508150612,
+      10.293106179403145
+    ],
+    "popsize": 4,
+    "maxiter": 5,
+    "polish": false,
+    "tol": 0.0,
+    "atol": 0.0,
+    "max_requests": 120,
+    "max_all_requests": 128,
+    "workers": 1,
+    "updating": "immediate"
+  },
+  "selection": "Minimize maximum shortfall across 48 designs, all 2030-2060 years and electricity/direct coal/oil/gas/useful service. Among candidates feasible at <=1%, minimize actual nominal 2060 net CO2 then actual nominal discounted capital; otherwise minimize worst shortfall then those nominal quantities.",
+  "physical_contract": "Original ten-dimensional control bounds, resources, initial construction queue, construction/retirement, yearly build caps, price and fuel rules stay fixed. Environmental factors follow V6 mapping. No free supply, faster construction or relaxed reliability gate.",
+  "claim": "Independent engineering design evaluation is not an empirical holdout or a probability estimate. A minimax improvement above 1% is not robust feasibility.",
+  "source_input_hashes": {
+    "src/v11_robust_repair.py": "e253d470f1469eacc26c82942150316b97bdcc295c7e463ee2fec0f7607eceff",
+    "tests/test_v11_robust_repair.py": "9ba94ddb24220e5b09089b1adc729806b8cf64208edefd04f06ca6f8611092f7",
+    "src/v11_robust_plans.py": "69455aaafd6a77ec97e66201c073172a3160ab21c782b4e0b1418314a4e0cc5e",
+    "src/v6_annual.py": "c48c5b15a65470fcb6ff1ded73f43cf2e4e3155b76a1709a5525ed75a71f81d8",
+    "src/v5_planning.py": "85053aa435d611b67afcc221109e078e2d1b008ab0aedf87bb67cfb95ea3152e",
+    "src/v3_annual.py": "61aaa876bafe81186aac72d7aeb8289b4924b7155a1de1fdc6ca7ba5ba1e737b",
+    "src/v3_annual_calibrated.py": "aa01ebc38ee260e68632809ba33023ed6e249fb0684c9fcd56254dd0ca18495f",
+    "src/v3_calibration_candidate.py": "468f6ea5d7efad0b15852b6ebcd7c96c584b22d4cc7adc804e9f22191ec01efb",
+    "config/v3_transition.json": "a2019b12bdd9c5ca34a4af3ad36f742ac472b35ab152adea83ba1a3d3baf4b2f",
+    "config/v6_annual_planning.json": "b7e50d1eab9257dc13dce446594c7f3ae10d27a39303ebb485034db9f3a6a007",
+    "config/v6_annual_experiments.json": "05a0ab0b19225a34b197dc18d9852ab48f77c46c70a84773cef4786bc6454a89",
+    "data/annual_china.csv": "2d87c3089eb99de84f38354ff9086d30134dcf1481715fec575a228ba2c09c6f",
+    "data/ember_power_china.csv": "72ee74b02a7b5d670ead72c37b0b790a5982aaca059111c78877e21939cb5012",
+    "data/energy_production_china.csv": "b56ad05e90a5b94a243d2a4faff97081a8917d1ab854f201f7ab10b02a811527",
+    "data/fuel_supply_trade.csv": "1ffe9642679b61603f4caf310b6ca15e5f912e1530d48f27a4b4a759a8ea7ffd",
+    "data/supplement_carriers_2024.csv": "3364e05f29a52437b6fd89d4dddcf7a268942a82a5974cc627b4593f6c3deea0",
+    "data/v6_fuel_import_channels.csv": "36c170edaaa3e4f6f915973760fe2fb2fedbeb54bda18e118c1283e177eb084c",
+    "outputs/v6/planning/selected_cases.csv": "a3a5e658928ad6ca27137e086f3e8cca5f3f095f92931d24406d59d860e86759",
+    "outputs/v6/annual/joint_design.csv": "97a87c2b2b7f1e7fee763bf53e830bb5f49c751edf7a48edc1d59898b795111f",
+    "outputs/v11/robust_plans/analysis.json": "10b472faffb3e3a7166a5ff923604846a6164b11230a3bda413151c5bd7ef13d",
+    "outputs/v11/robust_plans/plan_design_metrics.csv": "20208ad0e188337e3e8f48fa9ff79d5e4bf2f18b4019385d1c2fb7835f359130"
+  }
+}

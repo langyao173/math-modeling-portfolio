@@ -1,0 +1,159 @@
+{
+  "shots_a": 256,
+  "shots_b": 1024,
+  "seed": 7,
+  "rows": [
+    {
+      "variant": "v13_plus_tracka_templates_only",
+      "track_a_score": 0.87158203125,
+      "track_b_score": 0.60791015625,
+      "final_score": 0.8056640625,
+      "invalid_count": 0,
+      "mean_depth": 14.7,
+      "mean_two_qubit_gate_count": 12.8,
+      "mean_estimated_log_reliability": -0.25048335416826717,
+      "mean_compile_time_sec": 4.428831079998053
+    }
+  ],
+  "summaries": {
+    "v13_plus_tracka_templates_only": {
+      "compiler_name": "submission",
+      "split": "public",
+      "track_a_score": 0.87158203125,
+      "track_b_score": 0.60791015625,
+      "final_score": 0.8056640625,
+      "sample_results": [
+        {
+          "benchmark_name": "track_a_001",
+          "track": "track_a",
+          "success_rate": 0.94140625,
+          "valid": true,
+          "shots": 256,
+          "correct_shots": 241,
+          "depth": 7,
+          "two_qubit_gate_count": 2,
+          "estimated_log_reliability": -0.07841986962150414,
+          "compile_time_sec": 3.4307521000155248,
+          "validation_errors": []
+        },
+        {
+          "benchmark_name": "track_a_002",
+          "track": "track_a",
+          "success_rate": 0.87109375,
+          "valid": true,
+          "shots": 256,
+          "correct_shots": 223,
+          "depth": 8,
+          "two_qubit_gate_count": 8,
+          "estimated_log_reliability": -0.15042961556101045,
+          "compile_time_sec": 2.5589903999934904,
+          "validation_errors": []
+        },
+        {
+          "benchmark_name": "track_a_003",
+          "track": "track_a",
+          "success_rate": 0.921875,
+          "valid": true,
+          "shots": 256,
+          "correct_shots": 236,
+          "depth": 14,
+          "two_qubit_gate_count": 7,
+          "estimated_log_reliability": -0.11763799634904501,
+          "compile_time_sec": 4.022185200010426,
+          "validation_errors": []
+        },
+        {
+          "benchmark_name": "track_a_004",
+          "track": "track_a",
+          "success_rate": 0.90234375,
+          "valid": true,
+          "shots": 256,
+          "correct_shots": 231,
+          "depth": 16,
+          "two_qubit_gate_count": 9,
+          "estimated_log_reliability": -0.13081510511332367,
+          "compile_time_sec": 3.387017900007777,
+          "validation_errors": []
+        },
+        {
+          "benchmark_name": "track_a_005",
+          "track": "track_a",
+          "success_rate": 0.91015625,
+          "valid": true,
+          "shots": 256,
+          "correct_shots": 233,
+          "depth": 15,
+          "two_qubit_gate_count": 9,
+          "estimated_log_reliability": -0.12646101213877525,
+          "compile_time_sec": 4.265134899993427,
+          "validation_errors": []
+        },
+        {
+          "benchmark_name": "track_a_006",
+          "track": "track_a",
+          "success_rate": 0.921875,
+          "valid": true,
+          "shots": 256,
+          "correct_shots": 236,
+          "depth": 15,
+          "two_qubit_gate_count": 7,
+          "estimated_log_reliability": -0.11963899701621208,
+          "compile_time_sec": 5.347539499984123,
+          "validation_errors": []
+        },
+        {
+          "benchmark_name": "track_a_007",
+          "track": "track_a",
+          "success_rate": 0.74609375,
+          "valid": true,
+          "shots": 256,
+          "correct_shots": 191,
+          "depth": 25,
+          "two_qubit_gate_count": 18,
+          "estimated_log_reliability": -0.27710686331225304,
+          "compile_time_sec": 5.467771800002083,
+          "validation_errors": []
+        },
+        {
+          "benchmark_name": "track_a_008",
+          "track": "track_a",
+          "success_rate": 0.7578125,
+          "valid": true,
+          "shots": 256,
+          "correct_shots": 194,
+          "depth": 32,
+          "two_qubit_gate_count": 25,
+          "estimated_log_reliability": -0.3610341316567282,
+          "compile_time_sec": 4.670071700005792,
+          "validation_errors": []
+        },
+        {
+          "benchmark_name": "track_b_001",
+          "track": "track_b",
+          "success_rate": 0.650390625,
+          "valid": true,
+          "shots": 1024,
+          "correct_shots": 666,
+          "depth": 9,
+          "two_qubit_gate_count": 25,
+          "estimated_log_reliability": -0.5251238029904381,
+          "compile_time_sec": 2.41691329999594,
+          "validation_errors": []
+        },
+        {
+          "benchmark_name": "track_b_002",
+          "track": "track_b",
+          "success_rate": 0.5654296875,
+          "valid": true,
+          "shots": 1024,
+          "correct_shots": 579,
+          "depth": 6,
+          "two_qubit_gate_count": 18,
+          "estimated_log_reliability": -0.6181661479233818,
+          "compile_time_sec": 8.721933999971952,
+          "validation_errors": []
+        }
+      ]
+    }
+  }
+}

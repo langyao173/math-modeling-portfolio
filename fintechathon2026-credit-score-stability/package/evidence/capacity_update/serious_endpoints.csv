@@ -1,0 +1,7 @@
+horizon,method,known,observed_event_windows,event_customers,slots,selected_observed_events,selected_event_customers
+6,base_reference,4417,5,3,559,2,1
+6,old_bound,4417,5,3,559,2,1
+6,guard10,4417,5,3,559,2,1
+12,base_reference,3138,16,9,559,3,2
+12,old_bound,3138,16,9,559,3,2
+12,guard10,3138,16,9,559,3,2

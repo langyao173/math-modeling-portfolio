@@ -1,0 +1,10 @@
+{
+  "beta_min_sample": 0.20338153496139652,
+  "beta_max_sample": 0.23984633603880906,
+  "gamma_min_sample": 4.214143984346898,
+  "gamma_max_sample": 4.499997360540108,
+  "outside_domain_count": 0,
+  "distribution_type": "conditional_truncated_normal",
+  "truncation_is_asymmetric": true,
+  "domain_clip": false
+}

@@ -1,0 +1,6 @@
+{
+ "check": "FROZEN replayed with `p3_run.py custom` on the 30 public validation seeds (alone in its batch) vs the submitted results/p3_trials_validation.csv (run in a batch with ten other policies)",
+ "trials": 450,
+ "numeric_columns": 18,
+ "max_abs_diff": 0.0
+}

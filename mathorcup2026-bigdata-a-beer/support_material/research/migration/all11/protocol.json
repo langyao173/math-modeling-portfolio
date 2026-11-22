@@ -1,0 +1,58 @@
+{
+  "rho": 0.1,
+  "beers": [
+    28,
+    81,
+    90,
+    96,
+    119,
+    124,
+    139,
+    185,
+    209,
+    218,
+    230
+  ],
+  "policy": "strict",
+  "development_replicates": 32,
+  "development_draws": "first32 pre-existing 2026102407 style-stratified bootstrap draws, used only for development",
+  "validation_seed": 202610250731,
+  "validation_replicates": 200,
+  "budgets": [
+    20,
+    30,
+    40,
+    60,
+    100,
+    225
+  ],
+  "methods": [
+    [
+      "fixed_margin_1",
+      1.0,
+      false
+    ],
+    [
+      "fixed_margin_2",
+      2.0,
+      false
+    ],
+    [
+      "scenario32_margin025",
+      0.25,
+      true
+    ]
+  ],
+  "lambdas": [
+    0.01,
+    0.03,
+    0.1,
+    0.3,
+    1.0,
+    3.0,
+    10.0
+  ],
+  "reweight_steps": 3,
+  "weights": "frozen original six-model weights; each replicate refits preprocessing and all50 targets",
+  "inference": "Conditional empirical model-refit stability; not independent new beer validation or physical success probability."
+}

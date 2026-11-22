@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.venv/
+*.egg-info/
+.ipynb_checkpoints/
+# downloaded third-party data (fetched by scripts)
+meituan2026-coupon-uplift/data/
+ising-challenge2026-datacenter-qubo/data/
+qpool-quantum-ridepooling/data/full_example/
+qpool-quantum-ridepooling/data/private_example/
+apmcm2024-c-pet-industry/data/

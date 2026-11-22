@@ -1,0 +1,13 @@
+year,fuel_class,production_10000tonnes,imports_10000tonnes,exports_10000tonnes,stock_change_10000tonnes,consumption_10000tonnes,source_id
+2005,coal_balance,236515,2622,7173,3545,243375,nbs_yearbook_2025_9_5
+2010,coal_balance,342845,18307,1911,-3663,349008,nbs_yearbook_2025_9_5
+2015,coal_balance,374654,20406,534,2547,399834,nbs_yearbook_2025_9_5
+2020,coal_balance,378826,30361,319,-2860,400299,nbs_yearbook_2025_9_5
+2022,coal_balance,440419,29370,401,-7947,444956,nbs_yearbook_2025_9_5
+2023,coal_balance,454124,47481,447,-10512,470755,nbs_yearbook_2025_9_5
+2005,petroleum_balance,18135,17163,2888,129,32547,nbs_yearbook_2025_9_4
+2010,petroleum_balance,20301,29437,4079,-1481,44101,nbs_yearbook_2025_9_4
+2015,petroleum_balance,21456,39749,5128,-388,55960,nbs_yearbook_2025_9_4
+2020,petroleum_balance,19477,61272,7551,-5644,65369,nbs_yearbook_2025_9_4
+2022,petroleum_balance,20472,58701,6704,-1659,69321,nbs_yearbook_2025_9_4
+2023,petroleum_balance,20903,66812,7563,-3124,75137,nbs_yearbook_2025_9_4

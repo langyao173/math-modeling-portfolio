@@ -1,0 +1,2 @@
+prediction_year,data_cutoff,qualified_teams,matches_played,attendance_strategy,forecast_attendance,predicted_total_goals,actual_total_goals,signed_error,absolute_error,empirical_loocv_interval_90_lower,empirical_loocv_interval_90_upper,model_hash,model_artifact,audit_timestamp_utc
+2018,2014,32,64,pre_2018_log_linear_forecast,3828410.2950456175,152.5528110016475,169.0,-16.447188998352487,16.447188998352487,116.07971589473127,189.02590610856376,658c9d2e1ee080e40a3200aaad8e35f20799f1a6d7f7ab59d4e351b479d291bf,models/problem1_aggregate_ols.json,2026-07-17T16:00:00+00:00

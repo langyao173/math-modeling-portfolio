@@ -1,0 +1,17 @@
+{
+  "customers": 2907,
+  "scoreable": 2866,
+  "queue": 268,
+  "history_records_observed": 17441,
+  "routes": {
+    "名单复核": 268,
+    "差异核对": 6,
+    "持续观察": 2592,
+    "逾期核对": 40,
+    "账务补齐": 1
+  },
+  "score_identity": "q and Q=100(1-q)",
+  "contains_future_outcomes": false,
+  "primary_batch_customers": 2677,
+  "primary_quota": 268
+}

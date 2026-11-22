@@ -1,0 +1,9 @@
+主图与补图
+
+fig01–fig12.pdf对应正文12张最终矢量图。supplement_S3/S6/S7/S8/S9/S12为正文引用的完整属性、候选与预算证据。
+
+复现
+在本目录安装requirements.txt中的Python包，并安装Inkscape命令行程序。保持绘图与research、raw_score_research目录的相对位置，运行：
+python scripts/rebuild_all.py
+
+程序读取已保存的观测与结果，不训练模型，不增加重采样；输出PDF、SVG和450dpi PNG。图1为机制示意，图4半径采用明确标注的非零基线，各指标只在自身量程内比较。字体来源与许可见research/project/MathorCup_A/assets/fonts/LICENSE.txt。
